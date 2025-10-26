@@ -1,0 +1,158 @@
+{
+  "items": [
+    {
+      "number": "冠詞（不定）",
+      "word": "a",
+      "ipa": "/ə/ (重讀 /eɪ/)",
+      "graphemes": ["a"],
+      "phonemes": ["/ə/"],
+      "phonics": ["/ə/"],
+      "tags": ["open", "irregular"],
+      "hearts": [true],
+      "hint": "多數情況非重讀唸 /ə/；重讀或置於強調時可唸 /eɪ/。"
+    },
+    {
+      "number": "冠詞（不定；母音前）",
+      "word": "an",
+      "ipa": "/ən/",
+      "graphemes": ["a", "n"],
+      "phonemes": ["/ə", "n/"],
+      "phonics": ["/ə", "n/"],
+      "tags": ["irregular"],
+      "hearts": [true, false],
+      "hint": "母音開頭字前用 an；a 多為非重讀 /ə/。"
+    },
+    {
+      "number": "連接詞（並列）",
+      "word": "and",
+      "ipa": "/ænd/",
+      "graphemes": ["a", "n", "d"],
+      "phonemes": ["/æ", "n", "d/"],
+      "phonics": ["/ă", "n", "d/"],
+      "tags": ["closed", "cluster"],
+      "hearts": [false, false, false],
+      "hint": "短母音 /æ/；口語常弱化為 /ən(d)/。"
+    },
+    {
+      "number": "動詞（be 動詞）",
+      "word": "be",
+      "ipa": "/biː/",
+      "graphemes": ["b", "e"],
+      "phonemes": ["/b", "iː/"],
+      "phonics": ["/b", "ē/"],
+      "tags": ["open"],
+      "hearts": [false, false],
+      "hint": "字母 e 發長母音 /iː/。"
+    },
+    {
+      "number": "介系詞",
+      "word": "for",
+      "ipa": "/fɔr/ (~/fɔːr/)",
+      "graphemes": ["f", "or"],
+      "phonemes": ["/f", "ɔr/"],
+      "phonics": ["/f", "or/"],
+      "tags": ["rcontrolled"],
+      "hearts": [false, false],
+      "hint": "or 為 r 控制母音。美式常接近 /fɔr/。"
+    },
+    {
+      "number": "動詞",
+      "word": "have",
+      "ipa": "/hæv/",
+      "graphemes": ["h", "a", "v", "e"],
+      "phonemes": ["/h", "æ", "v", "-/"],
+      "phonics": ["/h", "ă", "v", "-/"],
+      "tags": ["closed", "magic_e"],
+      "hearts": [false, false, false, true],
+      "hint": "字尾靜音 e（不發音），a 為短母音 /æ/。"
+    },
+    {
+      "number": "我",
+      "word": "I",
+      "ipa": "/aɪ/",
+      "graphemes": ["I"],
+      "phonemes": ["/aɪ/"],
+      "phonics": ["/ī/"],
+      "tags": ["open"],
+      "hearts": [false],
+      "hint": "第一人稱單數代名詞；字母名音 /aɪ/。"
+    },
+    {
+      "number": "介系詞",
+      "word": "in",
+      "ipa": "/ɪn/",
+      "graphemes": ["i", "n"],
+      "phonemes": ["/ɪ", "n/"],
+      "phonics": ["/ĭ", "n/"],
+      "tags": ["closed"],
+      "hearts": [false, false],
+      "hint": "短母音 /ɪ/。"
+    },
+    {
+      "number": "它；牠；這件事",
+      "word": "it",
+      "ipa": "/ɪt/",
+      "graphemes": ["i", "t"],
+      "phonemes": ["/ɪ", "t/"],
+      "phonics": ["/ĭ", "t/"],
+      "tags": ["closed"],
+      "hearts": [false, false],
+      "hint": "短母音 /ɪ/；常指事物或情況。"
+    },
+    {
+      "number": "介系詞",
+      "word": "of",
+      "ipa": "/ʌv/ (~/əv/)",
+      "graphemes": ["o", "f"],
+      "phonemes": ["/ʌ", "v/"],
+      "phonics": ["/ŭ", "v/"],
+      "tags": ["irregular"],
+      "hearts": [true, true],
+      "hint": "o 唸 /ʌ/ 或弱化 /ə/；f 唸 /v/。"
+    },
+    {
+      "number": "那個；那；從屬連詞",
+      "word": "that",
+      "ipa": "/ðæt/",
+      "graphemes": ["th", "a", "t"],
+      "phonemes": ["/ð", "æ", "t/"],
+      "phonics": ["/th", "ă", "t/"],
+      "tags": ["digraph", "closed"],
+      "hearts": [true, false, false],
+      "hint": "th 為有聲 /ð/；亦可作指示詞（那個）。"
+    },
+    {
+      "number": "定冠詞",
+      "word": "the",
+      "ipa": "/ðə/ (母音前常 /ði/)",
+      "graphemes": ["th", "e"],
+      "phonemes": ["/ð", "ə/"],
+      "phonics": ["/th", "ə/"],
+      "tags": ["digraph", "irregular"],
+      "hearts": [true, false],
+      "hint": "常唸 /ðə/；在母音起首字前多唸 /ði/。"
+    },
+    {
+      "number": "到；向；不定詞標記",
+      "word": "to",
+      "ipa": "/tuː/ (弱化 /tə/)",
+      "graphemes": ["t", "o"],
+      "phonemes": ["/t", "uː/"],
+      "phonics": ["/t", "oo/"],
+      "tags": ["open", "irregular"],
+      "hearts": [false, false],
+      "hint": "口語常弱化 /tə/；搭配動詞作不定詞標記。"
+    },
+    {
+      "number": "你；你們",
+      "word": "you",
+      "ipa": "/juː/",
+      "graphemes": ["y", "ou"],
+      "phonemes": ["/j", "uː/"],
+      "phonics": ["/y", "oo/"],
+      "tags": ["vowel_team"],
+      "hearts": [false, true],
+      "hint": "y = /j/；ou 在此為長 u /uː/。"
+    }
+  ]
+}
