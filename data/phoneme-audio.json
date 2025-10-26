@@ -40,10 +40,10 @@
     "ɪ": "audio/phonemes/i_short.mp3",
     "ɛ": "audio/phonemes/e_short.mp3",
     "æ": "audio/phonemes/a_short.mp3",
-    "ʌ": "audio/phonemes/uh.mp3",
+    "ʌ": "audio/phonemes/u_short.mp3",
     "ɑ": "audio/phonemes/o_short.mp3",
     "ɔ": "audio/phonemes/aw.mp3",
-    "ʊ": "audio/phonemes/u_short.mp3",
+    "ʊ": "audio/phonemes/oo.mp3",
     "u": "audio/phonemes/u_long.mp3",
 
     "ə": "audio/phonemes/schwa.mp3",
@@ -53,7 +53,7 @@
     "ɔɪ": "audio/phonemes/oi.mp3",
     "aʊ": "audio/phonemes/ow.mp3",
     "oʊ": "audio/phonemes/o_long.mp3",
-        "oo": "audio/phonemes/u_short.mp3",
+        "oo": "audio/phonemes/oo.mp3",
 
     "ē": "audio/phonemes/e_long.mp3",
     "ī": "audio/phonemes/i_long.mp3",
