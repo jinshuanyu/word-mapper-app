@@ -24,7 +24,9 @@
     "r": "audio/phonemes/c22.mp3",
     "w": "audio/phonemes/c23.mp3",
     "j": "audio/phonemes/c24.mp3",
-
+    "ks": "audio/phonemes/ks.mp3",
+    "wʌ": "audio/phonemes/wu.mp3",
+    "wŭ": "audio/phonemes/wu.mp3",
 
     "sh": "audio/phonemes/c13.mp3",
     "zh": "audio/phonemes/c14.mp3",
