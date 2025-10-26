@@ -1,0 +1,19 @@
+{
+  "topics": [
+    {
+      "slug": "numbers_1_20",
+      "title": "數字 Numbers",
+      "levels": [
+        { "label": "1–10",  "src": "data/numbers-1.json" },
+        { "label": "11–20", "src": "data/numbers-2.json" }
+      ]
+    },
+    {
+      "slug": "family_friends",
+      "title": "親友 Family & Friends",
+      "levels": [
+        { "label": "–1", "src": "data/family-friends-1.json" }
+      ]
+    }
+  ]
+}

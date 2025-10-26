@@ -1,0 +1,114 @@
+{
+  "items": [
+    {
+      "number": 1,
+      "word": "one",
+      "ipa": "/wʌn/",
+      "graphemes": ["o","n","e"],
+      "phonemes": ["/w ʌ","n","-/"],
+      "phonics":  ["/wŭ","n","-/"],
+      "tags": ["irregular"],
+      "hearts": [true,false,true],
+      "hint": "o 發 /wʌ/ (w + 短母音 u); e 不發音。"
+    },
+    {
+      "number": 2,
+      "word": "two",
+      "ipa": "/tu/",
+      "graphemes": ["t","w","o"],
+      "phonemes": ["/t","-","u/"],
+      "phonics":  ["/t","-","ū/"],
+      "tags": ["irregular"],
+      "hearts": [false,true,true],
+      "hint": "w 不發音；o 發長母音 u /u/。"
+    },
+    {
+      "number": 3,
+      "word": "three",
+      "ipa": "/θri/",
+      "graphemes": ["th","r","ee"],
+      "phonemes": ["/θ","r","i/"],
+      "phonics":  ["/th","r","ē/"],
+      "tags": ["digraph","cluster","vowel_team"],
+      "hearts": [false,false,false],
+      "hint": "th 發無聲吐舌音 /θ/；ee 發長母音 e /i/。"
+    },
+    {
+      "number": 4,
+      "word": "four",
+      "ipa": "/fɔr/",
+      "graphemes": ["f","our"],
+      "phonemes": ["/f","ɔr/"],
+      "phonics":  ["/f","or/"],
+      "tags": ["rcontrolled","irregular"],
+      "hearts": [false,true],
+      "hint": "ou 發 /ɔ/（❤）。"
+    },
+    {
+      "number": 5,
+      "word": "five",
+      "ipa": "/faɪv/",
+      "graphemes": ["f","i","v","e"],
+      "phonemes": ["/f","aɪ","v","-/"],
+      "phonics":  ["/f","ī","v","-/"],
+      "tags": ["magic_e"],
+      "hearts": [false,false,false,false],
+      "hint": "靜音 e：字尾 e 不發音，i 發長母音 /aɪ/。"
+    },
+    {
+      "number": 6,
+      "word": "six",
+      "ipa": "/sɪks/",
+      "graphemes": ["s","i","x"],
+      "phonemes": ["/s","ɪ","ks/"],
+      "phonics":  ["/s","ĭ","ks/"],
+      "tags": ["closed"],
+      "hearts": [false,false,false],
+      "hint": "標準閉音節-短母音；x = /k/+ /s/。"
+    },
+    {
+      "number": 7,
+      "word": "seven",
+      "ipa": "/ˈsɛv.ən/",
+      "graphemes": ["s","e","v","e","n"],
+      "phonemes": ["/'s","ɛ","v","ə","n/"],
+      "phonics":  ["/'s","ĕ","v","ə","n/"],
+      "tags": ["closed"],
+      "hearts": [false,false,false,false,false],
+      "hint": "第一個 e 發短母音 e /ɛ/；第二音節 e 發弱化 /ə/。"
+    },
+    {
+      "number": 8,
+      "word": "eight",
+      "ipa": "/eɪt/",
+      "graphemes": ["eigh","t"],
+      "phonemes": ["/eɪ","t/"],
+      "phonics":  ["/ā","t/"],
+      "tags": ["vowel_team"],
+      "hearts": [true,false],
+      "hint": "eigh 發 /eɪ/，如長母音 a（❤）。"
+    },
+    {
+      "number": 9,
+      "word": "nine",
+      "ipa": "/naɪn/",
+      "graphemes": ["n","i","n","e"],
+      "phonemes": ["/n","aɪ","n","-/"],
+      "phonics":  ["/n","ī","n","-/"],
+      "tags": ["magic_e"],
+      "hearts": [false,false,false,false],
+      "hint": "靜音 e：字尾 e 不發音，i 發長母音 /aɪ/。"
+    },
+    {
+      "number": 10,
+      "word": "ten",
+      "ipa": "/tɛn/",
+      "graphemes": ["t","e","n"],
+      "phonemes": ["/t","ɛ","n/"],
+      "phonics":  ["/t","ĕ","n/"],
+      "tags": ["closed"],
+      "hearts": [false,false,false],
+      "hint": "閉音節短母音。"
+    }
+  ]
+}
