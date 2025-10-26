@@ -1,6 +1,17 @@
 {
   "topics": [
     {
+  "slug": "first-words",
+  "title": "入門高頻詞 First Words",
+  "levels": [
+    {
+      "label": "-1",
+      "src": "data/first-words-1.json"
+    }
+  ]
+},
+
+    {
       "slug": "numbers_1_20",
       "title": "數字 Numbers",
       "levels": [
@@ -17,3 +28,4 @@
     }
   ]
 }
+
