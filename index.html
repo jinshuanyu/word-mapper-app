@@ -1,257 +1,529 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>英文拼字 × 聲音對照</title>
-
-  <!-- 字體 & Icons（可留可去） -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, user-scalable=no"/>
+  <title>英文拼字 × 聲音對照（資料驅動）</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Noto+Sans+TC:wght@400;700;800&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <style>
-    :root {
-      --bg: #f6f7fb;
-      --card: #ffffff;
-      --muted: #6b7a90;
-      --text: #1b2430;
-      --line: #e3e8f2;
-      --accent: #111827;
-      --ok: #16a34a;
-      --err: #dc2626;
-      --btn: #eef2f7;
-      --btn-border: #d5dbe7;
-      --btn-hover: #e1e7f2;
+    :root{
+      --c-primary:#7c3aed; --c-secondary:#10b981;
+      --c-text:#1f2937; --c-bg:#f8fafc; --c-border:#e2e8f0;
     }
-    * { box-sizing: border-box; }
-    body {
-      background: var(--bg);
-      color: var(--text);
-      font-family: 'Noto Sans TC', 'Helvetica Neue', Arial, sans-serif;
-      margin: 0; padding: 24px;
+    /* tag 類別 */
+    .tag-irregular{background:#fee2e2;border-color:#ef4444;color:#991b1b;}
+    .tag-closed{background:#d1fae5;border-color:#10b981;color:#065f46;}
+    .tag-floss{background:#ffe4e6;border-color:#fb7185;color:#9f1239;}
+    .tag-digraph{background:#e0f2fe;border-color:#38bdf8;color:#075985;}
+    .tag-cluster{background:#ede9fe;border-color:#8b5cf6;color:#4c1d95;}
+    .tag-suffix{background:#ccfbf1;border-color:#14b8a6;color:#0f766e;}
+    .tag-rcontrolled{background:#e9d5ff;border-color:#a855f7;color:#581c87;}
+    .tag-open{background:#dcfce7;border-color:#22c55e;color:#14532d;}
+    .tag-cle{background:#f5f5f4;border-color:#a8a29e;color:#3f3f46;}
+    .tag-magic_e{background:#dbeafe;border-color:#3b82f6;color:#1e40af;}
+    .tag-vowel_team{background:#ffedd5;border-color:#f97316;color:#9a3412;}
+    .tag-diphthong{background:#dbeafe;border-color:#60a5fa;color:#1e3a8a;}
+    .tag-silent_consonant{background:#f1f5f9;border-color:#94a3b8;color:#334155;}
+
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;overflow-x:hidden}
+    body{font-family:"Inter",system-ui,-apple-system,"Noto Sans TC",sans-serif;background:var(--c-bg);color:var(--c-text);padding:1rem 0;line-height:1.6;font-size:18px}
+    .container{max-width:1200px;margin:0 auto;padding:1.5rem 1rem;background:#fff;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,.05);min-height:90vh}
+    h1{font-family:'Noto Sans TC',sans-serif;font-size:2rem;font-weight:800;color:#0f172a;text-align:center;margin-bottom:2rem}
+
+    /* Page switch */
+    .page-section{display:none;min-height:50vh}
+    .page-section.active{display:block}
+    #homePage{flex-direction:column;align-items:center;justify-content:flex-start}
+    #homePage.active{display:flex}
+    #homePage:not(.active){display:none!important}
+
+    /* Home list */
+    .topic-list{list-style:none;padding:0;width:min(100%,700px);margin-top:2rem}
+    .topic-list-item{background:#fff;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.05);padding:18px 22px;cursor:pointer;transition:.2s;border-left:5px solid var(--c-secondary);font-size:1.2rem;font-weight:700;color:#1f2937;margin-bottom:1rem;user-select:none;display:block}
+    .topic-list-item:hover{background:#f0fdf4;transform:translateX(5px);box-shadow:0 4px 12px rgba(16,185,129,.2);border-color:var(--c-primary)}
+
+    .back-button{background:#eef2ff;color:#4f46e5;border:none;border-radius:12px;padding:10px 18px;font-weight:700;cursor:pointer;font-size:1rem;margin-bottom:1.2rem;transition:.2s;display:flex;align-items:center;gap:8px}
+    .back-button:hover{background:#e0e7ff}
+
+    /* Filters & Cards */
+    .legend{display:flex;flex-wrap:wrap;gap:.5rem;padding:0 .25rem .25rem;margin:0 0 1.25rem 0;list-style:none;}
+    .legend .legend-item{display:inline-flex;flex:0 0 auto;padding:.3rem .75rem;border-radius:999px;font-size:.9rem;font-weight:700;border:2px solid;white-space:nowrap;cursor:pointer;user-select:none;transition:transform .1s ease,opacity .2s ease}
+    .legend .legend-item:hover{transform:scale(1.05)}
+    .legend .legend-item.selected{outline:3px solid rgba(14,165,233,.25)}
+    .tag-all{background:#e5e7eb;border-color:#94a3b8;color:#334155}
+    .category-tag{padding:.3rem .75rem;border-radius:999px;font-size:.9rem;font-weight:700;border:2px solid;white-space:nowrap;user-select:none}
+
+    .topic-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.25rem}
+    .word-card{border:2px solid #cbd5e1;border-radius:12px;background:#fff;box-shadow:0 4px 6px rgba(0,0,0,.03);overflow:hidden;transition:transform .2s,box-shadow .2s}
+    .word-card.hidden{display:none}
+    .word-card:hover{transform:translateY(-5px);box-shadow:0 8px 15px rgba(0,0,0,.07)}
+
+    .card-header{display:flex;justify-content:space-between;align-items:center;padding:1rem 1.25rem;background:#f1f5f9;border-bottom:2px solid #e2e8f0}
+    .card-title{display:flex;align-items:baseline;gap:.6rem}
+    .word-number{font-size:1.1rem;font-weight:700;color:#64748b}
+    .word-text{font-size:1.9rem;font-weight:800;color:#0f172a}
+
+    .audio-button{font-size:2rem;cursor:pointer;background:none;border:none;padding:0;line-height:1;transition:transform .1s}
+    .audio-button:hover{transform:scale(1.1)}
+    .audio-button:active{transform:scale(0.95)}
+
+    .card-body{padding:1.1rem; display:flex; flex-direction:column; align-items:center;}
+    .badges{display:flex;gap:.5rem;flex-wrap:nowrap;overflow:auto;white-space:nowrap;padding-bottom:.25rem;margin-bottom:.25rem;-webkit-overflow-scrolling:touch}
+    .badges .category-tag{flex:0 0 auto}
+
+    .boxes-grid{
+      display:grid;
+      grid-auto-rows:auto;
+      border:2px solid #94a3b8;
+      border-radius:8px;
+      overflow:auto;
+      grid-auto-columns:max-content;
+      justify-content:start;
+      align-content:start;
+      width:max-content;
+      max-width:100%;
     }
-    .wrap { max-width: 960px; margin: 0 auto; }
-    h1 { font-size: 22px; font-weight: 700; margin: 0 0 16px; }
-    .row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; margin-bottom: 16px; }
-    select, button {
-      border: 1px solid var(--btn-border);
-      background: var(--card);
-      padding: 8px 10px; border-radius: 8px; font-size: 14px;
+    .box{display:flex;align-items:center;justify-content:center;min-height:54px;padding:.35rem .5rem;text-align:center;font-size:1.35rem;font-weight:700;border-right:2px solid #cbd5e1}
+    .box:last-child{border-right:none}
+    .grapheme-box{background:#f1f5f9;color:#1e293b;position:relative;font-family:'Inter','Noto Sans TC',sans-serif;border-bottom:2px solid #cbd5e1;grid-row:1}
+    .phoneme-box{background:#fff;color:#475569;font-family:'Noto Sans',sans-serif;font-size:1.15rem;font-weight:400;grid-row:2;transition:.2s;cursor:pointer;user-select:none}
+    .phoneme-box:hover{background:#f0f9ff;transform:scale(1.05)}
+    .phoneme-box:active{background:#dbeafe}
+    .phoneme-box.is-phonics{font-family:'Inter','Noto Sans TC',sans-serif;font-size:1.25rem;color:#0f172a;font-weight:500}
+    .heart-symbol{position:absolute;bottom:-2px;left:0;right:0;text-align:center;color:#ef4444;font-size:1rem;line-height:1}
+    .word-tips{background:#fef3c7;border:1px solid #fbbf24;border-radius:6px;padding:.5rem .75rem;margin-top:.8rem;font-family:'Noto Sans TC',sans-serif;color:#78350f;font-size:.92rem;line-height:1.4;display:flex;gap:.5rem;align-items:flex-start}
+    .tips-icon{color:#f59e0b;font-size:1.1rem}
+
+    .toggle-container{display:flex;justify-content:center;align-items:center;gap:1rem;margin-bottom:.4rem;font-weight:700;color:#334155;user-select:none;font-size:1rem}
+    .attribution-note{text-align:center;font-size:.85rem;color:#64748b;margin-top:0;margin-bottom:1.1rem;line-height:1.5}
+    .attribution-note a{color:#3b82f6;text-decoration:underline}
+    .attribution-note a:hover{color:#1d4ed8}
+    .toggle-label-ipa,.toggle-label-phonics{color:#64748b;transition:color .2s}
+    input:checked ~ .toggle-label-phonics{color:#0f172a}
+    input:not(:checked) ~ .toggle-label-ipa{color:#0f172a}
+    .switch{position:relative;display:inline-block;width:60px;height:34px;visibility:hidden}
+    .switch input{opacity:0;width:0;height:0}
+    .slider{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background:#cbd5e1;transition:.4s;border-radius:34px;visibility:visible}
+    .slider:before{position:absolute;content:"";height:26px;width:26px;left:4px;bottom:4px;background:white;transition:.4s;border-radius:50%}
+    input:checked + .slider{background:#3b82f6}
+    input:checked + .slider:before{transform:translateX(26px)}
+
+    .credits{margin-top:3rem;padding-top:1.2rem;border-top:2px solid var(--c-border);text-align:center;font-size:.875rem;color:#475569;line-height:1.6}
+    .credits a{color:#64748b;margin:0 .5rem;transition:color .2s;text-decoration:none}
+    .credits a:hover{color:#3b82f6}
+
+    .searchbar{display:flex;gap:.5rem;align-items:center;justify-content:center;margin:-.3rem auto 1rem;max-width:700px}
+    .searchbar input{flex:1;padding:10px 12px;border:2px solid var(--c-border);border-radius:10px;font-size:1rem}
+    .searchbar button{background:#111827;color:#fff;border:none;border-radius:10px;padding:10px 14px;font-weight:700;cursor:pointer}
+    .searchbar button:hover{opacity:.9}
+    .search-msg{margin:.25rem 0 1rem;text-align:center;font-size:.9rem;color:#64748b}
+
+    /* 可讀性更好的底線 */
+    u { text-underline-offset: .15em; text-decoration-thickness: from-font; }
+
+    .word-card.search-hit{outline:3px solid #7c3aed;box-shadow:0 0 0 4px rgba(124,58,237,.15);animation:hitflash 1.6s ease}
+    @keyframes hitflash{0%{background:#faf5ff}100%{background:#fff}}
+
+    @media (max-width:768px){
+      .container{padding:1rem .5rem}
+      h1{font-size:1.6rem}
+      .topic-list{width:100%}
+      .topic-list-item{font-size:1.05rem;padding:14px 16px}
+      .topic-grid{grid-template-columns:1fr}
+      .word-text{font-size:1.7rem}
+      .box{font-size:1.15rem;min-height:48px}
+      .phoneme-box{font-size:1.05rem}
+      .phoneme-box.is-phonics{font-size:1.15rem}
+      .attribution-note{font-size:.75rem}
+      .back-button{margin-bottom:1rem;padding:8px 14px}
     }
-    button:hover { background: var(--btn-hover); cursor: pointer; }
-    .card {
-      background: var(--card); border: 1px solid var(--line);
-      border-radius: 16px; box-shadow: 0 4px 20px rgba(18,28,45,.04);
-      padding: 16px; margin-bottom: 20px;
-    }
-    .word-row { display: grid; grid-template-columns: 180px 1fr 120px; gap: 8px; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--line); }
-    .word-row:last-child { border-bottom: 0; }
-    .word { font-weight: 700; font-size: 16px; }
-    .phonemes { display: flex; flex-wrap: wrap; gap: 8px; }
-    .phoneme-box {
-      border: 1px solid var(--btn-border); padding: 6px 10px; border-radius: 10px;
-      background: var(--btn); cursor: pointer; font-family: "Noto Sans", sans-serif;
-      user-select: none;
-    }
-    .phoneme-box:hover { background: var(--btn-hover); }
-    .pill { font-size: 12px; color: var(--muted); }
-    .footer { margin-top: 28px; text-align: center; color: var(--muted); }
-    .credits { margin-top: 28px; text-align: center; color: var(--muted); }
-    .ok { color: var(--ok); }
-    .err { color: var(--err); }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <h1>英文拼字 × 聲音對照</h1>
+  <div class="container">
+    <main>
+      <div class="searchbar" role="search">
+        <input id="globalSearchInput" type="text" placeholder="輸入單字（例如：one）" aria-label="搜尋單字">
+        <button id="globalSearchBtn">🔍 搜尋</button>
+      </div>
+      <p id="searchMsg" class="search-msg" aria-live="polite"></p>
 
-    <div class="row">
-      <div>
-        <label for="topicSel" class="pill">Topic</label><br>
-        <select id="topicSel"></select>
-      </div>
-      <div>
-        <label for="levelSel" class="pill">Level</label><br>
-        <select id="levelSel"></select>
-      </div>
-      <div style="margin-left:auto">
-        <button id="reloadBtn">Reload</button>
-      </div>
-    </div>
-
-    <div id="list" class="card" aria-live="polite"></div>
+      <section id="homePage" class="page-section active">
+        <h1>自然發音對照表</h1>
+        <ul id="topicList" class="topic-list"></ul>
+      </section>
+      <!-- 內容頁會動態加入 -->
+    </main>
 
     <footer class="credits">
-      © 2025 Christina Yu. All rights reserved.<br /><br />
-      <a href="mailto:mamahowma@gmail.com" aria-label="Email mamahowma">
-        <i class="fa-solid fa-envelope fa-xl fa-fw" aria-hidden="true"></i>
-      </a>&emsp;
-      <a href="https://www.facebook.com/mamahowma" target="_blank" rel="noopener noreferrer" aria-label="mamahowma Facebook Page">
-        <i class="fa-brands fa-facebook fa-xl fa-fw" aria-hidden="true"></i>
-      </a>&emsp;
-      <a href="https://portaly.cc/mamahowma/support" target="_blank" rel="noopener noreferrer" aria-label="Support mamahowma">
-        <i class="fa-solid fa-mug-hot fa-xl fa-fw" aria-hidden="true"></i>
-      </a>
+      Made with 💜 by <a href="#" target="_blank" rel="noopener">you</a>
     </footer>
   </div>
 
   <script>
-  // ====== 常數 ======
-  const TOPICS_URL = 'topics.json';
-  const PHONEME_MAP_URL = 'data/phoneme-audio.json';
+    // 命名空間（避免汙染全域）
+    window.PhonicsApp = window.PhonicsApp || { pendingHighlight: null };
 
-  // ====== 工具 ======
-  async function fetchJSON(url) {
-    const abs = new URL(url, location.href).href;
-    const r = await fetch(abs, { cache: 'no-store' });
-    if (!r.ok) throw new Error(`HTTP ${r.status} for ${abs}`);
-    return r.json();
-  }
-
-  // 清理鍵值：去 HTML 標籤、去掉 ' / ’、去空白、去首尾斜線
-  function cleanKey(raw){
-    return String(raw)
-      .replace(/<[^>]+>/g, '')   // <u>th</u> → th
-      .replace(/['’]/g, '')      // 'tʃ / ’tʃ → tʃ
-      .trim()
-      .replace(/^\/|\/$/g, '')   // /tʃ/ → tʃ
-      .replace(/\s+/g, '');      // 空白
-  }
-
-  // slug 規則（單字音檔）
-  function slugify(s){
-    return String(s).toLowerCase()
-      .normalize('NFKD').replace(/[\u0300-\u036f]/g,'') // 去重音
-      .replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
-  }
-
-  // 依題目檔路徑產 levelFolder（data/numbers-1.json → numbers-1）
-  function levelFolderFromSrc(src){
-    return String(src).replace(/^data\//,'').replace(/\.json$/,'');
-  }
-
-  // 播放
-  async function playAudio(url, el){
-    if(!url) return;
-    try {
-      const a = new Audio(url);
-      await a.play();
-      console.log('🔊', url);
-      if (el) el.classList.add('ok'); // 小提示
-    } catch (e) {
-      console.error('❌ play error', url, e);
-      if (el) el.classList.add('err');
-    } finally {
-      if (el) setTimeout(()=>{ el.classList.remove('ok','err'); }, 600);
+    // ========== 工具：HTML 轉義 / 允許 <u> ==========
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text == null ? '' : String(text);
+      return div.innerHTML;
     }
-  }
+    function sanitizePhonemeHtml(text, allowU = true){
+      const escaped = escapeHtml(text);
+      return allowU
+        ? escaped.replace(/&lt;u&gt;/g,'<u>').replace(/&lt;\/u&gt;/g,'</u>')
+        : escaped;
+    }
+    function escapeAttr(val){
+      return String(val).replace(/&/g,'&amp;').replace(/"/g,'&quot;');
+    }
 
-  // 從 phoneme 對照表取得 URL（先用原樣，再用清理後的鍵）
-  function getPhonemeUrl(raw, files){
-    const key = cleanKey(raw);
-    return files[raw] || files[key] || '';
-  }
+    // ========== 基本狀態 ==========
+    const TOPICS_URL = 'topics.json';
+    const CACHE = { topics: null, data: {} };
+    const loadingState = new Set(); // 避免重複抓同一檔
 
-  // ====== 主流程 ======
-  let PHONEME = { files: {} };
-  let TOPICS = { topics: [] };
-  let CURRENT_LEVEL = null; // 目前載入的 level（包含：src、label）
+    // ========== fetch 逾時包裝 ==========
+    function fetchWithTimeout(url, opts={}, timeout=8000){
+      return Promise.race([
+        fetch(url, opts),
+        new Promise((_, rej)=> setTimeout(()=>rej(new Error('Timeout')), timeout))
+      ]);
+    }
 
-  const topicSel = document.getElementById('topicSel');
-  const levelSel  = document.getElementById('levelSel');
-  const listEl   = document.getElementById('list');
-  const reloadBtn = document.getElementById('reloadBtn');
+    // ========== 音訊播放（每次新建，可並行；結束釋放） ==========
+    const AUDIO_BASE = './audio/';
+    let levelFolder = ''; // e.g. 'numbers-1'
 
-  async function init(){
-    // 讀對照表與主題表
-    [PHONEME, TOPICS] = await Promise.all([
-      fetchJSON(PHONEME_MAP_URL),
-      fetchJSON(TOPICS_URL)
-    ]);
+    function slugifyWord(w){
+      return String(w||'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
+    }
+    function audioUrlForWord(item){
+      if (item.audio) return item.audio; // 每筆可自帶 audio 路徑
+      return `${AUDIO_BASE}${levelFolder}/${slugifyWord(item.word)}.mp3`;
+    }
+    function playAudio(url, btn){
+      try{
+        const p = new Audio();
+        p.src = url;
+        const cleanup = () => { p.src = ''; };
+        p.addEventListener('ended', cleanup, { once:true });
+        p.addEventListener('error', cleanup, { once:true });
+        p.play().catch(err=>{
+          if(btn){ const o=btn.textContent; btn.textContent='❌'; setTimeout(()=>btn.textContent=o,800); }
+          console.warn('播放失敗：', url, err);
+        });
+      }catch(e){ console.warn('播放錯誤：', url, e); }
+    }
 
-    // 畫 Topic 下拉
-    topicSel.innerHTML = TOPICS.topics.map((t, i)=> `<option value="${i}">${t.title||t.slug||('Topic '+(i+1))}</option>`).join('');
-    topicSel.onchange = () => renderLevels();
-    renderLevels();
+    // ========== 音素對照：只讀 JSON，不做規則 ==========
+    let PHONEME = { files: {} };
+    fetchWithTimeout('data/phoneme-audio.json')
+      .then(r => r.ok ? r.json() : {files:{}})
+      .then(j => { PHONEME = j || {files:{}}; })
+      .catch(()=>{ /* 忽略，查不到就不播 */ });
 
-    // 事件：Reload
-    reloadBtn.onclick = () => {
-      if (CURRENT_LEVEL) loadLevel(CURRENT_LEVEL);
-    };
+    function phonemeUrl(raw, isPhonics){
+      // 先用原樣（支援 <u>th</u>）
+      if (PHONEME.files && PHONEME.files[raw]) return PHONEME.files[raw];
+      // 再清理標籤與斜線空白
+      const key = String(raw).replace(/<[^>]+>/g,'').trim().replace(/^\/|\/$/g,'').replace(/\s+/g,'');
+      return (PHONEME.files && PHONEME.files[key]) ? PHONEME.files[key] : null;
+    }
 
-    // 點擊事件委派：phoneme / word 播放
-    listEl.addEventListener('click', e=>{
-      const box = e.target.closest('.phoneme-box');
-      if (box) {
-        const raw = box.innerHTML; // 支援 <u>th</u>、-j-、以及前後空白/引號
-        const url = getPhonemeUrl(raw, PHONEME.files);
-        console.log('raw=', raw, ' | cleaned=', cleanKey(raw), ' | url=', url);
-        return playAudio(url, box);
+    // ========== 事件委派（音訊 / 音素 / 導航 / 重試） ==========
+    document.addEventListener('click', (e) => {
+      const btn = e.target.closest('.audio-button');
+      if(btn){
+        const url = btn.getAttribute('data-audio-url');
+        if(url) playAudio(url, btn);
+        return;
       }
-      const wb = e.target.closest('.word-play');
-      if (wb && CURRENT_LEVEL) {
-        const word = wb.getAttribute('data-word') || '';
-        const levelFolder = levelFolderFromSrc(CURRENT_LEVEL.src);
-        const explicit = wb.getAttribute('data-audio'); // 若題目有自帶 audio 欄位
-        const url = explicit || `audio/${levelFolder}/${slugify(word)}.mp3`;
-        return playAudio(url, wb);
+      const cell = e.target.closest('.phoneme-box');
+      if(cell){
+        const raw = isPhonicsMode ? cell.innerHTML : cell.textContent;
+        const url = phonemeUrl(raw, isPhonicsMode);
+        if(!url){ cell.style.background='#fee2e2'; setTimeout(()=>cell.style.background='',400); return; }
+        playAudio(url, cell);
+        return;
       }
+      const nav = e.target.closest('[data-page-target]');
+      if(nav){
+        showPage(nav.getAttribute('data-page-target'));
+        return;
+      }
+      const retry = e.target.closest('[data-action="reload"]');
+      if(retry){ location.reload(); }
     });
-  }
 
-  function renderLevels(){
-    const t = TOPICS.topics[Number(topicSel.value)||0] || { levels: [] };
-    const lv = t.levels || [];
-    levelSel.innerHTML = lv.map((x,i)=> `<option value="${i}">${x.label||('Lv '+(i+1))}</option>`).join('');
-    levelSel.onchange = () => {
-      const L = lv[Number(levelSel.value)||0];
-      L && loadLevel(L);
-    };
-    // 預設載入第一個 level
-    const L = lv[0];
-    if (L) loadLevel(L);
-    else {
-      listEl.innerHTML = `<div class="pill">此 Topic 尚無資料。</div>`;
-    }
-  }
+    // ========== 狀態與渲染 ==========
+    let selectedFilter = sessionStorage.getItem('selectedFilter') || 'all';
+    let currentTopicData=[];
+    let isPhonicsMode=false;
 
-  async function loadLevel(levelMeta){
-    CURRENT_LEVEL = levelMeta;
-    const levelFolder = levelFolderFromSrc(levelMeta.src||'');
-    let items = [];
-    try {
-      items = await fetchJSON(levelMeta.src);
-    } catch (e) {
-      listEl.innerHTML = `<div class="err">載入失敗：${e.message}</div>`;
-      return;
-    }
-    // 預期 items 為陣列：[{ word: 'three', phonemes: ["/θ","r","i/"], audio?: "..." }, ...]
-    listEl.innerHTML = items.map(it=>{
-      const word = it.word || it.text || '';
-      const phonemes = Array.isArray(it.phonemes) ? it.phonemes : [];
-      const wordAudio = it.audio ? String(it.audio) : ''; // 可選：顯式路徑
-      const phonemeBoxes = phonemes.map(p => `<span class="phoneme-box" role="button" tabindex="0">${p}</span>`).join('');
-      return `
-        <div class="word-row">
-          <div class="word">${word}</div>
-          <div class="phonemes">${phonemeBoxes}</div>
-          <div>
-            <button class="word-play" data-word="${word}" ${wordAudio ? `data-audio="${wordAudio}"` : ''}>
-              <i class="fa-solid fa-play"></i>  播單字
-            </button>
-          </div>
+    function initTopicPage(contentId){
+      const cnt=document.getElementById(contentId);
+      if(!cnt) return;
+
+      // 篩選器
+      const allTags=['all','irregular','closed','floss','digraph','cluster','suffix','rcontrolled','open','cle','magic_e','vowel_team','diphthong','silent_consonant'];
+      const usedTags=new Set(['all']);
+      currentTopicData.forEach(w=>{ (w.tags||[]).forEach(t=>usedTags.add(t)); });
+      const existing=allTags.filter(t=>usedTags.has(t));
+
+      const tagNames={ all:'全部',irregular:'不規則',closed:'閉音節',floss:'floss',digraph:'雙字母',cluster:'子音群',suffix:'字尾',rcontrolled:'r控制',open:'開音節',cle:'字尾le',magic_e:'靜音e',vowel_team:'母音組合',diphthong:'雙母音',silent_consonant:'不發音子音' };
+
+      let legendHTML='<ul class="legend">';
+      existing.forEach(t=>{
+        const name=tagNames[t]||t;
+        const cls=(t==='all')?'tag-all':`tag-${t}`;
+        const sel=(t===selectedFilter)?'selected':'';
+        legendHTML+=`<li class="legend-item ${cls} ${sel}" data-filter="${t}">${name}</li>`;
+      });
+      legendHTML+='</ul>';
+
+      const toggleHTML=`
+        <div class="toggle-container">
+          <span class="toggle-label-ipa">IPA</span>
+          <label class="switch">
+            <input type="checkbox" id="toggle_${contentId}" ${isPhonicsMode?'checked':''}>
+            <span class="slider"></span>
+          </label>
+          <span class="toggle-label-phonics">簡化音標</span>
         </div>
+        <p class="attribution-note">點 <strong>🔊</strong> 播整字；點<strong>音素格子</strong>播個別音素（對照來自 <code>data/phoneme-audio.json</code>）。</p>
       `;
-    }).join('') || `<div class="pill">此 Level 沒有項目。</div>`;
-  }
 
-  // 啟動
-  init().catch(e=>{
-    console.error(e);
-    listEl.innerHTML = `<div class="err">初始化失敗：${e.message}</div>`;
-  });
+      cnt.innerHTML=legendHTML+toggleHTML+`<div class="topic-grid" id="teaching-grid-${contentId}"></div>`;
+
+      // 篩選器點擊
+      cnt.querySelectorAll('.legend-item').forEach(li=>{
+        li.addEventListener('click',()=>{
+          selectedFilter = li.getAttribute('data-filter')||'all';
+          sessionStorage.setItem('selectedFilter', selectedFilter);
+          cnt.querySelectorAll('.legend-item').forEach(x=>x.classList.remove('selected'));
+          li.classList.add('selected');
+          applyFilters(contentId);
+        }, { once:false });
+      });
+
+      const tog=cnt.querySelector(`#toggle_${contentId}`);
+      if(tog){ tog.addEventListener('change',()=>{ isPhonicsMode=tog.checked; renderCards(contentId); }); }
+
+      renderCards(contentId);
+      highlightIfPending(contentId);
+    }
+
+    function renderCards(contentId){
+      const grid = document.getElementById(`teaching-grid-${contentId}`);
+      if(!grid) return;
+      grid.innerHTML='';
+      currentTopicData.forEach(w=>{
+        const tagsAttr = (w.tags||[]).join(',');
+        const badges = (w.tags||[]).map(t=>`<span class="category-tag tag-${t}">${escapeHtml(t)}</span>`).join('');
+
+        const modeKey = isPhonicsMode?'phonics':'phonemes';
+        const useArr = (w[modeKey]||w.phonemes||[]);
+        const labelArr = (w.graphemes||[]);
+        const heartArr = (w.hearts||[]);
+
+        const cols = Math.max(labelArr.length, useArr.length);
+        let cells='';
+        for(let i=0;i<cols;i++){
+          const g = labelArr[i]||'';
+          const p = useArr[i]||'';
+          const heart = heartArr[i]?'<span class="heart-symbol">❤</span>':'';
+          const phClass = (isPhonicsMode)?'is-phonics':'';
+          const pHtml = isPhonicsMode ? sanitizePhonemeHtml(p, true) : escapeHtml(p);
+          cells+=`
+            <div class="grapheme-box box">${escapeHtml(g)}${heart}</div>
+            <div class="phoneme-box box ${phClass}">${pHtml}</div>
+          `;
+        }
+
+        const audioURL = audioUrlForWord(w);
+        const card=`
+          <article class="word-card" data-tags="${escapeAttr(tagsAttr)}" data-word="${escapeAttr(String(w.word||'').toLowerCase())}">
+            <div class="card-header">
+              <div class="card-title">
+                <span class="word-number">#${escapeHtml(w.number??'')}</span>
+                <span class="word-text">${escapeHtml(w.word||'')}</span>
+              </div>
+              <button class="audio-button" data-audio-url="${escapeAttr(audioURL)}" aria-label="播放單字發音">🔊</button>
+            </div>
+            <div class="card-body">
+              <div class="badges">${badges}</div>
+              <div class="boxes-grid" style="grid-template-columns:repeat(${cols},max-content)">${cells}</div>
+              <div class="word-tips"><span class="tips-icon">💡</span><span>${escapeHtml(w.hint||'')}</span></div>
+            </div>
+          </article>
+        `;
+        grid.insertAdjacentHTML('beforeend',card);
+      });
+      applyFilters(contentId);
+    }
+
+    function applyFilters(contentId){
+      const grid = document.getElementById(`teaching-grid-${contentId}`);
+      if(!grid) return;
+      const cards = grid.querySelectorAll('.word-card');
+      if(selectedFilter === 'all'){ cards.forEach(c=>c.classList.remove('hidden')); return; }
+      cards.forEach(c=>{
+        const tags = (c.getAttribute('data-tags')||'').split(',').filter(Boolean);
+        c.classList.toggle('hidden', !tags.includes(selectedFilter));
+      });
+    }
+
+    // ========== 搜尋 ==========
+    let WORD_INDEX = {};
+    function buildWordIndexFromAll(){
+      WORD_INDEX = {};
+      (CACHE.topics?.topics||[]).forEach(t=>{
+        t.levels.forEach((lv, idx)=>{
+          const items = CACHE.data[lv.src]?.items || [];
+          items.forEach(w=>{
+            const key = String(w.word||'').trim().toLowerCase();
+            if(key && !WORD_INDEX[key]) WORD_INDEX[key] = { slug: t.slug, levelIndex: idx };
+          });
+        });
+      });
+    }
+    function goToWord(wordRaw){
+      const input = String(wordRaw||'').trim().toLowerCase();
+      const msgEl = document.getElementById('searchMsg');
+      if(!input){ msgEl.textContent='請輸入單字'; return; }
+      const hit = WORD_INDEX[input];
+      if(!hit){ msgEl.textContent=`找不到：${wordRaw}`; return; }
+      msgEl.textContent='';
+      const pageId = `${hit.slug}_${hit.levelIndex+1}_Page`;
+      window.PhonicsApp.pendingHighlight = input;
+      showPage(pageId);
+    }
+    function initSearchBar(){
+      const inp=document.getElementById('globalSearchInput');
+      const btn=document.getElementById('globalSearchBtn');
+      if(!inp||!btn) return;
+      btn.addEventListener('click',()=>goToWord(inp.value));
+      inp.addEventListener('keydown',(e)=>{ if(e.key==='Enter') goToWord(inp.value); });
+    }
+    function highlightIfPending(contentId){
+      const target=(window.PhonicsApp.pendingHighlight||'').toLowerCase();
+      if(!target) return;
+      const grid=document.getElementById(`teaching-grid-${contentId}`);
+      if(!grid) return;
+      const escaped = (window.CSS && CSS.escape) ? CSS.escape(target)
+        : target.replace(/[!"#$%&'()*+,.\/:;<=>?@[\\\]^`{|}~]/g, "\\$&");
+      const card=grid.querySelector(`.word-card[data-word="${escaped}"]`);
+      if(card){
+        card.classList.add('search-hit');
+        card.scrollIntoView({behavior:'smooth',block:'center'});
+        setTimeout(()=>card.classList.remove('search-hit'),1600);
+      }
+      window.PhonicsApp.pendingHighlight='';
+    }
+
+    // ========== 導航（依 topics.json 動態生成） ==========
+    function showPage(pageId){
+      document.querySelectorAll('.page-section').forEach(p=>p.classList.remove('active'));
+      const active = document.getElementById(pageId);
+      if(!active) return;
+      active.classList.add('active');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+
+      const m = pageId.match(/^(.+?)_(\d+)_Page$/);
+      if(!m) return; // home
+      const slug = m[1], levelIndex = Number(m[2])-1;
+      const contentId = `${slug}_${levelIndex+1}_Content`;
+
+      const topic = (CACHE.topics?.topics||[]).find(x=>x.slug===slug);
+      const lv = topic?.levels?.[levelIndex];
+      if(!lv) return;
+
+      levelFolder = (lv.src||'').replace(/^data\//,'').replace(/\.json$/,'');
+
+      if(!CACHE.data[lv.src] && !loadingState.has(lv.src)){
+        const t = document.getElementById(contentId);
+        if (t) t.innerHTML = '<p style="color:#666">載入中…</p>';
+        loadingState.add(lv.src);
+        fetchWithTimeout(lv.src)
+          .then(r=>{ if(!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+          .then(json=>{
+            CACHE.data[lv.src]=json; loadingState.delete(lv.src);
+            if(document.getElementById(pageId)?.classList.contains('active')){
+              currentTopicData = json.items||[];
+              initTopicPage(contentId);
+            }
+          })
+          .catch(e=>{
+            loadingState.delete(lv.src);
+            const t=document.getElementById(contentId);
+            if(t) t.innerHTML = `<p style="color:#b91c1c">載入失敗：${escapeHtml(lv.src)}（${escapeHtml(e.message)}） <button data-action="reload">重試</button></p>`;
+          });
+      }else if(CACHE.data[lv.src]){
+        currentTopicData = CACHE.data[lv.src].items||[];
+        initTopicPage(contentId);
+      }
+    }
+    // 對外只暴露命名空間
+    window.PhonicsApp.showPage = showPage;
+
+    function buildHomeAndSections(){
+      const list = document.getElementById('topicList');
+      const main = document.querySelector('main');
+
+      (CACHE.topics?.topics||[]).forEach(t=>{
+        t.levels.forEach((lv, idx)=>{
+          const label = lv.label || `-${idx+1}`;
+          list.insertAdjacentHTML('beforeend', `
+            <li class="topic-list-item" data-page-target="${t.slug}_${idx+1}_Page">
+              ${escapeHtml(t.title)}（${escapeHtml(label)}）
+            </li>
+          `);
+          main.insertAdjacentHTML('beforeend', `
+            <section id="${t.slug}_${idx+1}_Page" class="page-section">
+              <button class="back-button" data-page-target="homePage"><i class="fa-solid fa-arrow-left"></i>返回目錄</button>
+              <h1>${escapeHtml(t.title)}（${escapeHtml(label)}）聲音對照表</h1>
+              <div id="${t.slug}_${idx+1}_Content"></div>
+            </section>
+          `);
+        });
+      });
+    }
+
+    // ========== 啟動 ==========
+    document.addEventListener('DOMContentLoaded', async ()=>{
+      initSearchBar();
+      try{
+        const resp = await fetchWithTimeout(TOPICS_URL);
+        if(!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        CACHE.topics = await resp.json();
+      }catch(e){
+        console.error(e);
+        document.getElementById('topicList').innerHTML =
+          `<li class="topic-list-item" style="color:#b91c1c">
+            讀取 topics.json 失敗（${escapeHtml(e.message)}）
+            <button data-action="reload" style="margin-left:.5rem">重試</button>
+          </li>`;
+        return;
+      }
+      buildHomeAndSections();
+
+      await Promise.allSettled(
+        (CACHE.topics.topics||[]).flatMap(t => t.levels.map(lv =>
+          fetchWithTimeout(lv.src).then(r=>r.ok?r.json():null).then(j=>{ if(j) CACHE.data[lv.src]=j; })
+        ))
+      );
+      buildWordIndexFromAll();
+
+      document.querySelectorAll('.page-section').forEach(p=>p.classList.remove('active'));
+      document.getElementById('homePage').classList.add('active');
+    });
   </script>
 </body>
 </html>
