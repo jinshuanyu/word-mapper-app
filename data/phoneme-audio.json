@@ -51,6 +51,7 @@
             "ɑr": "audio/phonemes/ar.mp3",
 
     "ə": "audio/phonemes/schwa.mp3",
+     "əl": "audio/phonemes/le.mp3",
 
     "eɪ": "audio/phonemes/a_long.mp3",
     "aɪ": "audio/phonemes/i_long.mp3",
