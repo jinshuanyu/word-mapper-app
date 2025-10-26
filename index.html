@@ -6,14 +6,12 @@
   <title>英文拼字 × 聲音對照</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <!-- Inter（標題用）、Noto Sans（音標用）。Noto Sans TC 只在一般文字用，不給音標使用，避免 fallback 尺寸差。 -->
+  <!-- Inter（標題）、Noto Sans（音標）；一般文字可用 Noto Sans TC，但音標鎖定 Noto Sans 以免混字型 -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Noto+Sans:wght@400;700&family=Noto+Sans+TC:wght@400;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <style>
-    :root{
-      --c-primary:#7c3aed; --c-secondary:#10b981;
-      --c-text:#1f2937; --c-bg:#f8fafc; --c-border:#e2e8f0;
-    }
+    :root{ --c-primary:#7c3aed; --c-secondary:#10b981; --c-text:#1f2937; --c-bg:#f8fafc; --c-border:#e2e8f0; }
+
     /* tag 類別色 */
     .tag-irregular{background:#fee2e2;border-color:#ef4444;color:#991b1b;}
     .tag-closed{background:#d1fae5;border-color:#10b981;color:#065f46;}
@@ -31,10 +29,7 @@
 
     *{box-sizing:border-box}
     html,body{margin:0;padding:0;overflow-x:hidden}
-    body{
-      font-family:"Inter",system-ui,-apple-system,"Noto Sans TC",sans-serif;
-      background:var(--c-bg);color:var(--c-text);padding:1rem 0;line-height:1.6;font-size:18px
-    }
+    body{font-family:"Inter",system-ui,-apple-system,"Noto Sans TC",sans-serif;background:var(--c-bg);color:var(--c-text);padding:1rem 0;line-height:1.6;font-size:18px}
     .container{max-width:1200px;margin:0 auto;padding:1.5rem 1rem;background:#fff;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,.05);min-height:90vh}
     h1{font-family:'Noto Sans TC',sans-serif;font-size:2rem;font-weight:800;color:#0f172a;text-align:center;margin-bottom:2rem}
 
@@ -68,7 +63,7 @@
 
     .card-header{display:flex;justify-content:space-between;align-items:center;padding:1rem 1.25rem;background:#f1f5f9;border-bottom:2px solid #e2e8f0}
     .card-title{display:flex;align-items:baseline;gap:.6rem}
-    .word-number{font-size:1.3rem;font-weight:700;color:#475569} /* 沒有 #，可放 emoji */
+    .word-number{font-size:1.3rem;font-weight:700;color:#475569} /* 無 #；可放 emoji */
     .word-text{font-size:1.9rem;font-weight:800;color:#0f172a}
 
     .audio-button{font-size:2rem;cursor:pointer;background:none;border:none;padding:0;line-height:1;transition:transform .1s}
@@ -91,7 +86,7 @@
       width:max-content;
       max-width:100%;
     }
-    /* 表格：與單字協調（後面會再鎖定字型/字重/字級） */
+    /* 表格字體（與單字協調） */
     .box{
       display:flex;align-items:center;justify-content:center;
       min-height:56px;padding:.35rem .5rem;text-align:center;
@@ -100,16 +95,14 @@
     .box:last-child{border-right:none}
     .grapheme-box{background:#f1f5f9;color:#1e293b;position:relative;font-family:'Inter','Noto Sans TC',sans-serif;border-bottom:2px solid #cbd5e1;grid-row:1}
 
-    /* 基礎 phoneme 風格（細節將由底部統一規則鎖定） */
+    /* phoneme/phonics（基礎；最終鎖定在文件底部） */
     .phoneme-box{
-      background:#fff;
-      color:#0f172a;
+      background:#fff;color:#0f172a;
       font-family:'Noto Sans','Noto Sans TC',sans-serif;
-      font-size:1.6rem;
-      font-weight:400;
+      font-size:1.6rem;font-weight:400;
       grid-row:2;transition:.2s;cursor:pointer;user-select:none
     }
-    .phoneme-box.is-phonics{ font-family:inherit;font-size:inherit;font-weight:inherit;color:inherit; }
+    .phoneme-box.is-phonics{font-family:inherit;font-size:inherit;font-weight:inherit;color:inherit}
     .phoneme-box:hover{background:#f0f9ff;transform:none}
     .phoneme-box:active{background:#dbeafe}
 
@@ -165,12 +158,12 @@
       .back-button{margin-bottom:1rem;padding:8px 14px}
     }
 
-    /* ====== 關鍵「最終鎖定」：統一 phoneme/phonics（含所有子元素），避免 fallback 導致大小不一致 ====== */
+    /* ====== 最終鎖定：統一 phoneme/phonics（含所有子元素），避免混字型造成大小不一 ====== */
     .box.phoneme-box,
     .box.phoneme-box.is-phonics,
     .box.phoneme-box *,
     .box.phoneme-box.is-phonics *{
-      font-family: 'Noto Sans', sans-serif !important; /* 不用 Noto Sans TC，避免音標與中文混字型 */
+      font-family: 'Noto Sans', sans-serif !important;
       font-weight: 400 !important;
       font-size: 1.6rem !important;
       line-height: 1.2 !important;
@@ -221,7 +214,20 @@
   </div>
 
   <script>
-    // 命名空間（避免汙染全域）
+    // ================== 全域開關 & 自動調整 ==================
+    const DISABLE_PREFETCH = false; // 設為 true 可一鍵關閉所有預載
+
+    const conn = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+    const IS_SAVE_DATA = !!(conn && conn.saveData);
+    const EFFECTIVE_TYPE = (conn && conn.effectiveType) || '';
+    const IS_SLOW_NET = /^(2g|slow-2g)$/i.test(EFFECTIVE_TYPE);
+    const IS_TOUCH = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+
+    // 依網路狀況調整預載量
+    const PREFETCH_PHONEMES = (IS_SAVE_DATA || IS_SLOW_NET) ? 12 : 40;
+    const PREFETCH_WORDS   = (IS_SAVE_DATA || IS_SLOW_NET) ? 3  : 8;
+
+    // 命名空間
     window.PhonicsApp = window.PhonicsApp || { pendingHighlight: null };
 
     // ========== 工具：HTML 轉義 / 允許 <u> ==========
@@ -236,9 +242,7 @@
         ? escaped.replace(/&lt;u&gt;/g,'<u>').replace(/&lt;\/u&gt;/g,'</u>')
         : escaped;
     }
-    function escapeAttr(val){
-      return String(val).replace(/&/g,'&amp;').replace(/"/g,'&quot;');
-    }
+    function escapeAttr(val){ return String(val).replace(/&/g,'&amp;').replace(/"/g,'&quot;'); }
 
     // ========== 全域：標籤中文 ==========
     const tagNames = {
@@ -271,7 +275,7 @@
       ]);
     }
 
-    // ========== 音訊播放 ==========
+    // ========== 音訊播放與路徑 ==========
     const AUDIO_BASE = './audio/';
     let levelFolder = ''; // e.g. 'numbers-1'
 
@@ -282,21 +286,55 @@
       if (item.audio) return item.audio; // 每筆可自帶 audio 路徑
       return `${AUDIO_BASE}${levelFolder}/${slugifyWord(item.word)}.mp3`;
     }
-    function playAudio(url, btn){
+
+    // ====== 音檔快取（phoneme & 單字） ======
+    const AUDIO_CACHE = new Map(); // url -> { blobUrl, t }
+    const CACHE_MAX = 120;         // 最多保留 120 個音檔，可自行調
+
+    function cachePut(url, blobUrl){
+      AUDIO_CACHE.set(url, { blobUrl, t: Date.now() });
+      // 簡易 LRU：超過就踢最舊的
+      if (AUDIO_CACHE.size > CACHE_MAX){
+        let oldestKey=null, oldestT=Infinity;
+        for (const [k,v] of AUDIO_CACHE){
+          if (v.t < oldestT){ oldestT=v.t; oldestKey=k; }
+        }
+        if (oldestKey){
+          try{ URL.revokeObjectURL(AUDIO_CACHE.get(oldestKey).blobUrl); }catch{}
+          AUDIO_CACHE.delete(oldestKey);
+        }
+      }
+    }
+    function cacheGet(url){
+      const hit = AUDIO_CACHE.get(url);
+      if (hit){ hit.t = Date.now(); return hit.blobUrl; }
+      return null;
+    }
+    async function ensureAudio(url){
+      if (!url) return null;
+      const hit = cacheGet(url);
+      if (hit) return hit;
+      const r = await fetchWithTimeout(url, {}, 12000);
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      const blob = await r.blob();
+      const blobUrl = URL.createObjectURL(blob);
+      cachePut(url, blobUrl);
+      return blobUrl;
+    }
+    async function playAudioSmart(url, btn){
       try{
+        const src = await ensureAudio(url);
+        if (!src) return;
         const p = new Audio();
-        p.src = url;
-        const cleanup = () => { p.src = ''; };
-        p.addEventListener('ended', cleanup, { once:true });
-        p.addEventListener('error', cleanup, { once:true });
-        p.play().catch(err=>{
-          if(btn){ const o=btn.textContent; btn.textContent='❌'; setTimeout(()=>btn.textContent=o,800); }
-          console.warn('播放失敗：', url, err);
-        });
-      }catch(e){ console.warn('播放錯誤：', url, e); }
+        p.src = src;
+        await p.play();
+      }catch(e){
+        if(btn){ const o=btn.textContent; btn.textContent='❌'; setTimeout(()=>btn.textContent=o,800); }
+        console.warn('播放失敗：', url, e);
+      }
     }
 
-    // ========== 音素對照：只讀 JSON ==========
+    // ========== 音素對照：只讀 JSON，不做規則 ==========
     let PHONEME = { files: {} };
     fetchWithTimeout('data/phoneme-audio.json')
       .then(r => r.ok ? r.json() : {files:{}})
@@ -304,30 +342,34 @@
       .catch(()=>{ /* 忽略，查不到就不播 */ });
 
     function phonemeUrl(raw, isPhonics){
+      // First try exact match
       if (PHONEME.files && PHONEME.files[raw]) return PHONEME.files[raw];
+
+      // Clean: remove HTML tags, slashes, accent marks, and spaces
       const key = String(raw)
-        .replace(/<[^>]+>/g,'') // 去 HTML tags
-        .replace(/'/g,'')       // 去重音記號
+        .replace(/<[^>]+>/g,'')        // Remove HTML tags
+        .replace(/'/g,'')               // Remove accent marks
         .trim()
-        .replace(/^\/|\/$/g,'') // 去前後斜線
-        .replace(/\s+/g,'');    // 去空白
+        .replace(/^\/|\/$/g,'')         // Remove slashes
+        .replace(/\s+/g,'');            // Remove spaces
+
       return (PHONEME.files && PHONEME.files[key]) ? PHONEME.files[key] : null;
     }
 
-    // ========== 事件委派 ==========
+    // ========== 事件委派（音訊 / 音素 / 導航 / 重試） ==========
     document.addEventListener('click', (e) => {
       const btn = e.target.closest('.audio-button');
       if(btn){
         const url = btn.getAttribute('data-audio-url');
-        if(url) playAudio(url, btn);
+        if(url) playAudioSmart(url, btn);
         return;
       }
       const cell = e.target.closest('.phoneme-box');
       if(cell){
         const raw = isPhonicsMode ? cell.innerHTML : cell.textContent;
         const url = phonemeUrl(raw, isPhonicsMode);
-        if(!url){ cell.style.background='#fee2e2'; setTimeout(()=>cell.style背景='',400); return; }
-        playAudio(url, cell);
+        if(!url){ cell.style.background='#fee2e2'; setTimeout(()=>cell.style.background='',400); return; }
+        playAudioSmart(url, cell);
         return;
       }
       const nav = e.target.closest('[data-page-target]');
@@ -338,6 +380,22 @@
       const retry = e.target.closest('[data-action="reload"]');
       if(retry){ location.reload(); }
     });
+
+    // —— 預抓事件：桌機用 mouseenter、行動用 touchstart —— 
+    function setupAudioPrefetchListeners(){
+      if (DISABLE_PREFETCH) return;
+      if (!IS_TOUCH) {
+        document.addEventListener('mouseenter', (e)=>{
+          const btn = e.target.closest('.audio-button'); if(!btn) return;
+          const url = btn.getAttribute('data-audio-url'); if(url) ensureAudio(url).catch(()=>{});
+        }, true);
+      }
+      document.addEventListener('touchstart', (e)=>{
+        const btn = e.target.closest('.audio-button'); if(!btn) return;
+        const url = btn.getAttribute('data-audio-url'); if(url) ensureAudio(url).catch(()=>{});
+      }, { passive:true });
+    }
+    setupAudioPrefetchListeners();
 
     // ========== 狀態與渲染 ==========
     let selectedFilter = sessionStorage.getItem('selectedFilter') || 'all';
@@ -356,7 +414,7 @@
 
       let legendHTML='<ul class="legend">';
       existing.forEach(t=>{
-        const name = tagNames[t] || t;
+        const name = tagNames[t] || t;  // 使用全域中文名稱
         const cls=(t==='all')?'tag-all':`tag-${t}`;
         const sel=(t===selectedFilter)?'selected':'';
         legendHTML+=`<li class="legend-item ${cls} ${sel}" data-filter="${t}">${name}</li>`;
@@ -396,6 +454,23 @@
 
       renderCards(contentId);
       highlightIfPending(contentId);
+
+      // —— 預載本頁可見的 phoneme 音檔
+      if (!DISABLE_PREFETCH){
+        setTimeout(()=>{ 
+          try{
+            const grid = document.getElementById(`teaching-grid-${contentId}`);
+            if(!grid) return;
+            const urls = new Set();
+            grid.querySelectorAll('.phoneme-box').forEach(cell=>{
+              const raw = isPhonicsMode ? cell.innerHTML : cell.textContent;
+              const u = phonemeUrl(raw, isPhonicsMode);
+              if(u) urls.add(u);
+            });
+            Array.from(urls).slice(0, PREFETCH_PHONEMES).forEach(u=>{ ensureAudio(u).catch(()=>{}); });
+          }catch(e){}
+        }, 0);
+      }
     }
 
     function renderCards(contentId){
@@ -447,6 +522,14 @@
         grid.insertAdjacentHTML('beforeend',card);
       });
       applyFilters(contentId);
+
+      // —— 預載前幾個單字發音
+      if (!DISABLE_PREFETCH){
+        try{
+          const warm = (currentTopicData||[]).slice(0, PREFETCH_WORDS).map(w => audioUrlForWord(w)).filter(Boolean);
+          warm.forEach(u=>{ ensureAudio(u).catch(()=>{}); });
+        }catch(e){}
+      }
     }
 
     function applyFilters(contentId){
@@ -525,7 +608,8 @@
       const lv = topic?.levels?.[levelIndex];
       if(!lv) return;
 
-      levelFolder = (lv.src||'').replace(/^data/,'').replace(/^\//,'').replace(/\.json$/,'');
+      // e.g. data/numbers-1.json -> numbers-1
+      levelFolder = (lv.src||'').replace(/^data\//,'').replace(/\.json$/,'').replace(/^\//,'');
 
       if(!CACHE.data[lv.src] && !loadingState.has(lv.src)){
         const t = document.getElementById(contentId);
@@ -550,6 +634,7 @@
         initTopicPage(contentId);
       }
     }
+    // 對外只暴露命名空間
     window.PhonicsApp.showPage = showPage;
 
     function buildHomeAndSections(){
