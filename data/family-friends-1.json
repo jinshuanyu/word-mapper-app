@@ -5,8 +5,8 @@
       "word": "baby",
       "ipa": "/ˈbeɪ.bi/",
       "graphemes": ["b","a","b","y"],
-      "phonemes": ["/ˈb","eɪ","b","i/"],
-      "phonics":  ["/b","ā","b","ē/"],
+      "phonemes": ["/'b","eɪ","b","i/"],
+      "phonics":  ["/'b","ā","b","ē/"],
       "tags": ["open"],
       "hearts": [false,false,false,false],
       "hint": "字尾 y → 長母音 e /i/。"
@@ -27,7 +27,7 @@
       "word": "brother",
       "ipa": "/ˈbrʌð.ər/",
       "graphemes": ["b","r","o","th","er"],
-      "phonemes": ["/ˈb","r","ʌ","ð","ɚ/"],
+      "phonemes": ["/'b","r","ʌ","ð","ɚ/"],
       "phonics":  ["/'b","r","ŭ","<u>th</u>","er/"],
       "tags": ["cluster","digraph","rcontrolled"],
       "hearts": [false,false,true,false,false],
@@ -148,8 +148,8 @@
       "word": "grandma",
       "ipa": "/ˈɡræn.mɑ/",
       "graphemes": ["g","r","a","n","d","m","a"],
-      "phonemes": ["/ˈɡ","r","æ","n","-","m","ɑ/"],
-      "phonics":  ["/g","r","ă","n","-","m","ä/"],
+      "phonemes": ["/'ɡ","r","æ","n","-","m","ɑ/"],
+      "phonics":  ["/'g","r","ă","n","-","m","ŏ/"],
       "tags": [],
       "hearts": [false,false,false,false,true,false,false],
       "hint": "口語；d 不發音。"
@@ -159,7 +159,7 @@
       "word": "grandmother",
       "ipa": "/ˈɡrændˌmʌð.ər/",
       "graphemes": ["g","r","a","n","d","m","o","th","er"],
-      "phonemes": ["/ˈɡ","r","æ","n","-","ˌm","ʌ","ð","ɚ/"],
+      "phonemes": ["/'ɡ","r","æ","n","-","ˌm","ʌ","ð","ɚ/"],
       "phonics":  ["/'g","r","ă","n","-","m","ŭ","<u>th</u>","er/"],
       "tags": ["digraph","rcontrolled"],
       "hearts": [false,false,false,false,true,false,true,false,false],
@@ -170,7 +170,7 @@
       "word": "grandpa",
       "ipa": "/ˈɡræn.pɑ/",
       "graphemes": ["g","r","a","n","d","p","a"],
-      "phonemes": ["/ˈɡ","r","æ","n","-","p","ɑ/"],
+      "phonemes": ["/'ɡ","r","æ","n","-","p","ɑ/"],
       "phonics":  ["/'g","r","ă","n","-","p","ŏ/"],
       "tags": [],
       "hearts": [false,false,false,false,true,false,false],
@@ -322,5 +322,6 @@
     }
   ]
 }
+
 
 
