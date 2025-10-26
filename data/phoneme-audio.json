@@ -36,54 +36,49 @@
     "<u>th</u>": "audio/phonemes/c10.mp3",
 
 
-    "iː": "audio/phonemes/i_long.mp3",
+    "i": "audio/phonemes/i_long.mp3",
     "ɪ": "audio/phonemes/i_short.mp3",
-    "e": "audio/phonemes/e_mid.mp3",
-    "ɛ": "audio/phonemes/e_mid.mp3",
+    "ɛ": "audio/phonemes/e_short.mp3",
     "æ": "audio/phonemes/a_short.mp3",
     "ʌ": "audio/phonemes/uh.mp3",
-    "ɑː": "audio/phonemes/a_long.mp3",
-    "ɒ": "audio/phonemes/o_short.mp3",
-    "ɔː": "audio/phonemes/o_long.mp3",
+    "ɑ": "audio/phonemes/o_short.mp3",
+    "ɔ": "audio/phonemes/aw.mp3",
     "ʊ": "audio/phonemes/u_short.mp3",
-    "uː": "audio/phonemes/u_long.mp3",
-    "ɜː": "audio/phonemes/er_long.mp3",
+    "u": "audio/phonemes/u_long.mp3",
+
     "ə": "audio/phonemes/schwa.mp3",
 
-    "eɪ": "audio/phonemes/ai.mp3",
-    "aɪ": "audio/phonemes/eye.mp3",
+    "eɪ": "audio/phonemes/a_along.mp3",
+    "aɪ": "audio/phonemes/i_long.mp3",
     "ɔɪ": "audio/phonemes/oi.mp3",
     "aʊ": "audio/phonemes/ow.mp3",
-    "oʊ": "audio/phonemes/oh.mp3",
+    "oʊ": "audio/phonemes/o_long.mp3",
+        "oo": "audio/phonemes/u_short.mp3",
 
-    "ē": "audio/phonemes/i_long.mp3",
-    "ī": "audio/phonemes/eye.mp3",
-    "ō": "audio/phonemes/oh.mp3",
-    "ā": "audio/phonemes/ai.mp3",
+    "ē": "audio/phonemes/e_long.mp3",
+    "ī": "audio/phonemes/i_long.mp3",
+    "ō": "audio/phonemes/o_long.mp3",
+    "ā": "audio/phonemes/a_long.mp3",
     "ū": "audio/phonemes/u_long.mp3",
 
-    "ĕ": "audio/phonemes/e_mid.mp3",
+    "ĕ": "audio/phonemes/e_short.mp3",
     "ĭ": "audio/phonemes/i_short.mp3",
     "ŏ": "audio/phonemes/o_short.mp3",
-    "ŭ": "audio/phonemes/uh.mp3",
+    "ŭ": "audio/phonemes/u_short.mp3",
     "ă": "audio/phonemes/a_short.mp3",
 
-    "ai": "audio/phonemes/ai.mp3",
+    "ar": "audio/phonemes/ar.mp3",
     "oi": "audio/phonemes/oi.mp3",
     "ow": "audio/phonemes/ow.mp3",
-    "oh": "audio/phonemes/oh.mp3",
+    "or": "audio/phonemes/or.mp3",
 
-    "er": "audio/phonemes/er_long.mp3",
-    "ər": "audio/phonemes/er_long.mp3",
+    "er": "audio/phonemes/er_unstressed.mp3",
 
-    "i": "audio/phonemes/i_long.mp3",
-    "u": "audio/phonemes/u_long.mp3",
-    "ɔ": "audio/phonemes/o_long.mp3",
-    "ɜ": "audio/phonemes/er_long.mp3",
-    "ɜr": "audio/phonemes/er_long.mp3",
-    "ɝ": "audio/phonemes/er_long.mp3",
-    "ɚ": "audio/phonemes/er_long.mp3",
 
-    "aw": "audio/phonemes/o_long.mp3"
+
+    "ɝ": "audio/phonemes/er_stressed.mp3",
+    "ɚ": "audio/phonemes/er_unstressed.mp3",
+
+    "aw": "audio/phonemes/aw.mp3"
   }
 }
