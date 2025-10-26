@@ -75,46 +75,23 @@
     .badges{display:flex;gap:.5rem;flex-wrap:nowrap;overflow:auto;white-space:nowrap;padding-bottom:.25rem;margin-bottom:.25rem;-webkit-overflow-scrolling:touch}
     .badges .category-tag{flex:0 0 auto}
 
-/* Replace the existing .boxes-grid styles */
-.boxes-grid {
-  display: inline-grid;
-  grid-auto-rows: auto;
-  border: 2px solid #94a3b8;
-  border-radius: 8px;
-  overflow: hidden;  /* Change from 'auto' to 'hidden' */
-  grid-auto-columns: 1fr;  /* Equal width columns instead of max-content */
-  justify-content: stretch;  /* Stretch instead of start */
-  align-content: start;
-  width: 100%;  /* Full width instead of max-content */
-  max-width: 100%;
-}
-
-/* Update box styles to prevent size changes */
-.box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 54px;
-  padding: .35rem .5rem;
-  text-align: center;
-  font-size: 1.35rem;
-  font-weight: 700;
-  border-right: 2px solid #cbd5e1;
-  overflow: hidden;  /* Prevent content overflow */
-  word-break: break-word;  /* Break long words if needed */
-}
-
-/* Prevent hover from changing layout */
-.phoneme-box:hover {
-  background: #f0f9ff;
-  transform: none;  /* Remove scale transform that causes overflow */
-  position: relative;
-  z-index: 1;
-  box-shadow: 0 0 0 2px #3b82f6;  /* Use shadow instead of transform */
-}
+    .boxes-grid{
+      display:grid;
+      grid-auto-rows:auto;
+      border:2px solid #94a3b8;
+      border-radius:8px;
+      overflow:auto;
+      grid-auto-columns:max-content;
+      justify-content:start;
+      align-content:start;
+      width:max-content;
+      max-width:100%;
+    }
+    .box{display:flex;align-items:center;justify-content:center;min-height:54px;padding:.35rem .5rem;text-align:center;font-size:1.35rem;font-weight:700;border-right:2px solid #cbd5e1}
+    .box:last-child{border-right:none}
     .grapheme-box{background:#f1f5f9;color:#1e293b;position:relative;font-family:'Inter','Noto Sans TC',sans-serif;border-bottom:2px solid #cbd5e1;grid-row:1}
     .phoneme-box{background:#fff;color:#475569;font-family:'Noto Sans',sans-serif;font-size:1.15rem;font-weight:400;grid-row:2;transition:.2s;cursor:pointer;user-select:none}
-
+    .phoneme-box:hover{background:#f0f9ff;transform:none}
     .phoneme-box:active{background:#dbeafe}
     .phoneme-box.is-phonics{font-family:'Inter','Noto Sans TC',sans-serif;font-size:1.25rem;color:#0f172a;font-weight:500}
     .heart-symbol{position:absolute;bottom:-2px;left:0;right:0;text-align:center;color:#ef4444;font-size:1rem;line-height:1}
