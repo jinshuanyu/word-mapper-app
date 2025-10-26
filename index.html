@@ -211,22 +211,23 @@
     }
 
     // ========== 全域：標籤中文 ==========
-    const tagNames = {
-      all:'全部',
-      irregular:'不規則拼寫',
-      closed:'閉音節-短母音',
-      floss:'重複子音字尾 (FLOSS-Z)',
-      digraph:'雙字母子音',
-      cluster:'子音群',
-      suffix:'字尾後綴',
-      rcontrolled:'母音 + 'r'',
-      open:'開音節-長母音',
-      cle:'子音 '-LE'',
-      magic_e:'長母音 + 靜音 'e'',
-      vowel_team:'母音組合',
-      diphthong:'雙母音',
-      silent_consonant:'不發音子音字母'
-    };
+const tagNames = {
+  all: "全部",
+  irregular: "不規則拼寫",
+  closed: "閉音節-短母音",
+  floss: "重複子音字尾 (FLOSS-Z)",
+  digraph: "雙字母子音",
+  cluster: "子音群",
+  suffix: "字尾後綴",
+  rcontrolled: "母音 + 'r'",
+  open: "開音節-長母音",
+  cle: "子音 + 'le'",
+  magic_e: "長母音 + 靜音 'e'",
+  vowel_team: "母音組合",
+  diphthong: "雙母音",
+  silent_consonant: "不發音子音字母"
+};
+
 
     // ========== 基本狀態 ==========
     const TOPICS_URL = 'topics.json';
