@@ -29,11 +29,12 @@
     "sh": "audio/phonemes/c13.mp3",
     "zh": "audio/phonemes/c14.mp3",
     "ch": "audio/phonemes/c15.mp3",
-    "-j-": "audio/phonemes/c16.mp3"
+    "-j-": "audio/phonemes/c16.mp3",
     "ng": "audio/phonemes/c20.mp3",
-    "y": "audio/phonemes/c24.mp3",
+    "y":  "audio/phonemes/c24.mp3",
     "th": "audio/phonemes/c9.mp3",
     "<u>th</u>": "audio/phonemes/c10.mp3",
+
 
     "iː": "audio/phonemes/i_long.mp3",
     "ɪ": "audio/phonemes/i_short.mp3",
