@@ -45,6 +45,8 @@
     "ɔ": "audio/phonemes/aw.mp3",
     "ʊ": "audio/phonemes/oo.mp3",
     "u": "audio/phonemes/u_long.mp3",
+        "ɔr": "audio/phonemes/or.mp3",
+            "ɑr": "audio/phonemes/ar.mp3",
 
     "ə": "audio/phonemes/schwa.mp3",
 
