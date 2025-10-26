@@ -314,7 +314,10 @@ function phonemeUrl(raw, isPhonics){
           </label>
           <span class="toggle-label-phonics">簡化音標</span>
         </div>
-        <p class="attribution-note">點 <strong>🔊</strong> 播整字；點<strong>音素格子</strong>播個別音素（對照來自 <code>data/phoneme-audio.json</code>）。</p>
+                  <p class="attribution-note">
+            IPA 根據<a href="https://christinayu_english.rakosell.com/zh/page/american-ipa-guide" target="_blank">美式英語 IPA 國際音標指南</a><br>
+            Phonics 根據 <a href="https://ufli.education.ufl.edu/wp-content/uploads/2023/09/UFLI-Sound-Wall-rev.pdf" target="_blank">UFLI phonemes</a>
+          </p>
       `;
 
       cnt.innerHTML=legendHTML+toggleHTML+`<div class="topic-grid" id="teaching-grid-${contentId}"></div>`;
