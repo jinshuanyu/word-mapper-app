@@ -1,0 +1,326 @@
+{
+  "items": [
+    {
+      "number": "嬰兒；寶貝",
+      "word": "baby",
+      "ipa": "/ˈbeɪ.bi/",
+      "graphemes": ["b","a","b","y"],
+      "phonemes": ["/ˈb","eɪ","b","i/"],
+      "phonics":  ["/b","ā","b","ē/"],
+      "tags": ["open"],
+      "hearts": [false,false,false,false],
+      "hint": "字尾 y → 長母音 e /i/。"
+    },
+    {
+      "number": "男孩",
+      "word": "boy",
+      "ipa": "/bɔɪ/",
+      "graphemes": ["b","oy"],
+      "phonemes": ["/b","ɔɪ/"],
+      "phonics":  ["/b","oi/"],
+      "tags": ["diphthong"],
+      "hearts": [false,false],
+      "hint": "oy 為雙母音 /ɔɪ/。"
+    },
+    {
+      "number": "兄弟",
+      "word": "brother",
+      "ipa": "/ˈbrʌð.ər/",
+      "graphemes": ["b","r","o","th","er"],
+      "phonemes": ["/ˈb","r","ʌ","ð","ɚ/"],
+      "phonics":  ["/'b","r","ŭ","<u>th</u>","er/"],
+      "tags": ["cluster","digraph","rcontrolled"],
+      "hearts": [false,false,true,false,false],
+      "hint": "o 發短母音 u /ʌ/；th 發有聲吐舌音 /ð/。"
+    },
+    {
+      "number": "小孩",
+      "word": "child",
+      "ipa": "/tʃaɪld/",
+      "graphemes": ["ch","i","l","d"],
+      "phonemes": ["/tʃ","aɪ","l","d/"],
+      "phonics":  ["/ch","ī","l","d/"],
+      "tags": ["digraph"],
+      "hearts": [false,false,false,false],
+      "hint": "i 為長母音 /aɪ/。"
+    },
+    {
+      "number": "小孩們",
+      "word": "children",
+      "ipa": "/ˈtʃɪl.drən/",
+      "graphemes": ["ch","i","l","d","r","e","n"],
+      "phonemes": ["/ˈtʃ","ɪ","l","d","r","ə","n/"],
+      "phonics":  ["/'ch","ĭ","l","d","r","ə","n/"],
+      "tags": ["closed","cluster"],
+      "hearts": [false,false,false,false,false,false,false],
+      "hint": "i 為短母音 /ɪ/。"
+    },
+    {
+      "number": "同學",
+      "word": "classmate",
+      "ipa": "/ˈklæs.meɪt/",
+      "graphemes": ["c","l","a","ss","m","a","t","e"],
+      "phonemes": ["/ˈk","l","æ","s","m","eɪ","t","-/"],
+      "phonics":  ["/'k","l","ă","s","m","ā","t","-/"],
+      "tags": ["closed","magic_e"],
+      "hearts": [false,false,false,false,false,false,false,false,false],
+      "hint": "複合名詞 class + mate。"
+    },
+    {
+      "number": "堂表兄弟姐妹",
+      "word": "cousin",
+      "ipa": "/ˈkʌz.ən/",
+      "graphemes": ["c","ou","s","i","n"],
+      "phonemes": ["/ˈk","ʌ","z","ə","n/"],
+      "phonics":  ["/'k","ŭ","z","ə","n/"],
+      "tags": ["irregular"],
+      "hearts": [false,true,false,false,false],
+      "hint": "ou 發短母音 u /ʌ/；s 發 /z/。"
+    },
+    {
+      "number": "爸爸",
+      "word": "dad",
+      "ipa": "/dæd/",
+      "graphemes": ["d","a","d"],
+      "phonemes": ["/d","æ","d/"],
+      "phonics":  ["/d","ă","d/"],
+      "tags": ["closed"],
+      "hearts": [false,false,false],
+      "hint": "閉音節-短母音"
+    },
+    {
+      "number": "家人；家庭",
+      "word": "family",
+      "ipa": "/ˈfæm.ə.li/",
+      "graphemes": ["f","a","m","i","l","y"],
+      "phonemes": ["/ˈf","æ","m","ə","l","i/"],
+      "phonics":  ["/'f","ă","m","ə","l","ē/"],
+      "tags": ["closed","open"],
+      "hearts": [false,false,false,false,false,false],
+      "hint": "i 弱化為 /ə/；y 發長母音 e /i/。"
+    },
+    {
+      "number": "爸爸",
+      "word": "father",
+      "ipa": "/ˈfɑ.ðər/",
+      "graphemes": ["f","a","th","er"],
+      "phonemes": ["/ˈf","ɑ","ð","ɚ/"],
+      "phonics":  ["/'f","ŏ","<u>th</u>","er/"],
+      "tags": ["digraph","rcontrolled"],
+      "hearts": [false,true,false,false],
+      "hint": "a 發短母音 o /a/；th 發有聲吐舌音 /ð/。"
+    },
+    {
+      "number": "朋友",
+      "word": "friend",
+      "ipa": "/frɛnd/",
+      "graphemes": ["f","r","ie","n","d"],
+      "phonemes": ["/f","r","ɛ","n","d/"],
+      "phonics":  ["/f","r","ĕ","n","d/"],
+      "tags": ["cluster","irregular"],
+      "hearts": [false,false,true,false,false],
+      "hint": "ie 發短母音 e /ɛ/。"
+    },
+    {
+      "number": "女孩",
+      "word": "girl",
+      "ipa": "/ɡɝl/",
+      "graphemes": ["g","ir","l"],
+      "phonemes": ["/ɡ","ɝ","l/"],
+      "phonics":  ["/g","er","l/"],
+      "tags": ["rcontrolled"],
+      "hearts": [false,false,false],
+      "hint": "ir → /ɝ/。"
+    },
+    {
+      "number": "爺爺",
+      "word": "grandfather",
+      "ipa": "/ˈɡrændˌfɑ.ðər/",
+      "graphemes": ["g","r","a","n","d","f","a","th","er"],
+      "phonemes": ["/ˈɡ","r","æ","n","-","ˌf","ɑ","ð","ɚ/"],
+      "phonics":  ["/'g","r","ă","n","-","f","ŏ","<u>th</u>","er/"],
+      "tags": ["digraph","rcontrolled"],
+      "hearts": [false,false,false,false,true,false,true,false,false],
+      "hint": "複合名詞 grand + father；d 不發音。"
+    },
+    {
+      "number": "奶奶",
+      "word": "grandma",
+      "ipa": "/ˈɡræn.mɑ/",
+      "graphemes": ["g","r","a","n","d","m","a"],
+      "phonemes": ["/ˈɡ","r","æ","n","-","m","ɑ/"],
+      "phonics":  ["/g","r","ă","n","-","m","ä/"],
+      "tags": [],
+      "hearts": [false,false,false,false,true,false,false],
+      "hint": "口語；d 不發音。"
+    },
+    {
+      "number": "奶奶",
+      "word": "grandmother",
+      "ipa": "/ˈɡrændˌmʌð.ər/",
+      "graphemes": ["g","r","a","n","d","m","o","th","er"],
+      "phonemes": ["/ˈɡ","r","æ","n","-","ˌm","ʌ","ð","ɚ/"],
+      "phonics":  ["/'g","r","ă","n","-","m","ŭ","<u>th</u>","er/"],
+      "tags": ["digraph","rcontrolled"],
+      "hearts": [false,false,false,false,true,false,true,false,false],
+      "hint": "複合名詞 grand + mother；d 不發音。"
+    },
+    {
+      "number": "爺爺",
+      "word": "grandpa",
+      "ipa": "/ˈɡræn.pɑ/",
+      "graphemes": ["g","r","a","n","d","p","a"],
+      "phonemes": ["/ˈɡ","r","æ","n","-","p","ɑ/"],
+      "phonics":  ["/'g","r","ă","n","-","p","ŏ/"],
+      "tags": [],
+      "hearts": [false,false,false,false,true,false,false],
+      "hint": "口語；d 不發音。"
+    },
+    {
+      "number": "小孩",
+      "word": "kid",
+      "ipa": "/kɪd/",
+      "graphemes": ["k","i","d"],
+      "phonemes": ["/k","ɪ","d/"],
+      "phonics":  ["/k","ĭ","d/"],
+      "tags": ["closed"],
+      "hearts": [false,false,false],
+      "hint": "短 i /ɪ/。"
+    },
+    {
+      "number": "住；活",
+      "word": "live",
+      "ipa": "/lɪv/",
+      "graphemes": ["l","i","v","e"],
+      "phonemes": ["/l","ɪ","v","-/"],
+      "phonics":  ["/l","ĭ","v","-/"],
+      "tags": ["irregular"],
+      "hearts": [false,false,false,true],
+      "speak": "to live",
+      "hint": "v 字尾後面補靜音 e。"
+    },
+    {
+      "number": "男人",
+      "word": "man",
+      "ipa": "/mæn/",
+      "graphemes": ["m","a","n"],
+      "phonemes": ["/m","æ","n/"],
+      "phonics":  ["/m","ă","n/"],
+      "tags": ["closed"],
+      "hearts": [false,false,false],
+      "hint": "閉音節-短母音。"
+    },
+    {
+      "number": "男人們",
+      "word": "men",
+      "ipa": "/mɛn/",
+      "graphemes": ["m","e","n"],
+      "phonemes": ["/m","ɛ","n/"],
+      "phonics":  ["/m","ĕ","n/"],
+      "tags": ["closed"],
+      "hearts": [false,false,false],
+      "hint": "閉音節-短母音。"
+    },
+    {
+      "number": "媽媽",
+      "word": "mother",
+      "ipa": "/ˈmʌð.ər/",
+      "graphemes": ["m","o","th","er"],
+      "phonemes": ["/ˈm","ʌ","ð","ɚ/"],
+      "phonics":  ["/m","ŭ","<u>th</u>","er/"],
+      "tags": ["digraph","irregular","rcontrolled"],
+      "hearts": [false,true,false,false],
+      "hint": "o 發短母音 u /ʌ/；th 發有聲吐舌音 /ð/。"
+    },
+    {
+      "number": "媽媽",
+      "word": "mum",
+      "ipa": "/mʌm/",
+      "graphemes": ["m","u","m"],
+      "phonemes": ["/m","ʌ","m/"],
+      "phonics":  ["/m","ŭ","m/"],
+      "tags": ["closed"],
+      "hearts": [false,false,false],
+      "hint": "英式稱呼。"
+    },
+    {
+      "number": "年老的；舊的",
+      "word": "old",
+      "ipa": "/oʊld/",
+      "graphemes": ["o","l","d"],
+      "phonemes": ["/oʊ","l","d/"],
+      "phonics":  ["/ō","l","d/"],
+      "tags": ["open"],
+      "hearts": [false,false,false],
+      "hint": "o 發長母音 /oʊ/。"
+    },
+    {
+      "number": "人",
+      "word": "person",
+      "ipa": "/ˈpɝ.sən/",
+      "graphemes": ["p","er","s","o","n"],
+      "phonemes": ["/ˈp","ɝ","s","ə","n/"],
+      "phonics":  ["/'p","er","s","ə","n/"],
+      "tags": ["rcontrolled"],
+      "hearts": [false,false,false,false,false],
+      "hint": " "
+    },
+    {
+      "number": "人們",
+      "word": "people",
+      "ipa": "/ˈpi.pəl/",
+      "graphemes": ["p","eo","p","le"],
+      "phonemes": ["/ˈp","i","p","əl/"],
+      "phonics":  ["/'p","ē","p","əl/"],
+      "tags": ["irregular"],
+      "hearts": [false,true,false,false],
+      "hint": "eo 發長母音 e /i/。"
+    },
+    {
+      "number": "姐妹",
+      "word": "sister",
+      "ipa": "/ˈsɪs.tər/",
+      "graphemes": ["s","i","s","t","er"],
+      "phonemes": ["/ˈs","ɪ","s","t","ɚ/"],
+      "phonics":  ["/'s","ĭ","s","t","er/"],
+      "tags": ["closed","rcontrolled"],
+      "hearts": [false,false,false,false,false],
+      "hint": " "
+    },
+    {
+      "number": "女人",
+      "word": "woman",
+      "ipa": "/ˈwʊ.mən/",
+      "graphemes": ["w","o","m","a","n"],
+      "phonemes": ["/ˈw","ʊ","m","ə","n/"],
+      "phonics":  ["/'w","oo","m","ə","n/"],
+      "tags": ["irregular"],
+      "hearts": [false,true,false,false,false],
+      "hint": "wo → /wʊ/。"
+    },
+    {
+      "number": "女人們",
+      "word": "women",
+      "ipa": "/ˈwɪ.mɪn/",
+      "graphemes": ["w","o","m","e","n"],
+      "phonemes": ["/ˈw","ɪ","m","ɪ","n/"],
+      "phonics":  ["/'w","ĭ","m","ĭ","n/"],
+      "tags": ["irregular"],
+      "hearts": [false,true,false,true,false],
+      "hint": "兩個 i 都是短母音 /ɪ/。"
+    },
+    {
+      "number": "年輕的",
+      "word": "young",
+      "ipa": "/jʌŋ/",
+      "graphemes": ["y","ou","ng"],
+      "phonemes": ["/j","ʌ","ŋ/"],
+      "phonics":  ["/y","ŭ","ŋ/"],
+      "tags": ["digraph","closed"],
+      "hearts": [false,true,false],
+      "hint": "ou 發短母音 u /ʌ/。"
+    }
+  ]
+}
+
+

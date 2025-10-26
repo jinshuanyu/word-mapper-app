@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "number": 11,
+      "word": "eleven",
+      "ipa": "/ɪˈlɛv.ən/",
+      "graphemes": ["e","l","e","v","e","n"],
+      "phonemes": ["/ɪ","'l","ɛ","v","ə","n/"],
+      "phonics":  ["/ĭ","'l","ĕ","v","ə","n/"],
+      "tags": ["irregular","closed"],
+      "hearts": [true,false,false,false,false,false],
+      "hint": "第一個 e 發短 i /ɪ/；第二個 e 發短 e /ĕ/；第三個 e 發弱化 /ə/。"
+    },
+    {
+      "number": 12,
+      "word": "twelve",
+      "ipa": "/twɛlv/",
+      "graphemes": ["t","w","e","l","v","e"],
+      "phonemes": ["/t","w","ɛ","l","v","-/"],
+      "phonics":  ["/t","w","ĕ","l","v","-/"],
+      "tags": ["closed","irregular"],
+      "hearts": [false,false,false,false,false,true],
+      "hint": "e 發短母音 e /ɛ/；v 字尾補靜音 e。"
+    },
+    {
+      "number": 13,
+      "word": "thirteen",
+      "ipa": "/ˈθɜr.tiːn/",
+      "graphemes": ["th","ir","t","ee","n"],
+      "phonemes": ["/θ","ɝ","'t","i","n/"],
+      "phonics":  ["/th","er","'t","ē","n/"],
+      "tags": ["digraph","rcontrolled","vowel_team"],
+      "hearts": [false,false,false,false,false],
+      "hint": "th 發無聲吐舌音 /θ/。"
+    },
+    {
+      "number": 14,
+      "word": "fourteen",
+      "ipa": "/ˈfɔr.tiːn/",
+      "graphemes": ["f","our","t","ee","n"],
+      "phonemes": ["/f","ɔr","'t","i","n/"],
+      "phonics":  ["/f","or","'t","ē","n/"],
+      "tags": ["irregular","vowel_team"],
+      "hearts": [false,true,false,false,false],
+      "hint": "four + teen；ou → /ɔ/。"
+    },
+    {
+      "number": 15,
+      "word": "fifteen",
+      "ipa": "/fɪfˈtiːn/",
+      "graphemes": ["f","i","f","t","ee","n"],
+      "phonemes": ["/f","ɪ","f","'t","i","n/"],
+      "phonics":  ["/f","ĭ","f","'t","ē","n/"],
+      "tags": ["closed","vowel_team"],
+      "hearts": [false,false,true,false,false,false],
+      "hint": "前半是 fif 不是 five。"
+    },
+    {
+      "number": 16,
+      "word": "sixteen",
+      "ipa": "/sɪkˈstiːn/",
+      "graphemes": ["s","i","x","t","ee","n"],
+      "phonemes": ["/s","ɪ","ks","'t","i","n/"],
+      "phonics":  ["/s","ĭ","ks","'t","ē","n/"],
+      "tags": ["closed","vowel_team"],
+      "hearts": [false,false,false,false,false,false],
+      "hint": "six + teen。"
+    },
+    {
+      "number": 17,
+      "word": "seventeen",
+      "ipa": "/ˌsɛv.ənˈtiːn/",
+      "graphemes": ["s","e","v","e","n","t","ee","n"],
+      "phonemes": ["/s","ɛ","v","ə","n","'t","i","n/"],
+      "phonics":  ["/s","ĕ","v","ə","n","'t","ē","n/"],
+      "tags": ["closed","vowel_team"],
+      "hearts": [false,false,false,false,false,false,false,false],
+      "hint": "seven + teen。"
+    },
+    {
+      "number": 18,
+      "word": "eighteen",
+      "ipa": "/eɪˈtiːn/",
+      "graphemes": ["eigh","t","ee","n"],
+      "phonemes": ["/eɪ","'t","i","n/"],
+      "phonics":  ["/ā","'t","ē","n/"],
+      "tags": ["vowel_team"],
+      "hearts": [true,false,false,false],
+      "hint": "中間只有一個 t；eigh → /eɪ/。"
+    },
+    {
+      "number": 19,
+      "word": "nineteen",
+      "ipa": "/ˌnaɪnˈtiːn/",
+      "graphemes": ["n","i","n","e","t","ee","n"],
+      "phonemes": ["/n","aɪ","n","-","'t","i","n/"],
+      "phonics":  ["/n","ī","n","-","'t","ē","n/"],
+      "tags": ["magic_e","vowel_team"],
+      "hearts": [false,false,false,false,false,false,false],
+      "hint": "nine + teen。"
+    },
+    {
+      "number": 20,
+      "word": "twenty",
+      "ipa": "/ˈtwɛn.ti/",
+      "graphemes": ["t","w","e","n","t","y"],
+      "phonemes": ["/'t","w","ɛ","n","t","i/"],
+      "phonics":  ["/'t","w","ĕ","n","t","ē/"],
+      "tags": ["cluster","closed","open"],
+      "hearts": [false,false,false,false,false,false],
+      "hint": "字尾 y 發長母音 e /i/。"
+    }
+  ]
+}
+
