@@ -64,7 +64,7 @@
 
     .card-header{display:flex;justify-content:space-between;align-items:center;padding:1rem 1.25rem;background:#f1f5f9;border-bottom:2px solid #e2e8f0}
     .card-title{display:flex;align-items:baseline;gap:.6rem}
-    .word-number{font-size:1.1rem;font-weight:700;color:#64748b}
+    .word-number{font-size:1.3rem;font-weight:700;color:#475569} /* 放大且去掉 # */
     .word-text{font-size:1.9rem;font-weight:800;color:#0f172a}
 
     .audio-button{font-size:2rem;cursor:pointer;background:none;border:none;padding:0;line-height:1;transition:transform .1s}
@@ -194,6 +194,24 @@
       return String(val).replace(/&/g,'&amp;').replace(/"/g,'&quot;');
     }
 
+    // ========== 全域：標籤中文 ==========
+    const tagNames = {
+      all:'全部',
+      irregular:'不規則',
+      closed:'閉音節',
+      floss:'floss',
+      digraph:'雙字母',
+      cluster:'子音群',
+      suffix:'字尾',
+      rcontrolled:'r控制',
+      open:'開音節',
+      cle:'字尾le',
+      magic_e:'靜音e',
+      vowel_team:'母音組合',
+      diphthong:'雙母音',
+      silent_consonant:'不發音子音'
+    };
+
     // ========== 基本狀態 ==========
     const TOPICS_URL = 'topics.json';
     const CACHE = { topics: null, data: {} };
@@ -239,20 +257,20 @@
       .then(j => { PHONEME = j || {files:{}}; })
       .catch(()=>{ /* 忽略，查不到就不播 */ });
 
-function phonemeUrl(raw, isPhonics){
-  // First try exact match
-  if (PHONEME.files && PHONEME.files[raw]) return PHONEME.files[raw];
-  
-  // Clean: remove HTML tags, slashes, accent marks, and spaces
-  const key = String(raw)
-    .replace(/<[^>]+>/g,'')        // Remove HTML tags
-    .replace(/'/g,'')               // Remove accent marks
-    .trim()
-    .replace(/^\/|\/$/g,'')         // Remove slashes
-    .replace(/\s+/g,'');            // Remove spaces
-    
-  return (PHONEME.files && PHONEME.files[key]) ? PHONEME.files[key] : null;
-}
+    function phonemeUrl(raw, isPhonics){
+      // First try exact match
+      if (PHONEME.files && PHONEME.files[raw]) return PHONEME.files[raw];
+
+      // Clean: remove HTML tags, slashes, accent marks, and spaces
+      const key = String(raw)
+        .replace(/<[^>]+>/g,'')        // Remove HTML tags
+        .replace(/'/g,'')               // Remove accent marks
+        .trim()
+        .replace(/^\/|\/$/g,'')         // Remove slashes
+        .replace(/\s+/g,'');            // Remove spaces
+
+      return (PHONEME.files && PHONEME.files[key]) ? PHONEME.files[key] : null;
+    }
 
     // ========== 事件委派（音訊 / 音素 / 導航 / 重試） ==========
     document.addEventListener('click', (e) => {
@@ -294,11 +312,9 @@ function phonemeUrl(raw, isPhonics){
       currentTopicData.forEach(w=>{ (w.tags||[]).forEach(t=>usedTags.add(t)); });
       const existing=allTags.filter(t=>usedTags.has(t));
 
-      const tagNames={ all:'全部',irregular:'不規則',closed:'閉音節',floss:'floss',digraph:'雙字母',cluster:'子音群',suffix:'字尾',rcontrolled:'r控制',open:'開音節',cle:'字尾le',magic_e:'靜音e',vowel_team:'母音組合',diphthong:'雙母音',silent_consonant:'不發音子音' };
-
       let legendHTML='<ul class="legend">';
       existing.forEach(t=>{
-        const name=tagNames[t]||t;
+        const name = tagNames[t] || t;  // 使用全域中文名稱
         const cls=(t==='all')?'tag-all':`tag-${t}`;
         const sel=(t===selectedFilter)?'selected':'';
         legendHTML+=`<li class="legend-item ${cls} ${sel}" data-filter="${t}">${name}</li>`;
@@ -314,10 +330,10 @@ function phonemeUrl(raw, isPhonics){
           </label>
           <span class="toggle-label-phonics">簡化音標</span>
         </div>
-                  <p class="attribution-note">
-            IPA 根據<a href="https://christinayu_english.rakosell.com/zh/page/american-ipa-guide" target="_blank">美式英語 IPA 國際音標指南</a><br>
-            Phonics 根據 <a href="https://ufli.education.ufl.edu/wp-content/uploads/2023/09/UFLI-Sound-Wall-rev.pdf" target="_blank">UFLI phonemes</a>
-          </p>
+        <p class="attribution-note">
+          IPA 根據<a href="https://christinayu_english.rakosell.com/zh/page/american-ipa-guide" target="_blank">美式英語 IPA 國際音標指南</a><br>
+          Phonics 根據 <a href="https://ufli.education.ufl.edu/wp-content/uploads/2023/09/UFLI-Sound-Wall-rev.pdf" target="_blank">UFLI phonemes</a>
+        </p>
       `;
 
       cnt.innerHTML=legendHTML+toggleHTML+`<div class="topic-grid" id="teaching-grid-${contentId}"></div>`;
@@ -346,7 +362,9 @@ function phonemeUrl(raw, isPhonics){
       grid.innerHTML='';
       currentTopicData.forEach(w=>{
         const tagsAttr = (w.tags||[]).join(',');
-        const badges = (w.tags||[]).map(t=>`<span class="category-tag tag-${t}">${escapeHtml(t)}</span>`).join('');
+        const badges = (w.tags||[])
+          .map(t => `<span class="category-tag tag-${t}">${escapeHtml(tagNames[t] || t)}</span>`)
+          .join('');
 
         const modeKey = isPhonicsMode?'phonics':'phonemes';
         const useArr = (w[modeKey]||w.phonemes||[]);
@@ -372,7 +390,7 @@ function phonemeUrl(raw, isPhonics){
           <article class="word-card" data-tags="${escapeAttr(tagsAttr)}" data-word="${escapeAttr(String(w.word||'').toLowerCase())}">
             <div class="card-header">
               <div class="card-title">
-                <span class="word-number">#${escapeHtml(w.number??'')}</span>
+                <span class="word-number">${escapeHtml(w.number ?? '')}</span>
                 <span class="word-text">${escapeHtml(w.word||'')}</span>
               </div>
               <button class="audio-button" data-audio-url="${escapeAttr(audioURL)}" aria-label="播放單字發音">🔊</button>
@@ -465,7 +483,7 @@ function phonemeUrl(raw, isPhonics){
       const lv = topic?.levels?.[levelIndex];
       if(!lv) return;
 
-      levelFolder = (lv.src||'').replace(/^data\//,'').replace(/\.json$/,'');
+      levelFolder = (lv.src||'').replace(/^data/,'').replace(/^\//,'').replace(/\.json$/,'');
 
       if(!CACHE.data[lv.src] && !loadingState.has(lv.src)){
         const t = document.getElementById(contentId);
