@@ -162,6 +162,16 @@
     /* —— 單字元著色（放在檔案最末，覆蓋任何先前規則） —— */
     .box.phoneme-box span.phoneme-vowel { color:#dc2626 !important; }     /* 紅 */
     .box.phoneme-box span.phoneme-consonant { color:#2563eb !important; } /* 藍 */
+    
+    /* 音檔預載中指示器 */
+    .phoneme-box.loading-audio::after {
+      content: '⏳';
+      position: absolute;
+      top: 2px;
+      right: 2px;
+      font-size: 0.8rem;
+      opacity: 0.5;
+    }
   </style>
 </head>
 
@@ -322,7 +332,7 @@
 
     // ====== 音檔快取（phoneme & 單字） ======
     const AUDIO_CACHE = new Map(); // url -> { blobUrl, t }
-    const CACHE_MAX = 120;         // 最多保留 120 個音檔
+    const CACHE_MAX = 300;         // 最多保留 300 個音檔（增加快取容量）
 
     function cachePut(url, blobUrl){
       AUDIO_CACHE.set(url, { blobUrl, t: Date.now() });
@@ -354,6 +364,27 @@
       cachePut(url, blobUrl);
       return blobUrl;
     }
+    
+    // Batch prefetch with concurrency control
+    async function batchPrefetch(urls, concurrency = 6) {
+      const urlArray = Array.from(urls);
+      const results = [];
+      
+      for (let i = 0; i < urlArray.length; i += concurrency) {
+        const batch = urlArray.slice(i, i + concurrency);
+        const batchPromises = batch.map(url => 
+          ensureAudio(url).catch(err => {
+            console.warn('Prefetch failed:', url, err);
+            return null;
+          })
+        );
+        const batchResults = await Promise.all(batchPromises);
+        results.push(...batchResults);
+      }
+      
+      return results;
+    }
+    
     async function playAudioSmart(url, btn){
       try{
         const src = await ensureAudio(url);
@@ -399,7 +430,8 @@
       }
       const cell = e.target.closest('.phoneme-box');
       if(cell){
-        const raw = isPhonicsMode ? cell.innerHTML : cell.textContent;
+        // Always use textContent to get clean text without HTML tags/color spans
+        const raw = cell.textContent;
         const url = phonemeUrl(raw, isPhonicsMode);
         if(!url){ cell.style.background='#fee2e2'; setTimeout(()=>cell.style.background='',400); return; }
         playAudioSmart(url, cell);
@@ -418,14 +450,38 @@
     function setupAudioPrefetchListeners(){
       if (DISABLE_PREFETCH) return;
       if (!IS_TOUCH) {
+        // Prefetch word audio on hover
         document.addEventListener('mouseenter', (e)=>{
-          const btn = e.target.closest('.audio-button'); if(!btn) return;
-          const url = btn.getAttribute('data-audio-url'); if(url) ensureAudio(url).catch(()=>{});
+          const btn = e.target.closest('.audio-button'); 
+          if(btn){
+            const url = btn.getAttribute('data-audio-url'); 
+            if(url) ensureAudio(url).catch(()=>{});
+            return;
+          }
+          // Prefetch phoneme audio on hover
+          const cell = e.target.closest('.phoneme-box');
+          if(cell){
+            const raw = cell.textContent;
+            const url = phonemeUrl(raw, isPhonicsMode);
+            if(url) ensureAudio(url).catch(()=>{});
+          }
         }, true);
       }
+      // Touch prefetch for mobile
       document.addEventListener('touchstart', (e)=>{
-        const btn = e.target.closest('.audio-button'); if(!btn) return;
-        const url = btn.getAttribute('data-audio-url'); if(url) ensureAudio(url).catch(()=>{});
+        const btn = e.target.closest('.audio-button'); 
+        if(btn){
+          const url = btn.getAttribute('data-audio-url'); 
+          if(url) ensureAudio(url).catch(()=>{});
+          return;
+        }
+        // Prefetch phoneme audio on touch
+        const cell = e.target.closest('.phoneme-box');
+        if(cell){
+          const raw = cell.textContent;
+          const url = phonemeUrl(raw, isPhonicsMode);
+          if(url) ensureAudio(url).catch(()=>{});
+        }
       }, { passive:true });
     }
     setupAudioPrefetchListeners();
@@ -488,21 +544,26 @@
       renderCards(contentId);
       highlightIfPending(contentId);
 
-      // —— 預載本頁可見的 phoneme 音檔
+      // —— 預載本頁可見的 phoneme 音檔（全部，不限數量）
       if (!DISABLE_PREFETCH){
-        setTimeout(()=>{ 
+        setTimeout(async ()=>{ 
           try{
             const grid = document.getElementById(`teaching-grid-${contentId}`);
             if(!grid) return;
             const urls = new Set();
             grid.querySelectorAll('.phoneme-box').forEach(cell=>{
-              const raw = isPhonicsMode ? cell.innerHTML : cell.textContent;
+              const raw = cell.textContent; // Use textContent for consistency
               const u = phonemeUrl(raw, isPhonicsMode);
               if(u) urls.add(u);
             });
-            Array.from(urls).slice(0, PREFETCH_PHONEMES).forEach(u=>{ ensureAudio(u).catch(()=>{}); });
-          }catch(e){}
-        }, 0);
+            // Load ALL unique phoneme URLs using batch prefetch (6 at a time)
+            console.log(`預載 ${urls.size} 個 phoneme 音檔...`);
+            await batchPrefetch(urls, 6);
+            console.log('Phoneme 音檔預載完成');
+          }catch(e){
+            console.warn('Prefetch error:', e);
+          }
+        }, 100); // Slight delay to let page render first
       }
     }
 
