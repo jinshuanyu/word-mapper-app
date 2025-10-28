@@ -104,6 +104,13 @@
       color:#0f172a; /* 基色；單字元會被 span 覆蓋 */
       grid-row:2;transition:.2s;cursor:pointer;user-select:none;
       line-height:1.4;
+      /* iOS-specific fixes */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
+      /* Prevent iOS text size adjustment */
+      -webkit-text-size-adjust: 100%;
+      text-size-adjust: 100%;
     }
     /* 確保 phonics 模式使用完全相同的字型設定 */
     .phoneme-box.is-phonics{
@@ -111,9 +118,21 @@
       font-size:1.6rem !important;
       font-weight:400 !important;
       line-height:1.4;
+      /* iOS-specific fixes */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
+      -webkit-text-size-adjust: 100%;
+      text-size-adjust: 100%;
     }
     .phoneme-box:hover{background:#f0f9ff;transform:none}
     .phoneme-box:active{background:#dbeafe}
+    
+    /* iOS touch improvements */
+    .phoneme-box, .audio-button {
+      -webkit-tap-highlight-color: rgba(59, 130, 246, 0.1);
+      touch-action: manipulation; /* Prevents double-tap zoom on iOS */
+    }
 
     .heart-symbol{position:absolute;bottom:-2px;left:0;right:0;text-align:center;color:#ef4444;font-size:1rem;line-height:1}
     .word-tips{
@@ -166,12 +185,18 @@
         font-weight:400 !important;
         font-family:'Noto Sans','Noto Sans TC',sans-serif !important;
         line-height:1.4;
+        /* iOS-specific adjustments */
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
       }
       .phoneme-box.is-phonics{
         font-size:1.5rem !important;
         font-weight:400 !important;
         font-family:'Noto Sans','Noto Sans TC',sans-serif !important;
         line-height:1.4;
+        /* iOS-specific adjustments */
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
       }
       .attribution-note{font-size:.75rem}
       .back-button{margin-bottom:1rem;padding:8px 14px}
@@ -183,12 +208,18 @@
       font-family: inherit !important;
       font-size: inherit !important;
       font-weight: inherit !important;
+      /* iOS font rendering */
+      -webkit-font-smoothing: inherit;
+      -moz-osx-font-smoothing: inherit;
     }
     .box.phoneme-box span.phoneme-consonant { 
       color:#2563eb !important; 
       font-family: inherit !important;
       font-size: inherit !important;
       font-weight: inherit !important;
+      /* iOS font rendering */
+      -webkit-font-smoothing: inherit;
+      -moz-osx-font-smoothing: inherit;
     }
     
     /* 音檔預載中指示器 */
@@ -242,10 +273,17 @@
     const EFFECTIVE_TYPE = (conn && conn.effectiveType) || '';
     const IS_SLOW_NET = /^(2g|slow-2g)$/i.test(EFFECTIVE_TYPE);
     const IS_TOUCH = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+    
+    // iOS detection
+    const IS_IOS = /iPad|iPhone|iPod/.test(navigator.userAgent) || 
+                   (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
 
-    // 依網路狀況調整預載量
-    const PREFETCH_PHONEMES = (IS_SAVE_DATA || IS_SLOW_NET) ? 12 : 40;
-    const PREFETCH_WORDS   = (IS_SAVE_DATA || IS_SLOW_NET) ? 3  : 8;
+    // 依網路狀況調整預載量（iOS 用較保守的設定）
+    const PREFETCH_PHONEMES = (IS_SAVE_DATA || IS_SLOW_NET) ? 12 : (IS_IOS ? 30 : 40);
+    const PREFETCH_WORDS   = (IS_SAVE_DATA || IS_SLOW_NET) ? 3  : (IS_IOS ? 5 : 8);
+    
+    // iOS 用較小的並發數
+    const PREFETCH_CONCURRENCY = IS_IOS ? 4 : 6;
 
     // 命名空間
     window.PhonicsApp = window.PhonicsApp || { pendingHighlight: null };
@@ -417,11 +455,29 @@
       try{
         const src = await ensureAudio(url);
         if (!src) return;
+        
+        // iOS Safari compatibility: load() before play()
         const p = new Audio();
+        p.preload = 'auto';
         p.src = src;
-        await p.play();
+        
+        // iOS requires load() call
+        p.load();
+        
+        // Play with error handling for iOS
+        const playPromise = p.play();
+        if (playPromise !== undefined) {
+          await playPromise;
+        }
       }catch(e){
-        if(btn){ const o=btn.textContent; btn.textContent='❌'; setTimeout(()=>btn.textContent=o,800); }
+        if(btn){ 
+          const o=btn.textContent || btn.innerHTML; 
+          btn.textContent='❌'; 
+          setTimeout(()=>{ 
+            if(typeof o === 'string') btn.textContent=o; 
+            else btn.innerHTML=o; 
+          },800); 
+        }
         console.warn('播放失敗：', url, e);
       }
     }
@@ -540,12 +596,12 @@
 
       const toggleHTML=`
         <div class="toggle-container">
-          <span class="toggle-label-ipa">IPA 音標</span>
+          <span class="toggle-label-ipa">IPA</span>
           <label class="switch">
             <input type="checkbox" id="toggle_${contentId}" ${isPhonicsMode?'checked':''}>
             <span class="slider"></span>
           </label>
-          <span class="toggle-label-phonics">Phonics 拼音</span>
+          <span class="toggle-label-phonics">簡化音標</span>
         </div>
         <p class="attribution-note">
           IPA 根據<a href="https://christinayu_english.rakosell.com/zh/page/american-ipa-guide" target="_blank">美式英語 IPA 國際音標指南</a><br>
@@ -584,9 +640,9 @@
               const u = phonemeUrl(raw, isPhonicsMode);
               if(u) urls.add(u);
             });
-            // Load ALL unique phoneme URLs using batch prefetch (6 at a time)
+            // Load ALL unique phoneme URLs using batch prefetch (iOS: 4 at a time, others: 6)
             console.log(`預載 ${urls.size} 個 phoneme 音檔...`);
-            await batchPrefetch(urls, 6);
+            await batchPrefetch(urls, PREFETCH_CONCURRENCY);
             console.log('Phoneme 音檔預載完成');
           }catch(e){
             console.warn('Prefetch error:', e);
