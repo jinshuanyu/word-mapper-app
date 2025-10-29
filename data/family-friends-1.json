@@ -137,7 +137,7 @@
       "word": "grandfather",
       "ipa": "/ˈɡrændˌfɑ.ðər/",
       "graphemes": ["g","r","a","n","d","f","a","th","er"],
-      "phonemes": ["/'ɡ","r","æ","n","-","ˌf","ɑ","ð","ɚ/"],
+      "phonemes": ["/'ɡ","r","æ","n","-","f","ɑ","ð","ɚ/"],
       "phonics":  ["/'ɡ","r","ă","n","-","f","ŏ","<u>th</u>","er/"],
       "tags": ["digraph","rcontrolled"],
       "hearts": [false,false,false,false,true,false,true,false,false],
@@ -159,7 +159,7 @@
       "word": "grandmother",
       "ipa": "/ˈɡrændˌmʌð.ər/",
       "graphemes": ["g","r","a","n","d","m","o","th","er"],
-      "phonemes": ["/'ɡ","r","æ","n","-","ˌm","ʌ","ð","ɚ/"],
+      "phonemes": ["/'ɡ","r","æ","n","-","m","ʌ","ð","ɚ/"],
       "phonics":  ["/'ɡ","r","ă","n","-","m","ŭ","<u>th</u>","er/"],
       "tags": ["digraph","rcontrolled"],
       "hearts": [false,false,false,false,true,false,true,false,false],
@@ -322,6 +322,7 @@
     }
   ]
 }
+
 
 
 
