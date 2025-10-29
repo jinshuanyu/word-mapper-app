@@ -127,7 +127,7 @@
       "ipa": "/ɡɝl/",
       "graphemes": ["g","ir","l"],
       "phonemes": ["/ɡ","ɝ","l/"],
-      "phonics":  ["/g","er","l/"],
+      "phonics":  ["/ɡ","er","l/"],
       "tags": ["rcontrolled"],
       "hearts": [false,false,false],
       "hint": "ir → /ɝ/。"
@@ -138,7 +138,7 @@
       "ipa": "/ˈɡrændˌfɑ.ðər/",
       "graphemes": ["g","r","a","n","d","f","a","th","er"],
       "phonemes": ["/'ɡ","r","æ","n","-","ˌf","ɑ","ð","ɚ/"],
-      "phonics":  ["/'g","r","ă","n","-","f","ŏ","<u>th</u>","er/"],
+      "phonics":  ["/'ɡ","r","ă","n","-","f","ŏ","<u>th</u>","er/"],
       "tags": ["digraph","rcontrolled"],
       "hearts": [false,false,false,false,true,false,true,false,false],
       "hint": "複合名詞 grand + father；d 不發音。"
@@ -149,7 +149,7 @@
       "ipa": "/ˈɡræn.mɑ/",
       "graphemes": ["g","r","a","n","d","m","a"],
       "phonemes": ["/'ɡ","r","æ","n","-","m","ɑ/"],
-      "phonics":  ["/'g","r","ă","n","-","m","ŏ/"],
+      "phonics":  ["/'ɡ","r","ă","n","-","m","ŏ/"],
       "tags": [],
       "hearts": [false,false,false,false,true,false,false],
       "hint": "口語；d 不發音。"
@@ -160,7 +160,7 @@
       "ipa": "/ˈɡrændˌmʌð.ər/",
       "graphemes": ["g","r","a","n","d","m","o","th","er"],
       "phonemes": ["/'ɡ","r","æ","n","-","ˌm","ʌ","ð","ɚ/"],
-      "phonics":  ["/'g","r","ă","n","-","m","ŭ","<u>th</u>","er/"],
+      "phonics":  ["/'ɡ","r","ă","n","-","m","ŭ","<u>th</u>","er/"],
       "tags": ["digraph","rcontrolled"],
       "hearts": [false,false,false,false,true,false,true,false,false],
       "hint": "複合名詞 grand + mother；d 不發音。"
@@ -171,7 +171,7 @@
       "ipa": "/ˈɡræn.pɑ/",
       "graphemes": ["g","r","a","n","d","p","a"],
       "phonemes": ["/'ɡ","r","æ","n","-","p","ɑ/"],
-      "phonics":  ["/'g","r","ă","n","-","p","ŏ/"],
+      "phonics":  ["/'ɡ","r","ă","n","-","p","ŏ/"],
       "tags": [],
       "hearts": [false,false,false,false,true,false,false],
       "hint": "口語；d 不發音。"
@@ -322,6 +322,7 @@
     }
   ]
 }
+
 
 
 
