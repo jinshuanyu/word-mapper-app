@@ -1,0 +1,147 @@
+{
+  "items": [
+    {
+      "number": "姑姑；阿姨",
+      "word": "aunt",
+      "ipa": "/ænt/",
+      "graphemes": ["au","n","t"],
+      "phonemes": ["/æ","n","t/"],
+      "phonics":  ["/ă","n","t/"],
+      "tags": ["vowel_team","irregular","closed"],
+      "hearts": [true,false,false],
+      "hint": "au 在此不讀 /ɔ/（不規則），實際讀 /æ/。"
+    },
+    {
+      "number": "女兒",
+      "word": "daughter",
+      "ipa": "/ˈdɔtər/",
+      "graphemes": ["d","au","gh","t","er"],
+      "phonemes": ["/'d","ɔ","-","t","ɚ/"],
+      "phonics":  ["/'d","aw","—","t","er/"],
+      "tags": ["vowel_team","silent_consonant","rcontrolled"],
+      "hearts": [false,true,true,false,false],
+      "hint": "au→/ɔ/（phonics 用 aw）；gh 不發音；er→/ɚ/。"
+    },
+    {
+      "number": "孫女",
+      "word": "granddaughter",
+      "ipa": "/ˈɡrændɔtər/",
+      "graphemes": ["g","r","a","n","d","d","au","gh","t","er"],
+      "phonemes": ["/'ɡ","r","æ","n","-","d","ɔ","-","t","ɚ/"],
+      "phonics":  ["/'ɡ","r","ă","n","-","d","aw","—","t","er/"],
+      "tags": ["cluster","vowel_team","silent_consonant","rcontrolled"],
+      "hearts": [false,false,false,false,true,false,true,true,false,false],
+      "hint": "grand + daughter；雙 d 讀單一 /d/；gh 不發音。"
+    },
+    {
+      "number": "祖父母（之一）",
+      "word": "grandparent",
+      "ipa": "/ˈɡrændpɛrənt/",
+      "graphemes": ["g","r","a","n","d","p","a","r","e","n","t"],
+      "phonemes": ["/'ɡ","r","æ","n","d","p","ɛ","r","ə","n","t/"],
+      "phonics":  ["/'ɡ","r","ă","n","d","p","ĕ","r","ə","n","t/"],
+      "tags": ["cluster","rcontrolled"],
+      "hearts": [false,false,false,false,false,false,false,false,false,false,false],
+      "hint": "parent 美式常讀 /ˈpɛrənt/。"
+    },
+    {
+      "number": "孫子",
+      "word": "grandson",
+      "ipa": "/ˈɡrændsʌn/",
+      "graphemes": ["g","r","a","n","d","s","o","n"],
+      "phonemes": ["/'ɡ","r","æ","n","d","s","ʌ","n/"],
+      "phonics":  ["/'ɡ","r","ă","n","d","s","ŭ","n/"],
+      "tags": ["cluster","closed"],
+      "hearts": [false,false,false,false,false,false,false,false],
+      "hint": "o → /ʌ/（短 u）。"
+    },
+    {
+      "number": "大人；成年人",
+      "word": "grown-up",
+      "ipa": "/ˈɡroʊnʌp/",
+      "graphemes": ["g","r","ow","n","-","u","p"],
+      "phonemes": ["/'ɡ","r","oʊ","n","-","ʌ","p/"],
+      "phonics":  ["/'ɡ","r","ō","n","-","ŭ","p/"],
+      "tags": ["open","closed"],
+      "hearts": [false,false,false,false,false,false,false],
+      "hint": "ow→/oʊ/；up 的 u 為 /ʌ/。"
+    },
+    {
+      "number": "丈夫",
+      "word": "husband",
+      "ipa": "/ˈhʌzbənd/",
+      "graphemes": ["h","u","s","b","a","n","d"],
+      "phonemes": ["/'h","ʌ","z","b","ə","n","d/"],
+      "phonics":  ["/'h","ŭ","z","b","ə","n","d/"],
+      "tags": ["closed","irregular"],
+      "hearts": [false,false,true,false,false,false,false],
+      "hint": "s→/z/；-band 弱化 /bənd/。"
+    },
+    {
+      "number": "已婚的",
+      "word": "married",
+      "ipa": "/ˈmɛrid/",
+      "graphemes": ["m","a","rr","i","e","d"],
+      "phonemes": ["/'m","ɛ","r","i","-","d/"],
+      "phonics":  ["/'m","ĕ","r","ē","-","d/"],
+      "tags": ["rcontrolled","irregular"],
+      "hearts": [false,false,false,false,true,false],
+      "hint": "-ied → /id/。"
+    },
+    {
+      "number": "父母親（之一）",
+      "word": "parent",
+      "ipa": "/ˈpɛrənt/",
+      "graphemes": ["p","a","r","e","n","t"],
+      "phonemes": ["/'p","ɛ","r","ə","n","t/"],
+      "phonics":  ["/'p","ĕ","r","ə","n","t/"],
+      "tags": ["rcontrolled"],
+      "hearts": [false,false,false,false,false,false],
+      "hint": ""
+    },
+    {
+      "number": "兒子",
+      "word": "son",
+      "ipa": "/sʌn/",
+      "graphemes": ["s","o","n"],
+      "phonemes": ["/s","ʌ","n/"],
+      "phonics":  ["/s","ŭ","n/"],
+      "tags": ["closed"],
+      "hearts": [false,false,false],
+      "hint": ""
+    },
+    {
+      "number": "姓氏",
+      "word": "surname",
+      "ipa": "/ˈsɝneɪm/",
+      "graphemes": ["s","ur","n","a","m","e"],
+      "phonemes": ["/'s","ɝ","n","eɪ","m","-/"],
+      "phonics":  ["/'s","er","n","ā","m","-/"],
+      "tags": ["rcontrolled","magic_e"],
+      "hearts": [false,true,false,false,false,true],
+      "hint": "ur→/ɝ/；字尾 e 靜音，讓 a→/eɪ/。"
+    },
+    {
+      "number": "叔叔；伯伯；舅舅",
+      "word": "uncle",
+      "ipa": "/ˈʌŋkəl/",
+      "graphemes": ["u","n","c","l","e"],
+      "phonemes": ["/'ʌ","ŋ","k","əl","-/"],
+      "phonics":  ["/'ŭ","ŋ","k","əl","-/"],
+      "tags": ["closed","silent_e"],
+      "hearts": [false,false,false,false,true],
+      "hint": "末尾 e 不發音；u→/ʌ/。"
+    },
+    {
+      "number": "妻子；太太",
+      "word": "wife",
+      "ipa": "/waɪf/",
+      "graphemes": ["w","i","f","e"],
+      "phonemes": ["/w","aɪ","f","-/"],
+      "phonics":  ["/w","ī","f","-/"],
+      "tags": ["magic_e"],
+      "hearts": [false,false,false,true],
+      "hint": "靜音 e 讓 i→/aɪ/。"
+    }
+  ]
+}
