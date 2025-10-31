@@ -23,9 +23,11 @@
       "slug": "family_friends",
       "title": "親友 Family & Friends",
       "levels": [
-        { "label": "–1", "src": "data/family-friends-1.json" }
+        { "label": "–1", "src": "data/family-friends-1.json" },
+        { "label": "–2", "src": "data/family-friends-2.json" }
       ]
     }
   ]
 }
+
 
