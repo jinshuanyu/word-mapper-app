@@ -284,7 +284,7 @@
       "phonics": ["/sh","ē","p/"],
       "tags": ["digraph","vowel_team"],
       "hearts": [false,false,false],
-      "hint": "ee 發長母音 e /i/。"
+      "hint": "ee 發長母音 e /i/；複數也寫作 sheep。"
     },
     {
       "number": "🐍 蛇",
@@ -306,7 +306,7 @@
       "phonics": ["/'s","p","ī","d","er/"],
       "tags": ["rcontrolled","cluster"],
       "hearts": [false,false,false,false,false],
-      "hint": "p 在 /s/ 之後不送氣，音如 ㄅ。"
+      "hint": "sp- 連讀時，p 音如 ㄅ。"
     },
     {
       "number": "🦴 尾巴",
