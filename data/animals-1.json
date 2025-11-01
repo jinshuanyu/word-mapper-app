@@ -159,11 +159,11 @@
       "word": "giraffe",
       "ipa": "/ʤɚæf/",
       "graphemes": ["g","i","r","a","ff","e"],
-      "phonemes": ["/ʤ","ɪ","r","æ","f","-/"],
-      "phonics": ["/j","ĭ","r","ă","f","-/"],
+      "phonemes": ["/dʒ","ɪ","r","æ","f","-/"],
+      "phonics": ["/-j-","ĭ","r","ă","f","-/"],
       "tags": ["silent_consonant","rcontrolled"],
       "hearts": [true,false,false,false,true,true],
-      "hint": "g 在此發 j /ʤ/；ff 重複字母；字尾 e 靜音。"
+      "hint": "g 在此發 j /dʒ/；ff 重複字母；字尾 e 靜音。"
     },
     {
       "number": "🐐 山羊",
@@ -172,7 +172,7 @@
       "graphemes": ["g","oa","t"],
       "phonemes": ["/ɡ","oʊ","t/"],
       "phonics": ["/ɡ","ō","t/"],
-      "tags": ["vowel_team","closed"],
+      "tags": ["vowel_team"],
       "hearts": [false,false,false],
       "hint": "oa 發長母音 o /oʊ/。"
     },
