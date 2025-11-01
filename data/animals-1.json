@@ -72,7 +72,7 @@
       "ipa": "/kaʊ/",
       "graphemes": ["c","ow"],
       "phonemes": ["/k","aʊ/"],
-      "phonics": ["/k","au/"],
+      "phonics": ["/k","ow/"],
       "tags": ["vowel_team","open"],
       "hearts": [false,false],
       "hint": "ow 發 /aʊ/。"
@@ -237,7 +237,7 @@
       "ipa": "/maʊs/",
       "graphemes": ["m","ou","s","e"],
       "phonemes": ["/m","aʊ","s","-/"],
-      "phonics": ["/m","au","s","-/"],
+      "phonics": ["/m","ow","s","-/"],
       "tags": ["vowel_team"],
       "hearts": [false,false,false,true],
       "hint": "s 之後補靜音字尾 e。"
