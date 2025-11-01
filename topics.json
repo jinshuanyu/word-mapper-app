@@ -6,7 +6,7 @@
   "title": "First Words 入門高頻詞",
   "levels": [
     {
-      "label": "-1",
+      "label": "1",
       "src": "data/first-words-1.json"
     }
   ]
@@ -32,12 +32,13 @@
       "slug": "family_friends",
       "title": "Family & Friends 親友",
       "levels": [
-        { "label": "–1", "src": "data/family-friends-1.json" },
-        { "label": "–2", "src": "data/family-friends-2.json" }
+        { "label": "1", "src": "data/family-friends-1.json" },
+        { "label": "2", "src": "data/family-friends-2.json" }
       ]
     }
   ]
 }
+
 
 
 
