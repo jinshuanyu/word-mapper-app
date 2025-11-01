@@ -4,12 +4,12 @@
       "number": "🐾 動物",
       "word": "animal",
       "ipa": "/ˈænɪməl/",
-      "graphemes": ["a","n","i","m","a","l"],
-      "phonemes": ["/'æ","n","ɪ","m","ə","l/"],
-      "phonics": ["/'ă","n","ĭ","m","ə","l/"],
+      "graphemes": ["a","n","i","m","al"],
+      "phonemes": ["/'æ","n","ɪ","m","əl/"],
+      "phonics": ["/'ă","n","ĭ","m","əl/"],
       "tags": ["closed"],
-      "hearts": [false,false,false,false,false,false],
-      "hint": "三音節，首重音在 an。"
+      "hearts": [false,false,false,false,false],
+      "hint": "第一個 a 發短母音 a /æ/。"
     },
     {
       "number": "🐻 熊",
