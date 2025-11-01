@@ -1,8 +1,9 @@
 {
   "topics": [
+    
     {
   "slug": "first-words",
-  "title": "入門高頻詞 First Words",
+  "title": "First Words 入門高頻詞",
   "levels": [
     {
       "label": "-1",
@@ -13,15 +14,23 @@
 
     {
       "slug": "numbers_1_20",
-      "title": "數字 Numbers",
+      "title": "Numbers 數字",
       "levels": [
         { "label": "1–10",  "src": "data/numbers-1.json" },
         { "label": "11–20", "src": "data/numbers-2.json" }
       ]
     },
     {
+      "slug": "animals",
+      "title": "Animals 動物",
+      "levels": [
+        { "label": "1",  "src": "data/animals-1.json" },
+        { "label": "2", "src": "data/animals-2.json" }
+      ]
+    },
+    {
       "slug": "family_friends",
-      "title": "親友 Family & Friends",
+      "title": "Family & Friends 親友",
       "levels": [
         { "label": "–1", "src": "data/family-friends-1.json" },
         { "label": "–2", "src": "data/family-friends-2.json" }
@@ -29,5 +38,6 @@
     }
   ]
 }
+
 
 
