@@ -70,7 +70,7 @@
       "number": 7,
       "word": "seven",
       "ipa": "/ˈsɛv.ən/",
-      "graphemes": ["s","e","v·​","e","n"],
+      "graphemes": ["s","e","v·","e","n"],
       "phonemes": ["/'s","ɛ","v","ə","n/"],
       "phonics":  ["/'s","ĕ","v","ə","n/"],
       "tags": ["closed"],
@@ -112,6 +112,7 @@
     }
   ]
 }
+
 
 
 
