@@ -391,10 +391,12 @@
     function slugifyWord(w){
       return String(w||'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
     }
-    function audioUrlForWord(item){
-      if (item.audio) return item.audio; // 每筆可自帶 audio 路徑
-      return `${AUDIO_BASE}${levelFolder}/${slugifyWord(item.word)}.mp3`;
-    }
+function audioUrlForWord(item){
+  if (item.audio) return item.audio; // 每筆可自帶 audio 路徑
+  const safeName = item.word.toLowerCase().replace(/\s+/g, "_"); // 把空白變底線
+  return `${AUDIO_BASE}${levelFolder}/${safeName}.mp3`;
+}
+
 
     // ====== 音檔快取（phoneme & 單字） ======
     const AUDIO_CACHE = new Map(); // url -> { blobUrl, t }
