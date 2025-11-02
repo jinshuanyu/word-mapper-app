@@ -9,7 +9,7 @@
       "phonics": ["/b","ă","k/"],
       "tags": ["digraph","closed"],
       "hearts": [false,false,false],
-      "hint": "ck 發 /k/；a 發短母音 a /æ/。"
+      "hint": "a 發短母音 a /æ/；ck 發 /k/。"
     },
     {
       "number": "🧔🏻‍♂️ 鬍鬚（下巴）",
@@ -18,9 +18,9 @@
       "graphemes": ["b","ea","r","d"],
       "phonemes": ["/b","ɪ","r","d/"],
       "phonics": ["/b","ĭ","r","d/"],
-      "tags": ["vowel_team","irregular"],
-      "hearts": [false,true,false,false],
-      "hint": "ear 在此發 /ɪr/。"
+      "tags": ["vowel_team","rcontrolled"],
+      "hearts": [false,false,false,false],
+      "hint": "ear 發 ĭr /ɪr/。"
     },
     {
       "number": "👱 金髮",
@@ -31,7 +31,7 @@
       "phonics": ["/b","l","ŏ","n","d/"],
       "tags": ["cluster","closed"],
       "hearts": [false,false,false,false,false],
-      "hint": "o 在此發短母音 o /ɑ/。"
+      "hint": "o 發短母音 o /ɑ/。"
     },
     {
       "number": "🦱 捲曲的（頭髮）",
@@ -51,9 +51,9 @@
       "graphemes": ["e","l","b","ow"],
       "phonemes": ["/'ɛ","l","b","oʊ/"],
       "phonics": ["/'ĕ","l","b","ō/"],
-      "tags": ["vowel_team"],
-      "hearts": [false,false,false,false],
-      "hint": "ow 在此發長母音 o /oʊ/。"
+      "tags": ["closed","vowel_team"],
+      "hearts": [false,false,false,true],
+      "hint": "e 發短母音 e /ɛ/；ow 發長母音 o /oʊ/。"
     },
     {
       "number": "🤍 白皙；美好",
@@ -64,7 +64,7 @@
       "phonics": ["/f","ĕ","r/"],
       "tags": ["vowel_team","rcontrolled"],
       "hearts": [false,false,false],
-      "hint": "ai 在此發短母音 e /ɛ/。"
+      "hint": "air 發 ĕr /ɛr/。"
     },
     {
       "number": "肥胖的",
@@ -84,7 +84,7 @@
       "graphemes": ["f","i","n","ɡ","er"],
       "phonemes": ["/'f","ɪ","ŋ","ɡ","ɚ/"],
       "phonics": ["/'f","ĭ","ŋ","ɡ","er/"],
-      "tags": ["rcontrolled","cluster"],
+      "tags": ["cluster","rcontrolled"],
       "hearts": [false,false,false,false,false],
       "hint": "n 在 g 前發 /ŋ/；er 發 /ɚ/。"
     },
@@ -95,20 +95,20 @@
       "graphemes": ["k","n","ee"],
       "phonemes": ["/-","n","i/"],
       "phonics": ["/-","n","ē/"],
-      "tags": ["silent_consonant","vowel_team"],
+      "tags": ["silent_consonant","open"],
       "hearts": [true,false,false],
       "hint": "k 靜音；ee 發長母音 e /i/。"
     },
     {
-      "number": "髭（嘴唇上方的鬍子）",
+      "number": "髭（嘴唇上方）",
       "word": "mustache",
       "ipa": "/ˈmʌstæʃ/",
-      "graphemes": ["m","ou","s","t","a","ch","e"],
+      "graphemes": ["m","u","s","t","a","ch","e"],
       "phonemes": ["/'m","ʌ","s","t","æ","ʃ","-/"],
       "phonics": ["/'m","ū","s","t","ă","sh","-/"],
-      "tags": ["digraph","irregular"],
+      "tags": ["irregular","digraph"],
       "hearts": [false,true,false,false,false,true,true],
-      "hint": "u 發短母音 u /ʌ/；ch 在此發 sh /ʃ/；字尾 e 靜音。"
+      "hint": "u 發短母音 u /ʌ/；ch 發 sh /ʃ/；字尾 e 靜音。"
     },
     {
       "number": "頸部",
@@ -119,7 +119,7 @@
       "phonics": ["/n","ĕ","k/"],
       "tags": ["digraph","closed"],
       "hearts": [false,false,false],
-      "hint": "ck 發 /k/；e 發短母音 e /ɛ/。"
+      "hint": "e 發短母音 e /ɛ/；ck 發 /k/。"
     },
     {
       "number": "肩膀",
@@ -141,7 +141,7 @@
       "phonics": ["/'s","t","ŭ","m","ə","k/"],
       "tags": ["cluster","digraph","irregular"],
       "hearts": [false,false,true,false,false,true],
-      "hint": "st- 連讀時，t 音如 ㄉ；o 發短母音 u /ʌ/；ch 在此發 /k/。"
+      "hint": "st- 連讀時，t 音如 ㄉ；o 發短母音 u /ʌ/；ch 發 /k/。"
     },
     {
       "number": "瘦；薄",
@@ -161,7 +161,7 @@
       "graphemes": ["t","oe"],
       "phonemes": ["/t","oʊ/"],
       "phonics": ["/t","ō/"],
-      "tags": ["vowel_team","open"],
+      "tags": ["open"],
       "hearts": [false,false],
       "hint": "oe 發長母音 o /oʊ/。"
     },
@@ -172,7 +172,7 @@
       "graphemes": ["t","oo","th"],
       "phonemes": ["/t","u","θ/"],
       "phonics": ["/t","ū","th/"],
-      "tags": ["vowel_team","digraph","closed"],
+      "tags": ["vowel_team","digraph"],
       "hearts": [false,false,false],
       "hint": "oo 發長母音 u /u/；th 發無聲吐舌音 /θ/。"
     },
@@ -183,7 +183,7 @@
       "graphemes": ["t","ee","th"],
       "phonemes": ["/t","i","θ/"],
       "phonics": ["/t","ē","th/"],
-      "tags": ["vowel_team","digraph","closed"],
+      "tags": ["vowel_team","digraph"],
       "hearts": [false,false,false],
       "hint": "ee 發長母音 e /i/；th 發無聲吐舌音 /θ/。"
     }
