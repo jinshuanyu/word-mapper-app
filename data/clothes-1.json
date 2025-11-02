@@ -62,7 +62,7 @@
       "graphemes": ["d","r","e","ss"],
       "phonemes": ["/d","r","ɛ","s/"],
       "phonics": ["/d","r","ĕ","s/"],
-      "tags": ["cluster","closed","floss-z"],
+      "tags": ["cluster","closed","floss"],
       "hearts": [false,false,false,false],
       "hint": "e 發短母音 e /ɛ/；字尾 ss 重複字母。"
     },
@@ -70,10 +70,10 @@
       "number": "👓 眼鏡",
       "word": "glasses",
       "ipa": "/ˈɡlæsɪz/",
-      "graphemes": ["g","l","a","ss","e","s"],
-      "phonemes": ["/'ɡ","l","æ","s","ɪ","z/"],
-      "phonics": ["/'ɡ","l","ă","s","ĭ","z/"],
-      "tags": ["cluster","closed","floss-z"],
+      "graphemes": ["g","l","a","ss","es"],
+      "phonemes": ["/'ɡ","l","æ","s","ɪz/"],
+      "phonics": ["/'ɡ","l","ă","s","ĭz/"],
+      "tags": ["cluster","closed","floss","suffix"],
       "hearts": [false,false,false,false,false,false],
       "hint": "s 字尾複數型 +es，多加一個音節發 /ɪz/。"
     },
@@ -106,7 +106,7 @@
       "graphemes": ["h","e","l","m","e","t"],
       "phonemes": ["/'h","ɛ","l","m","ə","t/"],
       "phonics": ["/'h","ĕ","l","m","ə","t/"],
-      "tags": ["cluster","closed"],
+      "tags": ["closed"],
       "hearts": [false,false,false,false,false,false],
       "hint": "第一個 e 發短母音 e /ɛ/。"
     },
@@ -117,7 +117,7 @@
       "graphemes": ["j","a","ck","e","t"],
       "phonemes": ["/'dʒ","æ","k","ɪ","t/"],
       "phonics": ["/'-j","ă","k","ĭ","t/"],
-      "tags": ["digraph","closed"],
+      "tags": ["closed","digraph"],
       "hearts": [false,false,false,false,false],
       "hint": "a 發短母音 a /æ/；ck 發 /k/。"
     },
@@ -163,7 +163,7 @@
       "phonics": ["/sh","ū","z/"],
       "tags": ["digraph","vowel_team","irregular"],
       "hearts": [false,false,true],
-      "hint": "oe 發長母音 u /u/；字尾 s 發 /z/。"
+      "hint": "複數；oe 發長母音 u /u/；s 發 /z/。"
     },
     {
       "number": "🩳 短褲",
@@ -174,7 +174,7 @@
       "phonics": ["/sh","or","ts/"],
       "tags": ["digraph","rcontrolled","cluster"],
       "hearts": [false,false,false],
-      "hint": "or 發 /ɔr/；t+s 音如 ㄘ。"
+      "hint": "複數（兩條褲管）；or 發 /ɔr/；t+s 音如 ㄘ。"
     },
     {
       "number": "👗 裙子",
@@ -200,13 +200,13 @@
     },
 
     {
-      "number": "🧶 毛衣",
+      "number": "毛衣",
       "word": "sweater",
       "ipa": "/ˈswɛtɚ/",
       "graphemes": ["s","w","ea","t","er"],
       "phonemes": ["/'s","w","ɛ","t","ɚ/"],
       "phonics": ["/'s","w","ĕ","t","er/"],
-      "tags": ["cluster","vowel_team","irregular"],
+      "tags": ["cluster","irregular","rcontrolled"],
       "hearts": [false,false,true,false,false],
       "hint": "ea 發短母音 e /ɛ/；er 發 /ɚ/。"
     },
@@ -233,7 +233,7 @@
       "hint": "ou 發 ow /aʊ/；兩個 s 均讀 /z/。"
     },
     {
-      "number": "👕 短袖上衣",
+      "number": "👕 T 恤",
       "word": "T shirt",
       "ipa": "/ˈtiʃɝt/",
       "graphemes": ["T"," ","sh","ir","t"],
@@ -251,7 +251,7 @@
       "phonemes": ["/w","ɛ","r/"],
       "phonics": ["/w","ĕ","r/"],
       "tags": ["vowel_team","irregular"],
-      "hearts": [false,false,false],
+      "hearts": [false,true,false],
       "hint": "ea 在此發短母音 e /ɛ/。"
     }
   ]
