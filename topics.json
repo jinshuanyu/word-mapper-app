@@ -36,6 +36,14 @@
         { "label": "2", "src": "data/body-and-face-2.json" }
       ]
     },
+        {
+      "slug": "clothes",
+      "title": "Clothes 服裝",
+      "levels": [
+        { "label": "1",  "src": "data/clothes-1.json" },
+        { "label": "2", "src": "data/clothes-2.json" }
+      ]
+    },
     {
       "slug": "family_friends",
       "title": "Family & Friends 親友",
@@ -46,6 +54,7 @@
     }
   ]
 }
+
 
 
 
