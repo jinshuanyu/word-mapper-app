@@ -203,8 +203,8 @@
       "word": "jellyfish",
       "ipa": "/ˈʤɛliˌfɪʃ/",
       "graphemes": ["j","e","ll","y","f","i","sh"],
-      "phonemes": ["/'ʤ","ɛ","l","i","f","ɪ","ʃ/"],
-      "phonics": ["/'j","ĕ","l","ē","f","ĭ","sh/"],
+      "phonemes": ["/'dʒ","ɛ","l","i","f","ɪ","ʃ/"],
+      "phonics": ["/'-j","ĕ","l","ē","f","ĭ","sh/"],
       "tags": ["closed","digraph"],
       "hearts": [false,false,false,false,false,false,false],
       "hint": "jelly + fish；y 發長母音 e /i/。"
