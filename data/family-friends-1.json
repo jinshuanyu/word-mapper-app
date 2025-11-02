@@ -316,12 +316,13 @@
       "graphemes": ["y","ou","ng"],
       "phonemes": ["/j","ʌ","ŋ/"],
       "phonics":  ["/y","ŭ","ŋ/"],
-      "tags": [”irregular","digraph"],
+      "tags": ["irregular","digraph"],
       "hearts": [false,true,false],
       "hint": "ou 發短母音 u /ʌ/。"
     }
   ]
 }
+
 
 
 
