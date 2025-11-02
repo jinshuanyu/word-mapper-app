@@ -29,6 +29,14 @@
       ]
     },
     {
+      "slug": "body_face",
+      "title": "Body & Face 臉和身體",
+      "levels": [
+        { "label": "1",  "src": "data/body-and-face-1.json" },
+        { "label": "2", "src": "data/body-and-face-2.json" }
+      ]
+    },
+    {
       "slug": "family_friends",
       "title": "Family & Friends 親友",
       "levels": [
@@ -38,6 +46,7 @@
     }
   ]
 }
+
 
 
 
