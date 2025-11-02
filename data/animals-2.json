@@ -39,7 +39,7 @@
 "ipa": "/keɪdʒ/",
 "graphemes": ["c","a","g","e"],
 "phonemes": ["/k","eɪ","dʒ","-/"],
-"phonics": ["/k","ā","j","-/"],
+"phonics": ["/k","ā","-j","-/"],
 "tags": ["magic_e"],
 "hearts": [false,false,true],
 "hint": "a 發長母音 a /eɪ/；g 在 e 之前常發 j /dʒ/。"
