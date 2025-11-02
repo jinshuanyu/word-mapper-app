@@ -160,7 +160,7 @@
       "ipa": "/ʤɚæf/",
       "graphemes": ["g","i","r","a","ff","e"],
       "phonemes": ["/dʒ","ɪ","r","æ","f","-/"],
-      "phonics": ["/-j-","ĭ","r","ă","f","-/"],
+      "phonics": ["/-j","ĭ","r","ă","f","-/"],
       "tags": ["silent_consonant","rcontrolled"],
       "hearts": [true,false,false,false,true,true],
       "hint": "g 在此發 j /dʒ/；ff 重複字母；字尾 e 靜音。"
