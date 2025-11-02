@@ -9,7 +9,7 @@
       "phonics":  ["/'b","ā","b","ē/"],
       "tags": ["open"],
       "hearts": [false,false,false,false],
-      "hint": "字尾 y → 長母音 e /i/。"
+      "hint": "a 發長母音 a /eɪ/；y 發長母音 e /i/。"
     },
     {
       "number": "👦🏻男孩",
@@ -18,9 +18,9 @@
       "graphemes": ["b","oy"],
       "phonemes": ["/b","ɔɪ/"],
       "phonics":  ["/b","oi/"],
-      "tags": ["diphthong"],
+      "tags": ["vowel_team"],
       "hearts": [false,false],
-      "hint": "oy 為雙母音 /ɔɪ/。"
+      "hint": "oy 發雙母音 oi /ɔɪ/。"
     },
     {
       "number": "🧑🏻兄弟",
@@ -29,7 +29,7 @@
       "graphemes": ["b","r","o","th","er"],
       "phonemes": ["/'b","r","ʌ","ð","ɚ/"],
       "phonics":  ["/'b","r","ŭ","<u>th</u>","er/"],
-      "tags": ["cluster","digraph","rcontrolled"],
+      "tags": ["irregular","cluster","digraph","rcontrolled"],
       "hearts": [false,false,true,false,false],
       "hint": "o 發短母音 u /ʌ/；th 發有聲吐舌音 /ð/。"
     },
@@ -41,8 +41,8 @@
       "phonemes": ["/tʃ","aɪ","l","d/"],
       "phonics":  ["/ch","ī","l","d/"],
       "tags": ["digraph"],
-      "hearts": [false,false,false,false],
-      "hint": "i 為長母音 /aɪ/。"
+      "hearts": [false,true,false,false],
+      "hint": "i 發長母音 i /aɪ/。"
     },
     {
       "number": "🧒🏻👧🏻小孩們",
@@ -51,9 +51,9 @@
       "graphemes": ["ch","i","l","d","r","e","n"],
       "phonemes": ["/'tʃ","ɪ","l","d","r","ə","n/"],
       "phonics":  ["/'ch","ĭ","l","d","r","ə","n/"],
-      "tags": ["closed","cluster"],
+      "tags": ["digraph","closed","cluster"],
       "hearts": [false,false,false,false,false,false,false],
-      "hint": "i 為短母音 /ɪ/。"
+      "hint": "i 發短母音 i /ɪ/。"
     },
     {
       "number": "🏫👫🏻同學",
@@ -62,9 +62,9 @@
       "graphemes": ["c","l","a","ss","m","a","t","e"],
       "phonemes": ["/'k","l","æ","s","m","eɪ","t","-/"],
       "phonics":  ["/'k","l","ă","s","m","ā","t","-/"],
-      "tags": ["closed","magic_e"],
+      "tags": ["cluster","closed","floss","magic_e"],
       "hearts": [false,false,false,false,false,false,false,false,false],
-      "hint": "複合名詞 class + mate。"
+      "hint": "class + mate。"
     },
     {
       "number": "👫🏻堂表兄弟姐妹",
@@ -74,7 +74,7 @@
       "phonemes": ["/'k","ʌ","z","ə","n/"],
       "phonics":  ["/'k","ŭ","z","ə","n/"],
       "tags": ["irregular"],
-      "hearts": [false,true,false,false,false],
+      "hearts": [false,true,true,false,false],
       "hint": "ou 發短母音 u /ʌ/；s 發 /z/。"
     },
     {
@@ -86,7 +86,7 @@
       "phonics":  ["/d","ă","d/"],
       "tags": ["closed"],
       "hearts": [false,false,false],
-      "hint": "閉音節-短母音"
+      "hint": "a 發短母音 a /æ/。"
     },
     {
       "number": "👨🏻‍👩🏻‍👧🏻‍👧🏻 家人；家庭",
@@ -106,7 +106,7 @@
       "graphemes": ["f","a","th","er"],
       "phonemes": ["/'f","ɑ","ð","ɚ/"],
       "phonics":  ["/'f","ŏ","<u>th</u>","er/"],
-      "tags": ["digraph","rcontrolled"],
+      "tags": ["irregular","digraph","rcontrolled"],
       "hearts": [false,true,false,false],
       "hint": "a 發短母音 o /a/；th 發有聲吐舌音 /ð/。"
     },
@@ -130,10 +130,10 @@
       "phonics":  ["/ɡ","er","l/"],
       "tags": ["rcontrolled"],
       "hearts": [false,false,false],
-      "hint": "ir → /ɝ/。"
+      "hint": "ir 發 er /ɝ/。"
     },
     {
-      "number": "👴🏻爺爺",
+      "number": "👴🏻祖父",
       "word": "grandfather",
       "ipa": "/ˈɡrændˌfɑ.ðər/",
       "graphemes": ["g","r","a","n","d","f","a","th","er"],
@@ -141,10 +141,10 @@
       "phonics":  ["/'ɡ","r","ă","n","-","f","ŏ","<u>th</u>","er/"],
       "tags": ["digraph","rcontrolled"],
       "hearts": [false,false,false,false,true,false,true,false,false],
-      "hint": "複合名詞 grand + father；d 不發音。"
+      "hint": "grand + father；d 通常不發音。"
     },
     {
-      "number": "👵🏻奶奶",
+      "number": "👵🏻祖母",
       "word": "grandma",
       "ipa": "/ˈɡræn.mɑ/",
       "graphemes": ["g","r","a","n","d","m","a"],
@@ -152,10 +152,10 @@
       "phonics":  ["/'ɡ","r","ă","n","-","m","ŏ/"],
       "tags": [],
       "hearts": [false,false,false,false,true,false,false],
-      "hint": "口語；d 不發音。"
+      "hint": "口語；d 通常不發音。"
     },
     {
-      "number": "👵🏻奶奶",
+      "number": "👵🏻祖母",
       "word": "grandmother",
       "ipa": "/ˈɡrændˌmʌð.ər/",
       "graphemes": ["g","r","a","n","d","m","o","th","er"],
@@ -163,10 +163,10 @@
       "phonics":  ["/'ɡ","r","ă","n","-","m","ŭ","<u>th</u>","er/"],
       "tags": ["digraph","rcontrolled"],
       "hearts": [false,false,false,false,true,false,true,false,false],
-      "hint": "複合名詞 grand + mother；d 不發音。"
+      "hint": "grand + mother；d 通常不發音。"
     },
     {
-      "number": "👴🏻爺爺",
+      "number": "👴🏻祖父",
       "word": "grandpa",
       "ipa": "/ˈɡræn.pɑ/",
       "graphemes": ["g","r","a","n","d","p","a"],
@@ -174,7 +174,7 @@
       "phonics":  ["/'ɡ","r","ă","n","-","p","ŏ/"],
       "tags": [],
       "hearts": [false,false,false,false,true,false,false],
-      "hint": "口語；d 不發音。"
+      "hint": "口語；d 通常不發音。"
     },
     {
       "number": "🧒🏻小孩",
@@ -185,10 +185,10 @@
       "phonics":  ["/k","ĭ","d/"],
       "tags": ["closed"],
       "hearts": [false,false,false],
-      "hint": "短 i /ɪ/。"
+      "hint": "i 發短母音 i /ɪ/。"
     },
     {
-      "number": "住；活",
+      "number": "住；活（動詞）",
       "word": "live",
       "ipa": "/lɪv/",
       "graphemes": ["l","i","v","e"],
@@ -196,8 +196,8 @@
       "phonics":  ["/l","ĭ","v","-/"],
       "tags": ["irregular"],
       "hearts": [false,false,false,true],
-      "speak": "to live",
-      "hint": "v 字尾後面補靜音 e。"
+    
+      "hint": "v 之後字尾補靜音 e。"
     },
     {
       "number": "👨🏻男人",
@@ -208,7 +208,7 @@
       "phonics":  ["/m","ă","n/"],
       "tags": ["closed"],
       "hearts": [false,false,false],
-      "hint": "閉音節-短母音。"
+      "hint": "a 發短母音 a /æ/。"
     },
     {
       "number": "👨🏻👨🏻男人們",
@@ -219,7 +219,7 @@
       "phonics":  ["/m","ĕ","n/"],
       "tags": ["closed"],
       "hearts": [false,false,false],
-      "hint": "閉音節-短母音。"
+      "hint": "e 發短母音 e /ɛ/。"
     },
     {
       "number": "👩🏻媽媽",
@@ -228,12 +228,12 @@
       "graphemes": ["m","o","th","er"],
       "phonemes": ["/'m","ʌ","ð","ɚ/"],
       "phonics":  ["/'m","ŭ","<u>th</u>","er/"],
-      "tags": ["digraph","irregular","rcontrolled"],
+      "tags": ["irregular","digraph","rcontrolled"],
       "hearts": [false,true,false,false],
       "hint": "o 發短母音 u /ʌ/；th 發有聲吐舌音 /ð/。"
     },
     {
-      "number": "👩🏻媽媽",
+      "number": "👩🏻媽媽（英式）",
       "word": "mum",
       "ipa": "/mʌm/",
       "graphemes": ["m","u","m"],
@@ -241,7 +241,7 @@
       "phonics":  ["/m","ŭ","m/"],
       "tags": ["closed"],
       "hearts": [false,false,false],
-      "hint": "英式稱呼。"
+      "hint": "u 發短母音 u /ʌ/。"
     },
     {
       "number": "年老的；舊的",
@@ -250,9 +250,9 @@
       "graphemes": ["o","l","d"],
       "phonemes": ["/oʊ","l","d/"],
       "phonics":  ["/ō","l","d/"],
-      "tags": ["open"],
+      "tags": [],
       "hearts": [false,false,false],
-      "hint": "o 發長母音 /oʊ/。"
+      "hint": "o 發長母音 o /oʊ/。"
     },
     {
       "number": "🧍🏻人",
@@ -263,7 +263,7 @@
       "phonics":  ["/'p","er","s","ə","n/"],
       "tags": ["rcontrolled"],
       "hearts": [false,false,false,false,false],
-      "hint": " "
+      "hint": "er 發 /ɝ/。"
     },
     {
       "number": "🧍🏻🧍🏻人們",
@@ -285,7 +285,7 @@
       "phonics":  ["/'s","ĭ","s","t","er/"],
       "tags": ["closed","rcontrolled"],
       "hearts": [false,false,false,false,false],
-      "hint": " "
+      "hint": "可暱稱 sis。"
     },
     {
       "number": "👩🏻女人",
@@ -296,7 +296,7 @@
       "phonics":  ["/'w","oo","m","ə","n/"],
       "tags": ["irregular"],
       "hearts": [false,true,false,false,false],
-      "hint": "wo → /wʊ/。"
+      "hint": "o 發 oo /ʊ/。"
     },
     {
       "number": "👩🏻👩🏻女人們",
@@ -307,7 +307,7 @@
       "phonics":  ["/'w","ĭ","m","ĭ","n/"],
       "tags": ["irregular"],
       "hearts": [false,true,false,true,false],
-      "hint": "兩個 i 都是短母音 /ɪ/。"
+      "hint": "o 和 e 都發短母音 i /ɪ/。"
     },
     {
       "number": "年輕的",
@@ -316,12 +316,13 @@
       "graphemes": ["y","ou","ng"],
       "phonemes": ["/j","ʌ","ŋ/"],
       "phonics":  ["/y","ŭ","ŋ/"],
-      "tags": ["digraph","closed"],
+      "tags": [”irregular","digraph"],
       "hearts": [false,true,false],
       "hint": "ou 發短母音 u /ʌ/。"
     }
   ]
 }
+
 
 
 
