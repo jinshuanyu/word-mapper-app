@@ -9,7 +9,7 @@
       "phonics":  ["/wŭ","n","-/"],
       "tags": ["irregular"],
       "hearts": [true,false,true],
-      "hint": "o 發 /wʌ/ (w + 短母音 u); e 不發音。"
+      "hint": "o 發 /wʌ/ (w + 短母音 u)；e 不發音。"
     },
     {
       "number": 2,
@@ -29,7 +29,7 @@
       "graphemes": ["th","r","ee"],
       "phonemes": ["/θ","r","i/"],
       "phonics":  ["/th","r","ē/"],
-      "tags": ["digraph","cluster","vowel_team"],
+      "tags": ["digraph","cluster","open"],
       "hearts": [false,false,false],
       "hint": "th 發無聲吐舌音 /θ/；ee 發長母音 e /i/。"
     },
@@ -40,9 +40,9 @@
       "graphemes": ["f","our"],
       "phonemes": ["/f","ɔr/"],
       "phonics":  ["/f","or/"],
-      "tags": ["rcontrolled","irregular"],
+      "tags": ["irregular"],
       "hearts": [false,true],
-      "hint": "ou 發 /ɔ/（❤）。"
+      "hint": "our 發 or /ɔr/（❤）。"
     },
     {
       "number": 5,
@@ -53,7 +53,7 @@
       "phonics":  ["/f","ī","v","-/"],
       "tags": ["magic_e"],
       "hearts": [false,false,false,false],
-      "hint": "靜音 e：字尾 e 不發音，i 發長母音 /aɪ/。"
+      "hint": "i_e：i 發長母音 i /aɪ/，e 不發音。"
     },
     {
       "number": 6,
@@ -64,13 +64,13 @@
       "phonics":  ["/s","ĭ","ks/"],
       "tags": ["closed"],
       "hearts": [false,false,false],
-      "hint": "標準閉音節-短母音；x = /k/+ /s/。"
+      "hint": "i 發短母音 i /ɪ/；x = /k/ + /s/。"
     },
     {
       "number": 7,
       "word": "seven",
       "ipa": "/ˈsɛv.ən/",
-      "graphemes": ["s","e","v·","e","n"],
+      "graphemes": ["s","e","v","e","n"],
       "phonemes": ["/'s","ɛ","v","ə","n/"],
       "phonics":  ["/'s","ĕ","v","ə","n/"],
       "tags": ["closed"],
@@ -97,7 +97,7 @@
       "phonics":  ["/n","ī","n","-/"],
       "tags": ["magic_e"],
       "hearts": [false,false,false,false],
-      "hint": "靜音 e：字尾 e 不發音，i 發長母音 /aɪ/。"
+      "hint": "i_e：i 發長母音 i /aɪ/，e 不發音。"
     },
     {
       "number": 10,
@@ -112,6 +112,7 @@
     }
   ]
 }
+
 
 
 
