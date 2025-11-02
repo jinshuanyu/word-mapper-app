@@ -128,7 +128,7 @@
       "graphemes": ["u","n","c","le"],
       "phonemes": ["/'ʌ","ŋ","k","əl/"],
       "phonics":  ["/'ŭ","ŋ","k","əl/"],
-      "tags": ["closed",],
+      "tags": ["closed"],
       "hearts": [false,false,false,false],
       "hint": "n 在 /k/ 音之前發 /ŋ/。"
     },
