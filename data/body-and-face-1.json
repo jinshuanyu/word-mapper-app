@@ -29,8 +29,8 @@
 "graphemes": ["ea","r"],
 "phonemes": ["/ɪ","r/"],
 "phonics": ["/ĭ","r/"],
-"tags": ["rcontrolled","vowel_team"],
-"hearts": [false],
+"tags": ["vowel_team","rcontrolled"],
+"hearts": [false,false],
 "hint": "ear 發 /ɪr/。"
 },
 {
@@ -53,7 +53,7 @@
 "phonics": ["/f","ā","s","—/"],
 "tags": ["magic_e"],
 "hearts": [false,false,false,false],
-"hint": "a 發長母音 a /eɪ/；字尾 e 靜音。"
+"hint": "a_e：a 發長母音 a /eɪ/，e 不發音。"
 },
 {
 "number": "🦶 腳",
@@ -84,8 +84,8 @@
 "graphemes": ["h","ai","r"],
 "phonemes": ["/h","ɛ","r/"],
 "phonics": ["/h","ĕ","r/"],
-"tags": ["rcontrolled","vowel_team"],
-"hearts": [false,false],
+"tags": ["vowel_team","rcontrolled"],
+"hearts": [false,false,false],
 "hint": "air 發 /ɛr/。"
 },
 {
@@ -106,9 +106,9 @@
 "graphemes": ["h","ea","d"],
 "phonemes": ["/h","ɛ","d/"],
 "phonics": ["/h","ĕ","d/"],
-"tags": ["vowel_team","irregular"],
+"tags": ["irregular"],
 "hearts": [false,true,false],
-"hint": "ea 在此發短母音 e /ɛ/。"
+"hint": "ea 發短母音 e /ɛ/。"
 },
 {
 "number": "🦵 腿",
@@ -141,7 +141,7 @@
 "phonics": ["/n","ō","z","-/"],
 "tags": ["magic_e"],
 "hearts": [false,false,true,false],
-"hint": "o 發長母音 o /oʊ/；s 發 /z/。"
+"hint": "o_e：o 發長母音 o /oʊ/，e 不發音；s 發 /z/。"
 },
 {
 "number": "😊 微笑",
@@ -150,9 +150,9 @@
 "graphemes": ["s","m","i","l","e"],
 "phonemes": ["/s","m","aɪ","l","-/"],
 "phonics": ["/s","m","ī","l","-/"],
-"tags": ["magic_e","cluster"],
+"tags": ["cluster","magic_e"],
 "hearts": [false,false,false,false,false],
-"hint": "i 發長母音 i /aɪ/。"
+"hint": "i_e：i 發長母音 i /aɪ/，e 不發音。"
 }
 ]
 }
