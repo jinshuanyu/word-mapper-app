@@ -53,7 +53,10 @@
 "ti": "audio/phonemes/ti.mp3",
     "ə": "audio/phonemes/schwa.mp3",
      "əl": "audio/phonemes/le.mp3",
-
+ "ĭd": "audio/phonemes/ed.mp3",
+     "ɪd": "audio/phonemes/ed.mp3",
+    "ɪz": "audio/phonemes/es.mp3",
+      "ĭz": "audio/phonemes/es.mp3",
     "eɪ": "audio/phonemes/a_long.mp3",
     "aɪ": "audio/phonemes/i_long.mp3",
     "ɔɪ": "audio/phonemes/oi.mp3",
