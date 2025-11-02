@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "number": "🔙 背部",
+      "number": "背部",
       "word": "back",
       "ipa": "/bæk/",
       "graphemes": ["b","a","ck"],
@@ -12,7 +12,7 @@
       "hint": "ck 發 /k/；a 發短母音 a /æ/。"
     },
     {
-      "number": "🧔 鬍鬚（下巴）",
+      "number": "🧔🏻‍♂️ 鬍鬚（下巴）",
       "word": "beard",
       "ipa": "/bɪrd/",
       "graphemes": ["b","ea","r","d"],
@@ -92,26 +92,26 @@
       "number": "🦵 膝蓋",
       "word": "knee",
       "ipa": "/ni/",
-      "graphemes": ["kn","ee"],
-      "phonemes": ["/n","i/"],
-      "phonics": ["/n","ē/"],
+      "graphemes": ["k","n","ee"],
+      "phonemes": ["/-","n","i/"],
+      "phonics": ["/-","n","ē/"],
       "tags": ["silent_consonant","vowel_team"],
-      "hearts": [true,false],
+      "hearts": [true,false,false],
       "hint": "k 靜音；ee 發長母音 e /i/。"
     },
     {
-      "number": "👨🏻 髭（嘴唇上方的鬍子）",
+      "number": "髭（嘴唇上方的鬍子）",
       "word": "mustache",
       "ipa": "/ˈmʌstæʃ/",
       "graphemes": ["m","ou","s","t","a","ch","e"],
       "phonemes": ["/'m","ʌ","s","t","æ","ʃ","-/"],
       "phonics": ["/'m","ū","s","t","ă","sh","-/"],
-      "tags": ["vowel_team","digraph","irregular"],
+      "tags": ["digraph","irregular"],
       "hearts": [false,true,false,false,false,true,true],
       "hint": "u 發短母音 u /ʌ/；ch 在此發 sh /ʃ/；字尾 e 靜音。"
     },
     {
-      "number": "🫸 頸部",
+      "number": "頸部",
       "word": "neck",
       "ipa": "/nɛk/",
       "graphemes": ["n","e","ck"],
@@ -122,18 +122,18 @@
       "hint": "ck 發 /k/；e 發短母音 e /ɛ/。"
     },
     {
-      "number": "🫱 肩膀",
+      "number": "肩膀",
       "word": "shoulder",
       "ipa": "/ˈʃoʊldɚ/",
       "graphemes": ["sh","ou","l","d","er"],
       "phonemes": ["/'ʃ","oʊ","l","d","ɚ/"],
       "phonics": ["/'sh","ō","l","d","er/"],
-      "tags": ["digraph","vowel_team","rcontrolled","irregular"],
+      "tags": ["digraph","rcontrolled","irregular"],
       "hearts": [false,true,false,false,false],
       "hint": "sh 發 /ʃ/；ou 發長母音 o /oʊ/；er 發 /ɚ/。"
     },
     {
-      "number": "🫃 肚子",
+      "number": "胃；肚子",
       "word": "stomach",
       "ipa": "/ˈstʌmək/",
       "graphemes": ["s","t","o","m","a","ch"],
@@ -144,7 +144,7 @@
       "hint": "st- 連讀時，t 音如 ㄉ；o 發短母音 u /ʌ/；ch 在此發 /k/。"
     },
     {
-      "number": "📉 消瘦",
+      "number": "瘦；薄",
       "word": "thin",
       "ipa": "/θɪn/",
       "graphemes": ["th","i","n"],
