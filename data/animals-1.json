@@ -105,7 +105,7 @@
       "ipa": "/ˈdɑŋki/",
       "graphemes": ["d","o","n","k","ey"],
       "phonemes": ["/'d","ɑ","ŋ","k","i/"],
-      "phonics": ["/'d","ŏ","ng","k","ē/"],
+      "phonics": ["/'d","ŏ","ŋ","k","ē/"],
       "tags": ["closed","vowel_team"],
       "hearts": [false,false,false,false,true],
       "hint": "ey 在此發長母音 e /i/。"
@@ -128,7 +128,7 @@
       "graphemes": ["e","l","e","ph","a","n","t"],
       "phonemes": ["/'ɛ","l","ə","f","ə","n","t/"],
       "phonics": ["/'ĕ","l","ə","f","ə","n","t/"],
-      "tags": ["digraph","open"],
+      "tags": ["digraph"],
       "hearts": [false,false,false,false,false,false,false],
       "hint": "ph 發 /f/。"
     },
