@@ -27,7 +27,8 @@
     "ks": "audio/phonemes/ks.mp3",
     "wʌ": "audio/phonemes/wu.mp3",
     "wŭ": "audio/phonemes/wu.mp3",
-
+"ts": "audio/phonemes/ts.mp3",
+    "ds": "audio/phonemes/dz.mp3",
     "sh": "audio/phonemes/c13.mp3",
     "zh": "audio/phonemes/c14.mp3",
     "ch": "audio/phonemes/c15.mp3",
