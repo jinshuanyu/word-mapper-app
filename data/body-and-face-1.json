@@ -138,7 +138,7 @@
 "ipa": "/noʊz/",
 "graphemes": ["n","o","s","e"],
 "phonemes": ["/n","oʊ","z","-/"],
-"phonics": ["/n","ō","z","—/"],
+"phonics": ["/n","ō","z","-/"],
 "tags": ["magic_e"],
 "hearts": [false,false,true,false],
 "hint": "o 發長母音 o /oʊ/；s 發 /z/。"
