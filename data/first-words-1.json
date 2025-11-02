@@ -7,9 +7,9 @@
       "graphemes": ["a"],
       "phonemes": ["/ə/"],
       "phonics": ["/ə/"],
-      "tags": ["open", "irregular"],
+      "tags": ["irregular"],
       "hearts": [true],
-      "hint": "多數唸 /ə/；重讀或強調時可唸長母音 a /eɪ/。"
+      "hint": "通常唸 /ə/；強調時可唸長母音 a /eɪ/。"
     },
     {
       "number": "一（個）（母音前）",
@@ -20,7 +20,7 @@
       "phonics": ["/ə", "n/"],
       "tags": ["irregular"],
       "hearts": [true, false],
-      "hint": "母音開頭字前 a 改為 an。"
+      "hint": "母音開頭單字前，a 改為 an。"
     },
     {
       "number": "和；及（連接詞）",
@@ -42,7 +42,7 @@
       "phonics": ["/b", "ē/"],
       "tags": ["open"],
       "hearts": [false, false],
-      "hint": "字母 e 發長母音 e /i/。"
+      "hint": "e 發長母音 e /i/。"
     },
     {
       "number": "為了（介系詞）",
@@ -53,7 +53,7 @@
       "phonics": ["/f", "or/"],
       "tags": ["rcontrolled"],
       "hearts": [false, false],
-      "hint": "or 為 r 控制母音。"
+      "hint": "or 發 /ɔr/。"
     },
     {
       "number": "有；完成式助動詞",
@@ -64,7 +64,7 @@
       "phonics": ["/h", "ă", "v", "-/"],
       "tags": ["irregular"],
       "hearts": [false, false, false, true],
-      "hint": "v 字尾後補靜音 e，a 為短母音 /æ/。"
+      "hint": "a 發短母音 a /æ/；v 字尾後補靜音 e。"
     },
     {
       "number": "我",
@@ -86,7 +86,7 @@
       "phonics": ["/ĭ", "n/"],
       "tags": ["closed"],
       "hearts": [false, false],
-      "hint": "短母音 /ɪ/。"
+      "hint": "i 發短母音 i /ɪ/。"
     },
     {
       "number": "它；這件事",
@@ -97,7 +97,7 @@
       "phonics": ["/ĭ", "t/"],
       "tags": ["closed"],
       "hearts": [false, false],
-      "hint": "短母音 i /ɪ/。"
+      "hint": "i 發短母音 i /ɪ/。"
     },
     {
       "number": "... 的（介系詞）",
@@ -108,7 +108,7 @@
       "phonics": ["/ŭ", "v/"],
       "tags": ["irregular"],
       "hearts": [true, true],
-      "hint": "o 唸短母音 u /ʌ/ 或弱化 /ə/；f 唸 /v/。"
+      "hint": "o 唸短母音 u /ʌ/ 或弱化 /ə/；f 唸 /v/，口語中可略讀。"
     },
     {
       "number": "那個",
@@ -130,7 +130,7 @@
       "phonics": ["/<u>th</u>", "ə/"],
       "tags": ["digraph", "irregular"],
       "hearts": [false, true],
-      "hint": "通常母音弱化 /ə/；在母音開頭字前 e 發長母音 /i/。"
+      "hint": "通常母音弱化 /ə/；在母音開頭字前 e 發長母音 e /i/。"
     },
     {
       "number": "到；向；不定詞標記",
@@ -141,7 +141,7 @@
       "phonics": ["/t", "ū/"],
       "tags": ["irregular"],
       "hearts": [false, true],
-      "hint": "口語常弱化 /tə/；搭配動詞作不定詞標記。"
+      "hint": "o 發長母音 u /u/，常弱化為 /ə/。"
     },
     {
       "number": "你；你們",
