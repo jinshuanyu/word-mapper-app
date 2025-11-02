@@ -9,7 +9,7 @@
       "phonics":  ["/ĭ","'l","ĕ","v","ə","n/"],
       "tags": ["irregular","closed"],
       "hearts": [true,false,false,false,false,false],
-      "hint": "第一個 e 發短 i /ɪ/；第二個 e 發短 e /ĕ/；第三個 e 發弱化 /ə/。"
+      "hint": "第一個 e 發短 i /ɪ/；第二個 e 發短 e /ɛ/；第三個 e 發弱化 /ə/。"
     },
     {
       "number": 12,
@@ -42,7 +42,7 @@
       "phonics":  ["/f","or","'t","ē","n/"],
       "tags": ["irregular","vowel_team"],
       "hearts": [false,true,false,false,false],
-      "hint": "four + teen；ou → /ɔ/。"
+      "hint": "four + teen；our 發 or /ɔr/。"
     },
     {
       "number": 15,
@@ -86,7 +86,7 @@
       "phonics":  ["/ā","'t","ē","n/"],
       "tags": ["vowel_team"],
       "hearts": [true,false,false,false],
-      "hint": "中間只有一個 t；eigh → /eɪ/。"
+      "hint": "eigh 發長母音 a /eɪ/；中間只有一個 t。"
     },
     {
       "number": 19,
@@ -112,6 +112,7 @@
     }
   ]
 }
+
 
 
 
