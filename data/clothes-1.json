@@ -18,9 +18,9 @@
       "graphemes": ["b","a","s","e","b","a","ll"," ","c","a","p"],
       "phonemes": ["/'b","eɪ","z","-","b","ɔ","l"," ","k","æ","p/"],
       "phonics": ["/'b","ā","z","—","b","aw","l"," ","k","ă","p/"],
-      "tags": ["magic_e","irregular"],
+      "tags": ["magic_e","closed"],
       "hearts": [false,false,false,false,false,false,false,false,false,false,false],
-      "hint": "s 在母音間多發 /z/。"
+      "hint": "複合名詞，重音在第一個字的重音節；s 在母音間多發 /z/。"
     },
     {
       "number": "🥾 靴子",
@@ -40,7 +40,7 @@
       "graphemes": ["c","l","o","thes"],
       "phonemes": ["/k","l","oʊ","z/"],
       "phonics": ["/k","l","ō","z/"],
-      "tags": ["cluster","digraph","irregular"],
+      "tags": ["cluster","digraph"],
       "hearts": [false,false,false,true],
       "hint": "o 發長母音 o /oʊ/；美式發音 -thes 發 /z/。"
     },
@@ -237,11 +237,11 @@
       "word": "T shirt",
       "ipa": "/ˈtiʃɝt/",
       "graphemes": ["T"," ","sh","ir","t"],
-      "phonemes": ["/'t"," ","ʃ","ɝ","t/"],
-      "phonics": ["/'t"," ","sh","er","t/"],
+      "phonemes": ["/'ti"," ","ʃ","ɝ","t/"],
+      "phonics": ["/'tē"," ","sh","er","t/"],
       "tags": ["digraph","rcontrolled"],
       "hearts": [false,false,false,false,false],
-      "hint": "sh 發 /ʃ/；ir 發 er /ɝ/。"
+      "hint": "T 發字母名 tē /ti/；sh 發 /ʃ/；ir 發 er /ɝ/。"
     },
     {
       "number": "👗 穿著",
