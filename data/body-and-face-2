@@ -1,0 +1,191 @@
+{
+  "items": [
+    {
+      "number": "🔙 背部",
+      "word": "back",
+      "ipa": "/bæk/",
+      "graphemes": ["b","a","ck"],
+      "phonemes": ["/b","æ","k/"],
+      "phonics": ["/b","ă","k/"],
+      "tags": ["digraph","closed"],
+      "hearts": [false,false,false],
+      "hint": "ck 發 /k/；a 發短母音 a /æ/。"
+    },
+    {
+      "number": "🧔 鬍鬚（下巴）",
+      "word": "beard",
+      "ipa": "/bɪrd/",
+      "graphemes": ["b","ear","d"],
+      "phonemes": ["/b","ɪr","d/"],
+      "phonics": ["/b","er","d/"],
+      "tags": ["vowel_team","rcontrolled"],
+      "hearts": [false,true,false],
+      "hint": "ear 在此發 /ɪr/。"
+    },
+    {
+      "number": "🟡 金髮",
+      "word": "blond",
+      "ipa": "/blɑnd/",
+      "graphemes": ["b","l","o","n","d"],
+      "phonemes": ["/b","l","ɑ","n","d/"],
+      "phonics": ["/b","l","ŏ","n","d/"],
+      "tags": ["cluster","closed"],
+      "hearts": [false,false,false,false,false],
+      "hint": "o 在此發短母音 o /ɑ/。"
+    },
+    {
+      "number": "🌀 捲髮",
+      "word": "curly",
+      "ipa": "/ˈkɝli/",
+      "graphemes": ["c","ur","l","y"],
+      "phonemes": ["/'k","ɝ","l","i/"],
+      "phonics": ["/'k","er","l","ē/"],
+      "tags": ["rcontrolled","open"],
+      "hearts": [false,false,false,false],
+      "hint": "ur 發 er /ɝ/；字尾 y 發 /i/。"
+    },
+    {
+      "number": "💪 手肘",
+      "word": "elbow",
+      "ipa": "/ˈɛlboʊ/",
+      "graphemes": ["e","l","b","ow"],
+      "phonemes": ["/'ɛ","l","b","oʊ/"],
+      "phonics": ["/'ĕ","l","b","ō/"],
+      "tags": ["vowel_team"],
+      "hearts": [false,false,false,false],
+      "hint": "ow 在此發長母音 o /oʊ/。"
+    },
+    {
+      "number": "🤍 白皙",
+      "word": "fair",
+      "ipa": "/fɛr/",
+      "graphemes": ["f","ai","r"],
+      "phonemes": ["/f","ɛ","r/"],
+      "phonics": ["/f","ĕ","r/"],
+      "tags": ["vowel_team","rcontrolled"],
+      "hearts": [false,false,false],
+      "hint": "ai 在此發短母音 e /ɛ/。"
+    },
+    {
+      "number": "⚖️ 肥胖",
+      "word": "fat",
+      "ipa": "/fæt/",
+      "graphemes": ["f","a","t"],
+      "phonemes": ["/f","æ","t/"],
+      "phonics": ["/f","ă","t/"],
+      "tags": ["closed"],
+      "hearts": [false,false,false],
+      "hint": "a 發短母音 a /æ/。"
+    },
+    {
+      "number": "☝️ 手指",
+      "word": "finger",
+      "ipa": "/ˈfɪŋɡɚ/",
+      "graphemes": ["f","i","n","ɡ","er"],
+      "phonemes": ["/'f","ɪ","ŋ","ɡ","ɚ/"],
+      "phonics": ["/'f","ĭ","ng","ɡ","er/"],
+      "tags": ["rcontrolled","cluster"],
+      "hearts": [false,false,false,false,false],
+      "hint": "n + g 發 /ŋ ɡ/；er 發 /ɚ/。"
+    },
+    {
+      "number": "🦵 膝蓋",
+      "word": "knee",
+      "ipa": "/ni/",
+      "graphemes": ["kn","ee"],
+      "phonemes": ["/n","i/"],
+      "phonics": ["/n","ē/"],
+      "tags": ["silent_consonant","vowel_team"],
+      "hearts": [true,false],
+      "hint": "k 靜音；ee 發長母音 e /i/。"
+    },
+    {
+      "number": "👨🏻 髭（小鬍子）",
+      "word": "moustache",
+      "ipa": "/muˈstæʃ/",
+      "graphemes": ["m","ou","s","t","a","ch","e"],
+      "phonemes": ["/m","u","s","'t","æ","ʃ","-/"],
+      "phonics": ["/m","ū","s","'t","ă","sh","—/"],
+      "tags": ["vowel_team","digraph","magic_e","irregular"],
+      "hearts": [false,true,false,false,false,true,true],
+      "hint": "ou 在此發 /u/；ch 在此發 /ʃ/；字尾 e 靜音。"
+    },
+    {
+      "number": "🫸 頸部",
+      "word": "neck",
+      "ipa": "/nɛk/",
+      "graphemes": ["n","e","ck"],
+      "phonemes": ["/n","ɛ","k/"],
+      "phonics": ["/n","ĕ","k/"],
+      "tags": ["digraph","closed"],
+      "hearts": [false,false,false],
+      "hint": "ck 發 /k/；e 發短母音 e /ɛ/。"
+    },
+    {
+      "number": "🫱 肩膀",
+      "word": "shoulder",
+      "ipa": "/ˈʃoʊldɚ/",
+      "graphemes": ["sh","ou","l","d","er"],
+      "phonemes": ["/'ʃ","oʊ","l","d","ɚ/"],
+      "phonics": ["/'sh","ō","l","d","er/"],
+      "tags": ["digraph","vowel_team","rcontrolled","cluster"],
+      "hearts": [false,false,false,false,false],
+      "hint": "sh 發 /ʃ/；ou 在此發 /oʊ/；er 發 /ɚ/。"
+    },
+    {
+      "number": "🫃 肚子",
+      "word": "stomach",
+      "ipa": "/ˈstʌmək/",
+      "graphemes": ["s","t","o","m","a","ch"],
+      "phonemes": ["/'s","t","ʌ","m","ə","k/"],
+      "phonics": ["/'s","t","ŭ","m","ə","k/"],
+      "tags": ["cluster","digraph","closed"],
+      "hearts": [false,false,false,false,false,true],
+      "hint": "ch 在此發 /k/；o 發短母音 /ʌ/。"
+    },
+    {
+      "number": "📉 消瘦",
+      "word": "thin",
+      "ipa": "/θɪn/",
+      "graphemes": ["th","i","n"],
+      "phonemes": ["/θ","ɪ","n/"],
+      "phonics": ["/th","ĭ","n/"],
+      "tags": ["digraph","closed"],
+      "hearts": [false,false,false],
+      "hint": "th 發無聲吐舌音 /θ/。"
+    },
+    {
+      "number": "🦶 腳趾",
+      "word": "toe",
+      "ipa": "/toʊ/",
+      "graphemes": ["t","oe"],
+      "phonemes": ["/t","oʊ/"],
+      "phonics": ["/t","ō/"],
+      "tags": ["vowel_team"],
+      "hearts": [false,false],
+      "hint": "oe 發長母音 o /oʊ/。"
+    },
+    {
+      "number": "🦷 牙齒",
+      "word": "tooth",
+      "ipa": "/tuθ/",
+      "graphemes": ["t","oo","th"],
+      "phonemes": ["/t","u","θ/"],
+      "phonics": ["/t","ū","th/"],
+      "tags": ["vowel_team","digraph","closed"],
+      "hearts": [false,false,false],
+      "hint": "oo 發長母音 u /u/；th 發 /θ/。"
+    },
+    {
+      "number": "🦷🦷 牙齒（複數）",
+      "word": "teeth",
+      "ipa": "/tiθ/",
+      "graphemes": ["t","ee","th"],
+      "phonemes": ["/t","i","θ/"],
+      "phonics": ["/t","ē","th/"],
+      "tags": ["vowel_team","digraph","closed"],
+      "hearts": [false,false,false],
+      "hint": "ee 發長母音 e /i/；th 發 /θ/。"
+    }
+  ]
+}
