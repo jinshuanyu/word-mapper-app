@@ -15,11 +15,11 @@
       "number": "🧔 鬍鬚（下巴）",
       "word": "beard",
       "ipa": "/bɪrd/",
-      "graphemes": ["b","ear","d"],
-      "phonemes": ["/b","ɪr","d/"],
-      "phonics": ["/b","er","d/"],
-      "tags": ["vowel_team","rcontrolled"],
-      "hearts": [false,true,false],
+      "graphemes": ["b","ea","r","d"],
+      "phonemes": ["/b","ɪ","r","d/"],
+      "phonics": ["/b","ĭ","r","d/"],
+      "tags": ["vowel_team","irregular"],
+      "hearts": [false,true,false,false],
       "hint": "ear 在此發 /ɪr/。"
     },
     {
@@ -83,10 +83,10 @@
       "ipa": "/ˈfɪŋɡɚ/",
       "graphemes": ["f","i","n","ɡ","er"],
       "phonemes": ["/'f","ɪ","ŋ","ɡ","ɚ/"],
-      "phonics": ["/'f","ĭ","ng","ɡ","er/"],
+      "phonics": ["/'f","ĭ","ŋ","ɡ","er/"],
       "tags": ["rcontrolled","cluster"],
       "hearts": [false,false,false,false,false],
-      "hint": "n + g 發 /ŋ ɡ/；er 發 /ɚ/。"
+      "hint": "n 在 g 前發 /ŋ/；er 發 /ɚ/。"
     },
     {
       "number": "🦵 膝蓋",
@@ -105,10 +105,10 @@
       "ipa": "/muˈstæʃ/",
       "graphemes": ["m","ou","s","t","a","ch","e"],
       "phonemes": ["/m","u","s","'t","æ","ʃ","-/"],
-      "phonics": ["/m","ū","s","'t","ă","sh","—/"],
-      "tags": ["vowel_team","digraph","magic_e","irregular"],
+      "phonics": ["/m","ū","s","'t","ă","sh","-/"],
+      "tags": ["vowel_team","digraph","irregular"],
       "hearts": [false,true,false,false,false,true,true],
-      "hint": "ou 在此發 /u/；ch 在此發 /ʃ/；字尾 e 靜音。"
+      "hint": "ou 在此發長母音 u /u/；ch 在此發 sh /ʃ/；字尾 e 靜音。"
     },
     {
       "number": "🫸 頸部",
@@ -174,7 +174,7 @@
       "phonics": ["/t","ū","th/"],
       "tags": ["vowel_team","digraph","closed"],
       "hearts": [false,false,false],
-      "hint": "oo 發長母音 u /u/；th 發 /θ/。"
+      "hint": "oo 發長母音 u /u/；th 發無聲吐舌音 /θ/。"
     },
     {
       "number": "🦷🦷 牙齒（複數）",
@@ -185,7 +185,7 @@
       "phonics": ["/t","ē","th/"],
       "tags": ["vowel_team","digraph","closed"],
       "hearts": [false,false,false],
-      "hint": "ee 發長母音 e /i/；th 發 /θ/。"
+      "hint": "ee 發長母音 e /i/；th 發無聲吐舌音 /θ/。"
     }
   ]
 }
