@@ -23,7 +23,7 @@
       "hint": "ear 在此發 /ɪr/。"
     },
     {
-      "number": "🟡 金髮",
+      "number": "👱 金髮",
       "word": "blond",
       "ipa": "/blɑnd/",
       "graphemes": ["b","l","o","n","d"],
@@ -34,7 +34,7 @@
       "hint": "o 在此發短母音 o /ɑ/。"
     },
     {
-      "number": "🌀 捲髮",
+      "number": "🌀 捲曲的（頭髮）",
       "word": "curly",
       "ipa": "/ˈkɝli/",
       "graphemes": ["c","ur","l","y"],
@@ -56,7 +56,7 @@
       "hint": "ow 在此發長母音 o /oʊ/。"
     },
     {
-      "number": "🤍 白皙",
+      "number": "🤍 白皙；美好",
       "word": "fair",
       "ipa": "/fɛr/",
       "graphemes": ["f","ai","r"],
@@ -67,7 +67,7 @@
       "hint": "ai 在此發短母音 e /ɛ/。"
     },
     {
-      "number": "⚖️ 肥胖",
+      "number": "肥胖的",
       "word": "fat",
       "ipa": "/fæt/",
       "graphemes": ["f","a","t"],
@@ -100,15 +100,15 @@
       "hint": "k 靜音；ee 發長母音 e /i/。"
     },
     {
-      "number": "👨🏻 髭（小鬍子）",
-      "word": "moustache",
-      "ipa": "/muˈstæʃ/",
+      "number": "👨🏻 髭（嘴唇上方的鬍子）",
+      "word": "mustache",
+      "ipa": "/ˈmʌstæʃ/",
       "graphemes": ["m","ou","s","t","a","ch","e"],
-      "phonemes": ["/m","u","s","'t","æ","ʃ","-/"],
-      "phonics": ["/m","ū","s","'t","ă","sh","-/"],
+      "phonemes": ["/'m","ʌ","s","t","æ","ʃ","-/"],
+      "phonics": ["/'m","ū","s","t","ă","sh","-/"],
       "tags": ["vowel_team","digraph","irregular"],
       "hearts": [false,true,false,false,false,true,true],
-      "hint": "ou 在此發長母音 u /u/；ch 在此發 sh /ʃ/；字尾 e 靜音。"
+      "hint": "u 發短母音 u /ʌ/；ch 在此發 sh /ʃ/；字尾 e 靜音。"
     },
     {
       "number": "🫸 頸部",
@@ -128,9 +128,9 @@
       "graphemes": ["sh","ou","l","d","er"],
       "phonemes": ["/'ʃ","oʊ","l","d","ɚ/"],
       "phonics": ["/'sh","ō","l","d","er/"],
-      "tags": ["digraph","vowel_team","rcontrolled","cluster"],
-      "hearts": [false,false,false,false,false],
-      "hint": "sh 發 /ʃ/；ou 在此發 /oʊ/；er 發 /ɚ/。"
+      "tags": ["digraph","vowel_team","rcontrolled","irregular"],
+      "hearts": [false,true,false,false,false],
+      "hint": "sh 發 /ʃ/；ou 發長母音 o /oʊ/；er 發 /ɚ/。"
     },
     {
       "number": "🫃 肚子",
@@ -139,9 +139,9 @@
       "graphemes": ["s","t","o","m","a","ch"],
       "phonemes": ["/'s","t","ʌ","m","ə","k/"],
       "phonics": ["/'s","t","ŭ","m","ə","k/"],
-      "tags": ["cluster","digraph","closed"],
-      "hearts": [false,false,false,false,false,true],
-      "hint": "ch 在此發 /k/；o 發短母音 /ʌ/。"
+      "tags": ["cluster","digraph","irregular"],
+      "hearts": [false,false,true,false,false,true],
+      "hint": "st- 連讀時，t 音如 ㄉ；o 發短母音 u /ʌ/；ch 在此發 /k/。"
     },
     {
       "number": "📉 消瘦",
@@ -161,7 +161,7 @@
       "graphemes": ["t","oe"],
       "phonemes": ["/t","oʊ/"],
       "phonics": ["/t","ō/"],
-      "tags": ["vowel_team"],
+      "tags": ["vowel_team","open"],
       "hearts": [false,false],
       "hint": "oe 發長母音 o /oʊ/。"
     },
