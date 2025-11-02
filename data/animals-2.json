@@ -305,7 +305,7 @@
 "phonemes": ["/w","eɪ","l","-/"],
 "phonics": ["/w","ā","l","—/"],
 "tags": ["digraph","magic_e"],
-"hearts": [false,false,false,true],
+"hearts": [false,false,false,false],
 "hint": "wh 發 /w/；a 發長母音 a /eɪ/。"
 },
 {
