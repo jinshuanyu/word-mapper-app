@@ -290,11 +290,11 @@
 "number": "🐢 陸龜",
 "word": "tortoise",
 "ipa": "/ˈtɔrtəs/",
-"graphemes": ["t","or","t","oi","se"],
-"phonemes": ["/'t","ɔr","t","ə","s/"],
-"phonics": ["/'t","or","t","ə","s/"],
+"graphemes": ["t","or","t","oi","s","e"],
+"phonemes": ["/'t","ɔr","t","ə","s","-/"],
+"phonics": ["/'t","or","t","ə","s","-/"],
 "tags": ["rcontrolled"],
-"hearts": [false,false,false,true,true],
+"hearts": [false,false,false,true,false,true],
 "hint": "or 發 /ɔr/；s 後詞尾補靜音 e；海龜為 turtle。"
 },
 {
