@@ -19,7 +19,7 @@
       "phonemes": ["/'b","eɪ","z","-","b","ɔ","l"," ","k","æ","p/"],
       "phonics": ["/'b","ā","z","—","b","aw","l"," ","k","ă","p/"],
       "tags": ["magic_e","irregular"],
-      "hearts": [false,false,true,true,false,true,false,false,false,false,false],
+      "hearts": [false,false,false,false,false,false,false,false,false,false,false],
       "hint": "s 在母音間多發 /z/。"
     },
     {
@@ -102,10 +102,10 @@
     {
       "number": "🪖 安全帽",
       "word": "helmet",
-      "ipa": "/ˈhɛlmɪt/",
+      "ipa": "/ˈhɛlmət/",
       "graphemes": ["h","e","l","m","e","t"],
-      "phonemes": ["/'h","ɛ","l","m","ɪ","t/"],
-      "phonics": ["/'h","ĕ","l","m","ĭ","t/"],
+      "phonemes": ["/'h","ɛ","l","m","ə","t/"],
+      "phonics": ["/'h","ĕ","l","m","ə","t/"],
       "tags": ["cluster","closed"],
       "hearts": [false,false,false,false,false,false],
       "hint": "第一個 e 發短母音 e /ɛ/。"
@@ -131,6 +131,17 @@
       "tags": ["vowel_team"],
       "hearts": [false,false,false,false],
       "hint": "ea 發長母音 e /i/；s 發 /z/。"
+    },
+        {
+      "number": "🧣 圍巾",
+      "word": "scarf",
+      "ipa": "/skɑrf/",
+      "graphemes": ["s","c","ar","f"],
+      "phonemes": ["/s","k","ɑr","f/"],
+      "phonics": ["/s","k","ɑr","f/"],
+      "tags": ["cluster","rcontrolled"],
+      "hearts": [false,false,false,false],
+      "hint": "sc- 連讀且後面不是 i, e, y 時，c 音如 ㄍ。"
     },
     {
       "number": "👔 襯衫",
@@ -174,7 +185,7 @@
       "phonics": ["/s","k","er","t/"],
       "tags": ["cluster","rcontrolled"],
       "hearts": [false,false,false,false],
-      "hint": "ir 發 er /ɝ/。"
+      "hint": "sk- 連讀時，k 音如 ㄍ；ir 發 er /ɝ/。"
     },
     {
       "number": "🧦 襪子",
@@ -187,17 +198,7 @@
       "hearts": [false,false,false],
       "hint": "o 發短母音 o /ɑ/；ck 發 /k/。"
     },
-    {
-      "number": "🧣 圍巾",
-      "word": "scarf",
-      "ipa": "/skɑrf/",
-      "graphemes": ["s","c","ar","f"],
-      "phonemes": ["/s","k","ɑr","f/"],
-      "phonics": ["/s","k","ɑr","f/"],
-      "tags": ["cluster","rcontrolled"],
-      "hearts": [false,false,false,false],
-      "hint": "sc- 連讀且後面不是 i, e, y 時，c 音如 ㄍ。"
-    },
+
     {
       "number": "🧶 毛衣",
       "word": "sweater",
@@ -233,13 +234,13 @@
     },
     {
       "number": "👕 短袖上衣",
-      "word": "T-shirt",
+      "word": "T shirt",
       "ipa": "/ˈtiʃɝt/",
-      "graphemes": ["T","-","sh","i","r","t"],
-      "phonemes": ["/'t","-","ʃ","ɝ","t","/"],
-      "phonics": ["/'t","—","sh","er","t","/"],
+      "graphemes": ["T"," ","sh","ir","t"],
+      "phonemes": ["/'t"," ","ʃ","ɝ","t/"],
+      "phonics": ["/'t"," ","sh","er","t/"],
       "tags": ["digraph","rcontrolled"],
-      "hearts": [false,false,false,false,false,false],
+      "hearts": [false,false,false,false,false],
       "hint": "sh 發 /ʃ/；ir 發 er /ɝ/。"
     },
     {
@@ -249,7 +250,7 @@
       "graphemes": ["w","ea","r"],
       "phonemes": ["/w","ɛ","r/"],
       "phonics": ["/w","ĕ","r/"],
-      "tags": ["vowel_team","rcontrolled","irregular"],
+      "tags": ["vowel_team","irregular"],
       "hearts": [false,false,false],
       "hint": "ea 在此發短母音 e /ɛ/。"
     }
