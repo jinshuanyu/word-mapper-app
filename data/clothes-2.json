@@ -1,0 +1,191 @@
+{
+  "items": [
+    {
+      "number": "🧷 皮帶",
+      "word": "belt",
+      "ipa": "/bɛlt/",
+      "graphemes": ["b","e","l","t"],
+      "phonemes": ["/b","ɛ","l","t/"],
+      "phonics": ["/b","ĕ","l","t/"],
+      "tags": ["closed","cluster"],
+      "hearts": [false,false,false,false],
+      "hint": "e 發短母音 e /ɛ/；lt 為子音群。"
+    },
+    {
+      "number": "📿 手鍊",
+      "word": "bracelet",
+      "ipa": "/ˈbreɪslət/",
+      "graphemes": ["b","r","a","ce","l","e","t"],
+      "phonemes": ["/'b","r","eɪ","s","l","ə","t/"],
+      "phonics": ["/'b","r","ā","s","l","ə","t/"],
+      "tags": ["magic_e","cluster"],
+      "hearts": [false,false,false,false,false,false,false],
+      "hint": "a_e → ā /eɪ/；ce 發 /s/；末音節為弱讀 /lə/。"
+    },
+    {
+      "number": "🎭 服裝（戲服）",
+      "word": "costume",
+      "ipa": "/ˈkɑstum/",
+      "graphemes": ["c","o","s","t","u","m","e"],
+      "phonemes": ["/'k","ɑ","s","t","u","m","-/"],
+      "phonics": ["/'k","ŏ","s","t","ū","m","—/"],
+      "tags": ["magic_e","cluster","closed"],
+      "hearts": [false,false,false,false,false,false,true],
+      "hint": "u 發長母音 u /u/；字尾 e 靜音。"
+    },
+    {
+      "number": "👑 王冠",
+      "word": "crown",
+      "ipa": "/kraʊn/",
+      "graphemes": ["c","r","ow","n"],
+      "phonemes": ["/k","r","aʊ","n/"],
+      "phonics": ["/k","r","au","n/"],
+      "tags": ["vowel_team","cluster","closed"],
+      "hearts": [false,false,false,false],
+      "hint": "ow 在此發 /aʊ/。"
+    },
+    {
+      "number": "🧤 手套",
+      "word": "glove",
+      "ipa": "/ɡlʌv/",
+      "graphemes": ["g","l","o","v","e"],
+      "phonemes": ["/ɡ","l","ʌ","v","-/"],
+      "phonics": ["/ɡ","l","ŭ","v","—/"],
+      "tags": ["magic_e","cluster","closed"],
+      "hearts": [false,false,false,false,true],
+      "hint": "o 發短母音 /ʌ/；字尾 e 靜音。"
+    },
+    {
+      "number": "📿 項鍊",
+      "word": "necklace",
+      "ipa": "/ˈnɛkləs/",
+      "graphemes": ["n","e","ck","l","a","c","e"],
+      "phonemes": ["/'n","ɛ","k","l","ə","s","-/"],
+      "phonics": ["/'n","ĕ","k","l","ə","s","—/"],
+      "tags": ["digraph","magic_e","cluster","irregular"],
+      "hearts": [false,false,false,false,true,false,true],
+      "hint": "ck 發 /k/；a 在此弱讀 /ə/；字尾 e 靜音。"
+    },
+    {
+      "number": "🛌 睡衣",
+      "word": "pajamas",
+      "ipa": "/pəˈdʒɑməz/",
+      "graphemes": ["p","a","j","a","m","a","s"],
+      "phonemes": ["/p","ə","'dʒ","ɑ","m","ə","z/"],
+      "phonics": ["/p","ə","'j","ŏ","m","ə","z/"],
+      "tags": ["irregular","closed"],
+      "hearts": [false,true,false,false,false,true,true],
+      "hint": "重音在第二音節 /dʒɑ/；結尾 s 多發 /z/。"
+    },
+    {
+      "number": "🫳 口袋",
+      "word": "pocket",
+      "ipa": "/ˈpɑkɪt/",
+      "graphemes": ["p","o","ck","e","t"],
+      "phonemes": ["/'p","ɑ","k","ɪ","t/"],
+      "phonics": ["/'p","ŏ","k","ĭ","t/"],
+      "tags": ["digraph","closed"],
+      "hearts": [false,false,false,false,false],
+      "hint": "ck 發 /k/；o 發 /ɑ/、e 發 /ɪ/。"
+    },
+    {
+      "number": "💍 戒指",
+      "word": "ring",
+      "ipa": "/rɪŋ/",
+      "graphemes": ["r","i","ng"],
+      "phonemes": ["/r","ɪ","ŋ/"],
+      "phonics": ["/r","ĭ","ng/"],
+      "tags": ["digraph","closed"],
+      "hearts": [false,false,false],
+      "hint": "ng 發 /ŋ/。"
+    },
+    {
+      "number": "🟣 斑點",
+      "word": "spot",
+      "ipa": "/spɑt/",
+      "graphemes": ["s","p","o","t"],
+      "phonemes": ["/s","p","ɑ","t/"],
+      "phonics": ["/s","p","ŏ","t/"],
+      "tags": ["cluster","closed"],
+      "hearts": [false,false,false,false],
+      "hint": "sp 為子音群；o 多發 /ɑ/。"
+    },
+    {
+      "number": "🟣🟣 有斑點的",
+      "word": "spotted",
+      "ipa": "/ˈspɑtɪd/",
+      "graphemes": ["s","p","o","tt","e","d"],
+      "phonemes": ["/'s","p","ɑ","t","ɪ","d/"],
+      "phonics": ["/'s","p","ŏ","t","ĭ","d/"],
+      "tags": ["cluster","closed","irregular"],
+      "hearts": [false,false,false,false,true,false],
+      "hint": "過去分詞 -ed 在 /t/ 後發 /ɪd/。"
+    },
+    {
+      "number": "📏 條紋",
+      "word": "stripe",
+      "ipa": "/straɪp/",
+      "graphemes": ["s","t","r","i","p","e"],
+      "phonemes": ["/s","t","r","aɪ","p","-/"],
+      "phonics": ["/s","t","r","ī","p","—/"],
+      "tags": ["magic_e","cluster"],
+      "hearts": [false,false,false,false,false,true],
+      "hint": "i_e → ī /aɪ/；字尾 e 靜音。"
+    },
+    {
+      "number": "📏 有條紋的",
+      "word": "striped",
+      "ipa": "/straɪpt/",
+      "graphemes": ["s","t","r","i","p","e","d"],
+      "phonemes": ["/s","t","r","aɪ","p","-","t/"],
+      "phonics": ["/s","t","r","ī","p","—","t/"],
+      "tags": ["magic_e","cluster","closed"],
+      "hearts": [false,false,false,false,false,true,false],
+      "hint": "i_e → ī /aɪ/；-ed 在清音 /p/ 後讀 /t/。"
+    },
+    {
+      "number": "🕶 太陽眼鏡",
+      "word": "sunglasses",
+      "ipa": "/ˈsʌnɡlæsɪz/",
+      "graphemes": ["s","u","n","ɡ","l","a","ss","e","s"],
+      "phonemes": ["/'s","ʌ","n","ɡ","l","æ","s","ɪ","z/"],
+      "phonics": ["/'s","ŭ","n","ɡ","l","ă","s","ĭ","z/"],
+      "tags": ["cluster","closed","irregular"],
+      "hearts": [false,false,false,false,false,false,false,false,true],
+      "hint": "結尾 s 多發 /z/；/nɡl/ 為子音群。"
+    },
+    {
+      "number": "👟 慢跑鞋（英）",
+      "word": "trainers",
+      "ipa": "/ˈtreɪnɚz/",
+      "graphemes": ["t","r","ai","n","er","s"],
+      "phonemes": ["/'t","r","eɪ","n","ɚ","z/"],
+      "phonics": ["/'t","r","ā","n","er","z/"],
+      "tags": ["vowel_team","rcontrolled","cluster","irregular"],
+      "hearts": [false,false,false,false,false,true],
+      "hint": "ai → ā /eɪ/；er → /ɚ/；結尾 s 讀 /z/。"
+    },
+    {
+      "number": "☂️ 雨傘",
+      "word": "umbrella",
+      "ipa": "/ʌmˈbrɛlə/",
+      "graphemes": ["u","m","b","r","e","ll","a"],
+      "phonemes": ["/ʌ","m","'b","r","ɛ","l","ə/"],
+      "phonics": ["/ŭ","m","'b","r","ĕ","l","ə/"],
+      "tags": ["cluster","closed"],
+      "hearts": [false,false,false,false,false,false,false],
+      "hint": "重音在第二音節 /brɛ/；ll 在此發單一 /l/。"
+    },
+    {
+      "number": "🎽 制服",
+      "word": "uniform",
+      "ipa": "/ˈjunəfɔrm/",
+      "graphemes": ["u","n","i","f","or","m"],
+      "phonemes": ["/'ju","n","ə","f","ɔr","m/"],
+      "phonics": ["/'yū","n","ə","f","or","m/"],
+      "tags": ["rcontrolled","irregular"],
+      "hearts": [true,false,true,false,false,false],
+      "hint": "u 在開頭發 /ju/（寫成 yū）；or 發 /ɔr/。"
+    }
+  ]
+}
