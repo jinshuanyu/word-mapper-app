@@ -37,8 +37,8 @@
     "y":  "audio/phonemes/c24.mp3",
     "th": "audio/phonemes/c9.mp3",
     "<u>th</u>": "audio/phonemes/c10.mp3",
-
-
+"ju": "audio/phonemes/yu.mp3",
+"yu": "audio/phonemes/yu.mp3",
     "i": "audio/phonemes/e_long.mp3",
     "ɪ": "audio/phonemes/i_short.mp3",
     "ɛ": "audio/phonemes/e_short.mp3",
