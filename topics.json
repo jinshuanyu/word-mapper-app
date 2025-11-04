@@ -49,7 +49,7 @@
   "title": "Colors 顏色",
   "levels": [
     {
-      "label": " ",
+      "label": "All",
       "src": "data/colors.json"
     }
   ]
@@ -64,6 +64,7 @@
     }
   ]
 }
+
 
 
 
