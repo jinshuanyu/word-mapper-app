@@ -9,18 +9,18 @@
       "phonics": ["/b","l","ă","k/"],
       "tags": ["cluster","digraph","closed"],
       "hearts": [false,false,false,false],
-      "hint": "ck 發 /k/；a 發短母音 a /æ/。"
+      "hint": "a 發短母音 a /æ/；ck 發 /k/。"
     },
     {
       "number": "🔵 藍色",
       "word": "blue",
       "ipa": "/blu/",
-      "graphemes": ["b","l","u","e"],
-      "phonemes": ["/b","l","u","-/"],
-      "phonics": ["/b","l","ū","—/"],
-      "tags": ["cluster","magic_e"],
-      "hearts": [false,false,false,true],
-      "hint": "u_e：u 發長母音 u /u/，字尾 e 不發音。"
+      "graphemes": ["b","l","ue"],
+      "phonemes": ["/b","l","u/"],
+      "phonics": ["/b","l","ū/"],
+      "tags": ["cluster","open"],
+      "hearts": [false,false,false],
+      "hint": "ue 發長母音 u /u/。"
     },
     {
       "number": "🟤 棕色",
@@ -28,10 +28,10 @@
       "ipa": "/braʊn/",
       "graphemes": ["b","r","ow","n"],
       "phonemes": ["/b","r","aʊ","n/"],
-      "phonics": ["/b","r","au","n/"],
-      "tags": ["cluster","vowel_team","closed"],
+      "phonics": ["/b","r","ow","n/"],
+      "tags": ["cluster","vowel_team"],
       "hearts": [false,false,false,false],
-      "hint": "ow 在此發 /aʊ/。"
+      "hint": "ow 發 /aʊ/。"
     },
     {
       "number": "🎨 顏色",
@@ -40,29 +40,29 @@
       "graphemes": ["c","o","l","or"],
       "phonemes": ["/'k","ʌ","l","ɚ/"],
       "phonics": ["/'k","ŭ","l","er/"],
-      "tags": ["rcontrolled","closed"],
-      "hearts": [false,false,false,false],
-      "hint": "美式拼寫 color（英式為 colour）；or 發 /ɚ/。"
+      "tags": ["irregular","rcontrolled"],
+      "hearts": [false,true,false,false],
+      "hint": "第一個 o 發短母音 u /ʌ/；or 發 er /ɚ/。"
     },
     {
-      "number": "gold（金色）",
+      "number": "🏅 金色",
       "word": "gold",
       "ipa": "/ɡoʊld/",
       "graphemes": ["g","o","l","d"],
       "phonemes": ["/ɡ","oʊ","l","d/"],
       "phonics": ["/ɡ","ō","l","d/"],
-      "tags": ["cluster","closed"],
+      "tags": ["cluster"],
       "hearts": [false,false,false,false],
       "hint": "o 發長母音 o /oʊ/。"
     },
     {
-      "number": "灰色",
+      "number": "🩶 灰色",
       "word": "gray",
       "ipa": "/ɡreɪ/",
       "graphemes": ["g","r","ay"],
       "phonemes": ["/ɡ","r","eɪ/"],
       "phonics": ["/ɡ","r","ā/"],
-      "tags": ["cluster","vowel_team"],
+      "tags": ["cluster","open"],
       "hearts": [false,false,false],
       "hint": "ay → ā /eɪ/。"
     },
@@ -83,10 +83,10 @@
       "ipa": "/ˈɔrɪndʒ/",
       "graphemes": ["or","a","n","ge"],
       "phonemes": ["/'ɔr","ɪ","n","dʒ/"],
-      "phonics": ["/'or","ĭ","n","j/"],
+      "phonics": ["/'or","ĭ","n","-j/"],
       "tags": ["rcontrolled","digraph","irregular"],
-      "hearts": [false,false,false,true],
-      "hint": "or 發 /ɔr/；ge → /dʒ/。"
+      "hearts": [false,true,false,true],
+      "hint": "or 發 /ɔr/；a 發短母音 i /ɪ/；ge 發 j /dʒ/。"
     },
     {
       "number": "💗 粉紅色",
@@ -94,8 +94,8 @@
       "ipa": "/pɪŋk/",
       "graphemes": ["p","i","nk"],
       "phonemes": ["/p","ɪ","ŋk/"],
-      "phonics": ["/p","ĭ","ngk/"],
-      "tags": ["closed"],
+      "phonics": ["/p","ĭ","ŋk/"],
+      "tags": ["closed","cluster"],
       "hearts": [false,false,false],
       "hint": "nk 組合讀 /ŋk/。"
     },
@@ -106,9 +106,9 @@
       "graphemes": ["p","ur","p","le"],
       "phonemes": ["/'p","ɝ","p","əl/"],
       "phonics": ["/'p","er","p","əl/"],
-      "tags": ["rcontrolled","closed"],
+      "tags": ["rcontrolled"],
       "hearts": [false,false,false,false],
-      "hint": "ur → er /ɝ/。"
+      "hint": "ur 發 er /ɝ/。"
     },
     {
       "number": "🔴 紅色",
@@ -122,7 +122,7 @@
       "hint": "e 發短母音 e /ɛ/。"
     },
     {
-      "number": "silver（銀色）",
+      "number": "🥈 銀色",
       "word": "silver",
       "ipa": "/ˈsɪlvɚ/",
       "graphemes": ["s","i","l","v","er"],
@@ -141,7 +141,7 @@
       "phonics": ["/w","ī","t","—/"],
       "tags": ["digraph","magic_e"],
       "hearts": [false,false,false,true],
-      "hint": "i_e：i 發長母音 i /aɪ/；wh 發 /w/。"
+      "hint": "wh 發 /w/；i_e：i 發長母音 i /aɪ/。"
     },
     {
       "number": "🟡 黃色",
@@ -150,9 +150,9 @@
       "graphemes": ["y","e","ll","ow"],
       "phonemes": ["/'j","ɛ","l","oʊ/"],
       "phonics": ["/'y","ĕ","l","ō/"],
-      "tags": ["vowel_team","closed"],
+      "tags": ["closed","vowel_team"],
       "hearts": [false,false,false,false],
-      "hint": "ow 在此發長母音 o /oʊ/。"
+      "hint": "ow 發長母音 o /oʊ/。"
     }
   ]
 }
