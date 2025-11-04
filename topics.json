@@ -45,6 +45,16 @@
       ]
     },
     {
+  "slug": "colors",
+  "title": "Colors 顏色",
+  "levels": [
+    {
+      "label": " ",
+      "src": "data/colors.json"
+    }
+  ]
+},
+    {
       "slug": "family_friends",
       "title": "Family & Friends 親友",
       "levels": [
@@ -54,6 +64,7 @@
     }
   ]
 }
+
 
 
 
