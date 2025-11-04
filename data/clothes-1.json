@@ -18,7 +18,7 @@
       "graphemes": ["b","a","s","e","b","a","ll"," ","c","a","p"],
       "phonemes": ["/'b","eɪ","z","-","b","ɔ","l"," ","k","æ","p/"],
       "phonics": ["/'b","ā","z","—","b","aw","l"," ","k","ă","p/"],
-      "tags": ["magic_e","closed"],
+      "tags": ["magic_e","closed","floss"],
       "hearts": [false,false,false,false,false,false,false,false,false,false,false],
       "hint": "複合名詞，重音在第一個字的重音節；s 在母音間多發 /z/。"
     },
@@ -230,7 +230,7 @@
       "phonics": ["/'t","r","ow","z","er","z/"],
       "tags": ["cluster","vowel_team","rcontrolled"],
       "hearts": [false,false,false,false,false,false],
-      "hint": "ou 發 ow /aʊ/；兩個 s 均讀 /z/。"
+      "hint": "複數（兩條褲管）；ou 發 ow /aʊ/；兩個 s 均讀 /z/。"
     },
     {
       "number": "👕 T 恤",
