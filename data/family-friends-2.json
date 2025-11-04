@@ -107,7 +107,7 @@
       "phonemes": ["/s","ʌ","n/"],
       "phonics":  ["/s","ŭ","n/"],
       "tags": ["irregular"],
-      "hearts": [false,false,false],
+      "hearts": [false,true,false],
       "hint": "o 發短母音 u /ʌ/。"
     },
     {
