@@ -1,0 +1,226 @@
+{
+  "items": [
+    {
+      "number": "🫘 豆子",
+      "word": "bean",
+      "ipa": "/bin/",
+      "graphemes": ["b","ea","n"],
+      "phonemes": ["/b","i","n/"],
+      "phonics": ["/b","ē","n/"],
+      "tags": ["vowel_team"],
+      "hearts": [false,false,false],
+      "hint": "ea 發長母音 e /i/。"
+    },
+
+    {
+      "number": "🍔 漢堡",
+      "word": "burger",
+      "ipa": "/ˈbɝɡɚ/",
+      "graphemes": ["b","ur","g","er"],
+      "phonemes": ["/'b","ɝ","ɡ","ɚ/"],
+      "phonics": ["/'b","er","ɡ","er/"],
+      "tags": ["rcontrolled"],
+      "hearts": [false,false,false,false],
+      "hint": "ur 和 er 都發 er /ɝ/、/ɚ/。"
+    },
+
+    {
+      "number": "🍬 糖果",
+      "word": "candy",
+      "ipa": "/ˈkændi/",
+      "graphemes": ["c","a","n","d","y"],
+      "phonemes": ["/'k","æ","n","d","i/"],
+      "phonics": ["/'k","ă","n","d","ē/"],
+      "tags": ["closed","open"],
+      "hearts": [false,false,false,false,false],
+      "hint": "y 字尾發長母音 e /i/。"
+    },
+    {
+      "number": "🥥 椰子",
+      "word": "coconut",
+      "ipa": "/ˈkoʊkoʊnʌt/",
+      "graphemes": ["c","o","c","o","n","u","t"],
+      "phonemes": ["/'k","oʊ","k","oʊ","n","ʌ","t/"],
+      "phonics": ["/'k","ō","k","ō","n","ŭ","t/"],
+      "tags": ["open","closed"],
+      "hearts": [false,false,false,false,false,false,false],
+      "hint": "兩個 o 都發長母音 o /oʊ/；u 發短母音 u /ʌ/。"
+    },
+    {
+      "number": "🍇 葡萄",
+      "word": "grape",
+      "ipa": "/ɡreɪp/",
+      "graphemes": ["g","r","a","p","e"],
+      "phonemes": ["/ɡ","r","eɪ","p","-/"],
+      "phonics": ["/ɡ","r","ā","p","—/"],
+      "tags": ["magic_e","cluster"],
+      "hearts": [false,false,false,false,false],
+      "hint": "a_e：a 發長母音 a /eɪ/；e 靜音。"
+    },
+    {
+      "number": "🍨 冰淇淋",
+      "word": "ice cream",
+      "ipa": "/ˈaɪs krim/",
+      "graphemes": ["i","c","e"," ","c","r","ea","m"],
+      "phonemes": ["/'aɪ","s","-"," ","k","r","i","m/"],
+      "phonics": ["/'ī","s","-"," ","k","r","ē","m/"],
+      "tags": ["magic_e","vowel_team","cluster"],
+      "hearts": [false,false,false,false,false,false,false],
+      "hint": "ice + cream。"
+    },
+    {
+      "number": "🥝 奇異果",
+      "word": "kiwi",
+      "ipa": "/ˈkiwi/",
+      "graphemes": ["k","i","w","i"],
+      "phonemes": ["/'k","i","w","i/"],
+      "phonics": ["/'k","ē","w","ē/"],
+      "tags": [],
+      "hearts": [false,false,false,false],
+      "hint": "兩個 i 均發 /i/。"
+    },
+    {
+      "number": "🍋 檸檬汽水",
+      "word": "lemonade",
+      "ipa": "/ˈlɛməneɪd/",
+      "graphemes": ["l","e","m","o","n","a","d","e"],
+      "phonemes": ["/'l","ɛ","m","ə","n","eɪ","d","-/"],
+      "phonics": ["/'l","ĕ","m","ə","n","ā","d","—/"],
+      "tags": ["magic_e"],
+      "hearts": [false,false,false,false,false,false,false,true],
+      "hint": "結尾 -ade 讀 /eɪd/；e 靜音。"
+    },
+    {
+      "number": "🍈 萊姆",
+      "word": "lime",
+      "ipa": "/laɪm/",
+      "graphemes": ["l","i","m","e"],
+      "phonemes": ["/l","aɪ","m","-/"],
+      "phonics": ["/l","ī","m","—/"],
+      "tags": ["magic_e"],
+      "hearts": [false,false,false,true],
+      "hint": "i_e：i 發 /aɪ/。"
+    },
+    {
+      "number": "🥭 芒果",
+      "word": "mango",
+      "ipa": "/ˈmæŋɡoʊ/",
+      "graphemes": ["m","a","n","ɡ","o"],
+      "phonemes": ["/'m","æ","ŋ","ɡ","oʊ/"],
+      "phonics": ["/'m","ă","ŋ","ɡ","ō/"],
+      "tags": ["closed","open"],
+      "hearts": [false,false,false,false,false],
+      "hint": "n 在 g 前發 /ŋ/；o 發長母音 o /oʊ/。"
+    },
+    {
+      "number": "🥩 肉",
+      "word": "meat",
+      "ipa": "/mit/",
+      "graphemes": ["m","ea","t"],
+      "phonemes": ["/m","i","t/"],
+      "phonics": ["/m","ē","t/"],
+      "tags": ["vowel_team"],
+      "hearts": [false,false,false],
+      "hint": "ea 發長母音 e /i/。"
+    },
+    {
+      "number": "🍡 肉丸",
+      "word": "meatballs",
+      "ipa": "/ˈmitbɔlz/",
+      "graphemes": ["m","ea","t","b","a","ll","s"],
+      "phonemes": ["/'m","i","t","b","ɔ","l","z/"],
+      "phonics": ["/'m","ē","t","b","aw","l","z/"],
+      "tags": ["vowel_team","cluster","floss","suffix"],
+      "hearts": [false,false,false,false,false,false,false],
+      "hint": "複數；meat + balls。"
+    },
+    {
+      "number": "🧅 洋蔥",
+      "word": "onion",
+      "ipa": "/ˈʌnjən/",
+      "graphemes": ["o","n","i","o","n"],
+      "phonemes": ["/'ʌ","n","j","ə","n/"],
+      "phonics": ["/'ŭ","n","y","ə","n/"],
+      "tags": ["irregular"],
+      "hearts": [true,false,true,false,false],
+      "hint": "第一個 o 發短母音 u /ʌ/；i 發 y /j/。"
+    },
+    {
+      "number": "🟢 豌豆",
+      "word": "pea",
+      "ipa": "/pi/",
+      "graphemes": ["p","ea"],
+      "phonemes": ["/p","i/"],
+      "phonics": ["/p","ē/"],
+      "tags": ["vowel_team","open"],
+      "hearts": [false,false],
+      "hint": "ea 發長母音 e /i/。"
+    },
+    {
+      "number": "🍐 梨",
+      "word": "pear",
+      "ipa": "/pɛr/",
+      "graphemes": ["p","ea","r"],
+      "phonemes": ["/p","ɛ","r/"],
+      "phonics": ["/p","ĕ","r/"],
+      "tags": ["vowel_team","rcontrolled","irregular"],
+      "hearts": [false,true,false],
+      "hint": "ea 發短母音 e /ɛ/。"
+    },
+    {
+      "number": "🥧 派",
+      "word": "pie",
+      "ipa": "/paɪ/",
+      "graphemes": ["p","ie"],
+      "phonemes": ["/p","aɪ/"],
+      "phonics": ["/p","ī/"],
+      "tags": ["vowel_team","open"],
+      "hearts": [false,false],
+      "hint": "ie 發長母音 i /aɪ/。"
+    },
+    {
+      "number": "🍍 鳳梨",
+      "word": "pineapple",
+      "ipa": "/ˈpaɪnæpəl/",
+      "graphemes": ["p","i","n","e","a","pp","le"],
+      "phonemes": ["/'p","aɪ","n","-","æ","p","əl/"],
+      "phonics": ["/'p","ī","n","—","ă","p","əl/"],
+      "tags": ["magic_e","closed"],
+      "hearts": [false,false,false,false,false,false,false],
+      "hint": "pine + apple。"
+    },
+    {
+      "number": "🥔 馬鈴薯",
+      "word": "potato",
+      "ipa": "/pəˈteɪtoʊ/",
+      "graphemes": ["p","o","t","a","t","o"],
+      "phonemes": ["/p","ə","'t","eɪ","t","oʊ/"],
+      "phonics": ["/p","ə","'t","ā","t","ō/"],
+      "tags": [],
+      "hearts": [false,false,false,false,false,false],
+      "hint": "重音在第二音節；a→/eɪ/、o→/oʊ/。"
+    },
+    {
+      "number": "🌭 香腸",
+      "word": "sausage",
+      "ipa": "/ˈsɔsɪdʒ/",
+      "graphemes": ["s","au","s","a","ge"],
+      "phonemes": ["/'s","ɔ","s","ɪ","dʒ/"],
+      "phonics": ["/'s","aw","s","ĭ","-j/"],
+      "tags": ["vowel_team",],
+      "hearts": [false,false,false,false,false],
+      "hint": "au 發 aw /ɔ/；第二個 a 發短母音 i /ɪ/。"
+    },
+    {
+      "number": "🍉 西瓜",
+      "word": "watermelon",
+      "ipa": "/ˈwɔtɚmɛlən/",
+      "graphemes": ["w","a","t","er","m","e","l","o","n"],
+      "phonemes": ["/'w","ɑ","t","ɚ","m","ɛ","l","ə","n/"],
+      "phonics": ["/'w","ŏ","t","er","m","ĕ","l","ə","n/"],
+      "tags": ["rcontrolled","irregular"],
+      "hearts": [false,true,false,false,false,false,false,false,false],
+      "hint": "water + melon。"
+    }
+  ]
+}
