@@ -1,246 +1,216 @@
 {
-"items": [
-{
-"number": "🍎 蘋果",
-"word": "apple",
-"ipa": "/ˈæpəl/",
-"graphemes": ["a","pp","le"],
-"phonemes": ["/'æ","p","əl/"],
-"phonics": ["/'ă","p","əl/"],
-"tags": ["closed"],
-"hearts": [false,false,false],
-"hint": "a 發短母音 a /æ/；le 弱讀 /əl/。"
-},
-{
-"number": "🍌 香蕉",
-"word": "banana",
-"ipa": "/bəˈnænə/",
-"graphemes": ["b","a","n","a","n","a"],
-"phonemes": ["/b","ə","'n","æ","n","ə/"],
-"phonics": ["/b","ə","'n","ă","n","ə/"],
-"tags": ["closed"],
-"hearts": [false,false,false,false,false,false],
-"hint": "重音在中間音節；a 在重讀音節發 /æ/，其餘多弱讀 /ə/。"
-},
-{
-"number": "🥖 麵包",
-"word": "bread",
-"ipa": "/brɛd/",
-"graphemes": ["b","r","ea","d"],
-"phonemes": ["/b","r","ɛ","d/"],
-"phonics": ["/b","r","ĕ","t/"],
-"tags": ["vowel_team","cluster","irregular"],
-"hearts": [false,false,true,false],
-"hint": "ea 在此發短母音 e /ɛ/（不規則）。"
-},
-{
-"number": "🐔 雞肉",
-"word": "chicken",
-"ipa": "/ˈtʃɪkən/",
-"graphemes": ["ch","i","ck","e","n"],
-"phonemes": ["/'tʃ","ɪ","k","ə","n/"],
-"phonics": ["/'ch","ĭ","k","ə","n/"],
-"tags": ["digraph","closed"],
-"hearts": [false,false,false,false,false],
-"hint": "ch 發 /tʃ/；ck 發 /k/。"
-},
-{
-"number": "🍫 巧克力",
-"word": "chocolate",
-"ipa": "/ˈtʃɑklət/",
-"graphemes": ["ch","o","c","o","l","a","t","e"],
-"phonemes": ["/'tʃ","ɑ","k","-","l","ə","t","-/"],
-"phonics": ["/'ch","ŏ","k","—","l","ə","t","—/"],
-"tags": ["irregular","silent_consonant"],
-"hearts": [false,false,false,true,false,false,false,true],
-"hint": "第二個 o 不發音；字尾 e 靜音。"
-},
-{
-"number": "🍽️ 晚餐",
-"word": "dinner",
-"ipa": "/ˈdɪnɚ/",
-"graphemes": ["d","i","nn","er"],
-"phonemes": ["/'d","ɪ","n","ɚ/"],
-"phonics": ["/'d","ĭ","n","er/"],
-"tags": ["rcontrolled","closed"],
-"hearts": [false,false,false,false],
-"hint": "er 發 /ɚ/。"
-},
-{
-"number": "🥤 喝",
-"word": "drink",
-"ipa": "/drɪŋk/",
-"graphemes": ["d","r","i","ng","k"],
-"phonemes": ["/d","r","ɪ","ŋ","k/"],
-"phonics": ["/d","r","ĭ","ng","k/"],
-"tags": ["cluster","digraph","closed"],
-"hearts": [false,false,false,false,false],
-"hint": "ng 發 /ŋ/。"
-},
-{
-"number": "吃",
-"word": "eat",
-"ipa": "/it/",
-"graphemes": ["ea","t"],
-"phonemes": ["/i","t/"],
-"phonics": ["/ē","t/"],
-"tags": ["vowel_team"],
-"hearts": [false,false],
-"hint": "ea 發長母音 e /i/。"
-},
-{
-"number": "🥚 蛋",
-"word": "egg",
-"ipa": "/ɛɡ/",
-"graphemes": ["e","gg"],
-"phonemes": ["/ɛ","ɡ/"],
-"phonics": ["/ĕ","g/"],
-"tags": ["closed"],
-"hearts": [false,false],
-"hint": "e 發短母音 e /ɛ/。"
-},
-{
-"number": "🐟 魚",
-"word": "fish",
-"ipa": "/fɪʃ/",
-"graphemes": ["f","i","sh"],
-"phonemes": ["/f","ɪ","ʃ/"],
-"phonics": ["/f","ĭ","sh/"],
-"tags": ["digraph","closed"],
-"hearts": [false,false,false],
-"hint": "sh 發 /ʃ/。"
-},
-{
-"number": "🍽️ 食物",
-"word": "food",
-"ipa": "/fud/",
-"graphemes": ["f","oo","d"],
-"phonemes": ["/f","u","d/"],
-"phonics": ["/f","ū","d/"],
-"tags": ["vowel_team","closed"],
-"hearts": [false,false,false],
-"hint": "oo 發長母音 u /u/。"
-},
-{
-"number": "🍟 薯條",
-"word": "fries",
-"ipa": "/fraɪz/",
-"graphemes": ["f","r","ie","s"],
-"phonemes": ["/f","r","aɪ","z/"],
-"phonics": ["/f","r","ī","z/"],
-"tags": ["vowel_team","cluster","irregular"],
-"hearts": [false,false,false,true],
-"hint": "ie 在此發 /aɪ/；字尾 s 讀 /z/。"
-},
-{
-"number": "🍓 水果（總稱）",
-"word": "fruit",
-"ipa": "/frut/",
-"graphemes": ["f","r","ui","t"],
-"phonemes": ["/f","r","u","t/"],
-"phonics": ["/f","r","ū","t/"],
-"tags": ["vowel_team","cluster"],
-"hearts": [false,false,false,false],
-"hint": "ui 發 /u/。"
-},
-{
-"number": "🧃 果汁",
-"word": "juice",
-"ipa": "/dʒus/",
-"graphemes": ["j","ui","c","e"],
-"phonemes": ["/dʒ","u","s","-/"],
-"phonics": ["/j","ū","s","—/"],
-"tags": ["vowel_team","magic_e","irregular"],
-"hearts": [false,false,false,true],
-"hint": "ui 發 /u/；c 在 e 前讀 /s/；字尾 e 靜音。"
-},
-{
-"number": "🍋 檸檬",
-"word": "lemon",
-"ipa": "/ˈlɛmən/",
-"graphemes": ["l","e","m","o","n"],
-"phonemes": ["/'l","ɛ","m","ə","n/"],
-"phonics": ["/'l","ĕ","m","ə","n/"],
-"tags": ["closed"],
-"hearts": [false,false,false,false,false],
-"hint": "e 發短母音 e /ɛ/；第二音節弱讀 /ə/。"
-},
-{
-"number": "🍱 午餐",
-"word": "lunch",
-"ipa": "/lʌntʃ/",
-"graphemes": ["l","u","n","ch"],
-"phonemes": ["/l","ʌ","n","tʃ/"],
-"phonics": ["/l","ŭ","n","ch/"],
-"tags": ["digraph","closed"],
-"hearts": [false,false,false,false],
-"hint": "ch 發 /tʃ/；u 發 /ʌ/。"
-},
-{
-"number": "🥛 牛奶",
-"word": "milk",
-"ipa": "/mɪlk/",
-"graphemes": ["m","i","l","k"],
-"phonemes": ["/m","ɪ","l","k/"],
-"phonics": ["/m","ĭ","l","k/"],
-"tags": ["closed","cluster"],
-"hearts": [false,false,false,false],
-"hint": "i 發短母音 i /ɪ/。"
-},
-{
-"number": "🍊 柳橙",
-"word": "orange",
-"ipa": "/ˈɔrɪndʒ/",
-"graphemes": ["or","a","n","ge"],
-"phonemes": ["/'ɔr","ɪ","n","dʒ/"],
-"phonics": ["/'or","ĭ","n","j/"],
-"tags": ["rcontrolled","irregular"],
-"hearts": [false,false,false,true],
-"hint": "or 發 /ɔr/；ge → /dʒ/。"
-},
-{
-"number": "🍚 米飯",
-"word": "rice",
-"ipa": "/raɪs/",
-"graphemes": ["r","i","c","e"],
-"phonemes": ["/r","aɪ","s","-/"],
-"phonics": ["/r","ī","s","—/"],
-"tags": ["magic_e"],
-"hearts": [false,false,false,true],
-"hint": "i_e：i 發長母音 i /aɪ/，e 不發音。"
-},
-{
-"number": "🍅 番茄",
-"word": "tomato",
-"ipa": "/təˈmeɪtoʊ/",
-"graphemes": ["t","o","m","a","t","o"],
-"phonemes": ["/t","ə","'m","eɪ","t","oʊ/"],
-"phonics": ["/t","ə","'m","ā","t","ō/"],
-"tags": [],
-"hearts": [false,false,false,false,false,false],
-"hint": "重音在第二音節；a 發 /eɪ/，字尾 o 發 /oʊ/。"
-},
-{
-"number": "💧 水",
-"word": "water",
-"ipa": "/ˈwɔtɚ/",
-"graphemes": ["w","a","t","er"],
-"phonemes": ["/'w","ɔ","t","ɚ/"],
-"phonics": ["/'w","aw","t","er/"],
-"tags": ["rcontrolled","irregular"],
-"hearts": [false,true,false,false],
-"hint": "a 在此發 /ɔ/（aw）；er 發 /ɚ/。"
-},
-{
-"number": "🥕 紅蘿蔔",
-"word": "carrot",
-"ipa": "/ˈkærət/",
-"graphemes": ["c","a","rr","o","t"],
-"phonemes": ["/'k","æ","r","ə","t/"],
-"phonics": ["/'k","ă","r","ə","t/"],
-"tags": ["closed"],
-"hearts": [false,false,false,false,false],
-"hint": "a 發短母音 a /æ/；第二音節弱讀 /ə/。"
-}
-]
+  "items": [
+    {
+      "number": "🍎 蘋果",
+      "word": "apple",
+      "ipa": "/ˈæpəl/",
+      "graphemes": ["a","pp","le"],
+      "phonemes": ["/'æ","p","əl/"],
+      "phonics": ["/'ă","p","əl/"],
+      "tags": ["closed"],
+      "hearts": [false,false,false],
+      "hint": "a 發短母音 a /æ/；le 弱讀 /əl/。"
+    },
+    {
+      "number": "🍌 香蕉",
+      "word": "banana",
+      "ipa": "/bəˈnænə/",
+      "graphemes": ["b","a","n","a","n","a"],
+      "phonemes": ["/b","ə","'n","æ","n","ə/"],
+      "phonics": ["/b","ə","'n","ă","n","ə/"],
+      "tags": ["closed"],
+      "hearts": [false,false,false,false,false,false],
+      "hint": "重音在中間音節；a 在重讀音節發 /æ/，其餘多弱讀 /ə/。"
+    },
+    {
+      "number": "🥖 麵包",
+      "word": "bread",
+      "ipa": "/brɛd/",
+      "graphemes": ["b","r","ea","d"],
+      "phonemes": ["/b","r","ɛ","d/"],
+      "phonics": ["/b","r","ĕ","d/"],
+      "tags": ["vowel_team","cluster","irregular"],
+      "hearts": [false,false,true,false],
+      "hint": "ea 在此發短母音 e /ɛ/（不規則）。"
+    },
+    {
+      "number": "🥕 紅蘿蔔",
+      "word": "carrot",
+      "ipa": "/ˈkærət/",
+      "graphemes": ["c","a","rr","o","t"],
+      "phonemes": ["/'k","æ","r","ə","t/"],
+      "phonics": ["/'k","ă","r","ə","t/"],
+      "tags": ["closed"],
+      "hearts": [false,false,false,false,false],
+      "hint": "a 發短母音 a /æ/；第二音節弱讀 /ə/。"
+    },
+
+    {
+      "number": "🍫 巧克力",
+      "word": "chocolate",
+      "ipa": "/ˈtʃɑklət/",
+      "graphemes": ["ch","o","c","o","l","a","t","e"],
+      "phonemes": ["/'tʃ","ɑ","k","-","l","ə","t","-/"],
+      "phonics": ["/'ch","ŏ","k","—","l","ə","t","—/"],
+      "tags": ["irregular","silent_consonant"],
+      "hearts": [false,false,false,true,false,false,false,true],
+      "hint": "第二個 o 不發音；字尾 e 靜音。"
+    },
+    {
+      "number": "🍽️ 晚餐",
+      "word": "dinner",
+      "ipa": "/ˈdɪnɚ/",
+      "graphemes": ["d","i","nn","er"],
+      "phonemes": ["/'d","ɪ","n","ɚ/"],
+      "phonics": ["/'d","ĭ","n","er/"],
+      "tags": ["rcontrolled","closed"],
+      "hearts": [false,false,false,false],
+      "hint": "er 發 /ɚ/。"
+    },
+    {
+      "number": "🥤 喝",
+      "word": "drink",
+      "ipa": "/drɪŋk/",
+      "graphemes": ["d","r","i","ng","k"],
+      "phonemes": ["/d","r","ɪ","ŋ","k/"],
+      "phonics": ["/d","r","ĭ","ŋ","k/"],
+      "tags": ["cluster","digraph","closed"],
+      "hearts": [false,false,false,false,false],
+      "hint": "ŋ 發 /ŋ/。"
+    },
+    {
+      "number": "吃",
+      "word": "eat",
+      "ipa": "/it/",
+      "graphemes": ["ea","t"],
+      "phonemes": ["/i","t/"],
+      "phonics": ["/ē","t/"],
+      "tags": ["vowel_team"],
+      "hearts": [false,false],
+      "hint": "ea 發長母音 e /i/。"
+    },
+    {
+      "number": "🥚 蛋",
+      "word": "egg",
+      "ipa": "/ɛɡ/",
+      "graphemes": ["e","gg"],
+      "phonemes": ["/ɛ","ɡ/"],
+      "phonics": ["/ĕ","ɡ/"],
+      "tags": ["closed"],
+      "hearts": [false,false],
+      "hint": "e 發短母音 e /ɛ/。"
+    },
+
+    {
+      "number": "🍽️ 食物",
+      "word": "food",
+      "ipa": "/fud/",
+      "graphemes": ["f","oo","d"],
+      "phonemes": ["/f","u","d/"],
+      "phonics": ["/f","ū","d/"],
+      "tags": ["vowel_team","closed"],
+      "hearts": [false,false,false],
+      "hint": "oo 發長母音 u /u/。"
+    },
+    {
+      "number": "🍟 薯條",
+      "word": "fries",
+      "ipa": "/fraɪz/",
+      "graphemes": ["f","r","ie","s"],
+      "phonemes": ["/f","r","aɪ","z/"],
+      "phonics": ["/f","r","ī","z/"],
+      "tags": ["vowel_team","cluster","irregular"],
+      "hearts": [false,false,false,true],
+      "hint": "ie 在此發 /aɪ/；字尾 s 讀 /z/。"
+    },
+    {
+      "number": "🍓 水果（總稱）",
+      "word": "fruit",
+      "ipa": "/frut/",
+      "graphemes": ["f","r","ui","t"],
+      "phonemes": ["/f","r","u","t/"],
+      "phonics": ["/f","r","ū","t/"],
+      "tags": ["vowel_team","cluster"],
+      "hearts": [false,false,false,false],
+      "hint": "ui 發 /u/。"
+    },
+    {
+      "number": "🧃 果汁",
+      "word": "juice",
+      "ipa": "/dʒus/",
+      "graphemes": ["j","ui","c","e"],
+      "phonemes": ["/dʒ","u","s","-/"],
+      "phonics": ["/j","ū","s","—/"],
+      "tags": ["vowel_team","magic_e","irregular"],
+      "hearts": [false,false,false,true],
+      "hint": "ui 發 /u/；c 在 e 前讀 /s/；字尾 e 靜音。"
+    },
+    {
+      "number": "🍋 檸檬",
+      "word": "lemon",
+      "ipa": "/ˈlɛmən/",
+      "graphemes": ["l","e","m","o","n"],
+      "phonemes": ["/'l","ɛ","m","ə","n/"],
+      "phonics": ["/'l","ĕ","m","ə","n/"],
+      "tags": ["closed"],
+      "hearts": [false,false,false,false,false],
+      "hint": "e 發短母音 e /ɛ/；第二音節弱讀 /ə/。"
+    },
+    {
+      "number": "🍱 午餐",
+      "word": "lunch",
+      "ipa": "/lʌntʃ/",
+      "graphemes": ["l","u","n","ch"],
+      "phonemes": ["/l","ʌ","n","tʃ/"],
+      "phonics": ["/l","ŭ","n","ch/"],
+      "tags": ["digraph","closed"],
+      "hearts": [false,false,false,false],
+      "hint": "ch 發 /tʃ/；u 發 /ʌ/。"
+    },
+    {
+      "number": "🥛 牛奶",
+      "word": "milk",
+      "ipa": "/mɪlk/",
+      "graphemes": ["m","i","l","k"],
+      "phonemes": ["/m","ɪ","l","k/"],
+      "phonics": ["/m","ĭ","l","k/"],
+      "tags": ["closed","cluster"],
+      "hearts": [false,false,false,false],
+      "hint": "i 發短母音 i /ɪ/。"
+    },
+
+    {
+      "number": "🍚 米飯",
+      "word": "rice",
+      "ipa": "/raɪs/",
+      "graphemes": ["r","i","c","e"],
+      "phonemes": ["/r","aɪ","s","-/"],
+      "phonics": ["/r","ī","s","—/"],
+      "tags": ["magic_e"],
+      "hearts": [false,false,false,true],
+      "hint": "i_e：i 發長母音 i /aɪ/，e 不發音。"
+    },
+    {
+      "number": "🍅 番茄",
+      "word": "tomato",
+      "ipa": "/təˈmeɪtoʊ/",
+      "graphemes": ["t","o","m","a","t","o"],
+      "phonemes": ["/t","ə","'m","eɪ","t","oʊ/"],
+      "phonics": ["/t","ə","'m","ā","t","ō/"],
+      "tags": [],
+      "hearts": [false,false,false,false,false,false],
+      "hint": "重音在第二音節；a 發 /eɪ/，字尾 o 發 /oʊ/。"
+    },
+    {
+      "number": "💧 水",
+      "word": "water",
+      "ipa": "/ˈwɔtɚ/",
+      "graphemes": ["w","a","t","er"],
+      "phonemes": ["/'w","ɔ","t","ɚ/"],
+      "phonics": ["/'w","aw","t","er/"],
+      "tags": ["rcontrolled","irregular"],
+      "hearts": [false,true,false,false],
+      "hint": "a 在此發 /ɔ/（aw）；er 發 /ɚ/。"
+    }
+  ]
 }
