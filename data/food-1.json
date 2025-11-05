@@ -53,7 +53,7 @@
       "phonemes": ["/k","eɪ","k","-/"],
       "phonics": ["/k","ā","k","—/"],
       "tags": ["magic_e"],
-      "hearts": [false,false,false,true],
+      "hearts": [false,false,false,false],
       "hint": "a_e：a 發 /eɪ/；e 靜音；兩個 /k/ 音分別寫成 c 和 k。"
     },
     {
@@ -144,10 +144,10 @@
       "phonics": ["/f","r","ī","z/"],
       "tags": ["vowel_team","cluster"],
       "hearts": [false,false,false,false],
-      "hint": "ie 發長母音 i /aɪ/；字尾 s 讀 /z/。"
+      "hint": "複數；ie 發長母音 i /aɪ/；字尾 s 讀 /z/。"
     },
     {
-      "number": "🍓 水果（總稱）",
+      "number": "🍓 水果",
       "word": "fruit",
       "ipa": "/frut/",
       "graphemes": ["f","r","ui","t"],
@@ -210,7 +210,7 @@
       "phonemes": ["/r","aɪ","s","-/"],
       "phonics": ["/r","ī","s","—/"],
       "tags": ["magic_e"],
-      "hearts": [false,false,false,true],
+      "hearts": [false,false,false,false],
       "hint": "i_e：i 發長母音 i /aɪ/，e 不發音。"
     },
     {
