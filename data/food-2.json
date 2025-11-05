@@ -207,7 +207,7 @@
       "graphemes": ["s","au","s","a","ge"],
       "phonemes": ["/'s","ɔ","s","ɪ","dʒ/"],
       "phonics": ["/'s","aw","s","ĭ","-j/"],
-      "tags": ["vowel_team",],
+      "tags": ["vowel_team"],
       "hearts": [false,false,false,false,false],
       "hint": "au 發 aw /ɔ/；第二個 a 發短母音 i /ɪ/。"
     },
