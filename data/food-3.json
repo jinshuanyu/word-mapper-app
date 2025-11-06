@@ -138,7 +138,7 @@
 "ipa": "/pleɪt/",
 "graphemes": ["p","l","a","t","e"],
 "phonemes": ["/p","l","eɪ","t","-/"],
-"phonics": ["/p","l","ā","t","—/"],
+"phonics": ["/p","l","ā","t","-/"],
 "tags": ["magic_e","cluster"],
 "hearts": [false,false,false,false,false],
 "hint": "a_e：a 發長母音 a /eɪ/，e 靜音。"
@@ -173,7 +173,7 @@
 "phonemes": ["/s","ɔ","s","-/"],
 "phonics": ["/s","aw","s","-/"],
 "tags": ["vowel_team"],
-"hearts": [false,false,false,false],
+"hearts": [false,false,false,true],
 "hint": "au 發 aw /ɔ/；字尾 e 靜音。"
 },
 {
@@ -217,8 +217,8 @@
 "phonemes": ["/'v","ɛ","dʒ","t","ə","b","əl/"],
 "phonics": ["/'v","ĕ","-j","t","ə","b","əl/"],
 "tags": ["closed"],
-"hearts": [false,false,true,false,false,false,false],
-"hint": "ge 發 j /dʒ/；le 字尾讀 /əl/。"
+"hearts": [false,false,false,false,false,false,false],
+"hint": "ge 發 j /dʒ/；a 弱讀 /ə/。"
 }
 ]
 }
