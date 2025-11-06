@@ -63,7 +63,7 @@
       "phonemes": ["/'n","ɛ","k","l","ə","s","-/"],
       "phonics": ["/'n","ĕ","k","l","ə","s","—/"],
       "tags": ["digraph","closed","magic_e"],
-      "hearts": [false,false,false,false,true,false,true],
+      "hearts": [false,false,false,false,false,false,false],
       "hint": "neck + lace；ck 發 /k/；a 弱讀 /ə/。"
     },
     {
