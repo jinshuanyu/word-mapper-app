@@ -6,7 +6,7 @@
 "ipa": "/ɑrm/",
 "graphemes": ["ar","m"],
 "phonemes": ["/ɑr","m/"],
-"phonics": ["/ar","m/"],
+"phonics": ["/ɑr","m/"],
 "tags": ["rcontrolled"],
 "hearts": [false,false],
 "hint": "ar 發 /ɑr/。"
@@ -50,7 +50,7 @@
 "ipa": "/feɪs/",
 "graphemes": ["f","a","c","e"],
 "phonemes": ["/f","eɪ","s","-/"],
-"phonics": ["/f","ā","s","—/"],
+"phonics": ["/f","ā","s","-/"],
 "tags": ["magic_e"],
 "hearts": [false,false,false,false],
 "hint": "a_e：a 發長母音 a /eɪ/，e 不發音。"
