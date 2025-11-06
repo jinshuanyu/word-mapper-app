@@ -23,15 +23,15 @@
       "hint": "c 在 e 前讀 /s/；-al 弱讀 /əl/。"
     },
     {
-      "number": "🥢 筷子（複數）",
+      "number": "🥢 筷子",
       "word": "chopsticks",
       "ipa": "/ˈtʃɑpstɪks/",
-      "graphemes": ["ch","o","p","st","i","ck","s"],
+      "graphemes": ["ch","o","p","s","t","i","ck","s"],
       "phonemes": ["/'tʃ","ɑ","p","s","t","ɪ","k","s/"],
-      "phonics": ["/'ch","ŏ","p","st","ĭ","k","s/"],
+      "phonics": ["/'ch","ŏ","p","s","t","ĭ","k","s/"],
       "tags": ["digraph","cluster","closed","suffix"],
-      "hearts": [false,false,false,false,false,false,false],
-      "hint": "ch 發 /tʃ/；st 為子音群；ck 發 /k/。"
+      "hearts": [false,false,false,false,false,false,false,false],
+      "hint": "複數；st- 連讀，t 音如 ㄉ；ck 發 /k/；s 發 /s/。"
     },
     {
       "number": "🍪 餅乾",
@@ -42,7 +42,7 @@
       "phonics": ["/'k","oo","k","ē/"],
       "tags": ["vowel_team","open"],
       "hearts": [false,false,false,false],
-      "hint": "oo 發 /ʊ/；字尾 ie 讀 /i/。"
+      "hint": "oo 發 /ʊ/；ie 發長母音 e /i/。"
     },
     {
       "number": "🌾 麵粉",
@@ -50,10 +50,10 @@
       "ipa": "/ˈflaʊɚ/",
       "graphemes": ["f","l","ou","r"],
       "phonemes": ["/'f","l","aʊ","ɚ/"],
-      "phonics": ["/'f","l","au","er/"],
-      "tags": ["cluster","vowel_team","rcontrolled"],
-      "hearts": [false,false,false,false],
-      "hint": "ou 發 /aʊ/；r 控制成 /ɚ/。"
+      "phonics": ["/'f","l","ow","er/"],
+      "tags": ["cluster","vowel_team","irregular"],
+      "hearts": [false,false,true,false],
+      "hint": "ou 發 ow /aʊ/；r 發 er /ɚ/。"
     },
     {
       "number": "🍴 叉子",
@@ -75,7 +75,7 @@
       "phonics": ["/'h","ŭ","n","ē/"],
       "tags": ["irregular"],
       "hearts": [false,true,false,false],
-      "hint": "o 在此讀 /ʌ/；字尾 y= /i/。"
+      "hint": "o 發短母音 u /ʌ/；ey 發長母音 e /i/。"
     },
     {
       "number": "🍓 果醬",
@@ -83,7 +83,7 @@
       "ipa": "/dʒæm/",
       "graphemes": ["j","a","m"],
       "phonemes": ["/dʒ","æ","m/"],
-      "phonics": ["/j","ă","m/"],
+      "phonics": ["/-j","ă","m/"],
       "tags": ["closed"],
       "hearts": [false,false,false],
       "hint": "a 發短母音 a /æ/。"
@@ -92,12 +92,12 @@
       "number": "🔪 刀",
       "word": "knife",
       "ipa": "/naɪf/",
-      "graphemes": ["kn","i","f","e"],
-      "phonemes": ["/n","aɪ","f","-/"],
-      "phonics": ["/n","ī","f","—/"],
+      "graphemes": ["k","n","i","f","e"],
+      "phonemes": ["/-","n","aɪ","f","-/"],
+      "phonics": ["/-"."n","ī","f","-/"],
       "tags": ["magic_e","silent_consonant"],
-      "hearts": [true,false,false,true],
-      "hint": "k 不發音（kn→/n/）；i_e 讀 /aɪ/；字尾 e 靜音。"
+      "hearts": [true,false,false,false],
+      "hint": "k 不發音；i_e：i 發長母音 i /aɪ/；字尾 e 靜音。"
     },
     {
       "number": "🍽 餐",
@@ -116,9 +116,9 @@
       "ipa": "/ˈɑlɪv/",
       "graphemes": ["o","l","i","v","e"],
       "phonemes": ["/'ɑ","l","ɪ","v","-/"],
-      "phonics": ["/'ŏ","l","ĭ","v","—/"],
+      "phonics": ["/'ŏ","l","ĭ","v","-/"],
       "tags": ["closed"],
-      "hearts": [false,false,false,false,true,false],
+      "hearts": [false,false,false,false,true],
       "hint": "v 後面字尾補靜音 e。"
     },
     {
