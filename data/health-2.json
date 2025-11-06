@@ -1,0 +1,202 @@
+{
+"items": [
+{
+"number": "🩹 繃帶",
+"word": "bandage",
+"ipa": "/ˈbændɪdʒ/",
+"graphemes": ["b","a","n","d","a","ge"],
+"phonemes": ["/'b","æ","n","d","ɪ","dʒ/"],
+"phonics": ["/'b","ă","n","d","ĭ","-j/"],
+"tags": ["digraph","closed"],
+"hearts": [false,false,false,false,false,true],
+"hint": "ge（/dʒ/）讀 j；短母音 a /æ/。"
+},
+{
+"number": "🎗️ 癌症",
+"word": "cancer",
+"ipa": "/ˈkænsɚ/",
+"graphemes": ["c","a","n","c","er"],
+"phonemes": ["/'k","æ","n","s","ɚ/"],
+"phonics": ["/'k","ă","n","s","er/"],
+"tags": ["rcontrolled","closed"],
+"hearts": [false,false,false,false,false],
+"hint": "c 在 e 前多讀 /s/；er → /ɚ/。"
+},
+{
+"number": "✂️ 割傷；傷口",
+"word": "cut",
+"ipa": "/kʌt/",
+"graphemes": ["c","u","t"],
+"phonemes": ["/k","ʌ","t/"],
+"phonics": ["/k","ŭ","t/"],
+"tags": ["closed"],
+"hearts": [false,false,false],
+"hint": "u 發短母音 /ʌ/。"
+},
+{
+"number": "🏪 藥妝店",
+"word": "drugstore",
+"ipa": "/ˈdrʌɡstɔr/",
+"graphemes": ["d","r","u","g","s","t","or","e"],
+"phonemes": ["/'d","r","ʌ","ɡ","s","t","ɔr","-/"],
+"phonics": ["/'d","r","ŭ","ɡ","s","t","or","—/"],
+"tags": ["cluster","rcontrolled","compound"],
+"hearts": [false,false,false,false,false,false,false,true],
+"hint": "drug + store；or → /ɔr/；字尾 e 靜音。"
+},
+{
+"number": "👂 耳痛",
+"word": "earache",
+"ipa": "/ˈɪreɪk/",
+"graphemes": ["ea","r","a","ch","e"],
+"phonemes": ["/'ɪ","r","eɪ","k","-/"],
+"phonics": ["/'ĭ","r","ā","k","—/"],
+"tags": ["vowel_team","rcontrolled","magic_e","digraph"],
+"hearts": [false,false,false,false,true],
+"hint": "ache 讀 /eɪk/；ch 在此讀 /k/。"
+},
+{
+"number": "🤧 流感",
+"word": "flu",
+"ipa": "/flu/",
+"graphemes": ["f","l","u"],
+"phonemes": ["/f","l","u/"],
+"phonics": ["/f","l","ū/"],
+"tags": ["cluster","open"],
+"hearts": [false,false,false],
+"hint": "u 發長母音 /u/。"
+},
+{
+"number": "🏥 醫院",
+"word": "hospital",
+"ipa": "/ˈhɑspɪtəl/",
+"graphemes": ["h","o","s","p","i","t","a","l"],
+"phonemes": ["/'h","ɑ","s","p","ɪ","t","ə","l/"],
+"phonics": ["/'h","ŏ","s","p","ĭ","t","ə","l/"],
+"tags": ["cluster","closed"],
+"hearts": [false,false,false,false,false,false,false,false],
+"hint": "兩個短母音：/ɑ/、/ɪ/；字尾 -al → /əl/。"
+},
+{
+"number": "💭 要緊；有關係",
+"word": "matter",
+"ipa": "/ˈmætɚ/",
+"graphemes": ["m","a","tt","er"],
+"phonemes": ["/'m","æ","t","ɚ/"],
+"phonics": ["/'m","ă","t","er/"],
+"tags": ["rcontrolled","closed"],
+"hearts": [false,false,false,false],
+"hint": "er → /ɚ/；短母音 a /æ/。"
+},
+{
+"number": "💊 藥；藥物",
+"word": "medicine",
+"ipa": "/ˈmɛdəsən/",
+"graphemes": ["m","e","d","i","c","i","n","e"],
+"phonemes": ["/'m","ɛ","d","ə","s","ə","n","-/"],
+"phonics": ["/'m","ĕ","d","ə","s","ə","n","—/"],
+"tags": ["irregular"],
+"hearts": [false,false,false,true,false,true,false,true],
+"hint": "常弱讀 /ˈmɛdəsən/；字尾 e 靜音。"
+},
+{
+"number": "😖 疼痛",
+"word": "pain",
+"ipa": "/peɪn/",
+"graphemes": ["p","ai","n"],
+"phonemes": ["/p","eɪ","n/"],
+"phonics": ["/p","ā","n/"],
+"tags": ["vowel_team","open"],
+"hearts": [false,false,false],
+"hint": "ai → 長母音 a /eɪ/。"
+},
+{
+"number": "😣 疼痛的",
+"word": "painful",
+"ipa": "/ˈpeɪnfəl/",
+"graphemes": ["p","ai","n","f","u","l"],
+"phonemes": ["/'p","eɪ","n","f","ə","l/"],
+"phonics": ["/'p","ā","n","f","ə","l/"],
+"tags": ["vowel_team"],
+"hearts": [false,false,false,false,false,false],
+"hint": "ai → /eɪ/；-ful 弱讀 /fəl/。"
+},
+{
+"number": "😶 臉色蒼白的",
+"word": "pale",
+"ipa": "/peɪl/",
+"graphemes": ["p","a","l","e"],
+"phonemes": ["/p","eɪ","l","-/"],
+"phonics": ["/p","ā","l","—/"],
+"tags": ["magic_e"],
+"hearts": [false,false,false,true],
+"hint": "a_e：a → /eɪ/；e 靜音。"
+},
+{
+"number": "💪 康復；恢復",
+"word": "recover",
+"ipa": "/rɪˈkʌvɚ/",
+"graphemes": ["r","e","c","o","v","er"],
+"phonemes": ["/r","ɪ","'k","ʌ","v","ɚ/"],
+"phonics": ["/r","ĭ","'k","ŭ","v","er/"],
+"tags": ["rcontrolled","prefix"],
+"hearts": [false,false,false,false,false,false],
+"hint": "re- 前綴；er → /ɚ/。"
+},
+{
+"number": "🗣️ 喉嚨痛",
+"word": "sore throat",
+"ipa": "/ˌsɔr ˈθroʊt/",
+"graphemes": ["s","or","e"," ","th","r","oa","t"],
+"phonemes": ["/s","ɔr","-"," ","θ","r","oʊ","t/"],
+"phonics": ["/s","or","—"," ","th","r","ō","t/"],
+"tags": ["rcontrolled","vowel_team","digraph","cluster","phrase"],
+"hearts": [false,false,true,false,false,false,false,false],
+"hint": "sore（or → /ɔr/）+ throat（th → /θ/，oa → /oʊ/）。"
+},
+{
+"number": "🤢 胃痛；肚子痛",
+"word": "stomachache",
+"ipa": "/ˈstʌməkˌeɪk/",
+"graphemes": ["s","t","o","m","a","ch","a","ch","e"],
+"phonemes": ["/'s","t","ʌ","m","ə","k","'eɪ","k","-/"],
+"phonics": ["/'s","t","ŭ","m","ə","k","'ā","k","—/"],
+"tags": ["cluster","digraph","compound"],
+"hearts": [false,false,false,false,false,true,false,false,true],
+"hint": "stomach（ch → /k/）+ ache（/eɪk/）。"
+},
+{
+"number": "🦷 牙痛",
+"word": "toothache",
+"ipa": "/ˈtuθeɪk/",
+"graphemes": ["t","oo","th","a","ch","e"],
+"phonemes": ["/'t","u","θ","eɪ","k","-/"],
+"phonics": ["/'t","ū","th","ā","k","—/"],
+"tags": ["vowel_team","digraph","compound","magic_e"],
+"hearts": [false,false,false,false,false,true],
+"hint": "oo → /u/；th → /θ/；ache → /eɪk/。"
+},
+{
+"number": "🩸 傷口；受傷",
+"word": "wound",
+"ipa": "/wund/",
+"graphemes": ["w","ou","n","d"],
+"phonemes": ["/w","u","n","d/"],
+"phonics": ["/w","ū","n","d/"],
+"tags": ["vowel_team","closed","irregular"],
+"hearts": [false,true,false,false],
+"hint": "ou 在此讀長 u /u/（不讀 /aʊ/）。"
+},
+{
+"number": "🩻 X 光",
+"word": "x-ray",
+"ipa": "/ˈɛksˌreɪ/",
+"graphemes": ["x","-","r","ay"],
+"phonemes": ["/'ɛ","ks","'r","eɪ/"],
+"phonics": ["/'ĕ","ks","'r","ā/"],
+"tags": ["vowel_team","phrase"],
+"hearts": [false,false,false,false],
+"hint": "ay → /eɪ/；x → /ks/。"
+}
+]
+}
