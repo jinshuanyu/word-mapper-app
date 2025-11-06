@@ -73,11 +73,11 @@
       "word": "chocolate",
       "ipa": "/ˈtʃɑklət/",
       "graphemes": ["ch","o","c","o","l","a","t","e"],
-      "phonemes": ["/'tʃ","ɑ","k","ə","l","ə","t","-/"],
-      "phonics": ["/'ch","ŏ","k","ə","l","ə","t","—/"],
+      "phonemes": ["/'tʃ","ɑ","k","-","l","ə","t","-/"],
+      "phonics": ["/'ch","ŏ","k","-","l","ə","t","-/"],
       "tags": ["irregular","silent_consonant"],
       "hearts": [false,false,false,true,false,false,false,true],
-      "hint": "第二個 o 可以不發音；a 弱化為 /ə/。"
+      "hint": "第二個 o 通常不發音；a 弱化為 /ə/。"
     },
     {
       "number": "🍽️ 晚餐",
