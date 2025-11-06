@@ -85,11 +85,11 @@
 "phonemes": ["/'m","ɪ","l","k","ʃ","eɪ","k","-/"],
 "phonics": ["/'m","ĭ","l","k","sh","ā","k","-/"],
 "tags": ["digraph","magic_e","cluster"],
-"hearts": [false,false,false,false,false,false,false,true],
+"hearts": [false,false,false,false,false,false,false,false],
 "hint": "milk + shake；a_e：a 發 /eɪ/，e 靜音。"
 },
 {
-"number": "🍜 麵條（複數）",
+"number": "🍜 麵條",
 "word": "noodles",
 "ipa": "/ˈnudəlz/",
 "graphemes": ["n","oo","d","le","s"],
@@ -97,7 +97,7 @@
 "phonics": ["/'n","ū","d","əl","z/"],
 "tags": ["vowel_team","suffix"],
 "hearts": [false,false,false,false,false],
-"hint": "oo 發長母音 u /u/；s 發 /z/。"
+"hint": "複數；oo 發長母音 u /u/；s 發 /z/。"
 },
 {
 "number": "🥞 鬆餅",
