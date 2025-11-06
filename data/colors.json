@@ -81,23 +81,23 @@
       "number": "🍊 橘色；橘子",
       "word": "orange",
       "ipa": "/ˈɔrɪndʒ/",
-      "graphemes": ["or","a","n","ge"],
-      "phonemes": ["/'ɔr","ɪ","n","dʒ/"],
-      "phonics": ["/'or","ĭ","n","-j/"],
+      "graphemes": ["o","r","a","n","ge"],
+      "phonemes": ["/'ɔ","r","ɪ","n","dʒ/"],
+      "phonics": ["/'aw","r","ĭ","n","-j/"],
       "tags": ["rcontrolled","digraph","irregular"],
-      "hearts": [false,true,false,true],
-      "hint": "or 發 /ɔr/；a 發短母音 i /ɪ/；ge 發 j /dʒ/。"
+      "hearts": [false,false,true,false,false],
+      "hint": "a 發短母音 i /ɪ/；ge 發 j /dʒ/。"
     },
     {
       "number": "💗 粉紅色",
       "word": "pink",
       "ipa": "/pɪŋk/",
-      "graphemes": ["p","i","nk"],
-      "phonemes": ["/p","ɪ","ŋk/"],
-      "phonics": ["/p","ĭ","ŋk/"],
+      "graphemes": ["p","i","n","k"],
+      "phonemes": ["/p","ɪ","ŋ","k/"],
+      "phonics": ["/p","ĭ","ŋ","k/"],
       "tags": ["closed","cluster"],
-      "hearts": [false,false,false],
-      "hint": "nk 組合讀 /ŋk/。"
+      "hearts": [false,false,false,false],
+      "hint": "nk 發 /ŋk/。"
     },
     {
       "number": "🟣 紫色",
@@ -130,7 +130,7 @@
       "phonics": ["/'s","ĭ","l","v","er/"],
       "tags": ["cluster","rcontrolled","closed"],
       "hearts": [false,false,false,false,false],
-      "hint": "er → /ɚ/；lv 為子音群。"
+      "hint": "er 發 /ɚ/。"
     },
     {
       "number": "⚪ 白色",
@@ -138,7 +138,7 @@
       "ipa": "/waɪt/",
       "graphemes": ["wh","i","t","e"],
       "phonemes": ["/w","aɪ","t","-/"],
-      "phonics": ["/w","ī","t","—/"],
+      "phonics": ["/w","ī","t","-/"],
       "tags": ["digraph","magic_e"],
       "hearts": [false,false,false,true],
       "hint": "wh 發 /w/；i_e：i 發長母音 i /aɪ/。"
