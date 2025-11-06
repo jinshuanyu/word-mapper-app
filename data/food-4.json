@@ -1,0 +1,246 @@
+{
+  "items": [
+    {
+      "number": "🧈 奶油",
+      "word": "butter",
+      "ipa": "/ˈbʌtɚ/",
+      "graphemes": ["b","u","tt","er"],
+      "phonemes": ["/'b","ʌ","t","ɚ/"],
+      "phonics": ["/'b","ŭ","t","er/"],
+      "tags": ["rcontrolled","closed"],
+      "hearts": [false,false,false,false],
+      "hint": "u 發短母音 u /ʌ/；er 發 /ɚ/。"
+    },
+    {
+      "number": "🥣 穀片",
+      "word": "cereal",
+      "ipa": "/ˈsɪriəl/",
+      "graphemes": ["c","e","r","e","al"],
+      "phonemes": ["/'s","ɪ","r","i","əl/"],
+      "phonics": ["/'s","ĭ","r","ē","əl/"],
+      "tags": [],
+      "hearts": [false,false,false,false,false],
+      "hint": "c 在 e 前讀 /s/；-al 弱讀 /əl/。"
+    },
+    {
+      "number": "🥢 筷子（複數）",
+      "word": "chopsticks",
+      "ipa": "/ˈtʃɑpstɪks/",
+      "graphemes": ["ch","o","p","st","i","ck","s"],
+      "phonemes": ["/'tʃ","ɑ","p","s","t","ɪ","k","s/"],
+      "phonics": ["/'ch","ŏ","p","st","ĭ","k","s/"],
+      "tags": ["digraph","cluster","closed","suffix"],
+      "hearts": [false,false,false,false,false,false,false],
+      "hint": "ch 發 /tʃ/；st 為子音群；ck 發 /k/。"
+    },
+    {
+      "number": "🍪 餅乾",
+      "word": "cookie",
+      "ipa": "/ˈkʊki/",
+      "graphemes": ["c","oo","k","ie"],
+      "phonemes": ["/'k","ʊ","k","i/"],
+      "phonics": ["/'k","oo","k","ē/"],
+      "tags": ["vowel_team","open"],
+      "hearts": [false,false,false,false],
+      "hint": "oo 發 /ʊ/；字尾 ie 讀 /i/。"
+    },
+    {
+      "number": "🌾 麵粉",
+      "word": "flour",
+      "ipa": "/ˈflaʊɚ/",
+      "graphemes": ["f","l","ou","r"],
+      "phonemes": ["/'f","l","aʊ","ɚ/"],
+      "phonics": ["/'f","l","au","er/"],
+      "tags": ["cluster","vowel_team","rcontrolled"],
+      "hearts": [false,false,false,false],
+      "hint": "ou 發 /aʊ/；r 控制成 /ɚ/。"
+    },
+    {
+      "number": "🍴 叉子",
+      "word": "fork",
+      "ipa": "/fɔrk/",
+      "graphemes": ["f","or","k"],
+      "phonemes": ["/f","ɔr","k/"],
+      "phonics": ["/f","or","k/"],
+      "tags": ["rcontrolled","closed"],
+      "hearts": [false,false,false],
+      "hint": "or 發 /ɔr/。"
+    },
+    {
+      "number": "🍯 蜂蜜",
+      "word": "honey",
+      "ipa": "/ˈhʌni/",
+      "graphemes": ["h","o","n","ey"],
+      "phonemes": ["/'h","ʌ","n","i/"],
+      "phonics": ["/'h","ŭ","n","ē/"],
+      "tags": ["irregular"],
+      "hearts": [false,true,false,false],
+      "hint": "o 在此讀 /ʌ/；字尾 y= /i/。"
+    },
+    {
+      "number": "🍓 果醬",
+      "word": "jam",
+      "ipa": "/dʒæm/",
+      "graphemes": ["j","a","m"],
+      "phonemes": ["/dʒ","æ","m/"],
+      "phonics": ["/j","ă","m/"],
+      "tags": ["closed"],
+      "hearts": [false,false,false],
+      "hint": "a 發短母音 a /æ/。"
+    },
+    {
+      "number": "🔪 刀",
+      "word": "knife",
+      "ipa": "/naɪf/",
+      "graphemes": ["kn","i","f","e"],
+      "phonemes": ["/n","aɪ","f","-/"],
+      "phonics": ["/n","ī","f","—/"],
+      "tags": ["magic_e","silent_consonant"],
+      "hearts": [true,false,false,true],
+      "hint": "k 不發音（kn→/n/）；i_e 讀 /aɪ/；字尾 e 靜音。"
+    },
+    {
+      "number": "🍽 餐",
+      "word": "meal",
+      "ipa": "/mil/",
+      "graphemes": ["m","ea","l"],
+      "phonemes": ["/m","i","l/"],
+      "phonics": ["/m","ē","l/"],
+      "tags": ["vowel_team","open"],
+      "hearts": [false,false,false],
+      "hint": "ea 發長母音 e /i/。"
+    },
+    {
+      "number": "🫒 橄欖",
+      "word": "olive",
+      "ipa": "/ˈɑlɪv/",
+      "graphemes": ["o","l","i","v","e"],
+      "phonemes": ["/'ɑ","l","ɪ","v","-/"],
+      "phonics": ["/'ŏ","l","ĭ","v","—/"],
+      "tags": ["closed"],
+      "hearts": [false,false,false,false,true,false],
+      "hint": "v 後面字尾補靜音 e。"
+    },
+    {
+      "number": "🌶 胡椒",
+      "word": "pepper",
+      "ipa": "/ˈpɛpɚ/",
+      "graphemes": ["p","e","pp","er"],
+      "phonemes": ["/'p","ɛ","p","ɚ/"],
+      "phonics": ["/'p","ĕ","p","er/"],
+      "tags": ["rcontrolled","closed"],
+      "hearts": [false,false,false,false],
+      "hint": "er 發 /ɚ/。"
+    },
+    {
+      "number": "🧩 （一）片；塊",
+      "word": "piece",
+      "ipa": "/pis/",
+      "graphemes": ["p","ie","c","e"],
+      "phonemes": ["/p","i","s","-/"],
+      "phonics": ["/p","ē","s","-/"],
+      "tags": ["vowel_team","irregular"],
+      "hearts": [false,false,true,true],
+      "hint": "ie 發長母音 e /i/；c 在 e 前讀 /s/；字尾 e 靜音。"
+    },
+    {
+      "number": "🍕 披薩",
+      "word": "pizza",
+      "ipa": "/ˈpitsə/",
+      "graphemes": ["p","i","zz","a"],
+      "phonemes": ["/'p","i","ts","ə/"],
+      "phonics": ["/'p","ē","ts","ə/"],
+      "tags": ["irregular"],
+      "hearts": [false,false,true,false],
+      "hint": "zz 在此讀 /ts/（外來語）。"
+    },
+    {
+      "number": "🧂 鹽",
+      "word": "salt",
+      "ipa": "/sɔlt/",
+      "graphemes": ["s","a","l","t"],
+      "phonemes": ["/s","ɔ","l","t/"],
+      "phonics": ["/s","aw","l","t/"],
+      "tags": ["closed"],
+      "hearts": [false,false,false,false],
+      "hint": "al 常發 awl /ɔl/。"
+    },
+    {
+      "number": "👃 聞起來；氣味",
+      "word": "smell",
+      "ipa": "/smɛl/",
+      "graphemes": ["s","m","e","ll"],
+      "phonemes": ["/s","m","ɛ","l/"],
+      "phonics": ["/s","m","ĕ","l/"],
+      "tags": ["cluster","floss","closed"],
+      "hearts": [false,false,false,false],
+      "hint": "e 發短母音 e /ɛ/；ll 重複字母。"
+    },
+    {
+      "number": "🍿 點心",
+      "word": "snack",
+      "ipa": "/snæk/",
+      "graphemes": ["s","n","a","ck"],
+      "phonemes": ["/s","n","æ","k/"],
+      "phonics": ["/s","n","ă","k/"],
+      "tags": ["cluster","digraph","closed"],
+      "hearts": [false,false,false,false],
+      "hint": "a 發短母音 a /æ/；ck 發 /k/。"
+    },
+    {
+      "number": "🥄 湯匙",
+      "word": "spoon",
+      "ipa": "/spun/",
+      "graphemes": ["s","p","oo","n"],
+      "phonemes": ["/s","p","u","n/"],
+      "phonics": ["/s","p","ū","n/"],
+      "tags": ["vowel_team","cluster","closed"],
+      "hearts": [false,false,false,false],
+      "hint": "sp- 連讀時，p 音如 ㄅ；oo 發長母音 u /u/。"
+    },
+    {
+      "number": "🍓 草莓",
+      "word": "strawberry",
+      "ipa": "/ˈstrɔbɛri/",
+      "graphemes": ["s","t","r","aw","b","e","rr","y"],
+      "phonemes": ["/'s","t","r","ɔ","b","ɛ","r","i/"],
+      "phonics": ["/'s","t","r","aw","b","ĕ","r","ē/"],
+      "tags": ["cluster","vowel_team"],
+      "hearts": [false,false,false,false,false,false,false,false],
+      "hint": "straw + berry；aw 發 /ɔ/；字尾 y 讀 /i/。"
+    },
+    {
+      "number": "🍬 糖",
+      "word": "sugar",
+      "ipa": "/ˈʃʊɡɚ/",
+      "graphemes": ["s","u","g","ar"],
+      "phonemes": ["/'ʃ","ʊ","ɡ","ɚ/"],
+      "phonics": ["/'sh","oo","ɡ","er/"],
+      "tags": ["irregular"],
+      "hearts": [true,true,false,false],
+      "hint": "s 發 sh /ʃ/；u 發 oo /ʊ/；ar 弱讀為 er /ɚ/。"
+    },
+    {
+      "number": "👅 味道；品嚐",
+      "word": "taste",
+      "ipa": "/teɪst/",
+      "graphemes": ["t","a","s","t","e"],
+      "phonemes": ["/t","eɪ","s","t","-/"],
+      "phonics": ["/t","ā","s","t","-/"],
+      "tags": ["magic_e"],
+      "hearts": [false,false,false,false,false],
+      "hint": "a_e：a 發 /eɪ/；字尾 e 靜音。"
+    },
+    {
+      "number": "🥣 優格",
+      "word": "yogurt",
+      "ipa": "/ˈjoʊɡɚt/",
+      "graphemes": ["y","o","g","ur","t"],
+      "phonemes": ["/'j","oʊ","ɡ","ɚ","t/"],
+      "phonics": ["/'y","ō","ɡ","er","t/"],
+      "tags": ["rcontrolled"],
+      "hearts": [false,false,false,false,false,false],
+      "hint": "也可拼作 yoghurt。"
+    }
+  ]
+}
