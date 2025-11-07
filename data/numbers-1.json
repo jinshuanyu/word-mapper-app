@@ -62,7 +62,7 @@
       "graphemes": ["s","i","x"],
       "phonemes": ["/s","ɪ","ks/"],
       "phonics":  ["/s","ĭ","ks/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [false,false,false],
       "hint": "i 發短母音 i /ɪ/；x = /k/ + /s/。"
     },
@@ -106,12 +106,13 @@
       "graphemes": ["t","e","n"],
       "phonemes": ["/t","ɛ","n/"],
       "phonics":  ["/t","ĕ","n/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [false,false,false],
       "hint": "e 發短母音 e /ɛ/。"
     }
   ]
 }
+
 
 
 
