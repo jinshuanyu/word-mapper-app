@@ -14,6 +14,9 @@
 
     /* tag 類別色 */
     .tag-irregular{background:#fee2e2;border-color:#ef4444;color:#991b1b;}
+
+.tag-cvc{background:#0ea5e9;border-color:#0284c7;color:#0c4a6e;}  /* CVC 單音節 */
+
     .tag-closed{background:#d1fae5;border-color:#10b981;color:#065f46;}
     .tag-floss{background:#ffe4e6;border-color:#fb7185;color:#9f1239;}
     .tag-digraph{background:#e0f2fe;border-color:#38bdf8;color:#075985;}
@@ -376,7 +379,8 @@
       magic_e: "長母音 + 靜音 'e'",
       vowel_team: "母音組合",
       diphthong: "雙母音",
-      silent_consonant: "不發音子音字母"
+      silent_consonant: "不發音子音字母",
+      cvc: "單一閉音節短母音(CVC)"  
     };
 
     // ====== 基本狀態 ======
@@ -530,7 +534,7 @@
       const cnt=document.getElementById(contentId);
       if(!cnt) return;
 
-      const allTags=['all','irregular','closed','floss','digraph','cluster','suffix','rcontrolled','open','cle','magic_e','vowel_team','diphthong','silent_consonant'];
+      const allTags=['all','cvc','closed','open','magic_e','vowel_team','rcontrolled','cle','floss','digraph','cluster','suffix','diphthong','silent_consonant','irregular'];
       const usedTags=new Set(['all']);
       currentTopicData.forEach(w=>{ (w.tags||[]).forEach(t=>usedTags.add(t)); });
       const existing=allTags.filter(t=>usedTags.has(t));
