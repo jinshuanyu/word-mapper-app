@@ -18,7 +18,7 @@
       "graphemes": ["b","ea","r"],
       "phonemes": ["/b","ɛ","r/"],
       "phonics": ["/b","ĕ","r/"],
-      "tags": ["vowel_team","irregular"],
+      "tags": ["irregular"],
       "hearts": [false,true,false],
       "hint": "ea 發短母音 e /ɛ/。"
     },
@@ -29,7 +29,7 @@
       "graphemes": ["b","ee"],
       "phonemes": ["/b","i/"],
       "phonics": ["/b","ē/"],
-      "tags": ["vowel_team","open"],
+      "tags": ["open"],
       "hearts": [false,false],
       "hint": "ee 發長母音 e /i/。"
     },
@@ -51,7 +51,7 @@
       "graphemes": ["c","a","t"],
       "phonemes": ["/k","æ","t/"],
       "phonics": ["/k","ă","t/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [false,false,false],
       "hint": "c 發 /k/；a 發短母音 a /æ/ 。"
     },
@@ -84,7 +84,7 @@
       "graphemes": ["c","r","o","c","o","d","i","l","e"],
       "phonemes": ["/'k","r","ɑ","k","ə","d","aɪ","l","-/"],
       "phonics": ["/'k","r","ŏ","k","ə","d","ī","l","—/"],
-      "tags": ["cluster","magic_e"],
+      "tags": ["cluster","closed"],
       "hearts": [false,false,false,false,false,false,false,false,false],
       "hint": "c 發 /k/；i_e：i 發長母音 i /aɪ/，e 不發音。"
     },
@@ -93,11 +93,11 @@
       "word": "dog",
       "ipa": "/dɔɡ/",
       "graphemes": ["d","o","g"],
-      "phonemes": ["/d","ɔ","ɡ/"],
-      "phonics": ["/d","aw","ɡ/"],
-      "tags": ["closed"],
+      "phonemes": ["/d","ɑ","ɡ/"],
+      "phonics": ["/d","ŏ","ɡ/"],
+      "tags": ["cvc"],
       "hearts": [false,false,false],
-      "hint": "o 發 aw /ɔ/。"
+      "hint": "o 發短母音 o /ɑ/；o 也可發 aw /ɔ/。"
     },
     {
       "number": "🐴 驢",
@@ -106,7 +106,7 @@
       "graphemes": ["d","o","n","k","ey"],
       "phonemes": ["/'d","ɑ","ŋ","k","i/"],
       "phonics": ["/'d","ŏ","ŋ","k","ē/"],
-      "tags": ["closed","vowel_team"],
+      "tags": ["closed","cluster"],
       "hearts": [false,false,false,false,true],
       "hint": "n 在 k 之前發 /ŋ/；ey 發長母音 e /i/。"
     },
@@ -117,7 +117,7 @@
       "graphemes": ["d","u","ck"],
       "phonemes": ["/d","ʌ","k/"],
       "phonics": ["/d","ŭ","k/"],
-      "tags": ["closed","digraph"],
+      "tags": ["cvc","digraph"],
       "hearts": [false,false,false],
       "hint": "ck 發 /k/。"
     },
@@ -128,8 +128,8 @@
       "graphemes": ["e","l","e","ph","a","n","t"],
       "phonemes": ["/'ɛ","l","ə","f","ə","n","t/"],
       "phonics": ["/'ĕ","l","ə","f","ə","n","t/"],
-      "tags": ["digraph"],
-      "hearts": [false,false,false,false,false,false,false],
+      "tags": ["closed","digraph"],
+      "hearts": [false,false,false,true,false,false,false],
       "hint": "ph 發 /f/。"
     },
     {
@@ -139,7 +139,7 @@
       "graphemes": ["f","i","sh"],
       "phonemes": ["/f","ɪ","ʃ/"],
       "phonics": ["/f","ĭ","sh/"],
-      "tags": ["closed","digraph"],
+      "tags": ["cvc","digraph"],
       "hearts": [false,false,false],
       "hint": "sh 發 /ʃ/。"
     },
@@ -150,7 +150,7 @@
       "graphemes": ["f","r","o","g"],
       "phonemes": ["/f","r","ɑ","ɡ/"],
       "phonics": ["/f","r","ŏ","ɡ/"],
-      "tags": ["cluster","closed"],
+      "tags": ["cluster","cvc"],
       "hearts": [false,false,false,false],
       "hint": "o 發短母音 o /ɑ/。"
     },
@@ -161,9 +161,9 @@
       "graphemes": ["g","i","r","a","ff","e"],
       "phonemes": ["/dʒ","ɪ","'r","æ","f","-/"],
       "phonics": ["/-j","ĭ","'r","ă","f","-/"],
-      "tags": ["irregular","floss"],
+      "tags": ["irregular"],
       "hearts": [true,false,false,false,true,true],
-      "hint": "g 發 j /dʒ/；重音在 a 發短母音 a /æ/；ff 重複字母；字尾 e 靜音。"
+      "hint": "g 發 j /dʒ/；a 發短母音 a /æ/；ff 重複字母；字尾 e 靜音。"
     },
     {
       "number": "🐐 山羊",
@@ -183,7 +183,7 @@
       "graphemes": ["h","i","pp","o"],
       "phonemes": ["/'h","ɪ","p","oʊ/"],
       "phonics": ["/'h","ĭ","p","ō/"],
-      "tags": ["closed","open"],
+      "tags": ["closed"],
       "hearts": [false,false,false,false],
       "hint": "pp 重複字母；全稱為 hippopotamus。"
     },
@@ -216,7 +216,7 @@
       "graphemes": ["l","i","z","ar","d"],
       "phonemes": ["/'l","ɪ","z","ɚ","d/"],
       "phonics": ["/'l","ĭ","z","er","d/"],
-      "tags": ["closed","rcontrolled"],
+      "tags": ["closed"],
       "hearts": [false,false,false,true,false],
       "hint": "ar 發 er /ɚ/。"
     },
@@ -227,8 +227,8 @@
       "graphemes": ["m","o","n","k","ey"],
       "phonemes": ["/'m","ʌ","ŋ","k","i/"],
       "phonics": ["/'m","ŭ","ŋ","k","ē/"],
-      "tags": ["irregular","open"],
-      "hearts": [false,true,false,false,false],
+      "tags": ["irregular"],
+      "hearts": [false,true,false,false,true],
       "hint": "o 發短母音 u /ʌ/；n 在 k 之前發 /ŋ/；ey 發長母音 e /i/。"
     },
     {
@@ -260,7 +260,7 @@
       "graphemes": ["p","e","t"],
       "phonemes": ["/p","ɛ","t/"],
       "phonics": ["/p","ĕ","t/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [false,false,false],
       "hint": "e 發短母音 e /ɛ/。"
     },
@@ -271,7 +271,7 @@
       "graphemes": ["p","o","l","ar"," ","b","ea","r"],
       "phonemes": ["/'p","oʊ","l","ɚ"," ","b","ɛ","r/"],
       "phonics": ["/'p","ō","l","er"," ","b","ĕ","r/"],
-      "tags": ["rcontrolled","vowel_team","irregular"],
+      "tags": ["open"],
       "hearts": [false,false,false,true,false,false,true,false],
       "hint": "polar + bear。"
     },
@@ -304,7 +304,7 @@
       "graphemes": ["s","p","i","d","er"],
       "phonemes": ["/'s","p","aɪ","d","ɚ/"],
       "phonics": ["/'s","p","ī","d","er/"],
-      "tags": ["cluster","rcontrolled"],
+      "tags": ["cluster","open"],
       "hearts": [false,false,false,false,false],
       "hint": "sp- 連讀時，p 音如 ㄅ。"
     },
@@ -326,7 +326,7 @@
       "graphemes": ["t","i","g","er"],
       "phonemes": ["/'t","aɪ","ɡ","ɚ/"],
       "phonics": ["/'t","ī","ɡ","er/"],
-      "tags": ["open","rcontrolled"],
+      "tags": ["open"],
       "hearts": [false,false,false,false],
       "hint": "i 發長母音 i /aɪ/。"
     },
