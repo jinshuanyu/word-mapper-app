@@ -29,7 +29,7 @@
       "graphemes": ["a", "n", "d"],
       "phonemes": ["/æ", "n", "d/"],
       "phonics": ["/ă", "n", "d/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [false, false, false],
       "hint": "短母音 a /æ/；口語常弱化為 /ən(d)/。"
     },
@@ -84,7 +84,7 @@
       "graphemes": ["i", "n"],
       "phonemes": ["/ɪ", "n/"],
       "phonics": ["/ĭ", "n/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [false, false],
       "hint": "i 發短母音 i /ɪ/。"
     },
@@ -95,7 +95,7 @@
       "graphemes": ["i", "t"],
       "phonemes": ["/ɪ", "t/"],
       "phonics": ["/ĭ", "t/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [false, false],
       "hint": "i 發短母音 i /ɪ/。"
     },
@@ -117,7 +117,7 @@
       "graphemes": ["th", "a", "t"],
       "phonemes": ["/ð", "æ", "t/"],
       "phonics": ["/<u>th</u>", "ă", "t/"],
-      "tags": ["digraph", "closed"],
+      "tags": ["digraph", "cvc"],
       "hearts": [false, false, false],
       "hint": "th 發有聲吐舌音 /ð/。"
     },
