@@ -18,7 +18,7 @@
 "graphemes": ["b","o","d","y"],
 "phonemes": ["/'b","ɑ","d","i/"],
 "phonics": ["/'b","ŏ","d","ē/"],
-"tags": ["closed","open"],
+"tags": ["closed"],
 "hearts": [false,false,false,false],
 "hint": "o 發短母音 o /ɑ/；y 字尾發長母音 e /i/。"
 },
@@ -29,7 +29,7 @@
 "graphemes": ["ea","r"],
 "phonemes": ["/ɪ","r/"],
 "phonics": ["/ĭ","r/"],
-"tags": ["vowel_team","rcontrolled"],
+"tags": ["vowel_team"],
 "hearts": [false,false],
 "hint": "ear 發 /ɪr/。"
 },
@@ -62,7 +62,7 @@
 "graphemes": ["f","oo","t"],
 "phonemes": ["/f","ʊ","t/"],
 "phonics": ["/f","oo","t/"],
-"tags": ["vowel_team","closed"],
+"tags": ["vowel_team"],
 "hearts": [false,false,false],
 "hint": "oo 發 /ʊ/。"
 },
@@ -84,7 +84,7 @@
 "graphemes": ["h","ai","r"],
 "phonemes": ["/h","ɛ","r/"],
 "phonics": ["/h","ĕ","r/"],
-"tags": ["vowel_team","rcontrolled"],
+"tags": ["vowel_team"],
 "hearts": [false,false,false],
 "hint": "air 發 /ɛr/。"
 },
@@ -117,7 +117,7 @@
 "graphemes": ["l","e","g"],
 "phonemes": ["/l","ɛ","ɡ/"],
 "phonics": ["/l","ĕ","g/"],
-"tags": ["closed"],
+"tags":cvc"],
 "hearts": [false,false,false],
 "hint": "e 發短母音 e /ɛ/。"
 },
