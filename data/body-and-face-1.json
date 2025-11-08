@@ -117,7 +117,7 @@
 "graphemes": ["l","e","g"],
 "phonemes": ["/l","ɛ","ɡ/"],
 "phonics": ["/l","ĕ","g/"],
-"tags":cvc"],
+"tags":["cvc"],
 "hearts": [false,false,false],
 "hint": "e 發短母音 e /ɛ/。"
 },
