@@ -7,7 +7,7 @@
       "graphemes": ["b","a","g"],
       "phonemes": ["/b","æ","ɡ/"],
       "phonics": ["/b","ă","g/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [false,false,false],
       "hint": "a 發短母音 a /æ/。"
     },
@@ -18,9 +18,9 @@
       "graphemes": ["b","a","s","e","b","a","ll"," ","c","a","p"],
       "phonemes": ["/'b","eɪ","z","-","b","ɔ","l"," ","k","æ","p/"],
       "phonics": ["/'b","ā","z","—","b","aw","l"," ","k","ă","p/"],
-      "tags": ["magic_e","closed","floss"],
+      "tags": ["magic_e","floss"],
       "hearts": [false,false,false,false,false,false,false,false,false,false,false],
-      "hint": "複合名詞，重音在第一個字的重音節；s 在母音間多發 /z/。"
+      "hint": "baseball + cap。"
     },
     {
       "number": "🥾 靴子",
@@ -40,7 +40,7 @@
       "graphemes": ["c","l","o","thes"],
       "phonemes": ["/k","l","oʊ","z/"],
       "phonics": ["/k","l","ō","z/"],
-      "tags": ["cluster","digraph"],
+      "tags": ["cluster","magic_e","digraph"],
       "hearts": [false,false,false,true],
       "hint": "o 發長母音 o /oʊ/；美式發音 -thes 發 /z/。"
     },
@@ -62,7 +62,7 @@
       "graphemes": ["d","r","e","ss"],
       "phonemes": ["/d","r","ɛ","s/"],
       "phonics": ["/d","r","ĕ","s/"],
-      "tags": ["cluster","closed","floss"],
+      "tags": ["cluster","s","floss"],
       "hearts": [false,false,false,false],
       "hint": "e 發短母音 e /ɛ/；字尾 ss 重複字母。"
     },
@@ -75,7 +75,7 @@
       "phonics": ["/'ɡ","l","ă","s","ĭz/"],
       "tags": ["cluster","closed","floss","suffix"],
       "hearts": [false,false,false,false,false,false],
-      "hint": "s 字尾複數型 +es，多加一個音節發 /ɪz/。"
+      "hint": "複數（兩片鏡片）；s 字尾複數型 +es，多加一個音節發 /ɪz/。"
     },
     {
       "number": "👜 手提包",
@@ -95,7 +95,7 @@
       "graphemes": ["h","a","t"],
       "phonemes": ["/h","æ","t/"],
       "phonics": ["/h","ă","t/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [false,false,false],
       "hint": "a 發短母音 a /æ/。"
     },
@@ -161,7 +161,7 @@
       "graphemes": ["sh","oe","s"],
       "phonemes": ["/ʃ","u","z/"],
       "phonics": ["/sh","ū","z/"],
-      "tags": ["digraph","vowel_team","irregular"],
+      "tags": ["digraph","irregular"],
       "hearts": [false,false,true],
       "hint": "複數；oe 發長母音 u /u/；s 發 /z/。"
     },
@@ -194,7 +194,7 @@
       "graphemes": ["s","o","ck"],
       "phonemes": ["/s","ɑ","k/"],
       "phonics": ["/s","ŏ","k/"],
-      "tags": ["digraph","closed"],
+      "tags": ["cvc","digraph"],
       "hearts": [false,false,false],
       "hint": "o 發短母音 o /ɑ/；ck 發 /k/。"
     },
@@ -206,7 +206,7 @@
       "graphemes": ["s","w","ea","t","er"],
       "phonemes": ["/'s","w","ɛ","t","ɚ/"],
       "phonics": ["/'s","w","ĕ","t","er/"],
-      "tags": ["cluster","irregular","rcontrolled"],
+      "tags": ["cluster","irregular"],
       "hearts": [false,false,true,false,false],
       "hint": "ea 發短母音 e /ɛ/；er 發 /ɚ/。"
     },
