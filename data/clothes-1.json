@@ -16,8 +16,8 @@
       "word": "baseball cap",
       "ipa": "/ˈbeɪzbɔl kæp/",
       "graphemes": ["b","a","s","e","b","a","ll"," ","c","a","p"],
-      "phonemes": ["/'b","eɪ","z","-","b","ɔ","l"," ","k","æ","p/"],
-      "phonics": ["/'b","ā","z","—","b","aw","l"," ","k","ă","p/"],
+      "phonemes": ["/'b","eɪ","s","-","b","ɔ","l"," ","k","æ","p/"],
+      "phonics": ["/'b","ā","s","-","b","aw","l"," ","k","ă","p/"],
       "tags": ["magic_e","floss"],
       "hearts": [false,false,false,false,false,false,false,false,false,false,false],
       "hint": "baseball + cap。"
