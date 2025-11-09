@@ -9,7 +9,7 @@
     { "number": "", "word": "G g", "graphemes": ["字母【名】", "字母【音】"], "phonemes": ["/dʒi/","/ɡ/"], "phonics": ["/jē/","/ɡ/"], "hint": "字母【名】結尾母音為長母音 e /i/；較常發硬音 /g/（go）；-ge 有時發軟音 j /dʒ/。", "audio": "audio/letters/G.mp3" },
     { "number": "", "word": "H h", "graphemes": ["字母【名】", "字母【音】"], "phonemes": ["/eɪtʃ/","/h/"], "phonics": ["/āch/","/h/"], "hint": "字母【名】開頭母音為長母音 a，為雙母音 /eɪ/；字母【音】為 /h/。", "audio": "audio/letters/H.mp3" },
     { "number": "", "word": "I i", "graphemes": ["長母音-【名】", "短母音-【音】"], "phonemes": ["/aɪ/","/ɪ/"], "phonics": ["/ī/","/ĭ/"], "hint": "字母【名】即長母音 i，為雙母音 /aɪ/；短母音 i 為 /ɪ/（如 igloo）。", "audio": "audio/letters/I.mp3" },
-    { "number": "", "word": "J j", "graphemes": ["字母【名】", "字母【音】"], "phonemes": ["/dʒeɪ/","/dʒ/"], "phonics": ["/-jā/","/-j/"], "hint": "字母【名】結尾母音為長母音 a，為雙母音 /eɪ/；字母【音】為 /dʒ/。", "audio": "audio/letters/J.mp3" },
+    { "number": "", "word": "J j", "graphemes": ["字母【名】", "字母【音】"], "phonemes": ["/dʒeɪ/","/dʒ/"], "phonics": ["/jā/","/-j/"], "hint": "字母【名】結尾母音為長母音 a，為雙母音 /eɪ/；字母【音】為 /dʒ/。", "audio": "audio/letters/J.mp3" },
     { "number": "", "word": "K k", "graphemes": ["字母【名】", "字母【音】"], "phonemes": ["/keɪ/","/k/"], "phonics": ["/kā/","/k/"], "hint": "字母【名】結尾母音為長母音 a，為雙母音 /eɪ/；字母【音】為 /k/。", "audio": "audio/letters/K.mp3" },
     { "number": "", "word": "L l", "graphemes": ["字母【名】", "字母【音】"], "phonemes": ["/ɛl/","/l/"], "phonics": ["/ĕl/","/l/"], "hint": "字母【名】開頭母音為短母音 e /ɛ/；字母【音】為 /l/。", "audio": "audio/letters/L.mp3" },
     { "number": "", "word": "M m", "graphemes": ["字母【名】", "字母【音】"], "phonemes": ["/ɛm/","/m/"], "phonics": ["/ĕm/","/m/"], "hint": "字母【名】開頭母音為短母音 e /ɛ/；字母【音】為 /m/。", "audio": "audio/letters/M.mp3" },
