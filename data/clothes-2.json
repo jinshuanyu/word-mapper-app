@@ -7,7 +7,7 @@
       "graphemes": ["b","e","l","t"],
       "phonemes": ["/b","ɛ","l","t/"],
       "phonics": ["/b","ĕ","l","t/"],
-      "tags": ["closed","cluster"],
+      "tags": ["cvc","cluster"],
       "hearts": [false,false,false,false],
       "hint": "e 發短母音 e /ɛ/。"
     },
@@ -18,9 +18,9 @@
       "graphemes": ["b","r","a","c","e","l","e","t"],
       "phonemes": ["/'b","r","eɪ","s","-","l","ə","t/"],
       "phonics": ["/'b","r","ā","s","-","l","ə","t/"],
-      "tags": ["magic_e","cluster"],
+      "tags": ["cluster","magic_e"],
       "hearts": [false,false,false,false,false,false,false],
-      "hint": "a_e：a 發長母音 a /eɪ/，e 不發音。"
+      "hint": "brace + let；a_e：a 發長母音 a /eɪ/，e 不發音。"
     },
     {
       "number": "🎭 服裝；戲服",
@@ -29,7 +29,7 @@
       "graphemes": ["c","o","s","t","u","m","e"],
       "phonemes": ["/'k","ɑ","s","t","u","m","-/"],
       "phonics": ["/'k","ŏ","s","t","ū","m","-/"],
-      "tags": ["closed","magic_e"],
+      "tags": ["closed"],
       "hearts": [false,false,false,false,false,false,false],
       "hint": "o 發短母音 o /ɑ/。"
     },
@@ -46,14 +46,14 @@
     },
     {
       "number": "🧤 手套",
-      "word": "glove",
-      "ipa": "/ɡlʌv/",
-      "graphemes": ["g","l","o","v","e"],
-      "phonemes": ["/ɡ","l","ʌ","v","-/"],
-      "phonics": ["/ɡ","l","ŭ","v","—/"],
+      "word": "gloves",
+      "ipa": "/ɡlʌvz/",
+      "graphemes": ["g","l","o","v","e","s"],
+      "phonemes": ["/ɡ","l","ʌ","v","-","z/"],
+      "phonics": ["/ɡ","l","ŭ","v","-","z/"],
       "tags": ["cluster","irregular"],
       "hearts": [false,false,true,false,true],
-      "hint": "o 發短母音 u /ʌ/；v 之後補字尾靜音 e。"
+      "hint": "複數（兩隻）；o 發短母音 u /ʌ/；v 之後補字尾靜音 e；s 在有聲 v 後發 /z/。"
     },
     {
       "number": "📿 項鍊",
@@ -62,7 +62,7 @@
       "graphemes": ["n","e","ck","l","a","c","e"],
       "phonemes": ["/'n","ɛ","k","l","ə","s","-/"],
       "phonics": ["/'n","ĕ","k","l","ə","s","—/"],
-      "tags": ["digraph","closed","magic_e"],
+      "tags": ["closed","digraph"],
       "hearts": [false,false,false,false,false,false,false],
       "hint": "neck + lace；ck 發 /k/；a 弱讀 /ə/。"
     },
@@ -94,8 +94,8 @@
       "ipa": "/rɪŋ/",
       "graphemes": ["r","i","ng"],
       "phonemes": ["/r","ɪ","ŋ/"],
-      "phonics": ["/r","ĭ","ng/"],
-      "tags": ["digraph","closed"],
+      "phonics": ["/r","ĭ","ŋ/"],
+      "tags": ["cvc","digraph"],
       "hearts": [false,false,false],
       "hint": "ng 發 /ŋ/。"
     },
@@ -106,7 +106,7 @@
       "graphemes": ["s","p","o","t"],
       "phonemes": ["/s","p","ɑ","t/"],
       "phonics": ["/s","p","ŏ","t/"],
-      "tags": ["cluster","closed"],
+      "tags": ["cluster","cvc"],
       "hearts": [false,false,false,false],
       "hint": "sp- 連讀時，p 音如 ㄅ；o 發短母音 o /ɑ/。"
     },
@@ -139,7 +139,7 @@
       "graphemes": ["s","t","r","i","p","ed"],
       "phonemes": ["/s","t","r","aɪ","p","t/"],
       "phonics": ["/s","t","r","ī","p","t/"],
-      "tags": ["magic_e","cluster","closed"],
+      "tags": ["cluster","magic_e","suffix"],
       "hearts": [false,false,false,false,false,true],
       "hint": "stripe 的過去分詞，-ed 在 /p/ 後讀 /t/。"
     },
@@ -150,7 +150,7 @@
       "graphemes": ["s","u","n","ɡ","l","a","ss","es"],
       "phonemes": ["/'s","ʌ","n","ɡ","l","æ","s","ɪz/"],
       "phonics": ["/'s","ŭ","n","ɡ","l","ă","s","ĭz/"],
-      "tags": ["closed","cluster","suffix"],
+      "tags": ["closed","cluster","floss","suffix"],
       "hearts": [false,false,false,false,false,false,false,false,true],
       "hint": "sun + glasses。"
     },
@@ -161,7 +161,7 @@
       "graphemes": ["t","r","ai","n","er","s"],
       "phonemes": ["/'t","r","eɪ","n","ɚ","z/"],
       "phonics": ["/'t","r","ā","n","er","z/"],
-      "tags": ["cluster","vowel_team","rcontrolled"],
+      "tags": ["cluster","vowel_team","suffix"],
       "hearts": [false,false,false,false,false,false],
       "hint": "複數；ai 發長母音 a /eɪ/；s 讀 /z/。"
     },
@@ -172,8 +172,8 @@
       "graphemes": ["u","m","b","r","e","ll","a"],
       "phonemes": ["/ʌ","m","'b","r","ɛ","l","ə/"],
       "phonics": ["/ŭ","m","'b","r","ĕ","l","ə/"],
-      "tags": ["cluster","closed"],
-      "hearts": [false,false,false,false,false,false,false],
+      "tags": ["closed"],
+      "hearts": [false,false,false,false,false,true,false],
       "hint": "e 發短母音 e /ɛ/；ll 重複字母。"
     },
     {
@@ -183,7 +183,7 @@
       "graphemes": ["u","n","i","f","or","m"],
       "phonemes": ["/'ju","n","ə","f","ɔr","m/"],
       "phonics": ["/'yū","n","ə","f","or","m/"],
-      "tags": ["rcontrolled"],
+      "tags": ["open"],
       "hearts": [false,false,false,false,false,false],
       "hint": "u 發字母名 yū /ju/；or 發 /ɔr/。"
     }
