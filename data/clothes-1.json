@@ -62,7 +62,7 @@
       "graphemes": ["d","r","e","ss"],
       "phonemes": ["/d","r","ɛ","s/"],
       "phonics": ["/d","r","ĕ","s/"],
-      "tags": ["cluster","s","floss"],
+      "tags": ["cluster","cvc","floss"],
       "hearts": [false,false,false,false],
       "hint": "e 發短母音 e /ɛ/；字尾 ss 重複字母。"
     },
