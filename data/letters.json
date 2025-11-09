@@ -1,0 +1,30 @@
+{
+  "items": [
+    { "number": "", "word": "A a", "graphemes": ["長母音／字母名", "短母音／字母音"], "phonemes": ["/eɪ/","/æ/"], "phonics": ["/ā/","/ă/"], "hint": "第1格=字母名 /eɪ/；第2格=字母音 /æ/（如 apple）", "audio": "audio/letters/A.mp3" },
+    { "number": "", "word": "B b", "graphemes": ["字母名", "字母音"], "phonemes": ["/bi/","/b/"], "phonics": ["/bē/","/b/"], "hint": "第1格=字母名 /bi/；第2格=字母音 /b/", "audio": "audio/letters/B.mp3" },
+    { "number": "", "word": "C c", "graphemes": ["字母名", "字母音"], "phonemes": ["/si/","/k/"], "phonics": ["/sē/","/k/"], "hint": "先教硬音 /k/（cat）；soft c=/s/ 之後補充", "audio": "audio/letters/C.mp3" },
+    { "number": "", "word": "D d", "graphemes": ["字母名", "字母音"], "phonemes": ["/di/","/d/"], "phonics": ["/dē/","/d/"], "hint": "第1格=字母名 /di/；第2格=字母音 /d/", "audio": "audio/letters/D.mp3" },
+    { "number": "", "word": "E e", "graphemes": ["長母音／字母名", "短母音／字母音"], "phonemes": ["/i/","/ɛ/"], "phonics": ["/ē/","/ĕ/"], "hint": "第1格=字母名 /i/；第2格=字母音 /ɛ/（如 egg）", "audio": "audio/letters/E.mp3" },
+    { "number": "", "word": "F f", "graphemes": ["字母名", "字母音"], "phonemes": ["/ɛf/","/f/"], "phonics": ["/ĕf/","/f/"], "hint": "第1格=字母名 /ɛf/；第2格=字母音 /f/", "audio": "audio/letters/F.mp3" },
+    { "number": "", "word": "G g", "graphemes": ["字母名", "字母音"], "phonemes": ["/dʒi/","/ɡ/"], "phonics": ["/jē/","/g/"], "hint": "此卡先教硬音 /g/（go）；soft g=/dʒ/ 之後補充", "audio": "audio/letters/G.mp3" },
+    { "number": "", "word": "H h", "graphemes": ["字母名", "字母音"], "phonemes": ["/eɪtʃ/","/h/"], "phonics": ["/āch/","/h/"], "hint": "第1格=字母名 /eɪtʃ/；第2格=字母音 /h/", "audio": "audio/letters/H.mp3" },
+    { "number": "", "word": "I i", "graphemes": ["長母音／字母名", "短母音／字母音"], "phonemes": ["/aɪ/","/ɪ/"], "phonics": ["/ī/","/ĭ/"], "hint": "第1格=字母名 /aɪ/；第2格=字母音 /ɪ/（如 igloo）", "audio": "audio/letters/I.mp3" },
+    { "number": "", "word": "J j", "graphemes": ["字母名", "字母音"], "phonemes": ["/dʒeɪ/","/dʒ/"], "phonics": ["/jā/","/j/"], "hint": "第1格=字母名 /dʒeɪ/；第2格=字母音 /dʒ/", "audio": "audio/letters/J.mp3" },
+    { "number": "", "word": "K k", "graphemes": ["字母名", "字母音"], "phonemes": ["/keɪ/","/k/"], "phonics": ["/kā/","/k/"], "hint": "第1格=字母名 /keɪ/；第2格=字母音 /k/", "audio": "audio/letters/K.mp3" },
+    { "number": "", "word": "L l", "graphemes": ["字母名", "字母音"], "phonemes": ["/ɛl/","/l/"], "phonics": ["/ĕl/","/l/"], "hint": "第1格=字母名 /ɛl/；第2格=字母音 /l/", "audio": "audio/letters/L.mp3" },
+    { "number": "", "word": "M m", "graphemes": ["字母名", "字母音"], "phonemes": ["/ɛm/","/m/"], "phonics": ["/ĕm/","/m/"], "hint": "第1格=字母名 /ɛm/；第2格=字母音 /m/", "audio": "audio/letters/M.mp3" },
+    { "number": "", "word": "N n", "graphemes": ["字母名", "字母音"], "phonemes": ["/ɛn/","/n/"], "phonics": ["/ĕn/","/n/"], "hint": "第1格=字母名 /ɛn/；第2格=字母音 /n/", "audio": "audio/letters/N.mp3" },
+    { "number": "", "word": "O o", "graphemes": ["長母音／字母名", "短母音／字母音"], "phonemes": ["/oʊ/","/ɑ/"], "phonics": ["/ō/","/ŏ/"], "hint": "第1格=字母名 /oʊ/；第2格=字母音 /ɑ/（如 octopus）", "audio": "audio/letters/O.mp3" },
+    { "number": "", "word": "P p", "graphemes": ["字母名", "字母音"], "phonemes": ["/pi/","/p/"], "phonics": ["/pē/","/p/"], "hint": "第1格=字母名 /pi/；第2格=字母音 /p/", "audio": "audio/letters/P.mp3" },
+    { "number": "", "word": "Q q", "graphemes": ["字母名", "字母音"], "phonemes": ["/kju/","/k/"], "phonics": ["/kyu/","/k/"], "hint": "常見拼寫 qu→/kw/；此卡第2格先給基本 /k/", "audio": "audio/letters/Q.mp3" },
+    { "number": "", "word": "R r", "graphemes": ["字母名", "字母音"], "phonemes": ["/ɑr/","/r/"], "phonics": ["/ar/","/r/"], "hint": "第1格=字母名 /ɑr/；第2格=字母音 /r/（美式捲舌）", "audio": "audio/letters/R.mp3" },
+    { "number": "", "word": "S s", "graphemes": ["字母名", "字母音"], "phonemes": ["/ɛs/","/s/"], "phonics": ["/ĕs/","/s/"], "hint": "第1格=字母名 /ɛs/；第2格=字母音 /s/", "audio": "audio/letters/S.mp3" },
+    { "number": "", "word": "T t", "graphemes": ["字母名", "字母音"], "phonemes": ["/ti/","/t/"], "phonics": ["/tē/","/t/"], "hint": "第1格=字母名 /ti/；第2格=字母音 /t/", "audio": "audio/letters/T.mp3" },
+    { "number": "", "word": "U u", "graphemes": ["長母音／字母名", "短母音／字母音"], "phonemes": ["/ju/","/ʌ/"], "phonics": ["/yū/","/ŭ/"], "hint": "第1格=字母名 /ju/（有時為 /u/）；第2格=字母音 /ʌ/", "audio": "audio/letters/U.mp3" },
+    { "number": "", "word": "V v", "graphemes": ["字母名", "字母音"], "phonemes": ["/vi/","/v/"], "phonics": ["/vē/","/v/"], "hint": "第1格=字母名 /vi/；第2格=字母音 /v/", "audio": "audio/letters/V.mp3" },
+    { "number": "", "word": "W w", "graphemes": ["字母名", "字母音"], "phonemes": ["/ˈdʌbəlju/","/w/"], "phonics": ["/dŭbəl yū/","/w/"], "hint": "第1格=字母名 /ˈdʌbəlju/；第2格=字母音 /w/", "audio": "audio/letters/W.mp3" },
+    { "number": "", "word": "X x", "graphemes": ["字母名", "字母音"], "phonemes": ["/ɛks/","/ks/"], "phonics": ["/ĕks/","/ks/"], "hint": "第1格=字母名 /ɛks/；第2格=字母音 /ks/（詞首多為 /z/）", "audio": "audio/letters/X.mp3" },
+    { "number": "", "word": "Y y", "graphemes": ["字母名", "字母音"], "phonemes": ["/waɪ/","/j/"], "phonics": ["/wī/","/y/"], "hint": "此卡先教子音 /j/；Y 作母音時（/aɪ/、/ɪ/）另立進階卡", "audio": "audio/letters/Y.mp3" },
+    { "number": "", "word": "Z z", "graphemes": ["字母名", "字母音"], "phonemes": ["/zi/","/z/"], "phonics": ["/zē/","/z/"], "hint": "美式字母名 /zi/；英式 /zɛd/（可加變體）", "audio": "audio/letters/Z.mp3" }
+  ]
+}
