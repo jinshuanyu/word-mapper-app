@@ -7,7 +7,7 @@
       "graphemes": ["b","l","a","ck"],
       "phonemes": ["/b","l","æ","k/"],
       "phonics": ["/b","l","ă","k/"],
-      "tags": ["cluster","digraph","closed"],
+      "tags": ["cluster","cvc","digraph"],
       "hearts": [false,false,false,false],
       "hint": "a 發短母音 a /æ/；ck 發 /k/。"
     },
@@ -40,7 +40,7 @@
       "graphemes": ["c","o","l","or"],
       "phonemes": ["/'k","ʌ","l","ɚ/"],
       "phonics": ["/'k","ŭ","l","er/"],
-      "tags": ["irregular","rcontrolled"],
+      "tags": ["irregular"],
       "hearts": [false,true,false,false],
       "hint": "第一個 o 發短母音 u /ʌ/；or 發 er /ɚ/。"
     },
@@ -51,9 +51,9 @@
       "graphemes": ["g","o","l","d"],
       "phonemes": ["/ɡ","oʊ","l","d/"],
       "phonics": ["/ɡ","ō","l","d/"],
-      "tags": ["cluster"],
+      "tags": ["cluster","irregular"],
       "hearts": [false,false,false,false],
-      "hint": "o 發長母音 o /oʊ/。"
+      "hint": "-old 中 o 常發長母音 o /oʊ/。"
     },
     {
       "number": "🩶 灰色",
@@ -64,7 +64,7 @@
       "phonics": ["/ɡ","r","ā/"],
       "tags": ["cluster","open"],
       "hearts": [false,false,false],
-      "hint": "ay → ā /eɪ/。"
+      "hint": "ay 發長母音 a /eɪ/。"
     },
     {
       "number": "🟢 綠色",
@@ -84,7 +84,7 @@
       "graphemes": ["o","r","a","n","ge"],
       "phonemes": ["/'ɔ","r","ɪ","n","dʒ/"],
       "phonics": ["/'aw","r","ĭ","n","-j/"],
-      "tags": ["rcontrolled","digraph","irregular"],
+      "tags": ["irregular","digraph"],
       "hearts": [false,false,true,false,false],
       "hint": "a 發短母音 i /ɪ/；ge 發 j /dʒ/。"
     },
@@ -95,7 +95,7 @@
       "graphemes": ["p","i","n","k"],
       "phonemes": ["/p","ɪ","ŋ","k/"],
       "phonics": ["/p","ĭ","ŋ","k/"],
-      "tags": ["closed","cluster"],
+      "tags": ["cvc","cluster"],
       "hearts": [false,false,false,false],
       "hint": "nk 發 /ŋk/。"
     },
@@ -106,7 +106,7 @@
       "graphemes": ["p","ur","p","le"],
       "phonemes": ["/'p","ɝ","p","əl/"],
       "phonics": ["/'p","er","p","əl/"],
-      "tags": ["rcontrolled"],
+      "tags": ["rcontrolled","cle"],
       "hearts": [false,false,false,false],
       "hint": "ur 發 er /ɝ/。"
     },
@@ -117,7 +117,7 @@
       "graphemes": ["r","e","d"],
       "phonemes": ["/r","ɛ","d/"],
       "phonics": ["/r","ĕ","d/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [false,false,false],
       "hint": "e 發短母音 e /ɛ/。"
     },
@@ -128,9 +128,9 @@
       "graphemes": ["s","i","l","v","er"],
       "phonemes": ["/'s","ɪ","l","v","ɚ/"],
       "phonics": ["/'s","ĭ","l","v","er/"],
-      "tags": ["cluster","rcontrolled","closed"],
+      "tags": ["closed"],
       "hearts": [false,false,false,false,false],
-      "hint": "er 發 /ɚ/。"
+      "hint": "i 發短母音 i /ɪ/；er 發 /ɚ/。"
     },
     {
       "number": "⚪ 白色",
@@ -150,9 +150,9 @@
       "graphemes": ["y","e","ll","ow"],
       "phonemes": ["/'j","ɛ","l","oʊ/"],
       "phonics": ["/'y","ĕ","l","ō/"],
-      "tags": ["closed","vowel_team"],
-      "hearts": [false,false,false,false],
-      "hint": "ow 發長母音 o /oʊ/。"
+      "tags": ["closed"],
+      "hearts": [false,false,true,false],
+      "hint": "e 發短母音 e /ɛ/；ll 重複字母；ow 發長母音 o /oʊ/。"
     }
   ]
 }
