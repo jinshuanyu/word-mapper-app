@@ -1,6 +1,11 @@
 {
   "topics": [
-    
+    {
+  "slug": "letters",
+  "title": "Alphabet 字母",
+  "levels": [{ "label": "A–Z", "src": "data/letters.json" }]
+},
+
     {
   "slug": "first-words",
   "title": "First Words 入門高頻詞",
@@ -82,6 +87,7 @@
     }
   ]
 }
+
 
 
 
