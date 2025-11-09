@@ -88,6 +88,67 @@
     "ɝ": "audio/phonemes/er_stressed.mp3",
     "ɚ": "audio/phonemes/er_unstressed.mp3",
 
-    "aw": "audio/phonemes/aw.mp3"
+    "aw": "audio/phonemes/aw.mp3",
+
+
+  "si": "audio/phonemes/letter_c.mp3",
+  "sē": "audio/phonemes/letter_c.mp3",
+
+  "di": "audio/phonemes/letter_d.mp3",
+  "dē": "audio/phonemes/letter_d.mp3",
+
+  "ɛf": "audio/phonemes/letter_f.mp3",
+  "ĕf": "audio/phonemes/letter_f.mp3",
+
+  "dʒi": "audio/phonemes/letter_g.mp3",
+  "jē": "audio/phonemes/letter_g.mp3",
+"kw": "audio/phonemes/kw.mp3",
+  "eɪtʃ": "audio/phonemes/letter_h.mp3",
+  "āch": "audio/phonemes/letter_h.mp3",
+
+  "dʒeɪ": "audio/phonemes/letter_j.mp3",
+  "jā": "audio/phonemes/letter_j.mp3",
+
+  "keɪ": "audio/phonemes/letter_k.mp3",
+  "kā": "audio/phonemes/letter_k.mp3",
+
+  "ɛl": "audio/phonemes/letter_l.mp3",
+  "ĕl": "audio/phonemes/letter_l.mp3",
+
+  "ɛm": "audio/phonemes/letter_m.mp3",
+  "ĕm": "audio/phonemes/letter_m.mp3",
+
+  "ɛn": "audio/phonemes/letter_n.mp3",
+  "ĕn": "audio/phonemes/letter_n.mp3",
+
+  "pi": "audio/phonemes/letter_p.mp3",
+  "pē": "audio/phonemes/letter_p.mp3",
+
+  "kju": "audio/phonemes/letter_q.mp3",
+  "kyu": "audio/phonemes/letter_q.mp3",
+
+
+
+  "ɛs": "audio/phonemes/letter_s.mp3",
+  "ĕs": "audio/phonemes/letter_s.mp3",
+
+
+  "vi": "audio/phonemes/letter_v.mp3",
+  "vē": "audio/phonemes/letter_v.mp3",
+
+  "ˈdʌbəlju": "audio/phonemes/letter_w.mp3",
+  "dʌbəlju": "audio/phonemes/letter_w.mp3",
+  "dŭbəl yū": "audio/phonemes/letter_w.mp3",
+
+  "ɛks": "audio/phonemes/letter_x.mp3",
+  "ĕks": "audio/phonemes/letter_x.mp3",
+
+  "waɪ": "audio/phonemes/letter_y.mp3",
+  "wī": "audio/phonemes/letter_y.mp3",
+
+  "zi": "audio/phonemes/letter_z.mp3",
+  "zē": "audio/phonemes/letter_z.mp3"
+
+
   }
 }
