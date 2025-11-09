@@ -84,7 +84,7 @@
       "graphemes": ["d","a","d"],
       "phonemes": ["/d","æ","d/"],
       "phonics":  ["/d","ă","d/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [false,false,false],
       "hint": "a 發短母音 a /æ/。"
     },
@@ -95,7 +95,7 @@
       "graphemes": ["f","a","m","i","l","y"],
       "phonemes": ["/'f","æ","m","ə","l","i/"],
       "phonics":  ["/'f","ă","m","ə","l","ē/"],
-      "tags": ["closed","open"],
+      "tags": ["closed"],
       "hearts": [false,false,false,false,false,false],
       "hint": "i 弱化為 /ə/；y 發長母音 e /i/。"
     },
@@ -106,7 +106,7 @@
       "graphemes": ["f","a","th","er"],
       "phonemes": ["/'f","ɑ","ð","ɚ/"],
       "phonics":  ["/'f","ŏ","<u>th</u>","er/"],
-      "tags": ["irregular","digraph","rcontrolled"],
+      "tags": ["irregular","digraph"],
       "hearts": [false,true,false,false],
       "hint": "a 發短母音 o /a/；th 發有聲吐舌音 /ð/。"
     },
@@ -139,7 +139,7 @@
       "graphemes": ["g","r","a","n","d","f","a","th","er"],
       "phonemes": ["/'ɡ","r","æ","n","-","f","ɑ","ð","ɚ/"],
       "phonics":  ["/'ɡ","r","ă","n","-","f","ŏ","<u>th</u>","er/"],
-      "tags": ["digraph","rcontrolled"],
+      "tags": ["cluster","closed","digraph"],
       "hearts": [false,false,false,false,true,false,true,false,false],
       "hint": "grand + father；d 通常不發音。"
     },
@@ -150,7 +150,7 @@
       "graphemes": ["g","r","a","n","d","m","a"],
       "phonemes": ["/'ɡ","r","æ","n","-","m","ɑ/"],
       "phonics":  ["/'ɡ","r","ă","n","-","m","ŏ/"],
-      "tags": [],
+      "tags": ["closed"],
       "hearts": [false,false,false,false,true,false,false],
       "hint": "口語；d 通常不發音。"
     },
@@ -161,7 +161,7 @@
       "graphemes": ["g","r","a","n","d","m","o","th","er"],
       "phonemes": ["/'ɡ","r","æ","n","-","m","ʌ","ð","ɚ/"],
       "phonics":  ["/'ɡ","r","ă","n","-","m","ŭ","<u>th</u>","er/"],
-      "tags": ["digraph","rcontrolled"],
+      "tags": ["cluster","closed","digraph"],
       "hearts": [false,false,false,false,true,false,true,false,false],
       "hint": "grand + mother；d 通常不發音。"
     },
@@ -172,7 +172,7 @@
       "graphemes": ["g","r","a","n","d","p","a"],
       "phonemes": ["/'ɡ","r","æ","n","-","p","ɑ/"],
       "phonics":  ["/'ɡ","r","ă","n","-","p","ŏ/"],
-      "tags": [],
+      "tags": ["closed"],
       "hearts": [false,false,false,false,true,false,false],
       "hint": "口語；d 通常不發音。"
     },
@@ -183,7 +183,7 @@
       "graphemes": ["k","i","d"],
       "phonemes": ["/k","ɪ","d/"],
       "phonics":  ["/k","ĭ","d/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [false,false,false],
       "hint": "i 發短母音 i /ɪ/。"
     },
@@ -206,7 +206,7 @@
       "graphemes": ["m","a","n"],
       "phonemes": ["/m","æ","n/"],
       "phonics":  ["/m","ă","n/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [false,false,false],
       "hint": "a 發短母音 a /æ/。"
     },
@@ -217,7 +217,7 @@
       "graphemes": ["m","e","n"],
       "phonemes": ["/m","ɛ","n/"],
       "phonics":  ["/m","ĕ","n/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [false,false,false],
       "hint": "e 發短母音 e /ɛ/。"
     },
@@ -228,7 +228,7 @@
       "graphemes": ["m","o","th","er"],
       "phonemes": ["/'m","ʌ","ð","ɚ/"],
       "phonics":  ["/'m","ŭ","<u>th</u>","er/"],
-      "tags": ["irregular","digraph","rcontrolled"],
+      "tags": ["irregular","digraph"],
       "hearts": [false,true,false,false],
       "hint": "o 發短母音 u /ʌ/；th 發有聲吐舌音 /ð/。"
     },
@@ -239,7 +239,7 @@
       "graphemes": ["m","u","m"],
       "phonemes": ["/m","ʌ","m/"],
       "phonics":  ["/m","ŭ","m/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [false,false,false],
       "hint": "u 發短母音 u /ʌ/。"
     },
@@ -283,7 +283,7 @@
       "graphemes": ["s","i","s","t","er"],
       "phonemes": ["/'s","ɪ","s","t","ɚ/"],
       "phonics":  ["/'s","ĭ","s","t","er/"],
-      "tags": ["closed","rcontrolled"],
+      "tags": ["closed"],
       "hearts": [false,false,false,false,false],
       "hint": "可暱稱 sis。"
     },
@@ -322,6 +322,7 @@
     }
   ]
 }
+
 
 
 
