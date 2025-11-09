@@ -267,6 +267,16 @@
   font-size: 1.1rem;    /* 返回目錄：字體變大 */
   padding: 10px 16px;   /* 與外框間距更大 */
 }
+    /* 讓一整排標籤排滿就換到下一列；每顆膠囊內不換行 */
+.badges{
+  flex-wrap: wrap !important;     /* 原本是 nowrap → 改成 wrap */
+  white-space: normal !important; /* 容器允許多列 */
+  overflow: visible !important;   /* 不要出現水平捲動 */
+}
+.badges .category-tag{
+  white-space: nowrap !important; /* 單一膠囊內保持單行 */
+}
+
   </style>
 </head>
 
