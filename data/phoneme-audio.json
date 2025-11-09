@@ -90,7 +90,8 @@
 
     "aw": "audio/phonemes/aw.mp3",
 
-
+ "bi": "audio/phonemes/letter_b.mp3",
+  "bē": "audio/phonemes/letter_b.mp3",
   "si": "audio/phonemes/letter_c.mp3",
   "sē": "audio/phonemes/letter_c.mp3",
 
