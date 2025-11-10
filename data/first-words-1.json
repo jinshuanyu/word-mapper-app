@@ -45,6 +45,17 @@
       "hint": "e 發長母音 e /i/。"
     },
     {
+"number": "每個；所有",
+"word": "every",
+"ipa": "/ˈɛvri/",
+"graphemes": ["e","v","e","r","y"],
+"phonemes": ["/'ɛ","v","r","i/"],
+"phonics": ["/'ĕ","v","r","ē/"],
+"tags": ["cluster","closed"],
+"hearts": [false,false,false,false,false],
+"hint": "y 字尾讀 /i/。"
+},
+    {
       "number": "為了（介系詞）",
       "word": "for",
       "ipa": "/fɔr/ (~/fɔːr/)",
@@ -111,17 +122,7 @@
       "hearts": [true, true],
       "hint": "o 唸短母音 u /ʌ/ 或弱化 /ə/；f 唸 /v/，口語中可略讀。"
     },
-    {
-      "number": "那個",
-      "word": "that",
-      "ipa": "/ðæt/",
-      "graphemes": ["th", "a", "t"],
-      "phonemes": ["/ð", "æ", "t/"],
-      "phonics": ["/<u>th</u>", "ă", "t/"],
-      "tags": ["digraph", "cvc"],
-      "hearts": [false, false, false],
-      "hint": "th 發有聲吐舌音 /ð/。"
-    },
+
     {
       "number": "那（定冠詞）",
       "word": "the",
@@ -133,6 +134,50 @@
       "hearts": [false, true],
       "hint": "通常 e 弱化為 /ə/；強調時或在母音開頭字前 e 發長母音 e /i/。"
     },
+    {
+"number": "這個",
+"word": "this",
+"ipa": "/ðɪs/",
+"graphemes": ["th","i","s"],
+"phonemes": ["/ð","ɪ","s/"],
+"phonics": ["/<u>th</u>","ĭ","s/"],
+"tags": ["digraph","closed"],
+"hearts": [true,false,false],
+"hint": "th 發有聲吐舌音 /ð/。"
+},
+        {
+      "number": "那個",
+      "word": "that",
+      "ipa": "/ðæt/",
+      "graphemes": ["th", "a", "t"],
+      "phonemes": ["/ð", "æ", "t/"],
+      "phonics": ["/<u>th</u>", "ă", "t/"],
+      "tags": ["digraph", "cvc"],
+      "hearts": [false, false, false],
+      "hint": "th 發有聲吐舌音 /ð/。"
+    },
+    {
+"number": "這些",
+"word": "these",
+"ipa": "/ðiz/",
+"graphemes": ["th","e","s","e"],
+"phonemes": ["/ð","i","z","-/"],
+"phonics": ["/<u>th</u>","ē","z","-/"],
+"tags": ["digraph","magic_e"],
+"hearts": [false,false,true,false],
+"hint": "e_e：e 發長母音 e /i/；s 發 /z/；字尾 e 靜音。"
+},
+    {
+"number": "那些",
+"word": "those",
+"ipa": "/ðoʊz/",
+"graphemes": ["th","o","s","e"],
+"phonemes": ["/ð","oʊ","z","-/"],
+"phonics": ["/<u>th</u>","ō","z","-/"],
+"tags": ["digraph","magic_e"],
+"hearts": [false,false,true,false],
+"hint": "o_e：o 發長母音 o /oʊ/；s 發 /z/；字尾 e 靜音。"
+},
     {
       "number": "到；向；不定詞標記",
       "word": "to",
