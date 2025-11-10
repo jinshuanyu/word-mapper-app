@@ -1,0 +1,237 @@
+{
+  "items": [
+    {
+      "number": "是（現在式；第一人稱單數）",
+      "word": "am",
+      "ipa": "/æm/",
+      "graphemes": ["a","m"],
+      "phonemes": ["/æ","m/"],
+      "phonics": ["/ă","m/"],
+      "tags": ["cvc"],
+      "hearts": [false,false],
+      "hint": "I am."
+    },
+    {
+      "number": "是（現在式；複數／第二人稱單數）",
+      "word": "are",
+      "ipa": "/ɑr/",
+      "graphemes": ["ar","e"],
+      "phonemes": ["/ɑr","-/"],
+      "phonics": ["/ar","-/"],
+      "tags": ["irregular"],
+      "hearts": [false,true],
+      "hint": "You are. ar 發 /ɑr/；字尾 e 不發音。"
+    },
+    {
+      "number": "是（現在式；第三人稱單數）",
+      "word": "is",
+      "ipa": "/ɪz/",
+      "graphemes": ["i","s"],
+      "phonemes": ["/ɪ","z/"],
+      "phonics": ["/ĭ","z/"],
+      "tags": ["irregular"],
+      "hearts": [false,true],
+      "hint": "It is. s 發 /z/。"
+    },
+    {
+      "number": "是（過去式；第一/三人稱單數）",
+      "word": "was",
+      "ipa": "/wʌz/",
+      "graphemes": ["w","a","s"],
+      "phonemes": ["/w","ʌ","z/"],
+      "phonics": ["/w","ŭ","z/"],
+      "tags": ["irregular","closed"],
+      "hearts": [false,false,false],
+      "hint": "a 發短母音 u /ʌ/；s 讀 /z/。"
+    },
+    {
+      "number": "是（過去式；複數／第二人稱單數）",
+      "word": "were",
+      "ipa": "/wɝ/",
+      "graphemes": ["w","er","e"],
+      "phonemes": ["/w","ɝ","-/"],
+      "phonics": ["/w","er","-/"],
+      "tags": ["irregular"],
+      "hearts": [false,false,true],
+      "hint": "er 發 /ɝ/；字尾 e 不發音。"
+    },
+    {
+      "number": "（已）曾是；過去分詞",
+      "word": "been",
+      "ipa": "/bɪn/",
+      "graphemes": ["b","ee","n"],
+      "phonemes": ["/b","ɪ","n/"],
+      "phonics": ["/b","ĭ","n/"],
+      "tags": ["irregular"],
+      "hearts": [false,true,false],
+      "hint": "ee 發短母音 i /ɪ/。"
+    },
+    {
+      "number": "做；助動詞",
+      "word": "do",
+      "ipa": "/du/",
+      "graphemes": ["d","o"],
+      "phonemes": ["/d","u/"],
+      "phonics": ["/d","ū/"],
+      "tags": ["irregular","open"],
+      "hearts": [false,false],
+      "hint": "o 在此讀 /u/。"
+    },
+    {
+      "number": "做（第三人稱單數）",
+      "word": "does",
+      "ipa": "/dʌz/",
+      "graphemes": ["d","o","e","s"],
+      "phonemes": ["/d","ʌ","z","/"],
+      "phonics": ["/d","ŭ","z","/"],
+      "tags": ["irregular"],
+      "hearts": [false,true,false,false],
+      "hint": "拼作 does，讀 /dʌz/（s 讀 /z/）。"
+    },
+    {
+      "number": "做（過去式）",
+      "word": "did",
+      "ipa": "/dɪd/",
+      "graphemes": ["d","i","d"],
+      "phonemes": ["/d","ɪ","d/"],
+      "phonics": ["/d","ĭ","d/"],
+      "tags": ["irregular","closed"],
+      "hearts": [false,false,false],
+      "hint": "i 發短母音 /ɪ/。"
+    },
+    {
+      "number": "做（過去分詞）",
+      "word": "done",
+      "ipa": "/dʌn/",
+      "graphemes": ["d","o","n","e"],
+      "phonemes": ["/d","ʌ","n","-/"],
+      "phonics": ["/d","ŭ","n","-/"],
+      "tags": ["irregular"],
+      "hearts": [false,false,false,true],
+      "hint": "o 發 /ʌ/；字尾 e 不發音。"
+    },
+
+    {
+      "number": "有（第三人稱單數）",
+      "word": "has",
+      "ipa": "/hæz/",
+      "graphemes": ["h","a","s"],
+      "phonemes": ["/h","æ","z/"],
+      "phonics": ["/h","ă","z/"],
+      "tags": ["irregular"],
+      "hearts": [false,false,false],
+      "hint": "s 發 /z/。"
+    },
+    {
+      "number": "有（過去式）",
+      "word": "had",
+      "ipa": "/hæd/",
+      "graphemes": ["h","a","d"],
+      "phonemes": ["/h","æ","d/"],
+      "phonics": ["/h","ă","d/"],
+      "tags": ["cvc"],
+      "hearts": [false,false,false],
+      "hint": "a 發短母音 a /æ/。"
+    },
+    {
+      "number": "可以；能",
+      "word": "can",
+      "ipa": "/kæn/",
+      "graphemes": ["c","a","n"],
+      "phonemes": ["/k","æ","n/"],
+      "phonics": ["/k","ă","n/"],
+      "tags": ["cvc"],
+      "hearts": [false,false,false],
+      "hint": "a 常弱讀 否定 can't /kænt/。"
+    },
+    {
+      "number": "可以；能（過去式/較弱可能）",
+      "word": "could",
+      "ipa": "/kʊd/",
+      "graphemes": ["c","ou","l","d"],
+      "phonemes": ["/k","ʊ","-","d/"],
+      "phonics": ["/k","oo","-","d/"],
+      "tags": ["modal","irregular","vowel_team"],
+      "hearts": [false,true,false,false],
+      "hint": "ou 發 oo /ʊ/；l 不發音。"
+    },
+    {
+      "number": "將；會",
+      "word": "will",
+      "ipa": "/wɪl/",
+      "graphemes": ["w","i","ll"],
+      "phonemes": ["/w","ɪ","l/"],
+      "phonics": ["/w","ĭ","l/"],
+      "tags": ["cvc","floss"],
+      "hearts": [false,false,false],
+      "hint": "ll 重複字母。"
+    },
+    {
+      "number": "將會；願意（過去式/假設）",
+      "word": "would",
+      "ipa": "/wʊd/",
+      "graphemes": ["w","ou","l","d"],
+      "phonemes": ["/w","ʊ","-","d/"],
+      "phonics": ["/w","oo","-","d/"],
+      "tags": ["irregular"],
+      "hearts": [false,true,true,false],
+      "hint": "ou 發 oo /ʊ/；l 不發音。"
+    },
+    {
+      "number": "可能；可以",
+      "word": "may",
+      "ipa": "/meɪ/",
+      "graphemes": ["m","ay"],
+      "phonemes": ["/m","eɪ/"],
+      "phonics": ["/m","ā/"],
+      "tags": ["open"],
+      "hearts": [false,false],
+      "hint": "ay 發長母音 a /eɪ/。"
+    },
+    {
+      "number": "可能；也許",
+      "word": "might",
+      "ipa": "/maɪt/",
+      "graphemes": ["m","igh","t"],
+      "phonemes": ["/m","aɪ","t/"],
+      "phonics": ["/m","ī","t/"],
+      "tags": ["vowel_team"],
+      "hearts": [false,true,false],
+      "hint": "igh 發長母音 i /aɪ/。"
+    },
+    {
+      "number": "必須；一定",
+      "word": "must",
+      "ipa": "/mʌst/",
+      "graphemes": ["m","u","s","t"],
+      "phonemes": ["/m","ʌ","s","t/"],
+      "phonics": ["/m","ŭ","s","t/"],
+      "tags": ["cvc","cluster"],
+      "hearts": [false,false,false,false],
+      "hint": "u 發短母音 u /ʌ/。"
+    },
+    {
+      "number": "應當；將要（較正式）",
+      "word": "shall",
+      "ipa": "/ʃæl/",
+      "graphemes": ["sh","a","ll"],
+      "phonemes": ["/ʃ","æ","l/"],
+      "phonics": ["/sh","ă","l/"],
+      "tags": ["digraph","cvc","floss"],
+      "hearts": [false,false,false],
+      "hint": "sh 發 /ʃ/；ll 為重複字母。"
+    },
+    {
+      "number": "應該",
+      "word": "should",
+      "ipa": "/ʃʊd/",
+      "graphemes": ["sh","ou","l","d"],
+      "phonemes": ["/ʃ","ʊ","l","d/"],
+      "phonics": ["/sh","oo","l","d/"],
+      "tags": ["digraph","irregular"],
+      "hearts": [false,true,false,false],
+      "hint": "sh 發 /ʃ/；ou 發 oo /ʊ/；l 不發音。"
+    }
+  ]
+}
+```
