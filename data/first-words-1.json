@@ -75,6 +75,7 @@
       "phonics": ["/ī/"],
       "tags": ["open"],
       "hearts": [false],
+      "audio": "audio/letters/I.mp3", 
       "hint": "第一人稱單數代名詞，要大寫；讀 i 字母名 /aɪ/。"
     },
     {
