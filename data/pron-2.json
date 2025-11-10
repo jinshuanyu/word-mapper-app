@@ -1,0 +1,246 @@
+{
+"items": [
+{
+"number": "全部；所有",
+"word": "all",
+"ipa": "/ɔl/",
+"graphemes": ["a","ll"],
+"phonemes": ["/ɔ","l/"],
+"phonics": ["/aw","l/"],
+"tags": ["closed","floss"],
+"hearts": [false,false],
+"hint": "-all 常發 awl /ɔl/；ll 重複字母。"
+},
+{
+"number": "另一個；再一個",
+"word": "another",
+"ipa": "/əˈnʌðɚ/",
+"graphemes": ["a","n","o","th","er"],
+"phonemes": ["/ə","'n","ʌ","ð","ɚ/"],
+"phonics": ["/ə","'n","ŭ","<u>th</u>","er/"],
+"tags": ["irregular","digraph"],
+"hearts": [false,false,true,false,false],
+"hint": "o 發短母音 u /ʌ/；th 發有聲吐舌音 /ð/。"
+},
+{
+"number": "任何的",
+"word": "any",
+"ipa": "/ˈɛni/",
+"graphemes": ["a","n","y"],
+"phonemes": ["/'ɛ","n","i/"],
+"phonics": ["/'ĕ","n","ē/"],
+"tags": ["irregular"],
+"hearts": [true,false,false],
+"hint": "a 發短母音 e /ɛ/；y 字尾發長母音 e /i/。"
+},
+{
+"number": "任何人",
+"word": "anyone",
+"ipa": "/ˈɛniˌwʌn/",
+"graphemes": ["a","n","y","o","n","e"],
+"phonemes": ["/'ɛ","n","i","wʌ","n,"-/"],
+"phonics": ["/'ĕ","n","ē","wŭ","n","-/"],
+"tags": ["irregular"],
+"hearts": [true,false,false,true,false,true],
+"hint": "any + one。"
+},
+{
+"number": "任何人",
+"word": "anybody",
+"ipa": "/ˈɛniˌbɑdi/",
+"graphemes": ["a","n","y","b","o","d","y"],
+"phonemes": ["/'ɛ","n","i","b","ɑ","d","i/"],
+"phonics": ["/'ĕ","n","ē","b","ŏ","d","ē/"],
+"tags": ["irregular"],
+"hearts": [true,false,false,false,false,false,false],
+"hint": "any + body。"
+},
+{
+"number": "任何事",
+"word": "anything",
+"ipa": "/ˈɛniˌθɪŋ/",
+"graphemes": ["a","n","y","th","i","ng"],
+"phonemes": ["/'ɛ","n","i","θ","ɪ","ŋ/"],
+"phonics": ["/'ĕ","n","ē","th","ĭ","ŋ/"],
+"tags": ["irregular","digraph"],
+"hearts": [true,false,false,false,false,false],
+"hint": "any + thing。"
+},
+{
+"number": "兩者；雙方",
+"word": "both",
+"ipa": "/boʊθ/",
+"graphemes": ["b","o","th"],
+"phonemes": ["/b","oʊ","θ/"],
+"phonics": ["/b","ō","th/"],
+"tags": ["irregular","digraph"],
+"hearts": [false,true,false],
+"hint": "o 發長母音 o /oʊ/；th 發無聲吐舌音 /θ/。"
+},
+{
+"number": "各自；每個",
+"word": "each",
+"ipa": "/itʃ/",
+"graphemes": ["ea","ch"],
+"phonemes": ["/i","tʃ/"],
+"phonics": ["/ē","ch/"],
+"tags": ["vowel_team","digraph"],
+"hearts": [false,false],
+"hint": "ea 發長母音 e /i/；ch 發 /tʃ/。"
+},
+{
+"number": "每個人",
+"word": "everyone",
+"ipa": "/ˈɛvriˌwʌn/",
+"graphemes": ["e","v","e","r","y","o","n","e"],
+"phonemes": ["/'ɛ","v","r","i","w","ʌ","n","/"],
+"phonics": ["/'ĕ","v","r","ē","w","ŭ","n","/"],
+"tags": ["cluster","closed"],
+"hearts": [false,false,false,false,true,false,false,false],
+"hint": "every + one。"
+},
+{
+"number": "每個人",
+"word": "everybody",
+"ipa": "/ˈɛvrɪˌbɑdi/",
+"graphemes": ["e","v","e","r","y","b","o","d","y"],
+"phonemes": ["/'ɛ","v","r","ɪ","b","ɑ","d","i","/"],
+"phonics": ["/'ĕ","v","r","ĭ","b","ŏ","d","ē","/"],
+"tags": ["cluster","closed"],
+"hearts": [false,false,false,false,false,false,false,false,false],
+"hint": "字母 y 在此讀 /ɪ/；字尾 y 讀 /i/。"
+},
+{
+"number": "每件事",
+"word": "everything",
+"ipa": "/ˈɛvriˌθɪŋ/",
+"graphemes": ["e","v","e","r","y","th","i","ng"],
+"phonemes": ["/'ɛ","v","r","i","θ","ɪ","ŋ","/"],
+"phonics": ["/'ĕ","v","r","ē","th","ĭ","ŋ","/"],
+"tags": ["digraph","cluster","closed"],
+"hearts": [false,false,false,false,false,false,false,false],
+"hint": "th 為清音 /θ/；ng 讀 /ŋ/。"
+},
+{
+"number": "許多（可數）",
+"word": "many",
+"ipa": "/ˈmɛni/",
+"graphemes": ["m","a","n","y"],
+"phonemes": ["/'m","ɛ","n","i/"],
+"phonics": ["/'m","ĕ","n","ē/"],
+"tags": ["closed","open"],
+"hearts": [false,false,false,false],
+"hint": "y 字尾讀 /i/。"
+},
+{
+"number": "大多數；多半",
+"word": "most",
+"ipa": "/moʊst/",
+"graphemes": ["m","o","s","t"],
+"phonemes": ["/m","oʊ","s","t/"],
+"phonics": ["/m","ō","s","t/"],
+"tags": ["irregular","cluster"],
+"hearts": [false,true,false,false],
+"hint": "o 發長母音 o /oʊ/。"
+},
+{
+"number": "沒有人",
+"word": "nobody",
+"ipa": "/ˈnoʊˌbɑdi/",
+"graphemes": ["n","o","b","o","d","y"],
+"phonemes": ["/'n","oʊ","b","ɑ","d","i/"],
+"phonics": ["/'n","ō","b","ŏ","d","ē/"],
+"tags": ["open","closed"],
+"hearts": [false,false,false,false,false,false],
+"hint": "no + body。"
+},
+{
+"number": "沒有；無一",
+"word": "none",
+"ipa": "/nʌn/",
+"graphemes": ["n","o","n","e"],
+"phonemes": ["/n","ʌ","n","-/"],
+"phonics": ["/n","ŭ","n","-/"],
+"tags": ["irregular"],
+"hearts": [false,true,false,true],
+"hint": "o 發短母音 u /ʌ/；字尾 e 靜音。"
+},
+{
+"number": "沒有任何東西",
+"word": "nothing",
+"ipa": "/ˈnʌθɪŋ/",
+"graphemes": ["n","o","th","i","ng"],
+"phonemes": ["/'n","ʌ","θ","ɪ","ŋ/"],
+"phonics": ["/'n","ŭ","th","ĭ","ŋ/"],
+"tags": ["irregular","digraph"],
+"hearts": [false,true,false,false,false],
+"hint": "o 發短母音 u /ʌ/；th 發無聲吐舌音 /θ/。"
+},
+{
+"number": "其他的；另一個",
+"word": "other",
+"ipa": "/ˈʌðɚ/",
+"graphemes": ["o","th","er"],
+"phonemes": ["/'ʌ","ð","ɚ/"],
+"phonics": ["/'ŭ","<u>th</u>","er/"],
+"tags": ["irregular","digraph"],
+"hearts": [true,false,false],
+"hint": "o 發短母音 u /ʌ/；th 發有聲吐舌音 /ð/。"
+},
+{
+"number": "部分；一部份",
+"word": "part",
+"ipa": "/pɑrt/",
+"graphemes": ["p","ar","t"],
+"phonemes": ["/p","ɑr","t/"],
+"phonics": ["/p","ɑr","t/"],
+"tags": ["rcontrolled"],
+"hearts": [false,false,false],
+"hint": "ar 發 /ɑr/。"
+},
+{
+"number": "一些；某些",
+"word": "some",
+"ipa": "/sʌm/",
+"graphemes": ["s","o","m","e"],
+"phonemes": ["/s","ʌ","m","-/"],
+"phonics": ["/s","ŭ","m","-/"],
+"tags": ["irregular"],
+"hearts": [false,true,false,true],
+"hint": "o 發短母音 u /ʌ/；字尾 e 靜音。。"
+},
+{
+"number": "某人",
+"word": "someone",
+"ipa": "/ˈsʌmˌwʌn/",
+"graphemes": ["s","o","m","e","o","n","e"],
+"phonemes": ["/'s","ʌ","m","-","wʌ","n","-/"],
+"phonics": ["/'s","ŭ","m","-","wŭ","n","-/"],
+"tags": ["irregular"],
+"hearts": [false,true,false,true,true,false,true],
+"hint": "some + one。"
+},
+{
+"number": "某人",
+"word": "somebody",
+"ipa": "/ˈsʌmˌbɑdi/",
+"graphemes": ["s","o","m","e","b","o","d","y"],
+"phonemes": ["/'s","ʌ","m","-","b","ɑ","d","i/"],
+"phonics": ["/'s","ŭ","m","-","b","ŏ","d","ē/"],
+"tags": ["irregular"],
+"hearts": [false,true,false,true,false,false,false,false],
+"hint": "some + body。"
+},
+{
+"number": "某事；某物",
+"word": "something",
+"ipa": "/ˈsʌmˌθɪŋ/",
+"graphemes": ["s","o","m","e","th","i","ng"],
+"phonemes": ["/'s","ʌ","m","-","θ","ɪ","ŋ/"],
+"phonics": ["/'s","ŭ","m","-","th","ĭ","ŋ/"],
+"tags": ["irregular","digraph"],
+"hearts": [false,true,false,true,false,false,false],
+"hint": "some + thing。"
+}
+]
+}
