@@ -17,10 +17,10 @@
       "ipa": "/wɑt/",
       "graphemes": ["wh","a","t"],
       "phonemes": ["/w","ɑ","t/"],
-      "phonics": ["/wh","ŏ","t/"],
+      "phonics": ["/w","ŏ","t/"],
       "tags": ["digraph","closed"],
       "hearts": [false,false,false],
-      "hint": "wh 發 /w/。"
+      "hint": "wh 發 /w/；a 發短母音 o /ɑ/ 。"
     },
     {
       "number": "哪一個",
@@ -28,8 +28,8 @@
       "ipa": "/wɪtʃ/",
       "graphemes": ["wh","i","ch"],
       "phonemes": ["/w","ɪ","tʃ/"],
-      "phonics": ["/wh","ĭ","ch/"],
-      "tags": ["digraph","closed"],
+      "phonics": ["/w","ĭ","ch/"],
+      "tags": ["digraph","cvc"],
       "hearts": [false,false,false],
       "hint": "wh 發 /w/；ch 發 /tʃ/。"
     },
@@ -39,10 +39,10 @@
       "ipa": "/hu/",
       "graphemes": ["wh","o"],
       "phonemes": ["/h","u/"],
-      "phonics": ["/h","oo/"],
-      "tags": ["vowel_team","irregular"],
-      "hearts": [true,false],
-      "hint": "wh 不發 /w/；o 發 /u/。"
+      "phonics": ["/h","ū/"],
+      "tags": ["irregular"],
+      "hearts": [false,true],
+      "hint": "wh 發 /h/；o 發長母音 u /u/。"
     },
     {
       "number": "誰的",
@@ -50,10 +50,10 @@
       "ipa": "/huz/",
       "graphemes": ["wh","o","s","e"],
       "phonemes": ["/h","u","z","-/"],
-      "phonics": ["/h","oo","z","-/"],
-      "tags": ["vowel_team","magic_e","irregular"],
-      "hearts": [true,false,false,false],
-      "hint": "wh 不發 /w/；o 發 /u/；s 讀 /z/。"
+      "phonics": ["/h","ū","z","-/"],
+      "tags": ["irregular"],
+      "hearts": [true,true,false,false],
+      "hint": "wh 發 /h/；o 發長母音 u /u/；s 讀 /z/；e 靜音。"
     },
     {
       "number": "何時；什麼時候",
@@ -61,8 +61,8 @@
       "ipa": "/wɛn/",
       "graphemes": ["wh","e","n"],
       "phonemes": ["/w","ɛ","n/"],
-      "phonics": ["/wh","ĕ","n/"],
-      "tags": ["digraph","closed"],
+      "phonics": ["/w","ĕ","n/"],
+      "tags": ["digraph","cvc"],
       "hearts": [false,false,false],
       "hint": "wh 發 /w/。"
     },
@@ -70,12 +70,12 @@
       "number": "哪裡",
       "word": "where",
       "ipa": "/wɛr/",
-      "graphemes": ["wh","e","re"],
-      "phonemes": ["/w","ɛ","r/"],
-      "phonics": ["/wh","ĕ","r/"],
-      "tags": ["digraph","rcontrolled"],
-      "hearts": [false,false,false],
-      "hint": "wh 發 /w/；re 在此發 /r/。"
+      "graphemes": ["wh","e","r","e"],
+      "phonemes": ["/w","ɛ","r","-/"],
+      "phonics": ["/w","ĕ","r","-/"],
+      "tags": ["digraph","irregular"],
+      "hearts": [false,true,false,true],
+      "hint": "wh 發 /w/；第一個 e 發短母音 e /ɛ/；第二個 e 靜音。"
     },
     {
       "number": "是否",
@@ -83,10 +83,10 @@
       "ipa": "/ˈwɛðɚ/",
       "graphemes": ["wh","e","th","er"],
       "phonemes": ["/'w","ɛ","ð","ɚ/"],
-      "phonics": ["/'wh","ĕ","<u>th</u>","er/"],
-      "tags": ["digraph","rcontrolled"],
-      "hearts": [false,false,false,false],
-      "hint": "wh 發 /w/；th 發有聲吐舌音 /ð/。"
+      "phonics": ["/'w","ĕ","<u>th</u>","er/"],
+      "tags": ["digraph","irregular"],
+      "hearts": [false,true,false,false],
+      "hint": "wh 發 /w/；第一個 e 發短母音 e /ɛ/；th 發有聲吐舌音 /ð/。"
     },
     {
       "number": "當...的時候；而",
@@ -94,7 +94,7 @@
       "ipa": "/waɪl/",
       "graphemes": ["wh","i","l","e"],
       "phonemes": ["/w","aɪ","l","-/"],
-      "phonics": ["/wh","ī","l","-/"],
+      "phonics": ["/w","ī","l","-/"],
       "tags": ["digraph","magic_e"],
       "hearts": [false,false,false,false],
       "hint": "wh 發 /w/；i_e：i 發 /aɪ/；e 靜音。"
@@ -105,7 +105,7 @@
       "ipa": "/waɪ/",
       "graphemes": ["wh","y"],
       "phonemes": ["/w","aɪ/"],
-      "phonics": ["/wh","ī/"],
+      "phonics": ["/w","ī/"],
       "tags": ["digraph","open"],
       "hearts": [false,false],
       "hint": "wh 發 /w/；y 發長母音 i /aɪ/。"
