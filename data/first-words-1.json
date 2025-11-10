@@ -49,11 +49,11 @@
 "word": "every",
 "ipa": "/ˈɛvri/",
 "graphemes": ["e","v","e","r","y"],
-"phonemes": ["/'ɛ","v","r","i/"],
-"phonics": ["/'ĕ","v","r","ē/"],
-"tags": ["cluster","closed"],
-"hearts": [false,false,false,false,false],
-"hint": "y 字尾讀 /i/。"
+"phonemes": ["/'ɛ","v","-","r","i/"],
+"phonics": ["/'ĕ","v","-","r","ē/"],
+"tags": ["closed"],
+"hearts": [false,false,true,false,false],
+"hint": "第一個 e 發短母音 e /ɛ/；第二個 e 不發音；y 發長母音 e /i/。"
 },
     {
       "number": "為了（介系詞）",
@@ -141,8 +141,8 @@
 "graphemes": ["th","i","s"],
 "phonemes": ["/ð","ɪ","s/"],
 "phonics": ["/<u>th</u>","ĭ","s/"],
-"tags": ["digraph","closed"],
-"hearts": [true,false,false],
+"tags": ["digraph","cvc"],
+"hearts": [false,false,false],
 "hint": "th 發有聲吐舌音 /ð/。"
 },
         {
