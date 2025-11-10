@@ -8,12 +8,16 @@
 
     {
   "slug": "first-words",
-  "title": "First Words 入門高頻詞",
+  "title": "Function Words 功能詞",
   "levels": [
     {
-      "label": "1",
-      "src": "data/first-words-1.json"
-    }
+      "label": "入門",       "src": "data/first-words-1.json"
+    },
+      { "label": "代名詞", "src": "data/pron.json" },
+      { "label": "反身代名詞", "src": "data/refl.json" },
+      { "label": "疑問詞", "src": "data/wh-words.json" },
+      { "label": "Be + 助動詞", "src": "data/aux.json" },
+      { "label": "連接詞", "src": "data/conj.json" }
   ]
 },
 
@@ -87,6 +91,7 @@
     }
   ]
 }
+
 
 
 
