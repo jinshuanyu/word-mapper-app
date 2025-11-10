@@ -38,7 +38,7 @@
 "word": "anyone",
 "ipa": "/ˈɛniˌwʌn/",
 "graphemes": ["a","n","y","o","n","e"],
-"phonemes": ["/'ɛ","n","i","wʌ","n,"-/"],
+"phonemes": ["/'ɛ","n","i","wʌ","n",-/"],
 "phonics": ["/'ĕ","n","ē","wŭ","n","-/"],
 "tags": ["irregular"],
 "hearts": [true,false,false,true,false,true],
