@@ -16,7 +16,7 @@
     { "number": "", "word": "N n", "graphemes": ["字母【名】", "字母【音】"], "phonemes": ["/ɛn/","/n/"], "phonics": ["/ĕn/","/n/"], "hint": "字母【名】開頭母音為短母音 e /ɛ/；字母【音】為子音 /n/。", "audio": "audio/letters/N.mp3" },
     { "number": "", "word": "O o", "graphemes": ["長母音【名】", "短母音【音】"], "phonemes": ["/oʊ/","/ɑ/"], "phonics": ["/ō/","/ŏ/"], "hint": "字母【名】即長母音 o，為雙母音 /oʊ/；短母音 o 為 /ɑ/（如 octopus）。", "audio": "audio/letters/O.mp3" },
     { "number": "", "word": "P p", "graphemes": ["字母【名】", "字母【音】"], "phonemes": ["/pi/","/p/"], "phonics": ["/pē/","/p/"], "hint": "字母【名】結尾母音為長母音 e /i/；字母【音】為子音 /p/。", "audio": "audio/letters/P.mp3" },
-    { "number": "", "word": "Q q", "graphemes": ["字母【名】", "qu- 字母【音】"], "phonemes": ["/kju/","/kw/"], "phonics": ["/kyu/","/k/"], "hint": "字母【名】結尾母音為長母音 u /ju/；拼寫 qu 發音為子音 /kw/", "audio": "audio/letters/Q.mp3" },
+    { "number": "", "word": "Q q", "graphemes": ["字母【名】", "qu- 字母【音】"], "phonemes": ["/kju/","/kw/"], "phonics": ["/kyu/","/kw/"], "hint": "字母【名】結尾母音為長母音 u /ju/；拼寫 qu 發音為子音 /kw/", "audio": "audio/letters/Q.mp3" },
     { "number": "", "word": "R r", "graphemes": ["字母【名】", "字母【音】"], "phonemes": ["/ɑr/","/r/"], "phonics": ["/ar/","/r/"], "hint": "字母【名】開頭母音為短母音 o /ɑ/；字母【音】為子音 /r/。", "audio": "audio/letters/R.mp3" },
     { "number": "", "word": "S s", "graphemes": ["字母【名】", "字母【音】"], "phonemes": ["/ɛs/","/s/"], "phonics": ["/ĕs/","/s/"], "hint": "字母【名】開頭母音為短母音 e /ɛ/；字母【音】為子音 /s/。", "audio": "audio/letters/S.mp3" },
     { "number": "", "word": "T t", "graphemes": ["字母【名】", "字母【音】"], "phonemes": ["/ti/","/t/"], "phonics": ["/tē/","/t/"], "hint": "字母【名】結尾母音為長母音 e /i/；字母【音】為子音 /t/。", "audio": "audio/letters/T.mp3" },
