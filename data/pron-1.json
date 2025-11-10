@@ -28,7 +28,7 @@
 "ipa": "/maɪn/",
 "graphemes": ["m","i","n","e"],
 "phonemes": ["/m","aɪ","n","-/"],
-"phonics": ["/m","ī","n","—/"],
+"phonics": ["/m","ī","n","-/"],
 "tags": ["magic_e"],
 "hearts": [false,false,false,true],
 "hint": "i_e：i 發 /aɪ/；尾 e 靜音。"
