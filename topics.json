@@ -13,10 +13,11 @@
     {
       "label": "入門",       "src": "data/first-words-1.json"
     },
-      { "label": "代名詞-1", "src": "data/pron-1.json" },
+      { "label": "疑問詞", "src": "data/wh-words.json" },
+    { "label": "代名詞-1", "src": "data/pron-1.json" },
       { "label": "代名詞-2", "src": "data/pron-2.json" },
     { "label": "反身代名詞", "src": "data/refl.json" },
-      { "label": "疑問詞", "src": "data/wh-words.json" },
+
       { "label": "Be + 助動詞", "src": "data/aux.json" },
       { "label": "連接詞", "src": "data/conj.json" }
   ]
@@ -92,6 +93,7 @@
     }
   ]
 }
+
 
 
 
