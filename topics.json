@@ -18,7 +18,7 @@
       { "label": "代名詞-2", "src": "data/pron-2.json" },
     { "label": "反身代名詞", "src": "data/refl.json" },
 
-      { "label": "Be + 助動詞", "src": "data/aux.json" },
+      { "label": "Be + 助動詞", "src": "data/be-aux.json" },
       { "label": "連接詞", "src": "data/conj.json" }
   ]
 },
@@ -93,6 +93,7 @@
     }
   ]
 }
+
 
 
 
