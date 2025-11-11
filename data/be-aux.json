@@ -42,7 +42,7 @@
       "phonics": ["/ĭ","z/"],
       "tags": ["irregular"],
       "hearts": [false,true],
-      "hint": "It is. s 發 /z/。"
+      "hint": "s 發 /z/。"
     },
     {
       "number": "是（過去式；第一/三人稱單數）",
@@ -53,7 +53,7 @@
       "phonics": ["/w","ŭ","z/"],
       "tags": ["irregular","closed"],
       "hearts": [false,false,false],
-      "hint": "a 發短母音 u /ʌ/；s 讀 /z/。"
+      "hint": "a 發短母音 u /ʌ/；s 發 /z/。"
     },
     {
       "number": "是（過去式；複數／第二人稱單數）",
@@ -67,7 +67,7 @@
       "hint": "er 發 /ɝ/；字尾 e 不發音。"
     },
     {
-      "number": "（已）曾是；過去分詞",
+      "number": "是（過去分詞）",
       "word": "been",
       "ipa": "/bɪn/",
       "graphemes": ["b","ee","n"],
@@ -86,18 +86,18 @@
       "phonics": ["/d","ū/"],
       "tags": ["irregular","open"],
       "hearts": [false,false],
-      "hint": "o 在此讀 /u/。"
+      "hint": "o 發長母音 u /u/。"
     },
     {
       "number": "做（第三人稱單數）",
       "word": "does",
       "ipa": "/dʌz/",
-      "graphemes": ["d","o","e","s"],
-      "phonemes": ["/d","ʌ","z","/"],
-      "phonics": ["/d","ŭ","z","/"],
+      "graphemes": ["d","oe","s"],
+      "phonemes": ["/d","ʌ","z/"],
+      "phonics": ["/d","ŭ","z/"],
       "tags": ["irregular"],
-      "hearts": [false,true,false,false],
-      "hint": "拼作 does，讀 /dʌz/（s 讀 /z/）。"
+      "hearts": [false,true,true],
+      "hint": "oe 發短母音 u /ʌ/；s 發 /z/。"
     },
     {
       "number": "做（過去式）",
@@ -106,9 +106,9 @@
       "graphemes": ["d","i","d"],
       "phonemes": ["/d","ɪ","d/"],
       "phonics": ["/d","ĭ","d/"],
-      "tags": ["irregular","closed"],
+      "tags": ["cvc"],
       "hearts": [false,false,false],
-      "hint": "i 發短母音 /ɪ/。"
+      "hint": "i 發短母音 i /ɪ/。"
     },
     {
       "number": "做（過去分詞）",
@@ -118,8 +118,8 @@
       "phonemes": ["/d","ʌ","n","-/"],
       "phonics": ["/d","ŭ","n","-/"],
       "tags": ["irregular"],
-      "hearts": [false,false,false,true],
-      "hint": "o 發 /ʌ/；字尾 e 不發音。"
+      "hearts": [false,true,false,true],
+      "hint": "o 發短母音 u /ʌ/；字尾 e 不發音。"
     },
 
     {
@@ -130,7 +130,7 @@
       "phonemes": ["/h","æ","z/"],
       "phonics": ["/h","ă","z/"],
       "tags": ["irregular"],
-      "hearts": [false,false,false],
+      "hearts": [false,false,true],
       "hint": "s 發 /z/。"
     },
     {
@@ -237,10 +237,10 @@
       "word": "should",
       "ipa": "/ʃʊd/",
       "graphemes": ["sh","ou","l","d"],
-      "phonemes": ["/ʃ","ʊ","l","d/"],
-      "phonics": ["/sh","oo","l","d/"],
+      "phonemes": ["/ʃ","ʊ","-","d/"],
+      "phonics": ["/sh","oo","-","d/"],
       "tags": ["digraph","irregular"],
-      "hearts": [false,true,false,false],
+      "hearts": [false,true,true,false],
       "hint": "sh 發 /ʃ/；ou 發 oo /ʊ/；l 不發音。"
     }
   ]
