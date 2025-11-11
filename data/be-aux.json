@@ -1,7 +1,18 @@
 {
   "items": [
+        {
+      "number": "be 動詞",
+      "word": "be",
+      "ipa": "/biː/",
+      "graphemes": ["b", "e"],
+      "phonemes": ["/b", "i/"],
+      "phonics": ["/b", "ē/"],
+      "tags": ["open"],
+      "hearts": [false, false],
+      "hint": "e 發長母音 e /i/。"
+    },
     {
-      "number": "是（現在式；第一人稱單數）",
+      "number": "是（現在式；與 I 連用）",
       "word": "am",
       "ipa": "/æm/",
       "graphemes": ["a","m"],
@@ -9,18 +20,18 @@
       "phonics": ["/ă","m/"],
       "tags": ["cvc"],
       "hearts": [false,false],
-      "hint": "I am."
+      "hint": "a 發短母音 /æ/。"
     },
     {
-      "number": "是（現在式；複數／第二人稱單數）",
+      "number": "是（現在式；與 you 連用）",
       "word": "are",
       "ipa": "/ɑr/",
       "graphemes": ["ar","e"],
       "phonemes": ["/ɑr","-/"],
-      "phonics": ["/ar","-/"],
+      "phonics": ["/ɑr","-/"],
       "tags": ["irregular"],
       "hearts": [false,true],
-      "hint": "You are. ar 發 /ɑr/；字尾 e 不發音。"
+      "hint": "ar 發 /ɑr/；字尾 e 不發音。"
     },
     {
       "number": "是（現在式；第三人稱單數）",
