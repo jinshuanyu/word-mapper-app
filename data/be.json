@@ -1,0 +1,82 @@
+{
+  "items": [
+        {
+      "number": "be 動詞",
+      "word": "be",
+      "ipa": "/biː/",
+      "graphemes": ["b", "e"],
+      "phonemes": ["/b", "i/"],
+      "phonics": ["/b", "ē/"],
+      "tags": ["open"],
+      "hearts": [false, false],
+      "hint": "e 發長母音 e /i/。"
+    },
+        {
+      "number": "是（過去分詞）",
+      "word": "been",
+      "ipa": "/bɪn/",
+      "graphemes": ["b","ee","n"],
+      "phonemes": ["/b","ɪ","n/"],
+      "phonics": ["/b","ĭ","n/"],
+      "tags": ["irregular"],
+      "hearts": [false,true,false],
+      "hint": "ee 發短母音 i /ɪ/。"
+    },
+    {
+      "number": "是（現在式；與 I 連用）",
+      "word": "am",
+      "ipa": "/æm/",
+      "graphemes": ["a","m"],
+      "phonemes": ["/æ","m/"],
+      "phonics": ["/ă","m/"],
+      "tags": ["cvc"],
+      "hearts": [false,false],
+      "hint": "a 發短母音 /æ/。"
+    },
+    {
+      "number": "是（現在式；與 you 連用）",
+      "word": "are",
+      "ipa": "/ɑr/",
+      "graphemes": ["ar","e"],
+      "phonemes": ["/ɑr","-/"],
+      "phonics": ["/ɑr","-/"],
+      "tags": ["irregular"],
+      "hearts": [false,true],
+      "hint": "ar 發 /ɑr/；字尾 e 不發音。"
+    },
+    {
+      "number": "是（現在式；第三人稱單數）",
+      "word": "is",
+      "ipa": "/ɪz/",
+      "graphemes": ["i","s"],
+      "phonemes": ["/ɪ","z/"],
+      "phonics": ["/ĭ","z/"],
+      "tags": ["irregular"],
+      "hearts": [false,true],
+      "hint": "s 發 /z/。"
+    },
+    {
+      "number": "是（過去式；第一/三人稱單數）",
+      "word": "was",
+      "ipa": "/wʌz/",
+      "graphemes": ["w","a","s"],
+      "phonemes": ["/w","ʌ","z/"],
+      "phonics": ["/w","ŭ","z/"],
+      "tags": ["irregular","closed"],
+      "hearts": [false,false,false],
+      "hint": "a 發短母音 u /ʌ/；s 發 /z/。"
+    },
+    {
+      "number": "是（過去式；複數／第二人稱單數）",
+      "word": "were",
+      "ipa": "/wɝ/",
+      "graphemes": ["w","er","e"],
+      "phonemes": ["/w","ɝ","-/"],
+      "phonics": ["/w","er","-/"],
+      "tags": ["irregular"],
+      "hearts": [false,false,true],
+      "hint": "er 發 /ɝ/；字尾 e 不發音。"
+    }
+    
+  ]
+}
