@@ -11,6 +11,17 @@
 "hearts": [false,false],
 "hint": "e 發長母音 e /i/。"
 },
+ {
+"number": "他的（所有格/所有格代名詞）",
+"word": "his",
+"ipa": "/hɪz/",
+"graphemes": ["h","i","s"],
+"phonemes": ["/h","ɪ","z/"],
+"phonics": ["/h","ĭ","z/"],
+"tags": ["irregular"],
+"hearts": [false,false,true],
+"hint": "字尾 s 發 /z/。"
+},
 {
 "number": "他（受格）",
 "word": "him",
@@ -22,17 +33,7 @@
 "hearts": [false,false,false],
 "hint": "i 發短母音 i /ɪ/。"
 },
-{
-"number": "他的（所有格/所有格代名詞）",
-"word": "his",
-"ipa": "/hɪz/",
-"graphemes": ["h","i","s"],
-"phonemes": ["/h","ɪ","z/"],
-"phonics": ["/h","ĭ","z/"],
-"tags": ["irregular"],
-"hearts": [false,false,true],
-"hint": "字尾 s 發 /z/。"
-},
+
 {
 "number": "她（主格）",
 "word": "she",
@@ -66,8 +67,19 @@
 "hearts": [false,false,true],
 "hint": "字尾 s 發 /z/。"
 },
+     {
+      "number": "它；這件事（主格/受格）",
+      "word": "it",
+      "ipa": "/ɪt/",
+      "graphemes": ["i", "t"],
+      "phonemes": ["/ɪ", "t/"],
+      "phonics": ["/ĭ", "t/"],
+      "tags": ["cvc"],
+      "hearts": [false, false],
+      "hint": "i 發短母音 i /ɪ/。"
+    },
 {
-"number": "它的（所有格）",
+"number": "它的（所有格/所有格代名詞）",
 "word": "its",
 "ipa": "/ɪts/",
 "graphemes": ["i","ts"],
@@ -78,7 +90,7 @@
 "hint": "t+s 音如 ㄘ；注意與 it's（it is）區分。"
 },
   {
-"number": "他們（主格代名詞）",
+"number": "他們（主格）",
 "word": "they",
 "ipa": "/ðeɪ/",
 "graphemes": ["th","ey"],
@@ -88,18 +100,7 @@
 "hearts": [false,true],
 "hint": "th 發有聲吐舌音 /ð/；ey 發長母音 a /eɪ/。"
 },
-{
-"number": "他們（受格代名詞）",
-"word": "them",
-"ipa": "/ðɛm/",
-"graphemes": ["th","e","m"],
-"phonemes": ["/ð","ɛ","m/"],
-"phonics": ["/<u>th</u>","ĕ","m/"],
-"tags": ["digraph","closed"],
-"hearts": [false,false,false],
-"hint": "th 發有聲吐舌音 /ð/；e 發短母音 e /ɛ/。"
-},
-{
+ {
 "number": "他們的（所有格）",
 "word": "their",
 "ipa": "/ðɛr/",
@@ -110,6 +111,18 @@
 "hearts": [false,true,false],
 "hint": "ei 發短母音 e /ɛ/。"
 },
+{
+"number": "他們（受格）",
+"word": "them",
+"ipa": "/ðɛm/",
+"graphemes": ["th","e","m"],
+"phonemes": ["/ð","ɛ","m/"],
+"phonics": ["/<u>th</u>","ĕ","m/"],
+"tags": ["digraph","closed"],
+"hearts": [false,false,false],
+"hint": "th 發有聲吐舌音 /ð/；e 發短母音 e /ɛ/。"
+},
+
 {
 "number": "他們的（所有格代名詞）",
 "word": "theirs",
