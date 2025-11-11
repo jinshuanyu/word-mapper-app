@@ -11,14 +11,15 @@
   "title": "Function Words 功能詞",
   "levels": [
     {
-      "label": "入門",       "src": "data/first-words-1.json"
+      "label": "冠詞/限定詞",       "src": "data/first-words-1.json"
     },
-      { "label": "疑問詞", "src": "data/wh-words.json" },
-    { "label": "第一二人稱代名詞", "src": "data/pron-1.json" },
+    { "label": "第一/二人稱代名詞", "src": "data/pron-1.json" },
       { "label": "第三人稱代名詞", "src": "data/pron-2.json" },
     { "label": "反身代名詞", "src": "data/refl.json" },
  { "label": "不定代名詞", "src": "data/indef-pron.json" },
-      { "label": "Be + 助動詞", "src": "data/be-aux.json" },
+    { "label": "疑問詞", "src": "data/wh-words.json" },
+
+      { "label": "Be/助動詞", "src": "data/be-aux.json" },
       { "label": "連接詞", "src": "data/conj.json" }
   ]
 },
@@ -93,6 +94,7 @@
     }
   ]
 }
+
 
 
 
