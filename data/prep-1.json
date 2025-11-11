@@ -1,0 +1,202 @@
+{
+  "items": [
+    {
+      "number": "關於；大約",
+      "word": "about",
+      "ipa": "/əˈbaʊt/",
+      "graphemes": ["a","b","ou","t"],
+      "phonemes": ["/ə","'b","aʊ","t/"],
+      "phonics": ["/ə","'b","ow","t/"],
+      "tags": ["vowel_team"],
+      "hearts": [false,false,false,false],
+      "hint": "ou 發 ow /aʊ/。"
+    },
+    {
+      "number": "在…之上",
+      "word": "above",
+      "ipa": "/əˈbʌv/",
+      "graphemes": ["a","b","o","v","e"],
+      "phonemes": ["/ə","'b","ʌ","v","-/"],
+      "phonics": ["/ə","'b","ŭ","v","-/"],
+      "tags": ["irregular"],
+      "hearts": [false,false,true,false,true],
+      "hint": "o 發短母音 u /ʌ/；詞尾 e 不發音。"
+    },
+    {
+      "number": "橫越；穿過",
+      "word": "across",
+      "ipa": "/əˈkrɔs/",
+      "graphemes": ["a","c","r","o","ss"],
+      "phonemes": ["/ə","'k","r","ɔ","s/"],
+      "phonics": ["/ə","'k","r","aw","s/"],
+      "tags": ["closed","floss"],
+      "hearts": [false,false,false,false,false],
+      "hint": "o 發 /ɔ/；ss 重複字母。"
+    },
+    {
+      "number": "在…之後",
+      "word": "after",
+      "ipa": "/ˈæftɚ/",
+      "graphemes": ["a","f","t","er"],
+      "phonemes": ["/'æ","f","t","ɚ/"],
+      "phonics": ["/'ă","f","t","er/"],
+      "tags": ["rcontrolled"],
+      "hearts": [false,false,false,false],
+      "hint": "er 發 /ɚ/。"
+    },
+    {
+      "number": "反對；靠著",
+      "word": "against",
+      "ipa": "/əˈɡɛnst/",
+      "graphemes": ["a","g","ai","n","s","t"],
+      "phonemes": ["/ə","'ɡ","ɛ","n","s","t/"],
+      "phonics": ["/ə","'ɡ","ĕ","n","s","t/"],
+      "tags": ["closed"],
+      "hearts": [false,false,false,false,false,false],
+      "hint": "ai 在此讀短母音 e /ɛ/。"
+    },
+    {
+      "number": "沿著",
+      "word": "along",
+      "ipa": "/əˈlɔŋ/",
+      "graphemes": ["a","l","o","ng"],
+      "phonemes": ["/ə","'l","ɔ","ŋ/"],
+      "phonics": ["/ə","'l","aw","ŋ/"],
+      "tags": ["digraph"],
+      "hearts": [false,false,false,false],
+      "hint": "o 發 /ɔ/；ng 發 /ŋ/。"
+    },
+    {
+      "number": "在…之中",
+      "word": "among",
+      "ipa": "/əˈmʌŋ/",
+      "graphemes": ["a","m","o","ng"],
+      "phonemes": ["/ə","'m","ʌ","ŋ/"],
+      "phonics": ["/ə","'m","ŭ","ŋ/"],
+      "tags": ["digraph"],
+      "hearts": [false,false,false,false],
+      "hint": "o 發 /ʌ/；ng 發 /ŋ/。"
+    },
+    {
+      "number": "環繞；在周圍",
+      "word": "around",
+      "ipa": "/əˈraʊnd/",
+      "graphemes": ["a","r","ou","n","d"],
+      "phonemes": ["/ə","'r","aʊ","n","d/"],
+      "phonics": ["/ə","'r","ow","n","d/"],
+      "tags": ["vowel_team"],
+      "hearts": [false,false,false,false,false],
+      "hint": "ou 發 ow /aʊ/。"
+    },
+    {
+      "number": "在…；到…",
+      "word": "at",
+      "ipa": "/æt/",
+      "graphemes": ["a","t"],
+      "phonemes": ["/æ","t/"],
+      "phonics": ["/ă","t/"],
+      "tags": ["closed"],
+      "hearts": [false,false],
+      "hint": "a 發短母音 /æ/。"
+    },
+    {
+      "number": "在…之前",
+      "word": "before",
+      "ipa": "/bɪˈfɔr/",
+      "graphemes": ["b","e","f","or","e"],
+      "phonemes": ["/b","ɪ","'f","ɔr","-/"],
+      "phonics": ["/b","ĭ","'f","or","-/"],
+      "tags": ["rcontrolled"],
+      "hearts": [false,false,false,false,true],
+      "hint": "or 發 /ɔr/；詞尾 e 不發音。"
+    },
+    {
+      "number": "在後面",
+      "word": "behind",
+      "ipa": "/bɪˈhaɪnd/",
+      "graphemes": ["b","e","h","i","n","d"],
+      "phonemes": ["/b","ɪ","'h","aɪ","n","d/"],
+      "phonics": ["/b","ĭ","'h","ī","n","d/"],
+      "tags": ["open"],
+      "hearts": [false,false,false,false,false,false],
+      "hint": "i 發長母音 i /aɪ/。"
+    },
+    {
+      "number": "在…之下",
+      "word": "below",
+      "ipa": "/bɪˈloʊ/",
+      "graphemes": ["b","e","l","o","w"],
+      "phonemes": ["/b","ɪ","'l","oʊ","/"],
+      "phonics": ["/b","ĭ","'l","ō","/"],
+      "tags": ["vowel_team"],
+      "hearts": [false,false,false,false,false],
+      "hint": "ow 發長母音 o /oʊ/。"
+    },
+    {
+      "number": "在…旁邊",
+      "word": "beside",
+      "ipa": "/bɪˈsaɪd/",
+      "graphemes": ["b","e","s","i","d","e"],
+      "phonemes": ["/b","ɪ","'s","aɪ","d","-/"],
+      "phonics": ["/b","ĭ","'s","ī","d","-/"],
+      "tags": ["magic_e"],
+      "hearts": [false,false,false,false,false,true],
+      "hint": "i_e：i 發長母音 /aɪ/。"
+    },
+    {
+      "number": "在…之間",
+      "word": "between",
+      "ipa": "/bɪˈtwin/",
+      "graphemes": ["b","e","t","w","ee","n"],
+      "phonemes": ["/b","ɪ","'t","w","i","n/"],
+      "phonics": ["/b","ĭ","'t","w","ē","n/"],
+      "tags": ["vowel_team","cluster"],
+      "hearts": [false,false,false,false,false,false],
+      "hint": "ee 發長母音 e /i/。"
+    },
+    {
+      "number": "超越；在…之外",
+      "word": "beyond",
+      "ipa": "/bɪˈjɑnd/",
+      "graphemes": ["b","e","y","o","n","d"],
+      "phonemes": ["/b","ɪ","'j","ɑ","n","d/"],
+      "phonics": ["/b","ĭ","'y","ŏ","n","d/"],
+      "tags": ["closed"],
+      "hearts": [false,false,false,false,false,false],
+      "hint": "y 發 /j/；o 發短母音 o /ɑ/。"
+    },
+    {
+      "number": "靠近；在旁邊",
+      "word": "by",
+      "ipa": "/baɪ/",
+      "graphemes": ["b","y"],
+      "phonemes": ["/b","aɪ/"],
+      "phonics": ["/b","ī/"],
+      "tags": ["open"],
+      "hearts": [false,false],
+      "hint": "y 發長母音 i /aɪ/。"
+    },
+    {
+      "number": "向下；在下方",
+      "word": "down",
+      "ipa": "/daʊn/",
+      "graphemes": ["d","ow","n"],
+      "phonemes": ["/d","aʊ","n/"],
+      "phonics": ["/d","ow","n/"],
+      "tags": ["vowel_team"],
+      "hearts": [false,false,false],
+      "hint": "ow 發 /aʊ/。"
+    },
+    {
+      "number": "在…期間",
+      "word": "during",
+      "ipa": "/ˈdjʊrɪŋ/",
+      "graphemes": ["d","ur","i","ng"],
+      "phonemes": ["/'d","ʊ","r","ɪ","ŋ/"],
+      "phonics": ["/'d","oo","r","ĭ","ŋ/"],
+      "tags": ["rcontrolled","digraph"],
+      "hearts": [false,false,false,false,false],
+      "hint": "ur 發 /ʊr/；ng 發 /ŋ/。"
+    }
+  ]
+}
