@@ -18,7 +18,9 @@
     { "label": "反身代名詞", "src": "data/refl.json" },
  { "label": "不定代名詞", "src": "data/indef-pron.json" },
     { "label": "疑問詞", "src": "data/wh-words.json" },
-
+     { "label": "介系詞-1", "src": "data/prep-1.json" },
+         { "label": "介系詞-2", "src": "data/prep-2.json" },
+         { "label": "介系詞-3", "src": "data/prep-3.json" },
       { "label": "Be/助動詞", "src": "data/be-aux.json" },
       { "label": "連接詞", "src": "data/conj.json" }
   ]
@@ -94,6 +96,7 @@
     }
   ]
 }
+
 
 
 
