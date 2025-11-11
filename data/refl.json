@@ -32,7 +32,7 @@
       "phonics": ["/h","ĭ","m","'s","ĕ","l","f/"],
       "tags": ["closed","suffix"],
       "hearts": [false,false,false,false,false,false,false],
-      "hint": "him + self；注意不是 "his + self"；重音在第二音節。"
+      "hint": "him + self；注意不是 “his + self”；重音在第二音節。"
     },
     {
       "number": "她自己",
@@ -54,7 +54,7 @@
       "phonics": ["/ĭ","t","'s","ĕ","l","f/"],
       "tags": ["closed","suffix"],
       "hearts": [false,false,false,false,false,false],
-      "hint": "it + self；注意不是 "its + self"；重音在第二音節。"
+      "hint": "it + self；注意不是 “its + self”；重音在第二音節。"
     },
 
     {
@@ -89,7 +89,7 @@
       "phonics":   ["/<u>th</u>","ə","m","'s","ĕ","l","v","-","z/"],
       "tags": ["digraph","irregular","suffix"],
       "hearts": [false,false,false,false,false,false,false,false,true,false],
-      "hint": "them + selves；注意不是 "their + selves"；最後一個 e 不發音；詞尾 s 讀 /z/。"
+      "hint": "them + selves；注意不是 “their + selves”；最後一個 e 不發音；詞尾 s 讀 /z/。"
     }
   ]
 }
