@@ -544,7 +544,7 @@
     setupAudioPrefetchListeners();
 
     // ====== 狀態與渲染 ======
-    let selectedFilter = sessionStorage.getItem('selectedFilter') || 'all';
+    let selectedFilter = 'all'; // ← 改1：初始化不讀 sessionStorage，預設「全部」
     let currentTopicData=[];
     let isPhonicsMode=false;
 
@@ -586,7 +586,7 @@
       cnt.querySelectorAll('.legend-item').forEach(li=>{
         li.addEventListener('click',()=>{
           selectedFilter = li.getAttribute('data-filter')||'all';
-          sessionStorage.setItem('selectedFilter', selectedFilter);
+          // ← 改2：不再持久化到 sessionStorage
           cnt.querySelectorAll('.legend-item').forEach(x=>x.classList.remove('selected'));
           li.classList.add('selected');
           applyFilters(contentId);
@@ -734,6 +734,7 @@
 
     // ====== 導航（依 topics.json 動態生成） ======
     function showPage(pageId){
+      selectedFilter = 'all'; // ← 改3：切換頁面時強制重置篩選為「全部」
       document.querySelectorAll('.page-section').forEach(p=>p.classList.remove('active'));
       const active = document.getElementById(pageId);
       if(!active) return;
