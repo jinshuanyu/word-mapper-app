@@ -118,7 +118,7 @@
 "graphemes": ["th","e","r","e","f","or","e"],
 "phonemes": ["/'ð","ɛ","r","-","f","ɔr","-/"],
 "phonics": ["/'<u>th</u>","ĕ","r","-","f","or","-/"],
-"tags": ["digraph","rcontrolled"],
+"tags": ["digraph","irregular"],
 "hearts": [false,false,false,true,false,false,true],
 "hint": "or 讀 /ɔr/；詞尾 e 不發音。"
 },
