@@ -22,28 +22,8 @@
       "hearts": [true, false],
       "hint": "母音開頭單字前，a 改為 an。"
     },
-    {
-      "number": "和；及（連接詞）",
-      "word": "and",
-      "ipa": "/ænd/",
-      "graphemes": ["a", "n", "d"],
-      "phonemes": ["/æ", "n", "d/"],
-      "phonics": ["/ă", "n", "d/"],
-      "tags": ["cvc"],
-      "hearts": [false, false, false],
-      "hint": "短母音 a /æ/；口語常弱化為 /ən(d)/。"
-    },
-    {
-      "number": "be 動詞",
-      "word": "be",
-      "ipa": "/biː/",
-      "graphemes": ["b", "e"],
-      "phonemes": ["/b", "i/"],
-      "phonics": ["/b", "ē/"],
-      "tags": ["open"],
-      "hearts": [false, false],
-      "hint": "e 發長母音 e /i/。"
-    },
+
+
     {
 "number": "每個；所有",
 "word": "every",
@@ -55,52 +35,6 @@
 "hearts": [false,false,true,false,false],
 "hint": "第一個 e 發短母音 e /ɛ/；第二個 e 不發音；y 發長母音 e /i/。"
 },
-    {
-      "number": "為了（介系詞）",
-      "word": "for",
-      "ipa": "/fɔr/ (~/fɔːr/)",
-      "graphemes": ["f", "or"],
-      "phonemes": ["/f", "ɔr/"],
-      "phonics": ["/f", "or/"],
-      "tags": ["rcontrolled"],
-      "hearts": [false, false],
-      "hint": "or 發 /ɔr/。"
-    },
-    {
-      "number": "有；完成式助動詞",
-      "word": "have",
-      "ipa": "/hæv/",
-      "graphemes": ["h", "a", "v", "e"],
-      "phonemes": ["/h", "æ", "v", "-/"],
-      "phonics": ["/h", "ă", "v", "-/"],
-      "tags": ["irregular"],
-      "hearts": [false, false, false, true],
-      "hint": "a 發短母音 a /æ/；v 字尾後補靜音 e。"
-    },
-
-    {
-      "number": "在...內（介系詞）",
-      "word": "in",
-      "ipa": "/ɪn/",
-      "graphemes": ["i", "n"],
-      "phonemes": ["/ɪ", "n/"],
-      "phonics": ["/ĭ", "n/"],
-      "tags": ["cvc"],
-      "hearts": [false, false],
-      "hint": "i 發短母音 i /ɪ/。"
-    },
-
-    {
-      "number": "... 的（介系詞）",
-      "word": "of",
-      "ipa": "/ʌv/ (~/əv/)",
-      "graphemes": ["o", "f"],
-      "phonemes": ["/ʌ", "v/"],
-      "phonics": ["/ŭ", "v/"],
-      "tags": ["irregular"],
-      "hearts": [true, true],
-      "hint": "o 唸短母音 u /ʌ/ 或弱化 /ə/；f 唸 /v/，口語中可略讀。"
-    },
 
     {
       "number": "那（定冠詞）",
@@ -156,18 +90,8 @@
 "tags": ["digraph","magic_e"],
 "hearts": [false,false,true,false],
 "hint": "o_e：o 發長母音 o /oʊ/；s 發 /z/；字尾 e 靜音。"
-},
-    {
-      "number": "到；向；不定詞標記",
-      "word": "to",
-      "ipa": "/tuː/ (弱化 /tə/)",
-      "graphemes": ["t", "o"],
-      "phonemes": ["/t", "u/"],
-      "phonics": ["/t", "ū/"],
-      "tags": ["irregular"],
-      "hearts": [false, true],
-      "hint": "o 發長母音 u /u/，常弱化為 /ə/。"
-    },
+}
+
 
   ]
 }
