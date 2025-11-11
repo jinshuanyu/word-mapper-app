@@ -65,7 +65,7 @@
       "phonemes": ["/aʊ","r","'s","ɛ","l","v","-","z/"],
       "phonics":  ["/ow","r","'s","ĕ","l","v","-","z/"],
       "tags": ["irregular","suffix"],
-      "hearts":  [false,true,false,false,false,false,false,true,false],
+      "hearts":  [false,false,false,false,false,false,true,false],
       "hint": "our + selves；最後一個 e 不發音；詞尾 s 讀 /z/。"
     },
     {
@@ -85,10 +85,10 @@
       "word": "themselves",
       "ipa": "/ðəmˈsɛlvz/",
       "graphemes": ["th","e","m","s","e","l","v","e","s"],
-      "phonemes":  ["/<u>th</u>","ə","m","'s","ɛ","l","v","-","z/"],
+      "phonemes":  ["/ð","ə","m","'s","ɛ","l","v","-","z/"],
       "phonics":   ["/<u>th</u>","ə","m","'s","ĕ","l","v","-","z/"],
       "tags": ["digraph","irregular","suffix"],
-      "hearts": [false,false,false,false,false,false,false,false,true,false],
+      "hearts": [false,false,false,false,false,false,false,true,false],
       "hint": "them + selves；注意不是 “their + selves”；最後一個 e 不發音；詞尾 s 讀 /z/。"
     }
   ]
