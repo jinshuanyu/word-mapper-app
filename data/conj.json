@@ -1,7 +1,7 @@
 {
   "items": [
         {
-      "number": "和；及（連接詞）",
+      "number": "和；及",
       "word": "and",
       "ipa": "/ænd/",
       "graphemes": ["a", "n", "d"],
@@ -21,7 +21,7 @@
 "phonics": ["/ă","z/"],
 "tags": ["closed"],
 "hearts": [false,false],
-"hint": "s 在詞尾常讀 /z/。"
+"hint": "s 發 /z/。"
 },
 {
 "number": "因為",
@@ -32,18 +32,18 @@
 "phonics": ["/b","ĭ","'k","ŭ","z","-/"],
 "tags": ["irregular","digraph"],
 "hearts": [false,false,false,true,false,true],
-"hint": "au 在此讀 /ʌ/；詞尾 e 不發音、s 讀 /z/。"
+"hint": "au 發短母音 u /ʌ/；s 發 /z/；詞尾 e 不發音。"
 },
 {
 "number": "此外；而且",
 "word": "besides",
 "ipa": "/bɪˈsaɪdz/",
-"graphemes": ["b","e","s","i","d","e","s"],
-"phonemes": ["/b","ɪ","'s","aɪ","d","-","z/"],
-"phonics": ["/b","ĭ","'s","ī","d","-","z/"],
-"tags": ["closed"],
+"graphemes": ["b","e","s","i","des"],
+"phonemes": ["/b","ɪ","'s","aɪ","dz/"],
+"phonics": ["/b","ĭ","'s","ī","dz/"],
+"tags": ["magic_e"],
 "hearts": [false,false,false,false,false,true,false],
-"hint": "i 讀 /aɪ/；中間 e 不發音；詞尾 s 讀 /z/。"
+"hint": "i_e：i 發長母音 i /aɪ/，後面的 e 不發音；d+s 音如ㄗ。"
 },
 {
 "number": "但是；然而",
@@ -52,9 +52,9 @@
 "graphemes": ["b","u","t"],
 "phonemes": ["/b","ʌ","t/"],
 "phonics": ["/b","ŭ","t/"],
-"tags": ["closed"],
+"tags": ["cvc"],
 "hearts": [false,false,false],
-"hint": "u 讀短母音 /ʌ/。"
+"hint": "u 發短母音 u /ʌ/。"
 },
 {
 "number": "然而；不過",
@@ -62,10 +62,10 @@
 "ipa": "/haʊˈɛvɚ/",
 "graphemes": ["h","ow","e","v","er"],
 "phonemes": ["/h","aʊ","'ɛ","v","ɚ/"],
-"phonics": ["/h","au","'ĕ","v","er/"],
-"tags": ["vowel_team","rcontrolled"],
+"phonics": ["/h","ow","'ĕ","v","er/"],
+"tags": ["closed"],
 "hearts": [false,false,false,false,false],
-"hint": "ow 讀 /aʊ/；er 讀 /ɚ/。"
+"hint": "ow 讀 /aʊ/；第一個 e 發短母音 e /ɛ/。"
 },
 {
 "number": "如果",
@@ -74,20 +74,20 @@
 "graphemes": ["i","f"],
 "phonemes": ["/ɪ","f/"],
 "phonics": ["/ĭ","f/"],
-"tags": ["closed"],
+"tags": ["cvc"],
 "hearts": [false,false],
-"hint": "i 讀 /ɪ/。"
+"hint": "i 發短母音 i /ɪ/。"
 },
 {
 "number": "或者；或是",
 "word": "or",
 "ipa": "/ɔr/",
-"graphemes": ["o","r"],
-"phonemes": ["/ɔ","r/"],
-"phonics": ["/aw","r/"],
+"graphemes": ["or"],
+"phonemes": ["/ɔr/"],
+"phonics": ["/or/"],
 "tags": ["rcontrolled"],
 "hearts": [false,false],
-"hint": "or 讀 /ɔr/。"
+"hint": "or 發 /ɔr/。"
 },
 {
 "number": "既然；因為；自從",
@@ -101,26 +101,26 @@
 "hint": "c 在 e 前讀 /s/；詞尾 e 不發音。"
 },
 {
-"number": "比；而",
+"number": "比...更...",
 "word": "than",
 "ipa": "/ðæn/",
 "graphemes": ["th","a","n"],
 "phonemes": ["/ð","æ","n/"],
 "phonics": ["/<u>th</u>","ă","n/"],
-"tags": ["digraph"],
+"tags": ["digraph","cvc"],
 "hearts": [false,false,false],
-"hint": "th 為有聲 /ð/。"
+"hint": "th 發有聲吐舌音 /ð/；a 發短母音 a /æ/。"
 },
 {
 "number": "因此；所以",
 "word": "therefore",
 "ipa": "/ˈðɛrˌfɔr/",
-"graphemes": ["th","ere","f","or","e"],
-"phonemes": ["/'ð","ɛr","f","ɔr","-/"],
-"phonics": ["/'<u>th</u>","ĕr","f","or","-/"],
+"graphemes": ["th","e","r","e","f","or","e"],
+"phonemes": ["/'ð","ɛ","r","-","f","ɔr","-/"],
+"phonics": ["/'<u>th</u>","ĕ","r","-","f","or","-/"],
 "tags": ["digraph","rcontrolled"],
-"hearts": [false,false,false,false,true],
-"hint": "ere 讀 /ɛr/；or 讀 /ɔr/；詞尾 e 不發音。"
+"hearts": [false,false,false,true,false,false,true],
+"hint": "or 讀 /ɔr/；詞尾 e 不發音。"
 },
 {
 "number": "雖然；不過",
@@ -129,20 +129,20 @@
 "graphemes": ["th","ough"],
 "phonemes": ["/ð","oʊ/"],
 "phonics": ["/<u>th</u>","ō/"],
-"tags": ["digraph","vowel_team","irregular"],
+"tags": ["digraph","vowel_team"],
 "hearts": [false,true],
-"hint": "ough 在此讀長母音 o /oʊ/。"
+"hint": "ough 發長母音 o /oʊ/。"
 },
 {
 "number": "雖然；儘管",
 "word": "although",
 "ipa": "/ɔlˈðoʊ/",
-"graphemes": ["al","th","ough"],
-"phonemes": ["/ɔl","'ð","oʊ/"],
-"phonics": ["/awl","'<u>th</u>","ō/"],
+"graphemes": ["a","l","th","ough"],
+"phonemes": ["/ɔ","l","'ð","oʊ/"],
+"phonics": ["/aw"."l","'<u>th</u>","ō/"],
 "tags": ["digraph","vowel_team","irregular"],
-"hearts": [false,false,true],
-"hint": "ough 在此讀 /oʊ/；th 為有聲 /ð/。"
+"hearts": [false,false,false,true],
+"hint": "ough 發長母音 o /oʊ/。"
 }
 ]
 }
