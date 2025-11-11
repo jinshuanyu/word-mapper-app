@@ -1,0 +1,191 @@
+{
+  "items": [
+    {
+      "number": "除了…之外",
+      "word": "except",
+      "ipa": "/ɪkˈsɛpt/",
+      "graphemes": ["e","x","c","e","p","t"],
+      "phonemes": ["/ɪ","k","'s","ɛ","p","t/"],
+      "phonics": ["/ĭ","k","'s","ĕ","p","t/"],
+      "tags": ["closed","cluster"],
+      "hearts": [false,false,false,false,false,false],
+      "hint": "c 在 e 前發 /s/；重音在第二音節。"
+    },
+    {
+      "number": "為了；給予",
+      "word": "for",
+      "ipa": "/fɔr/",
+      "graphemes": ["f","or"],
+      "phonemes": ["/f","ɔr/"],
+      "phonics": ["/f","or/"],
+      "tags": ["rcontrolled"],
+      "hearts": [false,false],
+      "hint": "or 發 /ɔr/。"
+    },
+    {
+      "number": "從；來自",
+      "word": "from",
+      "ipa": "/frʌm/",
+      "graphemes": ["f","r","o","m"],
+      "phonemes": ["/f","r","ʌ","m/"],
+      "phonics": ["/f","r","ŭ","m/"],
+      "tags": ["cluster","closed"],
+      "hearts": [false,false,false,false],
+      "hint": "o 發短母音 u /ʌ/。"
+    },
+    {
+      "number": "在…之中；在…裡面",
+      "word": "in",
+      "ipa": "/ɪn/",
+      "graphemes": ["i","n"],
+      "phonemes": ["/ɪ","n/"],
+      "phonics": ["/ĭ","n/"],
+      "tags": ["closed"],
+      "hearts": [false,false],
+      "hint": "i 發短母音 i /ɪ/。"
+    },
+    {
+      "number": "在後面",
+      "word": "in back of",
+      "ipa": "/ɪn bæk ʌv/",
+      "graphemes": ["in","b","a","ck","of"],
+      "phonemes": ["/ɪ","n","b","æ","k","ʌ","v/"],
+      "phonics": ["/ĭ","n","b","ă","k","ŭ","v/"],
+      "tags": ["phrase"],
+      "hearts": [false,false,false,false,false,false,false],
+      "hint": "片語：在…後面。back 的 a 為短母音 /æ/。"
+    },
+    {
+      "number": "在前面",
+      "word": "in front of",
+      "ipa": "/ɪn frʌnt ʌv/",
+      "graphemes": ["in","f","r","o","n","t","of"],
+      "phonemes": ["/ɪ","n","f","r","ʌ","n","t","ʌ","v/"],
+      "phonics": ["/ĭ","n","f","r","ŭ","n","t","ŭ","v/"],
+      "tags": ["phrase","cluster"],
+      "hearts": [false,false,false,false,false,false,false,false,false],
+      "hint": "片語：在…前面。front 的 o 發 /ʌ/。"
+    },
+    {
+      "number": "在裡面",
+      "word": "inside",
+      "ipa": "/ɪnˈsaɪd/",
+      "graphemes": ["i","n","s","i","d","e"],
+      "phonemes": ["/ɪ","n","'s","aɪ","d","-/"],
+      "phonics": ["/ĭ","n","'s","ī","d","-/"],
+      "tags": ["magic_e"],
+      "hearts": [false,false,false,false,false,true],
+      "hint": "i_e：i 發長母音 i /aɪ/。"
+    },
+    {
+      "number": "進入",
+      "word": "into",
+      "ipa": "/ˈɪntu/",
+      "graphemes": ["i","n","t","u"],
+      "phonemes": ["/'ɪ","n","t","u/"],
+      "phonics": ["/'ĭ","n","t","oo/"],
+      "tags": ["open"],
+      "hearts": [false,false,false,false],
+      "hint": "u 發長母音 u /u/。"
+    },
+    {
+      "number": "靠近；接近",
+      "word": "near",
+      "ipa": "/nɪr/",
+      "graphemes": ["n","ear"],
+      "phonemes": ["/n","ɪr/"],
+      "phonics": ["/n","eer/"],
+      "tags": ["rcontrolled","vowel_team"],
+      "hearts": [false,false],
+      "hint": "ear 在此讀 /ɪr/。"
+    },
+    {
+      "number": "的；屬於",
+      "word": "of",
+      "ipa": "/ʌv/",
+      "graphemes": ["o","f"],
+      "phonemes": ["/ʌ","v/"],
+      "phonics": ["/ŭ","v/"],
+      "tags": ["irregular"],
+      "hearts": [true,false],
+      "hint": "o 發 /ʌ/；f 發 /v/。"
+    },
+    {
+      "number": "離開；脫離",
+      "word": "off",
+      "ipa": "/ɔf/",
+      "graphemes": ["o","ff"],
+      "phonemes": ["/ɔ","f/"],
+      "phonics": ["/aw","f/"],
+      "tags": ["floss","closed"],
+      "hearts": [false,false],
+      "hint": "ff 為重複字母；o 發 /ɔ/。"
+    },
+    {
+      "number": "在…之上；打開",
+      "word": "on",
+      "ipa": "/ɑn/",
+      "graphemes": ["o","n"],
+      "phonemes": ["/ɑ","n/"],
+      "phonics": ["/ŏ","n/"],
+      "tags": ["closed"],
+      "hearts": [false,false],
+      "hint": "o 發短母音 o /ɑ/。"
+    },
+    {
+      "number": "出去；向外",
+      "word": "out",
+      "ipa": "/aʊt/",
+      "graphemes": ["ou","t"],
+      "phonemes": ["/aʊ","t/"],
+      "phonics": ["/ow","t/"],
+      "tags": ["vowel_team"],
+      "hearts": [false,false],
+      "hint": "ou 發 ow /aʊ/。"
+    },
+    {
+      "number": "離開；出於",
+      "word": "out of",
+      "ipa": "/aʊt ʌv/",
+      "graphemes": ["ou","t","of"],
+      "phonemes": ["/aʊ","t","ʌ","v/"],
+      "phonics": ["/ow","t","ŭ","v/"],
+      "tags": ["phrase"],
+      "hearts": [false,false,false,false],
+      "hint": "片語：出於／離開。of 的 o 發 /ʌ/。"
+    },
+    {
+      "number": "在外面",
+      "word": "outside",
+      "ipa": "/ˌaʊtˈsaɪd/",
+      "graphemes": ["ou","t","s","i","d","e"],
+      "phonemes": ["/aʊ","t","'s","aɪ","d","-/"],
+      "phonics": ["/ow","t","'s","ī","d","-/"],
+      "tags": ["magic_e"],
+      "hearts": [false,false,false,false,false,true],
+      "hint": "i_e：i 發長母音 i /aɪ/。"
+    },
+    {
+      "number": "在…上方；超過",
+      "word": "over",
+      "ipa": "/ˈoʊvɚ/",
+      "graphemes": ["o","v","er"],
+      "phonemes": ["/'oʊ","v","ɚ/"],
+      "phonics": ["/'ō","v","er/"],
+      "tags": ["rcontrolled","open"],
+      "hearts": [false,false,false],
+      "hint": "o 發長母音 o /oʊ/；er 發 /ɚ/。"
+    },
+    {
+      "number": "在…旁邊；緊鄰",
+      "word": "next to",
+      "ipa": "/nɛkst tu/",
+      "graphemes": ["n","e","x","t","to"],
+      "phonemes": ["/n","ɛ","k","s","t","t","u/"],
+      "phonics": ["/n","ĕ","k","s","t","t","oo/"],
+      "tags": ["phrase","cluster"],
+      "hearts": [false,false,false,false,false,false,false],
+      "hint": "片語：在…旁邊。"
+    }
+  ]
+}
