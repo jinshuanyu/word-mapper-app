@@ -19,7 +19,7 @@
  { "label": "不定代名詞", "src": "data/indef-pron.json" },
     { "label": "疑問詞", "src": "data/wh-words.json" },
    { "label": "Be動詞", "src": "data/be.json" },
-      { "label": "助動詞", "src": "data/aux.json" },
+      { "label": "助動詞", "src": "data/auxi.json" },
        { "label": "語氣詞", "src": "data/interj.json" },
       { "label": "連接詞", "src": "data/conj.json" },
      { "label": "介系詞-1", "src": "data/prep-1.json" },
@@ -98,6 +98,7 @@
     }
   ]
 }
+
 
 
 
