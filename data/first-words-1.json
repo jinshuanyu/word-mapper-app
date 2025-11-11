@@ -77,18 +77,7 @@
       "hearts": [false, false, false, true],
       "hint": "a 發短母音 a /æ/；v 字尾後補靜音 e。"
     },
-    {
-      "number": "我",
-      "word": "I",
-      "ipa": "/aɪ/",
-      "graphemes": ["I"],
-      "phonemes": ["/aɪ/"],
-      "phonics": ["/ī/"],
-      "tags": ["open"],
-      "hearts": [false],
-      "audio": "audio/letters/I.mp3", 
-      "hint": "第一人稱單數代名詞，要大寫；讀 i 字母名 /aɪ/。"
-    },
+
     {
       "number": "在...內（介系詞）",
       "word": "in",
@@ -100,17 +89,7 @@
       "hearts": [false, false],
       "hint": "i 發短母音 i /ɪ/。"
     },
-    {
-      "number": "它；這件事",
-      "word": "it",
-      "ipa": "/ɪt/",
-      "graphemes": ["i", "t"],
-      "phonemes": ["/ɪ", "t/"],
-      "phonics": ["/ĭ", "t/"],
-      "tags": ["cvc"],
-      "hearts": [false, false],
-      "hint": "i 發短母音 i /ɪ/。"
-    },
+
     {
       "number": "... 的（介系詞）",
       "word": "of",
@@ -189,16 +168,6 @@
       "hearts": [false, true],
       "hint": "o 發長母音 u /u/，常弱化為 /ə/。"
     },
-    {
-      "number": "你；你們",
-      "word": "you",
-      "ipa": "/juː/",
-      "graphemes": ["y", "ou"],
-      "phonemes": ["/j", "u/"],
-      "phonics": ["/y", "ū/"],
-      "tags": ["irregular"],
-      "hearts": [false, true],
-      "hint": "第二人稱單複數代名詞；ou 發長母音 u /u/。"
-    }
+
   ]
 }
