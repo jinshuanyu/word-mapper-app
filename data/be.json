@@ -11,17 +11,7 @@
       "hearts": [false, false],
       "hint": "e 發長母音 e /i/。"
     },
-        {
-      "number": "是（過去分詞）",
-      "word": "been",
-      "ipa": "/bɪn/",
-      "graphemes": ["b","ee","n"],
-      "phonemes": ["/b","ɪ","n/"],
-      "phonics": ["/b","ĭ","n/"],
-      "tags": ["irregular"],
-      "hearts": [false,true,false],
-      "hint": "ee 發短母音 i /ɪ/。"
-    },
+        
     {
       "number": "是（現在式；與 I 連用）",
       "word": "am",
@@ -76,6 +66,17 @@
       "tags": ["irregular"],
       "hearts": [false,false,true],
       "hint": "er 發 /ɝ/；字尾 e 不發音。"
+    },
+    {
+      "number": "是（過去分詞）",
+      "word": "been",
+      "ipa": "/bɪn/",
+      "graphemes": ["b","ee","n"],
+      "phonemes": ["/b","ɪ","n/"],
+      "phonics": ["/b","ĭ","n/"],
+      "tags": ["irregular"],
+      "hearts": [false,true,false],
+      "hint": "ee 發短母音 i /ɪ/。"
     }
     
   ]
