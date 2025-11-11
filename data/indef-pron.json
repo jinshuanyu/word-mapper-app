@@ -96,7 +96,7 @@
 "phonemes": ["/'ɛ","v","-","r","i","wʌ","n","-/"],
 "phonics": ["/'ĕ","v","-","r","ē","wŭ","n","-/"],
 "tags": ["cluster","closed"],
-"hearts": [false,false,false,false,true,false,false,false],
+"hearts": [false,false,true,false,false,true,false,true],
 "hint": "every + one。"
 },
 {
@@ -118,7 +118,7 @@
 "phonemes": ["/'ɛ","v","-","r","i","θ","ɪ","ŋ/"],
 "phonics": ["/'ĕ","v","-","r","ē","th","ĭ","ŋ/"],
 "tags": ["closed","digraph"],
-"hearts": [false,false,false,false,false,false,false,false],
+"hearts": [false,false,true,false,false,false,false,false],
 "hint": "every + thing。"
 },
 {
