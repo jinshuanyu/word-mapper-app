@@ -1,0 +1,95 @@
+
+    {
+  "items": [
+    {
+      "number": "我自己",
+      "word": "myself",
+      "ipa": "/maɪˈsɛlf/",
+      "graphemes": ["m","y","s","e","l","f"],
+      "phonemes": ["/m","aɪ","'s","ɛ","l","f/"],
+      "phonics": ["/m","ī","'s","ĕ","l","f/"],
+      "tags": ["suffix"],
+      "hearts": [false,false,false,false,false,false],
+      "hint": "my + self；重音在第二音節。"
+    },
+    {
+      "number": "你自己",
+      "word": "yourself",
+      "ipa": "/jʊrˈsɛlf/",
+      "graphemes": ["y","our","s","e","l","f"],
+      "phonemes": ["/j","ʊr","'s","ɛ","l","f/"],
+      "phonics": ["/y","er","'s","ĕ","l","f/"],
+      "tags": ["rcontrolled","suffix"],
+      "hearts": [false,false,false,false,false,false],
+      "hint": "your + self；/ʊr/ 為 r-controlled。"
+    },
+    {
+      "number": "他自己",
+      "word": "himself",
+      "ipa": "/hɪmˈsɛlf/",
+      "graphemes": ["h","i","m","s","e","l","f"],
+      "phonemes": ["/h","ɪ","m","'s","ɛ","l","f/"],
+      "phonics": ["/h","ĭ","m","'s","ĕ","l","f/"],
+      "tags": ["suffix"],
+      "hearts": [false,false,false,false,false,false,false],
+      "hint": "him + self；重音在第二音節。"
+    },
+    {
+      "number": "她自己",
+      "word": "herself",
+      "ipa": "/hɚˈsɛlf/",
+      "graphemes": ["h","er","s","e","l","f"],
+      "phonemes": ["/h","ɚ","'s","ɛ","l","f/"],
+      "phonics": ["/h","er","'s","ĕ","l","f/"],
+      "tags": ["rcontrolled","suffix"],
+      "hearts": [false,false,false,false,false,false],
+      "hint": "her + self；/ɚ/ 為 r-controlled。"
+    },
+    {
+      "number": "它自己",
+      "word": "itself",
+      "ipa": "/ɪtˈsɛlf/",
+      "graphemes": ["i","t","s","e","l","f"],
+      "phonemes": ["/ɪ","t","'s","ɛ","l","f/"],
+      "phonics": ["/ĭ","t","'s","ĕ","l","f/"],
+      "tags": ["suffix"],
+      "hearts": [false,false,false,false,false,false],
+      "hint": "it + self；重音在第二音節。"
+    },
+
+    {
+      "number": "我們自己",
+      "word": "ourselves",
+      "ipa": "/aʊrˈsɛlvz/",
+      "graphemes": ["o","u","r","s","e","l","v","e","s"],
+      "phonemes": ["/aʊ","-","r","'s","ɛ","l","v","-","z/"],
+      "phonics":  ["/au","-","r","'s","ĕ","l","v","-","z/"],
+      "tags": ["rcontrolled","suffix"],
+      "hearts":  [false,true,false,false,false,false,false,true,false],
+      "hint": "our /aʊr/（u 不單獨發音）；-selves 尾段中的 e 不發音。"
+    },
+    {
+  "number": "你們自己",
+  "word": "yourselves",
+  "ipa": "/jʊrˈsɛlvz/",
+  "graphemes": ["y","ou","r","s","e","l","v","e","s"],
+  "phonemes": ["/j","ʊ","r","'s","ɛ","l","v","-","z/"],
+  "phonics": ["/y","oo","r","'s","ĕ","l","v","-","z/"],
+  "tags": ["rcontrolled","suffix","irregular"],
+  "hearts": [false,true,false,false,false,false,false,true,false],
+  "hint": "ou 發 /ʊ/；-e 不發音；詞尾 s 讀 /z/。"
+},
+
+    {
+      "number": "他們自己",
+      "word": "themselves",
+      "ipa": "/ðəmˈsɛlvz/",
+      "graphemes": ["t","h","e","m","s","e","l","v","e","s"],
+      "phonemes":  ["/<u>th</u>","-","ə","m","'s","ɛ","l","v","-","z/"],
+      "phonics":   ["/<u>th</u>","-","ə","m","'s","ĕ","l","v","-","z/"],
+      "tags": ["digraph","suffix"],
+      "hearts": [true,true,false,false,false,false,false,false,true,false],
+      "hint": "<u>th</u> 為有聲 /ð/；-selves 尾段中的 e 不發音。"
+    }
+  ]
+}
