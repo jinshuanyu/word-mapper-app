@@ -98,20 +98,11 @@
       "tags": ["vowel_team"],
       "hearts": [false,false,false,false,false,false,false],
       "hint": "nine + teen。"
-    },
-    {
-      "number": 20,
-      "word": "twenty",
-      "ipa": "/ˈtwɛn.ti/",
-      "graphemes": ["t","w","e","n","t","y"],
-      "phonemes": ["/'t","w","ɛ","n","t","i/"],
-      "phonics":  ["/'t","w","ĕ","n","t","ē/"],
-      "tags": ["cluster","closed"],
-      "hearts": [false,false,false,false,false,false],
-      "hint": "字尾 y 發長母音 e /i/。"
     }
+ 
   ]
 }
+
 
 
 
