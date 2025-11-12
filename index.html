@@ -276,6 +276,20 @@
 .badges .category-tag{
   white-space: nowrap !important; /* 單一膠囊內保持單行 */
 }
+/* --- 支持我 CTA 按鈕 --- */
+.support-cta{ margin:1rem 0 0; text-align:center; }
+.support-btn{
+  display:inline-block;
+  background: linear-gradient(90deg,#f59e0b,#f97316);
+  color:#fff; font-weight:700;
+  padding:.5rem 1.25rem;
+  border-radius:9999px;
+  box-shadow:0 4px 10px rgba(0,0,0,.12);
+  text-decoration:none;
+  transition: transform .15s ease, box-shadow .2s ease, opacity .2s ease;
+}
+.support-btn:hover{ transform: scale(1.05); }
+.support-btn:focus{ outline:3px solid rgba(59,130,246,.35); outline-offset:2px; }
 
   </style>
 </head>
@@ -298,6 +312,16 @@
 
     <footer class="credits">
       © 2025 Christina Yu. All rights reserved.<br /><br />
+        <!-- 新增：贊助按鈕 -->
+  <div class="support-cta">
+    <a href="https://portaly.cc/mamahowma/support"
+       target="_blank" rel="noopener noreferrer"
+       class="support-btn">
+      支持我繼續創作分享，請我喝杯咖啡吧 ☕
+    </a>
+  </div>
+
+  <br />
       <a href="mailto:mamahowma@gmail.com" aria-label="Email mamahowma">
         <i class="fa-solid fa-envelope fa-xl fa-fw" aria-hidden="true"></i>
       </a>&emsp;
