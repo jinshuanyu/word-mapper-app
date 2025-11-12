@@ -85,7 +85,7 @@
 "graphemes": ["i","ts"],
 "phonemes": ["/ɪ","ts/"],
 "phonics": ["/ĭ","ts/"],
-"tags": ["closed","cluster"],
+"tags": ["cvc","cluster"],
 "hearts": [false,false,false],
 "hint": "t+s 音如 ㄘ；注意與 it's（it is）區分。"
 },
@@ -109,7 +109,7 @@
 "phonics": ["/<u>th</u>","ĕ","r/"],
 "tags": ["digraph","irregular"],
 "hearts": [false,true,false],
-"hint": "ei 發短母音 e /ɛ/。"
+"hint": "ei 發短母音 e /ɛ/；注意與 they're（they are）、there 區別。"
 },
 {
 "number": "他們（受格）",
@@ -118,7 +118,7 @@
 "graphemes": ["th","e","m"],
 "phonemes": ["/ð","ɛ","m/"],
 "phonics": ["/<u>th</u>","ĕ","m/"],
-"tags": ["digraph","closed"],
+"tags": ["digraph","cvc"],
 "hearts": [false,false,false],
 "hint": "th 發有聲吐舌音 /ð/；e 發短母音 e /ɛ/。"
 },
@@ -132,7 +132,7 @@
 "phonics": ["/<u>th</u>","ĕ","r","z/"],
 "tags": ["digraph","irregular"],
 "hearts": [false,true,false,true],
-"hint": "字尾 s 讀 /z/。"
+"hint": "字尾 s 讀 /z/；注意與 there's（there is）區別。"
 }
 ]
 }
