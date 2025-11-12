@@ -34,7 +34,8 @@
       "levels": [
         { "label": "0–10",  "src": "data/numbers-1.json" },
         { "label": "11–19", "src": "data/numbers-2.json" },
-         { "label": "20-1M", "src": "data/numbers-3.json" }
+         { "label": "20-1T", "src": "data/numbers-3.json" },
+        { "label": "序數/數量詞", "src": "data/numbers-4.json" }
       ]
     },
     {
@@ -99,6 +100,7 @@
     }
   ]
 }
+
 
 
 
