@@ -13,7 +13,7 @@
       "hint": "第一人稱單數代名詞，要大寫；讀 i 字母名 /aɪ/。"
     },
   {
-"number": "我的（形容詞）",
+"number": "我的（所有格）",
 "word": "my",
 "ipa": "/maɪ/",
 "graphemes": ["m","y"],
@@ -94,7 +94,7 @@
 "hint": "字尾 s 發 /z/。"
 },
       {
-      "number": "你；你們（主格；受格）",
+      "number": "你/你們（主格/受格）",
       "word": "you",
       "ipa": "/juː/",
       "graphemes": ["y", "ou"],
@@ -105,7 +105,7 @@
       "hint": "第二人稱單複數代名詞；ou 發長母音 u /u/。"
     },
   {
-"number": "你的；你們的（所有格）",
+"number": "你的/你們的（所有格）",
 "word": "your",
 "ipa": "/jʊr/",
 "graphemes": ["y","ou","r"],
@@ -116,7 +116,7 @@
 "hint": "ou 發 oo /ʊ/。"
 },
 {
-"number": "你的；你們的（所有格代名詞）",
+"number": "你的/你們的（所有格代名詞）",
 "word": "yours",
 "ipa": "/jʊrz/",
 "graphemes": ["y","ou","r","s"],
