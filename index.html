@@ -14,13 +14,7 @@
 
     /* tag 類別色 */
     .tag-irregular{background:#fee2e2;border-color:#ef4444;color:#991b1b;}
-
-.tag-cvc{
-  background:#fff;        /* 白底 */
-  color:#065f46;          /* 深綠字（Tailwind teal-900 / emerald-900一帶）*/
-  border-color:#065f46;   /* 深綠邊框 */
-}
-
+    .tag-cvc{ background:#fff; color:#065f46; border-color:#065f46; }
     .tag-closed{background:#d1fae5;border-color:#10b981;color:#065f46;}
     .tag-floss{background:#ffe4e6;border-color:#fb7185;color:#9f1239;}
     .tag-digraph{background:#e0f2fe;border-color:#38bdf8;color:#075985;}
@@ -31,7 +25,6 @@
     .tag-cle{background:#f5f5f4;border-color:#a8a29e;color:#3f3f46;}
     .tag-magic_e{background:#dbeafe;border-color:#3b82f6;color:#1e40af;}
     .tag-vowel_team{background:#ffedd5;border-color:#f97316;color:#9a3412;}
-  
     .tag-silent_consonant{background:#f1f5f9;border-color:#94a3b8;color:#334155;}
 
     *{box-sizing:border-box}
@@ -92,9 +85,6 @@
     .dropdown-btn:hover { background: #887ea6; transform: translateY(-2px); }
     .dropdown-btn:active { transform: translateY(0); }
 
-    /* Home list placeholder (we now use dropdowns) */
-    .topic-list{list-style:none;padding:0;width:min(100%,700px);margin-top:1rem}
-
     /* Legend / tags */
     .legend{display:flex;flex-wrap:wrap;gap:.5rem;padding:0 .25rem .25rem;margin:0 0 1.25rem 0;list-style:none;}
     .legend .legend-item{display:inline-flex;flex:0 0 auto;padding:.3rem .75rem;border-radius:999px;font-size:.9rem;font-weight:700;border:2px solid;white-space:nowrap;cursor:pointer;user-select:none;transition:transform .1s ease,opacity .2s ease}
@@ -103,6 +93,25 @@
     .tag-all{background:#e5e7eb;border-color:#94a3b8;color:#334155}
     .category-tag{padding:.3rem .75rem;border-radius:999px;font-size:.9rem;font-weight:700;border:2px solid;white-space:nowrap;user-select:none}
 
+    /* 篩選：折疊條 */
+    .filter-bar{
+      display:flex;align-items:center;justify-content:space-between;gap:.75rem;margin:.25rem 0 0.5rem;
+    }
+    .filter-toggle{
+      display:inline-flex;align-items:center;gap:.5rem;
+      padding:.55rem .9rem;border-radius:10px;border:2px solid var(--c-border);
+      background:#f8fafc;font-weight:800;cursor:pointer;
+      transition:transform .1s ease, box-shadow .2s ease, border-color .2s ease;
+    }
+    .filter-toggle:hover{transform:translateY(-1px);box-shadow:0 6px 14px rgba(2,6,23,.08);border-color:#cbd5e1}
+    .filter-state{font-size:.9rem;opacity:.7}
+    .filter-panel{
+      display:none; /* 預設收合 */
+      border:2px dashed #e2e8f0;border-radius:12px;padding:.6rem .6rem .4rem;margin:.4rem 0 1rem;
+      background:#fbfbfd;
+    }
+    .filter-panel.open{display:block}
+
     .topic-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.25rem}
     .word-card{border:2px solid #cbd5e1;border-radius:12px;background:#fff;box-shadow:0 4px 6px rgba(0,0,0,.03);overflow:hidden;transition:transform .2s,box-shadow .2s}
     .word-card.hidden{display:none}
@@ -110,7 +119,7 @@
 
     .card-header{display:flex;justify-content:space-between;align-items:center;padding:1rem 1.25rem;background:#f1f5f9;border-bottom:2px solid #e2e8f0}
     .card-title{display:flex;align-items:baseline;gap:.6rem}
-    .word-number{font-size:1.3rem;font-weight:700;color:#475569}
+    .word-number{font-size:1.15rem;font-weight:700;color:#475569} /* 縮小一點 */
     .word-text{font-size:1.9rem;font-weight:800;color:#0f172a}
 
     .audio-button{font-size:2rem;cursor:pointer;background:none;border:none;padding:0;line-height:1;transition:transform .1s}
@@ -180,7 +189,7 @@
     }
     .tips-icon{color:#f59e0b;font-size:1.1rem}
 
-    .toggle-container{display:flex;justify-content:center;align-items:center;gap:1rem;margin-bottom:.4rem;font-weight:700;color:#334155;user-select:none;font-size:1rem}
+    .toggle-container{display:flex;justify-content:center;align-items:center;gap:1rem;margin:.2rem 0 .6rem;font-weight:700;color:#334155;user-select:none;font-size:1rem}
     .attribution-note{text-align:center;font-size:.85rem;color:#64748b;margin-top:0;margin-bottom:1.1rem;line-height:1.5}
     .attribution-note a{color:#3b82f6;text-decoration:underline}
     .attribution-note a:hover{color:#1d4ed8}
@@ -201,7 +210,6 @@
     .searchbar{display:flex;gap:.5rem;align-items:center;justify-content:center;margin:-.3rem auto 1rem;max-width:700px}
     .searchbar input{flex:1;padding:12px 14px;border:2px solid var(--c-border);border-radius:10px;font-size:1.15rem}
     .searchbar button{background:#e1effa;color:#0f172a;border:none;border-radius:10px;padding: 12px 18px; font-size: 1.15rem; font-weight:500;cursor:pointer}
-
     .searchbar button:hover{opacity:.9}
     .search-msg{margin:.25rem 0 1rem;text-align:center;font-size:.9rem;color:#64748b}
 
@@ -232,7 +240,7 @@
         -webkit-font-smoothing: antialiased;
         -webkit-text-size-adjust: 100%;
       }
-      .attribution-note{font-size:.9rem}
+      .attribution-note{font-size:.75rem}
       .back-button{margin-bottom:1rem;font-size: 1.1rem; padding:10px 16px}
     }
 
@@ -261,45 +269,34 @@
       font-size: 0.8rem;
       opacity: 0.5;
     }
-    /* 縮小第二層「級別」下拉框寬度 */
-#levelSelect { min-width: 160px; }
-.back-button{
-  font-size: 1.1rem;    /* 返回目錄：字體變大 */
-  padding: 10px 16px;   /* 與外框間距更大 */
-}
-    /* 讓一整排標籤排滿就換到下一列；每顆膠囊內不換行 */
-.badges{
-  flex-wrap: wrap !important;     /* 原本是 nowrap → 改成 wrap */
-  white-space: normal !important; /* 容器允許多列 */
-  overflow: visible !important;   /* 不要出現水平捲動 */
-}
-.badges .category-tag{
-  white-space: nowrap !important; /* 單一膠囊內保持單行 */
-}
-/* --- 支持我 CTA 按鈕：莫蘭迪紫藍（更亮、字更大） --- */
-.support-btn{
-  display:inline-block;
-  background: linear-gradient(90deg, #D9DDF0, #BFCBE6); /* 更亮的霧紫藍 */
-  color:#ffffff;
-  font-weight:700;
-  font-size:1.0rem;          /* 字變大 */
-  padding:.5rem .9rem;     /* 跟著加大間距 */
-  border-radius:9999px;
-  box-shadow:0 6px 14px rgba(0,0,0,.08);
-  text-decoration:none;
-  transition:transform .15s ease, box-shadow .2s ease, background .2s ease;
-}
-.support-btn:hover{
-  transform:scale(1.06);
-  background: linear-gradient(90deg, #CCD2EC, #B1BFE1); /* hover 略深一階，仍維持柔霧感 */
-}
-.support-btn:focus{
-  outline:3px solid rgba(160, 175, 215, .45);
-  outline-offset:2px;
-}
+    #levelSelect { min-width: 160px; }
+    .back-button{ font-size: 1.1rem; padding: 10px 16px; }
 
+    /* 膠囊換行 */
+    .badges{ flex-wrap: wrap !important; white-space: normal !important; overflow: visible !important; }
+    .badges .category-tag{ white-space: nowrap !important; }
 
-
+    /* 支持我 CTA：莫蘭迪紫藍（亮） */
+    .support-btn{
+      display:inline-block;
+      background: linear-gradient(90deg, #D9DDF0, #BFCBE6);
+      color:#ffffff;
+      font-weight:700;
+      font-size:1.0rem;
+      padding:.5rem .9rem;
+      border-radius:9999px;
+      box-shadow:0 6px 14px rgba(0,0,0,.08);
+      text-decoration:none;
+      transition:transform .15s ease, box-shadow .2s ease, background .2s ease;
+    }
+    .support-btn:hover{
+      transform:scale(1.06);
+      background: linear-gradient(90deg, #CCD2EC, #B1BFE1);
+    }
+    .support-btn:focus{
+      outline:3px solid rgba(160, 175, 215, .45);
+      outline-offset:2px;
+    }
   </style>
 </head>
 
@@ -320,7 +317,7 @@
     </main>
 
     <footer class="credits">
-            <a href="mailto:mamahowma@gmail.com" aria-label="Email mamahowma">
+      <a href="mailto:mamahowma@gmail.com" aria-label="Email mamahowma">
         <i class="fa-solid fa-envelope fa-xl fa-fw" aria-hidden="true"></i>
       </a>&emsp;
       <a href="https://www.facebook.com/mamahowma" target="_blank" rel="noopener noreferrer" aria-label="mamahowma Facebook Page">
@@ -329,17 +326,13 @@
       <a href="https://portaly.cc/mamahowma/support" target="_blank" rel="noopener noreferrer" aria-label="Support mamahowma">
         <i class="fa-solid fa-mug-hot fa-xl fa-fw" aria-hidden="true"></i>
       </a>
-   <br /><br />
-        <!-- 新增：贊助按鈕 -->
-  <div class="support-cta">
-    <a href="https://portaly.cc/mamahowma/support"
-       target="_blank" rel="noopener noreferrer"
-       class="support-btn">
-      支持我繼續創作分享，請我喝杯咖啡吧 ☕
-    </a>
-  </div><br />
-
-   © 2025 Christina Yu. All rights reserved.
+      <br /><br />
+      <div class="support-cta">
+        <a href="https://portaly.cc/mamahowma/support" target="_blank" rel="noopener noreferrer" class="support-btn">
+          支持我繼續創作分享，請我喝杯咖啡吧 ☕
+        </a>
+      </div><br />
+      © 2025 Christina Yu. All rights reserved.
     </footer>
   </div>
 
@@ -429,7 +422,6 @@
       cle: "子音 + 'le'",
       magic_e: "長母音 + 靜音 'e'",
       vowel_team: "母音組合",
-
       silent_consonant: "不發音子音字母",
       cvc: "單一閉音節（短母音）"  
     };
@@ -554,6 +546,12 @@
       if(nav){ showPage(nav.getAttribute('data-page-target')); return; }
       const retry = e.target.closest('[data-action="reload"]');
       if(retry){ location.reload(); }
+      const ft = e.target.closest('.filter-toggle');
+      if(ft){
+        const panel = ft.parentElement.nextElementSibling;
+        const open = panel.classList.toggle('open');
+        ft.setAttribute('aria-expanded', open ? 'true' : 'false');
+      }
     });
 
     // 預抓
@@ -577,7 +575,7 @@
     setupAudioPrefetchListeners();
 
     // ====== 狀態與渲染 ======
-    let selectedFilter = 'all'; // ← 改1：初始化不讀 sessionStorage，預設「全部」
+    let selectedFilter = 'all'; // 預設顯示全部
     let currentTopicData=[];
     let isPhonicsMode=false;
 
@@ -590,7 +588,18 @@
       currentTopicData.forEach(w=>{ (w.tags||[]).forEach(t=>usedTags.add(t)); });
       const existing=allTags.filter(t=>usedTags.has(t));
 
-      let legendHTML='<ul class="legend">';
+      // --- 篩選列（折疊按鈕 + 狀態） ---
+      const filterBarHTML = `
+        <div class="filter-bar">
+          <button class="filter-toggle" type="button" aria-expanded="false" aria-controls="filter-panel-${contentId}">
+            <i class="fa-solid fa-filter"></i><span>篩選</span>
+            <span class="filter-state" id="filter-state-${contentId}">（目前：全部）</span>
+          </button>
+        </div>
+      `;
+
+      // --- legend（放進可折疊 panel） ---
+      let legendHTML = '<ul class="legend">';
       existing.forEach(t=>{
         const name = tagNames[t] || t;
         const cls=(t==='all')?'tag-all':`tag-${t}`;
@@ -599,6 +608,7 @@
       });
       legendHTML+='</ul>';
 
+      // IPA/Phonics 切換（保持常駐顯示）
       const toggleHTML=`
         <div class="toggle-container">
           <span class="toggle-label-ipa">IPA 音標</span>
@@ -614,24 +624,42 @@
         </p>
       `;
 
-      cnt.innerHTML=legendHTML+toggleHTML+`<div class="topic-grid" id="teaching-grid-${contentId}"></div>`;
+      // --- 可折疊的 panel（預設關閉） ---
+      const panelHTML = `
+        <div id="filter-panel-${contentId}" class="filter-panel" role="region" aria-label="標籤篩選面板">
+          ${legendHTML}
+        </div>
+      `;
 
+      cnt.innerHTML = filterBarHTML + panelHTML + toggleHTML + `<div class="topic-grid" id="teaching-grid-${contentId}"></div>`;
+
+      // 綁定 legend 點選
       cnt.querySelectorAll('.legend-item').forEach(li=>{
         li.addEventListener('click',()=>{
           selectedFilter = li.getAttribute('data-filter')||'all';
-          // ← 改2：不再持久化到 sessionStorage
+          // 更新 legend 樣式
           cnt.querySelectorAll('.legend-item').forEach(x=>x.classList.remove('selected'));
           li.classList.add('selected');
+          // 更新狀態文字
+          const stateEl = document.getElementById(`filter-state-${contentId}`);
+          if(stateEl){ stateEl.textContent = `（目前：${tagNames[selectedFilter] || selectedFilter}）`; }
+          // 套用篩選
           applyFilters(contentId);
+          // 自動關閉 panel（保持乾淨）
+          const panel = document.getElementById(`filter-panel-${contentId}`);
+          const toggleBtn = cnt.querySelector('.filter-toggle');
+          if(panel && toggleBtn){ panel.classList.remove('open'); toggleBtn.setAttribute('aria-expanded','false'); }
         });
       });
 
+      // 綁定 IPA/Phonics 切換
       const tog=cnt.querySelector(`#toggle_${contentId}`);
       if(tog){ tog.addEventListener('change',()=>{ isPhonicsMode=tog.checked; renderCards(contentId); }); }
 
       renderCards(contentId);
       highlightIfPending(contentId);
 
+      // 預抓音素音檔
       if (!DISABLE_PREFETCH){
         setTimeout(async ()=>{ 
           try{
@@ -682,8 +710,8 @@
           <article class="word-card" data-tags="${escapeAttr(tagsAttr)}" data-word="${escapeAttr(String(w.word||'').toLowerCase())}">
             <div class="card-header">
               <div class="card-title">
-<span class="word-text">${escapeHtml(w.word||'')}</span>
-<span class="word-number">${escapeHtml(w.number ?? '')}</span>
+                <span class="word-text">${escapeHtml(w.word||'')}</span>
+                <span class="word-number">${escapeHtml(w.number ?? '')}</span>
               </div>
               <button class="audio-button" data-audio-url="${escapeAttr(audioURL)}" aria-label="播放單字發音">🔊</button>
             </div>
@@ -698,6 +726,7 @@
       });
       applyFilters(contentId);
 
+      // 預抓單字音檔（少量）
       if (!DISABLE_PREFETCH){
         try{
           const warm = (currentTopicData||[]).slice(0, PREFETCH_WORDS).map(w => audioUrlForWord(w)).filter(Boolean);
@@ -767,7 +796,7 @@
 
     // ====== 導航（依 topics.json 動態生成） ======
     function showPage(pageId){
-      selectedFilter = 'all'; // ← 改3：切換頁面時強制重置篩選為「全部」
+      selectedFilter = 'all'; // 切頁重置
       document.querySelectorAll('.page-section').forEach(p=>p.classList.remove('active'));
       const active = document.getElementById(pageId);
       if(!active) return;
