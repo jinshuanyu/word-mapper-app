@@ -80,7 +80,7 @@
       "hint": "a 常弱讀 /ə/。"
     },
     {
-      "number": "可以；能（過去式/較弱可能）",
+      "number": "可以；能（過去式）",
       "word": "could",
       "ipa": "/kʊd/",
       "graphemes": ["c","ou","l","d"],
@@ -102,7 +102,7 @@
       "hint": "ll 重複字母。"
     },
     {
-      "number": "將會；願意（過去式/假設）",
+      "number": "將；會（過去式）",
       "word": "would",
       "ipa": "/wʊd/",
       "graphemes": ["w","ou","l","d"],
@@ -124,7 +124,7 @@
       "hint": "ay 發長母音 a /eɪ/。"
     },
     {
-      "number": "可能；也許",
+      "number": "可能（過去式）",
       "word": "might",
       "ipa": "/maɪt/",
       "graphemes": ["m","igh","t"],
@@ -146,7 +146,7 @@
       "hint": "u 發短母音 u /ʌ/。"
     },
     {
-      "number": "應當；將要（較正式）",
+      "number": "應該（正式）",
       "word": "shall",
       "ipa": "/ʃæl/",
       "graphemes": ["sh","a","ll"],
