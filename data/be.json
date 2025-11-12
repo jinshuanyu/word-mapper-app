@@ -1,7 +1,7 @@
 {
   "items": [
         {
-      "number": "be 動詞",
+      "number": "Be 動詞原形",
       "word": "be",
       "ipa": "/biː/",
       "graphemes": ["b", "e"],
@@ -52,12 +52,12 @@
       "graphemes": ["w","a","s"],
       "phonemes": ["/w","ʌ","z/"],
       "phonics": ["/w","ŭ","z/"],
-      "tags": ["irregular","closed"],
-      "hearts": [false,false,false],
+      "tags": ["irregular"],
+      "hearts": [false,true,true],
       "hint": "a 發短母音 u /ʌ/；s 發 /z/。"
     },
     {
-      "number": "是（過去式；複數／第二人稱單數）",
+      "number": "是（過去式；複數/第二人稱單數）",
       "word": "were",
       "ipa": "/wɝ/",
       "graphemes": ["w","er","e"],
