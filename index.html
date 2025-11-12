@@ -276,22 +276,28 @@
 .badges .category-tag{
   white-space: nowrap !important; /* 單一膠囊內保持單行 */
 }
-/* --- 支持我 CTA 按鈕：莫蘭迪紫藍 --- */
+/* --- 支持我 CTA 按鈕：莫蘭迪紫藍（更亮、字更大） --- */
 .support-btn{
   display:inline-block;
-  background: linear-gradient(90deg, #b8b3cf, #8aa0c8); /* 柔霧薰衣草 → 霧藍 */
-  color:#fff; font-weight:500;
-  padding:.5rem 1.25rem;
+  background: linear-gradient(90deg, #D9DDF0, #BFCBE6); /* 更亮的霧紫藍 */
+  color:#ffffff;
+  font-weight:500;
+  font-size:1.05rem;          /* 字變大 */
+  padding:.65rem 1.35rem;     /* 跟著加大間距 */
   border-radius:9999px;
-  box-shadow:0 4px 10px rgba(0,0,0,.10);
+  box-shadow:0 6px 14px rgba(0,0,0,.08);
   text-decoration:none;
-  transition: transform .15s ease, box-shadow .2s ease, opacity .2s ease, background .2s ease;
+  transition:transform .15s ease, box-shadow .2s ease, background .2s ease;
 }
 .support-btn:hover{
-  transform: scale(1.05);
-  background: linear-gradient(90deg, #a39fc4, #7a90be); /* 略深一階 */
+  transform:scale(1.06);
+  background: linear-gradient(90deg, #CCD2EC, #B1BFE1); /* hover 略深一階，仍維持柔霧感 */
 }
-.support-btn:focus{ outline:3px solid rgba(124, 136, 175, .35); outline-offset:2px; }
+.support-btn:focus{
+  outline:3px solid rgba(160, 175, 215, .45);
+  outline-offset:2px;
+}
+
 
 
   </style>
