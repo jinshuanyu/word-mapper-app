@@ -32,8 +32,9 @@
       "slug": "numbers_1_20",
       "title": "Numbers 數字",
       "levels": [
-        { "label": "1–10",  "src": "data/numbers-1.json" },
-        { "label": "11–20", "src": "data/numbers-2.json" }
+        { "label": "0–10",  "src": "data/numbers-1.json" },
+        { "label": "11–19", "src": "data/numbers-2.json" },
+         { "label": "20-1M", "src": "data/numbers-3.json" }
       ]
     },
     {
@@ -98,6 +99,7 @@
     }
   ]
 }
+
 
 
 
