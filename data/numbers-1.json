@@ -1,6 +1,17 @@
 {
   "items": [
     {
+"number": 0,
+"word": "zero",
+"ipa": "/ˈziroʊ/",
+"graphemes": ["z","e","r","o"],
+"phonemes": ["/'z","i","r","oʊ/"],
+"phonics": ["/'z","ē","r","ō/"],
+"tags": ["open"],
+"hearts": [false,false,false,false],
+"hint": "e 發長母音 e /i/；o 發長母音 o /oʊ/。"
+},
+    {
       "number": 1,
       "word": "one",
       "ipa": "/wʌn/",
@@ -112,6 +123,7 @@
     }
   ]
 }
+
 
 
 
