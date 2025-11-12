@@ -1,0 +1,180 @@
+{
+  "items": [
+    {
+      "number": "第一",
+      "word": "first",
+      "ipa": "/fɝst/",
+      "graphemes": ["f","ir","s","t"],
+      "phonemes": ["/f","ɝ","s","t/"],
+      "phonics": ["/f","er","s","t/"],
+      "tags": ["rcontrolled"],
+      "hearts": [false,false,false,false],
+      "hint": "ir 發 /ɝ/。"
+    },
+    {
+      "number": "第二",
+      "word": "second",
+      "ipa": "/ˈsɛkənd/",
+      "graphemes": ["s","e","c","o","n","d"],
+      "phonemes": ["/'s","ɛ","k","ə","n","d/"],
+      "phonics": ["/'s","ĕ","k","ə","n","d/"],
+      "tags": ["closed"],
+      "hearts": [false,false,false,false,false,false],
+      "hint": "e 發 /ɛ/；o 弱讀 /ə/。"
+    },
+    {
+      "number": "第三",
+      "word": "third",
+      "ipa": "/θɝd/",
+      "graphemes": ["th","ir","d"],
+      "phonemes": ["/θ","ɝ","d/"],
+      "phonics": ["/th","er","d/"],
+      "tags": ["rcontrolled","digraph"],
+      "hearts": [false,false,false],
+      "hint": "th 為清音 /θ/；ir 發 /ɝ/。"
+    },
+    {
+      "number": "最後",
+      "word": "last",
+      "ipa": "/læst/",
+      "graphemes": ["l","a","s","t"],
+      "phonemes": ["/l","æ","s","t/"],
+      "phonics": ["/l","ă","s","t/"],
+      "tags": ["closed","cluster"],
+      "hearts": [false,false,false,false],
+      "hint": "a 發短母音 /æ/。"
+    },
+    {
+      "number": "少數；幾個",
+      "word": "a few",
+      "ipa": "/ə fju/",
+      "graphemes": ["a"," ","f","ew"],
+      "phonemes": ["/ə"," ","f","ju/"],
+      "phonics": ["/ə"," ","f","yū/"],
+      "tags": ["vowel_team"],
+      "hearts": [false,false,false,false],
+      "hint": "ew 發 /ju/。"
+    },
+    {
+      "number": "一點點",
+      "word": "a little",
+      "ipa": "/ə ˈlɪtəl/",
+      "graphemes": ["a"," ","l","i","tt","le"],
+      "phonemes": ["/ə"," ","'l","ɪ","t","əl/"],
+      "phonics": ["/ə"," ","'l","ĭ","t","əl/"],
+      "tags": ["closed","floss"],
+      "hearts": [false,false,false,false,false,false],
+      "hint": "i 發短母音 /ɪ/；tt 重複字母。"
+    },
+    {
+      "number": "很多",
+      "word": "a lot",
+      "ipa": "/ə lɑt/",
+      "graphemes": ["a"," ","l","o","t"],
+      "phonemes": ["/ə"," ","l","ɑ","t/"],
+      "phonics": ["/ə"," ","l","ŏ","t/"],
+      "tags": ["closed"],
+      "hearts": [false,false,false,false,false],
+      "hint": "o 發短母音 /ɑ/。"
+    },
+    {
+      "number": "少數",
+      "word": "few",
+      "ipa": "/fju/",
+      "graphemes": ["f","ew"],
+      "phonemes": ["/f","ju/"],
+      "phonics": ["/f","yū/"],
+      "tags": ["vowel_team"],
+      "hearts": [false,false],
+      "hint": "ew 發 /ju/。"
+    },
+    {
+      "number": "較少",
+      "word": "less",
+      "ipa": "/lɛs/",
+      "graphemes": ["l","e","ss"],
+      "phonemes": ["/l","ɛ","s/"],
+      "phonics": ["/l","ĕ","s/"],
+      "tags": ["closed","floss"],
+      "hearts": [false,false,false],
+      "hint": "e 發短母音 /ɛ/；ss 重複字母。"
+    },
+    {
+      "number": "少量",
+      "word": "little",
+      "ipa": "/ˈlɪtəl/",
+      "graphemes": ["l","i","tt","le"],
+      "phonemes": ["/'l","ɪ","t","əl/"],
+      "phonics": ["/'l","ĭ","t","əl/"],
+      "tags": ["closed","floss"],
+      "hearts": [false,false,false,false],
+      "hint": "i 發短母音 /ɪ/；tt 重複字母。"
+    },
+    {
+      "number": "更多",
+      "word": "more",
+      "ipa": "/mɔr/",
+      "graphemes": ["m","ore"],
+      "phonemes": ["/m","ɔr/"],
+      "phonics": ["/m","or/"],
+      "tags": ["rcontrolled","vowel_team"],
+      "hearts": [false,false],
+      "hint": "ore 發 /ɔr/。"
+    },
+    {
+      "number": "許多",
+      "word": "much",
+      "ipa": "/mʌtʃ/",
+      "graphemes": ["m","u","ch"],
+      "phonemes": ["/m","ʌ","tʃ/"],
+      "phonics": ["/m","ŭ","ch/"],
+      "tags": ["closed","digraph"],
+      "hearts": [false,false,false],
+      "hint": "u 發短母音 /ʌ/；ch 發 /tʃ/。"
+    },
+    {
+      "number": "數量；數字",
+      "word": "number",
+      "ipa": "/ˈnʌmbɚ/",
+      "graphemes": ["n","u","m","b","er"],
+      "phonemes": ["/'n","ʌ","m","b","ɚ/"],
+      "phonics": ["/'n","ŭ","m","b","er/"],
+      "tags": ["rcontrolled"],
+      "hearts": [false,false,false,false,false],
+      "hint": "u 發 /ʌ/；er 發 /ɚ/。"
+    },
+    {
+      "number": "幾個",
+      "word": "several",
+      "ipa": "/ˈsɛvɚəl/",
+      "graphemes": ["s","e","v","er","a","l"],
+      "phonemes": ["/'s","ɛ","v","ɚ","ə","l/"],
+      "phonics": ["/'s","ĕ","v","er","ə","l/"],
+      "tags": ["rcontrolled","closed"],
+      "hearts": [false,false,false,false,false,false],
+      "hint": "er 發 /ɚ/；e 發 /ɛ/。"
+    },
+    {
+      "number": "一些",
+      "word": "some",
+      "ipa": "/sʌm/",
+      "graphemes": ["s","o","m","e"],
+      "phonemes": ["/s","ʌ","m","-/"],
+      "phonics": ["/s","ŭ","m","-/"],
+      "tags": ["irregular"],
+      "hearts": [false,false,false,true],
+      "hint": "o 發短母音 /ʌ/；字尾 e 不發音。"
+    },
+    {
+      "number": "總數；合計",
+      "word": "total",
+      "ipa": "/ˈtoʊtəl/",
+      "graphemes": ["t","o","t","a","l"],
+      "phonemes": ["/'t","oʊ","t","ə","l/"],
+      "phonics": ["/'t","ō","t","ə","l/"],
+      "tags": ["open"],
+      "hearts": [false,false,false,false,false],
+      "hint": "o 發長母音 /oʊ/；a 弱讀 /ə/。"
+    }
+  ]
+}
