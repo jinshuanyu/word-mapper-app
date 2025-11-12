@@ -1,0 +1,147 @@
+{
+"items": [
+   {
+      "number": 20,
+      "word": "twenty",
+      "ipa": "/ˈtwɛn.ti/",
+      "graphemes": ["t","w","e","n","t","y"],
+      "phonemes": ["/'t","w","ɛ","n","t","i/"],
+      "phonics":  ["/'t","w","ĕ","n","t","ē/"],
+      "tags": ["cluster","closed"],
+      "hearts": [false,false,false,false,false,false],
+      "hint": "字尾 y 發長母音 e /i/。"
+    },
+{
+"number": 30,
+"word": "thirty",
+"ipa": "/ˈθɝti/",
+"graphemes": ["th","ir","t","y"],
+"phonemes": ["/'θ","ɝ","t","i/"],
+"phonics": ["/'th","er","t","ē/"],
+"tags": ["rcontrolled"],
+"hearts": [false,false,false,false],
+"hint": "th 發無聲吐舌音 /θ/；ir 發 er /ɝ/；字尾 y 發長母音 e /i/。"
+},
+{
+"number": 40,
+"word": "forty",
+"ipa": "/ˈfɔrti/",
+"graphemes": ["f","or","t","y"],
+"phonemes": ["/'f","ɔr","t","i/"],
+"phonics": ["/'f","or","t","ē/"],
+"tags": ["rcontrolled"],
+"hearts": [false,true,false,false],
+"hint": "注意不是 four-，是 for-；or 發 /ɔr/。"
+},
+{
+"number": 50,
+"word": "fifty",
+"ipa": "/ˈfɪfti/",
+"graphemes": ["f","i","f","t","y"],
+"phonemes": ["/'f","ɪ","f","t","i/"],
+"phonics": ["/'f","ĭ","f","t","ē/"],
+"tags": ["closed"],
+"hearts": [false,false,false,false,false],
+"hint": "注意不是 five-，是 fif-；i 發短母音 /ɪ/；字尾 y 發長母音 e /i/。"
+},
+{
+"number": 60,
+"word": "sixty",
+"ipa": "/ˈsɪksti/",
+"graphemes": ["s","i","x","t","y"],
+"phonemes": ["/'s","ɪ","ks","t","i/"],
+"phonics": ["/'s","ĭ","ks","t","ē/"],
+"tags": ["closed","cluster"],
+"hearts": [false,false,true,false,false],
+"hint": "x 發 /ks/；字尾 y 發長母音 e /i/。"
+},
+{
+"number": 70,
+"word": "seventy",
+"ipa": "/ˈsɛvənti/",
+"graphemes": ["s","e","v","e","n","t","y"],
+"phonemes": ["/'s","ɛ","v","ə","n","t","i/"],
+"phonics": ["/'s","ĕ","v","ə","n","t","ē/"],
+"tags": ["closed"],
+"hearts": [false,false,false,false,false,false,false],
+"hint": "第二音節多為弱讀 /ə/；y 字尾讀 /i/。"
+},
+{
+"number": 80,
+"word": "eighty",
+"ipa": "/ˈeɪti/",
+"graphemes": ["eigh","t","y"],
+"phonemes": ["/'eɪ","t","i/"],
+"phonics": ["/'ā","t","ē/"],
+"tags": ["vowel_team"],
+"hearts": [true,false,false],
+"hint": "eigh 發長母音 a /eɪ/。"
+},
+{
+"number": 90,
+"word": "ninety",
+"ipa": "/ˈnaɪnti/",
+"graphemes": ["n","i","n","e","t","y"],
+"phonemes": ["/'n","aɪ","n","-","t","i/"],
+"phonics": ["/'n","ī","n","-","t","ē/"],
+"tags": ["magic_e"],
+"hearts": [false,false,false,true,false,false],
+"hint": "i 發 /aɪ/；來自 nine，字母 e 不發音。"
+},
+{
+"number": "百",
+"word": "hundred",
+"ipa": "/ˈhʌndrəd/",
+"graphemes": ["h","u","n","d","r","e","d"],
+"phonemes": ["/'h","ʌ","n","d","r","ə","d/"],
+"phonics": ["/'h","ŭ","n","d","r","ə","d/"],
+"tags": ["closed","cluster"],
+"hearts": [false,false,false,false,false,false,false],
+"hint": "u 發短母音 u /ʌ/；e 弱讀 /ə/。"
+},
+{
+"number": "千",
+"word": "thousand",
+"ipa": "/ˈθaʊzənd/",
+"graphemes": ["th","ou","s","a","n","d"],
+"phonemes": ["/'θ","aʊ","z","ə","n","d/"],
+"phonics": ["/'th","ow","z","ə","n","d/"],
+"tags": ["digraph","vowel_team"],
+"hearts": [false,false,true,false,false,false],
+"hint": "縮寫為 K；ou 發 ow /aʊ/；s 發 /z/。"
+},
+{
+"number": "百萬",
+"word": "million",
+"ipa": "/ˈmɪljən/",
+"graphemes": ["m","i","ll","i","o","n"],
+"phonemes": ["/'m","ɪ","l","j","ə","n/"],
+"phonics": ["/'m","ĭ","l","y","ə","n/"],
+"tags": ["closed","cluster"],
+"hearts": [false,false,false,false,false,false],
+"hint": "縮寫為 M；ll 重複字母；i 發 y /j/，非獨立音節。"
+},
+  {
+"number": "十億",
+"word": "billion",
+"ipa": "/ˈbɪljən/",
+"graphemes": ["b","i","ll","i","o","n"],
+"phonemes": ["/'b","ɪ","l","j","ə","n/"],
+"phonics": ["/'b","ĭ","l","y","ə","n/"],
+"tags": ["closed","cluster"],
+"hearts": [false,false,false,false,false,false],
+"hint": "縮寫為 B；ll 重複字母；i 發 y /j/，非獨立音節。"
+},
+{
+"number": "兆",
+"word": "trillion",
+"ipa": "/ˈtrɪljən/",
+"graphemes": ["t","r","i","ll","i","o","n"],
+"phonemes": ["/'t","r","ɪ","l","j","ə","n/"],
+"phonics": ["/'t","r","ĭ","l","y","ə","n/"],
+"tags": ["cluster","closed"],
+"hearts": [false,false,false,false,false,false,false],
+"hint": "縮寫為 T；ll 重複字母；i 發 y /j/，非獨立音節。"
+}
+]
+}
