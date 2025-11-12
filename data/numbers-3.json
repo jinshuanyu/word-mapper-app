@@ -42,7 +42,7 @@
 "phonics": ["/'f","ĭ","f","t","ē/"],
 "tags": ["closed"],
 "hearts": [false,false,false,false,false],
-"hint": "注意不是 five-，是 fif-；i 發短母音 /ɪ/；字尾 y 發長母音 e /i/。"
+"hint": "注意不是 five-，是 fif-；字尾 y 發長母音 e /i/。"
 },
 {
 "number": 60,
@@ -53,7 +53,7 @@
 "phonics": ["/'s","ĭ","ks","t","ē/"],
 "tags": ["closed","cluster"],
 "hearts": [false,false,true,false,false],
-"hint": "x 發 /ks/；字尾 y 發長母音 e /i/。"
+"hint": "six + ty；字尾 y 發長母音 e /i/。"
 },
 {
 "number": 70,
@@ -64,7 +64,7 @@
 "phonics": ["/'s","ĕ","v","ə","n","t","ē/"],
 "tags": ["closed"],
 "hearts": [false,false,false,false,false,false,false],
-"hint": "第二音節多為弱讀 /ə/；y 字尾讀 /i/。"
+"hint": "seven + ty；字尾 y 發長母音 e /i/。"
 },
 {
 "number": 80,
@@ -75,7 +75,7 @@
 "phonics": ["/'ā","t","ē/"],
 "tags": ["vowel_team"],
 "hearts": [true,false,false],
-"hint": "eigh 發長母音 a /eɪ/。"
+"hint": "注意只有一個 t；字尾 y 發長母音 e /i/。"
 },
 {
 "number": 90,
@@ -86,7 +86,7 @@
 "phonics": ["/'n","ī","n","-","t","ē/"],
 "tags": ["magic_e"],
 "hearts": [false,false,false,true,false,false],
-"hint": "i 發 /aɪ/；來自 nine，字母 e 不發音。"
+"hint": "nine + ty；字尾 y 發長母音 e /i/。"
 },
 {
 "number": "百",
