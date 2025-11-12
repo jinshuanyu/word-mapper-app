@@ -8,8 +8,8 @@
       "graphemes": ["d","o"],
       "phonemes": ["/d","u/"],
       "phonics": ["/d","ū/"],
-      "tags": ["irregular","open"],
-      "hearts": [false,false],
+      "tags": ["irregular"],
+      "hearts": [false,true],
       "hint": "o 發長母音 u /u/。"
     },
     {
@@ -86,8 +86,8 @@
       "graphemes": ["c","ou","l","d"],
       "phonemes": ["/k","ʊ","-","d/"],
       "phonics": ["/k","oo","-","d/"],
-      "tags": ["modal","irregular","vowel_team"],
-      "hearts": [false,true,false,false],
+      "tags": ["irregular"],
+      "hearts": [false,true,true,false],
       "hint": "ou 發 oo /ʊ/；l 不發音。"
     },
     {
