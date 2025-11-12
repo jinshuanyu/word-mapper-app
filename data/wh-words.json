@@ -18,8 +18,8 @@
       "graphemes": ["wh","a","t"],
       "phonemes": ["/w","ɑ","t/"],
       "phonics": ["/w","ŏ","t/"],
-      "tags": ["digraph","closed"],
-      "hearts": [false,false,false],
+      "tags": ["digraph","irregular"],
+      "hearts": [false,true,false],
       "hint": "wh 發 /w/；a 發短母音 o /ɑ/ 。"
     },
     {
