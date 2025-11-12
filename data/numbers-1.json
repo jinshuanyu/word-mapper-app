@@ -31,7 +31,7 @@
       "phonics":  ["/t","-","ū/"],
       "tags": ["irregular"],
       "hearts": [false,true,true],
-      "hint": "w 不發音；o 發長母音 u /u/。"
+      "hint": "tw- 字首與 12 twelve、兩次 twice 等相關，但這裡 w 不發音；o 發長母音 u /u/。"
     },
     {
       "number": 3,
@@ -123,6 +123,7 @@
     }
   ]
 }
+
 
 
 
