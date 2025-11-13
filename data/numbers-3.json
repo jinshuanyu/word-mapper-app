@@ -117,7 +117,7 @@
 "graphemes": ["m","i","ll","i","o","n"],
 "phonemes": ["/'m","ɪ","l","j","ə","n/"],
 "phonics": ["/'m","ĭ","l","y","ə","n/"],
-"tags": ["closed","cluster"],
+"tags": ["closed"],
 "hearts": [false,false,false,false,false,false],
 "hint": "縮寫為 M；ll 重複字母；i 發 y /j/，非獨立音節。"
 },
@@ -128,7 +128,7 @@
 "graphemes": ["b","i","ll","i","o","n"],
 "phonemes": ["/'b","ɪ","l","j","ə","n/"],
 "phonics": ["/'b","ĭ","l","y","ə","n/"],
-"tags": ["closed","cluster"],
+"tags": ["closed"],
 "hearts": [false,false,false,false,false,false],
 "hint": "縮寫為 B；ll 重複字母；i 發 y /j/，非獨立音節。"
 },
