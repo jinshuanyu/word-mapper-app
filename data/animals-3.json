@@ -1,0 +1,290 @@
+{
+  "items": [
+    {
+      "number": "🐜 螞蟻",
+      "word": "ant",
+      "ipa": "/ænt/",
+      "graphemes": ["a","n","t"],
+      "phonemes": ["/æ","n","t/"],
+      "phonics": ["/ă","n","t/"],
+      "tags": ["closed"],
+      "hearts": [false,false,false],
+      "hint": "a 發短母音 /æ/。"
+    },
+    {
+      "number": "🐶 吠叫",
+      "word": "bark",
+      "ipa": "/bɑrk/",
+      "graphemes": ["b","ar","k"],
+      "phonemes": ["/b","ɑr","k/"],
+      "phonics": ["/b","ɑr","k/"],
+      "tags": ["rcontrolled","closed"],
+      "hearts": [false,false,false],
+      "hint": "ar 發 /ɑr/。"
+    },
+    {
+      "number": "咬",
+      "word": "bite",
+      "ipa": "/baɪt/",
+      "graphemes": ["b","i","t","e"],
+      "phonemes": ["/b","aɪ","t","-/"],
+      "phonics": ["/b","ī","t","-/"],
+      "tags": ["magic_e"],
+      "hearts": [false,false,false,true],
+      "hint": "i_e：i 發 /aɪ/；字尾 e 不發音。"
+    },
+    {
+      "number": "🐞 小蟲；臭蟲",
+      "word": "bug",
+      "ipa": "/bʌɡ/",
+      "graphemes": ["b","u","ɡ"],
+      "phonemes": ["/b","ʌ","ɡ/"],
+      "phonics": ["/b","ŭ","ɡ/"],
+      "tags": ["closed"],
+      "hearts": [false,false,false],
+      "hint": "u 發 /ʌ/。"
+    },
+    {
+      "number": "🪳 蟑螂",
+      "word": "cockroach",
+      "ipa": "/ˈkɑkˌroʊtʃ/",
+      "graphemes": ["c","o","ck","r","o","a","ch"],
+      "phonemes": ["/'k","ɑ","k","r","oʊ","-","tʃ/"],
+      "phonics": ["/'k","ŏ","k","r","ō","-","ch/"],
+      "tags": ["digraph","vowel_team","cluster","closed"],
+      "hearts": [false,false,false,false,false,false,false],
+      "hint": "ck 發 /k/；oa 發 /oʊ/；ch 發 /tʃ/。"
+    },
+    {
+      "number": "🦀 螃蟹",
+      "word": "crab",
+      "ipa": "/kræb/",
+      "graphemes": ["c","r","a","b"],
+      "phonemes": ["/k","r","æ","b/"],
+      "phonics": ["/k","r","ă","b/"],
+      "tags": ["cluster","closed"],
+      "hearts": [false,false,false,false],
+      "hint": "cr- 子音連綴；a 發 /æ/。"
+    },
+    {
+      "number": "🫎 鹿",
+      "word": "deer",
+      "ipa": "/dɪr/",
+      "graphemes": ["d","ee","r"],
+      "phonemes": ["/d","ɪ","r/"],
+      "phonics": ["/d","ē","r/"],
+      "tags": ["vowel_team","rcontrolled"],
+      "hearts": [false,false,false],
+      "hint": "ee 發 /i/；尾音 r 控制。"
+    },
+    {
+      "number": "🐉 龍（幻想生物）",
+      "word": "dragon",
+      "ipa": "/ˈdrægən/",
+      "graphemes": ["d","r","a","g","o","n"],
+      "phonemes": ["/'d","r","æ","ɡ","ə","n/"],
+      "phonics": ["/'d","r","ă","ɡ","ə","n/"],
+      "tags": ["cluster","closed"],
+      "hearts": [false,false,false,false,false,false],
+      "hint": "dr- 子音連綴；第二音節為弱讀 /ə/。"
+    },
+    {
+      "number": "🦊 狐狸",
+      "word": "fox",
+      "ipa": "/fɑks/",
+      "graphemes": ["f","o","x"],
+      "phonemes": ["/f","ɑ","ks/"],
+      "phonics": ["/f","ŏ","ks/"],
+      "tags": ["closed","cluster"],
+      "hearts": [false,false,false],
+      "hint": "x 讀 /ks/。"
+    },
+    {
+      "number": "🪿 鵝（複數）",
+      "word": "geese",
+      "ipa": "/gis/",
+      "graphemes": ["g","ee","s","e"],
+      "phonemes": ["/g","i","s","-/"],
+      "phonics": ["/g","ē","s","-/"],
+      "tags": ["vowel_team","magic_e"],
+      "hearts": [false,true,false,true],
+      "hint": "ee 發 /i/；字尾 e 不發音。"
+    },
+    {
+      "number": "🪿 鵝（單數）",
+      "word": "goose",
+      "ipa": "/gus/",
+      "graphemes": ["g","oo","s","e"],
+      "phonemes": ["/g","u","s","-/"],
+      "phonics": ["/g","ū","s","-/"],
+      "tags": ["vowel_team","magic_e"],
+      "hearts": [false,false,false,true],
+      "hint": "oo 發 /u/；字尾 e 不發音。"
+    },
+    {
+      "number": "🐔 母雞",
+      "word": "hen",
+      "ipa": "/hɛn/",
+      "graphemes": ["h","e","n"],
+      "phonemes": ["/h","ɛ","n/"],
+      "phonics": ["/h","ĕ","n/"],
+      "tags": ["closed"],
+      "hearts": [false,false,false],
+      "hint": "e 發短母音 /ɛ/。"
+    },
+    {
+      "number": "🐛 昆蟲",
+      "word": "insect",
+      "ipa": "/ˈɪnsɛkt/",
+      "graphemes": ["i","n","s","e","c","t"],
+      "phonemes": ["/'ɪ","n","s","ɛ","k","t/"],
+      "phonics": ["/'ĭ","n","s","ĕ","k","t/"],
+      "tags": ["closed","cluster"],
+      "hearts": [false,false,false,false,false,false],
+      "hint": "c 在 e 前讀 /s/，此字例外讀 /k/。"
+    },
+    {
+      "number": "🐨 無尾熊",
+      "word": "koala",
+      "ipa": "/koʊˈɑlə/",
+      "graphemes": ["k","o","a","l","a"],
+      "phonemes": ["/k","oʊ","'ɑ","l","ə/"],
+      "phonics": ["/k","ō","'ŏ","l","ə/"],
+      "tags": ["open","irregular"],
+      "hearts": [false,false,false,false,false],
+      "hint": "oa 在此兩音節分開：/oʊ/ + /ɑ/。"
+    },
+    {
+      "number": "🐑 小羊",
+      "word": "lamb",
+      "ipa": "/læm/",
+      "graphemes": ["l","a","m","b"],
+      "phonemes": ["/l","æ","m","-/"],
+      "phonics": ["/l","ă","m","-/"],
+      "tags": ["silent_consonant","closed"],
+      "hearts": [false,false,false,true],
+      "hint": "字尾 b 不發音。"
+    },
+    {
+      "number": "👾 怪物",
+      "word": "monster",
+      "ipa": "/ˈmɑnstɚ/",
+      "graphemes": ["m","o","n","s","t","er"],
+      "phonemes": ["/'m","ɑ","n","s","t","ɚ/"],
+      "phonics": ["/'m","ŏ","n","s","t","er/"],
+      "tags": ["cluster","rcontrolled","closed"],
+      "hearts": [false,false,false,false,false,false],
+      "hint": "er 發 /ɚ/。"
+    },
+    {
+      "number": "🦟 蚊子",
+      "word": "mosquito",
+      "ipa": "/məˈskitoʊ/",
+      "graphemes": ["m","o","s","qu","i","t","o"],
+      "phonemes": ["/m","ə","s","k","i","t","oʊ/"],
+      "phonics": ["/m","ə","s","k","ē","t","ō/"],
+      "tags": ["irregular","cluster","open"],
+      "hearts": [false,false,false,true,false,false,false],
+      "hint": "qu 在此讀 /k/（外來字）。"
+    },
+    {
+      "number": "🐂 公牛",
+      "word": "ox",
+      "ipa": "/ɑks/",
+      "graphemes": ["o","x"],
+      "phonemes": ["/ɑ","ks/"],
+      "phonics": ["/ŏ","ks/"],
+      "tags": ["closed","cluster"],
+      "hearts": [false,false],
+      "hint": "x 讀 /ks/。"
+    },
+    {
+      "number": "🕊 鴿子",
+      "word": "pigeon",
+      "ipa": "/ˈpɪdʒən/",
+      "graphemes": ["p","i","ge","o","n"],
+      "phonemes": ["/'p","ɪ","dʒ","ə","n/"],
+      "phonics": ["/'p","ĭ","-j","ə","n/"],
+      "tags": ["irregular","digraph"],
+      "hearts": [false,false,true,false,false],
+      "hint": "ge 讀 /dʒ/；o 弱讀 /ə/。"
+    },
+    {
+      "number": "🐀 老鼠",
+      "word": "rat",
+      "ipa": "/ræt/",
+      "graphemes": ["r","a","t"],
+      "phonemes": ["/r","æ","t/"],
+      "phonics": ["/r","ă","t/"],
+      "tags": ["closed"],
+      "hearts": [false,false,false],
+      "hint": "a 發 /æ/。"
+    },
+    {
+      "number": "🦐 蝦",
+      "word": "shrimp",
+      "ipa": "/ʃrɪmp/",
+      "graphemes": ["sh","r","i","m","p"],
+      "phonemes": ["/ʃ","r","ɪ","m","p/"],
+      "phonics": ["/sh","r","ĭ","m","p/"],
+      "tags": ["digraph","cluster","closed"],
+      "hearts": [false,false,false,false,false],
+      "hint": "sh 發 /ʃ/；shr- 為三音連綴。"
+    },
+    {
+      "number": "吞嚥",
+      "word": "swallow",
+      "ipa": "/ˈswæloʊ/",
+      "graphemes": ["s","w","a","ll","ow"],
+      "phonemes": ["/'s","w","æ","l","oʊ/"],
+      "phonics": ["/'s","w","ă","l","ō/"],
+      "tags": ["floss","vowel_team","cluster"],
+      "hearts": [false,false,false,false,false],
+      "hint": "ow 發 /oʊ/；ll 重複字母。"
+    },
+    {
+      "number": "🦃 火雞",
+      "word": "turkey",
+      "ipa": "/ˈtɝki/",
+      "graphemes": ["t","ur","k","ey"],
+      "phonemes": ["/'t","ɝ","k","i/"],
+      "phonics": ["/'t","er","k","ē/"],
+      "tags": ["rcontrolled","vowel_team"],
+      "hearts": [false,false,false,false],
+      "hint": "ur 發 /ɝ/；ey 在此發 /i/。"
+    },
+    {
+      "number": "🐢 烏龜",
+      "word": "turtle",
+      "ipa": "/ˈtɝtəl/",
+      "graphemes": ["t","ur","t","le"],
+      "phonemes": ["/'t","ɝ","t","əl/"],
+      "phonics": ["/'t","er","t","əl/"],
+      "tags": ["rcontrolled","cle"],
+      "hearts": [false,false,false,false],
+      "hint": "ur 發 /ɝ/；-le 為子音+le 音節 /əl/。"
+    },
+    {
+      "number": "🐺 狼",
+      "word": "wolf",
+      "ipa": "/wʊlf/",
+      "graphemes": ["w","o","l","f"],
+      "phonemes": ["/w","ʊ","l","f/"],
+      "phonics": ["/w","oo","l","f/"],
+      "tags": ["irregular","closed"],
+      "hearts": [false,true,false,false],
+      "hint": "o 在此讀 /ʊ/。"
+    },
+    {
+      "number": "🪱 蠕蟲",
+      "word": "worm",
+      "ipa": "/wɝm/",
+      "graphemes": ["w","or","m"],
+      "phonemes": ["/w","ɝ","m/"],
+      "phonics": ["/w","er","m/"],
+      "tags": ["rcontrolled"],
+      "hearts": [false,false,false],
+      "hint": "or 在此讀 /ɝ/。"
+    }
+  ]
+}
