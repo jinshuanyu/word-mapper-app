@@ -1,0 +1,136 @@
+{
+  "items": [
+    {
+      "number": "噢；哦（表示驚訝／理解）",
+      "word": "oh",
+      "ipa": "/oʊ/",
+      "graphemes": ["o","h"],
+      "phonemes": ["/oʊ","-/"],
+      "phonics": ["/ō","-/"],
+      "tags": ["irregular","silent_consonant","open"],
+      "hearts": [false,true],
+      "hint": "h 不發音；o 發長母音 o /oʊ/。"
+    },
+    {
+      "number": "哇（驚嘆）",
+      "word": "wow",
+      "ipa": "/waʊ/",
+      "graphemes": ["w","ow"],
+      "phonemes": ["/w","aʊ/"],
+      "phonics": ["/w","au/"],
+      "tags": ["vowel_team"],
+      "hearts": [false,false],
+      "hint": "ow 發 /aʊ/。"
+    },
+    {
+      "number": "啊喲（痛）",
+      "word": "ouch",
+      "ipa": "/aʊtʃ/",
+      "graphemes": ["ou","ch"],
+      "phonemes": ["/aʊ","tʃ/"],
+      "phonics": ["/au","ch/"],
+      "tags": ["vowel_team","digraph"],
+      "hearts": [false,false],
+      "hint": "ou 發 /aʊ/；ch 發 /tʃ/。"
+    },
+    {
+      "number": "糟了（失誤）",
+      "word": "oops",
+      "ipa": "/ups/",
+      "graphemes": ["oo","p","s"],
+      "phonemes": ["/u","p","s/"],
+      "phonics": ["/ū","p","s/"],
+      "tags": ["vowel_team","closed"],
+      "hearts": [false,false,false],
+      "hint": "oo 發 /u/。"
+    },
+    {
+      "number": "呼（鬆一口氣）",
+      "word": "phew",
+      "ipa": "/fju/",
+      "graphemes": ["ph","ew"],
+      "phonemes": ["/f","ju/"],
+      "phonics": ["/f","yū/"],
+      "tags": ["digraph","vowel_team"],
+      "hearts": [false,false],
+      "hint": "ph 發 /f/；ew 發 /ju/。"
+    },
+    {
+      "number": "啊哈（恍然／得意）",
+      "word": "aha",
+      "ipa": "/ɑˈhɑ/",
+      "graphemes": ["a","h","a"],
+      "phonemes": ["/ɑ","'h","ɑ/"],
+      "phonics": ["/ŏ","'h","ŏ/"],
+      "tags": ["irregular","open"],
+      "hearts": [false,false,false],
+      "hint": "兩個 a 皆讀 /ɑ/；中間 h 保持氣音。"
+    },
+    {
+      "number": "嘿；喂（招呼／引起注意）",
+      "word": "hey",
+      "ipa": "/heɪ/",
+      "graphemes": ["h","ey"],
+      "phonemes": ["/h","eɪ/"],
+      "phonics": ["/h","ā/"],
+      "tags": ["vowel_team","open"],
+      "hearts": [false,false],
+      "hint": "ey 在此發 /eɪ/。"
+    },
+    {
+      "number": "噁（嫌惡）",
+      "word": "yuck",
+      "ipa": "/jʌk/",
+      "graphemes": ["y","u","ck"],
+      "phonemes": ["/j","ʌ","k/"],
+      "phonics": ["/y","ŭ","k/"],
+      "tags": ["digraph","closed"],
+      "hearts": [false,false,false],
+      "hint": "u 發 /ʌ/；ck 發 /k/。"
+    },
+    {
+      "number": "哈囉；你好",
+      "word": "hello",
+      "ipa": "/həˈloʊ/",
+      "graphemes": ["h","e","ll","o"],
+      "phonemes": ["/h","ə","'l","oʊ/"],
+      "phonics": ["/h","ə","l","ō/"],
+      "tags": ["floss","irregular","open"],
+      "hearts": [false,false,false,false],
+      "hint": "ll 重複字母；o 發 /oʊ/。"
+    },
+    {
+      "number": "嗨",
+      "word": "hi",
+      "ipa": "/haɪ/",
+      "graphemes": ["h","i"],
+      "phonemes": ["/h","aɪ/"],
+      "phonics": ["/h","ī/"],
+      "tags": ["open"],
+      "hearts": [false,false],
+      "hint": "i 發長母音 i /aɪ/。"
+    },
+    {
+      "number": "再見",
+      "word": "good-bye",
+      "ipa": "/ɡʊdˈbaɪ/",
+      "graphemes": ["g","oo","d","-","b","y","e"],
+      "phonemes": ["/ɡ","ʊ","d","-","'b","aɪ","-/"],
+      "phonics": ["/g","oo","d","-","'b","ī","-/"],
+      "tags": ["vowel_team","irregular"],
+      "hearts": [false,false,false,false,false,false,true],
+      "hint": "good + bye；oo 發 /ʊ/；bye 的 e 不發音。"
+    },
+    {
+      "number": "掰；再見",
+      "word": "bye",
+      "ipa": "/baɪ/",
+      "graphemes": ["b","y","e"],
+      "phonemes": ["/b","aɪ","-/"],
+      "phonics": ["/b","ī","-/"],
+      "tags": ["irregular"],
+      "hearts": [false,false,true],
+      "hint": "y 發 /aɪ/；詞尾 e 不發音。"
+    }
+  ]
+}
