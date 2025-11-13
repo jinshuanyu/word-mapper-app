@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "number": "⚫ 黑色",
+      "number": "⚫ 黑色；黑的",
       "word": "black",
       "ipa": "/blæk/",
       "graphemes": ["b","l","a","ck"],
@@ -12,7 +12,7 @@
       "hint": "a 發短母音 a /æ/；ck 發 /k/。"
     },
     {
-      "number": "🔵 藍色",
+      "number": "🔵 藍色；藍的",
       "word": "blue",
       "ipa": "/blu/",
       "graphemes": ["b","l","ue"],
@@ -23,7 +23,7 @@
       "hint": "ue 發長母音 u /u/。"
     },
     {
-      "number": "🟤 棕色",
+      "number": "🟤 棕色；棕色的",
       "word": "brown",
       "ipa": "/braʊn/",
       "graphemes": ["b","r","ow","n"],
@@ -45,18 +45,29 @@
       "hint": "第一個 o 發短母音 u /ʌ/；or 發 er /ɚ/。"
     },
     {
-      "number": "🏅 金色",
+      "number": "🏅 黃金；金色",
       "word": "gold",
       "ipa": "/ɡoʊld/",
       "graphemes": ["g","o","l","d"],
       "phonemes": ["/ɡ","oʊ","l","d/"],
       "phonics": ["/ɡ","ō","l","d/"],
-      "tags": ["cluster","irregular"],
+      "tags": ["irregular","cluster"],
+      "hearts": [false,false,false,false],
+      "hint": "-old 中 o 常發長母音 o /oʊ/。"
+    },
+        {
+      "number": "🏅 金色的",
+      "word": "golden",
+      "ipa": "/ɡoʊldən/",
+      "graphemes": ["g","o","l","d","ə","n"],
+      "phonemes": ["/ɡ","oʊ","l","d","ə","n/"],
+      "phonics": ["/ɡ","ō","l","d","ə","n/"],
+      "tags": ["irregular","cluster"],
       "hearts": [false,false,false,false],
       "hint": "-old 中 o 常發長母音 o /oʊ/。"
     },
     {
-      "number": "🩶 灰色",
+      "number": "🩶 灰色；灰色的",
       "word": "gray",
       "ipa": "/ɡreɪ/",
       "graphemes": ["g","r","ay"],
@@ -67,7 +78,7 @@
       "hint": "ay 發長母音 a /eɪ/。"
     },
     {
-      "number": "🟢 綠色",
+      "number": "🟢 綠色；綠色的",
       "word": "green",
       "ipa": "/ɡrin/",
       "graphemes": ["g","r","ee","n"],
@@ -78,7 +89,7 @@
       "hint": "ee 發長母音 e /i/。"
     },
     {
-      "number": "🍊 橘色；橘子",
+      "number": "🍊 橘子；橘色；橘色的",
       "word": "orange",
       "ipa": "/ˈɔrɪndʒ/",
       "graphemes": ["o","r","a","n","ge"],
@@ -89,7 +100,7 @@
       "hint": "a 發短母音 i /ɪ/；ge 發 j /dʒ/。"
     },
     {
-      "number": "💗 粉紅色",
+      "number": "💗 粉紅色；粉紅色的",
       "word": "pink",
       "ipa": "/pɪŋk/",
       "graphemes": ["p","i","n","k"],
@@ -100,7 +111,7 @@
       "hint": "nk 發 /ŋk/。"
     },
     {
-      "number": "🟣 紫色",
+      "number": "🟣 紫色；紫色的",
       "word": "purple",
       "ipa": "/ˈpɝpəl/",
       "graphemes": ["p","ur","p","le"],
@@ -111,7 +122,7 @@
       "hint": "ur 發 er /ɝ/。"
     },
     {
-      "number": "🔴 紅色",
+      "number": "🔴 紅色；紅色的",
       "word": "red",
       "ipa": "/rɛd/",
       "graphemes": ["r","e","d"],
@@ -122,7 +133,7 @@
       "hint": "e 發短母音 e /ɛ/。"
     },
     {
-      "number": "🥈 銀色",
+      "number": "🥈 銀；銀色；銀色的",
       "word": "silver",
       "ipa": "/ˈsɪlvɚ/",
       "graphemes": ["s","i","l","v","er"],
@@ -133,7 +144,7 @@
       "hint": "i 發短母音 i /ɪ/；er 發 /ɚ/。"
     },
     {
-      "number": "⚪ 白色",
+      "number": "⚪ 白色；白色的",
       "word": "white",
       "ipa": "/waɪt/",
       "graphemes": ["wh","i","t","e"],
@@ -144,7 +155,7 @@
       "hint": "wh 發 /w/；i_e：i 發長母音 i /aɪ/。"
     },
     {
-      "number": "🟡 黃色",
+      "number": "🟡 黃色；黃色的",
       "word": "yellow",
       "ipa": "/ˈjɛloʊ/",
       "graphemes": ["y","e","ll","ow"],
