@@ -31,7 +31,7 @@
       "phonics": ["/th","er","d/"],
       "tags": ["rcontrolled","digraph"],
       "hearts": [false,false,false],
-      "hint": "th 為清音 /θ/；ir 發 /ɝ/。"
+      "hint": "th 發無聲吐舌音 /θ/；ir 發 er /ɝ/。"
     },
     {
       "number": "最後",
@@ -40,7 +40,7 @@
       "graphemes": ["l","a","s","t"],
       "phonemes": ["/l","æ","s","t/"],
       "phonics": ["/l","ă","s","t/"],
-      "tags": ["closed","cluster"],
+      "tags": ["cvc","cluster"],
       "hearts": [false,false,false,false],
       "hint": "a 發短母音 /æ/。"
     },
@@ -62,9 +62,9 @@
       "graphemes": ["a"," ","l","i","tt","le"],
       "phonemes": ["/ə"," ","'l","ɪ","t","əl/"],
       "phonics": ["/ə"," ","'l","ĭ","t","əl/"],
-      "tags": ["closed","floss"],
+      "tags": ["closed","cle"],
       "hearts": [false,false,false,false,false,false],
-      "hint": "i 發短母音 /ɪ/；tt 重複字母。"
+      "hint": "i 發短母音 /ɪ/；tt 重複字母，美式發音近 /d/。"
     },
     {
       "number": "很多",
@@ -75,7 +75,7 @@
       "phonics": ["/ə"," ","l","ŏ","t/"],
       "tags": ["closed"],
       "hearts": [false,false,false,false,false],
-      "hint": "o 發短母音 /ɑ/。"
+      "hint": "o 發短母音 o /ɑ/。"
     },
     {
       "number": "少數",
@@ -95,9 +95,9 @@
       "graphemes": ["l","e","ss"],
       "phonemes": ["/l","ɛ","s/"],
       "phonics": ["/l","ĕ","s/"],
-      "tags": ["closed","floss"],
+      "tags": ["cvc","floss"],
       "hearts": [false,false,false],
-      "hint": "e 發短母音 /ɛ/；ss 重複字母。"
+      "hint": "e 發短母音 e /ɛ/；ss 重複字母。"
     },
     {
       "number": "少量",
@@ -106,9 +106,9 @@
       "graphemes": ["l","i","tt","le"],
       "phonemes": ["/'l","ɪ","t","əl/"],
       "phonics": ["/'l","ĭ","t","əl/"],
-      "tags": ["closed","floss"],
+      "tags": ["closed","cle"],
       "hearts": [false,false,false,false],
-      "hint": "i 發短母音 /ɪ/；tt 重複字母。"
+      "hint": "i 發短母音 i /ɪ/；tt 重複字母，美式發音近 /d/。"
     },
     {
       "number": "更多",
@@ -117,9 +117,9 @@
       "graphemes": ["m","ore"],
       "phonemes": ["/m","ɔr/"],
       "phonics": ["/m","or/"],
-      "tags": ["rcontrolled","vowel_team"],
+      "tags": ["rcontrolled"],
       "hearts": [false,false],
-      "hint": "ore 發 /ɔr/。"
+      "hint": "ore 發 or /ɔr/。"
     },
     {
       "number": "許多",
@@ -128,9 +128,9 @@
       "graphemes": ["m","u","ch"],
       "phonemes": ["/m","ʌ","tʃ/"],
       "phonics": ["/m","ŭ","ch/"],
-      "tags": ["closed","digraph"],
+      "tags": ["cvc","digraph"],
       "hearts": [false,false,false],
-      "hint": "u 發短母音 /ʌ/；ch 發 /tʃ/。"
+      "hint": "u 發短母音 u /ʌ/；ch 發 /tʃ/。"
     },
     {
       "number": "數量；數字",
@@ -139,20 +139,20 @@
       "graphemes": ["n","u","m","b","er"],
       "phonemes": ["/'n","ʌ","m","b","ɚ/"],
       "phonics": ["/'n","ŭ","m","b","er/"],
-      "tags": ["rcontrolled"],
+      "tags": ["closed"],
       "hearts": [false,false,false,false,false],
-      "hint": "u 發 /ʌ/；er 發 /ɚ/。"
+      "hint": "u 發短母音 u /ʌ/。"
     },
     {
       "number": "幾個",
       "word": "several",
       "ipa": "/ˈsɛvɚəl/",
-      "graphemes": ["s","e","v","er","a","l"],
-      "phonemes": ["/'s","ɛ","v","ɚ","ə","l/"],
-      "phonics": ["/'s","ĕ","v","er","ə","l/"],
-      "tags": ["rcontrolled","closed"],
-      "hearts": [false,false,false,false,false,false],
-      "hint": "er 發 /ɚ/；e 發 /ɛ/。"
+      "graphemes": ["s","e","v","er","al"],
+      "phonemes": ["/'s","ɛ","v","ɚ","əl/"],
+      "phonics": ["/'s","ĕ","v","er","əl/"],
+      "tags": ["closed"],
+      "hearts": [false,false,false,false,false],
+      "hint": "e 發短母音 e /ɛ/。"
     },
     {
       "number": "一些",
@@ -162,19 +162,19 @@
       "phonemes": ["/s","ʌ","m","-/"],
       "phonics": ["/s","ŭ","m","-/"],
       "tags": ["irregular"],
-      "hearts": [false,false,false,true],
-      "hint": "o 發短母音 /ʌ/；字尾 e 不發音。"
+      "hearts": [false,true,false,true],
+      "hint": "o 發短母音 u /ʌ/；字尾 e 不發音。"
     },
     {
       "number": "總數；合計",
       "word": "total",
       "ipa": "/ˈtoʊtəl/",
-      "graphemes": ["t","o","t","a","l"],
-      "phonemes": ["/'t","oʊ","t","ə","l/"],
-      "phonics": ["/'t","ō","t","ə","l/"],
+      "graphemes": ["t","o","t","al"],
+      "phonemes": ["/'t","oʊ","t","əl/"],
+      "phonics": ["/'t","ō","t","əl/"],
       "tags": ["open"],
-      "hearts": [false,false,false,false,false],
-      "hint": "o 發長母音 /oʊ/；a 弱讀 /ə/。"
+      "hearts": [false,false,false,false],
+      "hint": "o 發長母音 o /oʊ/；a 弱讀 /ə/。"
     }
   ]
 }
