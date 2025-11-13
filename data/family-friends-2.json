@@ -11,6 +11,17 @@
       "hearts": [true,false,false],
       "hint": "au 發短母音 a /æ/。"
     },
+            {
+      "number": "出生的；出生",
+      "word": "born",
+      "ipa": "/bɔrn/",
+      "graphemes": ["b","or","n"],
+      "phonemes": ["/b","ɔr","n/"],
+      "phonics": ["/b","or","n/"],
+      "tags": ["rcontrolled"],
+      "hearts": [false,false,false],
+      "hint": "or 發 /ɔr/；過去分詞，原形為 bear。"
+    },
     {
       "number": "👧🏻女兒",
       "word": "daughter",
@@ -18,9 +29,20 @@
       "graphemes": ["d","augh","t","er"],
       "phonemes": ["/'d","ɔ","t","ɚ/"],
       "phonics":  ["/'d","aw","t","er/"],
-      "tags": ["vowel_team","rcontrolled"],
+      "tags": ["vowel_team"],
       "hearts": [false,true,false,false],
       "hint": "augh 發 aw /ɔ/。"
+    },
+        {
+      "number": "年長的；長者",
+      "word": "elder",
+      "ipa": "/ˈɛldɚ/",
+      "graphemes": ["e","l","d","er"],
+      "phonemes": ["/'ɛ","l","d","ɚ/"],
+      "phonics": ["/'ĕ","l","d","er/"],
+      "tags": ["closed"],
+      "hearts": [false,false,false,false],
+      "hint": "e 發短母音 e /ɛ/。"
     },
     {
       "number": "👧🏻孫女",
@@ -55,6 +77,18 @@
       "hearts": [false,false,false,false,true,false,true,false],
       "hint": "grand + son；o 發短母音 u /ʌ/；d 通常不發音。"
     },
+
+    {
+      "number": "成長；種植",
+      "word": "grow",
+      "ipa": "/ɡroʊ/",
+      "graphemes": ["g","r","ow"],
+      "phonemes": ["/ɡ","r","oʊ/"],
+      "phonics": ["/ɡ","r","ō/"],
+      "tags": ["cluster","vowel_team"],
+      "hearts": [false,false,false],
+      "hint": "ow 發長母音 o /oʊ/。"
+    },
     {
       "number": "👨🏻👩🏻大人；成年人",
       "word": "grown-up",
@@ -77,6 +111,17 @@
       "hearts": [false,false,true,false,false,false,false],
       "hint": "s 讀 z /z/；a 弱化為 /ə/。"
     },
+        {
+      "number": "結婚",
+      "word": "marry",
+      "ipa": "/ˈmæri/",
+      "graphemes": ["m","a","rr","y"],
+      "phonemes": ["/'m","ɛ","r","i/"],
+      "phonics": ["/'m","ĕ","r","ē/"],
+      "tags": ["irregular"],
+      "hearts": [false,false,false,false],
+      "hint": "a 發短母音 e /ɛ/；部份地區 a 發短母音 a /æ/；字尾 y 發長母音 e /i/。"
+    },
     {
       "number": "👩🏻‍❤️‍👨🏻已婚的",
       "word": "married",
@@ -84,10 +129,46 @@
       "graphemes": ["m","a","rr","ie","d"],
       "phonemes": ["/'m","ɛ","r","i","d/"],
       "phonics":  ["/'m","ĕ","r","ē","d/"],
-      "tags": ["rcontrolled"],
+      "tags": ["irregular"],
       "hearts": [false,false,false,true,false],
-      "hint": "ie 讀長母音 e /i/。"
+      "hint": "ie 發長母音 e /i/。"
     },
+    {
+      "number": "👦🏻外甥；姪子",
+      "word": "nephew",
+      "ipa": "/ˈnɛfju/",
+      "graphemes": ["n","e","ph","ew"],
+      "phonemes": ["/'n","ɛ","f","ju/"],
+      "phonics": ["/'n","ĕ","f","yū/"],
+      "tags": ["closed","digraph"],
+      "hearts": [false,false,false,false],
+      "hint": "e 發短母音 e /ɛ/；ph 發 /f/；ew 發 yū /ju/。"
+    },
+    {
+      "number": "👧🏻外甥女；姪女",
+      "word": "niece",
+      "ipa": "/nis/",
+      "graphemes": ["n","ie","c","e"],
+      "phonemes": ["/n","i","s","-/"],
+      "phonics": ["/n","ī","s","-/"],
+      "tags": ["irregular"],
+      "hearts": [false,true,false,true],
+      "hint": "ie 發長母音 e /i/；詞尾 e 不發音。"
+    },
+    {
+      "number": "親戚",
+      "word": "relative",
+      "ipa": "/ˈrɛlətɪv/",
+      "graphemes": ["r","e","l","a","t","i","v","e"],
+      "phonemes": ["/'r","ɛ","l","ə","t","ɪ","v","-/"],
+      "phonics": ["/'r","ĕ","l","ə","t","ĭ","v","-/"],
+      "tags": ["closed"],
+      "hearts": [false,false,false,false,false,false,false,true],
+      "hint": "第一個 e 發短母音 e /ɛ/；v 之後字尾補靜音 e。"
+    },
+
+
+
     {
       "number": "👨🏻👩🏻父母親（之一）",
       "word": "parent",
