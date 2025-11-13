@@ -43,7 +43,8 @@
       "title": "Animals 動物",
       "levels": [
         { "label": "1",  "src": "data/animals-1.json" },
-        { "label": "2", "src": "data/animals-2.json" }
+        { "label": "2", "src": "data/animals-2.json" },
+        { "label": "3", "src": "data/animals-3.json" }
       ]
     },
     {
@@ -100,6 +101,7 @@
     }
   ]
 }
+
 
 
 
