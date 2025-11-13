@@ -7,7 +7,7 @@
       "graphemes": ["a","n","t"],
       "phonemes": ["/æ","n","t/"],
       "phonics": ["/ă","n","t/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [false,false,false],
       "hint": "a 發短母音 /æ/。"
     },
@@ -18,7 +18,7 @@
       "graphemes": ["b","ar","k"],
       "phonemes": ["/b","ɑr","k/"],
       "phonics": ["/b","ɑr","k/"],
-      "tags": ["rcontrolled","closed"],
+      "tags": ["rcontrolled"],
       "hearts": [false,false,false],
       "hint": "ar 發 /ɑr/。"
     },
@@ -30,7 +30,7 @@
       "phonemes": ["/b","aɪ","t","-/"],
       "phonics": ["/b","ī","t","-/"],
       "tags": ["magic_e"],
-      "hearts": [false,false,false,true],
+      "hearts": [false,false,false,false],
       "hint": "i_e：i 發 /aɪ/；字尾 e 不發音。"
     },
     {
@@ -40,9 +40,9 @@
       "graphemes": ["b","u","ɡ"],
       "phonemes": ["/b","ʌ","ɡ/"],
       "phonics": ["/b","ŭ","ɡ/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [false,false,false],
-      "hint": "u 發 /ʌ/。"
+      "hint": "u 發短母音 u /ʌ/。"
     },
     {
       "number": "🪳 蟑螂",
@@ -51,9 +51,9 @@
       "graphemes": ["c","o","ck","r","o","a","ch"],
       "phonemes": ["/'k","ɑ","k","r","oʊ","-","tʃ/"],
       "phonics": ["/'k","ŏ","k","r","ō","-","ch/"],
-      "tags": ["digraph","vowel_team","cluster","closed"],
+      "tags": ["closed","digraph"],
       "hearts": [false,false,false,false,false,false,false],
-      "hint": "ck 發 /k/；oa 發 /oʊ/；ch 發 /tʃ/。"
+      "hint": "第一個 o 發短母音 o /ɑ/；ck 發 /k/；oa 發長母音 o /oʊ/；ch 發 /tʃ/。"
     },
     {
       "number": "🦀 螃蟹",
@@ -62,9 +62,9 @@
       "graphemes": ["c","r","a","b"],
       "phonemes": ["/k","r","æ","b/"],
       "phonics": ["/k","r","ă","b/"],
-      "tags": ["cluster","closed"],
+      "tags": ["cluster","cvc"],
       "hearts": [false,false,false,false],
-      "hint": "cr- 子音連綴；a 發 /æ/。"
+      "hint": "a 發短母音 a /æ/。"
     },
     {
       "number": "🫎 鹿",
@@ -72,10 +72,10 @@
       "ipa": "/dɪr/",
       "graphemes": ["d","ee","r"],
       "phonemes": ["/d","ɪ","r/"],
-      "phonics": ["/d","ē","r/"],
-      "tags": ["vowel_team","rcontrolled"],
+      "phonics": ["/d","ĭ","r/"],
+      "tags": ["vowel_team"],
       "hearts": [false,false,false],
-      "hint": "ee 發 /i/；尾音 r 控制。"
+      "hint": "ee 發短母音 i /ɪ/。"
     },
     {
       "number": "🐉 龍（幻想生物）",
@@ -86,7 +86,7 @@
       "phonics": ["/'d","r","ă","ɡ","ə","n/"],
       "tags": ["cluster","closed"],
       "hearts": [false,false,false,false,false,false],
-      "hint": "dr- 子音連綴；第二音節為弱讀 /ə/。"
+      "hint": "a 發短母音 a /æ/。"
     },
     {
       "number": "🦊 狐狸",
@@ -95,9 +95,20 @@
       "graphemes": ["f","o","x"],
       "phonemes": ["/f","ɑ","ks/"],
       "phonics": ["/f","ŏ","ks/"],
-      "tags": ["closed","cluster"],
+      "tags": ["cvc"],
       "hearts": [false,false,false],
-      "hint": "x 讀 /ks/。"
+      "hint": "o 發短母音 o /ɑ/；x 發 /ks/。"
+    },
+        {
+      "number": "🪿 鵝",
+      "word": "goose",
+      "ipa": "/gus/",
+      "graphemes": ["g","oo","s","e"],
+      "phonemes": ["/g","u","s","-/"],
+      "phonics": ["/g","ū","s","-/"],
+      "tags": ["vowel_team"],
+      "hearts": [false,false,false,true],
+      "hint": "oo 發長母音 u /u/；s 之後字尾補靜音 e。"
     },
     {
       "number": "🪿 鵝（複數）",
@@ -106,21 +117,11 @@
       "graphemes": ["g","ee","s","e"],
       "phonemes": ["/g","i","s","-/"],
       "phonics": ["/g","ē","s","-/"],
-      "tags": ["vowel_team","magic_e"],
+      "tags": ["vowel_team"],
       "hearts": [false,true,false,true],
-      "hint": "ee 發 /i/；字尾 e 不發音。"
+      "hint": "ee 發長母音 e /i/；s 之後字尾補靜音 e。"
     },
-    {
-      "number": "🪿 鵝（單數）",
-      "word": "goose",
-      "ipa": "/gus/",
-      "graphemes": ["g","oo","s","e"],
-      "phonemes": ["/g","u","s","-/"],
-      "phonics": ["/g","ū","s","-/"],
-      "tags": ["vowel_team","magic_e"],
-      "hearts": [false,false,false,true],
-      "hint": "oo 發 /u/；字尾 e 不發音。"
-    },
+
     {
       "number": "🐔 母雞",
       "word": "hen",
@@ -128,7 +129,7 @@
       "graphemes": ["h","e","n"],
       "phonemes": ["/h","ɛ","n/"],
       "phonics": ["/h","ĕ","n/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [false,false,false],
       "hint": "e 發短母音 /ɛ/。"
     },
@@ -141,7 +142,7 @@
       "phonics": ["/'ĭ","n","s","ĕ","k","t/"],
       "tags": ["closed","cluster"],
       "hearts": [false,false,false,false,false,false],
-      "hint": "c 在 e 前讀 /s/，此字例外讀 /k/。"
+      "hint": "i 發短母音 i /ɪ/；c 發 /k/。"
     },
     {
       "number": "🐨 無尾熊",
@@ -150,20 +151,20 @@
       "graphemes": ["k","o","a","l","a"],
       "phonemes": ["/k","oʊ","'ɑ","l","ə/"],
       "phonics": ["/k","ō","'ŏ","l","ə/"],
-      "tags": ["open","irregular"],
+      "tags": ["irregular"],
       "hearts": [false,false,false,false,false],
-      "hint": "oa 在此兩音節分開：/oʊ/ + /ɑ/。"
+      "hint": "oa 分為兩音節：長 o /oʊ/ + 短 o /ɑ/。"
     },
     {
-      "number": "🐑 小羊",
+      "number": "🐑 小綿羊",
       "word": "lamb",
       "ipa": "/læm/",
       "graphemes": ["l","a","m","b"],
       "phonemes": ["/l","æ","m","-/"],
       "phonics": ["/l","ă","m","-/"],
-      "tags": ["silent_consonant","closed"],
+      "tags": ["cvc","silent_consonant"],
       "hearts": [false,false,false,true],
-      "hint": "字尾 b 不發音。"
+      "hint": "sheep 的幼崽；a 發短母音 a /æ/；字尾 b 不發音。"
     },
     {
       "number": "👾 怪物",
@@ -172,9 +173,9 @@
       "graphemes": ["m","o","n","s","t","er"],
       "phonemes": ["/'m","ɑ","n","s","t","ɚ/"],
       "phonics": ["/'m","ŏ","n","s","t","er/"],
-      "tags": ["cluster","rcontrolled","closed"],
+      "tags": ["closed"],
       "hearts": [false,false,false,false,false,false],
-      "hint": "er 發 /ɚ/。"
+      "hint": "o 發短母音 o /ɑ/；er 發 /ɚ/。"
     },
     {
       "number": "🦟 蚊子",
@@ -183,9 +184,9 @@
       "graphemes": ["m","o","s","qu","i","t","o"],
       "phonemes": ["/m","ə","s","k","i","t","oʊ/"],
       "phonics": ["/m","ə","s","k","ē","t","ō/"],
-      "tags": ["irregular","cluster","open"],
+      "tags": ["irregular"],
       "hearts": [false,false,false,true,false,false,false],
-      "hint": "qu 在此讀 /k/（外來字）。"
+      "hint": "qu 發 /k/，在 s 之後音如 ㄍ；i 發長母音 e /i/。"
     },
     {
       "number": "🐂 公牛",
@@ -194,9 +195,9 @@
       "graphemes": ["o","x"],
       "phonemes": ["/ɑ","ks/"],
       "phonics": ["/ŏ","ks/"],
-      "tags": ["closed","cluster"],
+      "tags": ["cvc"],
       "hearts": [false,false],
-      "hint": "x 讀 /ks/。"
+      "hint": "o 發短母音 o /ɑ/；x 讀 /ks/。"
     },
     {
       "number": "🕊 鴿子",
@@ -205,9 +206,9 @@
       "graphemes": ["p","i","ge","o","n"],
       "phonemes": ["/'p","ɪ","dʒ","ə","n/"],
       "phonics": ["/'p","ĭ","-j","ə","n/"],
-      "tags": ["irregular","digraph"],
-      "hearts": [false,false,true,false,false],
-      "hint": "ge 讀 /dʒ/；o 弱讀 /ə/。"
+      "tags": ["closed","digraph"],
+      "hearts": [false,false,false,false,false],
+      "hint": "i 發短母音 i /ɪ/；ge 發 j /dʒ/。"
     },
     {
       "number": "🐀 老鼠",
@@ -216,9 +217,9 @@
       "graphemes": ["r","a","t"],
       "phonemes": ["/r","æ","t/"],
       "phonics": ["/r","ă","t/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [false,false,false],
-      "hint": "a 發 /æ/。"
+      "hint": "a 發短母音 a /æ/。"
     },
     {
       "number": "🦐 蝦",
@@ -227,20 +228,20 @@
       "graphemes": ["sh","r","i","m","p"],
       "phonemes": ["/ʃ","r","ɪ","m","p/"],
       "phonics": ["/sh","r","ĭ","m","p/"],
-      "tags": ["digraph","cluster","closed"],
+      "tags": ["digraph","cvc","cluster"],
       "hearts": [false,false,false,false,false],
-      "hint": "sh 發 /ʃ/；shr- 為三音連綴。"
+      "hint": "sh 發 /ʃ/；i 發短母音 i /ɪ/。"
     },
     {
-      "number": "吞嚥",
+      "number": "燕子；吞嚥",
       "word": "swallow",
       "ipa": "/ˈswæloʊ/",
       "graphemes": ["s","w","a","ll","ow"],
-      "phonemes": ["/'s","w","æ","l","oʊ/"],
-      "phonics": ["/'s","w","ă","l","ō/"],
-      "tags": ["floss","vowel_team","cluster"],
+      "phonemes": ["/'s","w","ɑ","l","oʊ/"],
+      "phonics": ["/'s","w","ŏ","l","ō/"],
+      "tags": ["irregular"],
       "hearts": [false,false,false,false,false],
-      "hint": "ow 發 /oʊ/；ll 重複字母。"
+      "hint": "a 在 w 之後常發短母音 o /ɑ/；ll 重複字母。"
     },
     {
       "number": "🦃 火雞",
@@ -249,9 +250,9 @@
       "graphemes": ["t","ur","k","ey"],
       "phonemes": ["/'t","ɝ","k","i/"],
       "phonics": ["/'t","er","k","ē/"],
-      "tags": ["rcontrolled","vowel_team"],
+      "tags": ["rcontrolled"],
       "hearts": [false,false,false,false],
-      "hint": "ur 發 /ɝ/；ey 在此發 /i/。"
+      "hint": "ur 發 er /ɝ/；ey 發長母音 e /i/。"
     },
     {
       "number": "🐢 烏龜",
@@ -262,7 +263,7 @@
       "phonics": ["/'t","er","t","əl/"],
       "tags": ["rcontrolled","cle"],
       "hearts": [false,false,false,false],
-      "hint": "ur 發 /ɝ/；-le 為子音+le 音節 /əl/。"
+      "hint": "ur 發 er /ɝ/；-le 發 /əl/。"
     },
     {
       "number": "🐺 狼",
@@ -271,9 +272,9 @@
       "graphemes": ["w","o","l","f"],
       "phonemes": ["/w","ʊ","l","f/"],
       "phonics": ["/w","oo","l","f/"],
-      "tags": ["irregular","closed"],
+      "tags": ["irregular"],
       "hearts": [false,true,false,false],
-      "hint": "o 在此讀 /ʊ/。"
+      "hint": "o 發 oo /ʊ/。"
     },
     {
       "number": "🪱 蠕蟲",
@@ -282,9 +283,9 @@
       "graphemes": ["w","or","m"],
       "phonemes": ["/w","ɝ","m/"],
       "phonics": ["/w","er","m/"],
-      "tags": ["rcontrolled"],
-      "hearts": [false,false,false],
-      "hint": "or 在此讀 /ɝ/。"
+      "tags": ["irregular"],
+      "hearts": [false,true,false],
+      "hint": "or 發 er /ɝ/。"
     }
   ]
 }
