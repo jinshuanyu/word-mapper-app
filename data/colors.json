@@ -97,7 +97,7 @@
       "phonics": ["/'aw","r","ĭ","n","-j/"],
       "tags": ["irregular","digraph"],
       "hearts": [false,false,true,false,false],
-      "hint": "a 發短母音 i /ɪ/；ge 發 j /dʒ/。"
+      "hint": "o 發 aw /ɔ/；a 發短母音 i /ɪ/；ge 發 j /dʒ/。"
     },
     {
       "number": "💗 粉紅色；粉紅色的",
@@ -108,7 +108,7 @@
       "phonics": ["/p","ĭ","ŋ","k/"],
       "tags": ["cvc","cluster"],
       "hearts": [false,false,false,false],
-      "hint": "nk 發 /ŋk/。"
+      "hint": "i 發短母音 i /ɪ/；nk 發 /ŋk/。"
     },
     {
       "number": "🟣 紫色；紫色的",
@@ -151,7 +151,7 @@
       "phonemes": ["/w","aɪ","t","-/"],
       "phonics": ["/w","ī","t","-/"],
       "tags": ["digraph","magic_e"],
-      "hearts": [false,false,false,true],
+      "hearts": [false,false,false,false],
       "hint": "wh 發 /w/；i_e：i 發長母音 i /aɪ/。"
     },
     {
