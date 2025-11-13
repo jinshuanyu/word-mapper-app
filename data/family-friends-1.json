@@ -232,28 +232,7 @@
       "hearts": [false,true,false,false],
       "hint": "o 發短母音 u /ʌ/；th 發有聲吐舌音 /ð/。"
     },
-    {
-      "number": "👩🏻媽媽（英式）",
-      "word": "mum",
-      "ipa": "/mʌm/",
-      "graphemes": ["m","u","m"],
-      "phonemes": ["/m","ʌ","m/"],
-      "phonics":  ["/m","ŭ","m/"],
-      "tags": ["cvc"],
-      "hearts": [false,false,false],
-      "hint": "u 發短母音 u /ʌ/。"
-    },
-    {
-      "number": "年老的；舊的",
-      "word": "old",
-      "ipa": "/oʊld/",
-      "graphemes": ["o","l","d"],
-      "phonemes": ["/oʊ","l","d/"],
-      "phonics":  ["/ō","l","d/"],
-      "tags": [],
-      "hearts": [false,false,false],
-      "hint": "o 發長母音 o /oʊ/。"
-    },
+
     {
       "number": "🧍🏻人",
       "word": "person",
@@ -308,20 +287,10 @@
       "tags": ["irregular"],
       "hearts": [false,true,false,true,false],
       "hint": "o 和 e 都發短母音 i /ɪ/。"
-    },
-    {
-      "number": "年輕的",
-      "word": "young",
-      "ipa": "/jʌŋ/",
-      "graphemes": ["y","ou","ng"],
-      "phonemes": ["/j","ʌ","ŋ/"],
-      "phonics":  ["/y","ŭ","ŋ/"],
-      "tags": ["irregular","digraph"],
-      "hearts": [false,true,false],
-      "hint": "ou 發短母音 u /ʌ/。"
     }
   ]
 }
+
 
 
 
