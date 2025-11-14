@@ -21,7 +21,7 @@
 "phonics": ["/m","ī/"],
 "tags": ["open"],
 "hearts": [false,false],
-"hint": "y 在此作母音，讀長母音 i /aɪ/。"
+"hint": "y 發長母音 i /aɪ/。"
 },
 {
 "number": "我（受格）",
@@ -32,7 +32,7 @@
 "phonics": ["/m","ē/"],
 "tags": ["open"],
 "hearts": [false,false],
-"hint": "e 發長母音 e /i/；主格為 I。"
+"hint": "e 發長母音 e /i/。"
 },
 
 {
@@ -43,7 +43,7 @@
 "phonemes": ["/m","aɪ","n","-/"],
 "phonics": ["/m","ī","n","-/"],
 "tags": ["magic_e"],
-"hearts": [false,false,false,true],
+"hearts": [false,false,false,false],
 "hint": "i_e：i 發 /aɪ/；尾 e 靜音。"
 },
 
@@ -77,7 +77,7 @@
 "graphemes": ["u","s"],
 "phonemes": ["/ʌ","s/"],
 "phonics": ["/ŭ","s/"],
-"tags": ["closed"],
+"tags": ["cvc"],
 "hearts": [false,false],
 "hint": "u 發短母音 u /ʌ/。"
 },
@@ -89,9 +89,9 @@
 "graphemes": ["ou","r","s"],
 "phonemes": ["/aʊ","r","z/"],
 "phonics": ["/ow","r","z/"],
-"tags": ["vowel_team","rcontrolled"],
+"tags": ["vowel_team"],
 "hearts": [false,false,true],
-"hint": "字尾 s 發 /z/。"
+"hint": "ou 發 ow /aʊ/；字尾 s 發 /z/。"
 },
       {
       "number": "你/你們（主格/受格）",
@@ -102,7 +102,7 @@
       "phonics": ["/y", "ū/"],
       "tags": ["irregular"],
       "hearts": [false, true],
-      "hint": "第二人稱單複數代名詞；ou 發長母音 u /u/。"
+      "hint": "ou 發長母音 u /u/。"
     },
   {
 "number": "你的/你們的（所有格）",
@@ -113,7 +113,7 @@
 "phonics": ["/y","oo","r/"],
 "tags": ["irregular"],
 "hearts": [false,true,false],
-"hint": "ou 發 oo /ʊ/；注意與 you're（you are）區別。"
+"hint": "ou 發 oo /ʊ/；與 you're（you are）同音。"
 },
 {
 "number": "你的/你們的（所有格代名詞）",
@@ -124,7 +124,7 @@
 "phonics": ["/y","oo","r","z/"],
 "tags": ["irregular"],
 "hearts": [false,true,false,true],
-"hint": "字尾 s 發 /z/。"
+"hint": "ou 發 oo /ʊ/；字尾 s 發 /z/。"
 }
 
 ]
