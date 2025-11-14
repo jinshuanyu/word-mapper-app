@@ -56,7 +56,7 @@
 "phonics": ["/<u>th</u>","ĭ","s/"],
 "tags": ["digraph","cvc"],
 "hearts": [false,false,false],
-"hint": "th 發有聲吐舌音 /ð/。"
+"hint": "th 發有聲吐舌音 /ð/；i 發短母音 i /ɪ/。"
 },
         {
       "number": "那個；連接詞",
@@ -67,7 +67,7 @@
       "phonics": ["/<u>th</u>", "ă", "t/"],
       "tags": ["digraph", "cvc"],
       "hearts": [false, false, false],
-      "hint": "th 發有聲吐舌音 /ð/。"
+      "hint": "th 發有聲吐舌音 /ð/；a 發短母音 a /æ/。"
     },
     {
 "number": "這些",
