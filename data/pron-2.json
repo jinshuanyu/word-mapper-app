@@ -20,7 +20,7 @@
 "phonics": ["/h","ĭ","z/"],
 "tags": ["irregular"],
 "hearts": [false,false,true],
-"hint": "字尾 s 發 /z/。"
+"hint": "i 發短母音 i /ɪ/；字尾 s 發 /z/。"
 },
 {
 "number": "他（受格）",
@@ -65,7 +65,7 @@
 "phonics": ["/h","er","z/"],
 "tags": ["rcontrolled"],
 "hearts": [false,false,true],
-"hint": "字尾 s 發 /z/。"
+"hint": "er 發 /ɝ/；字尾 s 發 /z/。"
 },
      {
       "number": "它；這件事（主格/受格）",
@@ -87,7 +87,7 @@
 "phonics": ["/ĭ","ts/"],
 "tags": ["cvc","cluster"],
 "hearts": [false,false,false],
-"hint": "t+s 音如 ㄘ；注意與 it's（it is）區分。"
+"hint": "i 發短母音 i /ɪ/；t+s 音如 ㄘ；與 it's（it is）同音。"
 },
   {
 "number": "他們（主格）",
@@ -109,7 +109,7 @@
 "phonics": ["/<u>th</u>","ĕ","r/"],
 "tags": ["digraph","irregular"],
 "hearts": [false,true,false],
-"hint": "ei 發短母音 e /ɛ/；注意與 they're（they are）、there 區別。"
+"hint": "ei 發短母音 e /ɛ/；與 they're（they are）、there 同音。"
 },
 {
 "number": "他們（受格）",
@@ -132,7 +132,7 @@
 "phonics": ["/<u>th</u>","ĕ","r","z/"],
 "tags": ["digraph","irregular"],
 "hearts": [false,true,false,true],
-"hint": "字尾 s 讀 /z/；注意與 there's（there is）區別。"
+"hint": "ei 發短母音 e /ɛ/；字尾 s 讀 /z/；與 there's（there is）同音。"
 }
 ]
 }
