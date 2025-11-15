@@ -1,6 +1,7 @@
 {
   "items": [
-    { "number": "", "word": "A a", "graphemes": ["長母音【名】", "短母音【音】"], "phonemes": ["/eɪ/","/æ/"], "phonics": ["/ā/","/ă/"], "hint": "字母【名】即長母音 a，為雙母音 /eɪ/；短母音 a 為 /æ/（如 at）。", "audio": "audio/letters/A.mp3" },
+    { "number": "", "word": "A a", "graphemes": ["長母音【名】", "短母音【音】"], "phonemes": ["/eɪ/","/æ/"], "phonics": ["/ā/","/ă/"],,
+      "tags": ["vowel"], "hint": "字母【名】即長母音 a，為雙母音 /eɪ/；短母音 a 為 /æ/（如 at）。", "audio": "audio/letters/A.mp3" },
     { "number": "", "word": "B b", "graphemes": ["字母【名】", "字母【音】"], "phonemes": ["/bi/","/b/"], "phonics": ["/bē/","/b/"], "hint": "字母【名】結尾母音為長母音 e /i/；字母【音】為子音 /b/。", "audio": "audio/letters/B.mp3" },
     { "number": "", "word": "C c", "graphemes": ["字母【名】", "字母【音】"], "phonemes": ["/si/","/k/"], "phonics": ["/sē/","/k/"], "hint": "字母【名】結尾母音為長母音 e /i/；c 在 i, e, y 之前發子音 /s/，其他字母前發子音 /k/（cat）。", "audio": "audio/letters/C.mp3" },
     { "number": "", "word": "D d", "graphemes": ["字母【名】", "字母【音】"], "phonemes": ["/di/","/d/"], "phonics": ["/dē/","/d/"], "hint": "字母【名】結尾母音為長母音 e /i/；字母【音】為子音 /d/。", "audio": "audio/letters/D.mp3" },
