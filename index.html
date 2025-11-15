@@ -163,6 +163,7 @@
       text-rendering: optimizeLegibility;
       -webkit-text-size-adjust: 100%;
       text-size-adjust: 100%;
+      position: relative;
     }
     .phoneme-box.is-phonics{
       font-family:'Noto Sans','Noto Sans TC',sans-serif !important;
@@ -208,7 +209,7 @@
     .credits a:hover{color:#3b82f6}
 
     .searchbar{display:flex;gap:.5rem;align-items:center;justify-content:center;margin:-.3rem auto 1rem;max-width:700px}
-    .searchbar input{flex:1;padding:12px 14px;border:2px solid var(--c-border);border-radius:10px;font-size:1.15rem}
+    .searchbar input{flex:1;padding:12px 14px;border:2px solid(var(--c-border));border-radius:10px;font-size:1.15rem}
     .searchbar button{background:#e1effa;color:#0f172a;border:none;border-radius:10px;padding: 12px 18px; font-size: 1.15rem; font-weight:500;cursor:pointer}
     .searchbar button:hover{opacity:.9}
     .search-msg{margin:.25rem 0 1rem;text-align:center;font-size:.9rem;color:#64748b}
@@ -297,6 +298,48 @@
       outline:3px solid rgba(160, 175, 215, .45);
       outline-offset:2px;
     }
+
+    /* ===== 返回頂部浮動按鈕 ===== */
+    .back-to-top{
+      position:fixed;
+      right:1.4rem;
+      bottom:1.4rem;
+      z-index:50;
+      padding:.5rem .9rem;
+      border-radius:999px;
+      border:none;
+      background:#887ea6;
+      color:#fff;
+      font-size:.9rem;
+      font-weight:700;
+      cursor:pointer;
+      box-shadow:0 6px 14px rgba(15,23,42,.18);
+      opacity:0;
+      pointer-events:none;
+      transform:translateY(6px);
+      transition:opacity .2s ease, transform .15s ease, box-shadow .2s ease, background .2s ease;
+    }
+    .back-to-top.visible{
+      opacity:1;
+      pointer-events:auto;
+      transform:translateY(0);
+    }
+    .back-to-top:hover{
+      background:#6f668f;
+      box-shadow:0 10px 20px rgba(15,23,42,.22);
+    }
+    .back-to-top:focus{
+      outline:3px solid rgba(136,126,166,.45);
+      outline-offset:2px;
+    }
+    @media (max-width:768px){
+      .back-to-top{
+        right:1rem;
+        bottom:1rem;
+        font-size:.85rem;
+        padding:.45rem .85rem;
+      }
+    }
   </style>
 </head>
 
@@ -335,6 +378,9 @@
       © 2025 Christina Yu. All rights reserved.
     </footer>
   </div>
+
+  <!-- 浮動【top】按鈕 -->
+  <button id="backToTop" class="back-to-top" type="button" aria-label="返回頂部">top</button>
 
   <script>
     // ================== 全域開關 & 自動調整 ==================
@@ -668,7 +714,7 @@
             const urls = new Set();
             grid.querySelectorAll('.phoneme-box').forEach(cell=>{
               const raw = cell.textContent;
-              const u = phonemeUrl(raw);
+              const url = phonemeUrl(raw);
               if(u) urls.add(u);
             });
             await batchPrefetch(urls, PREFETCH_CONCURRENCY);
@@ -937,6 +983,25 @@
 
       document.querySelectorAll('.page-section').forEach(p=>p.classList.remove('active'));
       document.getElementById('homePage').classList.add('active');
+
+      // ===== 浮動返回頂部按鈕邏輯 =====
+      const backToTopBtn = document.getElementById('backToTop');
+      if(backToTopBtn){
+        backToTopBtn.addEventListener('click', () => {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        const toggleBackToTop = () => {
+          if (window.scrollY > 400) {
+            backToTopBtn.classList.add('visible');
+          } else {
+            backToTopBtn.classList.remove('visible');
+          }
+        };
+
+        window.addEventListener('scroll', toggleBackToTop, { passive:true });
+        toggleBackToTop();
+      }
     });
   </script>
 </body>
