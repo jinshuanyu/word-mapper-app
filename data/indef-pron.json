@@ -42,7 +42,7 @@
 "phonics": ["/'ĕ","n","ē","wŭ","n","-/"],
 "tags": ["irregular"],
 "hearts": [true,false,false,true,false,true],
-"hint": "any + one。"
+"hint": "any + one；a 發短母音 e /ɛ/。"
 },
 {
 "number": "任何人",
@@ -53,7 +53,7 @@
 "phonics": ["/'ĕ","n","ē","b","ŏ","d","ē/"],
 "tags": ["irregular"],
 "hearts": [true,false,false,false,false,false,false],
-"hint": "any + body。"
+"hint": "any + body；a 發短母音 e /ɛ/。"
 },
 {
 "number": "任何事",
@@ -64,7 +64,7 @@
 "phonics": ["/'ĕ","n","ē","th","ĭ","ŋ/"],
 "tags": ["irregular","digraph"],
 "hearts": [true,false,false,false,false,false],
-"hint": "any + thing。"
+"hint": "any + thing；a 發短母音 e /ɛ/。"
 },
 {
 "number": "兩者；雙方",
@@ -95,9 +95,9 @@
 "graphemes": ["e","v","e","r","y","o","n","e"],
 "phonemes": ["/'ɛ","v","-","r","i","wʌ","n","-/"],
 "phonics": ["/'ĕ","v","-","r","ē","wŭ","n","-/"],
-"tags": ["cluster","closed"],
+"tags": ["closed"],
 "hearts": [false,false,true,false,false,true,false,true],
-"hint": "every + one。"
+"hint": "every + one；第一個 e 發短母音 e /ɛ/。"
 },
 {
 "number": "每個人",
@@ -108,7 +108,7 @@
 "phonics": ["/'ĕ","v","-","r","ē","b","ŏ","d","ē/"],
 "tags": ["closed"],
 "hearts": [false,false,true,false,false,false,false,false,false],
-"hint": "every + body。"
+"hint": "every + body；第一個 e 發短母音 e /ɛ/。"
 },
 {
 "number": "每件事",
@@ -119,7 +119,7 @@
 "phonics": ["/'ĕ","v","-","r","ē","th","ĭ","ŋ/"],
 "tags": ["closed","digraph"],
 "hearts": [false,false,true,false,false,false,false,false],
-"hint": "every + thing。"
+"hint": "every + thing；第一個 e 發短母音 e /ɛ/。"
 },
 {
 "number": "許多（可數）",
@@ -128,9 +128,9 @@
 "graphemes": ["m","a","n","y"],
 "phonemes": ["/'m","ɛ","n","i/"],
 "phonics": ["/'m","ĕ","n","ē/"],
-"tags": ["closed","open"],
+"tags": ["irregular"],
 "hearts": [false,false,false,false],
-"hint": "y 字尾讀 /i/。"
+"hint": "a 發短母音 e /ɛ/；y 發長母音 e /i/。"
 },
 {
 "number": "大多數；多半",
@@ -150,9 +150,9 @@
 "graphemes": ["n","o","b","o","d","y"],
 "phonemes": ["/'n","oʊ","b","ɑ","d","i/"],
 "phonics": ["/'n","ō","b","ŏ","d","ē/"],
-"tags": ["open","closed"],
+"tags": ["open"],
 "hearts": [false,false,false,false,false,false],
-"hint": "no + body。"
+"hint": "no + body；第一個 o 發長母音 o /oʊ/。"
 },
 {
 "number": "沒有；無一",
@@ -207,7 +207,7 @@
 "phonics": ["/s","ŭ","m","-/"],
 "tags": ["irregular"],
 "hearts": [false,true,false,true],
-"hint": "o 發短母音 u /ʌ/；字尾 e 靜音。。"
+"hint": "o 發短母音 u /ʌ/；字尾 e 靜音。"
 },
 {
 "number": "某人",
@@ -218,7 +218,7 @@
 "phonics": ["/'s","ŭ","m","-","wŭ","n","-/"],
 "tags": ["irregular"],
 "hearts": [false,true,false,true,true,false,true],
-"hint": "some + one。"
+"hint": "some + one；o 發短母音 u /ʌ/。"
 },
 {
 "number": "某人",
@@ -229,7 +229,7 @@
 "phonics": ["/'s","ŭ","m","-","b","ŏ","d","ē/"],
 "tags": ["irregular"],
 "hearts": [false,true,false,true,false,false,false,false],
-"hint": "some + body。"
+"hint": "some + body；o 發短母音 u /ʌ/。"
 },
 {
 "number": "某事；某物",
@@ -240,7 +240,7 @@
 "phonics": ["/'s","ŭ","m","-","th","ĭ","ŋ/"],
 "tags": ["irregular","digraph"],
 "hearts": [false,true,false,true,false,false,false],
-"hint": "some + thing。"
+"hint": "some + thing；o 發短母音 u /ʌ/。"
 }
 ]
 }
