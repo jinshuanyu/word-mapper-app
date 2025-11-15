@@ -115,11 +115,11 @@
 "number": "因此",
 "word": "therefore",
 "ipa": "/ˈðɛrˌfɔr/",
-"graphemes": ["th","e","r","e","f","or","e"],
-"phonemes": ["/'ð","ɛ","r","-","f","ɔr","-/"],
-"phonics": ["/'<u>th</u>","ĕ","r","-","f","or","-/"],
+"graphemes": ["th","e","r","e","f","ore"],
+"phonemes": ["/'ð","ɛ","r","-","f","ɔr/"],
+"phonics": ["/'<u>th</u>","ĕ","r","-","f","or/"],
 "tags": ["digraph","irregular"],
-"hearts": [false,false,false,true,false,false,true],
+"hearts": [false,true,false,true,false,false],
 "hint": "e 發短母音 e /ɛ/；ore 發 or /ɔr/。"
 },
 {
