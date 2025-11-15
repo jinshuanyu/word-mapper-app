@@ -9,7 +9,7 @@
       "phonics": ["/ă", "n", "d/"],
       "tags": ["cvc"],
       "hearts": [false, false, false],
-      "hint": "短母音 a /æ/；口語常弱化為 /ən(d)/。"
+      "hint": "a 發短母音 a /æ/；口語常弱化為 /ən(d)/。"
     },
 
 {
@@ -21,7 +21,7 @@
 "phonics": ["/ă","z/"],
 "tags": ["closed"],
 "hearts": [false,false],
-"hint": "s 發 /z/。"
+"hint": "a 發短母音 a /æ/；s 發 /z/。"
 },
 {
 "number": "因為",
@@ -98,7 +98,7 @@
 "phonics": ["/s","ĭ","n","s","-/"],
 "tags": ["closed"],
 "hearts": [false,false,false,false,true],
-"hint": "c 在 e 前讀 /s/；詞尾 e 不發音。"
+"hint": "i 發短母音 i /ɪ/；c 在 e 前讀 /s/；詞尾 e 不發音。"
 },
 {
 "number": "比...更...",
@@ -120,7 +120,7 @@
 "phonics": ["/'<u>th</u>","ĕ","r","-","f","or","-/"],
 "tags": ["digraph","irregular"],
 "hearts": [false,false,false,true,false,false,true],
-"hint": "or 讀 /ɔr/；詞尾 e 不發音。"
+"hint": "e 發短母音 e /ɛ/；ore 發 or /ɔr/。"
 },
 {
 "number": "雖然",
@@ -140,7 +140,7 @@
 "graphemes": ["a","l","th","ough"],
 "phonemes": ["/ɔ","l","'ð","oʊ/"],
 "phonics": ["/aw","l","'<u>th</u>","ō/"],
-"tags": ["digraph","vowel_team","irregular"],
+"tags": ["digraph","vowel_team"],
 "hearts": [false,false,false,true],
 "hint": "ough 發長母音 o /oʊ/。"
 }
