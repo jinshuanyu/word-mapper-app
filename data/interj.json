@@ -94,7 +94,7 @@
       "ipa": "/həˈloʊ/",
       "graphemes": ["h","e","ll","o"],
       "phonemes": ["/h","ə","'l","oʊ/"],
-      "phonics": ["/h","ə","l","ō/"],
+      "phonics": ["/h","ə","'l","ō/"],
       "tags": ["irregular"],
       "hearts": [false,false,false,false],
       "hint": "ll 重複字母；o 發長母音 o /oʊ/。"
@@ -116,7 +116,7 @@
       "ipa": "/ɡʊdˈbaɪ/",
       "graphemes": ["g","oo","d","-","b","y","e"],
       "phonemes": ["/ɡ","ʊ","d","-","'b","aɪ","-/"],
-      "phonics": ["/g","oo","d","-","'b","ī","-/"],
+      "phonics": ["/ɡ","oo","d","-","'b","ī","-/"],
       "tags": ["irregular"],
       "hearts": [false,false,false,false,false,false,true],
       "hint": "good + bye；y 發長母音 i /aɪ/；e 不發音。"
