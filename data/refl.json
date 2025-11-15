@@ -10,7 +10,7 @@
       "phonics": ["/m","ī","'s","ĕ","l","f/"],
       "tags": ["closed","suffix"],
       "hearts": [false,false,false,false,false,false],
-      "hint": "my + self；重音在第二音節。"
+      "hint": "my + self；e 發短母音 e /ɛ/。"
     },
     {
       "number": "你自己",
@@ -21,7 +21,7 @@
       "phonics": ["/y","oo","r","'s","ĕ","l","f/"],
       "tags": ["closed","suffix"],
       "hearts": [false,false,false,false,false,false],
-      "hint": "your + self；重音在第二音節。"
+      "hint": "your + self；e 發短母音 e /ɛ/。"
     },
     {
       "number": "他自己",
@@ -32,7 +32,7 @@
       "phonics": ["/h","ĭ","m","'s","ĕ","l","f/"],
       "tags": ["closed","suffix"],
       "hearts": [false,false,false,false,false,false,false],
-      "hint": "him + self；注意不是 “his + self”；重音在第二音節。"
+      "hint": "him + self；注意不是 “his + self”；e 發短母音 e /ɛ/。"
     },
     {
       "number": "她自己",
@@ -43,7 +43,7 @@
       "phonics": ["/h","er","'s","ĕ","l","f/"],
       "tags": ["closed","suffix"],
       "hearts": [false,false,false,false,false,false],
-      "hint": "her + self；重音在第二音節。"
+      "hint": "her + self；e 發短母音 e /ɛ/。"
     },
     {
       "number": "它自己",
@@ -54,7 +54,7 @@
       "phonics": ["/ĭ","t","'s","ĕ","l","f/"],
       "tags": ["closed","suffix"],
       "hearts": [false,false,false,false,false,false],
-      "hint": "it + self；注意不是 “its + self”；重音在第二音節。"
+      "hint": "it + self；注意不是 “its + self”；e 發短母音 e /ɛ/。"
     },
 
     {
@@ -66,7 +66,7 @@
       "phonics":  ["/ow","r","'s","ĕ","l","v","-","z/"],
       "tags": ["irregular","suffix"],
       "hearts":  [false,false,false,false,false,false,true,false],
-      "hint": "our + selves；最後一個 e 不發音；詞尾 s 讀 /z/。"
+      "hint": "our + selves；重音節 e 發短母音 e /ɛ/；最後一個 e 不發音；詞尾 s 讀 /z/。"
     },
     {
   "number": "你們自己",
@@ -77,7 +77,7 @@
   "phonics": ["/y","oo","r","'s","ĕ","l","v","-","z/"],
   "tags": ["irregular","suffix"],
   "hearts": [false,true,false,false,false,false,false,true,false],
-  "hint": "your + selves；最後一個 e 不發音；詞尾 s 讀 /z/。"
+  "hint": "your + selves；重音節 e 發短母音 e /ɛ/；最後一個 e 不發音；詞尾 s 讀 /z/。"
 },
 
     {
@@ -89,7 +89,7 @@
       "phonics":   ["/<u>th</u>","ə","m","'s","ĕ","l","v","-","z/"],
       "tags": ["digraph","irregular","suffix"],
       "hearts": [false,false,false,false,false,false,false,true,false],
-      "hint": "them + selves；注意不是 “their + selves”；最後一個 e 不發音；詞尾 s 讀 /z/。"
+      "hint": "them + selves；注意不是 “their + selves”；重音節 e 發短母音 e /ɛ/；最後一個 e 不發音；詞尾 s 讀 /z/。"
     }
   ]
 }
