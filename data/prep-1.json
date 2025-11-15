@@ -29,9 +29,9 @@
       "graphemes": ["a","c","r","o","ss"],
       "phonemes": ["/ə","'k","r","ɔ","s/"],
       "phonics": ["/ə","'k","r","aw","s/"],
-      "tags": ["closed","floss"],
+      "tags": ["floss"],
       "hearts": [false,false,false,false,false],
-      "hint": "o 發 /ɔ/；ss 重複字母。"
+      "hint": "o 發 aw /ɔ/；ss 重複字母。"
     },
     {
       "number": "在…之後",
@@ -40,9 +40,9 @@
       "graphemes": ["a","f","t","er"],
       "phonemes": ["/'æ","f","t","ɚ/"],
       "phonics": ["/'ă","f","t","er/"],
-      "tags": ["rcontrolled"],
+      "tags": ["closed"],
       "hearts": [false,false,false,false],
-      "hint": "er 發 /ɚ/。"
+      "hint": "a 發短母音 a /æ/。"
     },
     {
       "number": "反對；靠著",
@@ -51,9 +51,9 @@
       "graphemes": ["a","g","ai","n","s","t"],
       "phonemes": ["/ə","'ɡ","ɛ","n","s","t/"],
       "phonics": ["/ə","'ɡ","ĕ","n","s","t/"],
-      "tags": ["closed"],
-      "hearts": [false,false,false,false,false,false],
-      "hint": "ai 在此讀短母音 e /ɛ/。"
+      "tags": ["irregular"],
+      "hearts": [false,false,true,false,false,false],
+      "hint": "ai 發短母音 e /ɛ/。"
     },
     {
       "number": "沿著",
@@ -64,7 +64,7 @@
       "phonics": ["/ə","'l","aw","ŋ/"],
       "tags": ["digraph"],
       "hearts": [false,false,false,false],
-      "hint": "o 發 /ɔ/；ng 發 /ŋ/。"
+      "hint": "o 發 aw /ɔ/；ng 發 /ŋ/。"
     },
     {
       "number": "在…之中",
@@ -73,9 +73,9 @@
       "graphemes": ["a","m","o","ng"],
       "phonemes": ["/ə","'m","ʌ","ŋ/"],
       "phonics": ["/ə","'m","ŭ","ŋ/"],
-      "tags": ["digraph"],
-      "hearts": [false,false,false,false],
-      "hint": "o 發 /ʌ/；ng 發 /ŋ/。"
+      "tags": ["irregular","digraph"],
+      "hearts": [false,false,true,false],
+      "hint": "o 發短母音 u /ʌ/；ng 發 /ŋ/。"
     },
     {
       "number": "環繞；在周圍",
@@ -95,20 +95,20 @@
       "graphemes": ["a","t"],
       "phonemes": ["/æ","t/"],
       "phonics": ["/ă","t/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [false,false],
-      "hint": "a 發短母音 /æ/。"
+      "hint": "a 發短母音 a /æ/。"
     },
     {
       "number": "在…之前",
       "word": "before",
       "ipa": "/bɪˈfɔr/",
-      "graphemes": ["b","e","f","or","e"],
-      "phonemes": ["/b","ɪ","'f","ɔr","-/"],
-      "phonics": ["/b","ĭ","'f","or","-/"],
-      "tags": ["rcontrolled"],
-      "hearts": [false,false,false,false,true],
-      "hint": "or 發 /ɔr/；詞尾 e 不發音。"
+      "graphemes": ["b","e","f","ore"],
+      "phonemes": ["/b","ɪ","'f","ɔr/"],
+      "phonics": ["/b","ĭ","'f","or/"],
+      "tags": ["magic_c","rcontrolled"],
+      "hearts": [false,false,false,false],
+      "hint": "ore 發 or /ɔr/。"
     },
     {
       "number": "在後面",
@@ -117,17 +117,17 @@
       "graphemes": ["b","e","h","i","n","d"],
       "phonemes": ["/b","ɪ","'h","aɪ","n","d/"],
       "phonics": ["/b","ĭ","'h","ī","n","d/"],
-      "tags": ["open"],
-      "hearts": [false,false,false,false,false,false],
+      "tags": [],
+      "hearts": [false,false,false,true,false,false],
       "hint": "i 發長母音 i /aɪ/。"
     },
     {
       "number": "在…之下",
       "word": "below",
       "ipa": "/bɪˈloʊ/",
-      "graphemes": ["b","e","l","o","w"],
-      "phonemes": ["/b","ɪ","'l","oʊ","/"],
-      "phonics": ["/b","ĭ","'l","ō","/"],
+      "graphemes": ["b","e","l","ow"],
+      "phonemes": ["/b","ɪ","'l","oʊ/"],
+      "phonics": ["/b","ĭ","'l","ō/"],
       "tags": ["vowel_team"],
       "hearts": [false,false,false,false,false],
       "hint": "ow 發長母音 o /oʊ/。"
@@ -140,8 +140,8 @@
       "phonemes": ["/b","ɪ","'s","aɪ","d","-/"],
       "phonics": ["/b","ĭ","'s","ī","d","-/"],
       "tags": ["magic_e"],
-      "hearts": [false,false,false,false,false,true],
-      "hint": "i_e：i 發長母音 /aɪ/。"
+      "hearts": [false,false,false,false,false,false],
+      "hint": "i_e：i 發長母音 /aɪ/，e 不發音。"
     },
     {
       "number": "在…之間",
@@ -150,7 +150,7 @@
       "graphemes": ["b","e","t","w","ee","n"],
       "phonemes": ["/b","ɪ","'t","w","i","n/"],
       "phonics": ["/b","ĭ","'t","w","ē","n/"],
-      "tags": ["vowel_team","cluster"],
+      "tags": ["cluster","vowel_team"],
       "hearts": [false,false,false,false,false,false],
       "hint": "ee 發長母音 e /i/。"
     },
@@ -191,12 +191,12 @@
       "number": "在…期間",
       "word": "during",
       "ipa": "/ˈdjʊrɪŋ/",
-      "graphemes": ["d","ur","i","ng"],
+      "graphemes": ["d","u","r","i","ng"],
       "phonemes": ["/'d","ʊ","r","ɪ","ŋ/"],
       "phonics": ["/'d","oo","r","ĭ","ŋ/"],
       "tags": ["rcontrolled","digraph"],
       "hearts": [false,false,false,false,false],
-      "hint": "ur 發 /ʊr/；ng 發 /ŋ/。"
+      "hint": "ur 發 oor /ʊr/；ng 發 /ŋ/。"
     }
   ]
 }
