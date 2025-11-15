@@ -7,9 +7,9 @@
       "graphemes": ["o","h"],
       "phonemes": ["/oʊ","-/"],
       "phonics": ["/ō","-/"],
-      "tags": ["irregular","silent_consonant","open"],
+      "tags": ["irregular","silent_consonant"],
       "hearts": [false,true],
-      "hint": "h 不發音；o 發長母音 o /oʊ/。"
+      "hint": "o 發長母音 o /oʊ/；h 不發音。"
     },
     {
       "number": "哇（驚嘆）",
@@ -40,7 +40,7 @@
       "graphemes": ["oo","p","s"],
       "phonemes": ["/u","p","s/"],
       "phonics": ["/ū","p","s/"],
-      "tags": ["vowel_team","closed"],
+      "tags": ["vowel_team","cluster"],
       "hearts": [false,false,false],
       "hint": "oo 發 /u/。"
     },
@@ -62,9 +62,9 @@
       "graphemes": ["a","h","a"],
       "phonemes": ["/ɑ","'h","ɑ/"],
       "phonics": ["/ŏ","'h","ŏ/"],
-      "tags": ["irregular","open"],
+      "tags": ["irregular"],
       "hearts": [false,false,false],
-      "hint": "兩個 a 皆讀 /ɑ/；中間 h 保持氣音。"
+      "hint": "兩個 a 皆發短母音 o /ɑ/。"
     },
     {
       "number": "嘿；喂（招呼／引起注意）",
@@ -75,7 +75,7 @@
       "phonics": ["/h","ā/"],
       "tags": ["vowel_team","open"],
       "hearts": [false,false],
-      "hint": "ey 在此發 /eɪ/。"
+      "hint": "ey 發長母音 a /eɪ/。"
     },
     {
       "number": "噁（嫌惡）",
@@ -84,7 +84,7 @@
       "graphemes": ["y","u","ck"],
       "phonemes": ["/j","ʌ","k/"],
       "phonics": ["/y","ŭ","k/"],
-      "tags": ["digraph","closed"],
+      "tags": ["cvc","digraph"],
       "hearts": [false,false,false],
       "hint": "u 發 /ʌ/；ck 發 /k/。"
     },
@@ -95,9 +95,9 @@
       "graphemes": ["h","e","ll","o"],
       "phonemes": ["/h","ə","'l","oʊ/"],
       "phonics": ["/h","ə","l","ō/"],
-      "tags": ["floss","irregular","open"],
+      "tags": ["irregular"],
       "hearts": [false,false,false,false],
-      "hint": "ll 重複字母；o 發 /oʊ/。"
+      "hint": "ll 重複字母；o 發長母音 o /oʊ/。"
     },
     {
       "number": "嗨",
@@ -117,9 +117,9 @@
       "graphemes": ["g","oo","d","-","b","y","e"],
       "phonemes": ["/ɡ","ʊ","d","-","'b","aɪ","-/"],
       "phonics": ["/g","oo","d","-","'b","ī","-/"],
-      "tags": ["vowel_team","irregular"],
+      "tags": ["irregular"],
       "hearts": [false,false,false,false,false,false,true],
-      "hint": "good + bye；oo 發 /ʊ/；bye 的 e 不發音。"
+      "hint": "good + bye；y 發長母音 i /aɪ/；e 不發音。"
     },
     {
       "number": "掰；再見",
@@ -130,7 +130,7 @@
       "phonics": ["/b","ī","-/"],
       "tags": ["irregular"],
       "hearts": [false,false,true],
-      "hint": "y 發 /aɪ/；詞尾 e 不發音。"
+      "hint": "y 發長母音 i /aɪ/；e 不發音。"
     }
   ]
 }
