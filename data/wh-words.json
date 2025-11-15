@@ -41,7 +41,7 @@
       "phonemes": ["/h","u/"],
       "phonics": ["/h","ū/"],
       "tags": ["irregular"],
-      "hearts": [false,true],
+      "hearts": [true,true],
       "hint": "wh 發 /h/；o 發長母音 u /u/。"
     },
     {
@@ -64,7 +64,7 @@
       "phonics": ["/w","ĕ","n/"],
       "tags": ["digraph","cvc"],
       "hearts": [false,false,false],
-      "hint": "wh 發 /w/。"
+      "hint": "wh 發 /w/；e 發短母音 e /ɛ/。"
     },
     {
       "number": "哪裡",
