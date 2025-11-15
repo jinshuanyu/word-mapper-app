@@ -17,7 +17,7 @@
       "ipa": "/waʊ/",
       "graphemes": ["w","ow"],
       "phonemes": ["/w","aʊ/"],
-      "phonics": ["/w","au/"],
+      "phonics": ["/w","ow/"],
       "tags": ["vowel_team"],
       "hearts": [false,false],
       "hint": "ow 發 /aʊ/。"
@@ -28,10 +28,10 @@
       "ipa": "/aʊtʃ/",
       "graphemes": ["ou","ch"],
       "phonemes": ["/aʊ","tʃ/"],
-      "phonics": ["/au","ch/"],
+      "phonics": ["/ow","ch/"],
       "tags": ["vowel_team","digraph"],
       "hearts": [false,false],
-      "hint": "ou 發 /aʊ/；ch 發 /tʃ/。"
+      "hint": "ou 發 ow /aʊ/；ch 發 /tʃ/。"
     },
     {
       "number": "糟了（失誤）",
@@ -42,7 +42,7 @@
       "phonics": ["/ū","p","s/"],
       "tags": ["vowel_team","cluster"],
       "hearts": [false,false,false],
-      "hint": "oo 發 /u/。"
+      "hint": "oo 發長母音 u /u/。"
     },
     {
       "number": "呼（鬆一口氣）",
