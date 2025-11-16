@@ -49,8 +49,8 @@
       "word": "in back of",
       "ipa": "/ɪn bæk ʌv/",
       "graphemes": ["i","n"," ","b","a","ck"," ","o","f"],
-      "phonemes": ["/ɪ","n"," ","'b","æ","k"," ","ʌ","v/"],
-      "phonics": ["/ĭ","n"," ","'b","ă","k"," ","ŭ","v/"],
+      "phonemes": ["/ɪ","n"," ","'b","æ","k"," ","ə","v/"],
+      "phonics": ["/ĭ","n"," ","'b","ă","k"," ","ə","v/"],
       "tags": [],
       "hearts": [false,false,false,false,false,false,false,true,true],
       "hint": "片語：在…後面。back 的 a 為短母音 /æ/。"
@@ -60,8 +60,8 @@
       "word": "in front of",
       "ipa": "/ɪn frʌnt ʌv/",
       "graphemes": ["i","n"," ","f","r","o","n","t"," ","o","f"],
-      "phonemes": ["/ɪ","n"," ","'f","r","ʌ","n","t"," ","ʌ","v/"],
-      "phonics": ["/ĭ","n"," ","'f","r","ŭ","n","t"," ","ŭ","v/"],
+      "phonemes": ["/ɪ","n"," ","'f","r","ʌ","n","t"," ","ə","v/"],
+      "phonics": ["/ĭ","n"," ","'f","r","ŭ","n","t"," ","ə","v/"],
       "tags": ["cluster","irregular"],
       "hearts": [false,false,false,false,false,true,false,false,false,true,true],
       "hint": "片語：在…前面。front 的 o 發 /ʌ/。"
@@ -81,11 +81,11 @@
       "number": "進入",
       "word": "into",
       "ipa": "/ˈɪntu/",
-      "graphemes": ["i","n","t","u"],
+      "graphemes": ["i","n","t","o"],
       "phonemes": ["/'ɪ","n","t","u/"],
       "phonics": ["/'ĭ","n","t","ū/"],
       "tags": ["closed"],
-      "hearts": [false,false,false,false],
+      "hearts": [false,false,false,true],
       "hint": "u 發長母音 u /u/。"
     },
     {
@@ -148,10 +148,10 @@
       "word": "out of",
       "ipa": "/aʊt ʌv/",
       "graphemes": ["ou","t"," ","o","f"],
-      "phonemes": ["/'aʊ","t"," ","ʌ","v/"],
-      "phonics": ["/'ow","t"," ","ŭ","v/"],
+      "phonemes": ["/'aʊ","t"," ","ə","v/"],
+      "phonics": ["/'ow","t"," ","ə","v/"],
       "tags": ["vowel_team"],
-      "hearts": [false,false,false,false],
+      "hearts": [false,false,false,true,true],
       "hint": "片語：出於／離開。of 的 o 發 /ʌ/。"
     },
     {
@@ -181,10 +181,10 @@
       "word": "next to",
       "ipa": "/nɛkst tu/",
       "graphemes": ["n","e","x","t"," ","t","o"],
-      "phonemes": ["/n","ɛ","ks","t"," ","t","u/"],
-      "phonics": ["/n","ĕ","ks","t"," ","t","ū/"],
+      "phonemes": ["/'n","ɛ","ks","t"," ","t","u/"],
+      "phonics": ["/'n","ĕ","ks","t"," ","t","ū/"],
       "tags": ["closed","cluster"],
-      "hearts": [false,false,false,false,false,false,false],
+      "hearts": [false,false,false,false,false,false,true],
       "hint": "片語：在…旁邊。"
     }
   ]
