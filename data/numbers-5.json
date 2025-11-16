@@ -136,11 +136,11 @@
       "number": "第十三",
       "word": "thirteenth",
       "ipa": "/θɝˈtin/",
-      "graphemes": ["th","ir","t","ee","n"],
-      "phonemes": ["/θ","ɝ","'t","i","n/"],
-      "phonics": ["/th","er","'t","ē","n/"],
+      "graphemes": ["th","ir","t","ee","n","th"],
+      "phonemes": ["/θ","ɝ","'t","i","n","θ/"],
+      "phonics": ["/th","er","'t","ē","n","th/"],
       "tags": ["digraph","vowel_team"],
-      "hearts": [false,false,false,false,false],
+      "hearts": [false,false,false,false,false,false],
       "hint": "重音在第二音節 -teen /ˈtin/；ir 發 er /ɝ/，ee 發長母音 e /i/。"
     },
     {
