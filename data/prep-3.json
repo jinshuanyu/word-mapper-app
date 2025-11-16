@@ -6,7 +6,7 @@
       "ipa": "/θru/",
       "graphemes": ["th","r","ough"],
       "phonemes": ["/θ","r","u/"],
-      "phonics": ["/<u>th</u>","r","ū/"],
+      "phonics": ["/th","r","ū/"],
       "tags": ["digraph","vowel_team"],
       "hearts": [false,false,true],
       "hint": "ou 讀長母音 u /u/；gh 不發音。"
@@ -137,8 +137,8 @@
       "word": "because of",
       "ipa": "/bɪˈkʌz ʌv/",
       "graphemes": ["b","e","c","au","s","e"," ","o","f"],
-      "phonemes": ["/b","ɪ","'k","ʌ","z","-/"," ","ʌ","v/"],
-      "phonics": ["/b","ĭ","'k","ŭ","z","-/"," ","ŭ","v/"],
+      "phonemes": ["/b","ɪ","'k","ʌ","z","-/"," ","ə","v/"],
+      "phonics": ["/b","ĭ","'k","ŭ","z","-/"," ","ə","v/"],
       "tags": ["irregular"],
       "hearts": [false,false,false,true,false,true,false,true,true],
       "hint": "because + of 組成片語「因為」。"
