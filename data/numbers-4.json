@@ -1,49 +1,7 @@
 {
   "items": [
-    {
-      "number": "第一",
-      "word": "first",
-      "ipa": "/fɝst/",
-      "graphemes": ["f","ir","s","t"],
-      "phonemes": ["/f","ɝ","s","t/"],
-      "phonics": ["/f","er","s","t/"],
-      "tags": ["rcontrolled"],
-      "hearts": [false,false,false,false],
-      "hint": "ir 發 /ɝ/。"
-    },
-    {
-      "number": "第二",
-      "word": "second",
-      "ipa": "/ˈsɛkənd/",
-      "graphemes": ["s","e","c","o","n","d"],
-      "phonemes": ["/'s","ɛ","k","ə","n","d/"],
-      "phonics": ["/'s","ĕ","k","ə","n","d/"],
-      "tags": ["closed"],
-      "hearts": [false,false,false,false,false,false],
-      "hint": "e 發 /ɛ/；o 弱讀 /ə/。"
-    },
-    {
-      "number": "第三",
-      "word": "third",
-      "ipa": "/θɝd/",
-      "graphemes": ["th","ir","d"],
-      "phonemes": ["/θ","ɝ","d/"],
-      "phonics": ["/th","er","d/"],
-      "tags": ["rcontrolled","digraph"],
-      "hearts": [false,false,false],
-      "hint": "th 發無聲吐舌音 /θ/；ir 發 er /ɝ/。"
-    },
-    {
-      "number": "最後",
-      "word": "last",
-      "ipa": "/læst/",
-      "graphemes": ["l","a","s","t"],
-      "phonemes": ["/l","æ","s","t/"],
-      "phonics": ["/l","ă","s","t/"],
-      "tags": ["cvc","cluster"],
-      "hearts": [false,false,false,false],
-      "hint": "a 發短母音 /æ/。"
-    },
+
+
     {
       "number": "少數；幾個",
       "word": "a few",
@@ -87,6 +45,17 @@
       "tags": ["vowel_team"],
       "hearts": [false,false],
       "hint": "ew 發 /ju/。"
+    },
+        {
+      "number": "最後",
+      "word": "last",
+      "ipa": "/læst/",
+      "graphemes": ["l","a","s","t"],
+      "phonemes": ["/l","æ","s","t/"],
+      "phonics": ["/l","ă","s","t/"],
+      "tags": ["cvc","cluster"],
+      "hearts": [false,false,false,false],
+      "hint": "a 發短母音 /æ/。"
     },
     {
       "number": "較少",
