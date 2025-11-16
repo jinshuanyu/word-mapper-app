@@ -641,7 +641,7 @@
       const cnt=document.getElementById(contentId);
       if(!cnt) return;
 
-      const allTags=['all','vowel','consonant','closed','open','magic_e','vowel_team','rcontrolled','cle','floss','digraph','cluster','suffix','silent_consonant','irregular'];
+      const allTags=['all','vowel','consonant','cvc','closed','open','magic_e','vowel_team','rcontrolled','cle','floss','digraph','cluster','suffix','silent_consonant','irregular'];
       const usedTags=new Set(['all']);
       currentTopicData.forEach(w=>{ (w.tags||[]).forEach(t=>usedTags.add(t)); });
       const existing=allTags.filter(t=>usedTags.has(t));
