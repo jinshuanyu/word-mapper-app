@@ -8,7 +8,7 @@
       "phonemes": ["/f","ɝ","s","t/"],
       "phonics": ["/f","er","s","t/"],
       "tags": ["rcontrolled","cluster"],
-      "hearts": [false,true,false,false],
+      "hearts": [false,false,false,false],
       "hint": "重音在 /ɝ/；ir 發 er /ɝ/。"
     },
     {
@@ -30,7 +30,7 @@
       "phonemes": ["/θ","ɝ","d/"],
       "phonics": ["/th","er","d/"],
       "tags": ["digraph","rcontrolled"],
-      "hearts": [false,true,false],
+      "hearts": [false,false,false],
       "hint": "重音在 /ɝ/；ir 發 er /ɝ/；th 發無聲吐舌音 /θ/。"
     },
     {
@@ -40,7 +40,7 @@
       "graphemes": ["f","our","th"],
       "phonemes": ["/f","ɔr","θ/"],
       "phonics": ["/f","or","th/"],
-      "tags": ["vowel_team","rcontrolled","digraph"],
+      "tags": ["irregular","digraph"],
       "hearts": [false,true,false],
       "hint": "重音在 /ɔr/；our 在此發 or /ɔr/；th 發無聲吐舌音 /θ/。"
     },
@@ -51,8 +51,8 @@
       "graphemes": ["f","i","f","th"],
       "phonemes": ["/f","ɪ","f","θ/"],
       "phonics": ["/f","ĭ","f","th/"],
-      "tags": ["closed","digraph"],
-      "hearts": [false,false,false,false],
+      "tags": ["cvc","digraph"],
+      "hearts": [false,false,true,false],
       "hint": "重音在 /ɪ/；i 發短母音 i /ɪ/；th 發無聲吐舌音 /θ/。"
     },
     {
@@ -62,8 +62,8 @@
       "graphemes": ["s","i","x","th"],
       "phonemes": ["/s","ɪ","ks","θ/"],
       "phonics": ["/s","ĭ","ks","th/"],
-      "tags": ["closed","cluster","digraph"],
-      "hearts": [false,false,true,false],
+      "tags": ["cvc","cluster","digraph"],
+      "hearts": [false,false,false,false],
       "hint": "重音在 /ɪ/；i 發短母音 i /ɪ/；x 發 /ks/；th 發無聲吐舌音 /θ/。"
     },
     {
@@ -81,11 +81,11 @@
       "number": "第八",
       "word": "eighth",
       "ipa": "/eɪtθ/",
-      "graphemes": ["eigh","t","th"],
-      "phonemes": ["/eɪ","t","θ/"],
-      "phonics": ["/ā","t","th/"],
+      "graphemes": ["eigh","tth"],
+      "phonemes": ["/eɪ","tθ/"],
+      "phonics": ["/ā","tth/"],
       "tags": ["vowel_team","digraph"],
-      "hearts": [true,false,false],
+      "hearts": [true,true],
       "hint": "重音在 /eɪ/；eigh 發長母音 a /eɪ/；th 發無聲吐舌音 /θ/。"
     },
     {
@@ -106,7 +106,7 @@
       "graphemes": ["t","e","n","th"],
       "phonemes": ["/t","ɛ","n","θ/"],
       "phonics": ["/t","ĕ","n","th/"],
-      "tags": ["closed","digraph"],
+      "tags": ["cvc","digraph"],
       "hearts": [false,false,false,false],
       "hint": "重音在 /ɛ/；e 發短母音 e /ɛ/；th 發無聲吐舌音 /θ/。"
     },
@@ -128,8 +128,8 @@
       "graphemes": ["t","w","e","l","f","th"],
       "phonemes": ["/t","w","ɛ","l","f","θ/"],
       "phonics": ["/t","w","ĕ","l","f","th/"],
-      "tags": ["closed","cluster","digraph"],
-      "hearts": [false,false,false,false,false,false],
+      "tags": ["cluster","cvc","digraph"],
+      "hearts": [false,false,false,false,true,false],
       "hint": "重音在 /ɛ/；e 發短母音 e /ɛ/；結尾 lfth 為子音連音。"
     },
     {
@@ -139,8 +139,8 @@
       "graphemes": ["th","ir","t","ee","n"],
       "phonemes": ["/θ","ɝ","'t","i","n/"],
       "phonics": ["/th","er","'t","ē","n/"],
-      "tags": ["digraph","rcontrolled","vowel_team"],
-      "hearts": [false,true,false,false,false],
+      "tags": ["digraph","vowel_team"],
+      "hearts": [false,false,false,false,false],
       "hint": "重音在第二音節 -teen /ˈtin/；ir 發 er /ɝ/，ee 發長母音 e /i/。"
     },
     {
@@ -150,7 +150,7 @@
       "graphemes": ["t","w","e","n","t","i","e","th"],
       "phonemes": ["/'t","w","ɛ","n","t","i","ə","θ/"],
       "phonics": ["/'t","w","ĕ","n","t","ē","ə","th/"],
-      "tags": ["cluster","digraph"],
+      "tags": ["cluster","closed","digraph"],
       "hearts": [false,false,false,false,false,true,true,false],
       "hint": "重音在第一音節 /ˈtwɛn-/；ie 在此讀 /iə/；th 發無聲吐舌音 /θ/。"
     },
@@ -162,7 +162,7 @@
       "phonemes": ["/t","w","ɛ","n","t","i","-","'f","ɝ","s","t/"],
       "phonics": ["/t","w","ĕ","n","t","ē","-","'f","er","s","t/"],
       "tags": ["cluster","rcontrolled"],
-      "hearts": [false,false,false,false,false,false,false,false,true,false,false],
+      "hearts": [false,false,false,false,false,false,false,false,false,false,false],
       "hint": "重音在 second part「first」的 /ɝ/；ir 發 er /ɝ/；twenty + first 合成。"
     }
   ]
