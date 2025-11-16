@@ -29,7 +29,7 @@
       "graphemes": ["a","c","r","o","ss"],
       "phonemes": ["/ə","'k","r","ɔ","s/"],
       "phonics": ["/ə","'k","r","aw","s/"],
-      "tags": ["floss"],
+      "tags": ["cluster","floss"],
       "hearts": [false,false,false,false,false],
       "hint": "o 發 aw /ɔ/；ss 重複字母。"
     },
@@ -51,7 +51,7 @@
       "graphemes": ["a","g","ai","n","s","t"],
       "phonemes": ["/ə","'ɡ","ɛ","n","s","t/"],
       "phonics": ["/ə","'ɡ","ĕ","n","s","t/"],
-      "tags": ["irregular"],
+      "tags": ["irregular","cluster"],
       "hearts": [false,false,true,false,false,false],
       "hint": "ai 發短母音 e /ɛ/。"
     },
@@ -84,7 +84,7 @@
       "graphemes": ["a","r","ou","n","d"],
       "phonemes": ["/ə","'r","aʊ","n","d/"],
       "phonics": ["/ə","'r","ow","n","d/"],
-      "tags": ["vowel_team"],
+      "tags": ["vowel_team","cluster"],
       "hearts": [false,false,false,false,false],
       "hint": "ou 發 ow /aʊ/。"
     },
@@ -117,7 +117,7 @@
       "graphemes": ["b","e","h","i","n","d"],
       "phonemes": ["/b","ɪ","'h","aɪ","n","d/"],
       "phonics": ["/b","ĭ","'h","ī","n","d/"],
-      "tags": [],
+      "tags": ["irregular"],
       "hearts": [false,false,false,true,false,false],
       "hint": "i 發長母音 i /aɪ/。"
     },
@@ -161,7 +161,7 @@
       "graphemes": ["b","e","y","o","n","d"],
       "phonemes": ["/b","ɪ","'j","ɑ","n","d/"],
       "phonics": ["/b","ĭ","'y","ŏ","n","d/"],
-      "tags": ["closed"],
+      "tags": ["closed","cluster"],
       "hearts": [false,false,false,false,false,false],
       "hint": "y 發 /j/；o 發短母音 o /ɑ/。"
     },
