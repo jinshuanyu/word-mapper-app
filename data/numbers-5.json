@@ -1,0 +1,169 @@
+{
+  "items": [
+    {
+      "number": "第一",
+      "word": "first",
+      "ipa": "/fɝst/",
+      "graphemes": ["f","ir","s","t"],
+      "phonemes": ["/f","ɝ","s","t/"],
+      "phonics": ["/f","er","s","t/"],
+      "tags": ["rcontrolled","cluster"],
+      "hearts": [false,true,false,false],
+      "hint": "重音在 /ɝ/；ir 發 er /ɝ/。"
+    },
+    {
+      "number": "第二",
+      "word": "second",
+      "ipa": "/ˈsɛkənd/",
+      "graphemes": ["s","e","c","o","n","d"],
+      "phonemes": ["/'s","ɛ","k","ə","n","d/"],
+      "phonics": ["/'s","ĕ","k","ə","n","d/"],
+      "tags": ["closed","cluster"],
+      "hearts": [false,false,false,false,false,false],
+      "hint": "重音在第一音節 /ˈsɛ-/；e 發短母音 e /ɛ/，o 弱讀為 /ə/。"
+    },
+    {
+      "number": "第三",
+      "word": "third",
+      "ipa": "/θɝd/",
+      "graphemes": ["th","ir","d"],
+      "phonemes": ["/θ","ɝ","d/"],
+      "phonics": ["/th","er","d/"],
+      "tags": ["digraph","rcontrolled"],
+      "hearts": [false,true,false],
+      "hint": "重音在 /ɝ/；ir 發 er /ɝ/；th 發無聲吐舌音 /θ/。"
+    },
+    {
+      "number": "第四",
+      "word": "fourth",
+      "ipa": "/fɔrθ/",
+      "graphemes": ["f","our","th"],
+      "phonemes": ["/f","ɔr","θ/"],
+      "phonics": ["/f","or","th/"],
+      "tags": ["vowel_team","rcontrolled","digraph"],
+      "hearts": [false,true,false],
+      "hint": "重音在 /ɔr/；our 在此發 or /ɔr/；th 發無聲吐舌音 /θ/。"
+    },
+    {
+      "number": "第五",
+      "word": "fifth",
+      "ipa": "/fɪfθ/",
+      "graphemes": ["f","i","f","th"],
+      "phonemes": ["/f","ɪ","f","θ/"],
+      "phonics": ["/f","ĭ","f","th/"],
+      "tags": ["closed","digraph"],
+      "hearts": [false,false,false,false],
+      "hint": "重音在 /ɪ/；i 發短母音 i /ɪ/；th 發無聲吐舌音 /θ/。"
+    },
+    {
+      "number": "第六",
+      "word": "sixth",
+      "ipa": "/sɪksθ/",
+      "graphemes": ["s","i","x","th"],
+      "phonemes": ["/s","ɪ","ks","θ/"],
+      "phonics": ["/s","ĭ","ks","th/"],
+      "tags": ["closed","cluster","digraph"],
+      "hearts": [false,false,true,false],
+      "hint": "重音在 /ɪ/；i 發短母音 i /ɪ/；x 發 /ks/；th 發無聲吐舌音 /θ/。"
+    },
+    {
+      "number": "第七",
+      "word": "seventh",
+      "ipa": "/ˈsɛvənθ/",
+      "graphemes": ["s","e","v","e","n","th"],
+      "phonemes": ["/'s","ɛ","v","ə","n","θ/"],
+      "phonics": ["/'s","ĕ","v","ə","n","th/"],
+      "tags": ["closed","digraph"],
+      "hearts": [false,false,false,false,false,false],
+      "hint": "重音在第一音節 /ˈsɛ-/；第一個 e 發短母音 e /ɛ/；th 發無聲吐舌音 /θ/。"
+    },
+    {
+      "number": "第八",
+      "word": "eighth",
+      "ipa": "/eɪtθ/",
+      "graphemes": ["eigh","t","th"],
+      "phonemes": ["/eɪ","t","θ/"],
+      "phonics": ["/ā","t","th/"],
+      "tags": ["vowel_team","digraph"],
+      "hearts": [true,false,false],
+      "hint": "重音在 /eɪ/；eigh 發長母音 a /eɪ/；th 發無聲吐舌音 /θ/。"
+    },
+    {
+      "number": "第九",
+      "word": "ninth",
+      "ipa": "/naɪnθ/",
+      "graphemes": ["n","i","n","th"],
+      "phonemes": ["/n","aɪ","n","θ/"],
+      "phonics": ["/n","ī","n","th/"],
+      "tags": ["irregular","digraph"],
+      "hearts": [false,true,false,false],
+      "hint": "重音在 /aɪ/；i 發長母音 i /aɪ/；th 發無聲吐舌音 /θ/。"
+    },
+    {
+      "number": "第十",
+      "word": "tenth",
+      "ipa": "/tɛnθ/",
+      "graphemes": ["t","e","n","th"],
+      "phonemes": ["/t","ɛ","n","θ/"],
+      "phonics": ["/t","ĕ","n","th/"],
+      "tags": ["closed","digraph"],
+      "hearts": [false,false,false,false],
+      "hint": "重音在 /ɛ/；e 發短母音 e /ɛ/；th 發無聲吐舌音 /θ/。"
+    },
+    {
+      "number": "第十一",
+      "word": "eleventh",
+      "ipa": "/ɪˈlɛvənθ/",
+      "graphemes": ["e","l","e","v","e","n","th"],
+      "phonemes": ["/ɪ","'l","ɛ","v","ə","n","θ/"],
+      "phonics": ["/ĭ","'l","ĕ","v","ə","n","th/"],
+      "tags": ["closed","digraph"],
+      "hearts": [true,false,false,false,false,false,false],
+      "hint": "重音在第二音節 /ˈlɛv-/；中間 e 發短母音 e /ɛ/；字首 e 發 /ɪ/。"
+    },
+    {
+      "number": "第十二",
+      "word": "twelfth",
+      "ipa": "/twɛlfθ/",
+      "graphemes": ["t","w","e","l","f","th"],
+      "phonemes": ["/t","w","ɛ","l","f","θ/"],
+      "phonics": ["/t","w","ĕ","l","f","th/"],
+      "tags": ["closed","cluster","digraph"],
+      "hearts": [false,false,false,false,false,false],
+      "hint": "重音在 /ɛ/；e 發短母音 e /ɛ/；結尾 lfth 為子音連音。"
+    },
+    {
+      "number": "第十三",
+      "word": "thirteenth",
+      "ipa": "/θɝˈtin/",
+      "graphemes": ["th","ir","t","ee","n"],
+      "phonemes": ["/θ","ɝ","'t","i","n/"],
+      "phonics": ["/th","er","'t","ē","n/"],
+      "tags": ["digraph","rcontrolled","vowel_team"],
+      "hearts": [false,true,false,false,false],
+      "hint": "重音在第二音節 -teen /ˈtin/；ir 發 er /ɝ/，ee 發長母音 e /i/。"
+    },
+    {
+      "number": "第二十",
+      "word": "twentieth",
+      "ipa": "/ˈtwɛniəθ/",
+      "graphemes": ["t","w","e","n","t","i","e","th"],
+      "phonemes": ["/'t","w","ɛ","n","t","i","ə","θ/"],
+      "phonics": ["/'t","w","ĕ","n","t","ē","ə","th/"],
+      "tags": ["cluster","digraph"],
+      "hearts": [false,false,false,false,false,true,true,false],
+      "hint": "重音在第一音節 /ˈtwɛn-/；ie 在此讀 /iə/；th 發無聲吐舌音 /θ/。"
+    },
+    {
+      "number": "第二十一",
+      "word": "twenty-first",
+      "ipa": "/ˌtwɛntiˈfɝst/",
+      "graphemes": ["t","w","e","n","t","y","-","f","ir","s","t"],
+      "phonemes": ["/t","w","ɛ","n","t","i","-","'f","ɝ","s","t/"],
+      "phonics": ["/t","w","ĕ","n","t","ē","-","'f","er","s","t/"],
+      "tags": ["cluster","rcontrolled"],
+      "hearts": [false,false,false,false,false,false,false,false,true,false,false],
+      "hint": "重音在 second part「first」的 /ɝ/；ir 發 er /ɝ/；twenty + first 合成。"
+    }
+  ]
+}
