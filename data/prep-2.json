@@ -29,8 +29,8 @@
       "graphemes": ["f","r","o","m"],
       "phonemes": ["/f","r","ʌ","m/"],
       "phonics": ["/f","r","ŭ","m/"],
-      "tags": ["cluster","closed"],
-      "hearts": [false,false,false,false],
+      "tags": ["cluster","irregular"],
+      "hearts": [false,false,true,false],
       "hint": "o 發短母音 u /ʌ/。"
     },
     {
@@ -40,7 +40,7 @@
       "graphemes": ["i","n"],
       "phonemes": ["/ɪ","n/"],
       "phonics": ["/ĭ","n/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [false,false],
       "hint": "i 發短母音 i /ɪ/。"
     },
@@ -48,22 +48,22 @@
       "number": "在後面",
       "word": "in back of",
       "ipa": "/ɪn bæk ʌv/",
-      "graphemes": ["in","b","a","ck","of"],
-      "phonemes": ["/ɪ","n","b","æ","k","ʌ","v/"],
-      "phonics": ["/ĭ","n","b","ă","k","ŭ","v/"],
-      "tags": ["phrase"],
-      "hearts": [false,false,false,false,false,false,false],
+      "graphemes": ["i","n"," ","b","a","ck"," ","o","f"],
+      "phonemes": ["/ɪ","n"," ","'b","æ","k"," ","ʌ","v/"],
+      "phonics": ["/ĭ","n"," ","'b","ă","k"," ","ŭ","v/"],
+      "tags": [],
+      "hearts": [false,false,false,false,false,false,false,true,true],
       "hint": "片語：在…後面。back 的 a 為短母音 /æ/。"
     },
     {
       "number": "在前面",
       "word": "in front of",
       "ipa": "/ɪn frʌnt ʌv/",
-      "graphemes": ["in","f","r","o","n","t","of"],
-      "phonemes": ["/ɪ","n","f","r","ʌ","n","t","ʌ","v/"],
-      "phonics": ["/ĭ","n","f","r","ŭ","n","t","ŭ","v/"],
-      "tags": ["phrase","cluster"],
-      "hearts": [false,false,false,false,false,false,false,false,false],
+      "graphemes": ["i","n"," ","f","r","o","n","t"," ","o","f"],
+      "phonemes": ["/ɪ","n"," ","'f","r","ʌ","n","t"," ","ʌ","v/"],
+      "phonics": ["/ĭ","n"," ","'f","r","ŭ","n","t"," ","ŭ","v/"],
+      "tags": ["cluster","irregular"],
+      "hearts": [false,false,false,false,false,true,false,false,false,true,true],
       "hint": "片語：在…前面。front 的 o 發 /ʌ/。"
     },
     {
@@ -74,7 +74,7 @@
       "phonemes": ["/ɪ","n","'s","aɪ","d","-/"],
       "phonics": ["/ĭ","n","'s","ī","d","-/"],
       "tags": ["magic_e"],
-      "hearts": [false,false,false,false,false,true],
+      "hearts": [false,false,false,false,false,false],
       "hint": "i_e：i 發長母音 i /aɪ/。"
     },
     {
@@ -83,8 +83,8 @@
       "ipa": "/ˈɪntu/",
       "graphemes": ["i","n","t","u"],
       "phonemes": ["/'ɪ","n","t","u/"],
-      "phonics": ["/'ĭ","n","t","oo/"],
-      "tags": ["open"],
+      "phonics": ["/'ĭ","n","t","ū/"],
+      "tags": ["closed"],
       "hearts": [false,false,false,false],
       "hint": "u 發長母音 u /u/。"
     },
@@ -92,11 +92,11 @@
       "number": "靠近；接近",
       "word": "near",
       "ipa": "/nɪr/",
-      "graphemes": ["n","ear"],
-      "phonemes": ["/n","ɪr/"],
-      "phonics": ["/n","eer/"],
+      "graphemes": ["n","ea","r"],
+      "phonemes": ["/n","ɪ","r/"],
+      "phonics": ["/n","ĭ","r/"],
       "tags": ["rcontrolled","vowel_team"],
-      "hearts": [false,false],
+      "hearts": [false,false,false],
       "hint": "ear 在此讀 /ɪr/。"
     },
     {
@@ -107,7 +107,7 @@
       "phonemes": ["/ʌ","v/"],
       "phonics": ["/ŭ","v/"],
       "tags": ["irregular"],
-      "hearts": [true,false],
+      "hearts": [true,true],
       "hint": "o 發 /ʌ/；f 發 /v/。"
     },
     {
@@ -117,7 +117,7 @@
       "graphemes": ["o","ff"],
       "phonemes": ["/ɔ","f/"],
       "phonics": ["/aw","f/"],
-      "tags": ["floss","closed"],
+      "tags": ["floss"],
       "hearts": [false,false],
       "hint": "ff 為重複字母；o 發 /ɔ/。"
     },
@@ -128,7 +128,7 @@
       "graphemes": ["o","n"],
       "phonemes": ["/ɑ","n/"],
       "phonics": ["/ŏ","n/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [false,false],
       "hint": "o 發短母音 o /ɑ/。"
     },
@@ -147,10 +147,10 @@
       "number": "離開；出於",
       "word": "out of",
       "ipa": "/aʊt ʌv/",
-      "graphemes": ["ou","t","of"],
-      "phonemes": ["/aʊ","t","ʌ","v/"],
-      "phonics": ["/ow","t","ŭ","v/"],
-      "tags": ["phrase"],
+      "graphemes": ["ou","t"," ","o","f"],
+      "phonemes": ["/'aʊ","t"," ","ʌ","v/"],
+      "phonics": ["/'ow","t"," ","ŭ","v/"],
+      "tags": ["vowel_team"],
       "hearts": [false,false,false,false],
       "hint": "片語：出於／離開。of 的 o 發 /ʌ/。"
     },
@@ -162,7 +162,7 @@
       "phonemes": ["/aʊ","t","'s","aɪ","d","-/"],
       "phonics": ["/ow","t","'s","ī","d","-/"],
       "tags": ["magic_e"],
-      "hearts": [false,false,false,false,false,true],
+      "hearts": [false,false,false,false,false,false],
       "hint": "i_e：i 發長母音 i /aɪ/。"
     },
     {
@@ -172,7 +172,7 @@
       "graphemes": ["o","v","er"],
       "phonemes": ["/'oʊ","v","ɚ/"],
       "phonics": ["/'ō","v","er/"],
-      "tags": ["rcontrolled","open"],
+      "tags": ["open"],
       "hearts": [false,false,false],
       "hint": "o 發長母音 o /oʊ/；er 發 /ɚ/。"
     },
@@ -180,10 +180,10 @@
       "number": "在…旁邊；緊鄰",
       "word": "next to",
       "ipa": "/nɛkst tu/",
-      "graphemes": ["n","e","x","t","to"],
-      "phonemes": ["/n","ɛ","k","s","t","t","u/"],
-      "phonics": ["/n","ĕ","k","s","t","t","oo/"],
-      "tags": ["phrase","cluster"],
+      "graphemes": ["n","e","x","t"," ","t","o"],
+      "phonemes": ["/n","ɛ","ks","t"," ","t","u/"],
+      "phonics": ["/n","ĕ","ks","t"," ","t","ū/"],
+      "tags": ["closed","cluster"],
       "hearts": [false,false,false,false,false,false,false],
       "hint": "片語：在…旁邊。"
     }
