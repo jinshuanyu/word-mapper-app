@@ -4,11 +4,11 @@
       "number": "穿過；透過",
       "word": "through",
       "ipa": "/θru/",
-      "graphemes": ["th","r","ou","gh"],
-      "phonemes": ["/θ","r","u","-/"],
-      "phonics": ["/<u>th</u>","r","oo","-/"],
+      "graphemes": ["th","r","ough"],
+      "phonemes": ["/θ","r","u/"],
+      "phonics": ["/<u>th</u>","r","ū/"],
       "tags": ["digraph","vowel_team"],
-      "hearts": [false,false,false,true],
+      "hearts": [false,false,true],
       "hint": "ou 讀長母音 u /u/；gh 不發音。"
     },
     {
@@ -18,7 +18,7 @@
       "graphemes": ["t","i","ll"],
       "phonemes": ["/t","ɪ","l/"],
       "phonics": ["/t","ĭ","l/"],
-      "tags": ["closed","floss"],
+      "tags": ["cvc","floss"],
       "hearts": [false,false,false],
       "hint": "ll 為重複字母。"
     },
@@ -28,9 +28,9 @@
       "ipa": "/tu/",
       "graphemes": ["t","o"],
       "phonemes": ["/t","u/"],
-      "phonics": ["/t","oo/"],
-      "tags": ["open"],
-      "hearts": [false,false],
+      "phonics": ["/t","ū/"],
+      "tags": ["irregular"],
+      "hearts": [false,true],
       "hint": "o 發長母音 u /u/。"
     },
     {
@@ -38,10 +38,10 @@
       "word": "toward",
       "ipa": "/təˈwɔrd/",
       "graphemes": ["t","o","w","ar","d"],
-      "phonemes": ["/t","ə","'w","ɔr","d/"],
-      "phonics": ["/t","ə","'w","or","d/"],
-      "tags": ["rcontrolled"],
-      "hearts": [false,false,false,false,false],
+      "phonemes": ["/t","-","'w","ɔr","d/"],
+      "phonics": ["/t","-","'w","or","d/"],
+      "tags": ["irregular"],
+      "hearts": [false,true,false,true,false],
       "hint": "or 發 /ɔr/。"
     },
     {
@@ -51,7 +51,7 @@
       "graphemes": ["u","n","d","er"],
       "phonemes": ["/'ʌ","n","d","ɚ/"],
       "phonics": ["/'ŭ","n","d","er/"],
-      "tags": ["rcontrolled"],
+      "tags": ["closed"],
       "hearts": [false,false,false,false],
       "hint": "er 發 /ɚ/。"
     },
@@ -73,7 +73,7 @@
       "graphemes": ["u","p"],
       "phonemes": ["/ʌ","p/"],
       "phonics": ["/ŭ","p/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [false,false],
       "hint": "u 發短母音 /ʌ/。"
     },
@@ -95,7 +95,7 @@
       "graphemes": ["u","pp","er"],
       "phonemes": ["/'ʌ","p","ɚ/"],
       "phonics": ["/'ŭ","p","er/"],
-      "tags": ["rcontrolled","floss"],
+      "tags": ["closed","suffix"],
       "hearts": [false,false,false],
       "hint": "pp 為重複字母；er 發 /ɚ/。"
     },
@@ -106,7 +106,7 @@
       "graphemes": ["w","i","th"],
       "phonemes": ["/w","ɪ","θ/"],
       "phonics": ["/w","ĭ","th/"],
-      "tags": ["digraph","closed"],
+      "tags": ["cvc","digraph"],
       "hearts": [false,false,false],
       "hint": "th 發無聲吐舌音 /θ/。"
     },
@@ -122,25 +122,25 @@
       "hint": "th 發有聲 /ð/；ou 發 /aʊ/。"
     },
     {
-      "number": "像；如同",
+      "number": "像；如同；喜歡",
       "word": "like",
       "ipa": "/laɪk/",
       "graphemes": ["l","i","k","e"],
       "phonemes": ["/l","aɪ","k","-/"],
       "phonics": ["/l","ī","k","-/"],
       "tags": ["magic_e"],
-      "hearts": [false,false,false,true],
+      "hearts": [false,false,false,false],
       "hint": "i_e：i 發長母音 i /aɪ/。"
     },
     {
       "number": "因為；由於",
       "word": "because of",
       "ipa": "/bɪˈkʌz ʌv/",
-      "graphemes": ["b","e","c","au","s","e","of"],
-      "phonemes": ["/b","ɪ","'k","ʌ","z","-/","ʌ","v/"],
-      "phonics": ["/b","ĭ","'k","ŭ","z","-/","ŭ","v/"],
-      "tags": ["phrase","digraph"],
-      "hearts": [false,false,false,true,false,true,true,false],
+      "graphemes": ["b","e","c","au","s","e"," ","o","f"],
+      "phonemes": ["/b","ɪ","'k","ʌ","z","-/"," ","ʌ","v/"],
+      "phonics": ["/b","ĭ","'k","ŭ","z","-/"," ","ŭ","v/"],
+      "tags": ["irregular"],
+      "hearts": [false,false,false,true,false,true,false,true,true],
       "hint": "because + of 組成片語「因為」。"
     }
   ]
