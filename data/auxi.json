@@ -66,7 +66,7 @@
       "phonemes": ["/'d","ɪ","d","ən"," ","t/"],
       "phonics": ["/'d","ĭ","d","ən"," ","t/"],
       "tags": ["irregular","closed","cluster"],
-      "hearts": [false,false,false,true.false,false],
+      "hearts": [false,false,false,true,false,false],
           "audio": "audio/auxi/didnt.mp3",
       "hint": "did + not；i 發短母音 i /ɪ/；' 只標示縮寫。"
     },
