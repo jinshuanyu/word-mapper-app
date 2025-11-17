@@ -42,7 +42,7 @@
       "graphemes": ["ar","e","n","'","t"],
       "phonemes": ["/ɑr","-","n"," ","t/"],
       "phonics": ["/ɑr","-","n"," ","t/"],
-      "tags": ["irregular","rcontrolled"],
+      "tags": ["irregular"],
       "hearts": [false,true,false,false,false],
       "hint": "are + not；ar 發 /ɑr/；e 與 ' 不發音。",
             "audio": "audio/be/arent.mp3"
@@ -66,7 +66,7 @@
       "graphemes": ["i","s","n","'","t"],
       "phonemes": ["/'ɪ","z","ən"," ","t/"],
       "phonics": ["/'ĭ","z","ən"," ","t/"],
-      "tags": ["irregular","closed"],
+     "tags": ["irregular"],
       "hearts": [false,true,true,false,false],
             "audio": "audio/be/isnt.mp3",
       "hint": "is + not；s 發 /z/。"
@@ -89,7 +89,7 @@
       "graphemes": ["w","a","s","n","'","t"],
       "phonemes": ["/'w","ʌ","z","ən"," ","t/"],
       "phonics": ["/'w","ŭ","z","ən"," ","t/"],
-      "tags": ["irregular","closed"],
+ "tags": ["irregular"],
       "hearts": [false,true,true,true],
             "audio": "audio/be/wasnt.mp3",
       "hint": "was + not；a 發短母音 o /ɑ/；s 發 /z/。"
@@ -112,7 +112,7 @@
       "graphemes": ["w","ere","n","'","t"],
       "phonemes": ["/w","ɝ","n"," ","t/"],
       "phonics": ["/w","er","n"," ","t/"],
-      "tags": ["irregular","rcontrolled"],
+  "tags": ["irregular"],
       "hearts": [false,true,false,false,false],
             "audio": "audio/be/werent.mp3",
       "hint": "were + not；er 發 er /ɝ/；e 與 ' 不發音。"
