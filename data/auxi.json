@@ -19,7 +19,7 @@
       "graphemes": ["d","o","n","'","t"],
       "phonemes": ["/d","oʊ","n"," ","t/"],
       "phonics": ["/d","ō","n"," ","t/"],
-      "tags": ["irregular","closed"],
+   "tags": ["irregular"],
       "hearts": [false,true,false,false,false],
             "audio": "audio/auxi/dont.mp3",
       "hint": "do + not；o 發長母音 o /oʊ/；' 不發音。"
@@ -42,7 +42,7 @@
       "graphemes": ["d","oe","s","n","'","t"],
       "phonemes": ["/'d","ʌ","z","ən"," ","t/"],
       "phonics": ["/'d","ŭ","z","ən"," ","t/"],
-      "tags": ["irregular","closed"],
+   "tags": ["irregular"],
       "hearts": [false,true,true,true,false,false],
           "audio": "audio/auxi/doesnt.mp3",
       "hint": "does + not；oe 發 /ʌ/；s 發 /z/。"
@@ -65,7 +65,7 @@
       "graphemes": ["d","i","d","n","'","t"],
       "phonemes": ["/'d","ɪ","d","ən"," ","t/"],
       "phonics": ["/'d","ĭ","d","ən"," ","t/"],
-      "tags": ["irregular","closed","cluster"],
+      "tags": ["cvc"],
       "hearts": [false,false,false,true,false,false],
           "audio": "audio/auxi/didnt.mp3",
       "hint": "did + not；i 發短母音 i /ɪ/；' 只標示縮寫。"
@@ -89,7 +89,7 @@
       "phonemes": ["/h","æ","v","-/"],
       "phonics": ["/h","ă","v","-/"],
       "tags": ["irregular"],
-      "hearts": [false,true,false,true],
+      "hearts": [false,false,false,true],
       "hint": "a 發短母音 a /æ/；字尾 e 不發音。"
     },
     {
@@ -99,8 +99,8 @@
       "graphemes": ["h","a","v","e","n","'","t"],
       "phonemes": ["/'h","æ","v","ə","n"," ","t/"],
       "phonics": ["/'h","ă","v","ə","n"," ","t/"],
-      "tags": ["irregular","closed"],
-      "hearts": [false,true,false,true,false,false,false],
+      "tags": ["irregular"],
+      "hearts": [false,true,false,false,false,false,false],
       "audio": "audio/auxi/havent.mp3",
       "hint": "have + not；a 發短母音 a /æ/；' 只標示縮寫，不發音。"
     },
@@ -122,7 +122,7 @@
       "graphemes": ["h","a","s","n","'","t"],
       "phonemes": ["/'h","æ","z","ən"," ","t/"],
       "phonics": ["/'h","ă","z","ən"," ","t/"],
-      "tags": ["irregular","closed"],
+    "tags": ["irregular"],
       "hearts": [false,false,true,true,false,false],
           "audio": "audio/auxi/hasnt.mp3",
       "hint": "has + not；a 發短母音 a /æ/；s 發 /z/。"
@@ -146,7 +146,7 @@
       "graphemes": ["h","a","d","n","'","t"],
       "phonemes": ["/'h","æ","d","ən"," ","t/"],
       "phonics": ["/'h","ă","d","ən"," ","t/"],
-      "tags": ["irregular","closed"],
+   "tags": ["irregular"],
           "audio": "audio/auxi/hadnt.mp3",
       "hearts": [false,false,false,true,false,false],
       "hint": "had + not；a 發短母音 a /æ/。"
@@ -192,7 +192,7 @@
       "graphemes": ["c","ou","l","d","n","'","t"],
       "phonemes": ["/k","ʊ","-","d","ən"," ","t/"],
       "phonics": ["/k","oo","-","d","ən"," ","t/"],
-      "tags": ["irregular","vowel_team","silent_consonant","closed"],
+    "tags": ["irregular"],
       "hearts": [false,true,true,false,true,false,false],
           "audio": "audio/auxi/couldnt.mp3",
       "hint": "could + not；ou 發 /ʊ/；l 與 ' 不發音。"
@@ -215,7 +215,7 @@
       "graphemes": ["w","o","n","'","t"],
       "phonemes": ["/w","oʊ","n"," ","t/"],
       "phonics": ["/w","ō","n"," ","t/"],
-      "tags": ["irregular","closed"],
+      "tags": ["irregular"],
       "hearts": [false,true,false,false,false],
          "audio": "audio/auxi/wont.mp3",
       "hint": "will not 的不規則縮寫；o 發長母音 o /oʊ/。"
@@ -238,7 +238,7 @@
       "graphemes": ["w","ou","l","d","n","'","t"],
       "phonemes": ["/w","ʊ","-","d","ən"," ","t/"],
       "phonics": ["/w","oo","-","d","ən"," ","t/"],
-      "tags": ["irregular","vowel_team","silent_consonant","closed"],
+   "tags": ["irregular"],
       "hearts": [false,true,true,false,true,false,false],
          "audio": "audio/auxi/wouldnt.mp3",
       "hint": "would + not；ou 發 /ʊ/；l 與 ' 不發音。"
@@ -283,7 +283,7 @@
       "graphemes": ["m","u","s","t","n","'","t"],
       "phonemes": ["/'m","ʌ","s","-","ən"," ","t/"],
       "phonics": ["/'m","ŭ","s","-","ən"," ","t/"],
-      "tags": ["irregular","closed","cluster"],
+   "tags": ["irregular"],
       "hearts": [false,false,false,true,true,false,false],
           "audio": "audio/auxi/mustnt.mp3",
       "hint": "must + not；u 發短母音 u /ʌ/；' 標示縮寫不發音。"
@@ -306,7 +306,7 @@
       "graphemes": ["sh","a","n","'","t"],
       "phonemes": ["/ʃ","æ","n"," ","t/"],
       "phonics": ["/sh","ă","n"," ","t/"],
-      "tags": ["digraph","irregular","closed"],
+      "tags": ["digraph","cvc"],
       "hearts": [false,false,false,false,false],
           "audio": "audio/auxi/shant.mp3",
       "hint": "shall + not；sh 發 /ʃ/；a 發短母音 a /æ/；' 不發音。"
@@ -329,7 +329,7 @@
       "graphemes": ["sh","ou","l","d","n","'","t"],
       "phonemes": ["/ʃ","ʊ","-","d","ən"," ","t/"],
       "phonics": ["/sh","oo","-","d","ən"," ","t/"],
-      "tags": ["digraph","irregular","vowel_team","silent_consonant"],
+        "tags": ["digraph","irregular"],
       "hearts": [false,true,true,false,true,false,false],
           "audio": "audio/auxi/shouldnt.mp3",
       "hint": "should + not；sh 發 /ʃ/；ou 發 /ʊ/；l 與 ' 不發音。"
