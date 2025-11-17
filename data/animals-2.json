@@ -315,7 +315,7 @@
 "graphemes": ["w","i","l","d"],
 "phonemes": ["/w","aɪ","l","d/"],
 "phonics": ["/w","ī","l","d/"],
-"tags": [],
+"tags": ["irregular"],
 "hearts": [false,true,false,false],
 "hint": "-ild 組合中，i 常發長母音 i /aɪ/。"
 },
