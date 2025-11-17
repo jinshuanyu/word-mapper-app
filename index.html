@@ -50,6 +50,60 @@
     #homePage.active{display:flex}
     #homePage:not(.active){display:none!important}
 
+        /* 首頁四步驟橫向條 */
+    .home-progress-bar{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:.75rem;
+      margin:.5rem 0 1.8rem;
+      padding:0 .5rem;
+    }
+    .home-step{
+      flex:1;
+      text-align:center;
+    }
+    .home-step-label{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:.4rem;
+      font-size:1rem;
+      font-weight:600;
+      color:#111827;
+      white-space:nowrap;
+    }
+    .home-step-index{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      width:1.6rem;
+      height:1.6rem;
+      border-radius:999px;
+      border:2px solid var(--c-primary);
+      font-size:.9rem;
+      font-weight:700;
+      color:var(--c-primary);
+    }
+    .home-step-line{
+      flex:1;
+      height:2px;
+      background:#e5e7eb;
+    }
+
+    @media (max-width:640px){
+      .home-progress-bar{
+        flex-direction:column;
+        align-items:stretch;
+      }
+      .home-step-line{
+        display:none;
+      }
+      .home-step-label{
+        justify-content:flex-start;
+      }
+    }
+
     /* 2-line dropdown UI */
     .dropdown-container {
       display: flex;
