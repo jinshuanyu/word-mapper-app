@@ -83,7 +83,7 @@
       "ipa": "/ˈkrɑkədaɪl/",
       "graphemes": ["c","r","o","c","o","d","i","l","e"],
       "phonemes": ["/'k","r","ɑ","k","ə","d","aɪ","l","-/"],
-      "phonics": ["/'k","r","ŏ","k","ə","d","ī","l","—/"],
+      "phonics": ["/'k","r","ŏ","k","ə","d","ī","l","-/"],
       "tags": ["cluster","closed"],
       "hearts": [false,false,false,false,false,false,false,false,false],
       "hint": "c 發 /k/；i_e：i 發長母音 i /aɪ/，e 不發音。"
@@ -292,7 +292,7 @@
       "ipa": "/sneɪk/",
       "graphemes": ["s","n","a","k","e"],
       "phonemes": ["/s","n","eɪ","k","-/"],
-      "phonics": ["/s","n","ā","k","—/"],
+      "phonics": ["/s","n","ā","k","-/"],
       "tags": ["cluster","magic_e"],
       "hearts": [false,false,false,false,false],
       "hint": "a_e：a 發長母音 a /eɪ/，e 不發音。"
