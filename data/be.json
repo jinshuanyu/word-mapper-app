@@ -34,6 +34,17 @@
       "hearts": [false,true],
       "hint": "ar 發 /ɑr/；字尾 e 不發音。"
     },
+        {
+      "number": "不是（are not）",
+      "word": "aren't",
+      "ipa": "/ɑrnt/",
+      "graphemes": ["ar","e","n","'","t"],
+      "phonemes": ["/ɑr","-","n","-","t/"],
+      "phonics": ["/ɑr","-","n","-","t/"],
+      "tags": ["irregular","rcontrolled"],
+      "hearts": [false,true,false,true,false],
+      "hint": "are + not；ar 發 /ɑr/；e 與 ' 不發音。"
+    },
     {
       "number": "是（現在式；第三人稱單數）",
       "word": "is",
@@ -44,6 +55,17 @@
       "tags": ["irregular"],
       "hearts": [false,true],
       "hint": "i 發短母音 i /ɪ/；s 發 /z/。"
+    },
+        {
+      "number": "不是（is not）",
+      "word": "isn't",
+      "ipa": "/ˈɪzənt/",
+      "graphemes": ["i","s","n","'","t"],
+      "phonemes": ["/'ɪ","z","ə","n","t/"],
+      "phonics": ["/'ĭ","z","ə","n","t/"],
+      "tags": ["irregular","closed"],
+      "hearts": [false,true,false,false,false],
+      "hint": "is + not；s 發 /z/。"
     },
     {
       "number": "是（過去式；第一/三人稱單數）",
@@ -56,6 +78,17 @@
       "hearts": [false,true,true],
       "hint": "a 發短母音 u /ʌ/；s 發 /z/。"
     },
+        {
+      "number": "不是（was not）",
+      "word": "wasn't",
+      "ipa": "/ˈwɑzənt/",
+      "graphemes": ["w","a","s","n","'","t"],
+      "phonemes": ["/'w","ɑ","z","ə","n","t/"],
+      "phonics": ["/'w","ŏ","z","ə","n","t/"],
+      "tags": ["irregular","closed"],
+      "hearts": [false,false,true,false,false,true],
+      "hint": "was + not；a 發短母音 o /ɑ/；s 發 /z/。"
+    },
     {
       "number": "是（過去式；複數/第二人稱單數）",
       "word": "were",
@@ -66,6 +99,17 @@
       "tags": ["irregular"],
       "hearts": [false,false,true],
       "hint": "er 發 /ɝ/；字尾 e 不發音。"
+    },
+        {
+      "number": "不是（were not）",
+      "word": "weren't",
+      "ipa": "/wɝnt/",
+      "graphemes": ["w","er","e","n","'","t"],
+      "phonemes": ["/w","ɝ","-","n","-","t/"],
+      "phonics": ["/w","er","-","n","-","t/"],
+      "tags": ["irregular","rcontrolled"],
+      "hearts": [false,false,true,false,true,false],
+      "hint": "were + not；er 發 er /ɝ/；e 與 ' 不發音。"
     },
     {
       "number": "是（過去分詞）",
