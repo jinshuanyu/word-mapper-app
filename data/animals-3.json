@@ -211,6 +211,17 @@
       "hearts": [false,false,false],
       "hint": "a 發短母音 a /æ/。"
     },
+        {
+      "number": "🦌 馴鹿",
+      "word": "reindeer",
+      "ipa": "/ˈreɪndɪr/",
+      "graphemes": ["r","ei","n","d","ee","r"],
+      "phonemes": ["/'r","eɪ","n","d","ɪ","r/"],
+      "phonics": ["/'r","ā","n","d","ĭ","r/"],
+      "tags": ["vowel_team"],
+      "hearts": [false,true,false,true],
+      "hint": "reindeer = rein + deer；ein 在此發 ān /eɪn/；eer 發 er /ɪr/。"
+    },
     {
       "number": "🦐 蝦",
       "word": "shrimp",
@@ -222,6 +233,18 @@
       "hearts": [false,false,false,false,false],
       "hint": "sh 發 /ʃ/；i 發短母音 i /ɪ/。"
     },
+    {
+      "number": "🐿 松鼠",
+      "word": "squirrel",
+      "ipa": "/ˈskwɝəl/",
+      "graphemes": ["s","qu","irr","e","l"],
+      "phonemes": ["/'s","kw","ɝ","ə","l/"],
+      "phonics": ["/'s","kw","er","ə","l/"],
+      "tags": ["cluster","rcontrolled"],
+      "hearts": [false,false,true,false,false],
+      "hint": "squ- 發 /skw/；ir 在此發 er /ɝ/；後半 -rel 弱讀 /rəl/。"
+    },
+
     {
       "number": "燕子；吞嚥",
       "word": "swallow",
