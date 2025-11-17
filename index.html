@@ -85,11 +85,25 @@
     }
 
     .home-step-line{
-      flex:0 0 2.5rem;          /* 橫線長度 */
+      flex:0 0 2.5rem;
       height:2px;
       background:#e5e7eb;
       align-self:center;
+      position:relative; /* 讓箭頭可以定位在這條線的右邊 */
     }
+
+    .home-step-line::after{
+      content:"";
+      position:absolute;
+      right:0;
+      top:50%;
+      transform:translateY(-50%);
+      /* 小三角形箭頭 */
+      border-width:4px 0 4px 6px;
+      border-style:solid;
+      border-color:transparent transparent transparent #e5e7eb;
+    }
+
 
     @media (max-width:640px){
       .home-progress-bar{
