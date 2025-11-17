@@ -51,7 +51,7 @@
       "graphemes": ["g","r","a","n","d","d","augh","t","er"],
       "phonemes": ["/'ɡ","r","æ","n","-","d","ɔ","t","ɚ/"],
       "phonics":  ["/'ɡ","r","ă","n","-","d","aw","t","er/"],
-      "tags": ["cluster","closed","vowel_team","rcontrolled"],
+      "tags": ["cluster","closed"],
       "hearts": [false,false,false,false,true,false,true,false,false],
       "hint": "grand + daughter；d 通常不發音。"
     },
@@ -63,7 +63,7 @@
       "phonemes": ["/'ɡ","r","æ","n","-","p","ɛ","r","ə","n","t/"],
       "phonics":  ["/'ɡ","r","ă","n","-","p","ĕ","r","ə","n","t/"],
       "tags": ["cluster","closed"],
-      "hearts": [false,false,false,false,true,false,false,false,false,false,false],
+      "hearts": [false,false,false,false,true,false,false,true,false,false,false],
       "hint": "grand + parent；d 通常不發音。"
     },
     {
@@ -73,7 +73,7 @@
       "graphemes": ["g","r","a","n","d","s","o","n"],
       "phonemes": ["/'ɡ","r","æ","n","-","s","ʌ","n/"],
       "phonics":  ["/'ɡ","r","ă","n","-","s","ŭ","n/"],
-      "tags": ["cluster","closed","irregular"],
+      "tags": ["cluster","closed"],
       "hearts": [false,false,false,false,true,false,true,false],
       "hint": "grand + son；o 發短母音 u /ʌ/；d 通常不發音。"
     },
@@ -150,7 +150,7 @@
       "ipa": "/nis/",
       "graphemes": ["n","ie","c","e"],
       "phonemes": ["/n","i","s","-/"],
-      "phonics": ["/n","ī","s","-/"],
+      "phonics": ["/n","ē","s","-/"],
       "tags": ["irregular"],
       "hearts": [false,true,false,true],
       "hint": "ie 發長母音 e /i/；詞尾 e 不發音。"
@@ -198,8 +198,8 @@
       "graphemes": ["s","ur","n","a","m","e"],
       "phonemes": ["/'s","ɝ","n","eɪ","m","-/"],
       "phonics":  ["/'s","er","n","ā","m","-/"],
-      "tags": ["rcontrolled","magic_e"],
-      "hearts": [false,true,false,false,false,true],
+      "tags": ["rcontrolled"],
+      "hearts": [false,false,false,false,false,false],
       "hint": "sur + name；ur 發 er /ɝ/；a_e：a 發長母音 a /eɪ/，e 不發音。"
     },
     {
