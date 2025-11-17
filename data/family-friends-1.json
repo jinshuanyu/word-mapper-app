@@ -29,7 +29,7 @@
       "graphemes": ["b","r","o","th","er"],
       "phonemes": ["/'b","r","ʌ","ð","ɚ/"],
       "phonics":  ["/'b","r","ŭ","<u>th</u>","er/"],
-      "tags": ["irregular","cluster","digraph","rcontrolled"],
+      "tags": ["irregular","cluster","digraph"],
       "hearts": [false,false,true,false,false],
       "hint": "o 發短母音 u /ʌ/；th 發有聲吐舌音 /ð/。"
     },
@@ -40,7 +40,7 @@
       "graphemes": ["ch","i","l","d"],
       "phonemes": ["/tʃ","aɪ","l","d/"],
       "phonics":  ["/ch","ī","l","d/"],
-      "tags": ["digraph"],
+      "tags": ["digraph","irregular"],
       "hearts": [false,true,false,false],
       "hint": "i 發長母音 i /aɪ/。"
     },
@@ -62,7 +62,7 @@
       "graphemes": ["c","l","a","ss","m","a","t","e"],
       "phonemes": ["/'k","l","æ","s","m","eɪ","t","-/"],
       "phonics":  ["/'k","l","ă","s","m","ā","t","-/"],
-      "tags": ["cluster","closed","floss","magic_e"],
+      "tags": ["cluster","closed","floss"],
       "hearts": [false,false,false,false,false,false,false,false,false],
       "hint": "class + mate。"
     },
@@ -95,7 +95,7 @@
       "graphemes": ["d","a","dd","y"],
       "phonemes": ["/'d","æ","d","i/"],
       "phonics": ["/'d","ă","d","ē/"],
-      "tags": ["floss","open","closed"],
+      "tags": ["closed"],
       "hearts": [false,false,false,false],
       "hint": "a 發短母音 a /æ/；字尾 y 發長母音 e /i/。"
     },
@@ -240,7 +240,7 @@
       "graphemes": ["m","o","m"],
       "phonemes": ["/m","ɑ","m/"],
       "phonics": ["/m","ŏ","m/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [false,false,false],
       "hint": "o 發短母音 o /ɑ/。"
     },
@@ -251,7 +251,7 @@
       "graphemes": ["m","o","mm","y"],
       "phonemes": ["/'m","ɑ","m","i/"],
       "phonics": ["/'m","ŏ","m","ē/"],
-      "tags": ["floss","open","closed"],
+      "tags": ["closed"],
       "hearts": [false,false,false,false],
       "hint": "雙寫 m；字尾 y 發長母音 e /i/。"
     },
@@ -324,6 +324,7 @@
     }
   ]
 }
+
 
 
 
