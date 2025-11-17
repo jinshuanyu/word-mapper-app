@@ -50,57 +50,57 @@
     #homePage.active{display:flex}
     #homePage:not(.active){display:none!important}
 
-        /* 首頁四步驟橫向條 */
+       /* 首頁四步驟橫向條（桌機＋手機共用） */
     .home-progress-bar{
       display:flex;
-      align-items:center;
+      align-items:flex-start;
       justify-content:space-between;
       gap:.75rem;
       margin:.5rem 0 1.8rem;
       padding:0 .5rem;
     }
+
     .home-step{
       flex:1;
       text-align:center;
     }
+
     .home-step-label{
-      display:inline-flex;
+      display:flex;
+      flex-direction:column; /* 上一行＋下一行 */
       align-items:center;
-      justify-content:center;
-      gap:.4rem;
+      justify-content:flex-start;
+      gap:.1rem;
       font-size:1rem;
-      font-weight:600;
-      color:#111827;
-      white-space:nowrap;
-    }
-    .home-step-index{
-      display:inline-flex;
-      align-items:center;
-      justify-content:center;
-      width:1.6rem;
-      height:1.6rem;
-      border-radius:999px;
-      border:2px solid var(--c-primary);
-      font-size:.9rem;
       font-weight:700;
-      color:var(--c-primary);
+      line-height:1.1;
     }
+
+    .home-step-top{
+      color:var(--c-primary);   /* 上面那行（整體／音素…）可以略微強調 */
+    }
+
+    .home-step-bottom{
+      color:#111827;
+    }
+
     .home-step-line{
-      flex:1;
+      flex:0 0 2.5rem;          /* 橫線長度 */
       height:2px;
       background:#e5e7eb;
+      align-self:center;
     }
 
     @media (max-width:640px){
       .home-progress-bar{
-        flex-direction:column;
-        align-items:stretch;
-      }
-      .home-step-line{
-        display:none;
+        gap:.5rem;
+        padding:0 .25rem;
       }
       .home-step-label{
-        justify-content:flex-start;
+        font-size:.95rem;       /* 手機版字小一點 */
+      }
+      .home-step-line{
+        flex-basis:2rem;
       }
     }
 
@@ -418,36 +418,37 @@
 
       <section id="homePage" class="page-section active">
         <h1>英文拼字 × 聲音對照<br>Word Mapper</h1>
-        <!-- 首頁四步驟說明列 -->
+                <!-- 首頁四步驟說明列 -->
         <div class="home-progress-bar" aria-label="學習步驟">
           <div class="home-step">
             <p class="home-step-label">
-              <span class="home-step-index">1</span>
-              <span>整體發音</span>
+              <span class="home-step-top">整體</span>
+              <span class="home-step-bottom">發音</span>
             </p>
           </div>
           <div class="home-step-line"></div>
           <div class="home-step">
             <p class="home-step-label">
-              <span class="home-step-index">2</span>
-              <span>音素切割</span>
+              <span class="home-step-top">音素</span>
+              <span class="home-step-bottom">切割</span>
             </p>
           </div>
           <div class="home-step-line"></div>
           <div class="home-step">
             <p class="home-step-label">
-              <span class="home-step-index">3</span>
-              <span>字素對應</span>
+              <span class="home-step-top">字素</span>
+              <span class="home-step-bottom">對應</span>
             </p>
           </div>
           <div class="home-step-line"></div>
           <div class="home-step">
             <p class="home-step-label">
-              <span class="home-step-index">4</span>
-              <span>儲存記憶</span>
+              <span class="home-step-top">儲存</span>
+              <span class="home-step-bottom">記憶</span>
             </p>
           </div>
         </div>
+
 
         <ul id="topicList" class="topic-list"></ul>
       </section>
