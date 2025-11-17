@@ -79,6 +79,18 @@
       "hearts": [false,false,false],
       "hint": "a 發短母音 a /æ/；常弱讀為 /ə/。"
     },
+        {
+      "number": "可以；能；罐頭",
+      "word": "can't",
+      "ipa": "/kænt/",
+      "graphemes": ["c","a","n","'","t"],
+      "phonemes": ["/k","æ","n"," ","t"/"],
+      "phonics": ["/k","ă","n"," ","t/"],
+      "tags": ["cvc"],
+      "hearts": [false,false,false,false],
+          "audio": "audio/auxi/cant.mp3",
+      "hint": "a 發短母音 a /æ/。"
+    },
     {
       "number": "可以；能（過去式）",
       "word": "could",
