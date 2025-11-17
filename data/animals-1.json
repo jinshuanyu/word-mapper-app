@@ -4,11 +4,11 @@
       "number": "🐾 動物",
       "word": "animal",
       "ipa": "/ˈænəməl/",
-      "graphemes": ["a","n","i","m","al"],
-      "phonemes": ["/'æ","n","ə","m","əl/"],
-      "phonics": ["/'ă","n","ə","m","əl/"],
+      "graphemes": ["a","n","i","m","a","l"],
+      "phonemes": ["/'æ","n","ə","m","ə","l/"],
+      "phonics": ["/'ă","n","ə","m","ə","l/"],
       "tags": ["closed"],
-      "hearts": [false,false,false,false,false],
+      "hearts": [false,false,false,false,false,false],
       "hint": "第一個 a 發短母音 a /æ/；i 發弱化 /ə/。"
     },
     {
