@@ -21,6 +21,7 @@
       "phonics": ["/d","ō","n"," ","t/"],
       "tags": ["irregular","closed"],
       "hearts": [false,false,false,true,false],
+            "audio": "audio/auxi/dont.mp3",
       "hint": "do + not；o 發長母音 o /oʊ/；' 不發音。"
     },
     {
@@ -43,6 +44,7 @@
       "phonics": ["/'d","ŭ","z","ən"," ","t/"],
       "tags": ["irregular","closed"],
       "hearts": [false,true,true,false,false,true],
+          "audio": "audio/auxi/doesnt.mp3",
       "hint": "does + not；oe 發 /ʌ/；s 發 /z/。"
     },
     {
@@ -65,6 +67,7 @@
       "phonics": ["/'d","ĭ","d","ən"," ","t/"],
       "tags": ["irregular","closed","cluster"],
       "hearts": [false,false,false,false,false,true],
+          "audio": "audio/auxi/didnt.mp3",
       "hint": "did + not；i 發短母音 i /ɪ/；' 只標示縮寫。"
     },
     {
@@ -98,6 +101,7 @@
       "phonics": ["/'h","ă","v","ə","n"," ","t/"],
       "tags": ["irregular","closed"],
       "hearts": [false,false,false,true,false,true,false],
+      "audio": "audio/auxi/havent.mp3",
       "hint": "have + not；a 發短母音 a /æ/；' 只標示縮寫，不發音。"
     },
     {
@@ -120,6 +124,7 @@
       "phonics": ["/'h","ă","z","ən"," ","t/"],
       "tags": ["irregular","closed"],
       "hearts": [false,false,true,false,true,false],
+          "audio": "audio/auxi/hasnt.mp3",
       "hint": "has + not；a 發短母音 a /æ/；s 發 /z/。"
     },
 
@@ -142,6 +147,7 @@
       "phonemes": ["/'h","æ","d","ən"," ","t/"],
       "phonics": ["/'h","ă","d","ən"," ","t/"],
       "tags": ["irregular","closed"],
+          "audio": "audio/auxi/hadnt.mp3",
       "hearts": [false,false,false,false,true,false],
       "hint": "had + not；a 發短母音 a /æ/。"
     },
@@ -188,6 +194,7 @@
       "phonics": ["/k","oo","-","d","ən"," ","t/"],
       "tags": ["irregular","vowel_team","silent_consonant","closed"],
       "hearts": [false,true,true,false,false,true,false],
+          "audio": "audio/auxi/couldnt.mp3",
       "hint": "could + not；ou 發 /ʊ/；l 與 ' 不發音。"
     },
     {
@@ -210,6 +217,7 @@
       "phonics": ["/w","ō","n"," ","t/"],
       "tags": ["irregular","closed"],
       "hearts": [false,true,false,true,false],
+         "audio": "audio/auxi/wont.mp3",
       "hint": "will not 的不規則縮寫；o 發長母音 o /oʊ/。"
     },
     {
@@ -232,6 +240,7 @@
       "phonics": ["/w","oo","-","d","ən"," ","t/"],
       "tags": ["irregular","vowel_team","silent_consonant","closed"],
       "hearts": [false,true,true,false,false,true,false],
+         "audio": "audio/auxi/wouldnt.mp3",
       "hint": "would + not；ou 發 /ʊ/；l 與 ' 不發音。"
     },
     {
@@ -276,6 +285,7 @@
       "phonics": ["/'m","ŭ","s","-","ən"," ","t/"],
       "tags": ["irregular","closed","cluster"],
       "hearts": [false,false,false,false,false,true,false],
+          "audio": "audio/auxi/mustnt.mp3",
       "hint": "must + not；u 發短母音 u /ʌ/；' 標示縮寫不發音。"
     },
     {
@@ -298,6 +308,7 @@
       "phonics": ["/sh","ă","n"," ","t/"],
       "tags": ["digraph","irregular","closed"],
       "hearts": [false,false,false,true,false],
+          "audio": "audio/auxi/shant.mp3",
       "hint": "shall + not；sh 發 /ʃ/；a 發短母音 a /æ/；' 不發音。"
     },
     {
@@ -320,6 +331,7 @@
       "phonics": ["/sh","oo","-","d","ən"," ","t/"],
       "tags": ["digraph","irregular","vowel_team","silent_consonant"],
       "hearts": [false,true,true,false,false,true,false],
+          "audio": "audio/auxi/shouldnt.mp3",
       "hint": "should + not；sh 發 /ʃ/；ou 發 /ʊ/；l 與 ' 不發音。"
     }
   ]
