@@ -48,11 +48,11 @@
       "number": "🪳 蟑螂",
       "word": "cockroach",
       "ipa": "/ˈkɑkˌroʊtʃ/",
-      "graphemes": ["c","o","ck","r","o","a","ch"],
-      "phonemes": ["/'k","ɑ","k","r","oʊ","-","tʃ/"],
-      "phonics": ["/'k","ŏ","k","r","ō","-","ch/"],
+      "graphemes": ["c","o","ck","r","oa","ch"],
+      "phonemes": ["/'k","ɑ","k","r","oʊ","tʃ/"],
+      "phonics": ["/'k","ŏ","k","r","ō","ch/"],
       "tags": ["closed","digraph"],
-      "hearts": [false,false,false,false,false,false,false],
+      "hearts": [false,false,false,false,false,false],
       "hint": "第一個 o 發短母音 o /ɑ/；ck 發 /k/；oa 發長母音 o /oʊ/；ch 發 /tʃ/。"
     },
     {
@@ -104,8 +104,8 @@
       "word": "goose",
       "ipa": "/gus/",
       "graphemes": ["g","oo","s","e"],
-      "phonemes": ["/g","u","s","-/"],
-      "phonics": ["/g","ū","s","-/"],
+      "phonemes": ["/ɡ","u","s","-/"],
+      "phonics": ["/ɡ","ū","s","-/"],
       "tags": ["vowel_team"],
       "hearts": [false,false,false,true],
       "hint": "oo 發長母音 u /u/；s 之後字尾補靜音 e。"
@@ -115,10 +115,10 @@
       "word": "geese",
       "ipa": "/gis/",
       "graphemes": ["g","ee","s","e"],
-      "phonemes": ["/g","i","s","-/"],
-      "phonics": ["/g","ē","s","-/"],
+      "phonemes": ["/ɡ","i","s","-/"],
+      "phonics": ["/ɡ","ē","s","-/"],
       "tags": ["vowel_team"],
-      "hearts": [false,true,false,true],
+      "hearts": [false,false,false,true],
       "hint": "ee 發長母音 e /i/；s 之後字尾補靜音 e。"
     },
 
@@ -133,17 +133,7 @@
       "hearts": [false,false,false],
       "hint": "e 發短母音 /ɛ/。"
     },
-    {
-      "number": "🐛 昆蟲",
-      "word": "insect",
-      "ipa": "/ˈɪnsɛkt/",
-      "graphemes": ["i","n","s","e","c","t"],
-      "phonemes": ["/'ɪ","n","s","ɛ","k","t/"],
-      "phonics": ["/'ĭ","n","s","ĕ","k","t/"],
-      "tags": ["closed","cluster"],
-      "hearts": [false,false,false,false,false,false],
-      "hint": "i 發短母音 i /ɪ/；c 發 /k/。"
-    },
+
     {
       "number": "🐨 無尾熊",
       "word": "koala",
@@ -207,7 +197,7 @@
       "phonemes": ["/'p","ɪ","dʒ","ə","n/"],
       "phonics": ["/'p","ĭ","-j","ə","n/"],
       "tags": ["closed","digraph"],
-      "hearts": [false,false,false,false,false],
+      "hearts": [false,false,false,true,false],
       "hint": "i 發短母音 i /ɪ/；ge 發 j /dʒ/。"
     },
     {
@@ -240,7 +230,7 @@
       "phonemes": ["/'s","w","ɑ","l","oʊ/"],
       "phonics": ["/'s","w","ŏ","l","ō/"],
       "tags": ["irregular"],
-      "hearts": [false,false,false,false,false],
+      "hearts": [false,false,true,false,false],
       "hint": "a 在 w 之後常發短母音 o /ɑ/；ll 重複字母。"
     },
     {
@@ -251,7 +241,7 @@
       "phonemes": ["/'t","ɝ","k","i/"],
       "phonics": ["/'t","er","k","ē/"],
       "tags": ["rcontrolled"],
-      "hearts": [false,false,false,false],
+      "hearts": [false,false,false,true],
       "hint": "ur 發 er /ɝ/；ey 發長母音 e /i/。"
     },
     {
