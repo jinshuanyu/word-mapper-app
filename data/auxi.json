@@ -12,6 +12,17 @@
       "hearts": [false,true],
       "hint": "o 發長母音 u /u/。"
     },
+        {
+      "number": "不要；別（do not）",
+      "word": "don't",
+      "ipa": "/doʊnt/",
+      "graphemes": ["d","o","n","'","t"],
+      "phonemes": ["/d","oʊ","n"," ","t/"],
+      "phonics": ["/d","ō","n"," ","t/"],
+      "tags": ["irregular","closed"],
+      "hearts": [false,false,false,true,false],
+      "hint": "do + not；o 發長母音 o /oʊ/；' 不發音。"
+    },
     {
       "number": "做（第三人稱單數）",
       "word": "does",
@@ -22,6 +33,17 @@
       "tags": ["irregular"],
       "hearts": [false,true,true],
       "hint": "oe 發短母音 u /ʌ/；s 發 /z/。"
+    },
+        {
+      "number": "不（does not）",
+      "word": "doesn't",
+      "ipa": "/ˈdʌzənt/",
+      "graphemes": ["d","oe","s","n","'","t"],
+      "phonemes": ["/'d","ʌ","z","ən"," ","t/"],
+      "phonics": ["/'d","ŭ","z","ən"," ","t/"],
+      "tags": ["irregular","closed"],
+      "hearts": [false,true,true,false,false,true],
+      "hint": "does + not；oe 發 /ʌ/；s 發 /z/。"
     },
     {
       "number": "做（過去式）",
@@ -34,6 +56,17 @@
       "hearts": [false,false,false],
       "hint": "i 發短母音 i /ɪ/。"
     },
+        {
+      "number": "沒有（did not）",
+      "word": "didn't",
+      "ipa": "/ˈdɪdənt/",
+      "graphemes": ["d","i","d","n","'","t"],
+      "phonemes": ["/'d","ɪ","d","ən"," ","t/"],
+      "phonics": ["/'d","ĭ","d","ən"," ","t/"],
+      "tags": ["irregular","closed","cluster"],
+      "hearts": [false,false,false,false,false,true],
+      "hint": "did + not；i 發短母音 i /ɪ/；' 只標示縮寫。"
+    },
     {
       "number": "做（過去分詞）",
       "word": "done",
@@ -45,7 +78,28 @@
       "hearts": [false,true,false,true],
       "hint": "o 發短母音 u /ʌ/；字尾 e 不發音。"
     },
-
+    {
+      "number": "有；擁有；助動詞",
+      "word": "have",
+      "ipa": "/hæv/",
+      "graphemes": ["h","a","v","e"],
+      "phonemes": ["/h","æ","v","-/"],
+      "phonics": ["/h","ă","v","-/"],
+      "tags": ["irregular"],
+      "hearts": [false,true,false,true],
+      "hint": "a 發短母音 a /æ/；字尾 e 不發音。"
+    },
+    {
+      "number": "沒有（have not）",
+      "word": "haven't",
+      "ipa": "/ˈhævənt/",
+      "graphemes": ["h","a","v","e","n","'","t"],
+      "phonemes": ["/'h","æ","v","ə","n"," ","t/"],
+      "phonics": ["/'h","ă","v","ə","n"," ","t/"],
+      "tags": ["irregular","closed"],
+      "hearts": [false,false,false,true,false,true,false],
+      "hint": "have + not；a 發短母音 a /æ/；' 只標示縮寫，不發音。"
+    },
     {
       "number": "有（第三人稱單數）",
       "word": "has",
@@ -57,6 +111,18 @@
       "hearts": [false,false,true],
       "hint": "a 發短母音 a /æ/；s 發 /z/。"
     },
+        {
+      "number": "沒有（has not 的縮寫）",
+      "word": "hasn't",
+      "ipa": "/ˈhæzənt/",
+      "graphemes": ["h","a","s","n","'","t"],
+      "phonemes": ["/'h","æ","z","ən"," ","t/"],
+      "phonics": ["/'h","ă","z","ən"," ","t/"],
+      "tags": ["irregular","closed"],
+      "hearts": [false,false,true,false,true,false],
+      "hint": "has + not；a 發短母音 a /æ/；s 發 /z/。"
+    },
+
     {
       "number": "有（過去式）",
       "word": "had",
@@ -67,6 +133,17 @@
       "tags": ["cvc"],
       "hearts": [false,false,false],
       "hint": "a 發短母音 a /æ/。"
+    },
+        {
+      "number": "沒有（had not 的縮寫）",
+      "word": "hadn't",
+      "ipa": "/ˈhædənt/",
+      "graphemes": ["h","a","d","n","'","t"],
+      "phonemes": ["/'h","æ","d","ən"," ","t/"],
+      "phonics": ["/'h","ă","d","ən"," ","t/"],
+      "tags": ["irregular","closed"],
+      "hearts": [false,false,false,false,true,false],
+      "hint": "had + not；a 發短母音 a /æ/。"
     },
     {
       "number": "可以；能；罐頭",
@@ -102,6 +179,17 @@
       "hearts": [false,true,true,false],
       "hint": "ou 發 oo /ʊ/；l 不發音。"
     },
+        {
+      "number": "不能；無法（could not 的縮寫）",
+      "word": "couldn't",
+      "ipa": "/ˈkʊdnt/",
+      "graphemes": ["c","ou","l","d","n","'","t"],
+      "phonemes": ["/k","ʊ","-","d","ən"," ","t/"],
+      "phonics": ["/k","oo","-","d","ən"," ","t/"],
+      "tags": ["irregular","vowel_team","silent_consonant","closed"],
+      "hearts": [false,true,true,false,false,true,false],
+      "hint": "could + not；ou 發 /ʊ/；l 與 ' 不發音。"
+    },
     {
       "number": "將；會",
       "word": "will",
@@ -113,6 +201,17 @@
       "hearts": [false,false,false],
       "hint": "i 發短母音 i /ɪ/；ll 重複字母。"
     },
+       {
+      "number": "不會；不將（will not 的縮寫）",
+      "word": "won't",
+      "ipa": "/woʊnt/",
+      "graphemes": ["w","o","n","'","t"],
+      "phonemes": ["/w","oʊ","n"," ","t/"],
+      "phonics": ["/w","ō","n"," ","t/"],
+      "tags": ["irregular","closed"],
+      "hearts": [false,true,false,true,false],
+      "hint": "will not 的不規則縮寫；o 發長母音 o /oʊ/。"
+    },
     {
       "number": "將；會（過去式）",
       "word": "would",
@@ -123,6 +222,17 @@
       "tags": ["irregular"],
       "hearts": [false,true,true,false],
       "hint": "ou 發 oo /ʊ/；l 不發音。"
+    },
+       {
+      "number": "不會；不願意（would not 的縮寫）",
+      "word": "wouldn't",
+      "ipa": "/ˈwʊdnt/",
+      "graphemes": ["w","ou","l","d","n","'","t"],
+      "phonemes": ["/w","ʊ","-","d","ən"," ","t/"],
+      "phonics": ["/w","oo","-","d","ən"," ","t/"],
+      "tags": ["irregular","vowel_team","silent_consonant","closed"],
+      "hearts": [false,true,true,false,false,true,false],
+      "hint": "would + not；ou 發 /ʊ/；l 與 ' 不發音。"
     },
     {
       "number": "可能；可以",
@@ -157,6 +267,17 @@
       "hearts": [false,false,false,false],
       "hint": "u 發短母音 u /ʌ/。"
     },
+        {
+      "number": "必須不；不可（must not 的縮寫）",
+      "word": "mustn't",
+      "ipa": "/ˈmʌsənt/",
+      "graphemes": ["m","u","s","t","n","'","t"],
+      "phonemes": ["/'m","ʌ","s","-","ən"," ","t/"],
+      "phonics": ["/'m","ŭ","s","-","ən"," ","t/"],
+      "tags": ["irregular","closed","cluster"],
+      "hearts": [false,false,false,false,false,true,false],
+      "hint": "must + not；u 發短母音 u /ʌ/；' 標示縮寫不發音。"
+    },
     {
       "number": "應該（正式）",
       "word": "shall",
@@ -168,6 +289,17 @@
       "hearts": [false,false,false],
       "hint": "sh 發 /ʃ/；a 發短母音 a /æ/；ll 為重複字母。"
     },
+        {
+      "number": "不會；不打算（shall not 的縮寫）",
+      "word": "shan't",
+      "ipa": "/ʃænt/",
+      "graphemes": ["sh","a","n","'","t"],
+      "phonemes": ["/ʃ","æ","n"," ","t/"],
+      "phonics": ["/sh","ă","n"," ","t/"],
+      "tags": ["digraph","irregular","closed"],
+      "hearts": [false,false,false,true,false],
+      "hint": "shall + not；sh 發 /ʃ/；a 發短母音 a /æ/；' 不發音。"
+    },
     {
       "number": "應該",
       "word": "should",
@@ -178,6 +310,17 @@
       "tags": ["digraph","irregular"],
       "hearts": [false,true,true,false],
       "hint": "sh 發 /ʃ/；ou 發 oo /ʊ/；l 不發音。"
+    },
+        {
+      "number": "不應該（should not 的縮寫）",
+      "word": "shouldn't",
+      "ipa": "/ˈʃʊdnt/",
+      "graphemes": ["sh","ou","l","d","n","'","t"],
+      "phonemes": ["/ʃ","ʊ","-","d","ən"," ","t/"],
+      "phonics": ["/sh","oo","-","d","ən"," ","t/"],
+      "tags": ["digraph","irregular","vowel_team","silent_consonant"],
+      "hearts": [false,true,true,false,false,true,false],
+      "hint": "should + not；sh 發 /ʃ/；ou 發 /ʊ/；l 與 ' 不發音。"
     }
   ]
 }
