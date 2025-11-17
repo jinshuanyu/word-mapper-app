@@ -39,8 +39,8 @@
       "word": "aren't",
       "ipa": "/ɑrnt/",
       "graphemes": ["ar","e","n","'","t"],
-      "phonemes": ["/ɑr","-","n","-","t/"],
-      "phonics": ["/ɑr","-","n","-","t/"],
+      "phonemes": ["/ɑr","-","n"," ","t/"],
+      "phonics": ["/ɑr","-","n"," ","t/"],
       "tags": ["irregular","rcontrolled"],
       "hearts": [false,true,false,true,false],
       "hint": "are + not；ar 發 /ɑr/；e 與 ' 不發音。"
@@ -61,8 +61,8 @@
       "word": "isn't",
       "ipa": "/ˈɪzənt/",
       "graphemes": ["i","s","n","'","t"],
-      "phonemes": ["/'ɪ","z","ə","n","t/"],
-      "phonics": ["/'ĭ","z","ə","n","t/"],
+      "phonemes": ["/'ɪ","z","ən"," ","t/"],
+      "phonics": ["/'ĭ","z","ən"," ","t/"],
       "tags": ["irregular","closed"],
       "hearts": [false,true,false,false,false],
       "hint": "is + not；s 發 /z/。"
@@ -83,8 +83,8 @@
       "word": "wasn't",
       "ipa": "/ˈwɑzənt/",
       "graphemes": ["w","a","s","n","'","t"],
-      "phonemes": ["/'w","ɑ","z","ə","n","t/"],
-      "phonics": ["/'w","ŏ","z","ə","n","t/"],
+      "phonemes": ["/'w","ʌ","z","ən"," ","t/"],
+      "phonics": ["/'w","ŭ","z","ən"," ","t/"],
       "tags": ["irregular","closed"],
       "hearts": [false,false,true,false,false,true],
       "hint": "was + not；a 發短母音 o /ɑ/；s 發 /z/。"
@@ -105,10 +105,10 @@
       "word": "weren't",
       "ipa": "/wɝnt/",
       "graphemes": ["w","er","e","n","'","t"],
-      "phonemes": ["/w","ɝ","-","n","-","t/"],
-      "phonics": ["/w","er","-","n","-","t/"],
+      "phonemes": ["/w","ɝ","-","n"," ","t/"],
+      "phonics": ["/w","er","-","n"," ","t/"],
       "tags": ["irregular","rcontrolled"],
-      "hearts": [false,false,true,false,true,false],
+      "hearts": [false,false,true,false,false,false],
       "hint": "were + not；er 發 er /ɝ/；e 與 ' 不發音。"
     },
     {
