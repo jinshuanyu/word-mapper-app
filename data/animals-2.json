@@ -228,7 +228,7 @@
 "phonemes": ["/'p","ɛ","ŋ","ɡ","w","ɪ","n/"],
 "phonics": ["/'p","ĕ","ŋ","ɡ","w","ĭ","n/"],
 "tags": ["closed","cluster"],
-"hearts": [false,false,false,false,false,false,false],
+"hearts": [false,false,true,false,false,false,false],
 "hint": "ng 發 /ŋg/。"
 },
 {
