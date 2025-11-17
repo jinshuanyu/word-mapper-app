@@ -219,7 +219,7 @@
       "phonemes": ["/'r","eɪ","n","d","ɪ","r/"],
       "phonics": ["/'r","ā","n","d","ĭ","r/"],
       "tags": ["vowel_team"],
-      "hearts": [false,true,false,true],
+      "hearts": [false,true,false,false,false,false],
       "hint": "reindeer = rein + deer；ein 在此發 ān /eɪn/；eer 發 er /ɪr/。"
     },
     {
