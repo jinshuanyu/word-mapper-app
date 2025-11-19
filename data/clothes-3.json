@@ -1,0 +1,235 @@
+{
+  "items": [
+    {
+      "number": "👚 女用襯衫",
+      "word": "blouse",
+      "ipa": "/blaʊs/",
+      "graphemes": ["b","l","ou","s","e"],
+      "phonemes": ["/b","l","aʊ","s","-/"],
+      "phonics": ["/b","l","ow","s","-/"],
+      "tags": ["cluster","vowel_team"],
+      "hearts": [false,false,false,false,true],
+      "hint": "ou 發 ow /aʊ/；字尾 e 不發音。"
+    },
+    {
+      "number": "🔘 鈕扣",
+      "word": "button",
+      "ipa": "/ˈbʌtən/",
+      "graphemes": ["b","u","tt","o","n"],
+      "phonemes": ["/'b","ʌ","t","ə","n/"],
+      "phonics": ["/'b","ŭ","t","ə","n/"],
+      "tags": ["closed"],
+      "hearts": [false,false,false,false,false],
+      "hint": "u 發短母音 u /ʌ/；o 弱讀為 /ə/。"
+    },
+    {
+      "number": "🧢 帽子（無簷便帽）",
+      "word": "cap",
+      "ipa": "/kæp/",
+      "graphemes": ["c","a","p"],
+      "phonemes": ["/k","æ","p/"],
+      "phonics": ["/k","ă","p/"],
+      "tags": ["cvc"],
+      "hearts": [false,false,false],
+      "hint": "a 發短母音 a /æ/。"
+    },
+    {
+      "number": "💇‍♂️ 梳子",
+      "word": "comb",
+      "ipa": "/koʊm/",
+      "graphemes": ["c","o","mb"],
+      "phonemes": ["/k","oʊ","m/"],
+      "phonics": ["/k","ō","m/"],
+      "tags": ["silent_consonant"],
+      "hearts": [false,false,true],
+      "hint": "o 發長母音 o /oʊ/；b 不發音。"
+    },
+    {
+      "number": "👁️ 隱形眼鏡",
+      "word": "contact lens",
+      "ipa": "/ˈkɑntækt lɛnz/",
+      "graphemes": ["c","o","n","t","a","c","t"," ","l","e","n","s"],
+      "phonemes": ["/'k","ɑ","n","t","æ","k","t"," ","l","ɛ","n","z/"],
+      "phonics": ["/'k","ŏ","n","t","ă","k","t"," ","l","ĕ","n","z/"],
+      "tags": ["closed","cluster"],
+      "hearts": [false,false,false,false,false,false,false,false,false,false,false,true],
+      "hint": "兩個字：contact + lens；字尾 s 發 /z/。"
+    },
+    {
+      "number": "🌾 棉；棉布",
+      "word": "cotton",
+      "ipa": "/ˈkɑtən/",
+      "graphemes": ["c","o","tt","o","n"],
+      "phonemes": ["/'k","ɑ","t","ə","n/"],
+      "phonics": ["/'k","ŏ","t","ə","n/"],
+      "tags": ["closed"],
+      "hearts": [false,false,false,false,false],
+      "hint": "第一個 o 發短母音 o /ɑ/；第二個 o 弱讀 /ə/。"
+    },
+    {
+      "number": "💎 鑽石",
+      "word": "diamond",
+      "ipa": "/ˈdaɪmənd/",
+      "graphemes": ["d","i","a","m","o","n","d"],
+      "phonemes": ["/'d","aɪ","ə","m","ə","n","d/"],
+      "phonics": ["/'d","ī","ə","m","ə","n","d/"],
+      "tags": ["open","cluster"],
+      "hearts": [false,false,true,false,false,false,false],
+      "hint": "ia 在此發長母音 i /aɪ/；o 弱讀 /ə/。"
+    },
+    {
+      "number": "耳環",
+      "word": "earrings",
+      "ipa": "/ˈɪrɪŋz/",
+      "graphemes": ["ea","rr","i","ng","s"],
+      "phonemes": ["/'ɪ","r","ɪ","ŋ","z/"],
+      "phonics": ["/'ĭ","r","ĭ","ŋ","z/"],
+      "tags": ["vowel_team","rcontrolled","digraph"],
+      "hearts": [false,false,false,false,true],
+      "hint": "ear + ring + s；ng 發 /ŋ/；字尾 s 發 /z/。"
+    },
+    {
+      "number": "手帕",
+      "word": "handkerchief",
+      "ipa": "/ˈhæŋkɚtʃɪf/",
+      "graphemes": ["h","a","n","d","k","er","ch","ie","f"],
+      "phonemes": ["/'h","æ","ŋ","-","k","ɚ","tʃ","ɪ","f/"],
+      "phonics": ["/'h","ă","ŋ","-","k","er","ch","ĭ","f/"],
+      "tags": ["closed","digraph"],
+      "hearts": [false,false,false,true,false,false,false,false,true,false],
+      "hint": "d 不發音；ch 發 /tʃ/；er 發 /ɚ/。"
+    },
+    {
+      "number": "🕳️ 洞；孔",
+      "word": "hole",
+      "ipa": "/hoʊl/",
+      "graphemes": ["h","o","l","e"],
+      "phonemes": ["/h","oʊ","l","-/"],
+      "phonics": ["/h","ō","l","-/"],
+      "tags": ["magic_e"],
+      "hearts": [false,false,false,false],
+      "hint": "o_e：o 發長母音 o /oʊ/，字尾 e 不發音。"
+    },
+    {
+      "number": "熨斗；鐵",
+      "word": "iron",
+      "ipa": "/ˈaɪɚn/",
+      "graphemes": ["i","ro","n"],
+      "phonemes": ["/'aɪ","ɚ","n/"],
+      "phonics": ["/'ī","er","n/"],
+      "tags": ["irregular"],
+      "hearts": [true,true,false],
+      "hint": "拼字 ir-on，發音接近 eye-ern /ˈaɪɚn/。"
+    },
+    {
+      "number": "😷 口罩；面罩",
+      "word": "mask",
+      "ipa": "/mæsk/",
+      "graphemes": ["m","a","s","k"],
+      "phonemes": ["/m","æ","s","k/"],
+      "phonics": ["/m","ă","s","k/"],
+      "tags": ["cvc","cluster"],
+      "hearts": [false,false,false,false],
+      "hint": "a 發短母音 a /æ/。"
+    },
+    {
+      "number": "👖 長褲（美）",
+      "word": "pants",
+      "ipa": "/pænts/",
+      "graphemes": ["p","a","n","ts"],
+      "phonemes": ["/p","æ","n","ts/"],
+      "phonics": ["/p","ă","n","ts/"],
+      "tags": ["cvc","cluster"],
+      "hearts": [false,false,false,false],
+      "hint": "a 發短母音 a /æ/；-nts 為子音群。"
+    },
+    {
+      "number": "👛 錢包（女用小包）",
+      "word": "purse",
+      "ipa": "/pɝs/",
+      "graphemes": ["p","ur","s","e"],
+      "phonemes": ["/p","ɝ","s","-/"],
+      "phonics": ["/p","er","s","-/"],
+      "tags": ["rcontrolled"],
+      "hearts": [false,false,false,true],
+      "hint": "ur 發 er /ɝ/；字尾 e 不發音。"
+    },
+    {
+      "number": "🌧️ 雨衣",
+      "word": "raincoat",
+      "ipa": "/ˈreɪnˌkoʊt/",
+      "graphemes": ["r","ai","n","c","oa","t"],
+      "phonemes": ["/'r","eɪ","n","k","oʊ","t/"],
+      "phonics": ["/'r","ā","n","k","ō","t/"],
+      "tags": ["vowel_team"],
+      "hearts": [false,false,false,false,false,false],
+      "hint": "rain + coat；ai 發 /eɪ/；oa 發 /oʊ/。"
+    },
+    {
+      "number": "拖鞋",
+      "word": "slippers",
+      "ipa": "/ˈslɪpɚz/",
+      "graphemes": ["s","l","i","pp","er","s"],
+      "phonemes": ["/'s","l","ɪ","p","ɚ","z/"],
+      "phonics": ["/'s","l","ĭ","p","er","z/"],
+      "tags": ["cluster","closed""],
+      "hearts": [false,false,false,false,false,false],
+      "hint": "slip + -er + -s；pp 為重複字母；字尾 s 發 /z/。"
+    },
+    {
+      "number": "👟 運動鞋（美）",
+      "word": "sneakers",
+      "ipa": "/ˈsnikɚz/",
+      "graphemes": ["s","n","ea","k","er","s"],
+      "phonemes": ["/'s","n","i","k","ɚ","z/"],
+      "phonics": ["/'s","n","ē","k","er","z/"],
+      "tags": ["cluster","vowel_team"],
+      "hearts": [false,false,false,false,false,true],
+      "hint": "ea 發長母音 e /i/；字尾 s 發 /z/。"
+    },
+    {
+      "number": "👔 領帶",
+      "word": "tie",
+      "ipa": "/taɪ/",
+      "graphemes": ["t","ie"],
+      "phonemes": ["/t","aɪ/"],
+      "phonics": ["/t","ī/"],
+      "tags": ["open"],
+      "hearts": [false,false],
+      "hint": "ie 發長母音 i /aɪ/。"
+    },
+    {
+      "number": "🩲 內衣",
+      "word": "underwear",
+      "ipa": "/ˈʌndɚˌwɛr/",
+      "graphemes": ["u","n","d","er","w","ea","r"],
+      "phonemes": ["/'ʌ","n","d","ɚ","w","ɛr","/"],
+      "phonics": ["/'ŭ","n","d","er","w","ĕr","/"],
+      "tags": ["closed"],
+      "hearts": [false,false,false,false,false,true,false],
+      "hint": "under + wear；er 發 /ɚ/；ea 發短母音 e /ɛ/。"
+    },
+    {
+      "number": "🦺 背心",
+      "word": "vest",
+      "ipa": "/vɛst/",
+      "graphemes": ["v","e","s","t"],
+      "phonemes": ["/v","ɛ","s","t/"],
+      "phonics": ["/v","ĕ","s","t/"],
+      "tags": ["cvc","cluster"],
+      "hearts": [false,false,false,false],
+      "hint": "e 發短母音 e /ɛ/。"
+    },
+    {
+      "number": "👛 皮夾；錢包",
+      "word": "wallet",
+      "ipa": "/ˈwɑlət/",
+      "graphemes": ["w","a","ll","e","t"],
+      "phonemes": ["/'w","ɑ","l","ə","t/"],
+      "phonics": ["/'w","ŏ","l","ə","t/"],
+      "tags": ["irregular"],
+      "hearts": [false,true,false,false,false],
+      "hint": "a 發短母音 o /ɑ/；ll 為重複字母。"
+    }
+  ]
+}
