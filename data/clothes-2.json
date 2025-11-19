@@ -151,7 +151,7 @@
       "phonemes": ["/'s","ʌ","n","ɡ","l","æ","s","ɪz/"],
       "phonics": ["/'s","ŭ","n","ɡ","l","ă","s","ĭz/"],
       "tags": ["closed","cluster","floss","suffix"],
-      "hearts": [false,false,false,false,false,false,false,false,true],
+      "hearts": [false,false,false,false,false,false,false,true],
       "hint": "sun + glasses。"
     },
     {
