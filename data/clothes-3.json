@@ -84,7 +84,7 @@
       "graphemes": ["ea","rr","i","ng","s"],
       "phonemes": ["/'ɪ","r","ɪ","ŋ","z/"],
       "phonics": ["/'ĭ","r","ĭ","ŋ","z/"],
-      "tags": ["vowel_team","rcontrolled","digraph"],
+      "tags": ["vowel_team","rcontrolled","digraph","suffix"],
       "hearts": [false,false,false,false,true],
       "hint": "ear + ring + s；ng 發 /ŋ/；字尾 s 發 /z/。"
     },
@@ -139,7 +139,7 @@
       "graphemes": ["p","a","n","ts"],
       "phonemes": ["/p","æ","n","ts/"],
       "phonics": ["/p","ă","n","ts/"],
-      "tags": ["cvc","cluster"],
+      "tags": ["cvc","cluster","suffix"],
       "hearts": [false,false,false,false],
       "hint": "a 發短母音 a /æ/；-nts 為子音群。"
     },
@@ -172,7 +172,7 @@
       "graphemes": ["s","l","i","pp","er","s"],
       "phonemes": ["/'s","l","ɪ","p","ɚ","z/"],
       "phonics": ["/'s","l","ĭ","p","er","z/"],
-      "tags": ["cluster","closed""],
+      "tags": ["cluster","closed","suffix"],
       "hearts": [false,false,false,false,false,false],
       "hint": "slip + -er + -s；pp 為重複字母；字尾 s 發 /z/。"
     },
@@ -183,7 +183,7 @@
       "graphemes": ["s","n","ea","k","er","s"],
       "phonemes": ["/'s","n","i","k","ɚ","z/"],
       "phonics": ["/'s","n","ē","k","er","z/"],
-      "tags": ["cluster","vowel_team"],
+      "tags": ["cluster","vowel_team","suffix"],
       "hearts": [false,false,false,false,false,true],
       "hint": "ea 發長母音 e /i/；字尾 s 發 /z/。"
     },
