@@ -33,6 +33,29 @@
 "hearts": [false,false,false],
 "hint": "u 發短母音 /ʌ/。"
 },
+
+     {
+      "number": "💊 治癒；治好",
+      "word": "cure",
+      "ipa": "/kjʊr/",
+      "graphemes": ["c","u","r","e"],
+      "phonemes": ["/k","jʊ","r","-/"],
+      "phonics": ["/k","yoo","r","-/"],
+      "tags": ["magic_e","rcontrolled"],
+      "hearts": [false,false,false,false],
+      "hint": "拼字 cu + re，發音接近 kyur /kjʊr/；u_e 在此發 /jʊ/（類似 yū），字尾 e 不發音。"
+    },
+      {
+      "number": "😵‍💫 頭暈的",
+      "word": "dizzy",
+      "ipa": "/ˈdɪzi/",
+      "graphemes": ["d","i","zz","y"],
+      "phonemes": ["/'d","ɪ","z","i/"],
+      "phonics": ["/'d","ĭ","z","ē/"],
+      "tags": ["closed"],
+      "hearts": [false,false,false,false],
+      "hint": "第一音節 diz：i 發短母音 i /ɪ/；zz 發 /z/；字尾 y 在第二音節發長母音 e /i/。"
+    },
 {
 "number": "🏪 藥妝店",
 "word": "drugstore",
