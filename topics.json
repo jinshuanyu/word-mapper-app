@@ -62,7 +62,8 @@
       "title": "Clothes 服裝",
       "levels": [
         { "label": "1",  "src": "data/clothes-1.json" },
-        { "label": "2", "src": "data/clothes-2.json" }
+        { "label": "2", "src": "data/clothes-2.json" },
+         { "label": "3", "src": "data/clothes-3.json" }
       ]
     },
     {
@@ -103,6 +104,7 @@
     }
   ]
 }
+
 
 
 
