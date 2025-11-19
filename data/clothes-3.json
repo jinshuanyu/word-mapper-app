@@ -8,7 +8,7 @@
       "phonemes": ["/b","l","aʊ","s","-/"],
       "phonics": ["/b","l","ow","s","-/"],
       "tags": ["cluster","vowel_team"],
-      "hearts": [false,false,false,false,true],
+      "hearts": [false,false,false,false,false],
       "hint": "ou 發 ow /aʊ/；字尾 e 不發音。"
     },
     {
@@ -52,7 +52,7 @@
       "phonemes": ["/'k","ɑ","n","t","æ","k","t"," ","l","ɛ","n","z/"],
       "phonics": ["/'k","ŏ","n","t","ă","k","t"," ","l","ĕ","n","z/"],
       "tags": ["closed","cluster"],
-      "hearts": [false,false,false,false,false,false,false,false,false,false,false,true],
+      "hearts": [false,false,false,false,false,false,false,false,false,false,false,false],
       "hint": "兩個字：contact + lens；字尾 s 發 /z/。"
     },
     {
@@ -85,7 +85,7 @@
       "phonemes": ["/'ɪ","r","ɪ","ŋ","z/"],
       "phonics": ["/'ĭ","r","ĭ","ŋ","z/"],
       "tags": ["vowel_team","rcontrolled","digraph","suffix"],
-      "hearts": [false,false,false,false,true],
+      "hearts": [false,false,false,false,false],
       "hint": "ear + ring + s；ng 發 /ŋ/；字尾 s 發 /z/。"
     },
     {
@@ -118,7 +118,7 @@
       "phonemes": ["/'aɪ","ɚ","n/"],
       "phonics": ["/'ī","er","n/"],
       "tags": ["irregular"],
-      "hearts": [true,true,false],
+      "hearts": [false,true,false],
       "hint": "拼字 ir-on，發音接近 eye-ern /ˈaɪɚn/。"
     },
     {
@@ -184,7 +184,7 @@
       "phonemes": ["/'s","n","i","k","ɚ","z/"],
       "phonics": ["/'s","n","ē","k","er","z/"],
       "tags": ["cluster","vowel_team","suffix"],
-      "hearts": [false,false,false,false,false,true],
+      "hearts": [false,false,false,false,false,false],
       "hint": "ea 發長母音 e /i/；字尾 s 發 /z/。"
     },
     {
