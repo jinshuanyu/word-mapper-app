@@ -11,17 +11,7 @@
       "hearts": [false,false,false],
       "hint": "a 發短母音 a /æ/。"
     },
-    {
-      "number": "🧢 棒球帽",
-      "word": "baseball cap",
-      "ipa": "/ˈbeɪzbɔl kæp/",
-      "graphemes": ["b","a","s","e","b","a","ll"," ","c","a","p"],
-      "phonemes": ["/'b","eɪ","s","-","b","ɔ","l"," ","k","æ","p/"],
-      "phonics": ["/'b","ā","s","-","b","aw","l"," ","k","ă","p/"],
-      "tags": ["magic_e","floss"],
-      "hearts": [false,false,false,false,false,false,false,false,false,false,false],
-      "hint": "baseball + cap。"
-    },
+
     {
       "number": "🥾 靴子",
       "word": "boots",
@@ -84,7 +74,7 @@
       "graphemes": ["h","a","n","d","b","a","g"],
       "phonemes": ["/'h","æ","n","d","b","æ","ɡ/"],
       "phonics": ["/'h","ă","n","d","b","ă","g/"],
-      "tags": ["cluster","closed"],
+      "tags": ["closed","cluster"],
       "hearts": [false,false,false,false,false,false,false],
       "hint": "hand + bag；兩個 a 都發短母音 a /æ/。"
     },
@@ -189,13 +179,13 @@
     },
     {
       "number": "🧦 襪子",
-      "word": "sock",
-      "ipa": "/sɑk/",
-      "graphemes": ["s","o","ck"],
-      "phonemes": ["/s","ɑ","k/"],
-      "phonics": ["/s","ŏ","k/"],
+      "word": "socks",
+      "ipa": "/sɑks/",
+      "graphemes": ["s","o","ck","s"],
+      "phonemes": ["/s","ɑ","k","s/"],
+      "phonics": ["/s","ŏ","k","s/"],
       "tags": ["cvc","digraph"],
-      "hearts": [false,false,false],
+      "hearts": [false,false,false,false],
       "hint": "o 發短母音 o /ɑ/；ck 發 /k/。"
     },
 
@@ -217,7 +207,7 @@
       "graphemes": ["s","w","i","m","s","ui","t"],
       "phonemes": ["/'s","w","ɪ","m","s","u","t/"],
       "phonics": ["/'s","w","ĭ","m","s","ū","t/"],
-      "tags": ["cluster","vowel_team"],
+      "tags": ["closed"],
       "hearts": [false,false,false,false,false,false,false],
       "hint": "swim + suit；ui 在此發長母音 u /u/。"
     },
@@ -228,7 +218,7 @@
       "graphemes": ["t","r","ou","s","er","s"],
       "phonemes": ["/'t","r","aʊ","z","ɚ","z/"],
       "phonics": ["/'t","r","ow","z","er","z/"],
-      "tags": ["cluster","vowel_team","rcontrolled"],
+      "tags": ["cluster","vowel_team"],
       "hearts": [false,false,false,false,false,false],
       "hint": "複數（兩條褲管）；ou 發 ow /aʊ/；兩個 s 均讀 /z/。"
     },
@@ -239,7 +229,7 @@
       "graphemes": ["T"," ","sh","ir","t"],
       "phonemes": ["/'ti"," ","ʃ","ɝ","t/"],
       "phonics": ["/'tē"," ","sh","er","t/"],
-      "tags": ["digraph","rcontrolled"],
+      "tags": ["open","digraph"],
       "hearts": [false,false,false,false,false],
       "hint": "T 發字母名 tē /ti/；sh 發 /ʃ/；ir 發 er /ɝ/。"
     },
@@ -250,7 +240,7 @@
       "graphemes": ["w","ea","r"],
       "phonemes": ["/w","ɛ","r/"],
       "phonics": ["/w","ĕ","r/"],
-      "tags": ["vowel_team","irregular"],
+      "tags": ["irregular"],
       "hearts": [false,true,false],
       "hint": "ea 在此發短母音 e /ɛ/。"
     }
