@@ -7,7 +7,7 @@
 "graphemes": ["c","o","l","d"],
 "phonemes": ["/k","oʊ","l","d/"],
 "phonics": ["/k","ō","l","d/"],
-"tags": ["closed","cluster","irregular"],
+"tags": ["irregular"],
 "hearts": [false,true,false,false],
 "hint": "-old 的 o 常發長母音 o /oʊ/。"
 },
@@ -18,7 +18,7 @@
 "graphemes": ["c","o","m","f","or","t","a","b","le"],
 "phonemes": ["/'k","ʌ","m","f","ɚ","t","ə","b","əl/"],
 "phonics": ["/'k","ŭ","m","f","er","t","ə","b","əl/"],
-"tags": ["rcontrolled"],
+"tags": ["irregular"],
 "hearts": [false,true,false,false,false,false,false,false,false],
 "hint": "第一個 o 發短母音 u /ʌ/；or 發 er /ɚ/；a 弱化為 /ə/。"
 },
@@ -29,7 +29,7 @@
 "graphemes": ["c","ou","gh"],
 "phonemes": ["/k","ɔ","f/"],
 "phonics": ["/k","aw","f/"],
-"tags": ["vowel_team","digraph","irregular"],
+"tags": ["irregular","digraph"],
 "hearts": [false,true,true],
 "hint": "ou 發 aw /ɔ/；gh 發 /f/。"
 },
@@ -40,7 +40,7 @@
 "graphemes": ["d","ea","th"],
 "phonemes": ["/d","ɛ","θ/"],
 "phonics": ["/d","ĕ","th/"],
-"tags": ["vowel_team","digraph","irregular"],
+"tags": ["irregular","digraph"],
 "hearts": [false,true,false],
 "hint": "ea 發短母音 e /ɛ/。"
 },
@@ -62,7 +62,7 @@
 "graphemes": ["d","o","c","t","or"],
 "phonemes": ["/'d","ɑ","k","t","ɚ/"],
 "phonics": ["/'d","ŏ","k","t","er/"],
-"tags": ["rcontrolled","closed"],
+"tags": ["closed"],
 "hearts": [false,false,false,false,false],
 "hint": "c 發 /k/；or 發 er /ɚ/。"
 },
@@ -73,7 +73,7 @@
 "graphemes": ["f","e","v","er"],
 "phonemes": ["/'f","i","v","ɚ/"],
 "phonics": ["/'f","ē","v","er/"],
-"tags": ["open","rcontrolled"],
+"tags": ["open"],
 "hearts": [false,false,false,false],
 "hint": "e 發長母音 e /i/。"
 },
@@ -83,7 +83,7 @@
 "ipa": "/faɪn/",
 "graphemes": ["f","i","n","e"],
 "phonemes": ["/f","aɪ","n","-/"],
-"phonics": ["/f","ī","n","—/"],
+"phonics": ["/f","ī","n","-/"],
 "tags": ["magic_e"],
 "hearts": [false,false,false,true],
 "hint": "i_e：i 發長母音 i /aɪ/；e 靜音。"
@@ -95,7 +95,7 @@
 "graphemes": ["h","ea","l","th"],
 "phonemes": ["/h","ɛ","l","θ/"],
 "phonics": ["/h","ĕ","l","th/"],
-"tags": ["vowel_team","digraph","irregular"],
+"tags": ["irregular","digraph"],
 "hearts": [false,true,false,false],
 "hint": "ea 發短母音 e /ɛ/。"
 },
@@ -106,7 +106,7 @@
 "graphemes": ["h","ea","l","th","y"],
 "phonemes": ["/'h","ɛ","l","θ","i/"],
 "phonics": ["/'h","ĕ","l","th","ē/"],
-"tags": ["vowel_team","digraph","open","irregular"],
+"tags": ["irregular","digraph"],
 "hearts": [false,true,false,false,false],
 "hint": "ea 發短母音 e /ɛ/； y 發長母音 e /i/。"
 },
@@ -117,7 +117,7 @@
 "graphemes": ["h","ea","d","a","ch","e"],
 "phonemes": ["/'h","ɛ","d","eɪ","k","-/"],
 "phonics": ["/'h","ĕ","d","ā","k","-/"],
-"tags": ["digraph","magic_e","irregular"],
+"tags": ["irregular","digraph"],
 "hearts": [false,false,false,false,false,true],
 "hint": "head + ache；ea 發短母音 e /ɛ/；ch 發 /k/。"
 },
@@ -128,7 +128,7 @@
 "graphemes": ["i","ll"],
 "phonemes": ["/ɪ","l/"],
 "phonics": ["/ĭ","l/"],
-"tags": ["floss","closed"],
+"tags": ["cvc","floss"],
 "hearts": [false,false],
 "hint": "i 發短母音 i /ɪ/；ll 重複字母。"
 },
@@ -138,9 +138,9 @@
 "ipa": "/laɪf/",
 "graphemes": ["l","i","f","e"],
 "phonemes": ["/l","aɪ","f","-/"],
-"phonics": ["/l","ī","f","—/"],
+"phonics": ["/l","ī","f","-/"],
 "tags": ["magic_e"],
-"hearts": [false,false,false,true],
+"hearts": [false,false,false,false],
 "hint": "i_e：i 發長母音 i /aɪ/；e 靜音。"
 },
 {
@@ -161,7 +161,7 @@
 "graphemes": ["s","i","ck"],
 "phonemes": ["/s","ɪ","k/"],
 "phonics": ["/s","ĭ","k/"],
-"tags": ["digraph","closed"],
+"tags": ["cvc","digraph"],
 "hearts": [false,false,false],
 "hint": "i 發短母音 i /ɪ/；ck 發 /k/。"
 },
@@ -171,9 +171,9 @@
 "ipa": "/sɔr/",
 "graphemes": ["s","or","e"],
 "phonemes": ["/s","ɔr","-/"],
-"phonics": ["/s","or","—/"],
-"tags": ["rcontrolled"],
-"hearts": [false,false,true],
+"phonics": ["/s","or","-/"],
+"tags": ["magic_e","rcontrolled"],
+"hearts": [false,false,false],
 "hint": "or 發 /ɔr/；字尾 e 靜音。"
 },
 {
@@ -183,7 +183,7 @@
 "graphemes": ["s","t","r","o","ng"],
 "phonemes": ["/s","t","r","ɑ","ŋ/"],
 "phonics": ["/s","t","r","ŏ","ŋ/"],
-"tags": ["cluster","digraph","closed"],
+"tags": ["cluster","closed","digraph"],
 "hearts": [false,false,false,false,false],
 "hint": "str- 子音群。"
 },
@@ -191,10 +191,10 @@
 "number": "🌡️ 體溫；溫度",
 "word": "temperature",
 "ipa": "/ˈtɛmprətʃɚ/",
-"graphemes": ["t","em","per","a","t","ure"],
-"phonemes": ["/'t","ɛm","pɚ","ə","t","tʃɚ/"],
-"phonics": ["/'t","ĕm","per","ə","t","cher/"],
-"tags": ["rcontrolled","digraph","cluster"],
+"graphemes": ["t","e","m","p","er","a","t","ure"],
+"phonemes": ["/'t","ɛ","m","p","ɚ","ə","t","tʃ","ɚ/"],
+"phonics": ["/'t","ĕ","m","p","er","ə","t","ch","er/"],
+"tags": ["closed"],
 "hearts": [false,false,false,false,false,false],
 "hint": "-ture 發 cher /tʃɚ/。"
 },
@@ -202,9 +202,9 @@
 "number": "疲倦的",
 "word": "tired",
 "ipa": "/ˈtaɪɚd/",
-"graphemes": ["t","i","re","d"],
-"phonemes": ["/'t","aɪ","r","d/"],
-"phonics": ["/'t","ī","r","d/"],
+"graphemes": ["t","i","r","e","d"],
+"phonemes": ["/'t","aɪ","r","-","d/"],
+"phonics": ["/'t","ī","r","-","d/"],
 "tags": ["magic_e","suffix"],
 "hearts": [false,false,false,false],
 "hint": "d 發 /d/。"
@@ -227,7 +227,7 @@
 "graphemes": ["w","e","ll"],
 "phonemes": ["/w","ɛ","l/"],
 "phonics": ["/w","ĕ","l/"],
-"tags": ["floss","closed"],
+"tags": ["cvc","floss"],
 "hearts": [false,false,false],
 "hint": "e 發短母音 e /ɛ/；ll 重複字母。"
 }
