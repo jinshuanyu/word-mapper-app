@@ -1,10 +1,13 @@
 {
   "items": [
     { "number": "🥩 牛肉", "word": "beef", "ipa": "/bif/", "graphemes": ["b","ee","f"], "phonemes": ["/b","i","f/"], "phonics": ["/b","ē","f/"], "tags": ["vowel_team"], "hearts": [0,0,0], "hint": "ee 發長母音 e /i/。" },
+    { "number": "🍔 漢堡", "word": "burger", "ipa": "/ˈbɝɡɚ/", "graphemes": ["b","ur","g","er"], "phonemes": ["/'b","ɝ","ɡ","ɚ/"], "phonics": ["/'b","er","ɡ","er/"], "tags": ["rcontrolled"], "hearts": [0,0,0,0], "hint": "ur 與 er 皆發 /ɝ/。" },
+
     { "number": "🐔 雞肉", "word": "chicken", "ipa": "/ˈtʃɪkən/", "graphemes": ["ch","i","ck","e","n"], "phonemes": ["/'tʃ","ɪ","k","ə","n/"], "phonics": ["/'ch","ĭ","k","ə","n/"], "tags": ["digraph","closed"], "hearts": [0,0,0,0,0], "hint": "" },
     { "number": "🥟 水餃", "word": "dumpling", "ipa": "/ˈdʌmplɪŋ/", "graphemes": ["d","u","m","p","l","i","ng"], "phonemes": ["/'d","ʌ","m","p","l","ɪ","ŋ/"], "phonics": ["/'d","ŭ","m","p","l","ĭ","ng/"], "tags": ["closed","digraph"], "hearts": [0,0,0,0,0,0,0], "hint": "" },
     { "number": "🥚 蛋", "word": "egg", "ipa": "/ɛɡ/", "graphemes": ["e","gg"], "phonemes": ["/ɛ","ɡ/"], "phonics": ["/ĕ","ɡ/"], "tags": ["closed","floss"], "hearts": [0,0], "hint": "" },
     { "number": "🍔 速食", "word": "fast food", "ipa": "/fæst fud/", "graphemes": ["f","a","s","t"," ","f","oo","d"], "phonemes": ["/f","æ","s","t"," ","f","u","d/"], "phonics": ["/f","ă","s","t"," ","f","ū","d/"], "tags": ["closed","vowel_team"], "hearts": [0,0,0,0,0,0,0,0], "hint": "" },
+    { "number": "🍱 食物", "word": "food", "ipa": "/fud/", "graphemes": ["f","oo","d"], "phonemes": ["/f","u","d/"], "phonics": ["/f","ū","d/"], "tags": ["vowel_team"], "hearts": [0,0,0], "hint": "oo 發長母音 u /u/。" },
     { "number": "🐟 魚", "word": "fish", "ipa": "/fɪʃ/", "graphemes": ["f","i","sh"], "phonemes": ["/f","ɪ","ʃ/"], "phonics": ["/f","ĭ","sh/"], "tags": ["digraph","cvc"], "hearts": [0,0,0], "hint": "" },
     { "number": "🍟 薯條", "word": "French fries", "ipa": "/frɛntʃ fraɪz/", "graphemes": ["F","r","e","n","ch"," ","f","r","ie","s"], "phonemes": ["/f","r","ɛ","n","tʃ"," ","f","r","aɪ","z/"], "phonics": ["/f","r","ĕ","n","ch"," ","f","r","ī","z/"], "tags": ["vowel_team","cluster"], "hearts": [0,0,0,0,0,0,0,0,0,1], "hint": "ie 發 /aɪ/；s 發 /z/。" },
     { "number": "🍖 火腿", "word": "ham", "ipa": "/hæm/", "graphemes": ["h","a","m"], "phonemes": ["/h","æ","m/"], "phonics": ["/h","ă","m/"], "tags": ["cvc"], "hearts": [0,0,0], "hint": "" },
