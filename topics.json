@@ -88,11 +88,11 @@
   "slug": "food",
   "title": "Food and Drink 飲食",
   "levels": [
-        { "label": "1", "src": "data/food-1.json" },
-        { "label": "2", "src": "data/food-2.json" },
-            { "label": "3", "src": "data/food-3.json" },
-        { "label": "4", "src": "data/food-4.json" },
-    { "label": "5", "src": "data/food-5.json" }
+        { "label": "水果與蔬菜", "src": "data/food-1.json" },
+        { "label": "主食與肉類", "src": "data/food-2.json" },
+            { "label": "麵包甜點與乳品", "src": "data/food-3.json" },
+        { "label": "飲料與調味", "src": "data/food-4.json" },
+    { "label": "餐具與用餐", "src": "data/food-5.json" }
   ]
 },
         {
@@ -105,6 +105,7 @@
     }
   ]
 }
+
 
 
 
