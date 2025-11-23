@@ -1,0 +1,169 @@
+{
+  "items": [
+    {
+      "number": "🦶 腳踝",
+      "word": "ankle",
+      "ipa": "/ˈæŋkəl/",
+      "graphemes": ["a", "n", "k", "le"],
+      "phonemes": ["/'æ", "ŋ", "k", "əl/"],
+      "phonics": ["/'ă", "ŋ", "k", "əl/"],
+      "tags": ["closed", "cle"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "n 在 k 前發鼻音 /ŋ/；le 發 /əl/。"
+    },
+    {
+      "number": "🦴 骨頭",
+      "word": "bone",
+      "ipa": "/boʊn/",
+      "graphemes": ["b", "o", "n", "e"],
+      "phonemes": ["/b", "oʊ", "n", "-/"],
+      "phonics": ["/b", "ō", "n", "-/"],
+      "tags": ["magic_e"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "o_e 發長母音 o /oʊ/。"
+    },
+    {
+      "number": "🧔 下巴",
+      "word": "chin",
+      "ipa": "/tʃɪn/",
+      "graphemes": ["ch", "i", "n"],
+      "phonemes": ["/tʃ", "ɪ", "n/"],
+      "phonics": ["/ch", "ĭ", "n/"],
+      "tags": ["digraph", "closed", "cvc"],
+      "hearts": [0, 0, 0],
+      "hint": "ch 發 /tʃ/；i 發短母音 /ɪ/。"
+    },
+    {
+      "number": "❤️ 心臟",
+      "word": "heart",
+      "ipa": "/hɑrt/",
+      "graphemes": ["h", "ear", "t"],
+      "phonemes": ["/h", "ɑr", "t/"],
+      "phonics": ["/h", "ar", "t/"],
+      "tags": ["irregular"],
+      "hearts": [0, 1, 0],
+      "hint": "ear 不規則發 /ɑr/ (ar 的音)。"
+    },
+    {
+      "number": "🦵 臀部",
+      "word": "hip",
+      "ipa": "/hɪp/",
+      "graphemes": ["h", "i", "p"],
+      "phonemes": ["/h", "ɪ", "p/"],
+      "phonics": ["/h", "ĭ", "p/"],
+      "tags": ["closed", "cvc"],
+      "hearts": [0, 0, 0],
+      "hint": "i 發短母音 /ɪ/。"
+    },
+    {
+      "number": "🥔 腎臟",
+      "word": "kidney",
+      "ipa": "/ˈkɪdni/",
+      "graphemes": ["k", "i", "d", "n", "ey"],
+      "phonemes": ["/'k", "ɪ", "d", "n", "i/"],
+      "phonics": ["/'k", "ĭ", "d", "n", "ē/"],
+      "tags": ["closed", "vowel_team"],
+      "hearts": [0, 0, 0, 0, 0],
+      "hint": "ey 發長母音 e /i/。"
+    },
+    {
+      "number": "👄 嘴唇",
+      "word": "lip",
+      "ipa": "/lɪp/",
+      "graphemes": ["l", "i", "p"],
+      "phonemes": ["/l", "ɪ", "p/"],
+      "phonics": ["/l", "ĭ", "p/"],
+      "tags": ["closed", "cvc"],
+      "hearts": [0, 0, 0],
+      "hint": "i 發短母音 /ɪ/。"
+    },
+    {
+      "number": "🫁 肺",
+      "word": "lung",
+      "ipa": "/lʌŋ/",
+      "graphemes": ["l", "u", "ng"],
+      "phonemes": ["/l", "ʌ", "ŋ/"],
+      "phonics": ["/l", "ŭ", "ng/"],
+      "tags": ["closed", "digraph"],
+      "hearts": [0, 0, 0],
+      "hint": "u 發 /ʌ/；ng 字尾發鼻音 /ŋ/。"
+    },
+    {
+      "number": "💅 指甲",
+      "word": "nail",
+      "ipa": "/neɪl/",
+      "graphemes": ["n", "ai", "l"],
+      "phonemes": ["/n", "eɪ", "l/"],
+      "phonics": ["/n", "ā", "l/"],
+      "tags": ["vowel_team"],
+      "hearts": [0, 0, 0],
+      "hint": "ai 發長母音 a /eɪ/。"
+    },
+    {
+      "number": "🖐 皮膚",
+      "word": "skin",
+      "ipa": "/skɪn/",
+      "graphemes": ["s", "k", "i", "n"],
+      "phonemes": ["/s", "k", "ɪ", "n/"],
+      "phonics": ["/s", "k", "ĭ", "n/"],
+      "tags": ["cluster", "closed"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "sk 混合音。"
+    },
+    {
+      "number": "🗣 喉嚨",
+      "word": "throat",
+      "ipa": "/θroʊt/",
+      "graphemes": ["th", "r", "oa", "t"],
+      "phonemes": ["/θ", "r", "oʊ", "t/"],
+      "phonics": ["/th", "r", "ō", "t/"],
+      "tags": ["digraph", "cluster", "vowel_team"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "th 發 /θ/；oa 發長母音 o /oʊ/。"
+    },
+    {
+      "number": "👍 拇指",
+      "word": "thumb",
+      "ipa": "/θʌm/",
+      "graphemes": ["th", "u", "m", "b"],
+      "phonemes": ["/θ", "ʌ", "m", "-/"],
+      "phonics": ["/th", "ŭ", "m", "-/"],
+      "tags": ["digraph", "closed", "silent_consonant"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "字尾 b 不發音。"
+    },
+    {
+      "number": "👅 舌頭",
+      "word": "tongue",
+      "ipa": "/tʌŋ/",
+      "graphemes": ["t", "o", "ng", "ue"],
+      "phonemes": ["/t", "ʌ", "ŋ", "-/"],
+      "phonics": ["/t", "ŭ", "ng", "-/"],
+      "tags": ["irregular", "digraph", "silent_consonant"],
+      "hearts": [0, 1, 0, 0],
+      "hint": "o 發 /ʌ/；ng 發 /ŋ/；字尾 ue 不發音。"
+    },
+    {
+      "number": "🧍 腰",
+      "word": "waist",
+      "ipa": "/weɪst/",
+      "graphemes": ["w", "ai", "s", "t"],
+      "phonemes": ["/w", "eɪ", "s", "t/"],
+      "phonics": ["/w", "ā", "s", "t/"],
+      "tags": ["vowel_team", "cluster"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "ai 發長母音 a /eɪ/。"
+    },
+    {
+      "number": "✊ 手腕",
+      "word": "wrist",
+      "ipa": "/rɪst/",
+      "graphemes": ["wr", "i", "s", "t"],
+      "phonemes": ["/r", "ɪ", "s", "t/"],
+      "phonics": ["/r", "ĭ", "s", "t/"],
+      "tags": ["digraph", "closed", "silent_consonant"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "wr 的 w 不發音。"
+    }
+  ]
+}
