@@ -50,7 +50,7 @@
     #homePage.active{display:flex}
     #homePage:not(.active){display:none!important}
 
-       /* 首頁四步驟橫向條（桌機＋手機共用） */
+    /* 首頁四步驟橫向條（桌機＋手機共用） */
     .home-progress-bar{
       display:flex;
       align-items:flex-start;
@@ -99,7 +99,7 @@
       top:50%;
       transform:translateY(-50%);
       /* 小三角形箭頭 */
-     border-width: 6px 0 6px 10px;
+      border-width: 6px 0 6px 10px;
       border-style:solid;
       border-color:transparent transparent transparent #e5e7eb;
     }
@@ -118,50 +118,68 @@
       }
     }
 
-    /* 2-line dropdown UI */
+    /* 把首頁主題區塊（ul）預設縮排拿掉，整體靠左 */
+    #topicList {
+      list-style:none;
+      margin:0;
+      padding:0;
+      width:100%;
+    }
+
+    /* 2-line dropdown UI（主題／級別） */
     .dropdown-container {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start; 
-      gap: .9rem;
-      margin-bottom: 2.5rem;
-      font-size: 1rem;
+      display:flex;
+      flex-direction:column;
+      align-items:flex-start;    /* 整組靠左 */
+      gap:.9rem;
+      margin-bottom:2.5rem;
+      font-size:1rem;
+      width:100%;
     }
     .dropdown-row {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-      gap: .9rem;
+      display:flex;
+      flex-wrap:nowrap;       /* 不換行，label + select 一定在同一行 */
+      align-items:center;
+      justify-content:flex-start;  /* 靠左 */
+      gap:.6rem;          /* 間距縮小一點，手機比較裝得下 */
     }
     .dropdown-select {
-      min-width: 160px;
-      padding: .7rem 1rem;
-      border: 2px solid #cbd5e1;
-      border-radius: 12px;
-      font-size: 1.1rem;
-      font-weight: 600;
-      background: #f8fafc;
-      transition: all .2s;
+      min-width:160px;
+      padding:.7rem 1rem;
+      border:2px solid #cbd5e1;
+      border-radius:12px;
+      font-size:1.1rem;
+      font-weight:600;
+      background:#f8fafc;
+      transition:all .2s;
     }
     .dropdown-select:focus {
-      outline: none;
-      border-color: var(--c-primary);
-      box-shadow: 0 0 0 3px rgba(124,58,237,0.15);
+      outline:none;
+      border-color:var(--c-primary);
+      box-shadow:0 0 0 3px rgba(124,58,237,0.15);
     }
     .dropdown-btn {
-      background: #9b94b0;
-      color: #fff;
-      border: none;
-      border-radius: 12px;
-      padding: .7rem 1.4rem;
-      font-size: 1.1rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: background .2s, transform .1s;
+      background:#9b94b0;
+      color:#fff;
+      border:none;
+      border-radius:12px;
+      padding:.7rem 1.4rem;
+      font-size:1.1rem;
+      font-weight:700;
+      cursor:pointer;
+      transition:background .2s, transform .1s;
     }
-    .dropdown-btn:hover { background: #887ea6; transform: translateY(-2px); }
-    .dropdown-btn:active { transform: translateY(0); }
+    .dropdown-btn:hover { background:#887ea6; transform:translateY(-2px); }
+    .dropdown-btn:active { transform:translateY(0); }
+
+    /* 手機再稍微縮一點 select 寬度，避免撐爆 */
+    @media (max-width:640px){
+      .dropdown-select{
+        min-width:140px;
+        padding:.6rem .9rem;
+        font-size:.95rem;
+      }
+    }
 
     /* Legend / tags */
     .legend{display:flex;flex-wrap:wrap;gap:.5rem;padding:0 .25rem .25rem;margin:0 0 1.25rem 0;list-style:none;}
@@ -287,8 +305,8 @@
     .credits a:hover{color:#3b82f6}
 
     .searchbar{display:flex;gap:.5rem;align-items:center;justify-content:center;margin:-.3rem auto 1rem;max-width:700px}
-    .searchbar input{width:300px;padding:12px 14px;border:2px solid var(--c-border);border-radius:10px;font-size:1.15rem}
-    .searchbar button{background:#e1effa;color:#0f172a;border:none;border-radius:10px;padding: 12px 18px; font-size: 1.15rem; font-weight:500;cursor:pointer}
+    .searchbar input{width:200px;padding:10px 12px;border:2px solid var(--c-border);border-radius:10px;font-size:1rem}
+    .searchbar button{background:#e1effa;color:#0f172a;border:none;border-radius:10px;padding: 8px 12px; font-size: 0.9rem; font-weight:500;cursor:pointer}
     .searchbar button:hover{opacity:.9}
     .search-msg{margin:.25rem 0 1rem;text-align:center;font-size:.9rem;color:#64748b}
 
@@ -362,7 +380,7 @@
       color:#ffffff;
       font-weight:600;
       font-size:0.95rem;
-      padding:.7rem 1.4rem;
+      padding:.55rem 1.2rem;
 
       border-radius:9999px;
       box-shadow:0 6px 14px rgba(0,0,0,.08);
@@ -370,7 +388,6 @@
       transition:transform .15s ease, box-shadow .2s ease, background .2s ease;
     }
     .support-btn:hover{
-     
       background: linear-gradient(90deg, #CCD2EC, #B1BFE1);
     }
     .support-btn:focus{
@@ -418,6 +435,12 @@
         font-size:1.05rem;
         padding:.6rem .9rem;
       }
+      @media (max-width:640px){
+        .support-btn{
+          font-size:0.85rem;    /* 手機版字稍微小一點 */
+          padding:.45rem 1rem;  /* 內距縮一點，讓一行裝得下 */
+        }
+      }
     }
   </style>
 </head>
@@ -433,7 +456,7 @@
 
       <section id="homePage" class="page-section active">
         <h1>英文拼字 × 聲音對照<br>Word Mapper</h1>
-                <!-- 首頁四步驟說明列 -->
+        <!-- 首頁四步驟說明列 -->
         <div class="home-progress-bar" aria-label="學習步驟">
           <div class="home-step">
             <p class="home-step-label">
@@ -464,9 +487,17 @@
           </div>
         </div>
 
-
         <ul id="topicList" class="topic-list"></ul>
       </section>
+
+      <!-- NEW: Search Results Section -->
+      <section id="searchResultPage" class="page-section">
+        <button class="back-button" data-page-target="homePage"><i class="fa-solid fa-arrow-left"></i> 返回目錄</button>
+        <h1>🔍 搜尋結果</h1>
+        <p id="searchResultCount" style="text-align:center; color:#64748b; margin-bottom:1.5rem;"></p>
+        <div id="searchResult_Content"></div>
+      </section>
+      
       <!-- 內容頁會動態加入 -->
     </main>
 
@@ -604,8 +635,12 @@
 
     function audioUrlForWord(item){
       if (item.audio) return item.audio;
+      
+      // 修改：優先檢查單字是否帶有特定的 folder (搜尋結果用)，否則使用當前 global folder
+      const folder = item._folder || levelFolder; 
+
       const safeName = String(item.word||'').toLowerCase().replace(/\s+/g, "_");
-      return `${AUDIO_BASE}${levelFolder}/${safeName}.mp3`;
+      return `${AUDIO_BASE}${folder}/${safeName}.mp3`;
     }
 
     // ====== 音檔快取 ======
@@ -828,7 +863,7 @@
             grid.querySelectorAll('.phoneme-box').forEach(cell=>{
               const raw = cell.textContent;
               const url = phonemeUrl(raw);
-             if (url) urls.add(url);
+              if (url) urls.add(url);
             });
             await batchPrefetch(urls, PREFETCH_CONCURRENCY);
           }catch(e){ console.warn('Prefetch error:', e); }
@@ -870,14 +905,14 @@
             <div class="card-header">
               <div class="card-title">
                 <span class="word-text">${escapeHtml(w.word||'')}</span>
-                <span class="word-number">${escapeHtml(w.number ?? '')}</span>
+                <span class="word-number">${w.number ?? ''}</span>
               </div>
               <button class="audio-button" data-audio-url="${escapeAttr(audioURL)}" aria-label="播放單字發音">🔊</button>
             </div>
             <div class="card-body">
               <div class="badges">${badges}</div>
               <div class="boxes-grid" style="grid-template-columns:repeat(${cols},max-content)">${cells}</div>
-                         </div>
+            </div>
           </article>
         `;
         grid.insertAdjacentHTML('beforeend',card);
@@ -906,29 +941,94 @@
 
     // ====== 搜尋 ======
     let WORD_INDEX = {};
+
+    // 修改：儲存所有符合的結果，而不只是第一個。同時紀錄資料夾路徑以供播放音檔。
     function buildWordIndexFromAll(){
       WORD_INDEX = {};
       (CACHE.topics?.topics||[]).forEach(t=>{
         t.levels.forEach((lv, idx)=>{
+          // 從 src 中解析出資料夾路徑 (例如 data/food/fruit.json -> food/fruit)
+          const thisFolder = (lv.src||'').replace(/^data\//,'').replace(/\.json$/,'').replace(/^\//,'');
+
           const items = CACHE.data[lv.src]?.items || [];
           items.forEach(w=>{
             const key = String(w.word||'').trim().toLowerCase();
-            if(key && !WORD_INDEX[key]) WORD_INDEX[key] = { slug: t.slug, levelIndex: idx };
+            if(!key) return;
+            
+            if(!WORD_INDEX[key]) WORD_INDEX[key] = [];
+            
+            WORD_INDEX[key].push({ 
+              slug: t.slug, 
+              levelIndex: idx,
+              folder: thisFolder,     // 紀錄此單字的音檔資料夾
+              topicTitle: t.title,    // 紀錄主題名稱供顯示
+              levelLabel: lv.label,   // 紀錄級別名稱
+              item: w                 // 原始單字資料
+            });
           });
         });
       });
     }
+
+    // 修改：處理單一結果與多重結果
     function goToWord(wordRaw){
       const input = String(wordRaw||'').trim().toLowerCase();
       const msgEl = document.getElementById('searchMsg');
+      
       if(!input){ msgEl.textContent='請輸入單字'; return; }
-      const hit = WORD_INDEX[input];
-      if(!hit){ msgEl.textContent=`找不到：${wordRaw}`; return; }
+      
+      const hits = WORD_INDEX[input];
+      if(!hits || hits.length === 0){ 
+        msgEl.textContent=`找不到：${wordRaw}`; 
+        return; 
+      }
+      
       msgEl.textContent='';
-      const pageId = `${hit.slug}_${hit.levelIndex+1}_Page`;
-      window.PhonicsApp.pendingHighlight = input;
-      showPage(pageId);
+
+      // 情況一：只有一個結果 -> 直接跳轉（維持原有行為）
+      if(hits.length === 1){
+        const hit = hits[0];
+        const pageId = `${hit.slug}_${hit.levelIndex+1}_Page`;
+        window.PhonicsApp.pendingHighlight = input;
+        showPage(pageId);
+        return;
+      }
+
+      // 情況二：有多個結果 -> 顯示搜尋結果頁面
+      showSearchResults(input, hits);
     }
+
+    // 新增：顯示搜尋結果頁面
+    function showSearchResults(query, hits){
+      // 1. 準備資料：複製 item 並注入 context 資訊
+      currentTopicData = hits.map(hit => {
+        // 淺拷貝 item
+        const newItem = { ...hit.item };
+        
+        // 注入正確的 folder 供 audioUrlForWord 使用
+        newItem._folder = hit.folder; 
+
+        // 在 number (中文翻譯) 後面加上來源標註
+        // 例如 "🍎 蘋果" -> "🍎 蘋果 (水果與蔬菜 Level 1)"
+        const contextLabel = ` <span style="font-size:0.65em; color:#64748b; display:block; margin-top:2px; font-weight:normal;">(${hit.topicTitle} ${hit.levelLabel || ''})</span>`;
+        newItem.number = (newItem.number || '') + contextLabel;
+
+        return newItem;
+      });
+
+      // 2. 切換至搜尋頁面
+      document.querySelectorAll('.page-section').forEach(p=>p.classList.remove('active'));
+      const searchPage = document.getElementById('searchResultPage');
+      searchPage.classList.add('active');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+
+      // 3. 更新標題與內容
+      document.getElementById('searchResultCount').textContent = `"${query}" 共有 ${hits.length} 筆結果`;
+
+      // 4. 渲染卡片（重複使用既有的 initTopicPage 邏輯）
+      initTopicPage('searchResult_Content');
+    }
+
     function initSearchBar(){
       const inp=document.getElementById('globalSearchInput');
       const btn=document.getElementById('globalSearchBtn');
