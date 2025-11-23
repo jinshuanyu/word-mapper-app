@@ -50,87 +50,29 @@
     #homePage.active{display:flex}
     #homePage:not(.active){display:none!important}
 
-    /* 首頁四步驟橫向條（桌機＋手機共用） */
-    .home-progress-bar{
-      display:flex;
-      align-items:flex-start;
-      justify-content:space-between;
-      gap:.75rem;
-      margin:.5rem 0 1.8rem;
-      padding:0 .5rem;
-    }
-
-    .home-step{
-      flex:1;
-      text-align:center;
-    }
-
-    .home-step-label{
-      display:flex;
-      flex-direction:column; /* 上一行＋下一行 */
-      align-items:center;
-      justify-content:flex-start;
-      gap:.1rem;
-      font-size:1.2rem;
-      font-weight:700;
-      line-height:1.1;
-    }
-
-    .home-step-top{
-      color:var(--c-primary);   /* 上面那行（整體／音素…）可以略微強調 */
-    }
-
-    .home-step-bottom{
-      color:#111827;
-    }
-
-    .home-step-line{
-      flex:0 0 2.5rem;
-      height:2px;
-      background:#e5e7eb;
-      align-self:center;
-      position:relative; /* 讓箭頭可以定位在這條線的右邊 */
-    }
-
-    .home-step-line::after{
-      content:"";
-      position:absolute;
-      right:0;
-      top:50%;
-      transform:translateY(-50%);
-      /* 小三角形箭頭 */
-      border-width: 6px 0 6px 10px;
-      border-style:solid;
-      border-color:transparent transparent transparent #e5e7eb;
-    }
-
+    /* 首頁四步驟橫向條 */
+    .home-progress-bar{display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem;margin:.5rem 0 1.8rem;padding:0 .5rem;}
+    .home-step{flex:1;text-align:center;}
+    .home-step-label{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:.1rem;font-size:1.2rem;font-weight:700;line-height:1.1;}
+    .home-step-top{color:var(--c-primary);}
+    .home-step-bottom{color:#111827;}
+    .home-step-line{flex:0 0 2.5rem;height:2px;background:#e5e7eb;align-self:center;position:relative;}
+    .home-step-line::after{content:"";position:absolute;right:0;top:50%;transform:translateY(-50%);border-width:6px 0 6px 10px;border-style:solid;border-color:transparent transparent transparent #e5e7eb;}
 
     @media (max-width:640px){
-      .home-progress-bar{
-        gap:.5rem;
-        padding:0 .25rem;
-      }
-      .home-step-label{
-        font-size:1.1rem;       /* 手機版字小一點 */
-      }
-      .home-step-line{
-        flex-basis:2rem;
-      }
+      .home-progress-bar{gap:.5rem;padding:0 .25rem;}
+      .home-step-label{font-size:1.1rem;}
+      .home-step-line{flex-basis:2rem;}
     }
 
-    /* 把首頁主題區塊（ul）預設縮排拿掉，整體靠左 */
-    #topicList {
-      list-style:none;
-      margin:0;
-      padding:0;
-      width:100%;
-    }
+    /* --- 修正：選單置中 --- */
+    #topicList {list-style:none;margin:0;padding:0;width:100%;}
 
-    /* 2-line dropdown UI（主題／級別） */
     .dropdown-container {
       display:flex;
       flex-direction:column;
-      align-items:flex-start;    /* 整組靠左 */
+      align-items:center;    /* 改為置中 */
+      text-align:center;     /* 文字置中 */
       gap:.9rem;
       margin-bottom:2.5rem;
       font-size:1rem;
@@ -138,10 +80,10 @@
     }
     .dropdown-row {
       display:flex;
-      flex-wrap:nowrap;       /* 不換行，label + select 一定在同一行 */
+      flex-wrap:nowrap;
       align-items:center;
-      justify-content:flex-start;  /* 靠左 */
-      gap:.6rem;          /* 間距縮小一點，手機比較裝得下 */
+      justify-content:center;  /* 改為置中 */
+      gap:.6rem;
     }
     .dropdown-select {
       min-width:160px;
@@ -153,32 +95,15 @@
       background:#f8fafc;
       transition:all .2s;
     }
-    .dropdown-select:focus {
-      outline:none;
-      border-color:var(--c-primary);
-      box-shadow:0 0 0 3px rgba(124,58,237,0.15);
-    }
+    .dropdown-select:focus { outline:none; border-color:var(--c-primary); box-shadow:0 0 0 3px rgba(124,58,237,0.15); }
     .dropdown-btn {
-      background:#9b94b0;
-      color:#fff;
-      border:none;
-      border-radius:12px;
-      padding:.7rem 1.4rem;
-      font-size:1.1rem;
-      font-weight:700;
-      cursor:pointer;
-      transition:background .2s, transform .1s;
+      background:#9b94b0;color:#fff;border:none;border-radius:12px;padding:.7rem 1.4rem;font-size:1.1rem;font-weight:700;cursor:pointer;transition:background .2s, transform .1s;
     }
     .dropdown-btn:hover { background:#887ea6; transform:translateY(-2px); }
     .dropdown-btn:active { transform:translateY(0); }
 
-    /* 手機再稍微縮一點 select 寬度，避免撐爆 */
     @media (max-width:640px){
-      .dropdown-select{
-        min-width:140px;
-        padding:.6rem .9rem;
-        font-size:.95rem;
-      }
+      .dropdown-select{min-width:140px;padding:.6rem .9rem;font-size:.95rem;}
     }
 
     /* Legend / tags */
@@ -189,23 +114,12 @@
     .tag-all{background:#e5e7eb;border-color:#94a3b8;color:#334155}
     .category-tag{padding:.3rem .75rem;border-radius:999px;font-size:.9rem;font-weight:700;border:2px solid;white-space:nowrap;user-select:none}
 
-    /* 篩選：折疊條 */
-    .filter-bar{
-      display:flex;align-items:center;justify-content:space-between;gap:.75rem;margin:.25rem 0 0.5rem;
-    }
-    .filter-toggle{
-      display:inline-flex;align-items:center;gap:.5rem;
-      padding:.55rem .9rem;border-radius:10px;border:2px solid var(--c-border);
-      background:#f8fafc;font-weight:800;cursor:pointer;
-      transition:transform .1s ease, box-shadow .2s ease, border-color .2s ease;
-    }
+    /* Filter */
+    .filter-bar{display:flex;align-items:center;justify-content:space-between;gap:.75rem;margin:.25rem 0 0.5rem;}
+    .filter-toggle{display:inline-flex;align-items:center;gap:.5rem;padding:.55rem .9rem;border-radius:10px;border:2px solid var(--c-border);background:#f8fafc;font-weight:800;cursor:pointer;transition:transform .1s ease, box-shadow .2s ease, border-color .2s ease;}
     .filter-toggle:hover{transform:translateY(-1px);box-shadow:0 6px 14px rgba(2,6,23,.08);border-color:#cbd5e1}
     .filter-state{font-size:.9rem;opacity:.7}
-    .filter-panel{
-      display:none; /* 預設收合 */
-      border:2px dashed #e2e8f0;border-radius:12px;padding:.6rem .6rem .4rem;margin:.4rem 0 1rem;
-      background:#fbfbfd;
-    }
+    .filter-panel{display:none;border:2px dashed #e2e8f0;border-radius:12px;padding:.6rem .6rem .4rem;margin:.4rem 0 1rem;background:#fbfbfd;}
     .filter-panel.open{display:block}
 
     .topic-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.25rem}
@@ -215,8 +129,24 @@
 
     .card-header{display:flex;justify-content:space-between;align-items:center;padding:1rem 1.25rem;background:#f1f5f9;border-bottom:2px solid #e2e8f0}
     .card-title{display:flex;align-items:baseline;gap:.6rem}
-    .word-number{font-size:1.15rem;font-weight:700;color:#475569} /* 縮小一點 */
+    .word-number{font-size:1.15rem;font-weight:700;color:#475569}
     .word-text{font-size:1.9rem;font-weight:800;color:#0f172a}
+    
+    /* --- 搜尋結果連結樣式 --- */
+    .source-link-btn {
+      display: block;
+      margin-top: 0px;
+      font-size: 0.8rem;
+      color: #3b82f6;
+      background: none;
+      border: none;
+      padding: 0;
+      cursor: pointer;
+      text-decoration: underline;
+      text-align: left;
+      font-weight: 600;
+    }
+    .source-link-btn:hover { color: #1d4ed8; }
 
     .audio-button{font-size:2rem;cursor:pointer;background:none;border:none;padding:0;line-height:1;transition:transform .1s}
     .audio-button:hover{transform:scale(1.1)}
@@ -226,66 +156,17 @@
     .badges{display:flex;gap:.5rem;flex-wrap:nowrap;overflow:auto;white-space:nowrap;padding-bottom:.25rem;margin-bottom:.25rem;-webkit-overflow-scrolling:touch}
     .badges .category-tag{flex:0 0 auto}
 
-    .boxes-grid{
-      display:grid;
-      grid-auto-rows:auto;
-      border:2px solid #94a3b8;
-      border-radius:8px;
-      overflow:auto;
-      grid-auto-columns:max-content;
-      justify-content:start;
-      align-content:start;
-      width:max-content;
-      max-width:100%;
-    }
-    .box{
-      display:flex;align-items:center;justify-content:center;
-      min-height:56px;padding:.35rem .5rem;text-align:center;
-      font-size:1.6rem;font-weight:700;border-right:2px solid #cbd5e1;
-    }
+    .boxes-grid{display:grid;grid-auto-rows:auto;border:2px solid #94a3b8;border-radius:8px;overflow:auto;grid-auto-columns:max-content;justify-content:start;align-content:start;width:max-content;max-width:100%;}
+    .box{display:flex;align-items:center;justify-content:center;min-height:56px;padding:.35rem .5rem;text-align:center;font-size:1.6rem;font-weight:700;border-right:2px solid #cbd5e1;}
     .box:last-child{border-right:none}
     .grapheme-box{background:#f1f5f9;color:#1e293b;position:relative;font-family:'Inter','Noto Sans TC',sans-serif;border-bottom:2px solid #cbd5e1;grid-row:1}
 
-    .phoneme-box{
-      background:#fff;
-      font-family:'Noto Sans','Noto Sans TC',sans-serif !important;
-      font-size:1.6rem !important;
-      font-weight:400 !important;
-      color:#0f172a;
-      grid-row:2;transition:.2s;cursor:pointer;user-select:none;
-      line-height:1.4;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-      text-rendering: optimizeLegibility;
-      -webkit-text-size-adjust: 100%;
-      text-size-adjust: 100%;
-      position: relative;
-    }
-    .phoneme-box.is-phonics{
-      font-family:'Noto Sans','Noto Sans TC',sans-serif !important;
-      font-size:1.6rem !important;
-      font-weight:400 !important;
-      line-height:1.4;
-      -webkit-font-smoothing: antialiased;
-      -webkit-text-size-adjust: 100%;
-      text-size-adjust: 100%;
-    }
+    .phoneme-box{background:#fff;font-family:'Noto Sans','Noto Sans TC',sans-serif !important;font-size:1.6rem !important;font-weight:400 !important;color:#0f172a;grid-row:2;transition:.2s;cursor:pointer;user-select:none;line-height:1.4;position:relative;}
     .phoneme-box:hover{background:#f0f9ff;transform:none}
     .phoneme-box:active{background:#dbeafe}
 
-    .phoneme-box, .audio-button {
-      -webkit-tap-highlight-color: rgba(59, 130, 246, 0.1);
-      touch-action: manipulation;
-    }
-
     .heart-symbol{position:absolute;bottom:-2px;left:0;right:0;text-align:center;color:#ef4444;font-size:1rem;line-height:1}
-    .word-tips{
-      background:#fef3c7;border:1px solid #fbbf24;border-radius:6px;
-      padding:.5rem .75rem;margin-top:.8rem;font-family:'Noto Sans TC',sans-serif;
-      color:#78350f;font-size:1.05rem;line-height:1.5;display:flex;gap:.5rem;align-items:flex-start
-    }
-    .tips-icon{color:#f59e0b;font-size:1.1rem}
-
+    
     .toggle-container{display:flex;justify-content:center;align-items:center;gap:1rem;margin:.2rem 0 .6rem;font-weight:700;color:#334155;user-select:none;font-size:1rem}
     .attribution-note{text-align:center;font-size:.85rem;color:#64748b;margin-top:0;margin-bottom:1.1rem;line-height:1.5}
     .attribution-note a{color:#3b82f6;text-decoration:underline}
@@ -310,8 +191,6 @@
     .searchbar button:hover{opacity:.9}
     .search-msg{margin:.25rem 0 1rem;text-align:center;font-size:.9rem;color:#64748b}
 
-    u { text-underline-offset: .15em; text-decoration-thickness: from-font; }
-
     .word-card.search-hit{outline:3px solid #7c3aed;box-shadow:0 0 0 4px rgba(124,58,237,.15);animation:hitflash 1.6s ease}
     @keyframes hitflash{0%{background:#faf5ff}100%{background:#fff}}
 
@@ -321,127 +200,31 @@
       .topic-grid{grid-template-columns:1fr}
       .word-text{font-size:1.7rem}
       .box{font-size:1.5rem;min-height:52px}
-      .phoneme-box{
-        font-size:1.5rem !important;
-        font-weight:400 !important;
-        font-family:'Noto Sans','Noto Sans TC',sans-serif !important;
-        line-height:1.4;
-        -webkit-font-smoothing: antialiased;
-        -webkit-text-size-adjust: 100%;
-      }
-      .phoneme-box.is-phonics{
-        font-size:1.5rem !important;
-        font-weight:400 !important;
-        font-family:'Noto Sans','Noto Sans TC',sans-serif !important;
-        line-height:1.4;
-        -webkit-font-smoothing: antialiased;
-        -webkit-text-size-adjust: 100%;
-      }
+      .phoneme-box{font-size:1.5rem !important;font-weight:400 !important;font-family:'Noto Sans','Noto Sans TC',sans-serif !important;}
+      .phoneme-box.is-phonics{font-size:1.5rem !important;font-weight:400 !important;font-family:'Noto Sans','Noto Sans TC',sans-serif !important;}
       .attribution-note{font-size:.75rem}
       .back-button{margin-bottom:1rem;font-size: 1.1rem; padding:10px 16px}
     }
 
-    .box.phoneme-box span.phoneme-vowel { 
-      color:#dc2626 !important; 
-      font-family: inherit !important;
-      font-size: inherit !important;
-      font-weight: inherit !important;
-      -webkit-font-smoothing: inherit;
-      -moz-osx-font-smoothing: inherit;
-    }
-    .box.phoneme-box span.phoneme-consonant { 
-      color:#2563eb !important; 
-      font-family: inherit !important;
-      font-size: inherit !important;
-      font-weight: inherit !important;
-      -webkit-font-smoothing: inherit;
-      -moz-osx-font-smoothing: inherit;
-    }
+    .box.phoneme-box span.phoneme-vowel { color:#dc2626 !important; font-family: inherit !important; font-size: inherit !important; font-weight: inherit !important; }
+    .box.phoneme-box span.phoneme-consonant { color:#2563eb !important; font-family: inherit !important; font-size: inherit !important; font-weight: inherit !important; }
 
-    .phoneme-box.loading-audio::after {
-      content: '⏳';
-      position: absolute;
-      top: 2px;
-      right: 2px;
-      font-size: 0.8rem;
-      opacity: 0.5;
-    }
+    .phoneme-box.loading-audio::after { content: '⏳'; position: absolute; top: 2px; right: 2px; font-size: 0.8rem; opacity: 0.5; }
     #levelSelect { min-width: 160px; }
     .back-button{ font-size: 1.1rem; padding: 10px 16px; }
-
-    /* 膠囊換行 */
     .badges{ flex-wrap: wrap !important; white-space: normal !important; overflow: visible !important; }
     .badges .category-tag{ white-space: nowrap !important; }
 
-    /* 支持我 CTA：莫蘭迪紫藍（亮） */
-    .support-btn{
-      display:inline-block;
-      background: linear-gradient(90deg, #D9DDF0, #BFCBE6);
-      color:#ffffff;
-      font-weight:600;
-      font-size:0.95rem;
-      padding:.55rem 1.2rem;
+    .support-btn{display:inline-block;background: linear-gradient(90deg, #D9DDF0, #BFCBE6);color:#ffffff;font-weight:600;font-size:0.95rem;padding:.55rem 1.2rem;border-radius:9999px;box-shadow:0 6px 14px rgba(0,0,0,.08);text-decoration:none;transition:transform .15s ease, box-shadow .2s ease, background .2s ease;}
+    .support-btn:hover{background: linear-gradient(90deg, #CCD2EC, #B1BFE1);}
+    .support-btn:focus{outline:3px solid rgba(160, 175, 215, .45);outline-offset:2px;}
 
-      border-radius:9999px;
-      box-shadow:0 6px 14px rgba(0,0,0,.08);
-      text-decoration:none;
-      transition:transform .15s ease, box-shadow .2s ease, background .2s ease;
-    }
-    .support-btn:hover{
-      background: linear-gradient(90deg, #CCD2EC, #B1BFE1);
-    }
-    .support-btn:focus{
-      outline:3px solid rgba(160, 175, 215, .45);
-      outline-offset:2px;
-    }
-
-    /* ===== 返回頂部浮動按鈕 ===== */
-    .back-to-top{
-      position:fixed;
-      right:1.4rem;
-      bottom:3rem;
-      z-index:50;
-      padding:.7rem 1.05rem;
-      border-radius:999px;
-      border:none;
-      background:#887ea6;
-      color:#fff;
-      font-size:1.1rem;
-      font-weight:700;
-      cursor:pointer;
-      box-shadow:0 6px 14px rgba(15,23,42,.18);
-      opacity:0;
-      pointer-events:none;
-      transform:translateY(6px);
-      transition:opacity .2s ease, transform .15s ease, box-shadow .2s ease, background .2s ease;
-    }
-    .back-to-top.visible{
-      opacity:1;
-      pointer-events:auto;
-      transform:translateY(0);
-    }
-    .back-to-top:hover{
-      background:#6f668f;
-      box-shadow:0 10px 20px rgba(15,23,42,.22);
-    }
-    .back-to-top:focus{
-      outline:3px solid rgba(136,126,166,.45);
-      outline-offset:2px;
-    }
-    @media (max-width:768px){
-      .back-to-top{
-        right:1rem;
-        bottom:3rem;
-        font-size:1.05rem;
-        padding:.6rem .9rem;
-      }
-      @media (max-width:640px){
-        .support-btn{
-          font-size:0.85rem;    /* 手機版字稍微小一點 */
-          padding:.45rem 1rem;  /* 內距縮一點，讓一行裝得下 */
-        }
-      }
-    }
+    .back-to-top{position:fixed;right:1.4rem;bottom:3rem;z-index:50;padding:.7rem 1.05rem;border-radius:999px;border:none;background:#887ea6;color:#fff;font-size:1.1rem;font-weight:700;cursor:pointer;box-shadow:0 6px 14px rgba(15,23,42,.18);opacity:0;pointer-events:none;transform:translateY(6px);transition:opacity .2s ease, transform .15s ease, box-shadow .2s ease, background .2s ease;}
+    .back-to-top.visible{opacity:1;pointer-events:auto;transform:translateY(0);}
+    .back-to-top:hover{background:#6f668f;box-shadow:0 10px 20px rgba(15,23,42,.22);}
+    .back-to-top:focus{outline:3px solid rgba(136,126,166,.45);outline-offset:2px;}
+    @media (max-width:768px){ .back-to-top{right:1rem;bottom:3rem;font-size:1.05rem;padding:.6rem .9rem;} }
+    @media (max-width:640px){ .support-btn{font-size:0.85rem;padding:.45rem 1rem;} }
   </style>
 </head>
 
@@ -456,6 +239,7 @@
 
       <section id="homePage" class="page-section active">
         <h1>英文拼字 × 聲音對照<br>Word Mapper</h1>
+        
         <!-- 首頁四步驟說明列 -->
         <div class="home-progress-bar" aria-label="學習步驟">
           <div class="home-step">
@@ -490,7 +274,7 @@
         <ul id="topicList" class="topic-list"></ul>
       </section>
 
-      <!-- NEW: Search Results Section -->
+      <!-- Search Results Section -->
       <section id="searchResultPage" class="page-section">
         <button class="back-button" data-page-target="homePage"><i class="fa-solid fa-arrow-left"></i> 返回目錄</button>
         <h1>🔍 搜尋結果</h1>
@@ -521,7 +305,6 @@
     </footer>
   </div>
 
-  <!-- 浮動【top】按鈕 -->
   <button id="backToTop" class="back-to-top" type="button" aria-label="返回頂部">↑ TOP</button>
 
   <script>
@@ -542,7 +325,6 @@
 
     window.PhonicsApp = window.PhonicsApp || { pendingHighlight: null };
 
-    // ===== utils =====
     function escapeHtml(text) {
       const div = document.createElement('div');
       div.textContent = text == null ? '' : String(text);
@@ -556,19 +338,12 @@
     }
     function escapeAttr(val){ return String(val).replace(/&/g,'&amp;').replace(/"/g,'&quot;'); }
 
-    const VOWEL_CHARS = new Set([
-      'i','ɪ','ɛ','æ','ʌ','ɑ','ɔ','ʊ','u','ə','ɚ','ɝ',
-      'e','a','o','ē','ī','ō','ā','ū','ĕ','ĭ','ŏ','ŭ','ă'
-    ]);
-    const CONSONANT_CHARS = new Set([
-      'p','b','t','d','k','ɡ','f','v','θ','ð','s','z','ʃ','ʒ','h','m','n','ŋ','l','r','w','j','c','y','x'
-    ]);
+    const VOWEL_CHARS = new Set(['i','ɪ','ɛ','æ','ʌ','ɑ','ɔ','ʊ','u','ə','ɚ','ɝ','e','a','o','ē','ī','ō','ā','ū','ĕ','ĭ','ŏ','ŭ','ă']);
+    const CONSONANT_CHARS = new Set(['p','b','t','d','k','ɡ','f','v','θ','ð','s','z','ʃ','ʒ','h','m','n','ŋ','l','r','w','j','c','y','x']);
     const NEUTRAL_CHARS = new Set(['/',' ', "'", 'ˌ','.', 'ː','-']);
 
     function stripColorSpans(html){
-      return html
-        .replace(/<span[^>]*class="[^"]*\bphoneme-(?:vowel|consonant)\b[^"]*"[^>]*>/gi,'')
-        .replace(/<\/span>/gi,'');
+      return html.replace(/<span[^>]*class="[^"]*\bphoneme-(?:vowel|consonant)\b[^"]*"[^>]*>/gi,'').replace(/<\/span>/gi,'');
     }
     function colorizePhonemes(html){
       if(!html) return '';
@@ -584,44 +359,24 @@
           continue;
         }
         if(NEUTRAL_CHARS.has(ch)){ out += ch; i++; continue; }
-        if(VOWEL_CHARS.has(ch)){
-          out += `<span class="phoneme-vowel">${ch}</span>`;
-        }else if(CONSONANT_CHARS.has(ch)){
-          out += `<span class="phoneme-consonant">${ch}</span>`;
-        }else{
-          out += ch;
-        }
+        if(VOWEL_CHARS.has(ch)){ out += `<span class="phoneme-vowel">${ch}</span>`; }
+        else if(CONSONANT_CHARS.has(ch)){ out += `<span class="phoneme-consonant">${ch}</span>`; }
+        else{ out += ch; }
         i++;
       }
       return out;
     }
 
-    // —— 中文標籤名稱 —— 
     const tagNames = {
-      all: "全部",
-      vowel: "母音",
-      consonant :"子音",     
-      irregular: "不規則拼寫",
-      closed: "閉音節（短母音）",
-      floss: "重複子音字尾 (FLOSS-Z)",
-      digraph: "雙字母子音",
-      cluster: "子音群",
-      suffix: "字尾後綴",
-      rcontrolled: "母音 + 'r'",
-      open: "開音節（長母音）",
-      cle: "子音 + 'le'",
-      magic_e: "長母音 + 靜音 'e'",
-      vowel_team: "母音組合",
-      silent_consonant: "不發音子音字母",
-      cvc: "單一閉音節（短母音）"  
+      all: "全部", vowel: "母音", consonant :"子音", irregular: "不規則拼寫", closed: "閉音節（短母音）", floss: "重複子音字尾 (FLOSS-Z)",
+      digraph: "雙字母子音", cluster: "子音群", suffix: "字尾後綴", rcontrolled: "母音 + 'r'", open: "開音節（長母音）", cle: "子音 + 'le'",
+      magic_e: "長母音 + 靜音 'e'", vowel_team: "母音組合", silent_consonant: "不發音子音字母", cvc: "單一閉音節（短母音）"  
     };
 
-    // ====== 基本狀態 ======
     const TOPICS_URL = 'topics.json';
     const CACHE = { topics: null, data: {} };
     const loadingState = new Set();
 
-    // ====== fetch timeout ======
     function fetchWithTimeout(url, opts={}, timeout=8000){
       return Promise.race([
         fetch(url, opts),
@@ -629,34 +384,24 @@
       ]);
     }
 
-    // ====== 音訊播放與路徑 ======
     const AUDIO_BASE = './audio/';
     let levelFolder = '';
 
     function audioUrlForWord(item){
       if (item.audio) return item.audio;
-      
-      // 修改：優先檢查單字是否帶有特定的 folder (搜尋結果用)，否則使用當前 global folder
       const folder = item._folder || levelFolder; 
-
       const safeName = String(item.word||'').toLowerCase().replace(/\s+/g, "_");
       return `${AUDIO_BASE}${folder}/${safeName}.mp3`;
     }
 
-    // ====== 音檔快取 ======
     const AUDIO_CACHE = new Map();
     const CACHE_MAX = 300;
     function cachePut(url, blobUrl){
       AUDIO_CACHE.set(url, { blobUrl, t: Date.now() });
       if (AUDIO_CACHE.size > CACHE_MAX){
         let oldestKey=null, oldestT=Infinity;
-        for (const [k,v] of AUDIO_CACHE){
-          if (v.t < oldestT){ oldestT=v.t; oldestKey=k; }
-        }
-        if (oldestKey){
-          try{ URL.revokeObjectURL(AUDIO_CACHE.get(oldestKey).blobUrl); }catch{}
-          AUDIO_CACHE.delete(oldestKey);
-        }
+        for (const [k,v] of AUDIO_CACHE){ if (v.t < oldestT){ oldestT=v.t; oldestKey=k; } }
+        if (oldestKey){ try{ URL.revokeObjectURL(AUDIO_CACHE.get(oldestKey).blobUrl); }catch{} AUDIO_CACHE.delete(oldestKey); }
       }
     }
     function cacheGet(url){
@@ -702,30 +447,28 @@
       }
     }
 
-    // ====== 音素對照音檔表 ======
     let PHONEME = { files: {} };
-    fetchWithTimeout('data/phoneme-audio.json')
-      .then(r => r.ok ? r.json() : {files:{}})
-      .then(j => { PHONEME = j || {files:{}}; })
-      .catch(()=>{});
+    fetchWithTimeout('data/phoneme-audio.json').then(r => r.ok ? r.json() : {files:{}}).then(j => { PHONEME = j || {files:{}}; }).catch(()=>{});
 
     function phonemeUrl(raw){
       if (PHONEME.files && PHONEME.files[raw]) return PHONEME.files[raw];
-      const key = String(raw)
-        .replace(/<[^>]+>/g,'')
-        .replace(/'/g,'')
-        .trim()
-        .replace(/^\/|\/$/g,'')
-        .replace(/\s+/g,'');
+      const key = String(raw).replace(/<[^>]+>/g,'').replace(/'/g,'').trim().replace(/^\/|\/$/g,'').replace(/\s+/g,'');
       return (PHONEME.files && PHONEME.files[key]) ? PHONEME.files[key] : null;
     }
 
-    // ====== 委派事件 ======
+    // ====== 事件委派 (包含搜尋結果的連結點擊) ======
     document.addEventListener('click', (e) => {
       const btn = e.target.closest('.audio-button');
       if(btn){
         const url = btn.getAttribute('data-audio-url');
         if(url) playAudioSmart(url, btn);
+        return;
+      }
+      // 處理跳轉連結
+      const sourceLink = e.target.closest('.source-link-btn');
+      if(sourceLink){
+        const targetPage = sourceLink.getAttribute('data-page-target');
+        if(targetPage) showPage(targetPage);
         return;
       }
       const cell = e.target.closest('.phoneme-box');
@@ -748,7 +491,6 @@
       }
     });
 
-    // 預抓
     function setupAudioPrefetchListeners(){
       if (DISABLE_PREFETCH) return;
       if (!IS_TOUCH) {
@@ -768,8 +510,7 @@
     }
     setupAudioPrefetchListeners();
 
-    // ====== 狀態與渲染 ======
-    let selectedFilter = 'all'; // 預設顯示全部
+    let selectedFilter = 'all'; 
     let currentTopicData=[];
     let isPhonicsMode=false;
 
@@ -782,7 +523,6 @@
       currentTopicData.forEach(w=>{ (w.tags||[]).forEach(t=>usedTags.add(t)); });
       const existing=allTags.filter(t=>usedTags.has(t));
 
-      // --- 篩選列（折疊按鈕 + 狀態） ---
       const filterBarHTML = `
         <div class="filter-bar">
           <button class="filter-toggle" type="button" aria-expanded="false" aria-controls="filter-panel-${contentId}">
@@ -792,7 +532,6 @@
         </div>
       `;
 
-      // --- legend（放進可折疊 panel） ---
       let legendHTML = '<ul class="legend">';
       existing.forEach(t=>{
         const name = tagNames[t] || t;
@@ -802,7 +541,6 @@
       });
       legendHTML+='</ul>';
 
-      // IPA/Phonics 切換（保持常駐顯示）
       const toggleHTML=`
         <div class="toggle-container">
           <span class="toggle-label-ipa">IPA 音標</span>
@@ -818,42 +556,29 @@
         </p>
       `;
 
-      // --- 可折疊的 panel（預設關閉） ---
-      const panelHTML = `
-        <div id="filter-panel-${contentId}" class="filter-panel" role="region" aria-label="標籤篩選面板">
-          ${legendHTML}
-        </div>
-      `;
-
+      const panelHTML = `<div id="filter-panel-${contentId}" class="filter-panel" role="region" aria-label="標籤篩選面板">${legendHTML}</div>`;
       cnt.innerHTML = filterBarHTML + panelHTML + toggleHTML + `<div class="topic-grid" id="teaching-grid-${contentId}"></div>`;
 
-      // 綁定 legend 點選
       cnt.querySelectorAll('.legend-item').forEach(li=>{
         li.addEventListener('click',()=>{
           selectedFilter = li.getAttribute('data-filter')||'all';
-          // 更新 legend 樣式
           cnt.querySelectorAll('.legend-item').forEach(x=>x.classList.remove('selected'));
           li.classList.add('selected');
-          // 更新狀態文字
           const stateEl = document.getElementById(`filter-state-${contentId}`);
           if(stateEl){ stateEl.textContent = `（目前：${tagNames[selectedFilter] || selectedFilter}）`; }
-          // 套用篩選
           applyFilters(contentId);
-          // 自動關閉 panel（保持乾淨）
           const panel = document.getElementById(`filter-panel-${contentId}`);
           const toggleBtn = cnt.querySelector('.filter-toggle');
           if(panel && toggleBtn){ panel.classList.remove('open'); toggleBtn.setAttribute('aria-expanded','false'); }
         });
       });
 
-      // 綁定 IPA/Phonics 切換
       const tog=cnt.querySelector(`#toggle_${contentId}`);
       if(tog){ tog.addEventListener('change',()=>{ isPhonicsMode=tog.checked; renderCards(contentId); }); }
 
       renderCards(contentId);
       highlightIfPending(contentId);
 
-      // 預抓音素音檔
       if (!DISABLE_PREFETCH){
         setTimeout(async ()=>{ 
           try{
@@ -900,12 +625,29 @@
         }
 
         const audioURL = audioUrlForWord(w);
+
+        // 判斷是否有來源連結 (用於搜尋結果)
+        let titleExtraHtml = '';
+        if(w._sourcePageId && w._sourceTitle){
+          titleExtraHtml = `
+            <div style="display:flex; flex-direction:column; align-items:flex-start; margin-left: 8px;">
+               <span class="word-number" style="line-height:1.2;">${escapeHtml(w.number ?? '')}</span>
+               <button class="source-link-btn" data-page-target="${w._sourcePageId}">
+                 ↪ 前往 ${escapeHtml(w._sourceTitle)}
+               </button>
+            </div>
+          `;
+        } else {
+           // 正常情況
+           titleExtraHtml = `<span class="word-number">${escapeHtml(w.number ?? '')}</span>`;
+        }
+
         const card=`
           <article class="word-card" data-tags="${escapeAttr(tagsAttr)}" data-word="${escapeAttr(String(w.word||'').toLowerCase())}">
             <div class="card-header">
               <div class="card-title">
                 <span class="word-text">${escapeHtml(w.word||'')}</span>
-                <span class="word-number">${w.number ?? ''}</span>
+                ${titleExtraHtml}
               </div>
               <button class="audio-button" data-audio-url="${escapeAttr(audioURL)}" aria-label="播放單字發音">🔊</button>
             </div>
@@ -919,7 +661,6 @@
       });
       applyFilters(contentId);
 
-      // 預抓單字音檔（少量）
       if (!DISABLE_PREFETCH){
         try{
           const warm = (currentTopicData||[]).slice(0, PREFETCH_WORDS).map(w => audioUrlForWord(w)).filter(Boolean);
@@ -939,16 +680,14 @@
       });
     }
 
-    // ====== 搜尋 ======
     let WORD_INDEX = {};
-
-    // 修改：儲存所有符合的結果，而不只是第一個。同時紀錄資料夾路徑以供播放音檔。
     function buildWordIndexFromAll(){
       WORD_INDEX = {};
       (CACHE.topics?.topics||[]).forEach(t=>{
         t.levels.forEach((lv, idx)=>{
-          // 從 src 中解析出資料夾路徑 (例如 data/food/fruit.json -> food/fruit)
           const thisFolder = (lv.src||'').replace(/^data\//,'').replace(/\.json$/,'').replace(/^\//,'');
+          // 紀錄此課程的 Page ID，供搜尋結果跳轉使用
+          const thisPageId = `${t.slug}_${idx+1}_Page`;
 
           const items = CACHE.data[lv.src]?.items || [];
           items.forEach(w=>{
@@ -960,32 +699,26 @@
             WORD_INDEX[key].push({ 
               slug: t.slug, 
               levelIndex: idx,
-              folder: thisFolder,     // 紀錄此單字的音檔資料夾
-              topicTitle: t.title,    // 紀錄主題名稱供顯示
-              levelLabel: lv.label,   // 紀錄級別名稱
-              item: w                 // 原始單字資料
+              folder: thisFolder,
+              topicTitle: t.title,
+              levelLabel: lv.label,
+              pageId: thisPageId,  // 存入 Page ID
+              item: w
             });
           });
         });
       });
     }
 
-    // 修改：處理單一結果與多重結果
     function goToWord(wordRaw){
       const input = String(wordRaw||'').trim().toLowerCase();
       const msgEl = document.getElementById('searchMsg');
       
       if(!input){ msgEl.textContent='請輸入單字'; return; }
-      
       const hits = WORD_INDEX[input];
-      if(!hits || hits.length === 0){ 
-        msgEl.textContent=`找不到：${wordRaw}`; 
-        return; 
-      }
-      
+      if(!hits || hits.length === 0){ msgEl.textContent=`找不到：${wordRaw}`; return; }
       msgEl.textContent='';
 
-      // 情況一：只有一個結果 -> 直接跳轉（維持原有行為）
       if(hits.length === 1){
         const hit = hits[0];
         const pageId = `${hit.slug}_${hit.levelIndex+1}_Page`;
@@ -993,39 +726,24 @@
         showPage(pageId);
         return;
       }
-
-      // 情況二：有多個結果 -> 顯示搜尋結果頁面
       showSearchResults(input, hits);
     }
 
-    // 新增：顯示搜尋結果頁面
     function showSearchResults(query, hits){
-      // 1. 準備資料：複製 item 並注入 context 資訊
       currentTopicData = hits.map(hit => {
-        // 淺拷貝 item
         const newItem = { ...hit.item };
-        
-        // 注入正確的 folder 供 audioUrlForWord 使用
         newItem._folder = hit.folder; 
-
-        // 在 number (中文翻譯) 後面加上來源標註
-        // 例如 "🍎 蘋果" -> "🍎 蘋果 (水果與蔬菜 Level 1)"
-        const contextLabel = ` <span style="font-size:0.65em; color:#64748b; display:block; margin-top:2px; font-weight:normal;">(${hit.topicTitle} ${hit.levelLabel || ''})</span>`;
-        newItem.number = (newItem.number || '') + contextLabel;
-
+        // 注入來源資訊，供 renderCards 產生按鈕
+        newItem._sourcePageId = hit.pageId;
+        newItem._sourceTitle = `${hit.topicTitle} ${hit.levelLabel || ''}`;
         return newItem;
       });
 
-      // 2. 切換至搜尋頁面
       document.querySelectorAll('.page-section').forEach(p=>p.classList.remove('active'));
       const searchPage = document.getElementById('searchResultPage');
       searchPage.classList.add('active');
       window.scrollTo({ top: 0, behavior: 'smooth' });
-
-      // 3. 更新標題與內容
       document.getElementById('searchResultCount').textContent = `"${query}" 共有 ${hits.length} 筆結果`;
-
-      // 4. 渲染卡片（重複使用既有的 initTopicPage 邏輯）
       initTopicPage('searchResult_Content');
     }
 
@@ -1052,9 +770,8 @@
       window.PhonicsApp.pendingHighlight='';
     }
 
-    // ====== 導航（依 topics.json 動態生成） ======
     function showPage(pageId){
-      selectedFilter = 'all'; // 切頁重置
+      selectedFilter = 'all'; 
       document.querySelectorAll('.page-section').forEach(p=>p.classList.remove('active'));
       const active = document.getElementById(pageId);
       if(!active) return;
@@ -1062,7 +779,7 @@
       window.scrollTo({ top: 0, behavior: 'smooth' });
 
       const m = pageId.match(/^(.+?)_(\d+)_Page$/);
-      if(!m) return; // home
+      if(!m) return; 
       const slug = m[1], levelIndex = Number(m[2])-1;
       const contentId = `${slug}_${levelIndex+1}_Content`;
 
@@ -1097,7 +814,6 @@
     }
     window.PhonicsApp.showPage = showPage;
 
-    // ====== 兩層下拉：建構首頁與 sections ======
     function buildHomeAndSections(){
       const list = document.getElementById('topicList');
       const main = document.querySelector('main');
@@ -1168,7 +884,6 @@
       });
     }
 
-    // ====== 啟動 ======
     document.addEventListener('DOMContentLoaded', async ()=>{
       initSearchBar();
       try{
@@ -1177,11 +892,7 @@
         CACHE.topics = await resp.json();
       }catch(e){
         console.error(e);
-        document.getElementById('topicList').innerHTML =
-          `<li class="topic-list-item" style="color:#b91c1c">
-            讀取 topics.json 失敗（${escapeHtml(e.message)}）
-            <button data-action="reload" style="margin-left:.5rem">重試</button>
-          </li>`;
+        document.getElementById('topicList').innerHTML = `<li class="topic-list-item" style="color:#b91c1c">讀取 topics.json 失敗（${escapeHtml(e.message)}）<button data-action="reload" style="margin-left:.5rem">重試</button></li>`;
         return;
       }
       buildHomeAndSections();
@@ -1196,21 +907,13 @@
       document.querySelectorAll('.page-section').forEach(p=>p.classList.remove('active'));
       document.getElementById('homePage').classList.add('active');
 
-      // ===== 浮動返回頂部按鈕邏輯 =====
       const backToTopBtn = document.getElementById('backToTop');
       if(backToTopBtn){
-        backToTopBtn.addEventListener('click', () => {
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
-
+        backToTopBtn.addEventListener('click', () => { window.scrollTo({ top: 0, behavior: 'smooth' }); });
         const toggleBackToTop = () => {
-          if (window.scrollY > 400) {
-            backToTopBtn.classList.add('visible');
-          } else {
-            backToTopBtn.classList.remove('visible');
-          }
+          if (window.scrollY > 400) backToTopBtn.classList.add('visible');
+          else backToTopBtn.classList.remove('visible');
         };
-
         window.addEventListener('scroll', toggleBackToTop, { passive:true });
         toggleBackToTop();
       }
