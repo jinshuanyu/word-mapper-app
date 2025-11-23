@@ -1,224 +1,26 @@
 {
-"items": [
-{
-"number": "🍼 瓶子",
-"word": "bottle",
-"ipa": "/ˈbɑtəl/",
-"graphemes": ["b","o","tt","le"],
-"phonemes": ["/'b","ɑ","t","əl/"],
-"phonics": ["/'b","ŏ","t","əl/"],
-"tags": ["closed"],
-"hearts": [false,false,false,false],
-"hint": "o 發短母音 o /ɑ/。"
-},
-{
-"number": "🥣 碗",
-"word": "bowl",
-"ipa": "/boʊl/",
-"graphemes": ["b","ow","l"],
-"phonemes": ["/b","oʊ","l/"],
-"phonics": ["/b","ō","l/"],
-"tags": ["vowel_team"],
-"hearts": [false,false,false],
-"hint": "ow 發長母音 o /oʊ/。"
-},
-{
-"number": "🧀 起司",
-"word": "cheese",
-"ipa": "/tʃiz/",
-"graphemes": ["ch","ee","s","e"],
-"phonemes": ["/tʃ","i","z","-/"],
-"phonics": ["/ch","ē","z","-/"],
-"tags": ["digraph","vowel_team"],
-"hearts": [false,false,false,false],
-"hint": "ee 發長母音 e /i/；s 發 /z/。"
-},
-{
-"number": "☕ 咖啡",
-"word": "coffee",
-"ipa": "/ˈkɔfi/",
-"graphemes": ["c","o","ff","ee"],
-"phonemes": ["/'k","ɔ","f","i/"],
-"phonics": ["/'k","aw","f","ē/"],
-"tags": ["open"],
-"hearts": [false,false,false,false],
-"hint": "o 發 aw /ɔ/；ff 重複字母。"
-},
-{
-"number": "杯子",
-"word": "cup",
-"ipa": "/kʌp/",
-"graphemes": ["c","u","p"],
-"phonemes": ["/k","ʌ","p/"],
-"phonics": ["/k","ŭ","p/"],
-"tags": ["closed"],
-"hearts": [false,false,false],
-"hint": "u 發短母音 u /ʌ/。"
-},
-{
-"number": "🥛 玻璃杯",
-"word": "glass",
-"ipa": "/ɡlæs/",
-"graphemes": ["g","l","a","ss"],
-"phonemes": ["/ɡ","l","æ","s/"],
-"phonics": ["/ɡ","l","ă","s/"],
-"tags": ["cluster","floss","closed"],
-"hearts": [false,false,false,false],
-"hint": "a 發短母音 a /æ/；ss 重複字母。"
-},
-{
-"number": "餓",
-"word": "hungry",
-"ipa": "/ˈhʌŋɡri/",
-"graphemes": ["h","u","n","g","r","y"],
-"phonemes": ["/'h","ʌ","ŋ","ɡ","r","i/"],
-"phonics": ["/'h","ŭ","ŋ","ɡ","r","ē/"],
-"tags": ["cluster","closed"],
-"hearts": [false,false,false,false,false,false],
-"hint": "n 在 g 前發 /ŋ/；y 字尾發長母音 e /i/。"
-},
-{
-"number": "🥤 奶昔",
-"word": "milkshake",
-"ipa": "/ˈmɪlkʃeɪk/",
-"graphemes": ["m","i","l","k","sh","a","k","e"],
-"phonemes": ["/'m","ɪ","l","k","ʃ","eɪ","k","-/"],
-"phonics": ["/'m","ĭ","l","k","sh","ā","k","-/"],
-"tags": ["digraph","magic_e","cluster"],
-"hearts": [false,false,false,false,false,false,false,false],
-"hint": "milk + shake；a_e：a 發 /eɪ/，e 靜音。"
-},
-{
-"number": "🍜 麵條",
-"word": "noodles",
-"ipa": "/ˈnudəlz/",
-"graphemes": ["n","oo","d","le","s"],
-"phonemes": ["/'n","u","d","əl","z/"],
-"phonics": ["/'n","ū","d","əl","z/"],
-"tags": ["vowel_team","suffix"],
-"hearts": [false,false,false,false,false],
-"hint": "複數；oo 發長母音 u /u/；s 發 /z/。"
-},
-{
-"number": "🥞 鬆餅",
-"word": "pancake",
-"ipa": "/ˈpænkeɪk/",
-"graphemes": ["p","a","n","c","a","k","e"],
-"phonemes": ["/'p","æ","n","k","eɪ","k","-/"],
-"phonics": ["/'p","ă","n","k","ā","k","-/"],
-"tags": ["closed","magic_e"],
-"hearts": [false,false,false,false,false,false,false],
-"hint": "pan + cake；a_e：a 發 /eɪ/，e 靜音。"
-},
-{
-"number": "🍝 義大利麵",
-"word": "pasta",
-"ipa": "/ˈpɑstə/",
-"graphemes": ["p","a","s","t","a"],
-"phonemes": ["/'p","ɑ","s","t","ə/"],
-"phonics": ["/'p","ŏ","s","t","ə/"],
-"tags": ["irregular"],
-"hearts": [false,true,false,false,false],
-"hint": "第一個 a 發短母音 o /ɑ/。"
-},
-{
-"number": "🧺 野餐",
-"word": "picnic",
-"ipa": "/ˈpɪknɪk/",
-"graphemes": ["p","i","c","n","i","c"],
-"phonemes": ["/'p","ɪ","k","n","ɪ","k/"],
-"phonics": ["/'p","ĭ","k","n","ĭ","k/"],
-"tags": ["closed","cluster"],
-"hearts": [false,false,false,false,false,false],
-"hint": "兩個 i 都發短母音 /ɪ/。"
-},
-{
-"number": "🍽 盤子",
-"word": "plate",
-"ipa": "/pleɪt/",
-"graphemes": ["p","l","a","t","e"],
-"phonemes": ["/p","l","eɪ","t","-/"],
-"phonics": ["/p","l","ā","t","-/"],
-"tags": ["magic_e","cluster"],
-"hearts": [false,false,false,false,false],
-"hint": "a_e：a 發長母音 a /eɪ/，e 靜音。"
-},
-{
-"number": "🥗 沙拉",
-"word": "salad",
-"ipa": "/ˈsæləd/",
-"graphemes": ["s","a","l","a","d"],
-"phonemes": ["/'s","æ","l","ə","d/"],
-"phonics": ["/'s","ă","l","ə","d/"],
-"tags": ["closed"],
-"hearts": [false,false,false,false,false],
-"hint": "第一個 a 發短母音 a /æ/；第二個 a 弱讀 /ə/。"
-},
-{
-"number": "🥪 三明治",
-"word": "sandwich",
-"ipa": "/ˈsændwɪtʃ/",
-"graphemes": ["s","a","n","d","w","i","tch"],
-"phonemes": ["/'s","æ","n","-","w","ɪ","tʃ/"],
-"phonics": ["/'s","ă","n","-","w","ĭ","ch/"],
-"tags": ["closed","digraph"],
-"hearts": [false,false,false,true,false,false,false],
-"hint": "d 通常不發音；ch 發 /tʃ/。"
-},
-{
-"number": "🫙 醬汁",
-"word": "sauce",
-"ipa": "/sɔs/",
-"graphemes": ["s","au","c","e"],
-"phonemes": ["/s","ɔ","s","-/"],
-"phonics": ["/s","aw","s","-/"],
-"tags": ["vowel_team"],
-"hearts": [false,false,false,true],
-"hint": "au 發 aw /ɔ/；字尾 e 靜音。"
-},
-{
-"number": "🍲 湯",
-"word": "soup",
-"ipa": "/sup/",
-"graphemes": ["s","ou","p"],
-"phonemes": ["/s","u","p/"],
-"phonics": ["/s","ū","p/"],
-"tags": ["vowel_team","irregular"],
-"hearts": [false,true,false],
-"hint": "ou 發長母音 u /u/。"
-},
-{
-"number": "🍵 茶",
-"word": "tea",
-"ipa": "/ti/",
-"graphemes": ["t","ea"],
-"phonemes": ["/t","i/"],
-"phonics": ["/t","ē/"],
-"tags": ["vowel_team","open"],
-"hearts": [false,false],
-"hint": "ea 發長母音 e /i/。"
-},
-{
-"number": "口渴",
-"word": "thirsty",
-"ipa": "/ˈθɝsti/",
-"graphemes": ["th","ir","s","t","y"],
-"phonemes": ["/'θ","ɝ","s","t","i/"],
-"phonics": ["/'th","er","s","t","ē/"],
-"tags": ["digraph","rcontrolled","open"],
-"hearts": [false,false,false,false,false],
-"hint": "th 為無聲吐舌音 /θ/；ir 發 er /ɝ/。"
-},
-{
-"number": "🥦 蔬菜",
-"word": "vegetable",
-"ipa": "/ˈvɛdʒtəbəl/",
-"graphemes": ["v","e","ge","t","a","b","le"],
-"phonemes": ["/'v","ɛ","dʒ","t","ə","b","əl/"],
-"phonics": ["/'v","ĕ","-j","t","ə","b","əl/"],
-"tags": ["closed"],
-"hearts": [false,false,false,false,false,false,false],
-"hint": "ge 發 j /dʒ/；a 弱讀 /ə/。"
-}
-]
+  "items": [
+    { "number": "🍞 麵包", "word": "bread", "ipa": "/brɛd/", "graphemes": ["b","r","ea","d"], "phonemes": ["/b","r","ɛ","d/"], "phonics": ["/b","r","ĕ","d/"], "tags": ["vowel_team","cluster"], "hearts": [0,0,1,0], "hint": "ea 發短母音 /ɛ/。" },
+    { "number": "🥯 小圓麵包", "word": "bun", "ipa": "/bʌn/", "graphemes": ["b","u","n"], "phonemes": ["/b","ʌ","n/"], "phonics": ["/b","ŭ","n/"], "tags": ["cvc"], "hearts": [0,0,0], "hint": "" },
+    { "number": "🧈 奶油", "word": "butter", "ipa": "/ˈbʌtɚ/", "graphemes": ["b","u","tt","er"], "phonemes": ["/'b","ʌ","t","ɚ/"], "phonics": ["/'b","ŭ","t","er/"], "tags": ["closed","rcontrolled"], "hearts": [0,0,0,0], "hint": "" },
+    { "number": "🍰 蛋糕", "word": "cake", "ipa": "/keɪk/", "graphemes": ["c","a","k","e"], "phonemes": ["/k","eɪ","k","-/"], "phonics": ["/k","ā","k","-/"], "tags": ["magic_e"], "hearts": [0,0,0,0], "hint": "" },
+    { "number": "🍬 糖果", "word": "candy", "ipa": "/ˈkændi/", "graphemes": ["c","a","n","d","y"], "phonemes": ["/'k","æ","n","d","i/"], "phonics": ["/'k","ă","n","d","ē/"], "tags": ["closed"], "hearts": [0,0,0,0,0], "hint": "y 字尾發 /i/。" },
+    { "number": "🥣 麥片", "word": "cereal", "ipa": "/ˈsɪriəl/", "graphemes": ["c","e","r","ea","l"], "phonemes": ["/'s","ɪ","r","i","l/"], "phonics": ["/'s","ēr","r","ē","l/"], "tags": ["irregular"], "hearts": [0,0,0,0,0], "hint": "c 發軟音 /s/；ea 發 /iə/。" },
+    { "number": "🧀 起司", "word": "cheese", "ipa": "/tʃiz/", "graphemes": ["ch","ee","s","e"], "phonemes": ["/tʃ","i","z","-/"], "phonics": ["/ch","ē","z","-/"], "tags": ["vowel_team","digraph"], "hearts": [0,0,1,0], "hint": "s 發 /z/；ee 發 /i/。" },
+    { "number": "🍫 巧克力", "word": "chocolate", "ipa": "/ˈtʃɔklət/", "graphemes": ["ch","o","c","o","l","a","t","e"], "phonemes": ["/'tʃ","ɔ","k","-","l","ə","t","-/"], "phonics": ["/'ch","aw","k","-","l","ə","t","-/"], "tags": ["irregular"], "hearts": [0,0,0,1,0,0,0,0], "hint": "中間的 o 不發音。" },
+    { "number": "🍪 餅乾", "word": "cookie", "ipa": "/ˈkʊki/", "graphemes": ["c","oo","k","ie"], "phonemes": ["/'k","ʊ","k","i/"], "phonics": ["/'k","ʊ","k","ē/"], "tags": ["vowel_team"], "hearts": [0,0,0,0], "hint": "oo 發短音 /ʊ/；ie 發 /i/。" },
+    { "number": "🧁 鮮奶油", "word": "cream", "ipa": "/krim/", "graphemes": ["c","r","ea","m"], "phonemes": ["/k","r","i","m/"], "phonics": ["/k","r","ē","m/"], "tags": ["vowel_team"], "hearts": [0,0,0,0], "hint": "ea 發 /i/。" },
+    { "number": "🍮 甜點", "word": "dessert", "ipa": "/dɪˈzɝt/", "graphemes": ["d","e","ss","er","t"], "phonemes": ["/d","ɪ","'z","ɝ","t/"], "phonics": ["/d","ĭ","'z","er","t/"], "tags": ["rcontrolled"], "hearts": [0,0,1,0,0], "hint": "ss 發 /z/。" },
+    { "number": "🍩 甜甜圈", "word": "doughnut", "ipa": "/ˈdoʊnʌt/", "graphemes": ["d","ough","n","u","t"], "phonemes": ["/'d","oʊ","n","ʌ","t/"], "phonics": ["/'d","ō","n","ŭ","t/"], "tags": ["irregular"], "hearts": [0,1,0,0,0], "hint": "ough 發 /oʊ/。" },
+    { "number": "🌾 麵粉", "word": "flour", "ipa": "/ˈflaʊɚ/", "graphemes": ["f","l","our"], "phonemes": ["/f","l","aʊɚ/"], "phonics": ["/f","l","ower/"], "tags": ["vowel_team"], "hearts": [0,0,0], "hint": "our 發 /aʊɚ/，音同 flower。" },
+    { "number": "🍯 蜂蜜", "word": "honey", "ipa": "/ˈhʌni/", "graphemes": ["h","o","n","ey"], "phonemes": ["/'h","ʌ","n","i/"], "phonics": ["/'h","ŭ","n","ē/"], "tags": ["irregular"], "hearts": [0,1,0,0], "hint": "o 發 /ʌ/；ey 發 /i/。" },
+    { "number": "🍦 冰淇淋", "word": "ice cream", "ipa": "/aɪs krim/", "graphemes": ["i","c","e"," ","c","r","ea","m"], "phonemes": ["/aɪ","s","-"," ","k","r","i","m/"], "phonics": ["/ī","s","-"," ","k","r","ē","m/"], "tags": ["magic_e","vowel_team"], "hearts": [0,0,0,0,0,0,0,0], "hint": "" },
+    { "number": "🍓 果醬", "word": "jam", "ipa": "/dʒæm/", "graphemes": ["j","a","m"], "phonemes": ["/dʒ","æ","m/"], "phonics": ["/j","ă","m/"], "tags": ["cvc"], "hearts": [0,0,0], "hint": "" },
+    { "number": "🥮 月餅", "word": "moon cake", "ipa": "/mun keɪk/", "graphemes": ["m","oo","n"," ","c","a","k","e"], "phonemes": ["/m","u","n"," ","k","eɪ","k","-/"], "phonics": ["/m","ū","n"," ","k","ā","k","-/"], "tags": ["vowel_team","magic_e"], "hearts": [0,0,0,0,0,0,0,0], "hint": "" },
+    { "number": "🥞 鬆餅", "word": "pancake", "ipa": "/ˈpænkeɪk/", "graphemes": ["p","a","n","c","a","k","e"], "phonemes": ["/'p","æ","n","k","eɪ","k","-/"], "phonics": ["/'p","ă","n","k","ā","k","-/"], "tags": ["magic_e","closed"], "hearts": [0,0,0,0,0,0,0], "hint": "" },
+    { "number": "🥧 派", "word": "pie", "ipa": "/paɪ/", "graphemes": ["p","ie"], "phonemes": ["/p","aɪ/"], "phonics": ["/p","ī/"], "tags": ["vowel_team"], "hearts": [0,0], "hint": "ie 字尾發 /aɪ/。" },
+    { "number": "🍿 爆米花", "word": "popcorn", "ipa": "/ˈpɑpkɔrn/", "graphemes": ["p","o","p","c","or","n"], "phonemes": ["/'p","ɑ","p","k","ɔr","n/"], "phonics": ["/'p","ŏ","p","k","or","n/"], "tags": ["closed","rcontrolled"], "hearts": [0,0,0,0,0,0], "hint": "" },
+    { "number": "🍞 吐司", "word": "toast", "ipa": "/toʊst/", "graphemes": ["t","oa","s","t"], "phonemes": ["/t","oʊ","s","t/"], "phonics": ["/t","ō","s","t/"], "tags": ["vowel_team"], "hearts": [0,0,0,0], "hint": "oa 發長母音 /oʊ/。" },
+    { "number": "🥣 優格", "word": "yogurt", "ipa": "/ˈjoʊɡɚt/", "graphemes": ["y","o","g","ur","t"], "phonemes": ["/'j","oʊ","ɡ","ɚ","t/"], "phonics": ["/'y","ō","ɡ","er","t/"], "tags": ["open","rcontrolled"], "hearts": [0,0,0,0,0], "hint": "o 發 /oʊ/；ur 發 /ɚ/。" }
+  ]
 }
