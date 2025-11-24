@@ -79,10 +79,10 @@
     gap:.6rem;
   }
 
-  /* --- 新增：控制「主題：」與「級別：」的文字樣式 --- */
+  /* --- 新增：控制「主題：」與「分頁：」的文字樣式 --- */
   .dropdown-row label {
-    font-size: 1.2rem;  /* 加大 */
-    font-weight: 800;   /* 加粗 */
+    font-size: 1.1rem;  /* 加大 */
+    font-weight: 700;   /* 加粗 */
     color: #334155;     /* 深灰藍色 */
   }
   /* ------------------------------------------------ */
@@ -927,7 +927,7 @@
             </select>
           </div>
           <div class="dropdown-row">
-            <label for="levelSelect">級別：</label>
+            <label for="levelSelect">分頁：</label>
             <select id="levelSelect" class="dropdown-select" disabled>
               <option value="">請先選主題</option>
             </select>
@@ -979,7 +979,7 @@
 
       enterBtn.addEventListener('click',()=>{
         const val=levelSelect.value;
-        if(!val){alert('請選擇級別');return;}
+        if(!val){alert('請選擇分頁');return;}
         showPage(val);
       });
     }
