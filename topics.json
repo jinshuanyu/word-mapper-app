@@ -104,6 +104,13 @@
         { "label": "2", "src": "data/health-2.json" }
       ]
     },
+         {
+      "slug": "holidays",
+      "title": "Holidays 假日",
+      "levels": [
+        { "label": "All", "src": "data/holidays.json" }
+      ]
+    },
            {
       "slug": "people",
       "title": "People 人",
@@ -129,6 +136,7 @@
     }
   ]
 }
+
 
 
 
