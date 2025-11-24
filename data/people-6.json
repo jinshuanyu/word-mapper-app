@@ -1,0 +1,14 @@
+{
+  "items": [
+    { "number": "👨‍⚕️ 博士/醫生 (Dr.)", "word": "Doctor", "ipa": "/ˈdɑktɚ/", "graphemes": ["D", "o", "c", "t", "or"], "phonemes": ["/'d", "ɑ", "k", "t", "ɚ/"], "phonics": ["/'d", "ŏ", "k", "t", "er/"], "tags": ["closed", "rcontrolled"], "hearts": [0, 0, 0, 0, 0], "hint": "o 發 /ɑ/；or 發 /ɚ/。" },
+    { "number": "👩 女士 (Ma'am)", "word": "Madam", "ipa": "/ˈmædəm/", "graphemes": ["M", "a", "d", "a", "m"], "phonemes": ["/'m", "æ", "d", "ə", "m/"], "phonics": ["/'m", "ă", "d", "ə", "m/"], "tags": ["closed"], "hearts": [0, 0, 0, 0, 0], "hint": "a 弱化發 /ə/。" },
+    { "number": "👧 小姐 (Miss)", "word": "Miss", "ipa": "/mɪs/", "graphemes": ["M", "i", "ss"], "phonemes": ["/m", "ɪ", "s/"], "phonics": ["/m", "ĭ", "s/"], "tags": ["floss", "closed"], "hearts": [0, 0, 0], "hint": "ss 發 /s/。" },
+    { "number": "👨‍🏫 先生 (Mr.)", "word": "Mister", "ipa": "/ˈmɪstɚ/", "graphemes": ["M", "i", "s", "t", "er"], "phonemes": ["/'m", "ɪ", "s", "t", "ɚ/"], "phonics": ["/'m", "ĭ", "s", "t", "er/"], "tags": ["closed", "rcontrolled"], "hearts": [0, 0, 0, 0, 0], "hint": "er 發 /ɚ/。" },
+    { "number": "👩‍🦱 太太 (Mrs.)", "word": "Missus", "ipa": "/ˈmɪsɪz/", "graphemes": ["M", "i", "ss", "u", "s"], "phonemes": ["/'m", "ɪ", "s", "ɪ", "z/"], "phonics": ["/'m", "ĭ", "s", "ĭ", "z/"], "tags": ["floss", "closed"], "hearts": [0, 0, 0, 0, 0], "hint": "u 弱化發 /ɪ/；s 發 /z/。" },
+    { "number": "👩 女士 (Ms.)", "word": "Miz", "ipa": "/mɪz/", "graphemes": ["M", "i", "z"], "phonemes": ["/m", "ɪ", "z/"], "phonics": ["/m", "ĭ", "z/"], "tags": ["closed", "cvc"], "hearts": [0, 0, 0], "hint": "Ms. 的發音拼寫。" },
+    { "number": "⚧️ 中性稱謂 (Mx.)", "word": "Mix", "ipa": "/mɪks/", "graphemes": ["M", "i", "x"], "phonemes": ["/m", "ɪ", "ks/"], "phonics": ["/m", "ĭ", "ks/"], "tags": ["closed", "cvc"], "hearts": [0, 0, 0], "hint": "Mx. 的發音拼寫。" },
+    { "number": "📛 名字", "word": "name", "ipa": "/neɪm/", "graphemes": ["n", "a", "m", "e"], "phonemes": ["/n", "eɪ", "m", "-/"], "phonics": ["/n", "ā", "m", "-/"], "tags": ["magic_e"], "hearts": [0, 0, 0, 0], "hint": "a_e 發長音 /eɪ/。" },
+    { "number": "👨‍🏫 教授 (Prof.)", "word": "Professor", "ipa": "/prəˈfɛsɚ/", "graphemes": ["P", "r", "o", "f", "e", "ss", "or"], "phonemes": ["/p", "r", "ə", "'f", "ɛ", "s", "ɚ/"], "phonics": ["/p", "r", "ə", "'f", "ĕ", "s", "er/"], "tags": ["rcontrolled", "floss"], "hearts": [0, 0, 0, 0, 0, 0, 0], "hint": "o 弱化；or 發 /ɚ/。" },
+    { "number": "👨 先生", "word": "sir", "ipa": "/sɝ/", "graphemes": ["s", "ir"], "phonemes": ["/s", "ɝ/"], "phonics": ["/s", "er/"], "tags": ["rcontrolled"], "hearts": [0, 0], "hint": "ir 發 /ɝ/。" }
+  ]
+}
