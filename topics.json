@@ -130,6 +130,15 @@
                 { "label": "稱呼", "src": "data/people-6.json" }
       ]
     },
+        {
+      "slug": "sports",
+      "title": "Sports & Hobbies 運動與嗜好",
+      "levels": [
+        { "label": "運動與球類", "src": "data/sports-1.json" },
+        { "label": "戶外活動", "src": "data/sports-2.json" },
+        { "label": "嗜好與娛樂", "src": "data/sports-3.json" }
+      ]
+    },
                {
       "slug": "time",
       "title": "Time 時間",
@@ -143,6 +152,7 @@
     }
   ]
 }
+
 
 
 
