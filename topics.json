@@ -115,9 +115,21 @@
                 { "label": "特點", "src": "data/people-5.json" },
                 { "label": "稱呼", "src": "data/people-6.json" }
       ]
+    },
+               {
+      "slug": "time",
+      "title": "Time 時間",
+      "levels": [
+        { "label": "計時單位工具", "src": "data/time-1.json" },
+                { "label": "一天的時間", "src": "data/time-2.json" },
+                { "label": "星期", "src": "data/time-3.json" },
+                { "label": "月份", "src": "data/time-4.json" },
+                { "label": "季節和時間流逝", "src": "data/time-5.json" }
+      ]
     }
   ]
 }
+
 
 
 
