@@ -31,7 +31,7 @@
    
     { "number": "🗺 地理", "word": "geography", "ipa": "/dʒiˈɑɡrəfi/", "graphemes": ["g", "e", "o", "g", "r", "a", "ph", "y"], "phonemes": ["/dʒ", "i", "'ɑ", "ɡ", "r", "ə", "f", "i/"], "phonics": ["/j", "ē", "'ŏ", "ɡ", "r", "ə", "f", "ē/"], "tags": ["open", "digraph"], "hearts": [0, 0, 0, 0, 0, 0, 0, 0], "hint": "g 發 /dʒ/；ph 發 /f/。" },
     { "number": "📜 歷史", "word": "history", "ipa": "/ˈhɪstəri/", "graphemes": ["h", "i", "s", "t", "o", "r", "y"], "phonemes": ["/'h", "ɪ", "s", "t", "ə", "r", "i/"], "phonics": ["/'h", "ĭ", "s", "t", "ə", "r", "ē/"], "tags": ["closed"], "hearts": [0, 0, 0, 0, 0, 0, 0], "hint": "o 弱化發 /ə/。" },
-    {     {
+    {   
       "number": "🗣️ 語言",
       "word": "language",
       "ipa": "/ˈlæŋ.ɡwɪdʒ/",
@@ -42,7 +42,7 @@
       "hearts": [0, 0, 0, 0, 1, 0],
       "hint": "gu 發 /gw/，age 弱化發 /ɪdʒ/。"
     },
-      "number": "⚖️ 法律", "word": "law", "ipa": "/lɔ/", "graphemes": ["l", "aw"], "phonemes": ["/l", "ɔ/"], "phonics": ["/l", "aw/"], "tags": ["vowel_team"], "hearts": [0, 0], "hint": "aw 發 /ɔ/。" },
+       { "number": "⚖️ 法律", "word": "law", "ipa": "/lɔ/", "graphemes": ["l", "aw"], "phonemes": ["/l", "ɔ/"], "phonics": ["/l", "aw/"], "tags": ["vowel_team"], "hearts": [0, 0], "hint": "aw 發 /ɔ/。" },
     { "number": "➕ 數學", "word": "math", "ipa": "/mæθ/", "graphemes": ["m", "a", "th"], "phonemes": ["/m", "æ", "θ/"], "phonics": ["/m", "ă", "th/"], "tags": ["digraph", "closed"], "hearts": [0, 0, 0], "hint": "th 發 /θ/。" },
     { "number": "🎵 音樂", "word": "music", "ipa": "/ˈmjuzɪk/", "graphemes": ["m", "u", "s", "i", "c"], "phonemes": ["/'m", "ju", "z", "ɪ", "k/"], "phonics": ["/'m", "yū", "z", "ĭ", "k/"], "tags": ["open", "closed"], "hearts": [0, 0, 0, 0, 0], "hint": "u 發 /ju/；s 發 /z/。" },
     { "number": "🏃 體育", "word": "PE", "ipa": "/ˌpiˈi/", "graphemes": ["P", "E"], "phonemes": ["/p", "i/"], "phonics": ["/p", "ē/"], "tags": ["irregular"], "hearts": [0, 0], "hint": "Physical Education 縮寫。" },
