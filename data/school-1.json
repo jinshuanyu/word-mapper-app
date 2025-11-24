@@ -1,6 +1,17 @@
 {
   "items": [
     { "number": "🏫 校園", "word": "campus", "ipa": "/ˈkæmpəs/", "graphemes": ["c", "a", "m", "p", "u", "s"], "phonemes": ["/'k", "æ", "m", "p", "ə", "s/"], "phonics": ["/'k", "ă", "m", "p", "ə", "s/"], "tags": ["closed"], "hearts": [0, 0, 0, 0, 0, 0], "hint": "u 弱化發 /ə/。" },
+    {
+      "number": "🏫 班級",
+      "word": "class",
+      "ipa": "/klæs/",
+      "graphemes": ["c", "l", "a", "ss"],
+      "phonemes": ["/k", "l", "æ", "s/"],
+      "phonics": ["/k", "l", "ă", "s/"],
+      "tags": ["cvc", "floss", "cluster"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "a 發短母音 /æ/，字尾 ss 發一個 /s/ 音。"
+    },
     { "number": "🏫 教室", "word": "classroom", "ipa": "/ˈklæsrum/", "graphemes": ["c", "l", "a", "ss", "r", "oo", "m"], "phonemes": ["/'k", "l", "æ", "s", "r", "u", "m/"], "phonics": ["/'k", "l", "ă", "s", "r", "ū", "m/"], "tags": ["floss", "vowel_team"], "hearts": [0, 0, 0, 0, 0, 0, 0], "hint": "ss 發 /s/；oo 發 /u/。" },
     { "number": "🎓 大學", "word": "college", "ipa": "/ˈkɑlɪdʒ/", "graphemes": ["c", "o", "ll", "e", "g", "e"], "phonemes": ["/'k", "ɑ", "l", "ɪ", "dʒ", "-/"], "phonics": ["/'k", "ŏ", "l", "ĭ", "j", "-/"], "tags": ["floss", "irregular"], "hearts": [0, 0, 0, 0, 0, 1], "hint": "ge 字尾發 /dʒ/。" },
     { "number": "🏫 國小", "word": "elementary school", "ipa": "/ˌɛləˈmɛntəri skul/", "graphemes": ["e", "l", "e", "m", "e", "n", "t", "a", "r", "y", " ", "sch", "oo", "l"], "phonemes": ["/ˌɛ", "l", "ə", "'m", "ɛ", "n", "t", "ə", "r", "i", " ", "s", "k", "u", "l/"], "phonics": ["/ˌĕ", "l", "ə", "'m", "ĕ", "n", "t", "ə", "r", "ē", " ", "s", "k", "ū", "l/"], "tags": ["vowel_team", "schwa"], "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "hint": "oo 發 /u/。" },
