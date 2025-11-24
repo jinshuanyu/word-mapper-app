@@ -139,6 +139,16 @@
                 { "label": "稱呼", "src": "data/people-6.json" }
       ]
     },
+            {
+      "slug": "school",
+      "title": "School 學校",
+      "levels": [
+        { "label": "學校場所", "src": "data/school-1.json" },
+        { "label": "文具用品", "src": "data/school-2.json" },
+        { "label": "科目與人物", "src": "data/school-3.json" },
+         { "label": "學習活動", "src": "data/school-4.json" }
+      ]
+    },
         {
       "slug": "sports",
       "title": "Sports & Hobbies 運動與嗜好",
@@ -161,6 +171,7 @@
     }
   ]
 }
+
 
 
 
