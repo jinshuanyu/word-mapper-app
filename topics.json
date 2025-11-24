@@ -110,6 +110,13 @@
       "levels": [
         { "label": "All", "src": "data/holidays.json" }
       ]
+    },        
+    {
+      "slug": "money",
+      "title": "Money 金錢",
+      "levels": [
+        { "label": "All", "src": "data/money.json" }
+      ]
     },
            {
       "slug": "people",
@@ -136,6 +143,7 @@
     }
   ]
 }
+
 
 
 
