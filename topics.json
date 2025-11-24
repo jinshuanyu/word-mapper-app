@@ -108,11 +108,17 @@
       "slug": "people",
       "title": "People 人",
       "levels": [
-        { "label": "All", "src": "data/people.json" }
+        { "label": "人", "src": "data/people-1.json" },
+                { "label": "外表", "src": "data/people-2.json" },
+                { "label": "情緒", "src": "data/people-3.json" },
+                { "label": "個性", "src": "data/people-4.json" },
+                { "label": "特點", "src": "data/people-5.json" },
+                { "label": "稱呼", "src": "data/people-6.json" }
       ]
     }
   ]
 }
+
 
 
 
