@@ -110,7 +110,16 @@
       "levels": [
         { "label": "All", "src": "data/holidays.json" }
       ]
-    },        
+    },       
+     {
+      "slug": "house",
+      "title": "House & Living 居家與生活",
+      "levels": [
+        { "label": "居住空間", "src": "data/house-1.json" },
+        { "label": "家具與電器", "src": "data/house-2.json" },
+        { "label": "用具與家事", "src": "data/house-3.json" }
+      ]
+    }, 
     {
       "slug": "money",
       "title": "Money 金錢",
@@ -152,6 +161,7 @@
     }
   ]
 }
+
 
 
 
