@@ -57,16 +57,24 @@
    .home-step-line{flex-basis:2rem;}
   }
 
-  /* 選單置中 */
+  /* --- 選單 --- */
   #topicList {list-style:none;margin:0;padding:0;width:100%;}
-
   .dropdown-container { display:flex; flex-direction:column; align-items:center; text-align:center; gap:.9rem; margin-bottom:2.5rem; font-size:1rem; width:100%; }
   .dropdown-row { display:flex; flex-wrap:nowrap; align-items:center; justify-content:center; gap:.6rem; }
+  
+  /* Labels added from version 2 */
+  .dropdown-row label { font-size: 1.1rem; font-weight: 700; color: #334155; }
+
   .dropdown-select { min-width:160px; padding:.7rem 1rem; border:2px solid #cbd5e1; border-radius:12px; font-size:1.1rem; font-weight:600; background:#f8fafc; transition:all .2s; }
   .dropdown-select:focus { outline:none; border-color:var(--c-primary); box-shadow:0 0 0 3px rgba(124,58,237,0.15); }
-  .dropdown-btn { background:#9b94b0;color:#fff;border:none;border-radius:12px;padding:.7rem 1.4rem;font-size:1.1rem;font-weight:700;cursor:pointer;transition:background .2s, transform .1s; }
+  .dropdown-btn { background:#9b94b0;color:#fff;border:none;border-radius:12px;padding:.5rem 1.2rem;font-size:1.1rem;font-weight:700;cursor:pointer;transition:background .2s, transform .1s; }
   .dropdown-btn:hover { background:#887ea6; transform:translateY(-2px); }
   .dropdown-btn:active { transform:translateY(0); }
+
+  /* My List Button on Home (From Version 2) */
+  .my-list-btn-home { background: #fff; border: 2px solid #fbbf24; color: #b45309; font-weight: 700; font-size: 1.1rem; padding: .7rem 2rem; border-radius: 99px; margin-top: 1rem; cursor: pointer; display: inline-flex; align-items: center; gap: .5rem; transition: all .2s; box-shadow: 0 4px 6px rgba(251,191,36,0.15); }
+  .my-list-btn-home:hover { background: #fffbeb; transform: translateY(-2px); box-shadow: 0 6px 12px rgba(251,191,36,0.25); }
+
   @media (max-width:640px){ .dropdown-select{min-width:140px;padding:.6rem .9rem;font-size:.95rem;} }
 
   /* Legend / tags */
@@ -86,39 +94,21 @@
   .filter-panel.open{display:block}
 
   .topic-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.25rem}
-  /* Added position relative for star button */
   .word-card{border:2px solid #cbd5e1;border-radius:12px;background:#fff;box-shadow:0 4px 6px rgba(0,0,0,.03);overflow:hidden;transition:transform .2s,box-shadow .2s; position: relative;}
   .word-card.hidden{display:none}
   .word-card:hover{transform:translateY(-5px);box-shadow:0 8px 15px rgba(0,0,0,.07)}
 
-  /* === ADDED: Star Button & List Styles === */
-  .star-btn {
-   position: absolute; top: 10px; right: 10px;
-   background: none; border: none; font-size: 1.8rem; cursor: pointer;
-   color: #e2e8f0; transition: color .2s, transform .1s; z-index: 10;
-   line-height: 1; padding: 0;
-  }
+  /* Star Button (From Version 2) */
+  .star-btn { position: absolute; top: 10px; right: 10px; background: none; border: none; font-size: 1.8rem; cursor: pointer; color: #e2e8f0; transition: color .2s, transform .1s; z-index: 10; line-height: 1; padding: 0; }
   .star-btn:hover { transform: scale(1.1); }
   .star-btn.active { color: #fbbf24; text-shadow: 0 2px 4px rgba(251,191,36,0.3); }
 
-  .my-list-btn-home {
-   background: #fff; border: 2px solid #fbbf24; color: #b45309;
-   font-weight: 700; font-size: 1.1rem; padding: .7rem 2rem; border-radius: 99px;
-   margin-top: 1rem; cursor: pointer; display: inline-flex; align-items: center; gap: .5rem;
-   transition: all .2s; box-shadow: 0 4px 6px rgba(251,191,36,0.15);
-  }
-  .my-list-btn-home:hover { background: #fffbeb; transform: translateY(-2px); box-shadow: 0 6px 12px rgba(251,191,36,0.25); }
-
-  .mylist-actions { display: flex; gap: 10px; justify-content: center; margin-bottom: 1.5rem; flex-wrap: wrap; }
-  .action-btn { background: #fff; border: 1px solid #cbd5e1; padding: .5rem 1rem; border-radius: 8px; font-size: 0.9rem; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; color: #475569; font-weight: 600; }
-  .action-btn:hover { background: #f1f5f9; color: #1e293b; }
-
-  /* Adjusted header for star button space */
   .card-header{display:flex;justify-content:space-between;align-items:center;padding:1rem 1.25rem;background:#f1f5f9;border-bottom:2px solid #e2e8f0; padding-right: 3rem;}
   .card-title{display:flex;align-items:baseline;gap:.6rem}
   .word-number{font-size:1.15rem;font-weight:700;color:#475569}
   .word-text{font-size:1.9rem;font-weight:800;color:#0f172a}
    
+  /* 搜尋結果連結樣式 */
   .source-link-btn { display: block; margin-top: 0px; font-size: 0.8rem; color: #3b82f6; background: none; border: none; padding: 0; cursor: pointer; text-decoration: underline; text-align: left; font-weight: 600; }
   .source-link-btn:hover { color: #1d4ed8; }
 
@@ -161,12 +151,18 @@
 
   .searchbar{display:flex;gap:.5rem;align-items:center;justify-content:center;margin:-.3rem auto 1rem;max-width:700px}
   .searchbar input{width:200px;padding:10px 12px;border:2px solid var(--c-border);border-radius:10px;font-size:1rem}
-  .searchbar button{background:#e1effa;color:#0f172a;border:none;border-radius:10px;padding: 8px 12px; font-size: 0.9rem; font-weight:500;cursor:pointer}
+  .searchbar button{background:#e1effa;color:#0f172a;border:none;border-radius:10px;padding: 8px 20px; font-size: 1.05rem; font-weight:700;cursor:pointer}
   .searchbar button:hover{opacity:.9}
   .search-msg{margin:.25rem 0 1rem;text-align:center;font-size:.9rem;color:#64748b}
 
   .word-card.search-hit{outline:3px solid #7c3aed;box-shadow:0 0 0 4px rgba(124,58,237,.15);animation:hitflash 1.6s ease}
   @keyframes hitflash{0%{background:#faf5ff}100%{background:#fff}}
+
+  /* My List Actions (From Version 2) */
+  .mylist-actions { display: flex; gap: 10px; justify-content: center; margin-bottom: 1.5rem; flex-wrap: wrap; }
+  .action-btn { background: #fff; border: 1px solid #cbd5e1; padding: .5rem 1rem; border-radius: 8px; font-size: 0.9rem; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; color: #475569; font-weight: 600; }
+  .action-btn:hover { background: #f1f5f9; color: #1e293b; }
+  .print-btn { border-color: #94a3b8; background: #f8fafc; }
 
   @media (max-width:768px){
    .container{padding:1rem .5rem}
@@ -192,24 +188,29 @@
   .support-btn{display:inline-block;background: linear-gradient(90deg, #D9DDF0, #BFCBE6);color:#ffffff;font-weight:600;font-size:0.95rem;padding:.55rem 1.2rem;border-radius:9999px;box-shadow:0 6px 14px rgba(0,0,0,.08);text-decoration:none;transition:transform .15s ease, box-shadow .2s ease, background .2s ease;}
   .support-btn:hover{background: linear-gradient(90deg, #CCD2EC, #B1BFE1);}
   .support-btn:focus{outline:3px solid rgba(160, 175, 215, .45);outline-offset:2px;}
+
+  .back-to-top{position:fixed;right:1.4rem;bottom:3rem;z-index:50;padding:.7rem 1.05rem;border-radius:999px;border:none;background:#887ea6;color:#fff;font-size:1.1rem;font-weight:700;cursor:pointer;box-shadow:0 6px 14px rgba(15,23,42,.18);opacity:0;pointer-events:none;transform:translateY(6px);transition:opacity .2s ease, transform .15s ease, box-shadow .2s ease, background .2s ease;}
+  .back-to-top.visible{opacity:1;pointer-events:auto;transform:translateY(0);}
+  .back-to-top:hover{background:#6f668f;box-shadow:0 10px 20px rgba(15,23,42,.22);}
+  .back-to-top:focus{outline:3px solid rgba(136,126,166,.45);outline-offset:2px;}
   @media (max-width:768px){ .back-to-top{right:1rem;bottom:3rem;font-size:1.05rem;padding:.6rem .9rem;} }
   @media (max-width:640px){ .support-btn{font-size:0.85rem;padding:.45rem 1rem;} }
 
-  /* Print Styles */
+  /* Print Styles (From Version 2) */
   @media print {
-    html, body { height: auto !important; margin: 0 !important; padding: 0 !important; overflow: visible !important; background: #fff !important; font-size: 12pt; }
-    .container { box-shadow: none !important; max-width: 100% !important; width: 100% !important; padding: 0 !important; margin: 0 !important; min-height: 0 !important; border: none !important; }
-    .back-button, .searchbar, .home-progress-bar, .dropdown-container, .filter-bar, .filter-panel, .toggle-container, .attribution-note, .credits, .support-cta, .audio-button, .back-to-top, .star-btn, .mylist-actions, #searchMsg, .source-link-btn, #goMyListBtn { display: none !important; }
-    #homePage, #searchResultPage { display: none !important; }
-    .page-section.active { display: block !important; }
-    .topic-grid { display: block !important; }
-    .word-card { break-inside: avoid; page-break-inside: avoid; box-shadow: none; border: 1px solid #000; margin-bottom: 1rem; display: inline-block; width: 48%; vertical-align: top; margin-right: 1%; }
-    .card-header { background: #fff; border-bottom: 1px solid #ccc; padding: 0.2rem 0.5rem; }
-    .word-text { color: #000; font-size: 1.4rem; }
-    .phoneme-box { color: #000 !important; border: 1px solid #000; font-weight: normal !important; }
-    .grapheme-box { background: #fff; color: #000; border: 1px solid #000; }
-    .badges { display: none; } 
-    .box.phoneme-box span.phoneme-vowel, .box.phoneme-box span.phoneme-consonant { color: #000 !important; }
+   html, body { height: auto !important; min-height: 0 !important; margin: 0 !important; padding: 0 !important; overflow: visible !important; background: #fff !important; font-size: 12pt; }
+   .container { box-shadow: none !important; max-width: 100% !important; width: 100% !important; padding: 0 !important; margin: 0 !important; min-height: 0 !important; border: none !important; }
+   .back-button, .searchbar, .home-progress-bar, .dropdown-container, .filter-bar, .filter-panel, .toggle-container, .attribution-note, .credits, .support-cta, .audio-button, .back-to-top, .star-btn, .mylist-actions, #searchMsg, .source-link-btn { display: none !important; }
+   #homePage, #searchResultPage { display: none !important; }
+   .page-section.active { display: block !important; }
+   .topic-grid { display: block !important; }
+   .word-card { break-inside: avoid; page-break-inside: avoid; box-shadow: none; border: 1px solid #000; margin-bottom: 1rem; display: inline-block; width: 48%; vertical-align: top; margin-right: 1%; }
+   .card-header { background: #fff; border-bottom: 1px solid #ccc; padding: 0.2rem 0.5rem; }
+   .word-text { color: #000; font-size: 1.4rem; }
+   .phoneme-box { color: #000 !important; border: 1px solid #000; font-weight: normal !important; }
+   .grapheme-box { background: #fff; color: #000; border: 1px solid #000; }
+   .badges { display: none; } 
+   .box.phoneme-box span.phoneme-vowel, .box.phoneme-box span.phoneme-consonant { color: #000 !important; }
   }
  </style>
 </head>
@@ -228,19 +229,41 @@
      
     <!-- 首頁四步驟說明列 -->
     <div class="home-progress-bar" aria-label="學習步驟">
-     <div class="home-step"><p class="home-step-label"><span class="home-step-top">整體</span><span class="home-step-bottom">發音</span></p></div>
+     <div class="home-step">
+      <p class="home-step-label">
+       <span class="home-step-top">整體</span>
+       <span class="home-step-bottom">發音</span>
+      </p>
+     </div>
      <div class="home-step-line"></div>
-     <div class="home-step"><p class="home-step-label"><span class="home-step-top">音素</span><span class="home-step-bottom">切割</span></p></div>
+     <div class="home-step">
+      <p class="home-step-label">
+       <span class="home-step-top">音素</span>
+       <span class="home-step-bottom">切割</span>
+      </p>
+     </div>
      <div class="home-step-line"></div>
-     <div class="home-step"><p class="home-step-label"><span class="home-step-top">字素</span><span class="home-step-bottom">對應</span></p></div>
+     <div class="home-step">
+      <p class="home-step-label">
+       <span class="home-step-top">字素</span>
+       <span class="home-step-bottom">對應</span>
+      </p>
+     </div>
      <div class="home-step-line"></div>
-     <div class="home-step"><p class="home-step-label"><span class="home-step-top">拼寫</span><span class="home-step-bottom">記牢</span></p></div>
+     <div class="home-step">
+      <p class="home-step-label">
+       <span class="home-step-top">拼寫</span>
+       <span class="home-step-bottom">記牢</span>
+      </p>
+     </div>
     </div>
 
     <ul id="topicList" class="topic-list"></ul>
 
     <!-- My List Button -->
-    <button id="goMyListBtn" class="my-list-btn-home">⭐ 我的自選字表</button>
+    <button id="goMyListBtn" class="my-list-btn-home">
+     ⭐ 我的自選字表
+    </button>
    </section>
 
    <!-- Search Results Section -->
@@ -251,16 +274,17 @@
     <div id="searchResult_Content"></div>
    </section>
 
-   <!-- My List Page Section -->
+   <!-- My List Page -->
    <section id="myListPage" class="page-section">
     <button class="back-button" data-page-target="homePage"><i class="fa-solid fa-arrow-left"></i> 返回目錄</button>
     <h1>⭐ 我的自選字表</h1>
+     
     <div class="mylist-actions">
      <button class="action-btn print-btn" id="printListBtn"><i class="fa-solid fa-print"></i> 列印</button>
      <button class="action-btn" id="exportListBtn"><i class="fa-solid fa-file-export"></i> 匯出</button>
      <button class="action-btn" id="importListBtn"><i class="fa-solid fa-file-import"></i> 匯入</button>
-     <input type="file" id="importInput" style="display:none" accept=".json">
     </div>
+     
     <p id="myListMsg" style="text-align:center; color:#64748b; margin-bottom:1rem;"></p>
     <div id="myList_Content"></div>
    </section>
@@ -269,9 +293,15 @@
   </main>
 
   <footer class="credits">
-   <a href="mailto:mamahowma@gmail.com" aria-label="Email mamahowma"><i class="fa-solid fa-envelope fa-xl fa-fw" aria-hidden="true"></i></a>&emsp;
-   <a href="https://www.facebook.com/mamahowma" target="_blank" rel="noopener noreferrer" aria-label="mamahowma Facebook Page"><i class="fa-brands fa-facebook fa-xl fa-fw" aria-hidden="true"></i></a>&emsp;
-   <a href="https://portaly.cc/mamahowma/support" target="_blank" rel="noopener noreferrer" aria-label="Support mamahowma"><i class="fa-solid fa-mug-hot fa-xl fa-fw" aria-hidden="true"></i></a>
+   <a href="mailto:mamahowma@gmail.com" aria-label="Email mamahowma">
+    <i class="fa-solid fa-envelope fa-xl fa-fw" aria-hidden="true"></i>
+   </a>&emsp;
+   <a href="https://www.facebook.com/mamahowma" target="_blank" rel="noopener noreferrer" aria-label="mamahowma Facebook Page">
+    <i class="fa-brands fa-facebook fa-xl fa-fw" aria-hidden="true"></i>
+   </a>&emsp;
+   <a href="https://portaly.cc/mamahowma/support" target="_blank" rel="noopener noreferrer" aria-label="Support mamahowma">
+    <i class="fa-solid fa-mug-hot fa-xl fa-fw" aria-hidden="true"></i>
+   </a>
    <br /><br />
    <div class="support-cta">
     <a href="https://portaly.cc/mamahowma/support" target="_blank" rel="noopener noreferrer" class="support-btn">
@@ -287,12 +317,14 @@
  <script>
   // ================== 全域開關 & 自動調整 ==================
   const DISABLE_PREFETCH = false;
+
   const conn = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
   const IS_SAVE_DATA = !!(conn && conn.saveData);
   const EFFECTIVE_TYPE = (conn && conn.effectiveType) || '';
   const IS_SLOW_NET = /^(2g|slow-2g)$/i.test(EFFECTIVE_TYPE);
   const IS_TOUCH = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
-  const IS_IOS = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  const IS_IOS = /iPad|iPhone|iPod/.test(navigator.userAgent) || 
+          (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
 
   const PREFETCH_PHONEMES = (IS_SAVE_DATA || IS_SLOW_NET) ? 12 : (IS_IOS ? 30 : 40);
   const PREFETCH_WORDS  = (IS_SAVE_DATA || IS_SLOW_NET) ? 3 : (IS_IOS ? 5 : 8);
@@ -300,907 +332,705 @@
 
   window.PhonicsApp = window.PhonicsApp || { pendingHighlight: null };
 
-  // ================== DATA STORAGE (My List) ==================
-  let MY_LIST = [];
-  try {
-    const saved = localStorage.getItem('phonics_mylist');
-    if (saved) MY_LIST = JSON.parse(saved);
-  } catch(e){
-    console.warn('Load list failed', e);
-  }
-
-  function saveMyList(){
-    try{
-      localStorage.setItem('phonics_mylist', JSON.stringify(MY_LIST));
-    }catch(e){
-      console.warn('Save list failed', e);
-    }
-  }
-
-  function toggleMyList(wordItem, folder){
-    const key = String(wordItem.word).toLowerCase();
-    const idx = MY_LIST.findIndex(x => String(x.word).toLowerCase() === key);
-    if (idx >= 0){
-      MY_LIST.splice(idx, 1);
-      saveMyList();
-      return false;
-    } else {
-      MY_LIST.push({ ...wordItem, _folder: folder });
-      saveMyList();
-      return true;
-    }
-  }
-
-  function isWordInList(word){
-    return MY_LIST.some(x => String(x.word).toLowerCase() === String(word).toLowerCase());
-  }
-
-  // ================== UTILS ==================
   function escapeHtml(text) {
-    const div = document.createElement('div');
-    div.textContent = text == null ? '' : String(text);
-    return div.innerHTML;
+   const div = document.createElement('div');
+   div.textContent = text == null ? '' : String(text);
+   return div.innerHTML;
   }
   function sanitizePhonemeHtml(text, allowU = true){
-    const escaped = escapeHtml(text);
-    return allowU
-      ? escaped.replace(/&lt;u&gt;/g,'<u>').replace(/&lt;\/u&gt;/g,'</u>')
-      : escaped;
+   const escaped = escapeHtml(text);
+   return allowU
+    ? escaped.replace(/&lt;u&gt;/g,'<u>').replace(/&lt;\/u&gt;/g,'</u>')
+    : escaped;
   }
-  function escapeAttr(val){
-    return String(val)
-      .replace(/&/g,'&amp;')
-      .replace(/"/g,'&quot;');
-  }
+  function escapeAttr(val){ return String(val).replace(/&/g,'&amp;').replace(/"/g,'&quot;'); }
 
   const VOWEL_CHARS = new Set(['i','ɪ','ɛ','æ','ʌ','ɑ','ɔ','ʊ','u','ə','ɚ','ɝ','e','a','o','ē','ī','ō','ā','ū','ĕ','ĭ','ŏ','ŭ','ă']);
   const CONSONANT_CHARS = new Set(['p','b','t','d','k','ɡ','f','v','θ','ð','s','z','ʃ','ʒ','h','m','n','ŋ','l','r','w','j','c','y','x']);
   const NEUTRAL_CHARS = new Set(['/',' ', "'", 'ˌ','.', 'ː','-']);
 
   function stripColorSpans(html){
-    return html
-      .replace(/<span[^>]*class="[^"]*\bphoneme-(?:vowel|consonant)\b[^"]*"[^>]*>/gi,'')
-      .replace(/<\/span>/gi,'');
+   return html.replace(/<span[^>]*class="[^"]*\bphoneme-(?:vowel|consonant)\b[^"]*"[^>]*>/gi,'').replace(/<\/span>/gi,'');
   }
-
   function colorizePhonemes(html){
-    if (!html) return '';
-    const src = stripColorSpans(html);
-    let out = '';
-    let i = 0;
-    while (i < src.length){
-      const ch = src[i];
-      if (ch === '<'){
-        const j = src.indexOf('>', i);
-        if (j === -1){ out += ch; i++; continue; }
-        out += src.slice(i, j + 1);
-        i = j + 1;
-        continue;
-      }
-      if (NEUTRAL_CHARS.has(ch)){ out += ch; i++; continue; }
-      if (VOWEL_CHARS.has(ch)){
-        out += '<span class="phoneme-vowel">' + ch + '</span>';
-      } else if (CONSONANT_CHARS.has(ch)){
-        out += '<span class="phoneme-consonant">' + ch + '</span>';
-      } else {
-        out += ch;
-      }
-      i++;
+   if(!html) return '';
+   const src = stripColorSpans(html);
+   let out = '', i = 0;
+   while(i < src.length){
+    const ch = src[i];
+    if(ch === '<'){
+     const j = src.indexOf('>', i);
+     if(j === -1){ out += ch; i++; continue; }
+     out += src.slice(i, j+1);
+     i = j + 1;
+     continue;
     }
-    return out;
+    if(NEUTRAL_CHARS.has(ch)){ out += ch; i++; continue; }
+    if(VOWEL_CHARS.has(ch)){ out += `<span class="phoneme-vowel">${}</span>`; }
+    else if(CONSONANT_CHARS.has(ch)){ out += `<span class="phoneme-consonant">${}</span>`; }
+    else{ out += ch; }
+    i++;
+   }
+   return out;
   }
 
   const tagNames = {
-    all: "全部",
-    vowel: "母音",
-    consonant :"子音",
-    irregular: "不規則拼寫",
-    closed: "閉音節（短母音）",
-    floss: "重複子音字尾 (FLOSS-Z)",
-    digraph: "雙字母子音",
-    cluster: "子音群",
-    suffix: "字尾後綴",
-    rcontrolled: "母音 + 'r'",
-    open: "開音節（長母音）",
-    cle: "子音 + 'le'",
-    magic_e: "長母音 + 靜音 'e'",
-    vowel_team: "母音組合",
-    silent_consonant: "不發音子音字母",
-    cvc: "單一閉音節（短母音）"
+   all: "全部", vowel: "母音", consonant :"子音", irregular: "不規則拼寫", closed: "閉音節（短母音）", floss: "重複子音字尾 (FLOSS-Z)",
+   digraph: "雙字母子音", cluster: "子音群", suffix: "字尾後綴", rcontrolled: "母音 + 'r'", open: "開音節（長母音）", cle: "子音 + 'le'",
+   magic_e: "長母音 + 靜音 'e'", vowel_team: "母音組合", silent_consonant: "不發音子音字母", cvc: "單一閉音節（短母音）"  
   };
 
   const TOPICS_URL = 'topics.json';
   const CACHE = { topics: null, data: {} };
   const loadingState = new Set();
 
+  // ================== MY LIST STORAGE ==================
+  let MY_LIST = [];
+  try {
+   const saved = localStorage.getItem('phonics_mylist');
+   if(saved) MY_LIST = JSON.parse(saved);
+  } catch(e){ console.warn('Load list failed', e); }
+
+  function saveMyList(){
+   localStorage.setItem('phonics_mylist', JSON.stringify(MY_LIST));
+  }
+  
+  function toggleMyList(wordItem, folder){
+   const key = wordItem.word.toLowerCase();
+   // Check if exact word already exists in list
+   const idx = MY_LIST.findIndex(x => x.word.toLowerCase() === key);
+   if(idx >= 0){
+    MY_LIST.splice(idx, 1); // remove
+    saveMyList();
+    return false;
+   } else {
+    // save minimalistic data needed for render, storing folder is crucial for audio
+    MY_LIST.push({ ...wordItem, _folder: folder });
+    saveMyList();
+    return true;
+   }
+  }
+  
+  function isWordInList(word){
+   return MY_LIST.some(x => x.word.toLowerCase() === String(word).toLowerCase());
+  }
+  // =====================================================
+
+  function fetchWithTimeout(url, opts={}, timeout=8000){
+   return Promise.race([
+    fetch(url, opts),
+    new Promise((_, rej)=> setTimeout(()=>rej(new Error('Timeout')), timeout))
+   ]);
+  }
+
   const AUDIO_BASE = './audio/';
   let levelFolder = '';
 
   function audioUrlForWord(item){
-    if (item.audio) return item.audio;
-    const folder = item._folder || levelFolder || '';
-    const safeName = String(item.word || '').toLowerCase().replace(/\s+/g, '_');
-    if (!folder){
-      return AUDIO_BASE + safeName + '.mp3';
-    }
-    return AUDIO_BASE + folder + '/' + safeName + '.mp3';
+   if (item.audio) return item.audio;
+   // Use item's folder if available (e.g. from Search or My List), else use current page levelFolder
+   const folder = item._folder || levelFolder; 
+   const safeName = String(item.word||'').toLowerCase().replace(/\s+/g, "_");
+   return `${}${}/${}.mp3`;
   }
 
   const AUDIO_CACHE = new Map();
   const CACHE_MAX = 300;
   function cachePut(url, blobUrl){
-    AUDIO_CACHE.set(url, { blobUrl, t: Date.now() });
-    if (AUDIO_CACHE.size > CACHE_MAX){
-      let oldestKey = null;
-      let oldestT = Infinity;
-      for (const [k, v] of AUDIO_CACHE){
-        if (v.t < oldestT){
-          oldestT = v.t;
-          oldestKey = k;
-        }
-      }
-      if (oldestKey){
-        try{
-          URL.revokeObjectURL(AUDIO_CACHE.get(oldestKey).blobUrl);
-        }catch(e){}
-        AUDIO_CACHE.delete(oldestKey);
-      }
-    }
+   AUDIO_CACHE.set(url, { blobUrl, t: Date.now() });
+   if (AUDIO_CACHE.size > CACHE_MAX){
+    let oldestKey=null, oldestT=Infinity;
+    for (const [k,v] of AUDIO_CACHE){ if (v.t < oldestT){ oldestT=v.t; oldestKey=k; } }
+    if (oldestKey){ try{ URL.revokeObjectURL(AUDIO_CACHE.get(oldestKey).blobUrl); }catch{} AUDIO_CACHE.delete(oldestKey); }
+   }
   }
   function cacheGet(url){
-    const hit = AUDIO_CACHE.get(url);
-    if (hit){
-      hit.t = Date.now();
-      return hit.blobUrl;
-    }
-    return null;
+   const hit = AUDIO_CACHE.get(url);
+   if (hit){ hit.t = Date.now(); return hit.blobUrl; }
+   return null;
   }
-
-  function fetchWithTimeout(url, opts = {}, timeout = 8000){
-    return Promise.race([
-      fetch(url, opts),
-      new Promise((_, rej) => setTimeout(() => rej(new Error('Timeout')), timeout))
-    ]);
-  }
-
   async function ensureAudio(url){
-    if (!url) return null;
-    const hit = cacheGet(url);
-    if (hit) return hit;
-    const r = await fetchWithTimeout(url, {}, 12000);
-    if (!r.ok) throw new Error('HTTP ' + r.status);
-    const blob = await r.blob();
-    const blobUrl = URL.createObjectURL(blob);
-    cachePut(url, blobUrl);
-    return blobUrl;
+   if (!url) return null;
+   const hit = cacheGet(url);
+   if (hit) return hit;
+   const r = await fetchWithTimeout(url, {}, 12000);
+   if (!r.ok) throw new Error(`HTTP ${r.status}`);
+   const blob = await r.blob();
+   const blobUrl = URL.createObjectURL(blob);
+   cachePut(url, blobUrl);
+   return blobUrl;
   }
-
-  async function batchPrefetch(urls, concurrency = 6){
-    const urlArray = Array.from(urls);
-    for (let i = 0; i < urlArray.length; i += concurrency){
-      const batch = urlArray.slice(i, i + concurrency);
-      await Promise.all(batch.map(url => ensureAudio(url).catch(() => null)));
-    }
+  async function batchPrefetch(urls, concurrency = 6) {
+   const urlArray = Array.from(urls);
+   for (let i = 0; i < urlArray.length; i += concurrency) {
+    const batch = urlArray.slice(i, i + concurrency);
+    await Promise.all(batch.map(url => ensureAudio(url).catch(()=>null)));
+   }
   }
-
   async function playAudioSmart(url, btn){
-    try{
-      const src = await ensureAudio(url);
-      if (!src) return;
-      const p = new Audio();
-      p.preload = 'auto';
-      p.src = src;
-      p.load();
-      const playPromise = p.play();
-      if (playPromise !== undefined) await playPromise;
-    }catch(e){
-      if (btn){
-        const original = btn.textContent || btn.innerHTML;
-        btn.textContent = '❌';
-        setTimeout(() => {
-          if (typeof original === 'string') btn.textContent = original;
-          else btn.innerHTML = original;
-        }, 800);
-      }
-      console.warn('播放失敗：', url, e);
+   try{
+    const src = await ensureAudio(url);
+    if (!src) return;
+    const p = new Audio();
+    p.preload = 'auto';
+    p.src = src;
+    p.load();
+    const playPromise = p.play();
+    if (playPromise !== undefined) await playPromise;
+   }catch(e){
+    if(btn){ 
+     const o=btn.textContent || btn.innerHTML; 
+     btn.textContent='❌'; 
+     setTimeout(()=>{ if(typeof o === 'string') btn.textContent=o; else btn.innerHTML=o; },800); 
     }
+    console.warn('播放失敗：', url, e);
+   }
   }
 
-  // ========= Phoneme audio mapping =========
   let PHONEME = { files: {} };
-  fetchWithTimeout('data/phoneme-audio.json')
-    .then(r => r.ok ? r.json() : { files: {} })
-    .then(j => { PHONEME = j || { files: {} }; })
-    .catch(() => {});
+  fetchWithTimeout('data/phoneme-audio.json').then(r => r.ok ? r.json() : {files:{}}).then(j => { PHONEME = j || {files:{}}; }).catch(()=>{});
 
   function phonemeUrl(raw){
-    if (!PHONEME.files) return null;
-    if (PHONEME.files[raw]) return PHONEME.files[raw];
-    const key = String(raw)
-      .replace(/<[^>]+>/g,'')
-      .replace(/'/g,'')
-      .trim()
-      .replace(/^\/|\/$/g,'')
-      .replace(/\s+/g,'');
-    if (PHONEME.files[key]) return PHONEME.files[key];
-    return null;
+   if (PHONEME.files && PHONEME.files[raw]) return PHONEME.files[raw];
+   const key = String(raw).replace(/<[^>]+>/g,'').replace(/'/g,'').trim().replace(/^\/|\/$/g,'').replace(/\s+/g,'');
+   return (PHONEME.files && PHONEME.files[key]) ? PHONEME.files[key] : null;
   }
 
-  // ========== Global state for pages ==========
-  let selectedFilter = 'all';
-  let currentTopicData = [];
-  let isPhonicsMode = false;
-  let WORD_INDEX = {};
-
-  // ====== 事件委派 (包含搜尋結果的連結點擊) ======
+  // ====== 事件委派 (包含搜尋結果連結, 星星按鈕, MyList按鈕) ======
   document.addEventListener('click', (e) => {
-    // 1. Word Audio
-    const btn = e.target.closest('.audio-button');
-    if (btn){
-      const url = btn.getAttribute('data-audio-url');
-      if (url) playAudioSmart(url, btn);
-      return;
-    }
+   const btn = e.target.closest('.audio-button');
+   if(btn){
+    const url = btn.getAttribute('data-audio-url');
+    if(url) playAudioSmart(url, btn);
+    return;
+   }
+   // 處理跳轉連結
+   const sourceLink = e.target.closest('.source-link-btn');
+   if(sourceLink){
+    const targetPage = sourceLink.getAttribute('data-page-target');
+    if(targetPage) showPage(targetPage);
+    return;
+   }
+   const cell = e.target.closest('.phoneme-box');
+   if(cell){
+    const raw = cell.textContent;
+    const url = phonemeUrl(raw);
+    if(!url){ cell.style.background='#fee2e2'; setTimeout(()=>cell.style.background='',400); return; }
+    playAudioSmart(url, cell);
+    return;
+   }
+   const nav = e.target.closest('[data-page-target]');
+   if(nav){ showPage(nav.getAttribute('data-page-target')); return; }
+   const retry = e.target.closest('[data-action="reload"]');
+   if(retry){ location.reload(); }
+   const ft = e.target.closest('.filter-toggle');
+   if(ft){
+    const panel = ft.parentElement.nextElementSibling;
+    const open = panel.classList.toggle('open');
+    ft.setAttribute('aria-expanded', open ? 'true' : 'false');
+   }
 
-    // 2. Link Navigation from search result / duplicate list
-    const sourceLink = e.target.closest('.source-link-btn');
-    if (sourceLink){
-      const targetPage = sourceLink.getAttribute('data-page-target');
-      if (targetPage) showPage(targetPage);
-      return;
+   // STAR CLICK
+   const starBtn = e.target.closest('.star-btn');
+   if(starBtn){
+    const card = starBtn.closest('.word-card');
+    const word = card.getAttribute('data-word');
+    // Find item data from currentTopicData (matches the word)
+    const itemData = currentTopicData.find(x => String(x.word).toLowerCase() === word);
+    if(itemData){
+     const folder = itemData._folder || levelFolder;
+     const isAdded = toggleMyList(itemData, folder);
+     starBtn.innerHTML = isAdded ? '★' : '☆';
+     starBtn.classList.toggle('active', isAdded);
     }
+    return;
+   }
 
-    // 3. Phoneme/phonics cell audio
-    const cell = e.target.closest('.phoneme-box');
-    if (cell){
-      const raw = cell.getAttribute('data-phoneme-key') || cell.textContent;
-      const url = phonemeUrl(raw);
-      if (!url){
-        cell.style.background = '#fee2e2';
-        setTimeout(() => { cell.style.background = ''; }, 400);
-        return;
-      }
-      playAudioSmart(url, cell);
-      return;
-    }
-
-    // 4. Star Button (My List)
-    const starBtn = e.target.closest('.star-btn');
-    if (starBtn){
-      const card = starBtn.closest('.word-card');
-      if (!card) return;
-      const word = card.getAttribute('data-word');
-      let itemData = currentTopicData.find(x => String(x.word).toLowerCase() === word);
-      if (!itemData && isWordInList(word)){
-        itemData = MY_LIST.find(x => String(x.word).toLowerCase() === word);
-      }
-      if (itemData){
-        const folder = itemData._folder || levelFolder;
-        const isAdded = toggleMyList(itemData, folder);
-        starBtn.textContent = isAdded ? '★' : '☆';
-        starBtn.classList.toggle('active', isAdded);
-        if (document.getElementById('myListPage').classList.contains('active')){
-          showMyListPage();
-        }
-      }
-      return;
-    }
-
-    // 5. My List actions
-    if (e.target.id === 'goMyListBtn'){ showMyListPage(); return; }
-    if (e.target.id === 'printListBtn'){ window.print(); return; }
-    if (e.target.id === 'exportListBtn'){ exportMyList(); return; }
-    if (e.target.id === 'importListBtn'){
-      const input = document.getElementById('importInput');
-      if (input) input.click();
-      return;
-    }
-
-    // 6. Back / page navigation buttons
-    const nav = e.target.closest('[data-page-target]');
-    if (nav){
-      const target = nav.getAttribute('data-page-target');
-      if (target) showPage(target);
-      return;
-    }
-
-    // 7. Reload button on error
-    const retry = e.target.closest('[data-action="reload"]');
-    if (retry){
-      location.reload();
-      return;
-    }
-
-    // 8. Filter toggle open/close
-    const ft = e.target.closest('.filter-toggle');
-    if (ft){
-      const panel = ft.parentElement.nextElementSibling;
-      if (!panel) return;
-      const open = panel.classList.toggle('open');
-      ft.setAttribute('aria-expanded', open ? 'true' : 'false');
-      return;
-    }
+   // My List Page Actions
+   if(e.target.id === 'goMyListBtn'){ showMyListPage(); return; }
+   if(e.target.id === 'printListBtn'){ window.print(); return; }
+   if(e.target.id === 'exportListBtn'){ exportMyList(); return; }
+   if(e.target.id === 'importListBtn'){ importMyList(); return; }
   });
 
-  // Import JSON for My List
-  document.getElementById('importInput').addEventListener('change', (e) => {
-    const file = e.target.files && e.target.files[0];
-    if (!file) return;
-    const reader = new FileReader();
-    reader.onload = function(evt){
-      try{
-        const list = JSON.parse(evt.target.result);
-        if (Array.isArray(list)){
-          MY_LIST = list;
-          saveMyList();
-          showMyListPage();
-          alert('匯入成功！');
-        } else {
-          alert('檔案格式錯誤');
-        }
-      }catch(err){
-        alert('檔案格式錯誤');
-      }
-    };
-    reader.readAsText(file);
-  });
-
-  // ======= Prefetch listeners for hover/touch =======
   function setupAudioPrefetchListeners(){
-    if (DISABLE_PREFETCH) return;
-    if (!IS_TOUCH){
-      document.addEventListener('mouseenter', (e) => {
-        const btn = e.target.closest('.audio-button');
-        if (btn){
-          const url = btn.getAttribute('data-audio-url');
-          if (url) ensureAudio(url).catch(() => {});
-          return;
-        }
-        const cell = e.target.closest('.phoneme-box');
-        if (cell){
-          const raw = cell.getAttribute('data-phoneme-key') || cell.textContent;
-          const url = phonemeUrl(raw);
-          if (url) ensureAudio(url).catch(() => {});
-        }
-      }, true);
-    }
-    document.addEventListener('touchstart', (e) => {
-      const btn = e.target.closest('.audio-button');
-      if (btn){
-        const url = btn.getAttribute('data-audio-url');
-        if (url) ensureAudio(url).catch(() => {});
-        return;
-      }
-      const cell = e.target.closest('.phoneme-box');
-      if (cell){
-        const raw = cell.getAttribute('data-phoneme-key') || cell.textContent;
-        const url = phonemeUrl(raw);
-        if (url) ensureAudio(url).catch(() => {});
-      }
-    }, { passive: true });
+   if (DISABLE_PREFETCH) return;
+   if (!IS_TOUCH) {
+    document.addEventListener('mouseenter', (e)=>{
+     const btn = e.target.closest('.audio-button'); 
+     if(btn){ const url = btn.getAttribute('data-audio-url'); if(url) ensureAudio(url).catch(()=>{}); return; }
+     const cell = e.target.closest('.phoneme-box');
+     if(cell){ const raw = cell.textContent; const url = phonemeUrl(raw); if(url) ensureAudio(url).catch(()=>{}); }
+    }, true);
+   }
+   document.addEventListener('touchstart', (e)=>{
+    const btn = e.target.closest('.audio-button'); 
+    if(btn){ const url = btn.getAttribute('data-audio-url'); if(url) ensureAudio(url).catch(()=>{}); return; }
+    const cell = e.target.closest('.phoneme-box');
+    if(cell){ const raw = cell.textContent; const url = phonemeUrl(raw); if(url) ensureAudio(url).catch(()=>{}); }
+   }, { passive:true });
   }
   setupAudioPrefetchListeners();
 
-  // ============ Topic page rendering ============
+  let selectedFilter = 'all'; 
+  let currentTopicData=[];
+  let isPhonicsMode=false;
+
   function initTopicPage(contentId){
-    const cnt = document.getElementById(contentId);
-    if (!cnt) return;
+   const cnt=document.getElementById(contentId);
+   if(!cnt) return;
 
-    const allTags = ['all','vowel','consonant','cvc','closed','open','magic_e','vowel_team','rcontrolled','cle','floss','digraph','cluster','suffix','silent_consonant','irregular'];
-    const usedTags = new Set(['all']);
-    currentTopicData.forEach(w => {
-      (w.tags || []).forEach(t => usedTags.add(t));
+   const allTags=['all','vowel','consonant','cvc','closed','open','magic_e','vowel_team','rcontrolled','cle','floss','digraph','cluster','suffix','silent_consonant','irregular'];
+   const usedTags=new Set(['all']);
+   currentTopicData.forEach(w=>{ (w.tags||[]).forEach(t=>usedTags.add(t)); });
+   const existing=allTags.filter(t=>usedTags.has(t));
+
+   const filterBarHTML = `
+    <div class="filter-bar">
+     <button class="filter-toggle" type="button" aria-expanded="false" aria-controls="filter-panel-${}">
+      <i class="fa-solid fa-filter"></i><span>篩選</span>
+      <span class="filter-state" id="filter-state-${}">（目前：全部）</span>
+     </button>
+    </div>
+   `;
+
+   let legendHTML = '<ul class="legend">';
+   existing.forEach(t=>{
+    const name = tagNames[t] || t;
+    const cls=(t==='all')?'tag-all':`tag-${}`;
+    const sel=(t===selectedFilter)?'selected':'';
+    legendHTML+=`<li class="legend-item ${} ${}" data-filter="${}">${}</li>`;
+   });
+   legendHTML+='</ul>';
+
+   const toggleHTML=`
+    <div class="toggle-container">
+     <span class="toggle-label-ipa">IPA 音標</span>
+     <label class="switch">
+      <input type="checkbox" id="toggle_${}" ${isPhonicsMode?'checked':''}>
+      <span class="slider"></span>
+     </label>
+     <span class="toggle-label-phonics">Phonics 拼音</span>
+    </div>
+    <p class="attribution-note">
+     IPA 根據<a href="https://christinayu_english.rakosell.com/zh/page/american-ipa-guide" target="_blank">美式英語 IPA 國際音標指南</a><br>
+     Phonics 根據 <a href="https://ufli.education.ufl.edu/wp-content/uploads/2023/09/UFLI-Sound-Wall-rev.pdf" target="_blank">UFLI phonemes</a>
+    </p>
+   `;
+
+   const panelHTML = `<div id="filter-panel-${}" class="filter-panel" role="region" aria-label="標籤篩選面板">${}</div>`;
+   cnt.innerHTML = filterBarHTML + panelHTML + toggleHTML + `<div class="topic-grid" id="teaching-grid-${}"></div>`;
+
+   cnt.querySelectorAll('.legend-item').forEach(li=>{
+    li.addEventListener('click',()=>{
+     selectedFilter = li.getAttribute('data-filter')||'all';
+     cnt.querySelectorAll('.legend-item').forEach(x=>x.classList.remove('selected'));
+     li.classList.add('selected');
+     const stateEl = document.getElementById(`filter-state-${}`);
+     if(stateEl){ stateEl.textContent = `（目前：${tagNames[selectedFilter] || selectedFilter}）`; }
+     applyFilters(contentId);
+     const panel = document.getElementById(`filter-panel-${}`);
+     const toggleBtn = cnt.querySelector('.filter-toggle');
+     if(panel && toggleBtn){ panel.classList.remove('open'); toggleBtn.setAttribute('aria-expanded','false'); }
     });
-    const existing = allTags.filter(t => usedTags.has(t));
+   });
 
-    const filterBarHTML =
-      '<div class="filter-bar">' +
-        '<button class="filter-toggle" type="button" aria-expanded="false" aria-controls="filter-panel-' + contentId + '">' +
-          '<i class="fa-solid fa-filter"></i><span>篩選</span>' +
-          '<span class="filter-state" id="filter-state-' + contentId + '">（目前：全部）</span>' +
-        '</button>' +
-      '</div>';
+   const tog=cnt.querySelector(`#toggle_${}`);
+   if(tog){ tog.addEventListener('change',()=>{ isPhonicsMode=tog.checked; renderCards(contentId); }); }
 
-    let legendHTML = '<ul class="legend">';
-    existing.forEach(t => {
-      const name = tagNames[t] || t;
-      const cls = (t === 'all') ? 'tag-all' : ('tag-' + t);
-      const sel = (t === selectedFilter) ? 'selected' : '';
-      legendHTML +=
-        '<li class="legend-item ' + cls + ' ' + sel + '" data-filter="' + t + '">' +
-          escapeHtml(name) +
-        '</li>';
-    });
-    legendHTML += '</ul>';
+   renderCards(contentId);
+   highlightIfPending(contentId);
 
-    const toggleHTML =
-      '<div class="toggle-container">' +
-        '<span class="toggle-label-ipa">IPA 音標</span>' +
-        '<label class="switch">' +
-          '<input type="checkbox" id="toggle_' + contentId + '" ' + (isPhonicsMode ? 'checked' : '') + '>' +
-          '<span class="slider"></span>' +
-        '</label>' +
-        '<span class="toggle-label-phonics">Phonics 拼音</span>' +
-      '</div>' +
-      '<p class="attribution-note">' +
-        'IPA 根據<a href="https://christinayu_english.rakosell.com/zh/page/american-ipa-guide" target="_blank">美式英語 IPA 國際音標指南</a><br>' +
-        'Phonics 根據 <a href="https://ufli.education.ufl.edu/wp-content/uploads/2023/09/UFLI-Sound-Wall-rev.pdf" target="_blank">UFLI phonemes</a>' +
-      '</p>';
-
-    const panelHTML =
-      '<div id="filter-panel-' + contentId + '" class="filter-panel" role="region" aria-label="標籤篩選面板">' +
-        legendHTML +
-      '</div>';
-
-    cnt.innerHTML =
-      filterBarHTML +
-      panelHTML +
-      toggleHTML +
-      '<div class="topic-grid" id="teaching-grid-' + contentId + '"></div>';
-
-    // Legend click
-    cnt.querySelectorAll('.legend-item').forEach(li => {
-      li.addEventListener('click', () => {
-        selectedFilter = li.getAttribute('data-filter') || 'all';
-        cnt.querySelectorAll('.legend-item').forEach(x => x.classList.remove('selected'));
-        li.classList.add('selected');
-        const stateEl = document.getElementById('filter-state-' + contentId);
-        if (stateEl){
-          stateEl.textContent = '（目前：' + (tagNames[selectedFilter] || selectedFilter) + '）';
-        }
-        applyFilters(contentId);
-        const panel = document.getElementById('filter-panel-' + contentId);
-        const toggleBtn = cnt.querySelector('.filter-toggle');
-        if (panel && toggleBtn){
-          panel.classList.remove('open');
-          toggleBtn.setAttribute('aria-expanded', 'false');
-        }
+   if (!DISABLE_PREFETCH){
+    setTimeout(async ()=>{ 
+     try{
+      const grid = document.getElementById(`teaching-grid-${}`);
+      if(!grid) return;
+      const urls = new Set();
+      grid.querySelectorAll('.phoneme-box').forEach(cell=>{
+       const raw = cell.textContent;
+       const url = phonemeUrl(raw);
+       if (url) urls.add(url);
       });
-    });
-
-    // Toggle IPA/Phonics
-    const tog = cnt.querySelector('#toggle_' + contentId);
-    if (tog){
-      tog.addEventListener('change', () => {
-        isPhonicsMode = tog.checked;
-        renderCards(contentId);
-      });
-    }
-
-    renderCards(contentId);
-    highlightIfPending(contentId);
-
-    if (!DISABLE_PREFETCH){
-      setTimeout(async () => {
-        try{
-          const grid = document.getElementById('teaching-grid-' + contentId);
-          if (!grid) return;
-          const urls = new Set();
-          grid.querySelectorAll('.phoneme-box').forEach(cell => {
-            const raw = cell.getAttribute('data-phoneme-key') || cell.textContent;
-            const url = phonemeUrl(raw);
-            if (url) urls.add(url);
-          });
-          await batchPrefetch(urls, PREFETCH_CONCURRENCY);
-        }catch(e){
-          console.warn('Prefetch error:', e);
-        }
-      }, 100);
-    }
+      await batchPrefetch(urls, PREFETCH_CONCURRENCY);
+     }catch(e){ console.warn('Prefetch error:', e); }
+    }, 100);
+   }
   }
 
   function renderCards(contentId){
-    const grid = document.getElementById('teaching-grid-' + contentId);
-    if (!grid) return;
-    grid.innerHTML = '';
-    currentTopicData.forEach((w) => {
-      const tagsAttr = (w.tags || []).join(',');
-      const badges = (w.tags || [])
-        .map(t => '<span class="category-tag tag-' + t + '">' + escapeHtml(tagNames[t] || t) + '</span>')
-        .join('');
+   const grid = document.getElementById(`teaching-grid-${}`);
+   if(!grid) return;
+   grid.innerHTML='';
+   currentTopicData.forEach(w=>{
+    const tagsAttr = (w.tags||[]).join(',');
+    const badges = (w.tags||[]).map(t => `<span class="category-tag tag-${}">${escapeHtml(tagNames[t] || t)}</span>`).join('');
 
-      const modeKey = isPhonicsMode ? 'phonics' : 'phonemes';
-      const useArr = (w[modeKey] || w.phonemes || []);
-      const labelArr = (w.graphemes || []);
-      const heartArr = (w.hearts || []);
+    const modeKey = isPhonicsMode?'phonics':'phonemes';
+    const useArr = (w[modeKey]||w.phonemes||[]);
+    const labelArr = (w.graphemes||[]);
+    const heartArr = (w.hearts||[]);
 
-      const cols = Math.max(labelArr.length, useArr.length);
-      let cells = '';
-      for (let i = 0; i < cols; i++){
-        const g = labelArr[i] || '';
-        const p = useArr[i] || '';
-        const heart = heartArr[i] ? '<span class="heart-symbol">❤</span>' : '';
-        const phClass = isPhonicsMode ? 'is-phonics' : '';
-        const pHtmlRaw = isPhonicsMode ? sanitizePhonemeHtml(p, true) : escapeHtml(p);
-        const pHtml = colorizePhonemes(pHtmlRaw);
-        const cleanKey = String(p).replace(/<[^>]+>/g,'').trim();
-        cells +=
-          '<div class="grapheme-box box">' + escapeHtml(g) + heart + '</div>' +
-          '<div class="phoneme-box box ' + phClass + '" data-phoneme-key="' + escapeAttr(cleanKey) + '">' +
-            pHtml +
-          '</div>';
-      }
-
-      const audioURL = audioUrlForWord(w);
-      const inList = isWordInList(w.word);
-
-      let titleExtraHtml = '';
-      if (w._sourcePageId && w._sourceTitle){
-        titleExtraHtml =
-          '<div style="display:flex; flex-direction:column; align-items:flex-start; margin-left: 8px;">' +
-            '<span class="word-number" style="line-height:1.2;">' + escapeHtml(w.number || '') + '</span>' +
-            '<button class="source-link-btn" data-page-target="' + escapeAttr(w._sourcePageId) + '">' +
-              '↪ 前往 ' + escapeHtml(w._sourceTitle) +
-            '</button>' +
-          '</div>';
-      } else {
-        const num = w.number ? escapeHtml(w.number) : '';
-        titleExtraHtml = '<span class="word-number">' + num + '</span>';
-      }
-
-      const cardHtml =
-        '<article class="word-card" data-tags="' + escapeAttr(tagsAttr) + '" data-word="' + escapeAttr(String(w.word || '').toLowerCase()) + '">' +
-          '<button class="star-btn ' + (inList ? 'active' : '') + '" aria-label="收藏">' + (inList ? '★' : '☆') + '</button>' +
-          '<div class="card-header">' +
-            '<div class="card-title">' +
-              '<span class="word-text">' + escapeHtml(w.word || '') + '</span>' +
-              titleExtraHtml +
-            '</div>' +
-            '<button class="audio-button" data-audio-url="' + escapeAttr(audioURL) + '" aria-label="播放單字發音">🔊</button>' +
-          '</div>' +
-          '<div class="card-body">' +
-            '<div class="badges">' + badges + '</div>' +
-            '<div class="boxes-grid" style="grid-template-columns:repeat(' + cols + ',max-content)">' +
-              cells +
-            '</div>' +
-          '</div>' +
-        '</article>';
-
-      grid.insertAdjacentHTML('beforeend', cardHtml);
-    });
-
-    applyFilters(contentId);
-
-    if (!DISABLE_PREFETCH){
-      try{
-        const warm = (currentTopicData || []).slice(0, PREFETCH_WORDS).map(w => audioUrlForWord(w)).filter(Boolean);
-        warm.forEach(u => { ensureAudio(u).catch(() => {}); });
-      }catch(e){}
+    const cols = Math.max(labelArr.length, useArr.length);
+    let cells='';
+    for(let i=0;i<cols;i++){
+     const g = labelArr[i]||'';
+     const p = useArr[i]||'';
+     const heart = heartArr[i]?'<span class="heart-symbol">❤</span>':'';
+     const phClass = (isPhonicsMode)?'is-phonics':'';
+     const pHtmlRaw = isPhonicsMode ? sanitizePhonemeHtml(p, true) : escapeHtml(p);
+     const pHtml = colorizePhonemes(pHtmlRaw);
+     cells+=`
+      <div class="grapheme-box box">${escapeHtml(g)}${}</div>
+      <div class="phoneme-box box ${}">${}</div>
+     `;
     }
+
+    const audioURL = audioUrlForWord(w);
+
+    // 判斷是否有來源連結 (用於搜尋結果)
+    let titleExtraHtml = '';
+    if(w._sourcePageId && w._sourceTitle){
+     titleExtraHtml = `
+      <div style="display:flex; flex-direction:column; align-items:flex-start; margin-left: 8px;">
+        <span class="word-number" style="line-height:1.2;">${escapeHtml(w.number ?? '')}</span>
+        <button class="source-link-btn" data-page-target="${w._sourcePageId}">
+         ↪ 前往 ${escapeHtml(w._sourceTitle)}
+        </button>
+      </div>
+     `;
+    } else {
+      // 正常情況
+      titleExtraHtml = `<span class="word-number">${escapeHtml(w.number ?? '')}</span>`;
+    }
+
+    // Check Star status
+    const isStarred = isWordInList(w.word);
+    const starSymbol = isStarred ? '★' : '☆';
+    const starClass = isStarred ? 'star-btn active' : 'star-btn';
+
+    const card=`
+     <article class="word-card" data-tags="${escapeAttr(tagsAttr)}" data-word="${escapeAttr(String(w.word||'').toLowerCase())}">
+      <button class="${starClass}" aria-label="收藏單字">${starSymbol}</button>
+      <div class="card-header">
+       <div class="card-title">
+        <span class="word-text">${escapeHtml(w.word||'')}</span>
+        ${}
+       </div>
+       <button class="audio-button" data-audio-url="${escapeAttr(audioURL)}" aria-label="播放單字發音">🔊</button>
+      </div>
+      <div class="card-body">
+       <div class="badges">${}</div>
+       <div class="boxes-grid" style="grid-template-columns:repeat(${},max-content)">${}</div>
+      </div>
+     </article>
+    `;
+    grid.insertAdjacentHTML('beforeend',card);
+   });
+   applyFilters(contentId);
+
+   if (!DISABLE_PREFETCH){
+    try{
+     const warm = (currentTopicData||[]).slice(0, PREFETCH_WORDS).map(w => audioUrlForWord(w)).filter(Boolean);
+     warm.forEach(u=>{ ensureAudio(u).catch(()=>{}); });
+    }catch(e){}
+   }
   }
 
   function applyFilters(contentId){
-    const grid = document.getElementById('teaching-grid-' + contentId);
-    if (!grid) return;
-    const cards = grid.querySelectorAll('.word-card');
-    if (selectedFilter === 'all'){
-      cards.forEach(c => c.classList.remove('hidden'));
-      return;
-    }
-    cards.forEach(c => {
-      const tags = (c.getAttribute('data-tags') || '').split(',').filter(Boolean);
-      c.classList.toggle('hidden', !tags.includes(selectedFilter));
+   const grid = document.getElementById(`teaching-grid-${}`);
+   if(!grid) return;
+   const cards = grid.querySelectorAll('.word-card');
+   if(selectedFilter === 'all'){ cards.forEach(c=>c.classList.remove('hidden')); return; }
+   cards.forEach(c=>{
+    const tags = (c.getAttribute('data-tags')||'').split(',').filter(Boolean);
+    c.classList.toggle('hidden', !tags.includes(selectedFilter));
+   });
+  }
+
+  let WORD_INDEX = {};
+  function buildWordIndexFromAll(){
+   WORD_INDEX = {};
+   (CACHE.topics?.topics||[]).forEach(t=>{
+    t.levels.forEach((lv, idx)=>{
+     const thisFolder = (lv.src||'').replace(/^data\//,'').replace(/\.json$/,'').replace(/^\//,'');
+     // 紀錄此課程的 Page ID，供搜尋結果跳轉使用
+     const thisPageId = `${t.slug}_${idx+1}_Page`;
+
+     const items = CACHE.data[lv.src]?.items || [];
+     items.forEach(w=>{
+      const key = String(w.word||'').trim().toLowerCase();
+      if(!key) return;
+       
+      if(!WORD_INDEX[key]) WORD_INDEX[key] = [];
+       
+      // Push into array (allows duplicate entries)
+      WORD_INDEX[key].push({ 
+       slug: t.slug, 
+       levelIndex: idx,
+       folder: thisFolder,
+       topicTitle: t.title,
+       levelLabel: lv.label,
+       pageId: thisPageId, // 存入 Page ID
+       item: w
+      });
+     });
     });
-  }
-
-  function showMyListPage(){
-    showPage('myListPage');
-    const msg = document.getElementById('myListMsg');
-    if (MY_LIST.length === 0){
-      msg.textContent = '目前沒有加入任何單字。';
-      const container = document.getElementById('myList_Content');
-      if (container) container.innerHTML = '';
-      return;
-    }
-    msg.textContent = '共 ' + MY_LIST.length + ' 個單字';
-    currentTopicData = MY_LIST.slice();
-    initTopicPage('myList_Content');
-  }
-
-  function exportMyList(){
-    if (MY_LIST.length === 0){
-      alert('列表為空');
-      return;
-    }
-    const dataStr = 'data:text/json;charset=utf-8,' + encodeURIComponent(JSON.stringify(MY_LIST));
-    const node = document.createElement('a');
-    node.setAttribute('href', dataStr);
-    node.setAttribute('download', 'phonics_list.json');
-    document.body.appendChild(node);
-    node.click();
-    node.remove();
-  }
-
-  function initSearchBar(){
-    const inp = document.getElementById('globalSearchInput');
-    const btn = document.getElementById('globalSearchBtn');
-    if (!inp || !btn) return;
-    btn.addEventListener('click', () => goToWord(inp.value));
-    inp.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter') goToWord(inp.value);
-    });
-  }
-
-  function highlightIfPending(contentId){
-    const target = (window.PhonicsApp.pendingHighlight || '').toLowerCase();
-    if (!target) return;
-    const grid = document.getElementById('teaching-grid-' + contentId);
-    if (!grid) return;
-    const escaped = (window.CSS && CSS.escape)
-      ? CSS.escape(target)
-      : target.replace(/[!"#$%&'()*+,./:;<=>?@[\\]^`{|}~]/g, '\\$&');
-    const card = grid.querySelector('.word-card[data-word="' + escaped + '"]');
-    if (card){
-      card.classList.add('search-hit');
-      card.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      setTimeout(() => card.classList.remove('search-hit'), 1600);
-    }
-    window.PhonicsApp.pendingHighlight = '';
+   });
   }
 
   function goToWord(wordRaw){
-    const input = String(wordRaw || '').trim().toLowerCase();
-    const msgEl = document.getElementById('searchMsg');
-    if (!input){
-      msgEl.textContent = '請輸入單字';
-      return;
-    }
-    const hits = WORD_INDEX[input];
-    if (!hits || hits.length === 0){
-      msgEl.textContent = '找不到：' + wordRaw;
-      return;
-    }
-    msgEl.textContent = '';
-    if (hits.length === 1){
-      const hit = hits[0];
-      const pageId = hit.slug + '_' + (hit.levelIndex + 1) + '_Page';
-      window.PhonicsApp.pendingHighlight = input;
-      showPage(pageId);
-      return;
-    }
-    showSearchResults(input, hits);
+   const input = String(wordRaw||'').trim().toLowerCase();
+   const msgEl = document.getElementById('searchMsg');
+    
+   if(!input){ msgEl.textContent='請輸入單字'; return; }
+   const hits = WORD_INDEX[input];
+   if(!hits || hits.length === 0){ msgEl.textContent=`找不到：${input}`; return; }
+   msgEl.textContent='';
+
+   if(hits.length === 1){
+    const hit = hits[0];
+    const pageId = `${hit.slug}_${hit.levelIndex+1}_Page`;
+    window.PhonicsApp.pendingHighlight = input;
+    showPage(pageId);
+    return;
+   }
+   // If multiple results, show search results page
+   showSearchResults(input, hits);
   }
 
   function showSearchResults(query, hits){
-    currentTopicData = hits.map(hit => {
-      const newItem = { ...hit.item };
-      newItem._folder = hit.folder;
-      newItem._sourcePageId = hit.pageId;
-      newItem._sourceTitle = hit.topicTitle + ' ' + (hit.levelLabel || '');
-      return newItem;
-    });
+   currentTopicData = hits.map(hit => {
+    const newItem = { ...hit.item };
+    newItem._folder = hit.folder; 
+    // 注入來源資訊，供 renderCards 產生按鈕
+    newItem._sourcePageId = hit.pageId;
+    newItem._sourceTitle = `${hit.topicTitle} ${hit.levelLabel || ''}`;
+    return newItem;
+   });
 
-    document.querySelectorAll('.page-section').forEach(p => p.classList.remove('active'));
-    const searchPage = document.getElementById('searchResultPage');
-    if (searchPage) searchPage.classList.add('active');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-    const countEl = document.getElementById('searchResultCount');
-    if (countEl){
-      countEl.textContent = '"' + query + '" 共有 ' + hits.length + ' 筆結果';
-    }
-    initTopicPage('searchResult_Content');
+   document.querySelectorAll('.page-section').forEach(p=>p.classList.remove('active'));
+   const searchPage = document.getElementById('searchResultPage');
+   searchPage.classList.add('active');
+   window.scrollTo({ top: 0, behavior: 'smooth' });
+   document.getElementById('searchResultCount').textContent = `"${}" 共有 ${hits.length} 筆結果`;
+   initTopicPage('searchResult_Content');
+  }
+
+  function initSearchBar(){
+   const inp=document.getElementById('globalSearchInput');
+   const btn=document.getElementById('globalSearchBtn');
+   if(!inp||!btn) return;
+   btn.addEventListener('click',()=>goToWord(inp.value));
+   inp.addEventListener('keydown',(e)=>{ if(e.key==='Enter') goToWord(inp.value); });
+  }
+  function highlightIfPending(contentId){
+   const target=(window.PhonicsApp.pendingHighlight||'').toLowerCase();
+   if(!target) return;
+   const grid=document.getElementById(`teaching-grid-${}`);
+   if(!grid) return;
+   const escaped = (window.CSS && CSS.escape) ? CSS.escape(target)
+    : target.replace(/[!"#$%&'()*+,.\/:;<=>?@[\\\]^`{|}~]/g, "\\$&");
+   const card=grid.querySelector(`.word-card[data-word="${}"]`);
+   if(card){
+    card.classList.add('search-hit');
+    card.scrollIntoView({behavior:'smooth',block:'center'});
+    setTimeout(()=>card.classList.remove('search-hit'),1600);
+   }
+   window.PhonicsApp.pendingHighlight='';
   }
 
   function showPage(pageId){
-    if (pageId === 'homePage' || pageId === 'myListPage' || pageId === 'searchResultPage'){
-      document.querySelectorAll('.page-section').forEach(p => p.classList.remove('active'));
-      const pg = document.getElementById(pageId);
-      if (pg) pg.classList.add('active');
-      window.scrollTo(0, 0);
-      return;
-    }
+   selectedFilter = 'all'; 
+   document.querySelectorAll('.page-section').forEach(p=>p.classList.remove('active'));
+   const active = document.getElementById(pageId);
+   if(!active) return;
+   active.classList.add('active');
+   window.scrollTo({ top: 0, behavior: 'smooth' });
 
-    selectedFilter = 'all';
-    document.querySelectorAll('.page-section').forEach(p => p.classList.remove('active'));
-    const active = document.getElementById(pageId);
-    if (!active) return;
-    active.classList.add('active');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+   const m = pageId.match(/^(.+?)_(\d+)_Page$/);
+   if(!m) return; 
+   const slug = m[1], levelIndex = Number(m[2])-1;
+   const contentId = `${}_${levelIndex+1}_Content`;
 
-    const m = pageId.match(/^(.+?)_(\d+)_Page$/);
-    if (!m) return;
-    const slug = m[1];
-    const levelIndex = Number(m[2]) - 1;
-    const contentId = slug + '_' + (levelIndex + 1) + '_Content';
+   const topic = (CACHE.topics?.topics||[]).find(x=>x.slug===slug);
+   const lv = topic?.levels?.[levelIndex];
+   if(!lv) return;
 
-    const topic = (CACHE.topics && CACHE.topics.topics || []).find(x => x.slug === slug);
-    const lv = topic && topic.levels ? topic.levels[levelIndex] : null;
-    if (!lv) return;
+   levelFolder = (lv.src||'').replace(/^data\//,'').replace(/\.json$/,'').replace(/^\//,'');
 
-    levelFolder = (lv.src || '')
-      .replace(/^data\//,'')
-      .replace(/\.json$/,'')
-      .replace(/^\//,'');
-
-    if (!CACHE.data[lv.src] && !loadingState.has(lv.src)){
-      const t = document.getElementById(contentId);
-      if (t) t.innerHTML = '<p style="color:#666">載入中…</p>';
-      loadingState.add(lv.src);
-      fetchWithTimeout(lv.src)
-        .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-        .then(json => {
-          CACHE.data[lv.src] = json;
-          loadingState.delete(lv.src);
-          if (document.getElementById(pageId) && document.getElementById(pageId).classList.contains('active')){
-            currentTopicData = (json.items || []).map(i => ({ ...i, _folder: levelFolder }));
-            initTopicPage(contentId);
-          }
-        })
-        .catch(e => {
-          loadingState.delete(lv.src);
-          const t = document.getElementById(contentId);
-          if (t){
-            t.innerHTML =
-              '<p style="color:#b91c1c">載入失敗：' + escapeHtml(lv.src) +
-              '（' + escapeHtml(e.message) + '） ' +
-              '<button data-action="reload">重試</button></p>';
-          }
-        });
-    } else if (CACHE.data[lv.src]){
-      currentTopicData = (CACHE.data[lv.src].items || []).map(i => ({ ...i, _folder: levelFolder }));
-      initTopicPage(contentId);
-    }
+   if(!CACHE.data[lv.src] && !loadingState.has(lv.src)){
+    const t = document.getElementById(contentId);
+    if (t) t.innerHTML = '<p style="color:#666">載入中…</p>';
+    loadingState.add(lv.src);
+    fetchWithTimeout(lv.src)
+     .then(r=>{ if(!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+     .then(json=>{
+      CACHE.data[lv.src]=json; loadingState.delete(lv.src);
+      if(document.getElementById(pageId)?.classList.contains('active')){
+       currentTopicData = json.items||[];
+       initTopicPage(contentId);
+      }
+     })
+     .catch(e=>{
+      loadingState.delete(lv.src);
+      const t=document.getElementById(contentId);
+      if(t) t.innerHTML = `<p style="color:#b91c1c">載入失敗：${escapeHtml(lv.src)}（${escapeHtml(e.message)}） <button data-action="reload">重試</button></p>`;
+     });
+   }else if(CACHE.data[lv.src]){
+    currentTopicData = CACHE.data[lv.src].items||[];
+    initTopicPage(contentId);
+   }
   }
   window.PhonicsApp.showPage = showPage;
 
+  // ================== MY LIST FUNCTIONS ==================
+  function showMyListPage(){
+   document.querySelectorAll('.page-section').forEach(p=>p.classList.remove('active'));
+   const page = document.getElementById('myListPage');
+   page.classList.add('active');
+   window.scrollTo({ top: 0, behavior: 'smooth' });
+    
+   const msg = document.getElementById('myListMsg');
+   if(MY_LIST.length === 0){
+    msg.innerHTML = '目前沒有收藏任何單字。<br>請在單字卡右上角點選星星加入！';
+    document.getElementById('myList_Content').innerHTML = '';
+    return;
+   }
+   msg.textContent = `共收藏 ${MY_LIST.length} 個單字`;
+   currentTopicData = MY_LIST; 
+   initTopicPage('myList_Content');
+  }
+
+  function exportMyList(){
+   if(MY_LIST.length===0) { alert('列表是空的，無法匯出'); return; }
+   const json = JSON.stringify(MY_LIST);
+   const b64 = btoa(unescape(encodeURIComponent(json))); 
+   navigator.clipboard.writeText(b64).then(() => {
+    alert('✅ 代碼已複製到剪貼簿！\n請將此代碼傳送給其他人，他們點選「匯入」即可看到您的單字表。');
+   });
+  }
+
+  function importMyList(){
+   const code = prompt('請貼上匯入代碼：');
+   if(!code) return;
+   try {
+    const json = decodeURIComponent(escape(atob(code)));
+    const items = JSON.parse(json);
+    if(Array.isArray(items)){
+     if(confirm(`確定要匯入 ${items.length} 個單字嗎？\n(這將會覆蓋您目前的自選表)`)){
+      MY_LIST = items;
+      saveMyList();
+      showMyListPage();
+      alert('匯入成功！');
+     }
+    } else { alert('代碼格式錯誤'); }
+   } catch(e){ alert('無法解析代碼，請確認是否完整複製。'); }
+  }
+
   function buildHomeAndSections(){
-    const list = document.getElementById('topicList');
-    const main = document.querySelector('main');
-    if (!list || !main) return;
+   const list = document.getElementById('topicList');
+   const main = document.querySelector('main');
 
-    list.innerHTML =
-      '<div class="dropdown-container">' +
-        '<div class="dropdown-row">' +
-          '<label for="topicSelect">主題：</label>' +
-          '<select id="topicSelect" class="dropdown-select">' +
-            '<option value="">請選擇主題</option>' +
-          '</select>' +
-        '</div>' +
-        '<div class="dropdown-row">' +
-          '<label for="levelSelect">級別：</label>' +
-          '<select id="levelSelect" class="dropdown-select" disabled>' +
-            '<option value="">請先選主題</option>' +
-          '</select>' +
-          '<button id="enterBtn" class="dropdown-btn">選擇</button>' +
-        '</div>' +
-      '</div>';
+   list.innerHTML = `
+    <div class="dropdown-container">
+     <div class="dropdown-row">
+      <label for="topicSelect">主題：</label>
+      <select id="topicSelect" class="dropdown-select">
+       <option value="">請選擇主題</option>
+      </select>
+     </div>
+     <div class="dropdown-row">
+      <label for="levelSelect">級別：</label>
+      <select id="levelSelect" class="dropdown-select" disabled>
+       <option value="">請先選主題</option>
+      </select>
+      <button id="enterBtn" class="dropdown-btn">選擇</button>
+     </div>
+    </div>
+   `;
 
-    const topicSelect = document.getElementById('topicSelect');
-    const levelSelect = document.getElementById('levelSelect');
-    const enterBtn = document.getElementById('enterBtn');
+   const topicSelect = document.getElementById('topicSelect');
+   const levelSelect = document.getElementById('levelSelect');
+   const enterBtn = document.getElementById('enterBtn');
 
-    (CACHE.topics && CACHE.topics.topics || []).forEach(t => {
-      const opt = document.createElement('option');
-      opt.value = t.slug;
-      opt.textContent = t.title;
-      topicSelect.appendChild(opt);
+   (CACHE.topics?.topics||[]).forEach(t=>{
+    const opt=document.createElement('option');
+    opt.value=t.slug;
+    opt.textContent=t.title;
+    topicSelect.appendChild(opt);
 
-      t.levels.forEach((lv, idx) => {
-        const label = lv.label || '-' + (idx + 1);
-        main.insertAdjacentHTML(
-          'beforeend',
-          '<section id="' + t.slug + '_' + (idx + 1) + '_Page" class="page-section">' +
-            '<button class="back-button" data-page-target="homePage"><i class="fa-solid fa-arrow-left"></i>返回目錄</button>' +
-            '<h1>' + escapeHtml(t.title) + '（' + escapeHtml(label) + '）</h1>' +
-            '<div id="' + t.slug + '_' + (idx + 1) + '_Content"></div>' +
-          '</section>'
-        );
-      });
+    t.levels.forEach((lv, idx)=>{
+     const label = lv.label || `-${idx+1}`;
+     main.insertAdjacentHTML('beforeend', `
+      <section id="${t.slug}_${idx+1}_Page" class="page-section">
+       <button class="back-button" data-page-target="homePage"><i class="fa-solid fa-arrow-left"></i>返回目錄</button>
+       <h1>${escapeHtml(t.title)}（${escapeHtml(label)}）</h1>
+       <div id="${t.slug}_${idx+1}_Content"></div>
+      </section>
+     `);
     });
+   });
 
-    topicSelect.addEventListener('change', () => {
-      const slug = topicSelect.value;
-      levelSelect.innerHTML = '';
-      if (!slug){
-        levelSelect.disabled = true;
-        levelSelect.innerHTML = '<option value="">請先選主題</option>';
-        return;
-      }
-      const topic = (CACHE.topics && CACHE.topics.topics || []).find(t => t.slug === slug);
-      if (!topic) return;
-      topic.levels.forEach((lv, idx) => {
-        const opt = document.createElement('option');
-        opt.value = slug + '_' + (idx + 1) + '_Page';
-        opt.textContent = lv.label || ('Level ' + (idx + 1));
-        levelSelect.appendChild(opt);
-      });
-      levelSelect.disabled = false;
+   topicSelect.addEventListener('change',()=>{
+    const slug=topicSelect.value;
+    levelSelect.innerHTML='';
+    if(!slug){
+     levelSelect.disabled=true;
+     levelSelect.innerHTML='<option value="">請先選主題</option>';
+     return;
+    }
+    const topic=(CACHE.topics?.topics||[]).find(t=>t.slug===slug);
+    if(!topic){return;}
+    topic.levels.forEach((lv,idx)=>{
+     const opt=document.createElement('option');
+     opt.value=`${}_${idx+1}_Page`;
+     opt.textContent=lv.label || `Level ${idx+1}`;
+     levelSelect.appendChild(opt);
     });
+    levelSelect.disabled=false;
+   });
 
-    enterBtn.addEventListener('click', () => {
-      const val = levelSelect.value;
-      if (!val){
-        alert('請選擇級別');
-        return;
-      }
-      showPage(val);
-    });
+   enterBtn.addEventListener('click',()=>{
+    const val=levelSelect.value;
+    if(!val){alert('請選擇級別');return;}
+    showPage(val);
+   });
   }
 
-  function buildWordIndexFromAll(){
-    WORD_INDEX = {};
-    if (!CACHE.topics || !CACHE.topics.topics) return;
-    CACHE.topics.topics.forEach(t => {
-      t.levels.forEach((lv, idx) => {
-        const thisFolder = (lv.src || '')
-          .replace(/^data\//,'')
-          .replace(/\.json$/,'')
-          .replace(/^\//,'');
-        const thisPageId = t.slug + '_' + (idx + 1) + '_Page';
-        const items = (CACHE.data[lv.src] && CACHE.data[lv.src].items) || [];
-        items.forEach(w => {
-          const key = String(w.word || '').trim().toLowerCase();
-          if (!key) return;
-          if (!WORD_INDEX[key]) WORD_INDEX[key] = [];
-          WORD_INDEX[key].push({
-            slug: t.slug,
-            levelIndex: idx,
-            folder: thisFolder,
-            topicTitle: t.title,
-            levelLabel: lv.label,
-            pageId: thisPageId,
-            item: w
-          });
-        });
-      });
-    });
-  }
+  document.addEventListener('DOMContentLoaded', async ()=>{
+   initSearchBar();
+   try{
+    const resp = await fetchWithTimeout(TOPICS_URL);
+    if(!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    CACHE.topics = await resp.json();
+   }catch(e){
+    console.error(e);
+    document.getElementById('topicList').innerHTML = `<li class="topic-list-item" style="color:#b91c1c">讀取 topics.json 失敗（${escapeHtml(e.message)}）<button data-action="reload" style="margin-left:.5rem">重試</button></li>`;
+    return;
+   }
+   buildHomeAndSections();
 
-  document.addEventListener('DOMContentLoaded', async () => {
-    initSearchBar();
-    try{
-      const resp = await fetchWithTimeout(TOPICS_URL);
-      if (!resp.ok) throw new Error('HTTP ' + resp.status);
-      CACHE.topics = await resp.json();
-    }catch(e){
-      console.error(e);
-      const tl = document.getElementById('topicList');
-      if (tl){
-        tl.innerHTML =
-          '<li class="topic-list-item" style="color:#b91c1c">讀取 topics.json 失敗（' +
-          escapeHtml(e.message) +
-          '）<button data-action="reload" style="margin-left:.5rem">重試</button></li>';
-      }
-      return;
-    }
+   await Promise.allSettled(
+    (CACHE.topics.topics||[]).flatMap(t => t.levels.map(lv =>
+     fetchWithTimeout(lv.src).then(r=>r.ok?r.json():null).then(j=>{ if(j) CACHE.data[lv.src]=j; })
+    ))
+   );
+   buildWordIndexFromAll();
 
-    buildHomeAndSections();
+   document.querySelectorAll('.page-section').forEach(p=>p.classList.remove('active'));
+   document.getElementById('homePage').classList.add('active');
 
-    // 預先載入所有 level JSON 以建立搜尋索引
-    const allLevels = [];
-    (CACHE.topics.topics || []).forEach(t => {
-      t.levels.forEach(lv => {
-        allLevels.push(lv.src);
-      });
-    });
-
-    await Promise.allSettled(
-      allLevels.map(src =>
-        fetchWithTimeout(src)
-          .then(r => r.ok ? r.json() : null)
-          .then(j => { if (j) CACHE.data[src] = j; })
-      )
-    );
-    buildWordIndexFromAll();
-
-    // 回首頁
-    document.querySelectorAll('.page-section').forEach(p => p.classList.remove('active'));
-    const home = document.getElementById('homePage');
-    if (home) home.classList.add('active');
-
-    // back-to-top button
-    const backToTopBtn = document.getElementById('backToTop');
-    if (backToTopBtn){
-      backToTopBtn.addEventListener('click', () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      });
-      const toggleBackToTop = () => {
-        if (window.scrollY > 400) backToTopBtn.classList.add('visible');
-        else backToTopBtn.classList.remove('visible');
-      };
-      window.addEventListener('scroll', toggleBackToTop, { passive: true });
-      toggleBackToTop();
-    }
+   const backToTopBtn = document.getElementById('backToTop');
+   if(backToTopBtn){
+    backToTopBtn.addEventListener('click', () => { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+    const toggleBackToTop = () => {
+     if (window.scrollY > 400) backToTopBtn.classList.add('visible');
+     else backToTopBtn.classList.remove('visible');
+    };
+    window.addEventListener('scroll', toggleBackToTop, { passive:true });
+    toggleBackToTop();
+   }
   });
  </script>
 </body>
