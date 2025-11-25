@@ -902,14 +902,39 @@
    initTopicPage('myList_Content');
   }
 
-  function exportMyList(){
-   if(MY_LIST.length===0) { alert('列表是空的，無法匯出'); return; }
-   const json = JSON.stringify(MY_LIST);
-   const b64 = btoa(unescape(encodeURIComponent(json))); 
-   navigator.clipboard.writeText(b64).then(() => {
-    alert('✅ 代碼已複製到剪貼簿！\n請將此代碼傳送給其他人，他們點選「匯入」即可看到您的單字表。');
-   });
+function exportMyList(){
+  if (MY_LIST.length === 0) {
+    alert('列表為空');
+    return;
   }
+
+  // 1. 先轉成 JSON 字串
+  const json = JSON.stringify(MY_LIST);
+
+  // 2. 再轉成 Base64（處理 Unicode）
+  const base64 = btoa(
+    encodeURIComponent(json).replace(/%([0-9A-F]{2})/g, (_, p1) =>
+      String.fromCharCode('0x' + p1)
+    )
+  );
+
+  // 3. 優先嘗試直接複製到剪貼簿
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(base64)
+      .then(() => {
+        // 給一點回饋，前面只顯示一小段預覽
+        alert('已複製 64 位字串到剪貼簿：\n\n' + base64.slice(0, 80) + '...');
+      })
+      .catch(() => {
+        // 如果複製失敗，就用 prompt 讓使用者手動複製
+        window.prompt('請複製這段 64 位字串：', base64);
+      });
+  } else {
+    // 瀏覽器太舊：直接用 prompt
+    window.prompt('請複製這段 64 位字串：', base64);
+  }
+}
+
 
   function importMyList(){
    const code = prompt('請貼上匯入代碼：');
