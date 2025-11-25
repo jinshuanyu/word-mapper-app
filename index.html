@@ -591,8 +591,7 @@
     if (e.target.id === 'printListBtn'){ window.print(); return; }
     if (e.target.id === 'exportListBtn'){ exportMyList(); return; }
     if (e.target.id === 'importListBtn'){
-      const input = document.getElementById('importInput');
-      if (input) input.click();
+      importFromBase64();
       return;
     }
 
@@ -622,28 +621,7 @@
     }
   });
 
-  // Import JSON for My List
-  document.getElementById('importInput').addEventListener('change', (e) => {
-    const file = e.target.files && e.target.files[0];
-    if (!file) return;
-    const reader = new FileReader();
-    reader.onload = function(evt){
-      try{
-        const list = JSON.parse(evt.target.result);
-        if (Array.isArray(list)){
-          MY_LIST = list;
-          saveMyList();
-          showMyListPage();
-          alert('匯入成功！');
-        } else {
-          alert('檔案格式錯誤');
-        }
-      }catch(err){
-        alert('檔案格式錯誤');
-      }
-    };
-    reader.readAsText(file);
-  });
+  // （原本的 Import JSON listener 移除，改用 64 位字串匯入）
 
   // ======= Prefetch listeners for hover/touch =======
   function setupAudioPrefetchListeners(){
@@ -897,39 +875,66 @@
     initTopicPage('myList_Content');
   }
 
-function exportMyList(){
-  if (MY_LIST.length === 0) {
-    alert('列表為空');
-    return;
+  function exportMyList(){
+    if (MY_LIST.length === 0) {
+      alert('列表為空');
+      return;
+    }
+
+    // 1. 先轉成 JSON 字串
+    const json = JSON.stringify(MY_LIST);
+
+    // 2. 再轉成 Base64（處理 Unicode）
+    const base64 = btoa(
+      encodeURIComponent(json).replace(/%([0-9A-F]{2})/g, (_, p1) =>
+        String.fromCharCode('0x' + p1)
+      )
+    );
+
+    // 3. 優先嘗試直接複製到剪貼簿
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(base64)
+        .then(() => {
+          // 給一點回饋，前面只顯示一小段預覽
+          alert('已複製 64 位字串到剪貼簿：\n\n' + base64.slice(0, 80) + '...');
+        })
+        .catch(() => {
+          // 如果複製失敗，就用 prompt 讓使用者手動複製
+          window.prompt('請複製這段 64 位字串：', base64);
+        });
+    } else {
+      // 瀏覽器太舊：直接用 prompt
+      window.prompt('請複製這段 64 位字串：', base64);
+    }
   }
 
-  // 1. 先轉成 JSON 字串
-  const json = JSON.stringify(MY_LIST);
+  function importFromBase64(){
+    const input = window.prompt('請貼上 64 位字串：');
+    if (!input) return;
 
-  // 2. 再轉成 Base64（處理 Unicode）
-  const base64 = btoa(
-    encodeURIComponent(json).replace(/%([0-9A-F]{2})/g, (_, p1) =>
-      String.fromCharCode('0x' + p1)
-    )
-  );
+    try {
+      const b64 = input.trim();
+      const jsonStr = decodeURIComponent(
+        Array.prototype.map.call(atob(b64), c =>
+          '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2)
+        ).join('')
+      );
 
-  // 3. 優先嘗試直接複製到剪貼簿
-  if (navigator.clipboard && navigator.clipboard.writeText) {
-    navigator.clipboard.writeText(base64)
-      .then(() => {
-        // 給一點回饋，前面只顯示一小段預覽
-        alert('已複製 64 位字串到剪貼簿：\n\n' + base64.slice(0, 80) + '...');
-      })
-      .catch(() => {
-        // 如果複製失敗，就用 prompt 讓使用者手動複製
-        window.prompt('請複製這段 64 位字串：', base64);
-      });
-  } else {
-    // 瀏覽器太舊：直接用 prompt
-    window.prompt('請複製這段 64 位字串：', base64);
+      const list = JSON.parse(jsonStr);
+      if (!Array.isArray(list)) {
+        alert('資料格式錯誤：解析後不是陣列。');
+        return;
+      }
+
+      MY_LIST = list;
+      saveMyList();
+      showMyListPage();
+      alert('匯入成功！共 ' + MY_LIST.length + ' 個單字。');
+    } catch (e) {
+      console.error(e);
+      alert('64 位字串格式錯誤，無法解析。');
+    }
   }
-}
-
 
   function initSearchBar(){
     const inp = document.getElementById('globalSearchInput');
