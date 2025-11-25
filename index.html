@@ -1,1200 +1,935 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, user-scalable=no"/>
-  <title>英文拼字 × 聲音對照</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Noto+Sans:wght@400;700&family=Noto+Sans+TC:wght@400;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, user-scalable=no"/>
+ <title>英文拼字 × 聲音對照</title>
+ <link rel="preconnect" href="https://fonts.googleapis.com" />
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+ <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Noto+Sans:wght@400;700&family=Noto+Sans+TC:wght@400;700;800&display=swap" rel="stylesheet" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-  <style>
-    :root{ --c-primary:#887ea6; --c-secondary:#10b981; --c-text:#1f2937; --c-bg:#f8fafc; --c-border:#e2e8f0; }
+ <style>
+  :root{ --c-primary:#887ea6; --c-secondary:#10b981; --c-text:#1f2937; --c-bg:#f8fafc; --c-border:#e2e8f0; }
 
-    /* tag 類別色 */
-    .tag-irregular{background:#fee2e2;border-color:#ef4444;color:#991b1b;}
-    .tag-cvc{ background:#fff; color:#065f46; border-color:#065f46; }
-    .tag-closed{background:#d1fae5;border-color:#10b981;color:#065f46;}
-    .tag-floss{background:#ffe4e6;border-color:#fb7185;color:#9f1239;}
-    .tag-digraph{background:#e0f2fe;border-color:#38bdf8;color:#075985;}
-    .tag-cluster{background:#ede9fe;border-color:#8b5cf6;color:#4c1d95;}
-    .tag-suffix{background:#ccfbf1;border-color:#14b8a6;color:#0f766e;}
-    .tag-rcontrolled{background:#e9d5ff;border-color:#a855f7;color:#581c87;}
-    .tag-open{background:#dcfce7;border-color:#22c55e;color:#14532d;}
-    .tag-cle{background:#f5f5f4;border-color:#a8a29e;color:#3f3f46;}
-    .tag-magic_e{background:#dbeafe;border-color:#3b82f6;color:#1e40af;}
-    .tag-vowel_team{background:#ffedd5;border-color:#f97316;color:#9a3412;}
-    .tag-silent_consonant{background:#f1f5f9;border-color:#94a3b8;color:#334155;}
-    .tag-vowel{
-      background:#ffffff;
-      border-color:#dc2626;
-      color:#dc2626;
-    }
-    .tag-consonant{
-      background:#ffffff;
-      border-color:#2563eb;
-      color:#2563eb;
-    }
+  /* tag 類別色 */
+  .tag-irregular{background:#fee2e2;border-color:#ef4444;color:#991b1b;}
+  .tag-cvc{ background:#fff; color:#065f46; border-color:#065f46; }
+  .tag-closed{background:#d1fae5;border-color:#10b981;color:#065f46;}
+  .tag-floss{background:#ffe4e6;border-color:#fb7185;color:#9f1239;}
+  .tag-digraph{background:#e0f2fe;border-color:#38bdf8;color:#075985;}
+  .tag-cluster{background:#ede9fe;border-color:#8b5cf6;color:#4c1d95;}
+  .tag-suffix{background:#ccfbf1;border-color:#14b8a6;color:#0f766e;}
+  .tag-rcontrolled{background:#e9d5ff;border-color:#a855f7;color:#581c87;}
+  .tag-open{background:#dcfce7;border-color:#22c55e;color:#14532d;}
+  .tag-cle{background:#f5f5f4;border-color:#a8a29e;color:#3f3f46;}
+  .tag-magic_e{background:#dbeafe;border-color:#3b82f6;color:#1e40af;}
+  .tag-vowel_team{background:#ffedd5;border-color:#f97316;color:#9a3412;}
+  .tag-silent_consonant{background:#f1f5f9;border-color:#94a3b8;color:#334155;}
+  .tag-vowel{background:#ffffff;border-color:#dc2626;color:#dc2626;}
+  .tag-consonant{background:#ffffff;border-color:#2563eb;color:#2563eb;}
 
-    *{box-sizing:border-box}
-    html,body{margin:0;padding:0;overflow-x:hidden}
-    body{font-family:"Inter",system-ui,-apple-system,"Noto Sans TC",sans-serif;background:var(--c-bg);color:var(--c-text);padding:1rem 0;line-height:1.6;font-size:18px}
-    .container{max-width:1200px;margin:0 auto;padding:1.5rem 1rem;background:#fff;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,.05);min-height:90vh}
-    h1{font-family:'Noto Sans TC',sans-serif;font-size:2rem;font-weight:800;color:#0f172a;text-align:center;margin-bottom:2rem}
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;overflow-x:hidden}
+  body{font-family:"Inter",system-ui,-apple-system,"Noto Sans TC",sans-serif;background:var(--c-bg);color:var(--c-text);padding:1rem 0;line-height:1.6;font-size:18px}
+  .container{max-width:1200px;margin:0 auto;padding:1.5rem 1rem;background:#fff;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,.05);min-height:90vh}
+  h1{font-family:'Noto Sans TC',sans-serif;font-size:2rem;font-weight:800;color:#0f172a;text-align:center;margin-bottom:2rem}
 
-    /* Page switch */
-    .page-section{display:none;min-height:50vh}
-    .page-section.active{display:block}
-    #homePage{flex-direction:column;align-items:center;justify-content:flex-start}
-    #homePage.active{display:flex}
-    #homePage:not(.active){display:none!important}
+  /* Page switch */
+  .page-section{display:none;min-height:50vh}
+  .page-section.active{display:block}
+  #homePage{flex-direction:column;align-items:center;justify-content:flex-start}
+  #homePage.active{display:flex}
+  #homePage:not(.active){display:none!important}
 
-    /* 首頁四步驟橫向條 */
-    .home-progress-bar{display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem;margin:.5rem 0 1.8rem;padding:0 .5rem;}
-    .home-step{flex:1;text-align:center;}
-    .home-step-label{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:.1rem;font-size:1.2rem;font-weight:700;line-height:1.1;}
-    .home-step-top{color:var(--c-primary);}
-    .home-step-bottom{color:#111827;}
-    .home-step-line{flex:0 0 2.5rem;height:2px;background:#e5e7eb;align-self:center;position:relative;}
-    .home-step-line::after{content:"";position:absolute;right:0;top:50%;transform:translateY(-50%);border-width:6px 0 6px 10px;border-style:solid;border-color:transparent transparent transparent #e5e7eb;}
+  /* 首頁四步驟 */
+  .home-progress-bar{display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem;margin:.5rem 0 1.8rem;padding:0 .5rem;}
+  .home-step{flex:1;text-align:center;}
+  .home-step-label{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:.1rem;font-size:1.2rem;font-weight:700;line-height:1.1;}
+  .home-step-top{color:var(--c-primary);}
+  .home-step-bottom{color:#111827;}
+  .home-step-line{flex:0 0 2.5rem;height:2px;background:#e5e7eb;align-self:center;position:relative;}
+  .home-step-line::after{content:"";position:absolute;right:0;top:50%;transform:translateY(-50%);border-width:6px 0 6px 10px;border-style:solid;border-color:transparent transparent transparent #e5e7eb;}
 
-    @media (max-width:640px){
-      .home-progress-bar{gap:.5rem;padding:0 .25rem;}
-      .home-step-label{font-size:1.1rem;}
-      .home-step-line{flex-basis:2rem;}
-    }
+  @media (max-width:640px){
+   .home-progress-bar{gap:.5rem;padding:0 .25rem;}
+   .home-step-label{font-size:1.1rem;}
+   .home-step-line{flex-basis:2rem;}
+  }
 
-    /* --- 選單置中 --- */
-    #topicList {list-style:none;margin:0;padding:0;width:100%;}
+   /* 選單置中 */
+ #topicList {list-style:none;margin:0;padding:0;width:100%;}
+  
+ .dropdown-container {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+  gap:.9rem;
+  margin-bottom:2.5rem;
+  font-size:1rem;
+  width:100%;
+ }
+  
+ .dropdown-row {
+  display:flex;
+  flex-wrap:nowrap;
+  align-items:center;
+  justify-content:center;
+  gap:.6rem;
+ }
 
-    .dropdown-container {
-      display:flex;
-      flex-direction:column;
-      align-items:center;
-      text-align:center;
-      gap:.9rem;
-      margin-bottom:2.5rem;
-      font-size:1rem;
-      width:100%;
-    }
-    .dropdown-row {
-      display:flex;
-      flex-wrap:nowrap;
-      align-items:center;
-      justify-content:center;
-      gap:.6rem;
-    }
-    .dropdown-row label {
-      font-size: 1.1rem;
-      font-weight: 700;
-      color: #334155;
-    }
-    .dropdown-select {
-      min-width:160px;
-      padding:.7rem 1rem;
-      border:2px solid #cbd5e1;
-      border-radius:12px;
-      font-size:1.1rem;
-      font-weight:600;
-      background:#f8fafc;
-      transition:all .2s;
-    }
-    .dropdown-select:focus { outline:none; border-color:var(--c-primary); box-shadow:0 0 0 3px rgba(124,58,237,0.15); }
-    .dropdown-btn {
-      background:#9b94b0;color:#fff;border:none;border-radius:12px;padding:.5rem 1.2rem;font-size:1.1rem;font-weight:700;cursor:pointer;transition:background .2s, transform .1s;
-    }
-    .dropdown-btn:hover { background:#887ea6; transform:translateY(-2px); }
-    .dropdown-btn:active { transform:translateY(0); }
+ .dropdown-row label {
+  font-size: 1.1rem; 
+  font-weight: 700;  
+  color: #334155;   
+ }
 
-    @media (max-width:640px){
-      .dropdown-select{min-width:140px;padding:.6rem .9rem;font-size:.95rem;}
-    }
+ .dropdown-select {
+  min-width:160px;
+  padding:.7rem 1rem;
+  border:2px solid #cbd5e1;
+  border-radius:12px;
+  font-size:1.1rem;
+  font-weight:600;
+  background:#f8fafc;
+  transition:all .2s;
+ }
+ .dropdown-select:focus { outline:none; border-color:var(--c-primary); box-shadow:0 0 0 3px rgba(124,58,237,0.15); }
+  
+ .dropdown-btn {
+  background:#9b94b0;
+  color:#fff;
+  border:none;
+  border-radius:12px;
+  padding:.5rem 1.2rem; 
+  font-size:1.1rem;
+  font-weight:700;
+  cursor:pointer;
+  transition:background .2s, transform .1s;
+ }
+ .dropdown-btn:hover { background:#887ea6; transform:translateY(-2px); }
+ .dropdown-btn:active { transform:translateY(0); }
+ @media (max-width:640px){ .dropdown-select{min-width:140px;padding:.6rem .9rem;font-size:.95rem;} }
+ 
+  /* My List Button on Home */
+  .my-list-btn-home {
+   background: #fff; border: 2px solid #fbbf24; color: #b45309;
+   font-weight: 700; font-size: 1.1rem;  padding: .7rem 2rem; border-radius: 99px;
+   margin-top: 1rem; cursor: pointer; display: inline-flex; align-items: center; gap: .5rem;
+   transition: all .2s; box-shadow: 0 4px 6px rgba(251,191,36,0.15);
+  }
+  .my-list-btn-home:hover { background: #fffbeb; transform: translateY(-2px); box-shadow: 0 6px 12px rgba(251,191,36,0.25); }
 
-    /* Legend / tags */
-    .legend{display:flex;flex-wrap:wrap;gap:.5rem;padding:0 .25rem .25rem;margin:0 0 1.25rem 0;list-style:none;}
-    .legend .legend-item{display:inline-flex;flex:0 0 auto;padding:.3rem .75rem;border-radius:999px;font-size:.9rem;font-weight:700;border:2px solid;white-space:nowrap;cursor:pointer;user-select:none;transition:transform .1s ease,opacity .2s ease}
-    .legend .legend-item:hover{transform:scale(1.05)}
-    .legend .legend-item.selected{outline:3px solid rgba(14,165,233,.25)}
-    .tag-all{background:#e5e7eb;border-color:#94a3b8;color:#334155}
-    .category-tag{padding:.3rem .75rem;border-radius:999px;font-size:.9rem;font-weight:700;border:2px solid;white-space:nowrap;user-select:none}
+  /* Legend / tags */
+  .legend{display:flex;flex-wrap:wrap;gap:.5rem;padding:0 .25rem .25rem;margin:0 0 1.25rem 0;list-style:none;}
+  .legend .legend-item{display:inline-flex;flex:0 0 auto;padding:.3rem .75rem;border-radius:999px;font-size:.9rem;font-weight:700;border:2px solid;white-space:nowrap;cursor:pointer;user-select:none;transition:transform .1s ease,opacity .2s ease}
+  .legend .legend-item:hover{transform:scale(1.05)}
+  .legend .legend-item.selected{outline:3px solid rgba(14,165,233,.25)}
+  .tag-all{background:#e5e7eb;border-color:#94a3b8;color:#334155}
+  .category-tag{padding:.3rem .75rem;border-radius:999px;font-size:.9rem;font-weight:700;border:2px solid;white-space:nowrap;user-select:none}
 
-    /* Filter */
-    .filter-bar{display:flex;align-items:center;justify-content:space-between;gap:.75rem;margin:.25rem 0 0.5rem;}
-    .filter-toggle{display:inline-flex;align-items:center;gap:.5rem;padding:.55rem .9rem;border-radius:10px;border:2px solid var(--c-border);background:#f8fafc;font-weight:800;cursor:pointer;transition:transform .1s ease, box-shadow .2s ease, border-color .2s ease;}
-    .filter-toggle:hover{transform:translateY(-1px);box-shadow:0 6px 14px rgba(2,6,23,.08);border-color:#cbd5e1}
-    .filter-state{font-size:.9rem;opacity:.7}
-    .filter-panel{display:none;border:2px dashed #e2e8f0;border-radius:12px;padding:.6rem .6rem .4rem;margin:.4rem 0 1rem;background:#fbfbfd;}
-    .filter-panel.open{display:block}
+  /* Filter */
+  .filter-bar{display:flex;align-items:center;justify-content:space-between;gap:.75rem;margin:.25rem 0 0.5rem;}
+  .filter-toggle{display:inline-flex;align-items:center;gap:.5rem;padding:.55rem .9rem;border-radius:10px;border:2px solid var(--c-border);background:#f8fafc;font-weight:800;cursor:pointer;transition:transform .1s ease, box-shadow .2s ease, border-color .2s ease;}
+  .filter-toggle:hover{transform:translateY(-1px);box-shadow:0 6px 14px rgba(2,6,23,.08);border-color:#cbd5e1}
+  .filter-state{font-size:.9rem;opacity:.7}
+  .filter-panel{display:none;border:2px dashed #e2e8f0;border-radius:12px;padding:.6rem .6rem .4rem;margin:.4rem 0 1rem;background:#fbfbfd;}
+  .filter-panel.open{display:block}
 
-    .topic-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.25rem}
-    .word-card{border:2px solid #cbd5e1;border-radius:12px;background:#fff;box-shadow:0 4px 6px rgba(0,0,0,.03);overflow:hidden;transition:transform .2s,box-shadow .2s; position: relative;}
-    .word-card.hidden{display:none}
-    .word-card:hover{transform:translateY(-5px);box-shadow:0 8px 15px rgba(0,0,0,.07)}
+  .topic-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.25rem}
+  .word-card{border:2px solid #cbd5e1;border-radius:12px;background:#fff;box-shadow:0 4px 6px rgba(0,0,0,.03);overflow:hidden;transition:transform .2s,box-shadow .2s; position: relative;}
+  .word-card.hidden{display:none}
+  .word-card:hover{transform:translateY(-5px);box-shadow:0 8px 15px rgba(0,0,0,.07)}
 
-    /* STAR BUTTON */
-    .star-btn {
-      position: absolute; top: 10px; right: 10px;
-      background: none; border: none; font-size: 1.8rem; cursor: pointer;
-      color: #e2e8f0; transition: color .2s, transform .1s; z-index: 10;
-      line-height: 1; padding: 0;
-    }
-    .star-btn:hover { transform: scale(1.1); }
-    .star-btn.active { color: #fbbf24; text-shadow: 0 2px 4px rgba(251,191,36,0.3); }
+  /* STAR BUTTON */
+  .star-btn {
+   position: absolute; top: 10px; right: 10px;
+   background: none; border: none; font-size: 1.8rem; cursor: pointer;
+   color: #e2e8f0; transition: color .2s, transform .1s; z-index: 10;
+   line-height: 1; padding: 0;
+  }
+  .star-btn:hover { transform: scale(1.1); }
+  .star-btn.active { color: #fbbf24; text-shadow: 0 2px 4px rgba(251,191,36,0.3); }
 
-    .card-header{display:flex;justify-content:space-between;align-items:center;padding:1rem 1.25rem;background:#f1f5f9;border-bottom:2px solid #e2e8f0; padding-right: 3rem;}
-    .card-title{display:flex;align-items:baseline;gap:.6rem}
-    .word-number{font-size:1.15rem;font-weight:700;color:#475569}
-    .word-text{font-size:1.9rem;font-weight:800;color:#0f172a}
-    
-    .source-link-btn {
-      display: block;
-      margin-top: 0px;
-      font-size: 0.8rem;
-      color: #3b82f6;
-      background: none;
-      border: none;
-      padding: 0;
-      cursor: pointer;
-      text-decoration: underline;
-      text-align: left;
-      font-weight: 600;
-    }
-    .source-link-btn:hover { color: #1d4ed8; }
+  .card-header{display:flex;justify-content:space-between;align-items:center;padding:1rem 1.25rem;background:#f1f5f9;border-bottom:2px solid #e2e8f0; padding-right: 3rem;} /* padding-right for star */
+  .card-title{display:flex;align-items:baseline;gap:.6rem}
+  .word-number{font-size:1.15rem;font-weight:700;color:#475569}
+  .word-text{font-size:1.9rem;font-weight:800;color:#0f172a}
+   
+  .source-link-btn {
+   display: block; margin-top: 0px; font-size: 0.8rem; color: #3b82f6;
+   background: none; border: none; padding: 0; cursor: pointer;
+   text-decoration: underline; text-align: left; font-weight: 600;
+  }
+  .source-link-btn:hover { color: #1d4ed8; }
 
-    .audio-button{font-size:2rem;cursor:pointer;background:none;border:none;padding:0;line-height:1;transition:transform .1s}
-    .audio-button:hover{transform:scale(1.1)}
-    .audio-button:active{transform:scale(0.95)}
+  .audio-button{font-size:2rem;cursor:pointer;background:none;border:none;padding:0;line-height:1;transition:transform .1s}
+  .audio-button:hover{transform:scale(1.1)}
+  .audio-button:active{transform:scale(0.95)}
 
-    .card-body{padding:1.1rem; display:flex; flex-direction:column; align-items:center;}
-    .badges{display:flex;gap:.5rem;flex-wrap:nowrap;overflow:auto;white-space:nowrap;padding-bottom:.25rem;margin-bottom:.25rem;-webkit-overflow-scrolling:touch}
-    .badges .category-tag{flex:0 0 auto}
+  .card-body{padding:1.1rem; display:flex; flex-direction:column; align-items:center;}
+  .badges{display:flex;gap:.5rem;flex-wrap:nowrap;overflow:auto;white-space:nowrap;padding-bottom:.25rem;margin-bottom:.25rem;-webkit-overflow-scrolling:touch}
+  .badges .category-tag{flex:0 0 auto}
 
-    .boxes-grid{display:grid;grid-auto-rows:auto;border:2px solid #94a3b8;border-radius:8px;overflow:auto;grid-auto-columns:max-content;justify-content:start;align-content:start;width:max-content;max-width:100%;}
-    .box{display:flex;align-items:center;justify-content:center;min-height:56px;padding:.35rem .5rem;text-align:center;font-size:1.6rem;font-weight:700;border-right:2px solid #cbd5e1;}
-    .box:last-child{border-right:none}
-    .grapheme-box{background:#f1f5f9;color:#1e293b;position:relative;font-family:'Inter','Noto Sans TC',sans-serif;border-bottom:2px solid #cbd5e1;grid-row:1}
+  .boxes-grid{display:grid;grid-auto-rows:auto;border:2px solid #94a3b8;border-radius:8px;overflow:auto;grid-auto-columns:max-content;justify-content:start;align-content:start;width:max-content;max-width:100%;}
+  .box{display:flex;align-items:center;justify-content:center;min-height:56px;padding:.35rem .5rem;text-align:center;font-size:1.6rem;font-weight:700;border-right:2px solid #cbd5e1;}
+  .box:last-child{border-right:none}
+  .grapheme-box{background:#f1f5f9;color:#1e293b;position:relative;font-family:'Inter','Noto Sans TC',sans-serif;border-bottom:2px solid #cbd5e1;grid-row:1}
 
-    .phoneme-box{background:#fff;font-family:'Noto Sans','Noto Sans TC',sans-serif !important;font-size:1.6rem !important;font-weight:400 !important;color:#0f172a;grid-row:2;transition:.2s;cursor:pointer;user-select:none;line-height:1.4;position:relative;}
-    .phoneme-box:hover{background:#f0f9ff;transform:none}
-    .phoneme-box:active{background:#dbeafe}
+  .phoneme-box{background:#fff;font-family:'Noto Sans','Noto Sans TC',sans-serif !important;font-size:1.6rem !important;font-weight:400 !important;color:#0f172a;grid-row:2;transition:.2s;cursor:pointer;user-select:none;line-height:1.4;position:relative;}
+  .phoneme-box:hover{background:#f0f9ff;transform:none}
+  .phoneme-box:active{background:#dbeafe}
 
-    .heart-symbol{position:absolute;bottom:-2px;left:0;right:0;text-align:center;color:#ef4444;font-size:1rem;line-height:1}
-    
-    .toggle-container{display:flex;justify-content:center;align-items:center;gap:1rem;margin:.2rem 0 .6rem;font-weight:700;color:#334155;user-select:none;font-size:1rem}
-    .attribution-note{text-align:center;font-size:.85rem;color:#64748b;margin-top:0;margin-bottom:1.1rem;line-height:1.5}
-    .attribution-note a{color:#3b82f6;text-decoration:underline}
-    .attribution-note a:hover{color:#1d4ed8}
-    .toggle-label-ipa,.toggle-label-phonics{color:#64748b;transition:color .2s}
-    input:checked ~ .toggle-label-phonics{color:#0f172a}
-    input:not(:checked) ~ .toggle-label-ipa{color:#0f172a}
-    .switch{position:relative;display:inline-block;width:60px;height:34px;visibility:hidden}
-    .switch input{opacity:0;width:0;height:0}
-    .slider{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background:#cbd5e1;transition:.4s;border-radius:34px;visibility:visible}
-    .slider:before{position:absolute;content:"";height:26px;width:26px;left:4px;bottom:4px;background:white;transition:.4s;border-radius:50%}
-    input:checked + .slider{background:#3b82f6}
-    input:checked + .slider:before{transform:translateX(26px)}
+  .heart-symbol{position:absolute;bottom:-2px;left:0;right:0;text-align:center;color:#ef4444;font-size:1rem;line-height:1}
+   
+  .toggle-container{display:flex;justify-content:center;align-items:center;gap:1rem;margin:.2rem 0 .6rem;font-weight:700;color:#334155;user-select:none;font-size:1rem}
+  .attribution-note{text-align:center;font-size:.85rem;color:#64748b;margin-top:0;margin-bottom:1.1rem;line-height:1.5}
+  .attribution-note a{color:#3b82f6;text-decoration:underline}
+  .attribution-note a:hover{color:#1d4ed8}
+  .toggle-label-ipa,.toggle-label-phonics{color:#64748b;transition:color .2s}
+  input:checked ~ .toggle-label-phonics{color:#0f172a}
+  input:not(:checked) ~ .toggle-label-ipa{color:#0f172a}
+  .switch{position:relative;display:inline-block;width:60px;height:34px;visibility:hidden}
+  .switch input{opacity:0;width:0;height:0}
+  .slider{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background:#cbd5e1;transition:.4s;border-radius:34px;visibility:visible}
+  .slider:before{position:absolute;content:"";height:26px;width:26px;left:4px;bottom:4px;background:white;transition:.4s;border-radius:50%}
+  input:checked + .slider{background:#3b82f6}
+  input:checked + .slider:before{transform:translateX(26px)}
 
-    .credits{margin-top:3rem;padding-top:1.2rem;border-top:2px solid var(--c-border);text-align:center;font-size:.875rem;color:#475569;line-height:1.6}
-    .credits a{color:#64748b;margin:0 .5rem;transition:color .2s;text-decoration:none}
-    .credits a:hover{color:#3b82f6}
+  .credits{margin-top:3rem;padding-top:1.2rem;border-top:2px solid var(--c-border);text-align:center;font-size:.875rem;color:#475569;line-height:1.6}
+  .credits a{color:#64748b;margin:0 .5rem;transition:color .2s;text-decoration:none}
+  .credits a:hover{color:#3b82f6}
 
-    .searchbar{display:flex;gap:.5rem;align-items:center;justify-content:center;margin:-.3rem auto 1rem;max-width:700px}
-    .searchbar input{width:200px;padding:10px 12px;border:2px solid var(--c-border);border-radius:10px;font-size:1rem}
-    .searchbar button{background:#e1effa;color:#0f172a;border:none;border-radius:10px;padding: 8px 20px; font-size: 1.05rem; font-weight:700;cursor:pointer}
-    .searchbar button:hover{opacity:.9}
-    .search-msg{margin:.25rem 0 1rem;text-align:center;font-size:.9rem;color:#64748b}
+  .searchbar{display:flex;gap:.5rem;align-items:center;justify-content:center;margin:-.3rem auto 1rem;max-width:700px}
+  .searchbar input{width:200px;padding:10px 12px;border:2px solid var(--c-border);border-radius:10px;font-size:1rem}
+  .searchbar button{background:#e1effa;color:#0f172a;border:none;border-radius:10px;padding: 8px 20px; font-size: 1.05rem; font-weight:700;cursor:pointer}
+  .searchbar button:hover{opacity:.9}
+  .search-msg{margin:.25rem 0 1rem;text-align:center;font-size:.9rem;color:#64748b}
 
-    .word-card.search-hit{outline:3px solid #7c3aed;box-shadow:0 0 0 4px rgba(124,58,237,.15);animation:hitflash 1.6s ease}
-    @keyframes hitflash{0%{background:#faf5ff}100%{background:#fff}}
+  .word-card.search-hit{outline:3px solid #7c3aed;box-shadow:0 0 0 4px rgba(124,58,237,.15);animation:hitflash 1.6s ease}
+  @keyframes hitflash{0%{background:#faf5ff}100%{background:#fff}}
 
-    @media (max-width:768px){
-      .container{padding:1rem .5rem}
-      h1{font-size:1.6rem}
-      .topic-grid{grid-template-columns:1fr}
-      .word-text{font-size:1.7rem}
-      .box{font-size:1.5rem;min-height:52px}
-      .phoneme-box{font-size:1.5rem !important;font-weight:400 !important;font-family:'Noto Sans','Noto Sans TC',sans-serif !important;}
-      .phoneme-box.is-phonics{font-size:1.5rem !important;font-weight:400 !important;font-family:'Noto Sans','Noto Sans TC',sans-serif !important;}
-      .attribution-note{font-size:.75rem}
-      .back-button{margin-bottom:1rem;font-size: 1.1rem; padding:10px 16px}
-    }
+  /* My List Actions */
+  .mylist-actions {
+   display: flex; gap: 10px; justify-content: center; margin-bottom: 1.5rem; flex-wrap: wrap;
+  }
+  .action-btn {
+   background: #fff; border: 1px solid #cbd5e1; padding: .5rem 1rem; border-radius: 8px;
+   font-size: 0.9rem; cursor: pointer; display: inline-flex; align-items: center; gap: 6px;
+   color: #475569; font-weight: 600;
+  }
+  .action-btn:hover { background: #f1f5f9; color: #1e293b; }
+  .print-btn { border-color: #94a3b8; background: #f8fafc; }
 
-    .box.phoneme-box span.phoneme-vowel { color:#dc2626 !important; font-family: inherit !important; font-size: inherit !important; font-weight: inherit !important; }
-    .box.phoneme-box span.phoneme-consonant { color:#2563eb !important; font-family: inherit !important; font-size: inherit !important; font-weight: inherit !important; }
+  @media (max-width:768px){
+   .container{padding:1rem .5rem}
+   h1{font-size:1.6rem}
+   .topic-grid{grid-template-columns:1fr}
+   .word-text{font-size:1.7rem}
+   .box{font-size:1.5rem;min-height:52px}
+   .phoneme-box{font-size:1.5rem !important;font-weight:400 !important;font-family:'Noto Sans','Noto Sans TC',sans-serif !important;}
+   .phoneme-box.is-phonics{font-size:1.5rem !important;font-weight:400 !important;font-family:'Noto Sans','Noto Sans TC',sans-serif !important;}
+   .attribution-note{font-size:.75rem}
+   .back-button{margin-bottom:1rem;font-size: 1.1rem; padding:10px 16px}
+  }
 
-    .phoneme-box.loading-audio::after { content: '⏳'; position: absolute; top: 2px; right: 2px; font-size: 0.8rem; opacity: 0.5; }
-    #levelSelect { min-width: 160px; }
-    .back-button{ font-size: 1.1rem; padding: 10px 16px; }
-    .badges{ flex-wrap: wrap !important; white-space: normal !important; overflow: visible !important; }
-    .badges .category-tag{ white-space: nowrap !important; }
+  .box.phoneme-box span.phoneme-vowel { color:#dc2626 !important; font-family: inherit !important; font-size: inherit !important; font-weight: inherit !important; }
+  .box.phoneme-box span.phoneme-consonant { color:#2563eb !important; font-family: inherit !important; font-size: inherit !important; font-weight: inherit !important; }
 
-    .support-btn{display:inline-block;background: linear-gradient(90deg, #D9DDF0, #BFCBE6);color:#ffffff;font-weight:600;font-size:0.95rem;padding:.55rem 1.2rem;border-radius:9999px;box-shadow:0 6px 14px rgba(0,0,0,.08);text-decoration:none;transition:transform .15s ease, box-shadow .2s ease, background .2s ease;}
-    .support-btn:hover{background: linear-gradient(90deg, #CCD2EC, #B1BFE1);}
-    .support-btn:focus{outline:3px solid rgba(160, 175, 215, .45);outline-offset:2px;}
+  .phoneme-box.loading-audio::after { content: '⏳'; position: absolute; top: 2px; right: 2px; font-size: 0.8rem; opacity: 0.5; }
+  #levelSelect { min-width: 160px; }
+  .back-button{ font-size: 1.1rem; padding: 10px 16px; }
+  .badges{ flex-wrap: wrap !important; white-space: normal !important; overflow: visible !important; }
+  .badges .category-tag{ white-space: nowrap !important; }
 
-    .back-to-top{position:fixed;right:1.4rem;bottom:3rem;z-index:50;padding:.7rem 1.05rem;border-radius:999px;border:none;background:#887ea6;color:#fff;font-size:1.1rem;font-weight:700;cursor:pointer;box-shadow:0 6px 14px rgba(15,23,42,.18);opacity:0;pointer-events:none;transform:translateY(6px);transition:opacity .2s ease, transform .15s ease, box-shadow .2s ease, background .2s ease;}
-    .back-to-top.visible{opacity:1;pointer-events:auto;transform:translateY(0);}
-    .back-to-top:hover{background:#6f668f;box-shadow:0 10px 20px rgba(15,23,42,.22);}
-    .back-to-top:focus{outline:3px solid rgba(136,126,166,.45);outline-offset:2px;}
-    @media (max-width:768px){ .back-to-top{right:1rem;bottom:3rem;font-size:1.05rem;padding:.6rem .9rem;} }
-    @media (max-width:640px){ .support-btn{font-size:0.85rem;padding:.45rem 1rem;} }
+  .support-btn{display:inline-block;background: linear-gradient(90deg, #D9DDF0, #BFCBE6);color:#ffffff;font-weight:600;font-size:1rem;padding:.7rem 1.2rem;border-radius:9999px;box-shadow:0 6px 14px rgba(0,0,0,.08);text-decoration:none;transition:transform .15s ease, box-shadow .2s ease, background .2s ease;}
+  .support-btn:hover{background: linear-gradient(90deg, #CCD2EC, #B1BFE1);}
+  .support-btn:focus{outline:3px solid rgba(160, 175, 215, .45);outline-offset:2px;}
 
-    /* My List Button on Home */
-    .my-list-btn-home {
-      background: #fff; border: 2px solid #fbbf24; color: #b45309;
-      font-weight: 700; font-size: 1.1rem;   padding: .7rem 2rem; border-radius: 99px;
-      margin-top: 1rem; cursor: pointer; display: inline-flex; align-items: center; gap: .5rem;
-      transition: all .2s; box-shadow: 0 4px 6px rgba(251,191,36,0.15);
-    }
-    .my-list-btn-home:hover { background: #fffbeb; transform: translateY(-2px); box-shadow: 0 6px 12px rgba(251,191,36,0.25); }
+  .back-to-top{position:fixed;right:1.4rem;bottom:3rem;z-index:50;padding:.7rem 1.05rem;border-radius:999px;border:none;background:#887ea6;color:#fff;font-size:1.1rem;font-weight:700;cursor:pointer;box-shadow:0 6px 14px rgba(15,23,42,.18);opacity:0;pointer-events:none;transform:translateY(6px);transition:opacity .2s ease, transform .15s ease, box-shadow .2s ease, background .2s ease;}
+  .back-to-top.visible{opacity:1;pointer-events:auto;transform:translateY(0);}
+  .back-to-top:hover{background:#6f668f;box-shadow:0 10px 20px rgba(15,23,42,.22);}
+  .back-to-top:focus{outline:3px solid rgba(136,126,166,.45);outline-offset:2px;}
+  @media (max-width:768px){ .back-to-top{right:1rem;bottom:3rem;font-size:1.05rem;padding:.6rem .9rem;} }
+  @media (max-width:640px){ .support-btn{font-size:0.85rem;padding:.45rem 1rem;} }
 
-    /* My List Actions */
-    .mylist-actions {
-      display: flex; gap: 10px; justify-content: center; margin-bottom: 1.5rem; flex-wrap: wrap;
-    }
-    .action-btn {
-      background: #fff; border: 1px solid #cbd5e1; padding: .5rem 1rem; border-radius: 8px;
-      font-size: 0.9rem; cursor: pointer; display: inline-flex; align-items: center; gap: 6px;
-      color: #475569; font-weight: 600;
-    }
-    .action-btn:hover { background: #f1f5f9; color: #1e293b; }
-    .print-btn { border-color: #94a3b8; background: #f8fafc; }
-
-    /* Print Styles */
-    @media print {
-      html, body {
-        height: auto !important;
-        min-height: 0 !important;
-        margin: 0 !important;
-        padding: 0 !important;
-        overflow: visible !important;
-        background: #fff !important;
-        font-size: 12pt;
-      }
-
-      .container {
-        box-shadow: none !important;
-        max-width: 100% !important;
-        width: 100% !important;
-        padding: 0 !important;
-        margin: 0 !important;
-        min-height: 0 !important;
-        border: none !important;
-      }
-
-      .back-button, .searchbar, .home-progress-bar,
-      .dropdown-container, .filter-bar, .filter-panel,
-      .toggle-container, .attribution-note, .credits,
-      .support-cta, .audio-button, .back-to-top,
-      .star-btn, .mylist-actions, #searchMsg, .source-link-btn,
-      #goMyListBtn {
-        display: none !important;
-      }
-
-      #homePage, #searchResultPage { display: none !important; }
-      .page-section.active { display: block !important; }
-
-      .topic-grid {
-        display: block !important;
-      }
-      
-      .word-card {
-        break-inside: avoid;
-        page-break-inside: avoid;
-        box-shadow: none;
-        border: 1px solid #000;
-        margin-bottom: 1rem;
-        display: inline-block;
-        width: 48%;
-        vertical-align: top;
-        margin-right: 1%;
-      }
-
-      .card-header {
-        background: #fff;
-        border-bottom: 1px solid #ccc;
-        padding: 0.2rem 0.5rem;
-      }
-
-      .word-text { color: #000; font-size: 1.4rem; }
-      .phoneme-box { color: #000 !important; border: 1px solid #000; font-weight: normal !important; }
-      .grapheme-box { background: #fff; color: #000; border: 1px solid #000; }
-      
-      .badges { display: none; }
-      
-      .box.phoneme-box span.phoneme-vowel, 
-      .box.phoneme-box span.phoneme-consonant { 
-        color: #000 !important; 
-      }
-    }
-  </style>
+/* Print Styles */
+@media print {
+ html, body { height: auto !important; min-height: 0 !important; margin: 0 !important; padding: 0 !important; overflow: visible !important; background: #fff !important; font-size: 12pt; }
+ .container { box-shadow: none !important; max-width: 100% !important; width: 100% !important; padding: 0 !important; margin: 0 !important; min-height: 0 !important; border: none !important; }
+ .back-button, .searchbar, .home-progress-bar, .dropdown-container, .filter-bar, .filter-panel, .toggle-container, .attribution-note, .credits, .support-cta, .audio-button, .back-to-top, .star-btn, .mylist-actions, #searchMsg, .source-link-btn { display: none !important; }
+ #homePage, #searchResultPage { display: none !important; }
+ .page-section.active { display: block !important; }
+ .topic-grid { display: block !important; }
+ .word-card { break-inside: avoid; page-break-inside: avoid; box-shadow: none; border: 1px solid #000; margin-bottom: 1rem; display: inline-block; width: 48%; vertical-align: top; margin-right: 1%; }
+ .card-header { background: #fff; border-bottom: 1px solid #ccc; padding: 0.2rem 0.5rem; }
+ .word-text { color: #000; font-size: 1.4rem; }
+ .phoneme-box { color: #000 !important; border: 1px solid #000; font-weight: normal !important; }
+ .grapheme-box { background: #fff; color: #000; border: 1px solid #000; }
+ .badges { display: none; } 
+ .box.phoneme-box span.phoneme-vowel, .box.phoneme-box span.phoneme-consonant { color: #000 !important; }
+}
+ </style>
 </head>
 
 <body>
-  <div class="container">
-    <main>
-      <div class="searchbar" role="search">
-        <input id="globalSearchInput" type="text" placeholder="輸入單字（例如：one）" aria-label="搜尋單字">
-        <button id="globalSearchBtn">🔍 搜尋</button>
-      </div>
-      <p id="searchMsg" class="search-msg" aria-live="polite"></p>
+ <div class="container">
+  <main>
+   <div class="searchbar" role="search">
+    <input id="globalSearchInput" type="text" placeholder="輸入單字（例如：one）" aria-label="搜尋單字">
+    <button id="globalSearchBtn">🔍 搜尋</button>
+   </div>
+   <p id="searchMsg" class="search-msg" aria-live="polite"></p>
 
-      <section id="homePage" class="page-section active">
-        <h1>英文拼字 × 聲音對照<br>Word Mapper</h1>
-        
-        <div class="home-progress-bar" aria-label="學習步驟">
-          <div class="home-step">
-            <p class="home-step-label">
-              <span class="home-step-top">整體</span>
-              <span class="home-step-bottom">發音</span>
-            </p>
-          </div>
-          <div class="home-step-line"></div>
-          <div class="home-step">
-            <p class="home-step-label">
-              <span class="home-step-top">音素</span>
-              <span class="home-step-bottom">切割</span>
-            </p>
-          </div>
-          <div class="home-step-line"></div>
-          <div class="home-step">
-            <p class="home-step-label">
-              <span class="home-step-top">字素</span>
-              <span class="home-step-bottom">對應</span>
-            </p>
-          </div>
-          <div class="home-step-line"></div>
-          <div class="home-step">
-            <p class="home-step-label">
-              <span class="home-step-top">拼寫</span>
-              <span class="home-step-bottom">記牢</span>
-            </p>
-          </div>
+   <section id="homePage" class="page-section active">
+    <h1>英文拼字 × 聲音對照<br>Word Mapper</h1>
+     
+    <div class="home-progress-bar" aria-label="學習步驟">
+     <div class="home-step"><p class="home-step-label"><span class="home-step-top">整體</span><span class="home-step-bottom">發音</span></p></div>
+     <div class="home-step-line"></div>
+     <div class="home-step"><p class="home-step-label"><span class="home-step-top">音素</span><span class="home-step-bottom">切割</span></p></div>
+     <div class="home-step-line"></div>
+     <div class="home-step"><p class="home-step-label"><span class="home-step-top">字素</span><span class="home-step-bottom">對應</span></p></div>
+     <div class="home-step-line"></div>
+     <div class="home-step"><p class="home-step-label"><span class="home-step-top">拼寫</span><span class="home-step-bottom">記牢</span></p></div>
+    </div>
+
+    <!-- Dropdown Navigation -->
+    <div class="dropdown-container">
+        <div class="dropdown-row">
+            <label for="levelSelect">主題：</label>
+            <select id="levelSelect" class="dropdown-select">
+                <option value="" disabled selected>載入中...</option>
+            </select>
         </div>
-
-        <ul id="topicList" class="topic-list"></ul>
-
-        <!-- My List Button -->
-        <button id="goMyListBtn" class="my-list-btn-home">
-          ⭐ 我的自選字表
-        </button>
-      </section>
-
-      <!-- Search Results Section -->
-      <section id="searchResultPage" class="page-section">
-        <button class="back-button" data-page-target="homePage"><i class="fa-solid fa-arrow-left"></i> 返回目錄</button>
-        <h1>🔍 搜尋結果</h1>
-        <p id="searchResultCount" style="text-align:center; color:#64748b; margin-bottom:1.5rem;"></p>
-        <div id="searchResult_Content"></div>
-      </section>
-
-      <!-- My List Page -->
-      <section id="myListPage" class="page-section">
-        <button class="back-button" data-page-target="homePage"><i class="fa-solid fa-arrow-left"></i> 返回目錄</button>
-        <h1>⭐ 我的自選字表</h1>
-        
-        <div class="mylist-actions">
-          <button class="action-btn print-btn" id="printListBtn"><i class="fa-solid fa-print"></i> 列印</button>
-          <button class="action-btn" id="exportListBtn"><i class="fa-solid fa-file-export"></i> 匯出</button>
-          <button class="action-btn" id="importListBtn"><i class="fa-solid fa-file-import"></i> 匯入</button>
+        <div class="dropdown-row">
+            <button id="loadLevelBtn" class="dropdown-btn">Go</button>
         </div>
-        
-        <p id="myListMsg" style="text-align:center; color:#64748b; margin-bottom:1rem;"></p>
-        <div id="myList_Content"></div>
-      </section>
-      
-      <!-- 內容頁會動態加入 -->
-    </main>
+    </div>
 
-    <footer class="credits">
-      <a href="mailto:mamahowma@gmail.com" aria-label="Email mamahowma">
-        <i class="fa-solid fa-envelope fa-xl fa-fw" aria-hidden="true"></i>
-      </a>&emsp;
-      <a href="https://www.facebook.com/mamahowma" target="_blank" rel="noopener noreferrer" aria-label="mamahowma Facebook Page">
-        <i class="fa-brands fa-facebook fa-xl fa-fw" aria-hidden="true"></i>
-      </a>&emsp;
-      <a href="https://portaly.cc/mamahowma/support" target="_blank" rel="noopener noreferrer" aria-label="Support mamahowma">
-        <i class="fa-solid fa-mug-hot fa-xl fa-fw" aria-hidden="true"></i>
-      </a>
-      <br /><br />
-      <div class="support-cta">
-        <a href="https://portaly.cc/mamahowma/support" target="_blank" rel="noopener noreferrer" class="support-btn">
-          支持我繼續創作分享，請我喝杯咖啡吧 ☕
-        </a>
-      </div><br />
-      © 2025 Christina Yu. All rights reserved.
-    </footer>
-  </div>
+    <div id="topicContent"></div>
+     
+    <!-- My List Button -->
+    <button id="goMyListBtn" class="my-list-btn-home">
+     ⭐ 我的自選字表
+    </button>
+   </section>
 
-  <button id="backToTop" class="back-to-top" type="button" aria-label="返回頂部">↑ TOP</button>
+   <!-- Search Results -->
+   <section id="searchResultPage" class="page-section">
+    <button class="back-button" data-page-target="homePage"><i class="fa-solid fa-arrow-left"></i> 返回目錄</button>
+    <h1>🔍 搜尋結果</h1>
+    <p id="searchResultCount" style="text-align:center; color:#64748b; margin-bottom:1.5rem;"></p>
+    <div id="searchResult_Content"></div>
+   </section>
 
-  <script>
-    // ================== 全域開關 & 自動調整 ==================
-    const DISABLE_PREFETCH = false;
+   <!-- My List Page -->
+   <section id="myListPage" class="page-section">
+    <button class="back-button" data-page-target="homePage"><i class="fa-solid fa-arrow-left"></i> 返回目錄</button>
+    <h1>⭐ 我的自選字表</h1>
+     
+    <div class="mylist-actions">
+     <button class="action-btn print-btn" id="printListBtn"><i class="fa-solid fa-print"></i> 列印</button>
+     <button class="action-btn" id="exportListBtn"><i class="fa-solid fa-file-export"></i> 匯出</button>
+     <button class="action-btn" id="importListBtn"><i class="fa-solid fa-file-import"></i> 匯入</button>
+     <!-- hidden input for import -->
+     <input type="file" id="importInput" style="display:none" accept=".json">
+    </div>
+     
+    <p id="myListMsg" style="text-align:center; color:#64748b; margin-bottom:1rem;"></p>
+    <div id="myList_Content"></div>
+   </section>
+    
+  </main>
 
-    const conn = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
-    const IS_SAVE_DATA = !!(conn && conn.saveData);
-    const EFFECTIVE_TYPE = (conn && conn.effectiveType) || '';
-    const IS_SLOW_NET = /^(2g|slow-2g)$/i.test(EFFECTIVE_TYPE);
-    const IS_TOUCH = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
-    const IS_IOS = /iPad|iPhone|iPod/.test(navigator.userAgent) || 
-                   (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  <footer class="credits">
+   <a href="mailto:mamahowma@gmail.com" aria-label="Email mamahowma"><i class="fa-solid fa-envelope fa-xl fa-fw"></i></a>&emsp;
+   <a href="https://www.facebook.com/mamahowma" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook fa-xl fa-fw"></i></a>&emsp;
+   <a href="https://portaly.cc/mamahowma/support" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-mug-hot fa-xl fa-fw"></i></a>
+   <br /><br />
+   <div class="support-cta">
+    <a href="https://portaly.cc/mamahowma/support" target="_blank" rel="noopener noreferrer" class="support-btn">
+     支持我繼續創作分享，請我喝杯咖啡吧 ☕
+    </a>
+   </div><br />
+   © 2025 Christina Yu. All rights reserved.
+  </footer>
+ </div>
 
-    const PREFETCH_PHONEMES = (IS_SAVE_DATA || IS_SLOW_NET) ? 12 : (IS_IOS ? 30 : 40);
-    const PREFETCH_WORDS   = (IS_SAVE_DATA || IS_SLOW_NET) ? 3  : (IS_IOS ? 5 : 8);
-    const PREFETCH_CONCURRENCY = IS_IOS ? 4 : 6;
+ <button id="backToTop" class="back-to-top" type="button" aria-label="返回頂部">↑ TOP</button>
 
-    window.PhonicsApp = window.PhonicsApp || { pendingHighlight: null };
+ <script>
+  // ================== CONFIG ==================
+  const DISABLE_PREFETCH = false;
+  const conn = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+  const IS_SAVE_DATA = !!(conn && conn.saveData);
+  const IS_IOS = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  const PREFETCH_WORDS = (IS_SAVE_DATA) ? 3 : (IS_IOS ? 5 : 8);
+  const PREFETCH_CONCURRENCY = IS_IOS ? 4 : 6;
 
-    function escapeHtml(text) {
-      const div = document.createElement('div');
-      div.textContent = text == null ? '' : String(text);
-      return div.innerHTML;
+  window.PhonicsApp = window.PhonicsApp || { pendingHighlight: null };
+
+  // ================== UTILS ==================
+  function escapeHtml(text) {
+   const div = document.createElement('div');
+   div.textContent = text == null ? '' : String(text);
+   return div.innerHTML;
+  }
+  function sanitizePhonemeHtml(text, allowU = true){
+   const escaped = escapeHtml(text);
+   return allowU ? escaped.replace(/&lt;u&gt;/g,'<u>').replace(/&lt;\/u&gt;/g,'</u>') : escaped;
+  }
+  function escapeAttr(val){ return String(val).replace(/&/g,'&amp;').replace(/"/g,'&quot;'); }
+
+  const VOWEL_CHARS = new Set(['i','ɪ','ɛ','æ','ʌ','ɑ','ɔ','ʊ','u','ə','ɚ','ɝ','e','a','o','ē','ī','ō','ā','ū','ĕ','ĭ','ŏ','ŭ','ă']);
+  const CONSONANT_CHARS = new Set(['p','b','t','d','k','ɡ','f','v','θ','ð','s','z','ʃ','ʒ','h','m','n','ŋ','l','r','w','j','c','y','x']);
+  const NEUTRAL_CHARS = new Set(['/',' ', "'", 'ˌ','.', 'ː','-']);
+
+  function colorizePhonemes(html){
+   if(!html) return '';
+   const src = html.replace(/<span[^>]*class="[^"]*\bphoneme-(?:vowel|consonant)\b[^"]*"[^>]*>/gi,'').replace(/<\/span>/gi,'');
+   let out = '', i = 0;
+   while(i < src.length){
+    const ch = src[i];
+    if(ch === '<'){
+     const j = src.indexOf('>', i);
+     if(j === -1){ out += ch; i++; continue; }
+     out += src.slice(i, j+1); i = j + 1; continue;
     }
-    function sanitizePhonemeHtml(text, allowU = true){
-      const escaped = escapeHtml(text);
-      return allowU
-        ? escaped.replace(/&lt;u&gt;/g,'<u>').replace(/&lt;\/u&gt;/g,'</u>')
-        : escaped;
+    if(NEUTRAL_CHARS.has(ch)){ out += ch; i++; continue; }
+    if(VOWEL_CHARS.has(ch)){ out += `<span class="phoneme-vowel">${}</span>`; }
+    else if(CONSONANT_CHARS.has(ch)){ out += `<span class="phoneme-consonant">${}</span>`; }
+    else{ out += ch; }
+    i++;
+   }
+   return out;
+  }
+
+  const tagNames = {
+   all: "全部", vowel: "母音", consonant :"子音", irregular: "不規則拼寫", closed: "閉音節（短母音）", floss: "重複子音字尾 (FLOSS-Z)",
+   digraph: "雙字母子音", cluster: "子音群", suffix: "字尾後綴", rcontrolled: "母音 + 'r'", open: "開音節（長母音）", cle: "子音 + 'le'",
+   magic_e: "長母音 + 靜音 'e'", vowel_team: "母音組合", silent_consonant: "不發音子音字母", cvc: "單一閉音節（短母音）"  
+  };
+
+  // ================== DATA ==================
+  const TOPICS_URL = 'data/topics.json'; // Adjusted path assumption
+  const CACHE = { topics: null, data: {} };
+  const loadingState = new Set();
+   
+  // My List Storage
+  let MY_LIST = [];
+  try {
+   const saved = localStorage.getItem('phonics_mylist');
+   if(saved) MY_LIST = JSON.parse(saved);
+  } catch(e){ console.warn('Load list failed', e); }
+
+  function saveMyList(){
+   localStorage.setItem('phonics_mylist', JSON.stringify(MY_LIST));
+  }
+   
+  function toggleMyList(wordItem, folder){
+   const key = wordItem.word.toLowerCase();
+   const idx = MY_LIST.findIndex(x => x.word.toLowerCase() === key);
+   if(idx >= 0){
+    MY_LIST.splice(idx, 1); // remove
+    saveMyList();
+    return false;
+   } else {
+    MY_LIST.push({ ...wordItem, _folder: folder });
+    saveMyList();
+    return true;
+   }
+  }
+   
+  function isWordInList(word){
+   return MY_LIST.some(x => x.word.toLowerCase() === String(word).toLowerCase());
+  }
+
+  function fetchWithTimeout(url, opts={}, timeout=8000){
+   return Promise.race([
+    fetch(url, opts),
+    new Promise((_, rej)=> setTimeout(()=>rej(new Error('Timeout')), timeout))
+   ]);
+  }
+
+  const AUDIO_BASE = './audio/';
+  let levelFolder = '';
+
+  // --- FIXED AUDIO URL FUNCTION ---
+  function audioUrlForWord(item){
+   if (item.audio) return item.audio;
+   const folder = item._folder || levelFolder; 
+   const safeName = String(item.word||'').toLowerCase().replace(/\s+/g, "_");
+   // FIXED: Added template literal to correctly build the path
+   return `${}${}/${}.mp3`;
+  }
+
+  // Audio Cache
+  const AUDIO_CACHE = new Map();
+  async function ensureAudio(url){
+   if (!url) return null;
+   if (AUDIO_CACHE.has(url)) return AUDIO_CACHE.get(url);
+   try {
+    const r = await fetchWithTimeout(url, {}, 12000);
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const blob = await r.blob();
+    const blobUrl = URL.createObjectURL(blob);
+    AUDIO_CACHE.set(url, blobUrl);
+    return blobUrl;
+   } catch(e){ return null; }
+  }
+
+  async function batchPrefetch(urls, concurrency = 6) {
+   const urlArray = Array.from(urls);
+   for (let i = 0; i < urlArray.length; i += concurrency) {
+    const batch = urlArray.slice(i, i + concurrency);
+    await Promise.all(batch.map(url => ensureAudio(url).catch(()=>null)));
+   }
+  }
+
+  async function playAudioSmart(url, btn){
+   try{
+    const src = await ensureAudio(url);
+    if (!src) { console.warn("Audio source missing for", url); return; }
+    const p = new Audio();
+    p.preload = 'auto';
+    p.src = src;
+    p.load();
+    const playPromise = p.play();
+    if (playPromise !== undefined) await playPromise;
+   }catch(e){
+    if(btn){ 
+     const o=btn.textContent || btn.innerHTML; 
+     btn.textContent='❌'; 
+     setTimeout(()=>{ if(typeof o === 'string') btn.textContent=o; else btn.innerHTML=o; },800); 
     }
-    function escapeAttr(val){ return String(val).replace(/&/g,'&amp;').replace(/"/g,'&quot;'); }
+    console.error("Play error:", e);
+   }
+  }
 
-    const VOWEL_CHARS = new Set(['i','ɪ','ɛ','æ','ʌ','ɑ','ɔ','ʊ','u','ə','ɚ','ɝ','e','a','o','ē','ī','ō','ā','ū','ĕ','ĭ','ŏ','ŭ','ă']);
-    const CONSONANT_CHARS = new Set(['p','b','t','d','k','ɡ','f','v','θ','ð','s','z','ʃ','ʒ','h','m','n','ŋ','l','r','w','j','c','y','x']);
-    const NEUTRAL_CHARS = new Set(['/',' ', "'", 'ˌ','.', 'ː','-']);
+  // Phoneme Audio
+  let PHONEME = { files: {} };
+  fetchWithTimeout('data/phoneme-audio.json').then(r => r.ok ? r.json() : {files:{}}).then(j => { PHONEME = j || {files:{}}; }).catch(()=>{});
+  
+  function phonemeUrl(raw){
+   if (!raw) return null;
+   if (PHONEME.files && PHONEME.files[raw]) return PHONEME.files[raw];
+   // Clean up the raw string to match keys (remove html tags, spaces)
+   const key = String(raw).replace(/<[^>]+>/g,'').replace(/'/g,'').trim().replace(/^\/|\/$/g,'').replace(/\s+/g,'');
+   return (PHONEME.files && PHONEME.files[key]) ? PHONEME.files[key] : null;
+  }
 
-    function stripColorSpans(html){
-      return html.replace(/<span[^>]*class="[^"]*\bphoneme-(?:vowel|consonant)\b[^"]*"[^>]*>/gi,'').replace(/<\/span>/gi,'');
-    }
-    function colorizePhonemes(html){
-      if(!html) return '';
-      const src = stripColorSpans(html);
-      let out = '', i = 0;
-      while(i < src.length){
-        const ch = src[i];
-        if(ch === '<'){
-          const j = src.indexOf('>', i);
-          if(j === -1){ out += ch; i++; continue; }
-          out += src.slice(i, j+1);
-          i = j + 1;
-          continue;
-        }
-        if(NEUTRAL_CHARS.has(ch)){ out += ch; i++; continue; }
-        if(VOWEL_CHARS.has(ch)){ out += `<span class="phoneme-vowel">${ch}</span>`; }
-        else if(CONSONANT_CHARS.has(ch)){ out += `<span class="phoneme-consonant">${ch}</span>`; }
-        else{ out += ch; }
-        i++;
-      }
-      return out;
-    }
+  // ================== EVENTS ==================
+  document.addEventListener('click', (e) => {
+   // 1. Word Audio Button
+   const btn = e.target.closest('.audio-button');
+   if(btn){
+    const url = btn.getAttribute('data-audio-url');
+    if(url) playAudioSmart(url, btn);
+    return;
+   }
 
-    const tagNames = {
-      all: "全部", vowel: "母音", consonant :"子音", irregular: "不規則拼寫", closed: "閉音節（短母音）", floss: "重複子音字尾 (FLOSS-Z)",
-      digraph: "雙字母子音", cluster: "子音群", suffix: "字尾後綴", rcontrolled: "母音 + 'r'", open: "開音節（長母音）", cle: "子音 + 'le'",
-      magic_e: "長母音 + 靜音 'e'", vowel_team: "母音組合", silent_consonant: "不發音子音字母", cvc: "單一閉音節（短母音）"  
-    };
-
-    const TOPICS_URL = 'topics.json';
-    const CACHE = { topics: null, data: {} };
-    const loadingState = new Set();
-
-    function fetchWithTimeout(url, opts={}, timeout=8000){
-      return Promise.race([
-        fetch(url, opts),
-        new Promise((_, rej)=> setTimeout(()=>rej(new Error('Timeout')), timeout))
-      ]);
-    }
-
-    const AUDIO_BASE = './audio/';
-    let levelFolder = '';
-
-    function audioUrlForWord(item){
-      if (item.audio) return item.audio;
-      const folder = item._folder || levelFolder; 
-      const safeName = String(item.word||'').toLowerCase().replace(/\s+/g, "_");
-      return `${AUDIO_BASE}${folder}/${safeName}.mp3`;
-    }
-
-    const AUDIO_CACHE = new Map();
-    const CACHE_MAX = 300;
-    function cachePut(url, blobUrl){
-      AUDIO_CACHE.set(url, { blobUrl, t: Date.now() });
-      if (AUDIO_CACHE.size > CACHE_MAX){
-        let oldestKey=null, oldestT=Infinity;
-        for (const [k,v] of AUDIO_CACHE){ if (v.t < oldestT){ oldestT=v.t; oldestKey=k; } }
-        if (oldestKey){
-          try{ URL.revokeObjectURL(AUDIO_CACHE.get(oldestKey).blobUrl); }catch{}
-          AUDIO_CACHE.delete(oldestKey);
-        }
-      }
-    }
-    function cacheGet(url){
-      const hit = AUDIO_CACHE.get(url);
-      if (hit){ hit.t = Date.now(); return hit.blobUrl; }
-      return null;
-    }
-    async function ensureAudio(url){
-      if (!url) return null;
-      const hit = cacheGet(url);
-      if (hit) return hit;
-      const r = await fetchWithTimeout(url, {}, 12000);
-      if (!r.ok) throw new Error(`HTTP ${r.status}`);
-      const blob = await r.blob();
-      const blobUrl = URL.createObjectURL(blob);
-      cachePut(url, blobUrl);
-      return blobUrl;
-    }
-    async function batchPrefetch(urls, concurrency = 6) {
-      const urlArray = Array.from(urls);
-      for (let i = 0; i < urlArray.length; i += concurrency) {
-        const batch = urlArray.slice(i, i + concurrency);
-        await Promise.all(batch.map(url => ensureAudio(url).catch(()=>null)));
-      }
-    }
-    async function playAudioSmart(url, btn){
-      try{
-        const src = await ensureAudio(url);
-        if (!src) return;
-        const p = new Audio();
-        p.preload = 'auto';
-        p.src = src;
-        p.load();
-        const playPromise = p.play();
-        if (playPromise !== undefined) await playPromise;
-      }catch(e){
-        if(btn){ 
-          const o=btn.textContent || btn.innerHTML; 
-          btn.textContent='❌'; 
-          setTimeout(()=>{ if(typeof o === 'string') btn.textContent=o; else btn.innerHTML=o; },800); 
-        }
-        console.warn('播放失敗：', url, e);
-      }
-    }
-
-    let PHONEME = { files: {} };
-    fetchWithTimeout('data/phoneme-audio.json').then(r => r.ok ? r.json() : {files:{}}).then(j => { PHONEME = j || {files:{}}; }).catch(()=>{});
-
-    function phonemeUrl(raw){
-      if (PHONEME.files && PHONEME.files[raw]) return PHONEME.files[raw];
-      const key = String(raw).replace(/<[^>]+>/g,'').replace(/'/g,'').trim().replace(/^\/|\/$/g,'').replace(/\s+/g,'');
-      return (PHONEME.files && PHONEME.files[key]) ? PHONEME.files[key] : null;
-    }
-
-    // ============== 我的自選字表 ==============
-    let MY_LIST = [];
-    try {
-      const saved = localStorage.getItem('phonics_mylist');
-      if(saved) MY_LIST = JSON.parse(saved);
-    } catch(e){ console.warn('Load mylist failed', e); }
-
-    function saveMyList(){
-      try {
-        localStorage.setItem('phonics_mylist', JSON.stringify(MY_LIST));
-      } catch(e){ console.warn('Save mylist failed', e); }
-    }
-
-    function isWordInList(word){
-      const key = String(word||'').toLowerCase();
-      return MY_LIST.some(x => String(x.word||'').toLowerCase() === key);
-    }
-
-    function toggleMyList(wordItem, folder){
-      const key = String(wordItem.word||'').toLowerCase();
-      const idx = MY_LIST.findIndex(x => String(x.word||'').toLowerCase() === key);
-      if(idx >= 0){
-        MY_LIST.splice(idx, 1);
-        saveMyList();
-        return false; // removed
-      } else {
-        const cloned = JSON.parse(JSON.stringify(wordItem));
-        cloned._folder = wordItem._folder || folder || '';
-        delete cloned._sourcePageId;
-        delete cloned._sourceTitle;
-        MY_LIST.push(cloned);
-        saveMyList();
-        return true; // added
-      }
-    }
-
-    function exportMyList(){
-      if(!MY_LIST.length){
-        alert('目前自選字表是空的。');
-        return;
-      }
-      const data = JSON.stringify(MY_LIST, null, 2);
-      const blob = new Blob([data], {type:'application/json'});
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = 'phonics_mylist.json';
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-      setTimeout(()=>URL.revokeObjectURL(url), 1000);
-    }
-
-    function importMyList(){
-      const input = document.createElement('input');
-      input.type = 'file';
-      input.accept = 'application/json';
-      input.addEventListener('change', ()=>{
-        const file = input.files[0];
-        if(!file) return;
-        const reader = new FileReader();
-        reader.onload = (ev)=>{
-          try{
-            const arr = JSON.parse(ev.target.result);
-            if(!Array.isArray(arr)) throw new Error('格式不正確');
-            MY_LIST = arr;
-            saveMyList();
-            alert('匯入完成！');
-            const myPage = document.getElementById('myListPage');
-            if(myPage && myPage.classList.contains('active')){
-              showMyListPage();
-            }
-          }catch(e){
-            alert('匯入失敗：' + e.message);
-          }
-        };
-        reader.readAsText(file, 'utf-8');
-      });
-      input.click();
-    }
-
-    function showMyListPage(){
-      selectedFilter = 'all';
-      document.querySelectorAll('.page-section').forEach(p=>p.classList.remove('active'));
-      const myPage = document.getElementById('myListPage');
-      if(!myPage) return;
-      myPage.classList.add('active');
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-
-      const msg = document.getElementById('myListMsg');
-      if(MY_LIST.length === 0){
-        msg.textContent = '尚未加入任何單字。請在字卡上點選右上角的星號 ⭐ 儲存。';
-      } else {
-        msg.textContent = `目前共有 ${MY_LIST.length} 個單字在自選字表中。`;
-      }
-
-      currentTopicData = MY_LIST.slice();
-      initTopicPage('myList_Content');
-    }
-
-    // ====== 事件委派 (包含搜尋結果 / 星號 / 我的字表) ======
-    document.addEventListener('click', (e) => {
-      const btn = e.target.closest('.audio-button');
-      if(btn){
-        const url = btn.getAttribute('data-audio-url');
-        if(url) playAudioSmart(url, btn);
-        return;
-      }
-      const sourceLink = e.target.closest('.source-link-btn');
-      if(sourceLink){
-        const targetPage = sourceLink.getAttribute('data-page-target');
-        if(targetPage) showPage(targetPage);
-        return;
-      }
-      const cell = e.target.closest('.phoneme-box');
-      if(cell){
-        const raw = cell.textContent;
-        const url = phonemeUrl(raw);
-        if(!url){ cell.style.background='#fee2e2'; setTimeout(()=>cell.style.background='',400); return; }
-        playAudioSmart(url, cell);
-        return;
-      }
-
-      const starBtn = e.target.closest('.star-btn');
-      if(starBtn){
-        const card = starBtn.closest('.word-card');
-        if(!card) return;
-        const word = card.getAttribute('data-word') || '';
-        const itemData = currentTopicData.find(x => String(x.word||'').toLowerCase() === word);
-        if(itemData){
-          const folder = itemData._folder || levelFolder;
-          const isAdded = toggleMyList(itemData, folder);
-          starBtn.innerHTML = isAdded ? '★' : '☆';
-          starBtn.classList.toggle('active', isAdded);
-          starBtn.setAttribute('aria-label', isAdded ? '移除自選' : '加入自選');
-          const myPage = document.getElementById('myListPage');
-          if(myPage && myPage.classList.contains('active') && !isAdded){
-            showMyListPage();
-          }
-        }
-        return;
-      }
-
-      const nav = e.target.closest('[data-page-target]');
-      if(nav){
-        const target = nav.getAttribute('data-page-target');
-        if(target === 'homePage'){
-          document.querySelectorAll('.page-section').forEach(p=>p.classList.remove('active'));
-          document.getElementById('homePage').classList.add('active');
-          window.scrollTo({ top: 0, behavior: 'smooth' });
+   // 2. Phoneme Audio Click (FIXED: Added this handler)
+   const phonemeBox = e.target.closest('.phoneme-box');
+   if(phonemeBox){
+    const soundKey = phonemeBox.getAttribute('data-phoneme-key');
+    if(soundKey){
+        const url = phonemeUrl(soundKey);
+        if(url) {
+            playAudioSmart(url, phonemeBox);
         } else {
-          showPage(target);
+            // Visual feedback if no audio
+            phonemeBox.style.opacity = '0.5';
+            setTimeout(() => phonemeBox.style.opacity = '1', 200);
         }
-        return;
-      }
+    }
+    return;
+   }
 
-      const retry = e.target.closest('[data-action="reload"]');
-      if(retry){ location.reload(); }
+   // 3. Navigation
+   const sourceLink = e.target.closest('.source-link-btn');
+   if(sourceLink){
+    const targetPage = sourceLink.getAttribute('data-page-target');
+    if(targetPage) showPage(targetPage);
+    return;
+   }
+   const nav = e.target.closest('[data-page-target]');
+   if(nav){ showPage(nav.getAttribute('data-page-target')); return; }
+    
+   // 4. Star Click
+   const starBtn = e.target.closest('.star-btn');
+   if(starBtn){
+    const card = starBtn.closest('.word-card');
+    const word = card.getAttribute('data-word');
+    
+    // Try to find item in current topic data first
+    let itemData = currentTopicData.find(x => String(x.word).toLowerCase() === word);
+    
+    // If not found (e.g. in search results), construct minimal object
+    if(!itemData){
+        // Try to reconstruct from DOM or assume it was passed via search
+        // For simplicity in search results, we might need to access a global lookup or store data on the element
+    }
 
-      const ft = e.target.closest('.filter-toggle');
-      if(ft){
-        const panel = ft.parentElement.nextElementSibling;
-        const open = panel.classList.toggle('open');
-        ft.setAttribute('aria-expanded', open ? 'true' : 'false');
-        return;
-      }
+    if(itemData){
+     const folder = itemData._folder || levelFolder;
+     const isAdded = toggleMyList(itemData, folder);
+     starBtn.innerHTML = isAdded ? '★' : '☆';
+     starBtn.classList.toggle('active', isAdded);
+    }
+    return;
+   }
 
-      if(e.target.id === 'goMyListBtn'){
-        showMyListPage();
-        return;
-      }
-      if(e.target.id === 'printListBtn'){
-        window.print();
-        return;
-      }
-      if(e.target.id === 'exportListBtn'){
-        exportMyList();
-        return;
-      }
-      if(e.target.id === 'importListBtn'){
-        importMyList();
-        return;
-      }
+   // 5. Filter Toggle
+   const ft = e.target.closest('.filter-toggle');
+   if(ft){
+    const panel = ft.parentElement.nextElementSibling;
+    const open = panel.classList.toggle('open');
+    ft.setAttribute('aria-expanded', open ? 'true' : 'false');
+   }
+    
+   // 6. My List Actions
+   if(e.target.id === 'goMyListBtn'){ showMyListPage(); return; }
+   if(e.target.id === 'printListBtn'){ window.print(); return; }
+   if(e.target.id === 'exportListBtn'){ exportMyList(); return; }
+   if(e.target.id === 'importListBtn'){ document.getElementById('importInput').click(); return; }
+   if(e.target.id === 'loadLevelBtn'){ loadSelectedLevel(); return; }
+  });
+
+  // Handle File Import
+  document.getElementById('importInput').addEventListener('change', (e) => {
+      const file = e.target.files[0];
+      if(!file) return;
+      const reader = new FileReader();
+      reader.onload = function(evt) {
+          try {
+              const list = JSON.parse(evt.target.result);
+              if(Array.isArray(list)){
+                  MY_LIST = list;
+                  saveMyList();
+                  showMyListPage();
+                  alert('匯入成功！');
+              }
+          } catch(err){ alert('檔案格式錯誤'); }
+      };
+      reader.readAsText(file);
+  });
+
+  function setupAudioPrefetchListeners(){
+   if (!IS_IOS) {
+    document.addEventListener('mouseenter', (e)=>{
+     const btn = e.target.closest('.audio-button'); 
+     if(btn){ const url = btn.getAttribute('data-audio-url'); if(url) ensureAudio(url).catch(()=>{}); }
+    }, true);
+   }
+  }
+  setupAudioPrefetchListeners();
+
+  // ================== RENDER ==================
+  let selectedFilter = 'all'; 
+  let currentTopicData = [];
+  let isPhonicsMode = false;
+
+  // --- INITIALIZE TOPIC PAGE (Reconstructed) ---
+  function initTopicPage(contentId){
+   const cnt = document.getElementById(contentId);
+   if(!cnt) return;
+   cnt.innerHTML = ''; // Clear previous
+
+   if(currentTopicData.length === 0) {
+       cnt.innerHTML = '<p style="text-align:center;margin-top:2rem;">請選擇主題以開始。</p>';
+       return;
+   }
+
+   const allTags = ['all','vowel','consonant','cvc','closed','open','magic_e','vowel_team','rcontrolled','cle','floss','digraph','cluster','suffix','silent_consonant','irregular'];
+   const usedTags = new Set(['all']);
+   currentTopicData.forEach(w=>{ (w.tags||[]).forEach(t=>usedTags.add(t)); });
+   const existing = allTags.filter(t=>usedTags.has(t));
+
+   const filterBarHTML = `
+    <div class="filter-bar">
+     <button class="filter-toggle" type="button" aria-expanded="false" aria-controls="filter-panel-main">
+      <i class="fa-solid fa-filter"></i><span>篩選</span>
+      <span class="filter-state" id="filter-state-main">（目前：全部）</span>
+     </button>
+    </div>
+   `;
+
+   let legendHTML = '<ul class="legend">';
+   existing.forEach(t=>{
+    const name = tagNames[t] || t;
+    const cls = (t==='all')?'tag-all':`tag-${}`;
+    const sel = (t===selectedFilter)?'selected':'';
+    legendHTML += `<li class="legend-item ${} ${}" data-filter="${}">${}</li>`;
+   });
+   legendHTML += '</ul>';
+
+   const toggleHTML = `
+    <div class="toggle-container">
+     <span class="toggle-label-ipa">IPA 音標</span>
+     <label class="switch">
+      <input type="checkbox" id="toggle_phonics_mode" ${isPhonicsMode?'checked':''}>
+      <span class="slider"></span>
+     </label>
+     <span class="toggle-label-phonics">Phonics 拼音</span>
+    </div>
+    <p class="attribution-note">
+     IPA 根據<a href="https://christinayu_english.rakosell.com/zh/page/american-ipa-guide" target="_blank">美式英語 IPA 國際音標指南</a><br>
+     Phonics 根據 <a href="https://ufli.education.ufl.edu/wp-content/uploads/2023/09/UFLI-Sound-Wall-rev.pdf" target="_blank">UFLI phonemes</a>
+    </p>
+   `;
+
+   const panelHTML = `<div id="filter-panel-main" class="filter-panel" role="region" aria-label="標籤篩選面板">${}</div>`;
+   cnt.innerHTML = filterBarHTML + panelHTML + toggleHTML + `<div class="topic-grid" id="teaching-grid-main"></div>`;
+
+   // Re-attach filter listeners
+   cnt.querySelectorAll('.legend-item').forEach(li=>{
+    li.addEventListener('click',()=>{
+     selectedFilter = li.getAttribute('data-filter');
+     // Update UI classes
+     cnt.querySelectorAll('.legend-item').forEach(x => x.classList.remove('selected'));
+     li.classList.add('selected');
+     document.getElementById('filter-state-main').textContent = `（目前：${li.textContent}）`;
+     renderGrid('teaching-grid-main', currentTopicData);
     });
+   });
 
-    function setupAudioPrefetchListeners(){
-      if (DISABLE_PREFETCH) return;
-      if (!IS_TOUCH) {
-        document.addEventListener('mouseenter', (e)=>{
-          const btn = e.target.closest('.audio-button'); 
-          if(btn){ const url = btn.getAttribute('data-audio-url'); if(url) ensureAudio(url).catch(()=>{}); return; }
-          const cell = e.target.closest('.phoneme-box');
-          if(cell){ const raw = cell.textContent; const url = phonemeUrl(raw); if(url) ensureAudio(url).catch(()=>{}); }
-        }, true);
-      }
-      document.addEventListener('touchstart', (e)=>{
-        const btn = e.target.closest('.audio-button'); 
-        if(btn){ const url = btn.getAttribute('data-audio-url'); if(url) ensureAudio(url).catch(()=>{}); return; }
-        const cell = e.target.closest('.phoneme-box');
-        if(cell){ const raw = cell.textContent; const url = phonemeUrl(raw); if(url) ensureAudio(url).catch(()=>{}); }
-      }, { passive:true });
-    }
-    setupAudioPrefetchListeners();
+   // Attach toggle listener
+   const toggleBtn = document.getElementById('toggle_phonics_mode');
+   if(toggleBtn){
+       toggleBtn.addEventListener('change', (e)=>{
+           isPhonicsMode = e.target.checked;
+           renderGrid('teaching-grid-main', currentTopicData);
+       });
+   }
 
-    let selectedFilter = 'all'; 
-    let currentTopicData=[];
-    let isPhonicsMode=false;
+   // Initial Render
+   renderGrid('teaching-grid-main', currentTopicData);
+  }
 
-    function initTopicPage(contentId){
-      const cnt=document.getElementById(contentId);
-      if(!cnt) return;
-
-      const allTags=['all','vowel','consonant','cvc','closed','open','magic_e','vowel_team','rcontrolled','cle','floss','digraph','cluster','suffix','silent_consonant','irregular'];
-      const usedTags=new Set(['all']);
-      currentTopicData.forEach(w=>{ (w.tags||[]).forEach(t=>usedTags.add(t)); });
-      const existing=allTags.filter(t=>usedTags.has(t));
-
-      const filterBarHTML = `
-        <div class="filter-bar">
-          <button class="filter-toggle" type="button" aria-expanded="false" aria-controls="filter-panel-${contentId}">
-            <i class="fa-solid fa-filter"></i><span>篩選</span>
-            <span class="filter-state" id="filter-state-${contentId}">（目前：全部）</span>
-          </button>
-        </div>
-      `;
-
-      let legendHTML = '<ul class="legend">';
-      existing.forEach(t=>{
-        const name = tagNames[t] || t;
-        const cls=(t==='all')?'tag-all':`tag-${t}`;
-        const sel=(t===selectedFilter)?'selected':'';
-        legendHTML+=`<li class="legend-item ${cls} ${sel}" data-filter="${t}">${name}</li>`;
-      });
-      legendHTML+='</ul>';
-
-      const toggleHTML=`
-        <div class="toggle-container">
-          <span class="toggle-label-ipa">IPA 音標</span>
-          <label class="switch">
-            <input type="checkbox" id="toggle_${contentId}" ${isPhonicsMode?'checked':''}>
-            <span class="slider"></span>
-          </label>
-          <span class="toggle-label-phonics">Phonics 拼音</span>
-        </div>
-        <p class="attribution-note">
-          IPA 根據<a href="https://christinayu_english.rakosell.com/zh/page/american-ipa-guide" target="_blank">美式英語 IPA 國際音標指南</a><br>
-          Phonics 根據 <a href="https://ufli.education.ufl.edu/wp-content/uploads/2023/09/UFLI-Sound-Wall-rev.pdf" target="_blank">UFLI phonemes</a>
-        </p>
-      `;
-
-      const panelHTML = `<div id="filter-panel-${contentId}" class="filter-panel" role="region" aria-label="標籤篩選面板">${legendHTML}</div>`;
-      cnt.innerHTML = filterBarHTML + panelHTML + toggleHTML + `<div class="topic-grid" id="teaching-grid-${contentId}"></div>`;
-
-      cnt.querySelectorAll('.legend-item').forEach(li=>{
-        li.addEventListener('click',()=>{
-          selectedFilter = li.getAttribute('data-filter')||'all';
-          cnt.querySelectorAll('.legend-item').forEach(x=>x.classList.remove('selected'));
-          li.classList.add('selected');
-          const stateEl = document.getElementById(`filter-state-${contentId}`);
-          if(stateEl){ stateEl.textContent = `（目前：${tagNames[selectedFilter] || selectedFilter}）`; }
-          applyFilters(contentId);
-          const panel = document.getElementById(`filter-panel-${contentId}`);
-          const toggleBtn = cnt.querySelector('.filter-toggle');
-          if(panel && toggleBtn){ panel.classList.remove('open'); toggleBtn.setAttribute('aria-expanded','false'); }
-        });
-      });
-
-      const tog=cnt.querySelector(`#toggle_${contentId}`);
-      if(tog){ tog.addEventListener('change',()=>{ isPhonicsMode=tog.checked; renderCards(contentId); }); }
-
-      renderCards(contentId);
-      highlightIfPending(contentId);
-
-      if (!DISABLE_PREFETCH){
-        setTimeout(async ()=>{ 
-          try{
-            const grid = document.getElementById(`teaching-grid-${contentId}`);
-            if(!grid) return;
-            const urls = new Set();
-            grid.querySelectorAll('.phoneme-box').forEach(cell=>{
-              const raw = cell.textContent;
-              const url = phonemeUrl(raw);
-              if (url) urls.add(url);
-            });
-            await batchPrefetch(urls, PREFETCH_CONCURRENCY);
-          }catch(e){ console.warn('Prefetch error:', e); }
-        }, 100);
-      }
-    }
-
-    function renderCards(contentId){
-      const grid = document.getElementById(`teaching-grid-${contentId}`);
+  // --- RENDER GRID CARDS ---
+  function renderGrid(gridId, data){
+      const grid = document.getElementById(gridId);
       if(!grid) return;
-      grid.innerHTML='';
-      currentTopicData.forEach(w=>{
-        const tagsAttr = (w.tags||[]).join(',');
-        const badges = (w.tags||[]).map(t => `<span class="category-tag tag-${t}">${escapeHtml(tagNames[t] || t)}</span>`).join('');
+      
+      grid.innerHTML = '';
+      let visibleCount = 0;
 
-        const modeKey = isPhonicsMode?'phonics':'phonemes';
-        const useArr = (w[modeKey]||w.phonemes||[]);
-        const labelArr = (w.graphemes||[]);
-        const heartArr = (w.hearts||[]);
+      data.forEach((item, idx) => {
+          // Filter Logic
+          const itemTags = item.tags || [];
+          if(selectedFilter !== 'all' && !itemTags.includes(selectedFilter)) return;
+          visibleCount++;
 
-        const cols = Math.max(labelArr.length, useArr.length);
-        let cells='';
-        for(let i=0;i<cols;i++){
-          const g = labelArr[i]||'';
-          const p = useArr[i]||'';
-          const heart = heartArr[i]?'<span class="heart-symbol">❤</span>':'';
-          const phClass = (isPhonicsMode)?'is-phonics':'';
-          const pHtmlRaw = isPhonicsMode ? sanitizePhonemeHtml(p, true) : escapeHtml(p);
-          const pHtml = colorizePhonemes(pHtmlRaw);
-          cells+=`
-            <div class="grapheme-box box">${escapeHtml(g)}${heart}</div>
-            <div class="phoneme-box box ${phClass}">${pHtml}</div>
-          `;
-        }
+          const word = item.word;
+          const safeWord = escapeAttr(word.toLowerCase());
+          const inList = isWordInList(word);
+          const audioUrl = audioUrlForWord(item);
 
-        const audioURL = audioUrlForWord(w);
-        const wordLower = String(w.word||'').toLowerCase();
-        const favorite = isWordInList(wordLower);
+          // Badges
+          const badgesHtml = `<div class="badges">` + 
+            itemTags.map(t => `<span class="category-tag tag-${}">${tagNames[t]||t}</span>`).join('') + 
+            `</div>`;
+          
+          // Boxes Logic
+          // Expecting data structure: item.boxes = [ {g: "sh", p: "ʃ", pp: "sh"}, ... ]
+          // p = IPA, pp = Phonics representation (optional)
+          let boxesHtml = '';
+          if(item.boxes && Array.isArray(item.boxes)){
+              boxesHtml = `<div class="boxes-grid">`;
+              item.boxes.forEach(b => {
+                  const grapheme = b.g || '';
+                  const ipa = b.p || '';
+                  const phonics = b.pp || ipa; // fallback to IPA if no phonics mapping
+                  
+                  // Display Content
+                  const displayPhoneme = isPhonicsMode ? phonics : ipa;
+                  const coloredPhoneme = isPhonicsMode ? displayPhoneme : colorizePhonemes(displayPhoneme);
+                  
+                  // Raw Key for Audio lookup (strip HTML)
+                  const rawKey = displayPhoneme.replace(/<[^>]+>/g, '');
 
-        let titleExtraHtml = '';
-        if(w._sourcePageId && w._sourceTitle){
-          titleExtraHtml = `
-            <div style="display:flex; flex-direction:column; align-items:flex-start; margin-left: 8px;">
-               <span class="word-number" style="line-height:1.2;">${escapeHtml(w.number ?? '')}</span>
-               <button class="source-link-btn" data-page-target="${w._sourcePageId}">
-                 ↪ 前往 ${escapeHtml(w._sourceTitle)}
-               </button>
-            </div>
-          `;
-        } else {
-          titleExtraHtml = `<span class="word-number">${escapeHtml(w.number ?? '')}</span>`;
-        }
+                  boxesHtml += `
+                    <div class="box grapheme-box">${grapheme}</div>
+                    <div class="box phoneme-box ${isPhonicsMode?'is-phonics':''}" 
+                         data-phoneme-key="${escapeAttr(rawKey)}" 
+                         title="點擊聽發音">
+                         ${coloredPhoneme}
+                         ${b.heart ? '<span class="heart-symbol">❤</span>' : ''}
+                    </div>
+                  `;
+              });
+              boxesHtml += `</div>`;
+          }
 
-        const starHtml = `
-          <button class="star-btn ${favorite ? 'active' : ''}" type="button" aria-label="${favorite ? '移除自選' : '加入自選'}">
-            ${favorite ? '★' : '☆'}
-          </button>
-        `;
-
-        const card=`
-          <article class="word-card" data-tags="${escapeAttr(tagsAttr)}" data-word="${escapeAttr(wordLower)}">
+          const card = document.createElement('div');
+          card.className = 'word-card';
+          card.setAttribute('data-word', safeWord);
+          card.innerHTML = `
+            <button class="star-btn ${inList?'active':''}" aria-label="加入字表">${inList?'★':'☆'}</button>
             <div class="card-header">
-              <div class="card-title">
-                <span class="word-text">${escapeHtml(w.word||'')}</span>
-                ${titleExtraHtml}
-              </div>
-              <button class="audio-button" data-audio-url="${escapeAttr(audioURL)}" aria-label="播放單字發音">🔊</button>
-              ${starHtml}
+                <div class="card-title">
+                    <span class="word-number">${idx + 1}.</span>
+                    <span class="word-text">${word}</span>
+                </div>
+                <button class="audio-button" data-audio-url="${audioUrl}" aria-label="播放單字發音">
+                    <i class="fa-solid fa-circle-play"></i>
+                </button>
             </div>
             <div class="card-body">
-              <div class="badges">${badges}</div>
-              <div class="boxes-grid" style="grid-template-columns:repeat(${cols},max-content)">${cells}</div>
+                ${badgesHtml}
+                ${boxesHtml}
             </div>
-          </article>
-        `;
-        grid.insertAdjacentHTML('beforeend',card);
+          `;
+          grid.appendChild(card);
       });
-      applyFilters(contentId);
+  }
 
-      if (!DISABLE_PREFETCH){
-        try{
-          const warm = (currentTopicData||[]).slice(0, PREFETCH_WORDS).map(w => audioUrlForWord(w)).filter(Boolean);
-          warm.forEach(u=>{ ensureAudio(u).catch(()=>{}); });
-        }catch(e){}
-      }
-    }
+  // ================== NAVIGATION & SEARCH ==================
+  function showPage(pageId){
+      document.querySelectorAll('.page-section').forEach(p => p.classList.remove('active'));
+      const target = document.getElementById(pageId);
+      if(target) target.classList.add('active');
+      window.scrollTo(0,0);
+  }
 
-    function applyFilters(contentId){
-      const grid = document.getElementById(`teaching-grid-${contentId}`);
-      if(!grid) return;
-      const cards = grid.querySelectorAll('.word-card');
-      if(selectedFilter === 'all'){ cards.forEach(c=>c.classList.remove('hidden')); return; }
-      cards.forEach(c=>{
-        const tags = (c.getAttribute('data-tags')||'').split(',').filter(Boolean);
-        c.classList.toggle('hidden', !tags.includes(selectedFilter));
-      });
-    }
-
-    let WORD_INDEX = {};
-    function buildWordIndexFromAll(){
-      WORD_INDEX = {};
-      (CACHE.topics?.topics||[]).forEach(t=>{
-        t.levels.forEach((lv, idx)=>{
-          const thisFolder = (lv.src||'').replace(/^data\//,'').replace(/\.json$/,'').replace(/^\//,'');
-          const thisPageId = `${t.slug}_${idx+1}_Page`;
-          const items = CACHE.data[lv.src]?.items || [];
-          items.forEach(w=>{
-            const key = String(w.word||'').trim().toLowerCase();
-            if(!key) return;
-            if(!WORD_INDEX[key]) WORD_INDEX[key] = [];
-            WORD_INDEX[key].push({ 
-              slug: t.slug, 
-              levelIndex: idx,
-              folder: thisFolder,
-              topicTitle: t.title,
-              levelLabel: lv.label,
-              pageId: thisPageId,
-              item: w
-            });
-          });
-        });
-      });
-    }
-
-    function goToWord(wordRaw){
-      const input = String(wordRaw||'').trim().toLowerCase();
-      const msgEl = document.getElementById('searchMsg');
+  function showMyListPage(){
+      showPage('myListPage');
+      const container = document.getElementById('myList_Content');
+      const msg = document.getElementById('myListMsg');
+      container.innerHTML = '';
       
-      if(!input){ msgEl.textContent='請輸入單字'; return; }
-      const hits = WORD_INDEX[input];
-      if(!hits || hits.length === 0){ msgEl.textContent=`找不到：${wordRaw}`; return; }
-      msgEl.textContent='';
-
-      if(hits.length === 1){
-        const hit = hits[0];
-        const pageId = `${hit.slug}_${hit.levelIndex+1}_Page`;
-        window.PhonicsApp.pendingHighlight = input;
-        showPage(pageId);
-        return;
-      }
-      showSearchResults(input, hits);
-    }
-
-    function showSearchResults(query, hits){
-      currentTopicData = hits.map(hit => {
-        const newItem = { ...hit.item };
-        newItem._folder = hit.folder; 
-        newItem._sourcePageId = hit.pageId;
-        newItem._sourceTitle = `${hit.topicTitle} ${hit.levelLabel || ''}`;
-        return newItem;
-      });
-
-      document.querySelectorAll('.page-section').forEach(p=>p.classList.remove('active'));
-      const searchPage = document.getElementById('searchResultPage');
-      searchPage.classList.add('active');
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-      document.getElementById('searchResultCount').textContent = `"${query}" 共有 ${hits.length} 筆結果`;
-      initTopicPage('searchResult_Content');
-    }
-
-    function initSearchBar(){
-      const inp=document.getElementById('globalSearchInput');
-      const btn=document.getElementById('globalSearchBtn');
-      if(!inp||!btn) return;
-      btn.addEventListener('click',()=>goToWord(inp.value));
-      inp.addEventListener('keydown',(e)=>{ if(e.key==='Enter') goToWord(inp.value); });
-    }
-    function highlightIfPending(contentId){
-      const target=(window.PhonicsApp.pendingHighlight||'').toLowerCase();
-      if(!target) return;
-      const grid=document.getElementById(`teaching-grid-${contentId}`);
-      if(!grid) return;
-      const escaped = (window.CSS && CSS.escape) ? CSS.escape(target)
-        : target.replace(/[!"#$%&'()*+,.\/:;<=>?@[\\\]^`{|}~]/g, "\\$&");
-      const card=grid.querySelector(`.word-card[data-word="${escaped}"]`);
-      if(card){
-        card.classList.add('search-hit');
-        card.scrollIntoView({behavior:'smooth',block:'center'});
-        setTimeout(()=>card.classList.remove('search-hit'),1600);
-      }
-      window.PhonicsApp.pendingHighlight='';
-    }
-
-    function showPage(pageId){
-      selectedFilter = 'all'; 
-      document.querySelectorAll('.page-section').forEach(p=>p.classList.remove('active'));
-      const active = document.getElementById(pageId);
-      if(!active) return;
-      active.classList.add('active');
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-
-      const m = pageId.match(/^(.+?)_(\d+)_Page$/);
-      if(!m) return; 
-      const slug = m[1], levelIndex = Number(m[2])-1;
-      const contentId = `${slug}_${levelIndex+1}_Content`;
-
-      const topic = (CACHE.topics?.topics||[]).find(x=>x.slug===slug);
-      const lv = topic?.levels?.[levelIndex];
-      if(!lv) return;
-
-      levelFolder = (lv.src||'').replace(/^data\//,'').replace(/\.json$/,'').replace(/^\//,'');
-
-      if(!CACHE.data[lv.src] && !loadingState.has(lv.src)){
-        const t = document.getElementById(contentId);
-        if (t) t.innerHTML = '<p style="color:#666">載入中…</p>';
-        loadingState.add(lv.src);
-        fetchWithTimeout(lv.src)
-          .then(r=>{ if(!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
-          .then(json=>{
-            CACHE.data[lv.src]=json; loadingState.delete(lv.src);
-            if(document.getElementById(pageId)?.classList.contains('active')){
-              currentTopicData = json.items||[];
-              initTopicPage(contentId);
-            }
-          })
-          .catch(e=>{
-            loadingState.delete(lv.src);
-            const t=document.getElementById(contentId);
-            if(t) t.innerHTML = `<p style="color:#b91c1c">載入失敗：${escapeHtml(lv.src)}（${escapeHtml(e.message)}） <button data-action="reload">重試</button></p>`;
-          });
-      }else if(CACHE.data[lv.src]){
-        currentTopicData = CACHE.data[lv.src].items||[];
-        initTopicPage(contentId);
-      }
-    }
-    window.PhonicsApp.showPage = showPage;
-
-    function buildHomeAndSections(){
-      const list = document.getElementById('topicList');
-      const main = document.querySelector('main');
-
-      list.innerHTML = `
-        <div class="dropdown-container">
-          <div class="dropdown-row">
-            <label for="topicSelect">主題：</label>
-            <select id="topicSelect" class="dropdown-select">
-              <option value="">請選擇主題</option>
-            </select>
-          </div>
-          <div class="dropdown-row">
-            <label for="levelSelect">級別：</label>
-            <select id="levelSelect" class="dropdown-select" disabled>
-              <option value="">請先選主題</option>
-            </select>
-            <button id="enterBtn" class="dropdown-btn">選擇</button>
-          </div>
-        </div>
-      `;
-
-      const topicSelect = document.getElementById('topicSelect');
-      const levelSelect = document.getElementById('levelSelect');
-      const enterBtn = document.getElementById('enterBtn');
-
-      (CACHE.topics?.topics||[]).forEach(t=>{
-        const opt=document.createElement('option');
-        opt.value=t.slug;
-        opt.textContent=t.title;
-        topicSelect.appendChild(opt);
-
-        t.levels.forEach((lv, idx)=>{
-          const label = lv.label || `-${idx+1}`;
-          main.insertAdjacentHTML('beforeend', `
-            <section id="${t.slug}_${idx+1}_Page" class="page-section">
-              <button class="back-button" data-page-target="homePage"><i class="fa-solid fa-arrow-left"></i>返回目錄</button>
-              <h1>${escapeHtml(t.title)}（${escapeHtml(label)}）</h1>
-              <div id="${t.slug}_${idx+1}_Content"></div>
-            </section>
-          `);
-        });
-      });
-
-      topicSelect.addEventListener('change',()=>{
-        const slug=topicSelect.value;
-        levelSelect.innerHTML='';
-        if(!slug){
-          levelSelect.disabled=true;
-          levelSelect.innerHTML='<option value="">請先選主題</option>';
+      if(MY_LIST.length === 0){
+          msg.textContent = '目前沒有加入任何單字。';
           return;
-        }
-        const topic=(CACHE.topics?.topics||[]).find(t=>t.slug===slug);
-        if(!topic){return;}
-        topic.levels.forEach((lv,idx)=>{
-          const opt=document.createElement('option');
-          opt.value=`${slug}_${idx+1}_Page`;
-          opt.textContent=lv.label || `Level ${idx+1}`;
-          levelSelect.appendChild(opt);
-        });
-        levelSelect.disabled=false;
-      });
-
-      enterBtn.addEventListener('click',()=>{
-        const val=levelSelect.value;
-        if(!val){alert('請選擇級別');return;}
-        showPage(val);
-      });
-    }
-
-    document.addEventListener('DOMContentLoaded', async ()=>{
-      initSearchBar();
-      try{
-        const resp = await fetchWithTimeout(TOPICS_URL);
-        if(!resp.ok) throw new Error(`HTTP ${resp.status}`);
-        CACHE.topics = await resp.json();
-      }catch(e){
-        console.error(e);
-        document.getElementById('topicList').innerHTML = `<li class="topic-list-item" style="color:#b91c1c">讀取 topics.json 失敗（${escapeHtml(e.message)}）<button data-action="reload" style="margin-left:.5rem">重試</button></li>`;
-        return;
       }
-      buildHomeAndSections();
+      msg.textContent = `共 ${MY_LIST.length} 個單字`;
+      
+      // Temporarily hijack currentTopicData for renderGrid to work simply
+      // But renderGrid uses specific ID. Let's make a custom grid
+      const gridId = 'mylist-grid';
+      container.innerHTML = `<div class="topic-grid" id="${gridId}"></div>`;
+      
+      // We need to ensure audio generation works correctly (need _folder)
+      // toggleMyList saves _folder, so we should be good.
+      renderGrid(gridId, MY_LIST);
+  }
 
-      await Promise.allSettled(
-        (CACHE.topics.topics||[]).flatMap(t => t.levels.map(lv =>
-          fetchWithTimeout(lv.src).then(r=>r.ok?r.json():null).then(j=>{ if(j) CACHE.data[lv.src]=j; })
-        ))
-      );
-      buildWordIndexFromAll();
+  function exportMyList(){
+      if(MY_LIST.length === 0) return alert('列表為空');
+      const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(MY_LIST));
+      const node = document.createElement('a');
+      node.setAttribute("href", dataStr);
+      node.setAttribute("download", "phonics_list.json");
+      document.body.appendChild(node);
+      node.click();
+      node.remove();
+  }
 
-      document.querySelectorAll('.page-section').forEach(p=>p.classList.remove('active'));
-      document.getElementById('homePage').classList.add('active');
+  // Search Logic
+  const searchBtn = document.getElementById('globalSearchBtn');
+  const searchInput = document.getElementById('globalSearchInput');
+  
+  function performSearch(){
+      const query = searchInput.value.trim().toLowerCase();
+      if(!query) return;
+      
+      showPage('searchResultPage');
+      const resContainer = document.getElementById('searchResult_Content');
+      const countMsg = document.getElementById('searchResultCount');
+      resContainer.innerHTML = '<div class="topic-grid" id="search-grid"></div>';
+      
+      // Search requires scanning all data. 
+      // Since data is loaded per level, this simple version only searches CURRENT loaded data + My List
+      // To search everything, we'd need to fetch all JSONs. For now, let's search current loaded topic.
+      
+      const hits = currentTopicData.filter(item => item.word.toLowerCase().includes(query));
+      
+      countMsg.textContent = `在當前主題中找到 ${hits.length} 筆`;
+      renderGrid('search-grid', hits);
+  }
 
-      const backToTopBtn = document.getElementById('backToTop');
-      if(backToTopBtn){
-        backToTopBtn.addEventListener('click', () => { window.scrollTo({ top: 0, behavior: 'smooth' }); });
-        const toggleBackToTop = () => {
-          if (window.scrollY > 400) backToTopBtn.classList.add('visible');
-          else backToTopBtn.classList.remove('visible');
-        };
-        window.addEventListener('scroll', toggleBackToTop, { passive:true });
-        toggleBackToTop();
+  if(searchBtn) searchBtn.addEventListener('click', performSearch);
+  if(searchInput) searchInput.addEventListener('keydown', (e)=>{ if(e.key==='Enter') performSearch(); });
+
+
+  // ================== INITIALIZATION ==================
+  async function initApp(){
+      try {
+          // 1. Load Topics List
+          const r = await fetch(TOPICS_URL);
+          if(!r.ok) throw new Error("Cannot load topics");
+          const topics = await r.json();
+          
+          // 2. Populate Dropdown
+          const select = document.getElementById('levelSelect');
+          select.innerHTML = '';
+          topics.forEach(t => {
+              const op = document.createElement('option');
+              op.value = t.file; // e.g. "level1.json"
+              op.textContent = t.title; // e.g. "Level 1 Short Vowels"
+              // Store folder if structure requires
+              op.setAttribute('data-folder', t.folder || ''); 
+              select.appendChild(op);
+          });
+
+          // 3. Load first if exists
+          if(topics.length > 0) {
+              loadSelectedLevel();
+          }
+
+      } catch(e) {
+          console.error(e);
+          document.getElementById('levelSelect').innerHTML = '<option>載入失敗</option>';
       }
-    });
-  </script>
+  }
+
+  async function loadSelectedLevel(){
+      const select = document.getElementById('levelSelect');
+      const file = select.value;
+      const folder = select.options[select.selectedIndex].getAttribute('data-folder');
+      levelFolder = folder || '';
+
+      if(!file) return;
+
+      // Show Loading
+      const contentDiv = document.getElementById('topicContent');
+      contentDiv.innerHTML = '<p style="text-align:center;margin:2rem;">載入中...</p>';
+
+      try {
+          const r = await fetch(`data/${file}`);
+          if(!r.ok) throw new Error("Load data failed");
+          const data = await r.json();
+          
+          // Assign data globally
+          currentTopicData = data.words.map(w => ({...w, _folder: levelFolder}));
+          
+          // Initialize View
+          initTopicPage('topicContent');
+          
+          // Prefetch Audio
+          if(!DISABLE_PREFETCH){
+              const audioUrls = currentTopicData.slice(0, PREFETCH_WORDS).map(w => audioUrlForWord(w));
+              batchPrefetch(audioUrls, PREFETCH_CONCURRENCY);
+          }
+
+      } catch(e) {
+          contentDiv.innerHTML = `<p style="text-align:center;color:red;">資料載入錯誤: ${e.message}</p>`;
+      }
+  }
+
+  // Back to top observer
+  const btt = document.getElementById('backToTop');
+  window.addEventListener('scroll', ()=>{
+      if(window.scrollY > 300) btt.classList.add('visible');
+      else btt.classList.remove('visible');
+  });
+  btt.addEventListener('click', ()=> window.scrollTo({top:0, behavior:'smooth'}));
+
+  // Start
+  initApp();
+
+ </script>
 </body>
 </html>
