@@ -60,25 +60,14 @@
   /* 選單置中 */
   #topicList {list-style:none;margin:0;padding:0;width:100%;}
 
-  .dropdown-container {
-   display:flex; flex-direction:column; align-items:center; text-align:center; gap:.9rem; margin-bottom:2.5rem; font-size:1rem; width:100%;
-  }
-  .dropdown-row {
-   display:flex; flex-wrap:nowrap; align-items:center; justify-content:center; gap:.6rem;
-  }
-  .dropdown-select {
-   min-width:160px; padding:.7rem 1rem; border:2px solid #cbd5e1; border-radius:12px; font-size:1.1rem; font-weight:600; background:#f8fafc; transition:all .2s;
-  }
+  .dropdown-container { display:flex; flex-direction:column; align-items:center; text-align:center; gap:.9rem; margin-bottom:2.5rem; font-size:1rem; width:100%; }
+  .dropdown-row { display:flex; flex-wrap:nowrap; align-items:center; justify-content:center; gap:.6rem; }
+  .dropdown-select { min-width:160px; padding:.7rem 1rem; border:2px solid #cbd5e1; border-radius:12px; font-size:1.1rem; font-weight:600; background:#f8fafc; transition:all .2s; }
   .dropdown-select:focus { outline:none; border-color:var(--c-primary); box-shadow:0 0 0 3px rgba(124,58,237,0.15); }
-  .dropdown-btn {
-   background:#9b94b0;color:#fff;border:none;border-radius:12px;padding:.7rem 1.4rem;font-size:1.1rem;font-weight:700;cursor:pointer;transition:background .2s, transform .1s;
-  }
+  .dropdown-btn { background:#9b94b0;color:#fff;border:none;border-radius:12px;padding:.7rem 1.4rem;font-size:1.1rem;font-weight:700;cursor:pointer;transition:background .2s, transform .1s; }
   .dropdown-btn:hover { background:#887ea6; transform:translateY(-2px); }
   .dropdown-btn:active { transform:translateY(0); }
-
-  @media (max-width:640px){
-   .dropdown-select{min-width:140px;padding:.6rem .9rem;font-size:.95rem;}
-  }
+  @media (max-width:640px){ .dropdown-select{min-width:140px;padding:.6rem .9rem;font-size:.95rem;} }
 
   /* Legend / tags */
   .legend{display:flex;flex-wrap:wrap;gap:.5rem;padding:0 .25rem .25rem;margin:0 0 1.25rem 0;list-style:none;}
@@ -97,11 +86,12 @@
   .filter-panel.open{display:block}
 
   .topic-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.25rem}
-  .word-card{border:2px solid #cbd5e1;border-radius:12px;background:#fff;box-shadow:0 4px 6px rgba(0,0,0,.03);overflow:hidden;transition:transform .2s,box-shadow .2s; position: relative;} /* Added position relative */
+  /* Added position relative for star button */
+  .word-card{border:2px solid #cbd5e1;border-radius:12px;background:#fff;box-shadow:0 4px 6px rgba(0,0,0,.03);overflow:hidden;transition:transform .2s,box-shadow .2s; position: relative;}
   .word-card.hidden{display:none}
   .word-card:hover{transform:translateY(-5px);box-shadow:0 8px 15px rgba(0,0,0,.07)}
 
-  /* === START OF ADDED CSS FOR MY LIST === */
+  /* === ADDED: Star Button & List Styles === */
   .star-btn {
    position: absolute; top: 10px; right: 10px;
    background: none; border: none; font-size: 1.8rem; cursor: pointer;
@@ -111,37 +101,25 @@
   .star-btn:hover { transform: scale(1.1); }
   .star-btn.active { color: #fbbf24; text-shadow: 0 2px 4px rgba(251,191,36,0.3); }
 
-  .card-header{display:flex;justify-content:space-between;align-items:center;padding:1rem 1.25rem;background:#f1f5f9;border-bottom:2px solid #e2e8f0; padding-right: 3rem;} /* Added padding-right for star */
-  
   .my-list-btn-home {
    background: #fff; border: 2px solid #fbbf24; color: #b45309;
-   font-weight: 700; font-size: 1.1rem;  padding: .7rem 2rem; border-radius: 99px;
+   font-weight: 700; font-size: 1.1rem; padding: .7rem 2rem; border-radius: 99px;
    margin-top: 1rem; cursor: pointer; display: inline-flex; align-items: center; gap: .5rem;
    transition: all .2s; box-shadow: 0 4px 6px rgba(251,191,36,0.15);
   }
   .my-list-btn-home:hover { background: #fffbeb; transform: translateY(-2px); box-shadow: 0 6px 12px rgba(251,191,36,0.25); }
 
-  .mylist-actions {
-   display: flex; gap: 10px; justify-content: center; margin-bottom: 1.5rem; flex-wrap: wrap;
-  }
-  .action-btn {
-   background: #fff; border: 1px solid #cbd5e1; padding: .5rem 1rem; border-radius: 8px;
-   font-size: 0.9rem; cursor: pointer; display: inline-flex; align-items: center; gap: 6px;
-   color: #475569; font-weight: 600;
-  }
+  .mylist-actions { display: flex; gap: 10px; justify-content: center; margin-bottom: 1.5rem; flex-wrap: wrap; }
+  .action-btn { background: #fff; border: 1px solid #cbd5e1; padding: .5rem 1rem; border-radius: 8px; font-size: 0.9rem; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; color: #475569; font-weight: 600; }
   .action-btn:hover { background: #f1f5f9; color: #1e293b; }
-  .print-btn { border-color: #94a3b8; background: #f8fafc; }
-  /* === END OF ADDED CSS === */
 
+  /* Adjusted header for star button space */
+  .card-header{display:flex;justify-content:space-between;align-items:center;padding:1rem 1.25rem;background:#f1f5f9;border-bottom:2px solid #e2e8f0; padding-right: 3rem;}
   .card-title{display:flex;align-items:baseline;gap:.6rem}
   .word-number{font-size:1.15rem;font-weight:700;color:#475569}
   .word-text{font-size:1.9rem;font-weight:800;color:#0f172a}
    
-  .source-link-btn {
-   display: block; margin-top: 0px; font-size: 0.8rem; color: #3b82f6;
-   background: none; border: none; padding: 0; cursor: pointer;
-   text-decoration: underline; text-align: left; font-weight: 600;
-  }
+  .source-link-btn { display: block; margin-top: 0px; font-size: 0.8rem; color: #3b82f6; background: none; border: none; padding: 0; cursor: pointer; text-decoration: underline; text-align: left; font-weight: 600; }
   .source-link-btn:hover { color: #1d4ed8; }
 
   .audio-button{font-size:2rem;cursor:pointer;background:none;border:none;padding:0;line-height:1;transition:transform .1s}
@@ -214,30 +192,25 @@
   .support-btn{display:inline-block;background: linear-gradient(90deg, #D9DDF0, #BFCBE6);color:#ffffff;font-weight:600;font-size:0.95rem;padding:.55rem 1.2rem;border-radius:9999px;box-shadow:0 6px 14px rgba(0,0,0,.08);text-decoration:none;transition:transform .15s ease, box-shadow .2s ease, background .2s ease;}
   .support-btn:hover{background: linear-gradient(90deg, #CCD2EC, #B1BFE1);}
   .support-btn:focus{outline:3px solid rgba(160, 175, 215, .45);outline-offset:2px;}
-
-  .back-to-top{position:fixed;right:1.4rem;bottom:3rem;z-index:50;padding:.7rem 1.05rem;border-radius:999px;border:none;background:#887ea6;color:#fff;font-size:1.1rem;font-weight:700;cursor:pointer;box-shadow:0 6px 14px rgba(15,23,42,.18);opacity:0;pointer-events:none;transform:translateY(6px);transition:opacity .2s ease, transform .15s ease, box-shadow .2s ease, background .2s ease;}
-  .back-to-top.visible{opacity:1;pointer-events:auto;transform:translateY(0);}
-  .back-to-top:hover{background:#6f668f;box-shadow:0 10px 20px rgba(15,23,42,.22);}
-  .back-to-top:focus{outline:3px solid rgba(136,126,166,.45);outline-offset:2px;}
   @media (max-width:768px){ .back-to-top{right:1rem;bottom:3rem;font-size:1.05rem;padding:.6rem .9rem;} }
   @media (max-width:640px){ .support-btn{font-size:0.85rem;padding:.45rem 1rem;} }
 
-/* Print Styles */
-@media print {
- html, body { height: auto !important; min-height: 0 !important; margin: 0 !important; padding: 0 !important; overflow: visible !important; background: #fff !important; font-size: 12pt; }
- .container { box-shadow: none !important; max-width: 100% !important; width: 100% !important; padding: 0 !important; margin: 0 !important; min-height: 0 !important; border: none !important; }
- .back-button, .searchbar, .home-progress-bar, .dropdown-container, .filter-bar, .filter-panel, .toggle-container, .attribution-note, .credits, .support-cta, .audio-button, .back-to-top, .star-btn, .mylist-actions, #searchMsg, .source-link-btn, #goMyListBtn { display: none !important; }
- #homePage, #searchResultPage { display: none !important; }
- .page-section.active { display: block !important; }
- .topic-grid { display: block !important; }
- .word-card { break-inside: avoid; page-break-inside: avoid; box-shadow: none; border: 1px solid #000; margin-bottom: 1rem; display: inline-block; width: 48%; vertical-align: top; margin-right: 1%; }
- .card-header { background: #fff; border-bottom: 1px solid #ccc; padding: 0.2rem 0.5rem; }
- .word-text { color: #000; font-size: 1.4rem; }
- .phoneme-box { color: #000 !important; border: 1px solid #000; font-weight: normal !important; }
- .grapheme-box { background: #fff; color: #000; border: 1px solid #000; }
- .badges { display: none; } 
- .box.phoneme-box span.phoneme-vowel, .box.phoneme-box span.phoneme-consonant { color: #000 !important; }
-}
+  /* Print Styles */
+  @media print {
+    html, body { height: auto !important; margin: 0 !important; padding: 0 !important; overflow: visible !important; background: #fff !important; font-size: 12pt; }
+    .container { box-shadow: none !important; max-width: 100% !important; width: 100% !important; padding: 0 !important; margin: 0 !important; min-height: 0 !important; border: none !important; }
+    .back-button, .searchbar, .home-progress-bar, .dropdown-container, .filter-bar, .filter-panel, .toggle-container, .attribution-note, .credits, .support-cta, .audio-button, .back-to-top, .star-btn, .mylist-actions, #searchMsg, .source-link-btn, #goMyListBtn { display: none !important; }
+    #homePage, #searchResultPage { display: none !important; }
+    .page-section.active { display: block !important; }
+    .topic-grid { display: block !important; }
+    .word-card { break-inside: avoid; page-break-inside: avoid; box-shadow: none; border: 1px solid #000; margin-bottom: 1rem; display: inline-block; width: 48%; vertical-align: top; margin-right: 1%; }
+    .card-header { background: #fff; border-bottom: 1px solid #ccc; padding: 0.2rem 0.5rem; }
+    .word-text { color: #000; font-size: 1.4rem; }
+    .phoneme-box { color: #000 !important; border: 1px solid #000; font-weight: normal !important; }
+    .grapheme-box { background: #fff; color: #000; border: 1px solid #000; }
+    .badges { display: none; } 
+    .box.phoneme-box span.phoneme-vowel, .box.phoneme-box span.phoneme-consonant { color: #000 !important; }
+  }
  </style>
 </head>
 
@@ -253,6 +226,7 @@
    <section id="homePage" class="page-section active">
     <h1>英文拼字 × 聲音對照<br>Word Mapper</h1>
      
+    <!-- 首頁四步驟說明列 -->
     <div class="home-progress-bar" aria-label="學習步驟">
      <div class="home-step"><p class="home-step-label"><span class="home-step-top">整體</span><span class="home-step-bottom">發音</span></p></div>
      <div class="home-step-line"></div>
@@ -266,9 +240,7 @@
     <ul id="topicList" class="topic-list"></ul>
 
     <!-- My List Button -->
-    <button id="goMyListBtn" class="my-list-btn-home">
-     ⭐ 我的自選字表
-    </button>
+    <button id="goMyListBtn" class="my-list-btn-home">⭐ 我的自選字表</button>
    </section>
 
    <!-- Search Results Section -->
@@ -283,14 +255,12 @@
    <section id="myListPage" class="page-section">
     <button class="back-button" data-page-target="homePage"><i class="fa-solid fa-arrow-left"></i> 返回目錄</button>
     <h1>⭐ 我的自選字表</h1>
-     
     <div class="mylist-actions">
      <button class="action-btn print-btn" id="printListBtn"><i class="fa-solid fa-print"></i> 列印</button>
      <button class="action-btn" id="exportListBtn"><i class="fa-solid fa-file-export"></i> 匯出</button>
      <button class="action-btn" id="importListBtn"><i class="fa-solid fa-file-import"></i> 匯入</button>
      <input type="file" id="importInput" style="display:none" accept=".json">
     </div>
-     
     <p id="myListMsg" style="text-align:center; color:#64748b; margin-bottom:1rem;"></p>
     <div id="myList_Content"></div>
    </section>
@@ -299,9 +269,9 @@
   </main>
 
   <footer class="credits">
-   <a href="mailto:mamahowma@gmail.com" aria-label="Email mamahowma"><i class="fa-solid fa-envelope fa-xl fa-fw"></i></a>&emsp;
-   <a href="https://www.facebook.com/mamahowma" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook fa-xl fa-fw"></i></a>&emsp;
-   <a href="https://portaly.cc/mamahowma/support" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-mug-hot fa-xl fa-fw"></i></a>
+   <a href="mailto:mamahowma@gmail.com" aria-label="Email mamahowma"><i class="fa-solid fa-envelope fa-xl fa-fw" aria-hidden="true"></i></a>&emsp;
+   <a href="https://www.facebook.com/mamahowma" target="_blank" rel="noopener noreferrer" aria-label="mamahowma Facebook Page"><i class="fa-brands fa-facebook fa-xl fa-fw" aria-hidden="true"></i></a>&emsp;
+   <a href="https://portaly.cc/mamahowma/support" target="_blank" rel="noopener noreferrer" aria-label="Support mamahowma"><i class="fa-solid fa-mug-hot fa-xl fa-fw" aria-hidden="true"></i></a>
    <br /><br />
    <div class="support-cta">
     <a href="https://portaly.cc/mamahowma/support" target="_blank" rel="noopener noreferrer" class="support-btn">
@@ -315,9 +285,8 @@
  <button id="backToTop" class="back-to-top" type="button" aria-label="返回頂部">↑ TOP</button>
 
  <script>
-  // ================== CONFIG ==================
+  // ================== 全域開關 & 自動調整 ==================
   const DISABLE_PREFETCH = false;
-
   const conn = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
   const IS_SAVE_DATA = !!(conn && conn.saveData);
   const EFFECTIVE_TYPE = (conn && conn.effectiveType) || '';
@@ -330,6 +299,35 @@
   const PREFETCH_CONCURRENCY = IS_IOS ? 4 : 6;
 
   window.PhonicsApp = window.PhonicsApp || { pendingHighlight: null };
+
+  // ================== DATA STORAGE (Added) ==================
+  let MY_LIST = [];
+  try {
+   const saved = localStorage.getItem('phonics_mylist');
+   if(saved) MY_LIST = JSON.parse(saved);
+  } catch(e){ console.warn('Load list failed', e); }
+
+  function saveMyList(){
+   localStorage.setItem('phonics_mylist', JSON.stringify(MY_LIST));
+  }
+   
+  function toggleMyList(wordItem, folder){
+   const key = String(wordItem.word).toLowerCase();
+   const idx = MY_LIST.findIndex(x => String(x.word).toLowerCase() === key);
+   if(idx >= 0){
+    MY_LIST.splice(idx, 1); // remove
+    saveMyList();
+    return false;
+   } else {
+    MY_LIST.push({ ...wordItem, _folder: folder });
+    saveMyList();
+    return true;
+   }
+  }
+   
+  function isWordInList(word){
+   return MY_LIST.some(x => String(x.word).toLowerCase() === String(word).toLowerCase());
+  }
 
   // ================== UTILS ==================
   function escapeHtml(text) {
@@ -359,9 +357,7 @@
     if(ch === '<'){
      const j = src.indexOf('>', i);
      if(j === -1){ out += ch; i++; continue; }
-     out += src.slice(i, j+1);
-     i = j + 1;
-     continue;
+     out += src.slice(i, j+1); i = j + 1; continue;
     }
     if(NEUTRAL_CHARS.has(ch)){ out += ch; i++; continue; }
     if(VOWEL_CHARS.has(ch)){ out += `<span class="phoneme-vowel">${}</span>`; }
@@ -378,41 +374,10 @@
    magic_e: "長母音 + 靜音 'e'", vowel_team: "母音組合", silent_consonant: "不發音子音字母", cvc: "單一閉音節（短母音）"  
   };
 
-  // ================== DATA & STORAGE ==================
-  const TOPICS_URL = 'topics.json'; // Keep exactly as is
+  const TOPICS_URL = 'topics.json';
   const CACHE = { topics: null, data: {} };
   const loadingState = new Set();
 
-  // My List Storage
-  let MY_LIST = [];
-  try {
-   const saved = localStorage.getItem('phonics_mylist');
-   if(saved) MY_LIST = JSON.parse(saved);
-  } catch(e){ console.warn('Load list failed', e); }
-
-  function saveMyList(){
-   localStorage.setItem('phonics_mylist', JSON.stringify(MY_LIST));
-  }
-   
-  function toggleMyList(wordItem, folder){
-   const key = String(wordItem.word).toLowerCase();
-   const idx = MY_LIST.findIndex(x => String(x.word).toLowerCase() === key);
-   if(idx >= 0){
-    MY_LIST.splice(idx, 1); // remove
-    saveMyList();
-    return false;
-   } else {
-    MY_LIST.push({ ...wordItem, _folder: folder });
-    saveMyList();
-    return true;
-   }
-  }
-   
-  function isWordInList(word){
-   return MY_LIST.some(x => String(x.word).toLowerCase() === String(word).toLowerCase());
-  }
-
-  // ================== FETCH & AUDIO ==================
   function fetchWithTimeout(url, opts={}, timeout=8000){
    return Promise.race([
     fetch(url, opts),
@@ -421,12 +386,11 @@
   }
 
   const AUDIO_BASE = './audio/';
-  let levelFolder = ''; // This is set globally when a level is loaded
+  let levelFolder = '';
 
-  // Matches original logic
   function audioUrlForWord(item){
    if (item.audio) return item.audio;
-   // Logic: use item's stored folder if exists (for search/my list), else global levelFolder
+   // Use stored folder (My List) or global level folder
    const folder = item._folder || levelFolder; 
    const safeName = String(item.word||'').toLowerCase().replace(/\s+/g, "_");
    return `${}${}/${}.mp3`;
@@ -485,7 +449,6 @@
    }
   }
 
-  // Keep path exactly as in working version
   let PHONEME = { files: {} };
   fetchWithTimeout('data/phoneme-audio.json').then(r => r.ok ? r.json() : {files:{}}).then(j => { PHONEME = j || {files:{}}; }).catch(()=>{});
 
@@ -495,7 +458,7 @@
    return (PHONEME.files && PHONEME.files[key]) ? PHONEME.files[key] : null;
   }
 
-  // ================== EVENTS ==================
+  // ====== 事件委派 (包含搜尋結果的連結點擊) ======
   document.addEventListener('click', (e) => {
    // 1. Word Audio
    const btn = e.target.closest('.audio-button');
@@ -504,7 +467,7 @@
     if(url) playAudioSmart(url, btn);
     return;
    }
-
+   
    // 2. Link Navigation
    const sourceLink = e.target.closest('.source-link-btn');
    if(sourceLink){
@@ -513,50 +476,41 @@
     return;
    }
 
-   // 3. Phoneme Audio Click
+   // 3. Phoneme Audio - [Fixed] Use dataset key for cleaner lookup
    const cell = e.target.closest('.phoneme-box');
    if(cell){
-    const raw = cell.textContent;
+    const raw = cell.getAttribute('data-phoneme-key') || cell.textContent;
     const url = phonemeUrl(raw);
     if(!url){ cell.style.background='#fee2e2'; setTimeout(()=>cell.style.background='',400); return; }
     playAudioSmart(url, cell);
     return;
    }
 
-   // 4. Star Button Click (Add to My List)
+   // 4. Star Button
    const starBtn = e.target.closest('.star-btn');
    if(starBtn){
     const card = starBtn.closest('.word-card');
     const word = card.getAttribute('data-word');
-    // Find data in currentTopicData
     let itemData = currentTopicData.find(x => String(x.word).toLowerCase() === word);
-    
-    // If not in currentTopicData (rare, but for robustness), reconstruct min data
-    if(!itemData && isWordInList(word)) {
-        itemData = MY_LIST.find(x => String(x.word).toLowerCase() === word);
-    }
+    if(!itemData && isWordInList(word)) { itemData = MY_LIST.find(x => String(x.word).toLowerCase() === word); }
 
     if(itemData){
      const folder = itemData._folder || levelFolder;
      const isAdded = toggleMyList(itemData, folder);
      starBtn.innerHTML = isAdded ? '★' : '☆';
      starBtn.classList.toggle('active', isAdded);
-     
-     // If we are on My List page, re-render to remove it immediately or show update
-     if(document.getElementById('myListPage').classList.contains('active')){
-        showMyListPage(); 
-     }
+     if(document.getElementById('myListPage').classList.contains('active')){ showMyListPage(); }
     }
     return;
    }
 
-   // 5. My List Page Buttons
+   // 5. My List Actions
    if(e.target.id === 'goMyListBtn'){ showMyListPage(); return; }
    if(e.target.id === 'printListBtn'){ window.print(); return; }
    if(e.target.id === 'exportListBtn'){ exportMyList(); return; }
    if(e.target.id === 'importListBtn'){ document.getElementById('importInput').click(); return; }
 
-   // 6. Other Navigation
+   // 6. Others
    const nav = e.target.closest('[data-page-target]');
    if(nav){ showPage(nav.getAttribute('data-page-target')); return; }
    const retry = e.target.closest('[data-action="reload"]');
@@ -569,7 +523,7 @@
    }
   });
 
-  // Import Logic
+  // Import Listener
   document.getElementById('importInput').addEventListener('change', (e) => {
       const file = e.target.files[0];
       if(!file) return;
@@ -577,12 +531,7 @@
       reader.onload = function(evt) {
           try {
               const list = JSON.parse(evt.target.result);
-              if(Array.isArray(list)){
-                  MY_LIST = list;
-                  saveMyList();
-                  showMyListPage();
-                  alert('匯入成功！');
-              }
+              if(Array.isArray(list)){ MY_LIST = list; saveMyList(); showMyListPage(); alert('匯入成功！'); }
           } catch(err){ alert('檔案格式錯誤'); }
       };
       reader.readAsText(file);
@@ -595,19 +544,18 @@
      const btn = e.target.closest('.audio-button'); 
      if(btn){ const url = btn.getAttribute('data-audio-url'); if(url) ensureAudio(url).catch(()=>{}); return; }
      const cell = e.target.closest('.phoneme-box');
-     if(cell){ const raw = cell.textContent; const url = phonemeUrl(raw); if(url) ensureAudio(url).catch(()=>{}); }
+     if(cell){ const raw = cell.getAttribute('data-phoneme-key') || cell.textContent; const url = phonemeUrl(raw); if(url) ensureAudio(url).catch(()=>{}); }
     }, true);
    }
    document.addEventListener('touchstart', (e)=>{
     const btn = e.target.closest('.audio-button'); 
     if(btn){ const url = btn.getAttribute('data-audio-url'); if(url) ensureAudio(url).catch(()=>{}); return; }
     const cell = e.target.closest('.phoneme-box');
-    if(cell){ const raw = cell.textContent; const url = phonemeUrl(raw); if(url) ensureAudio(url).catch(()=>{}); }
+    if(cell){ const raw = cell.getAttribute('data-phoneme-key') || cell.textContent; const url = phonemeUrl(raw); if(url) ensureAudio(url).catch(()=>{}); }
    }, { passive:true });
   }
   setupAudioPrefetchListeners();
 
-  // ================== RENDER ==================
   let selectedFilter = 'all'; 
   let currentTopicData=[];
   let isPhonicsMode=false;
@@ -684,7 +632,7 @@
       if(!grid) return;
       const urls = new Set();
       grid.querySelectorAll('.phoneme-box').forEach(cell=>{
-       const raw = cell.textContent;
+       const raw = cell.getAttribute('data-phoneme-key') || cell.textContent;
        const url = phonemeUrl(raw);
        if (url) urls.add(url);
       });
@@ -716,15 +664,14 @@
      const phClass = (isPhonicsMode)?'is-phonics':'';
      const pHtmlRaw = isPhonicsMode ? sanitizePhonemeHtml(p, true) : escapeHtml(p);
      const pHtml = colorizePhonemes(pHtmlRaw);
+     // Fix: Add data-phoneme-key so we don't rely on innerHTML for lookup
+     const cleanKey = String(p).replace(/<[^>]+>/g,'').trim();
      cells+=`
       <div class="grapheme-box box">${escapeHtml(g)}${heart}</div>
-      <div class="phoneme-box box ${phClass}">${pHtml}</div>
+      <div class="phoneme-box box ${phClass}" data-phoneme-key="${escapeAttr(cleanKey)}">${pHtml}</div>
      `;
     }
 
-    // IMPORTANT: Determine folder for audio
-    // If item comes from My List or Search, it has _folder. If from standard loading, use levelFolder.
-    // We ensure _folder is attached during standard loading too (see showPage).
     const audioURL = audioUrlForWord(w);
     const inList = isWordInList(w.word);
 
@@ -740,8 +687,7 @@
       </div>
      `;
     } else {
-      // 正常情況 (if w.number exists, else use index)
-      const num = w.number ? escapeHtml(w.number) : (idx + 1) + '.';
+      const num = w.number ? escapeHtml(w.number) : '';
       titleExtraHtml = `<span class="word-number">${num}</span>`;
     }
 
@@ -784,7 +730,6 @@
    });
   }
 
-  // ================== MY LIST & EXPORT ==================
   function showMyListPage(){
       showPage('myListPage');
       const container = document.getElementById('myList_Content');
@@ -796,11 +741,8 @@
           return;
       }
       msg.textContent = `共 ${MY_LIST.length} 個單字`;
-      
       const gridId = 'mylist-grid';
       container.innerHTML = `<div class="topic-grid" id="${gridId}"></div>`;
-      
-      // Render list using the same function
       currentTopicData = MY_LIST;
       renderCards(gridId);
   }
@@ -816,7 +758,6 @@
       node.remove();
   }
 
-  // ================== SEARCH INDEX ==================
   let WORD_INDEX = {};
   function buildWordIndexFromAll(){
    WORD_INDEX = {};
@@ -869,6 +810,7 @@
    currentTopicData = hits.map(hit => {
     const newItem = { ...hit.item };
     newItem._folder = hit.folder; 
+    // 注入來源資訊，供 renderCards 產生按鈕
     newItem._sourcePageId = hit.pageId;
     newItem._sourceTitle = `${hit.topicTitle} ${hit.levelLabel || ''}`;
     return newItem;
@@ -905,9 +847,7 @@
    window.PhonicsApp.pendingHighlight='';
   }
 
-  // ================== NAVIGATION ==================
   function showPage(pageId){
-   // Handle special pages
    if(pageId === 'homePage' || pageId === 'myListPage' || pageId === 'searchResultPage'){
        document.querySelectorAll('.page-section').forEach(p=>p.classList.remove('active'));
        document.getElementById(pageId).classList.add('active');
@@ -942,8 +882,8 @@
      .then(json=>{
       CACHE.data[lv.src]=json; loadingState.delete(lv.src);
       if(document.getElementById(pageId)?.classList.contains('active')){
-       // Attach folder info to items for My List logic
-       currentTopicData = (json.items||[]).map(item => ({...item, _folder: levelFolder}));
+       // Fix: Save folder context for My List
+       currentTopicData = (json.items||[]).map(i => ({...i, _folder: levelFolder}));
        initTopicPage(contentId);
       }
      })
@@ -953,8 +893,7 @@
       if(t) t.innerHTML = `<p style="color:#b91c1c">載入失敗：${escapeHtml(lv.src)}（${escapeHtml(e.message)}） <button data-action="reload">重試</button></p>`;
      });
    }else if(CACHE.data[lv.src]){
-    // Attach folder info
-    currentTopicData = (CACHE.data[lv.src].items||[]).map(item => ({...item, _folder: levelFolder}));
+    currentTopicData = (CACHE.data[lv.src].items||[]).map(i => ({...i, _folder: levelFolder}));
     initTopicPage(contentId);
    }
   }
@@ -979,7 +918,6 @@
       </select>
       <button id="enterBtn" class="dropdown-btn">選擇</button>
      </div>
-     <!-- My List Button moved to main home HTML to keep dropdown clean -->
     </div>
    `;
 
@@ -1051,7 +989,6 @@
    );
    buildWordIndexFromAll();
 
-   // Default state
    document.querySelectorAll('.page-section').forEach(p=>p.classList.remove('active'));
    document.getElementById('homePage').classList.add('active');
 
