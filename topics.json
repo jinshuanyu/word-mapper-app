@@ -139,6 +139,24 @@
                 { "label": "稱呼", "src": "data/people-6.json" }
       ]
     },
+    {
+  "slug": "places",
+  "title": "Places 地點",
+  "levels": [
+    { 
+      "label": "方位與位置", 
+      "src": "data/places-1.json" 
+    },
+    { 
+      "label": "商業與公共建築", 
+      "src": "data/places-2.json" 
+    },
+    { 
+      "label": "區域與一般地點", 
+      "src": "data/places-3.json" 
+    }
+  ]
+},
             {
       "slug": "school",
       "title": "School 學校",
@@ -185,6 +203,7 @@
 }
   ]
 }
+
 
 
 
