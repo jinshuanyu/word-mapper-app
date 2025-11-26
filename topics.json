@@ -209,7 +209,18 @@
       "src": "data/transportation-2.json" 
     }
   ]
+},
+    {
+  "slug": "world",
+  "title": "World 世界",
+  "levels": [
+    { "label": "世界與地理", "src": "data/world-1.json" },
+    { "label": "亞洲與大洋洲", "src": "data/world-2.json" },
+    { "label": "歐洲與非洲", "src": "data/world-3.json" },
+    { "label": "美洲", "src": "data/world-4.json" }
+  ]
 }
   ]
 }
+
 
