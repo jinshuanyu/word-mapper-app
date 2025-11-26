@@ -29,7 +29,7 @@
 "graphemes": ["ea","r"],
 "phonemes": ["/ɪ","r/"],
 "phonics": ["/ĭ","r/"],
-"tags": ["vowel_team"],
+"tags": ["vowel_team","rcontrolled"],
 "hearts": [false,false],
 "hint": "ear 發 /ɪr/。"
 },
@@ -84,7 +84,7 @@
 "graphemes": ["h","ai","r"],
 "phonemes": ["/h","ɛ","r/"],
 "phonics": ["/h","ĕ","r/"],
-"tags": ["vowel_team"],
+"tags": ["vowel_team","rcontrolled"],
 "hearts": [false,false,false],
 "hint": "air 發 /ɛr/。"
 },
@@ -95,7 +95,7 @@
 "graphemes": ["h","a","n","d"],
 "phonemes": ["/h","æ","n","d/"],
 "phonics": ["/h","ă","n","d/"],
-"tags": ["closed","cluster"],
+"tags": ["cvc","cluster"],
 "hearts": [false,false,false,false],
 "hint": "a 發短母音 a /æ/。"
 },
@@ -116,7 +116,7 @@
 "ipa": "/lɛɡ/",
 "graphemes": ["l","e","g"],
 "phonemes": ["/l","ɛ","ɡ/"],
-"phonics": ["/l","ĕ","g/"],
+"phonics": ["/l","ĕ","ɡ/"],
 "tags":["cvc"],
 "hearts": [false,false,false],
 "hint": "e 發短母音 e /ɛ/。"
