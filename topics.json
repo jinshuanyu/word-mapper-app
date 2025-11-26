@@ -167,7 +167,16 @@
          { "label": "學習活動", "src": "data/school-4.json" }
       ]
     },
-        {
+ {
+  "slug": "size",
+  "title": "Sizes & Measurements 測量",
+  "levels": [
+    { "label": "單位與測量", "src": "data/size-1.json" },
+    { "label": "形狀與幾何", "src": "data/size-2.json" },
+    { "label": "尺寸與數量", "src": "data/size-3.json" }
+  ]
+},
+    {
       "slug": "sports",
       "title": "Sports & Hobbies 運動與嗜好",
       "levels": [
@@ -203,43 +212,4 @@
 }
   ]
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
