@@ -217,6 +217,31 @@
     margin-right: 1%;
   }
   }
+
+  /* back-to-top basic style (保留原有 JS 功能) */
+  .back-to-top{
+    position:fixed;
+    right:1.5rem;
+    bottom:2.5rem;
+    padding:.7rem 1.1rem;
+    border-radius:999px;
+    border:none;
+    background:#e5e7eb;
+    color:#111827;
+    font-weight:700;
+    cursor:pointer;
+    box-shadow:0 4px 10px rgba(0,0,0,.12);
+    opacity:0;
+    pointer-events:none;
+    transition:opacity .2s, transform .2s;
+    transform:translateY(10px);
+    z-index:50;
+  }
+  .back-to-top.visible{
+    opacity:1;
+    pointer-events:auto;
+    transform:translateY(0);
+  }
  </style>
 </head>
 
@@ -491,6 +516,10 @@
 
   async function playAudioSmart(url, btn){
     try{
+      if (!url) return;
+      if (btn && btn.classList.contains('phoneme-box')){
+        btn.classList.add('loading-audio');
+      }
       const src = await ensureAudio(url);
       if (!src) return;
       const p = new Audio();
@@ -501,14 +530,23 @@
       if (playPromise !== undefined) await playPromise;
     }catch(e){
       if (btn){
-        const original = btn.textContent || btn.innerHTML;
-        btn.textContent = '❌';
-        setTimeout(() => {
-          if (typeof original === 'string') btn.textContent = original;
-          else btn.innerHTML = original;
-        }, 800);
+        if (btn.classList.contains('phoneme-box')){
+          btn.style.background = '#fee2e2';
+          setTimeout(() => { btn.style.background = ''; }, 400);
+        } else {
+          const original = btn.textContent || btn.innerHTML;
+          btn.textContent = '❌';
+          setTimeout(() => {
+            if (typeof original === 'string') btn.textContent = original;
+            else btn.innerHTML = original;
+          }, 800);
+        }
       }
       console.warn('播放失敗：', url, e);
+    } finally {
+      if (btn && btn.classList.contains('phoneme-box')){
+        btn.classList.remove('loading-audio');
+      }
     }
   }
 
@@ -521,14 +559,27 @@
 
   function phonemeUrl(raw){
     if (!PHONEME.files) return null;
-    if (PHONEME.files[raw]) return PHONEME.files[raw];
-    const key = String(raw)
-      .replace(/<[^>]+>/g,'')
-      .replace(/'/g,'')
-      .trim()
-      .replace(/^\/|\/$/g,'')
-      .replace(/\s+/g,'');
-    if (PHONEME.files[key]) return PHONEME.files[key];
+    const orig = String(raw || '');
+    const candidates = [];
+
+    candidates.push(orig);
+    candidates.push(orig.trim());
+
+    const noTags = orig.replace(/<[^>]+>/g,'');
+    candidates.push(noTags);
+    candidates.push(noTags.trim());
+
+    const noSlashes = noTags.replace(/^\/|\/$/g,'');
+    candidates.push(noSlashes);
+    candidates.push(noSlashes.trim());
+
+    const noSpaces = noSlashes.replace(/\s+/g,'');
+    candidates.push(noSpaces);
+    candidates.push(noSpaces.toLowerCase());
+
+    for (const c of candidates){
+      if (c && PHONEME.files[c]) return PHONEME.files[c];
+    }
     return null;
   }
 
@@ -626,8 +677,6 @@
       return;
     }
   });
-
-  // （原本的 Import JSON listener 移除，改用 64 位字串匯入）
 
   // ======= Prefetch listeners for hover/touch =======
   function setupAudioPrefetchListeners(){
