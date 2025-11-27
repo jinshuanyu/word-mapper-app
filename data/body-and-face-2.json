@@ -18,7 +18,7 @@
       "graphemes": ["b","ea","r","d"],
       "phonemes": ["/b","ɪ","r","d/"],
       "phonics": ["/b","ĭ","r","d/"],
-      "tags": ["vowel_team"],
+      "tags": ["vowel_team","rcontrolled"],
       "hearts": [false,false,false,false],
       "hint": "ear 發 ĭr /ɪr/。"
     },
@@ -52,7 +52,7 @@
       "phonemes": ["/'ɛ","l","b","oʊ/"],
       "phonics": ["/'ĕ","l","b","ō/"],
       "tags": ["closed"],
-      "hearts": [false,false,false,true],
+      "hearts": [false,false,false,false],
       "hint": "e 發短母音 e /ɛ/；ow 發長母音 o /oʊ/。"
     },
     {
@@ -62,7 +62,7 @@
       "graphemes": ["f","ai","r"],
       "phonemes": ["/f","ɛ","r/"],
       "phonics": ["/f","ĕ","r/"],
-      "tags": ["vowel_team"],
+      "tags": ["vowel_team","rcontrolled"],
       "hearts": [false,false,false],
       "hint": "air 發 ĕr /ɛr/。"
     },
@@ -139,7 +139,7 @@
       "graphemes": ["s","t","o","m","a","ch"],
       "phonemes": ["/'s","t","ʌ","m","ə","k/"],
       "phonics": ["/'s","t","ŭ","m","ə","k/"],
-      "tags": ["cluster","irregular"],
+      "tags": ["cluster","irregular","digraph"],
       "hearts": [false,false,true,false,false,true],
       "hint": "st- 連讀時，t 音如 ㄉ；o 發短母音 u /ʌ/；ch 發 /k/。"
     },
