@@ -29,7 +29,7 @@
       "graphemes": ["ch", "i", "n"],
       "phonemes": ["/tʃ", "ɪ", "n/"],
       "phonics": ["/ch", "ĭ", "n/"],
-      "tags": ["digraph", "closed", "cvc"],
+      "tags": ["digraph", "cvc"],
       "hearts": [0, 0, 0],
       "hint": "ch 發 /tʃ/；i 發短母音 /ɪ/。"
     },
@@ -39,7 +39,7 @@
       "ipa": "/hɑrt/",
       "graphemes": ["h", "ear", "t"],
       "phonemes": ["/h", "ɑr", "t/"],
-      "phonics": ["/h", "ar", "t/"],
+      "phonics": ["/h", "ɑr", "t/"],
       "tags": ["irregular"],
       "hearts": [0, 1, 0],
       "hint": "ear 不規則發 /ɑr/ (ar 的音)。"
@@ -51,7 +51,7 @@
       "graphemes": ["h", "i", "p"],
       "phonemes": ["/h", "ɪ", "p/"],
       "phonics": ["/h", "ĭ", "p/"],
-      "tags": ["closed", "cvc"],
+      "tags": ["cvc"],
       "hearts": [0, 0, 0],
       "hint": "i 發短母音 /ɪ/。"
     },
@@ -62,7 +62,7 @@
       "graphemes": ["k", "i", "d", "n", "ey"],
       "phonemes": ["/'k", "ɪ", "d", "n", "i/"],
       "phonics": ["/'k", "ĭ", "d", "n", "ē/"],
-      "tags": ["closed", "vowel_team"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "ey 發長母音 e /i/。"
     },
@@ -73,7 +73,7 @@
       "graphemes": ["l", "i", "p"],
       "phonemes": ["/l", "ɪ", "p/"],
       "phonics": ["/l", "ĭ", "p/"],
-      "tags": ["closed", "cvc"],
+      "tags": ["cvc"],
       "hearts": [0, 0, 0],
       "hint": "i 發短母音 /ɪ/。"
     },
@@ -83,8 +83,8 @@
       "ipa": "/lʌŋ/",
       "graphemes": ["l", "u", "ng"],
       "phonemes": ["/l", "ʌ", "ŋ/"],
-      "phonics": ["/l", "ŭ", "ng/"],
-      "tags": ["closed", "digraph"],
+      "phonics": ["/l", "ŭ", "ŋ/"],
+      "tags": ["cvc", "digraph"],
       "hearts": [0, 0, 0],
       "hint": "u 發 /ʌ/；ng 字尾發鼻音 /ŋ/。"
     },
@@ -106,7 +106,7 @@
       "graphemes": ["s", "k", "i", "n"],
       "phonemes": ["/s", "k", "ɪ", "n/"],
       "phonics": ["/s", "k", "ĭ", "n/"],
-      "tags": ["cluster", "closed"],
+      "tags": ["cluster", "cvc"],
       "hearts": [0, 0, 0, 0],
       "hint": "sk 混合音。"
     },
@@ -128,7 +128,7 @@
       "graphemes": ["th", "u", "m", "b"],
       "phonemes": ["/θ", "ʌ", "m", "-/"],
       "phonics": ["/th", "ŭ", "m", "-/"],
-      "tags": ["digraph", "closed", "silent_consonant"],
+      "tags": ["digraph", "cvc", "silent_consonant"],
       "hearts": [0, 0, 0, 0],
       "hint": "字尾 b 不發音。"
     },
@@ -138,9 +138,9 @@
       "ipa": "/tʌŋ/",
       "graphemes": ["t", "o", "ng", "ue"],
       "phonemes": ["/t", "ʌ", "ŋ", "-/"],
-      "phonics": ["/t", "ŭ", "ng", "-/"],
-      "tags": ["irregular", "digraph", "silent_consonant"],
-      "hearts": [0, 1, 0, 0],
+      "phonics": ["/t", "ŭ", "ŋ", "-/"],
+      "tags": ["irregular", "digraph"],
+      "hearts": [0, 1, 0, 1],
       "hint": "o 發 /ʌ/；ng 發 /ŋ/；字尾 ue 不發音。"
     },
     {
@@ -158,11 +158,11 @@
       "number": "✊ 手腕",
       "word": "wrist",
       "ipa": "/rɪst/",
-      "graphemes": ["wr", "i", "s", "t"],
-      "phonemes": ["/r", "ɪ", "s", "t/"],
-      "phonics": ["/r", "ĭ", "s", "t/"],
-      "tags": ["digraph", "closed", "silent_consonant"],
-      "hearts": [0, 0, 0, 0],
+      "graphemes": ["w","r", "i", "s", "t"],
+      "phonemes": ["/-","r", "ɪ", "s", "t/"],
+      "phonics": ["/-","r", "ĭ", "s", "t/"],
+      "tags": [ "silent_consonant","cvc","cluster" ],
+      "hearts": [1,0, 0, 0, 0],
       "hint": "wr 的 w 不發音。"
     }
   ]
