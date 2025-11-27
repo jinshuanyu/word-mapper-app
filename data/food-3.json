@@ -12,7 +12,7 @@
       "hint": "ea 發短母音 /ɛ/。"
     },
     {
-      "number": "🥯 小圓麵包",
+      "number": "🫓 小圓麵包",
       "word": "bun",
       "ipa": "/bʌn/",
       "graphemes": ["b", "u", "n"],
@@ -166,7 +166,7 @@
       "hint": "ice 的 c 發軟音 /s/。"
     },
     {
-      "number": "🍓 果醬",
+      "number": "🫙 果醬",
       "word": "jam",
       "ipa": "/dʒæm/",
       "graphemes": ["j", "a", "m"],
@@ -181,8 +181,8 @@
       "word": "moon cake",
       "ipa": "/mun keɪk/",
       "graphemes": ["m", "oo", "n", " ", "c", "a", "k", "e"],
-      "phonemes": ["/m", "u", "n", "-", "k", "eɪ", "k", "-/"],
-      "phonics": ["/m", "oo", "n", "-", "k", "ā", "k", "-/"],
+      "phonemes": ["/'m", "u", "n", "-", "k", "eɪ", "k", "-/"],
+      "phonics": ["/'m", "ū", "n", "-", "k", "ā", "k", "-/"],
       "tags": ["vowel_team"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "複合名詞。"
@@ -205,7 +205,7 @@
       "graphemes": ["p", "ie"],
       "phonemes": ["/p", "aɪ/"],
       "phonics": ["/p", "ī/"],
-      "tags": ["open"],
+      "tags": ["vowel_team","open"],
       "hearts": [0, 0],
       "hint": "ie 字尾發 /aɪ/。"
     },
