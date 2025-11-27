@@ -7,7 +7,7 @@
       "graphemes": ["b", "r", "ea", "d"],
       "phonemes": ["/b", "r", "ɛ", "d/"],
       "phonics": ["/b", "r", "ĕ", "d/"],
-      "tags": ["cluster", "vowel_team"],
+      "tags": ["cluster", "irregular"],
       "hearts": [0, 0, 1, 0],
       "hint": "ea 發短母音 /ɛ/。"
     },
@@ -29,7 +29,7 @@
       "graphemes": ["b", "u", "tt", "er"],
       "phonemes": ["/'b", "ʌ", "t", "ɚ/"],
       "phonics": ["/'b", "ŭ", "t", "er/"],
-      "tags": ["closed", "rcontrolled"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0],
       "hint": "tt 發單音 /t/；er 發捲舌音 /ɚ/。"
     },
@@ -51,7 +51,7 @@
       "graphemes": ["c", "a", "n", "d", "y"],
       "phonemes": ["/'k", "æ", "n", "d", "i/"],
       "phonics": ["/'k", "ă", "n", "d", "ē/"],
-      "tags": ["closed", "open"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "y 字尾發 /i/。"
     },
@@ -59,11 +59,11 @@
       "number": "🥣 麥片",
       "word": "cereal",
       "ipa": "/ˈsɪriəl/",
-      "graphemes": ["c", "e", "r", "e", "al"],
-      "phonemes": ["/'s", "ɪ", "r", "i", "əl/"],
-      "phonics": ["/'s", "ēr", "r", "ē", "əl/"],
-      "tags": ["rcontrolled", "irregular"],
-      "hearts": [0, 0, 0, 0, 0],
+      "graphemes": ["c", "e", "r", "e", "a","l"],
+      "phonemes": ["/'s", "ɪ", "r", "i", "ə","l/"],
+      "phonics": ["/'s", "ĭ", "r", "ē", "ə","l/"],
+      "tags": ["open","rcontrolled"],
+      "hearts": [0, 0, 0, 1,1,0],
       "hint": "c 發軟音 /s/。"
     },
     {
@@ -85,7 +85,7 @@
       "phonemes": ["/'tʃ", "ɔ", "k", "-", "l", "ə", "t", "-/"],
       "phonics": ["/'ch", "aw", "k", "-", "l", "ə", "t", "-/"],
       "tags": ["irregular"],
-      "hearts": [0, 0, 0, 1, 0, 1, 0, 0],
+      "hearts": [0, 1, 0, 1, 0, 0, 0, 1],
       "hint": "中間的 o 不發音；a 弱化發 /ə/。"
     },
     {
@@ -96,7 +96,7 @@
       "phonemes": ["/'k", "ʊ", "k", "i/"],
       "phonics": ["/'k", "oo", "k", "ē/"],
       "tags": ["vowel_team"],
-      "hearts": [0, 0, 0, 0],
+      "hearts": [0, 0, 0, 1],
       "hint": "oo 發短音 /ʊ/；ie 發 /i/。"
     },
     {
@@ -117,7 +117,7 @@
       "graphemes": ["d", "e", "ss", "er", "t"],
       "phonemes": ["/d", "ɪ", "'z", "ɝ", "t/"],
       "phonics": ["/d", "ĭ", "'z", "er", "t/"],
-      "tags": ["rcontrolled", "irregular"],
+      "tags": [ "irregular"],
       "hearts": [0, 0, 1, 0, 0],
       "hint": "ss 發 /z/；er 發捲舌音 /ɝ/。"
     },
@@ -126,9 +126,9 @@
       "word": "doughnut",
       "ipa": "/ˈdoʊnʌt/",
       "graphemes": ["d", "ough", "n", "u", "t"],
-      "phonemes": ["/'d", "oʊ", "n", "ʌ", "t/"],
-      "phonics": ["/'d", "ō", "n", "ŭ", "t/"],
-      "tags": ["irregular", "closed"],
+      "phonemes": ["/'d", "oʊ", "n", "ə", "t/"],
+      "phonics": ["/'d", "ō", "n", "ə", "t/"],
+      "tags": ["irregular"],
       "hearts": [0, 1, 0, 0, 0],
       "hint": "ough 發長母音 /oʊ/。"
     },
@@ -136,11 +136,11 @@
       "number": "🌾 麵粉",
       "word": "flour",
       "ipa": "/ˈflaʊɚ/",
-      "graphemes": ["f", "l", "our"],
-      "phonemes": ["/f", "l", "aʊɚ/"],
-      "phonics": ["/f", "l", "ower/"],
+      "graphemes": ["f", "l", "ou","r"],
+      "phonemes": ["/f", "l", "aʊ","ɚ/"],
+      "phonics": ["/f", "l", "ow","er/"],
       "tags": ["cluster", "vowel_team"],
-      "hearts": [0, 0, 0],
+      "hearts": [0, 0, 0,1],
       "hint": "our 發 /aʊɚ/，音同 flower。"
     },
     {
@@ -151,7 +151,7 @@
       "phonemes": ["/'h", "ʌ", "n", "i/"],
       "phonics": ["/'h", "ŭ", "n", "ē/"],
       "tags": ["irregular"],
-      "hearts": [0, 1, 0, 0],
+      "hearts": [0, 1, 0, 1],
       "hint": "o 發 /ʌ/；ey 發 /i/。"
     },
     {
@@ -159,9 +159,9 @@
       "word": "ice cream",
       "ipa": "/aɪs krim/",
       "graphemes": ["i", "c", "e", " ", "c", "r", "ea", "m"],
-      "phonemes": ["/aɪ", "s", "-", "-", "k", "r", "i", "m/"],
-      "phonics": ["/ī", "s", "-", "-", "k", "r", "ē", "m/"],
-      "tags": ["magic_e", "vowel_team"],
+      "phonemes": ["/'aɪ", "s", "-", "-", "k", "r", "i", "m/"],
+      "phonics": ["/'ī", "s", "-", "-", "k", "r", "ē", "m/"],
+      "tags": ["magic_e"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "ice 的 c 發軟音 /s/。"
     },
@@ -171,7 +171,7 @@
       "ipa": "/dʒæm/",
       "graphemes": ["j", "a", "m"],
       "phonemes": ["/dʒ", "æ", "m/"],
-      "phonics": ["/j", "ă", "m/"],
+      "phonics": ["/-j", "ă", "m/"],
       "tags": ["cvc"],
       "hearts": [0, 0, 0],
       "hint": "a 發短母音 /æ/。"
@@ -183,7 +183,7 @@
       "graphemes": ["m", "oo", "n", " ", "c", "a", "k", "e"],
       "phonemes": ["/m", "u", "n", "-", "k", "eɪ", "k", "-/"],
       "phonics": ["/m", "oo", "n", "-", "k", "ā", "k", "-/"],
-      "tags": ["vowel_team", "magic_e"],
+      "tags": ["vowel_team"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "複合名詞。"
     },
@@ -194,7 +194,7 @@
       "graphemes": ["p", "a", "n", "c", "a", "k", "e"],
       "phonemes": ["/'p", "æ", "n", "k", "eɪ", "k", "-/"],
       "phonics": ["/'p", "ă", "n", "k", "ā", "k", "-/"],
-      "tags": ["closed", "magic_e"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0, 0, 0],
       "hint": "a_e 發長母音 /eɪ/。"
     },
@@ -205,7 +205,7 @@
       "graphemes": ["p", "ie"],
       "phonemes": ["/p", "aɪ/"],
       "phonics": ["/p", "ī/"],
-      "tags": ["vowel_team"],
+      "tags": ["open"],
       "hearts": [0, 0],
       "hint": "ie 字尾發 /aɪ/。"
     },
@@ -216,7 +216,7 @@
       "graphemes": ["p", "o", "p", "c", "or", "n"],
       "phonemes": ["/'p", "ɑ", "p", "k", "ɔr", "n/"],
       "phonics": ["/'p", "ŏ", "p", "k", "or", "n/"],
-      "tags": ["closed", "rcontrolled"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "or 發 /ɔr/。"
     },
@@ -238,7 +238,7 @@
       "graphemes": ["y", "o", "g", "ur", "t"],
       "phonemes": ["/'j", "oʊ", "ɡ", "ɚ", "t/"],
       "phonics": ["/'y", "ō", "ɡ", "er", "t/"],
-      "tags": ["open", "rcontrolled"],
+      "tags": ["open"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "o 發 /oʊ/；ur 發 /ɚ/。"
     }
