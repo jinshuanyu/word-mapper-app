@@ -94,6 +94,17 @@
   .filter-panel{display:none;border:2px dashed #e2e8f0;border-radius:12px;padding:.6rem .6rem .4rem;margin:.4rem 0 1rem;background:#fbfbfd;}
   .filter-panel.open{display:block}
 
+  /* === 專門針對電腦版加大篩選按鈕字體 === */
+  @media (min-width: 769px) {
+    .filter-toggle {
+      font-size: 1.2rem; /* 按鈕文字加大 */
+      padding: .6rem 1.2rem; /* 按鈕胖一點 */
+    }
+    .filter-state {
+      font-size: 1.05rem; /* 括號內的文字也加大 */
+    }
+  }
+
   .topic-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.25rem}
   /* Added position relative for star button */
   .word-card{border:2px solid #cbd5e1;border-radius:12px;background:#fff;box-shadow:0 4px 6px rgba(0,0,0,.03);overflow:hidden;transition:transform .2s,box-shadow .2s; position: relative;}
