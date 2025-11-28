@@ -89,25 +89,30 @@
   /* Filter */
   .filter-bar{display:flex;align-items:center;justify-content:space-between;gap:.5rem;margin:.25rem 0 0.5rem;}
   
-  /* 手機版字體縮小以防爆版 */
-  .filter-toggle{display:inline-flex;align-items:center;gap:.4rem;padding:.45rem .7rem;border-radius:10px;border:2px solid var(--c-border);background:#f8fafc;font-weight:800;cursor:pointer;transition:transform .1s ease, box-shadow .2s ease, border-color .2s ease; font-size: 0.95rem;}
+  /* 手機版：字體調小(0.9rem)，padding縮小，避免爆版 */
+  .filter-toggle{display:inline-flex;align-items:center;gap:.4rem;padding:.45rem .7rem;border-radius:10px;border:2px solid var(--c-border);background:#f8fafc;font-weight:800;cursor:pointer;transition:transform .1s ease, box-shadow .2s ease, border-color .2s ease; font-size: 0.9rem;}
   .filter-toggle:hover{transform:translateY(-1px);box-shadow:0 6px 14px rgba(2,6,23,.08);border-color:#cbd5e1}
   
-  .filter-state{font-size:0.9rem;opacity:.7}
+  .filter-state{font-size:0.85rem;opacity:.7}
   
   .filter-panel{display:none;border:2px dashed #e2e8f0;border-radius:12px;padding:.6rem .6rem .4rem;margin:.4rem 0 1rem;background:#fbfbfd;}
   .filter-panel.open{display:block}
 
-  /* 電腦版樣式 */
+  /* 分享按鈕文字：手機版隱藏 */
+  .share-text-desktop { display: none; }
+
+  /* 電腦版樣式覆蓋 */
   @media (min-width: 769px) {
     .filter-toggle {
-      font-size: 1.15rem; 
+      font-size: 1.15rem; /* 電腦版維持大字 */
       padding: .55rem 1.1rem;
       gap: .5rem;
     }
     .filter-state {
       font-size: 1.05rem;
     }
+    /* 電腦版：顯示「分享此頁」文字 */
+    .share-text-desktop { display: inline; margin-left: 6px; }
   }
 
   .topic-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.25rem}
@@ -834,15 +839,15 @@
     // 新增：右側功能按鈕組（包含列印與分享），手機版只顯示圖標
     let rightActionsHTML = '';
     if (contentId !== 'myList_Content') {
-        // 列印按鈕
+        // 列印按鈕 (Icon Only)
         const printBtn = '<button class="action-btn" onclick="window.print()" title="列印" style="border-radius:10px; padding:.55rem .9rem; border:2px solid #e2e8f0;"><i class="fa-solid fa-print"></i></button>';
         
-        // 分享按鈕 (Icon + Text 結構)
+        // 分享按鈕 (手機Icon, 電腦Icon+文字)
+        // 修改重點：拿掉 share-text-mobile，只留 share-text-desktop 並靠 CSS 控制顯示/隱藏
         const shareBtn = 
         '<button class="action-btn share-page-btn" style="border-radius:10px; padding:.55rem .9rem; border:2px solid #e2e8f0; font-weight:600;">' +
-           '<i class="fa-solid fa-share-nodes"></i> ' +
-           '<span class="share-text-desktop">分享此頁</span>' + // 電腦版
-           '<span class="share-text-mobile" style="font-weight:600;">分享</span>' + // 手機版
+           '<i class="fa-solid fa-share-nodes"></i>' +
+           '<span class="share-text-desktop"> 分享此頁</span>' + 
         '</button>';
 
         // 包裝在一起 (列印在左，分享在右)
