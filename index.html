@@ -87,24 +87,33 @@
   .category-tag{padding:.3rem .75rem;border-radius:999px;font-size:.9rem;font-weight:700;border:2px solid;white-space:nowrap;user-select:none}
 
   /* Filter */
-  .filter-bar{display:flex;align-items:center;justify-content:space-between;gap:.75rem;margin:.25rem 0 0.5rem;}
+  .filter-bar{display:flex;align-items:center;justify-content:space-between;gap:.5rem;margin:.25rem 0 0.5rem;}
   
-  .filter-toggle{display:inline-flex;align-items:center;gap:.5rem;padding:.55rem .9rem;border-radius:10px;border:2px solid var(--c-border);background:#f8fafc;font-weight:800;cursor:pointer;transition:transform .1s ease, box-shadow .2s ease, border-color .2s ease; font-size: 1.1rem;}
+  /* 修正：手機版字體縮小 (0.95rem) 以免爆版，並減少 padding */
+  .filter-toggle{display:inline-flex;align-items:center;gap:.4rem;padding:.45rem .7rem;border-radius:10px;border:2px solid var(--c-border);background:#f8fafc;font-weight:800;cursor:pointer;transition:transform .1s ease, box-shadow .2s ease, border-color .2s ease; font-size: 0.95rem;}
   .filter-toggle:hover{transform:translateY(-1px);box-shadow:0 6px 14px rgba(2,6,23,.08);border-color:#cbd5e1}
   
-  .filter-state{font-size:1rem;opacity:.7}
+  .filter-state{font-size:0.9rem;opacity:.7}
   
   .filter-panel{display:none;border:2px dashed #e2e8f0;border-radius:12px;padding:.6rem .6rem .4rem;margin:.4rem 0 1rem;background:#fbfbfd;}
   .filter-panel.open{display:block}
 
+  /* 分享按鈕 RWD 文字切換 */
+  .share-text-mobile { display: inline; }
+  .share-text-desktop { display: none; }
+
+  /* 電腦版樣式覆蓋 */
   @media (min-width: 769px) {
     .filter-toggle {
-      font-size: 1.2rem;
-      padding: .6rem 1.2rem;
+      font-size: 1.15rem; /* 電腦版維持大字體 */
+      padding: .55rem 1.1rem;
+      gap: .5rem;
     }
     .filter-state {
       font-size: 1.05rem;
     }
+    .share-text-mobile { display: none; }
+    .share-text-desktop { display: inline; }
   }
 
   .topic-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.25rem}
@@ -329,12 +338,10 @@
     <button class="back-button" data-page-target="homePage"><i class="fa-solid fa-arrow-left"></i> 返回目錄</button>
     <h1>⭐ 我的自選字表</h1>
     <div class="mylist-actions">
-     <button class="action-btn" id="batchInputBtn"><i class="fa-solid fa-pen-to-square"></i> 批量輸入</button>
+     <button class="action-btn" id="batchInputBtn"><i class="fa-solid fa-pen-to-square"></i> 快速選字</button>
      <button class="action-btn print-btn" id="printListBtn"><i class="fa-solid fa-print"></i> 列印</button>
-     <button class="action-btn" id="exportListBtn"><i class="fa-solid fa-share-nodes"></i> 分享連結</button>
-     <button class="action-btn" id="importListBtn"><i class="fa-solid fa-file-import"></i> 備用匯入</button>
-     <input type="file" id="importInput" style="display:none" accept=".json">
-    </div>
+     <button class="action-btn" id="exportListBtn"><i class="fa-solid fa-share-nodes"></i> 分享字表</button>
+     </div>
     <p id="myListMsg" style="text-align:center; color:#64748b; margin-bottom:1rem;"></p>
     <div id="myList_Content"></div>
    </section>
@@ -467,7 +474,7 @@
     }
   }
 
-  // === 工具：複製並提示 (移除縮網址，改回穩定長網址) ===
+  // === 工具：複製並提示 ===
   function copyAndAlert(url, titleStr) {
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(url)
@@ -756,7 +763,6 @@
     if (e.target.id === 'goMyListBtn'){ showMyListPage(); return; }
     if (e.target.id === 'printListBtn'){ window.print(); return; }
     if (e.target.id === 'exportListBtn'){ exportMyList(); return; }
-    if (e.target.id === 'importListBtn'){ importFromBase64(); return; }
     if (e.target.id === 'batchInputBtn'){ batchInput(); return; }
 
     // 6. Share This Page Button (動態產生的)
@@ -838,11 +844,14 @@
     const existing = allTags.filter(t => usedTags.has(t));
 
     // 新增：右側加入「分享此頁」按鈕（My List 頁面不加，因為有匯出按鈕）
+    // 手機版只顯示圖標+分享，電腦版顯示完整文字
     let shareBtnHTML = '';
     if (contentId !== 'myList_Content') {
         shareBtnHTML = 
-        '<button class="action-btn share-page-btn" style="border-radius:10px; padding:.55rem .9rem; border:2px solid #e2e8f0;">' +
-           '<i class="fa-solid fa-share-nodes"></i> 分享此頁' +
+        '<button class="action-btn share-page-btn" style="border-radius:10px; padding:.55rem .9rem; border:2px solid #e2e8f0; font-weight:600;">' +
+           '<i class="fa-solid fa-share-nodes"></i> ' +
+           '<span class="share-text-desktop">分享此頁</span>' +
+           '<span class="share-text-mobile">分享</span>' +
         '</button>';
     }
 
@@ -1142,22 +1151,6 @@
     const longUrl = baseUrl + '?list=' + safeBase64;
 
     copyAndAlert(longUrl, title);
-  }
-
-  function importFromBase64(){
-    const input = window.prompt('請貼上分享連結或代碼：');
-    if (!input) return;
-
-    const data = decodeBase64List(input);
-    if (data && data.list) {
-      // 這裡如果收到的是純字串清單，要先還原
-      const fullList = hydrateList(data.list);
-      const added = mergeIntoMyList(fullList);
-      showMyListPage();
-      alert(`已匯入 "${data.title || '字表'}" 中的 ${added} 個新單字。`);
-    } else {
-      alert('無法解析資料，連結可能已損壞。');
-    }
   }
 
   function initSearchBar(){
