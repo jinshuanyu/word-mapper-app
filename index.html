@@ -280,7 +280,7 @@
   @media print {
     html, body { height: auto !important; margin: 0 !important; padding: 0 !important; overflow: visible !important; background: #fff !important; font-size: 12pt; }
     .container { box-shadow: none !important; max-width: 100% !important; width: 100% !important; padding: 0 !important; margin: 0 !important; min-height: 0 !important; border: none !important; }
-    .back-button, .searchbar, .home-progress-bar, .dropdown-container, .filter-bar, .filter-panel, .toggle-container, .attribution-note, .credits, .support-cta, .audio-button, .back-to-top, .star-btn, .mylist-actions, #searchMsg, .source-link-btn, #goMyListBtn, #batchInputBtn { display: none !important; }
+    .back-button, .searchbar, .home-progress-bar, .dropdown-container, .filter-bar, .filter-panel, .toggle-container, .attribution-note, .credits, .support-cta, .audio-button, .back-to-top, .star-btn, .mylist-actions, #searchMsg, .source-link-btn, #goMyListBtn, #batchInputBtn, .share-page-btn { display: none !important; }
     #homePage { display: none !important; } /* Only hide homepage */
     .page-section.active { display: block !important; }
     .topic-grid { display: block !important; }
@@ -435,13 +435,25 @@
     return addedCount;
   }
 
-  // === 工具：解碼 URL 字串 (支援 {title, list} 或 [list]) ===
+  // === 工具：編碼分享資料 (包含 encodeURIComponent 確保 URL 安全) ===
+  function encodeShareData(dataObj) {
+      const json = JSON.stringify(dataObj);
+      // 先用 encodeURIComponent 處理特殊符號，再 btoa
+      return btoa(
+        encodeURIComponent(json).replace(/%([0-9A-F]{2})/g, (_, p1) =>
+          String.fromCharCode('0x' + p1)
+        )
+      );
+  }
+
+  // === 工具：解碼 URL 字串 ===
   function decodeBase64List(b64){
     try {
       let cleanB64 = b64.trim();
       if (cleanB64.includes('list=')) {
          cleanB64 = cleanB64.split('list=')[1].split('&')[0];
       }
+      
       const jsonStr = decodeURIComponent(
         Array.prototype.map.call(atob(cleanB64), c =>
           '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2)
@@ -458,14 +470,28 @@
     }
   }
 
-  // === 工具：編碼分享資料 ===
-  function encodeShareData(dataObj) {
-      const json = JSON.stringify(dataObj);
-      return btoa(
-        encodeURIComponent(json).replace(/%([0-9A-F]{2})/g, (_, p1) =>
-          String.fromCharCode('0x' + p1)
-        )
-      );
+  // === 工具：自動縮網址 (使用 TinyURL API) ===
+  async function getShortUrl(longUrl) {
+    try {
+      const response = await fetch(`https://tinyurl.com/api-create.php?url=${encodeURIComponent(longUrl)}`);
+      if (response.ok) {
+        return await response.text(); 
+      }
+    } catch (e) {
+      console.warn("縮網址失敗，將使用長網址", e);
+    }
+    return longUrl; 
+  }
+
+  // === 工具：複製並提示 ===
+  function copyAndAlert(url, titleStr) {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(url)
+        .then(() => alert(`✅ 已複製「${titleStr}」的分享連結！\n\n短網址：${url}`))
+        .catch(() => prompt('請手動複製連結：', url));
+    } else {
+      prompt('請手動複製連結：', url);
+    }
   }
 
   // ================== UTILS ==================
@@ -1058,71 +1084,81 @@
     alert(msg);
   }
 
-  // === 新增：匯出 My List (含標題輸入 & 30字限制) ===
-  function exportMyList(){
+  // === 修改後：匯出 My List (支援縮網址 + URL安全編碼) ===
+  async function exportMyList(){
     if (MY_LIST.length === 0) {
       alert('列表為空');
       return;
     }
 
-    // 1. 輸入標題
     let title = prompt("請為這份字表命名（將顯示在分享頁面上）：", "我的自選字表");
-    if (title === null) return; // 按取消
+    if (title === null) return; 
     if (!title.trim()) title = "我的自選字表";
 
-    // 2. 限制 30 字
     let listToShare = MY_LIST;
     if (MY_LIST.length > 30) {
-        alert(`注意：您的列表共有 ${MY_LIST.length} 個字，但分享連結最多只能包含前 30 個字。\n系統將自動截取前 30 個字進行分享。`);
+        alert(`注意：分享連結最多只能包含前 30 個字，系統將自動截取。`);
         listToShare = MY_LIST.slice(0, 30);
     }
 
-    // 3. 產生連結
-    const dataObj = { title: title.trim(), list: listToShare };
-    const base64 = encodeShareData(dataObj);
-    const baseUrl = window.location.origin + window.location.pathname;
-    const shareUrl = baseUrl + '?list=' + base64;
+    const btn = document.getElementById('exportListBtn');
+    const originalText = btn.innerHTML;
+    btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> 縮網址中...';
+    btn.disabled = true;
 
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(shareUrl)
-        .then(() => alert('✅ 分享連結已複製！'))
-        .catch(() => window.prompt('請複製連結：', shareUrl));
-    } else {
-      window.prompt('請複製連結：', shareUrl);
-    }
+    const dataObj = { title: title.trim(), list: listToShare };
+    // 先編碼資料
+    const base64 = encodeShareData(dataObj);
+    // 再編碼 URL 參數 (防止 + 變空格)
+    const safeBase64 = encodeURIComponent(base64);
+    
+    const baseUrl = window.location.origin + window.location.pathname;
+    const longUrl = baseUrl + '?list=' + safeBase64;
+
+    const finalUrl = await getShortUrl(longUrl);
+
+    btn.innerHTML = originalText;
+    btn.disabled = false;
+    copyAndAlert(finalUrl, title);
   }
 
-  // === 新增：分享當前頁面 (Top 30) ===
-  function shareCurrentPage() {
+  // === 修改後：分享當前頁面 (支援縮網址 + URL安全編碼) ===
+  async function shareCurrentPage() {
     if (!currentTopicData || currentTopicData.length === 0) {
         alert("此頁面沒有內容可分享。");
         return;
     }
 
-    // 抓取當前頁面標題
     let title = document.querySelector('section.active h1') ? document.querySelector('section.active h1').innerText.replace(/\n/g, ' ') : "分享頁面";
-    // 如果標題包含 Word Mapper 字樣，可能是在首頁，改個名
     if (title.includes("Word Mapper")) title = "單字練習";
 
-    // 限制 30 字
     let listToShare = currentTopicData;
     if (listToShare.length > 30) {
         listToShare = listToShare.slice(0, 30);
-        // 這裡不一定要 alert 警告，因為使用者是按「分享此頁」，預期就是分享這一頁的精華
+    }
+
+    const btn = document.querySelector('section.active .share-page-btn');
+    let originalText = '';
+    if(btn) {
+        originalText = btn.innerHTML;
+        btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> 處理中...';
+        btn.disabled = true;
     }
 
     const dataObj = { title: title, list: listToShare };
     const base64 = encodeShareData(dataObj);
+    const safeBase64 = encodeURIComponent(base64);
+    
     const baseUrl = window.location.origin + window.location.pathname;
-    const shareUrl = baseUrl + '?list=' + base64;
+    const longUrl = baseUrl + '?list=' + safeBase64;
 
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(shareUrl)
-        .then(() => alert(`✅ 已複製「${title}」的分享連結 (前 ${listToShare.length} 字)！`))
-        .catch(() => window.prompt('請複製連結：', shareUrl));
-    } else {
-      window.prompt('請複製連結：', shareUrl);
+    const finalUrl = await getShortUrl(longUrl);
+
+    if(btn) {
+        btn.innerHTML = originalText;
+        btn.disabled = false;
     }
+    copyAndAlert(finalUrl, title);
   }
 
   function importFromBase64(){
@@ -1135,7 +1171,7 @@
       showMyListPage();
       alert(`已匯入 "${data.title || '字表'}" 中的 ${added} 個新單字。`);
     } else {
-      alert('無法解析資料。');
+      alert('無法解析資料，連結可能已損壞。');
     }
   }
 
