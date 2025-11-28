@@ -66,14 +66,14 @@
   /* UPDATED: Bold labels */
   .dropdown-row label { font-weight: 800; font-size: 1.15rem; color: #1e293b; }
 
-  .dropdown-select { min-width:160px; padding:.7rem 1rem; border:2px solid #cbd5e1; border-radius:12px; font-size:1.1rem; font-weight:600; background:#f8fafc; transition:all .2s; }
+  .dropdown-select { min-width:160px; padding:.4rem 1rem; border:2px solid #cbd5e1; border-radius:12px; font-size:1.1rem; font-weight:600; background:#f8fafc; transition:all .2s; }
   .dropdown-select:focus { outline:none; border-color:var(--c-primary); box-shadow:0 0 0 3px rgba(124,58,237,0.15); }
-  .dropdown-btn { background:#9b94b0;color:#fff;border:none;border-radius:12px;padding:.7rem 1.4rem;font-size:1.1rem;font-weight:700;cursor:pointer;transition:background .2s, transform .1s; }
+  .dropdown-btn { background:#9b94b0;color:#fff;border:none;border-radius:12px;padding:.4rem 1.4rem;font-size:1.1rem;font-weight:700;cursor:pointer;transition:background .2s, transform .1s; }
   .dropdown-btn:hover { background:#887ea6; transform:translateY(-2px); }
   .dropdown-btn:active { transform:translateY(0); }
   
   @media (max-width:640px){ 
-      .dropdown-select{min-width:140px;padding:.6rem .9rem;font-size:.95rem;}
+      .dropdown-select{min-width:140px;padding:.4rem .9rem;font-size:.95rem;}
       /* UPDATED: Mobile adjustment for labels - keep bold, revert size */
       .dropdown-row label { font-size: 1rem; }
   }
@@ -112,7 +112,7 @@
 
   .my-list-btn-home {
    background: #fff; border: 2px solid #fbbf24; color: #b45309;
-   font-weight: 700; font-size: 1.1rem; padding: .7rem 2rem; border-radius: 99px;
+   font-weight: 700; font-size: 1.1rem; padding: .4rem 2rem; border-radius: 99px;
    margin-top: 1rem; cursor: pointer; display: inline-flex; align-items: center; gap: .5rem;
    transition: all .2s; box-shadow: 0 4px 6px rgba(251,191,36,0.15);
   }
@@ -203,10 +203,10 @@
   .support-btn{
     display:inline-block;
     /* Tailwind: from-amber-400 to-orange-500 */
-    background: linear-gradient(to right, #fbbf24, #f97316);
+   background: linear-gradient(to right, #facc15, #fb923c);
     color:#ffffff;
     font-weight:600; /* font-semibold */
-    font-size:0.95rem;
+    font-size:1rem;
     padding:.5rem 1.25rem; /* py-2 px-5 */
     border-radius:9999px; /* rounded-full */
     /* Tailwind: shadow-md */
@@ -249,7 +249,7 @@
   }
 
   @media (max-width:768px){ .back-to-top{right:1rem;bottom:3rem;font-size:1.05rem;padding:.6rem .9rem;} }
-  @media (max-width:640px){ .support-btn{font-size:0.85rem;padding:.45rem 1rem;} }
+  @media (max-width:640px){ .support-btn{font-size:0.9rem;font-weight:500;padding:.45rem 1rem;} }
 
   /* Print Styles */
   @media print {
