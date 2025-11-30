@@ -89,7 +89,7 @@
   /* Filter */
   .filter-bar{display:flex;align-items:center;justify-content:space-between;gap:.5rem;margin:.25rem 0 0.5rem;}
   
-  /* 手機版：字體調小(0.9rem)，padding縮小，避免爆版 */
+  /* 手機版：字體調小(0.9rem)，padding縮小 */
   .filter-toggle{display:inline-flex;align-items:center;gap:.4rem;padding:.45rem .7rem;border-radius:10px;border:2px solid var(--c-border);background:#f8fafc;font-weight:800;cursor:pointer;transition:transform .1s ease, box-shadow .2s ease, border-color .2s ease; font-size: 0.9rem;}
   .filter-toggle:hover{transform:translateY(-1px);box-shadow:0 6px 14px rgba(2,6,23,.08);border-color:#cbd5e1}
   
@@ -179,10 +179,11 @@
     flex-direction: column;
     border-right: 2px solid #cbd5e1;
     background: #fff;
-    min-width: 3rem; /* 避免擠壓 */
+    min-width: 3rem; 
   }
   .pair-group:last-child { border-right: none; }
 
+  /* 預設 (電腦版) */
   .box {
     display: flex; align-items: center; justify-content: center;
     min-height: 56px; padding: .35rem .5rem;
@@ -230,9 +231,12 @@
    h1{font-size:1.4rem}
    .topic-grid{grid-template-columns:1fr}
    .word-text{font-size:1.7rem}
-   .box{font-size:1.5rem;min-height:52px}
-   .phoneme-box{font-size:1.5rem !important;font-weight:400 !important;font-family:'Noto Sans','Noto Sans TC',sans-serif !important;}
-   .phoneme-box.is-phonics{font-size:1.5rem !important;font-weight:400 !important;font-family:'Noto Sans','Noto Sans TC',sans-serif !important;}
+   
+   /* === 手機版格子縮小 === */
+   .box{font-size:1.3rem; min-height:45px; padding:.2rem .4rem;}
+   .phoneme-box{font-size:1.3rem !important; font-weight:400 !important; font-family:'Noto Sans','Noto Sans TC',sans-serif !important;}
+   .phoneme-box.is-phonics{font-size:1.3rem !important; font-weight:400 !important; font-family:'Noto Sans','Noto Sans TC',sans-serif !important;}
+   
    .attribution-note{font-size:.75rem}
    .back-button{margin-bottom:1rem;font-size: 1.1rem; padding: 0.4rem 1rem;}
   }
@@ -320,7 +324,6 @@
     }
     .pair-group {
         border-right: 1px solid #000;
-        /* 在列印換行時，每一行之間加點距離更清楚 */
         margin-bottom: 0; 
         page-break-inside: avoid;
     }
