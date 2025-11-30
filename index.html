@@ -90,11 +90,11 @@
   /* Filter */
   .filter-bar{display:flex;align-items:center;justify-content:space-between;gap:.5rem;margin:.25rem 0 0.5rem;}
   
-  /* 手機版：字體微調，padding縮小，避免爆版 */
-  .filter-toggle{display:inline-flex;align-items:center;gap:.4rem;padding:.45rem .7rem;border-radius:10px;border:2px solid var(--c-border);background:#f8fafc;font-weight:800;cursor:pointer;transition:transform .1s ease, box-shadow .2s ease, border-color .2s ease; font-size: 0.95rem;}
+  /* 手機版：字體調小(0.9rem)，padding縮小，避免爆版 */
+  .filter-toggle{display:inline-flex;align-items:center;gap:.4rem;padding:.45rem .7rem;border-radius:10px;border:2px solid var(--c-border);background:#f8fafc;font-weight:800;cursor:pointer;transition:transform .1s ease, box-shadow .2s ease, border-color .2s ease; font-size: 0.9rem;}
   .filter-toggle:hover{transform:translateY(-1px);box-shadow:0 6px 14px rgba(2,6,23,.08);border-color:#cbd5e1}
   
-  .filter-state{font-size:0.9rem;opacity:.7}
+  .filter-state{font-size:0.85rem;opacity:.7}
   
   .filter-panel{display:none;border:2px dashed #e2e8f0;border-radius:12px;padding:.6rem .6rem .4rem;margin:.4rem 0 1rem;background:#fbfbfd;}
   .filter-panel.open{display:block}
@@ -144,11 +144,10 @@
   .action-btn { background: #fff; border: 1px solid #cbd5e1; padding: .5rem 1rem; border-radius: 8px; font-size: 0.9rem; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; color: #475569; font-weight: 600; }
   .action-btn:hover { background: #f1f5f9; color: #1e293b; }
 
-  /* Header Padding */
   .card-header{display:flex;justify-content:space-between;align-items:center;padding:0.8rem 1rem;background:#f1f5f9;border-bottom:2px solid #e2e8f0; padding-right: 3rem;}
   .card-title{display:flex;align-items:baseline;gap:.6rem}
   .word-number{font-size:1.15rem;font-weight:700;color:#475569}
-  .word-text{font-size:1.8rem;font-weight:800;color:#0f172a}
+  .word-text{font-size:1.6rem;font-weight:800;color:#0f172a}
    
   .source-link-btn { display: block; margin-top: 0px; font-size: 0.8rem; color: #3b82f6; background: none; border: none; padding: 0; cursor: pointer; text-decoration: underline; text-align: left; font-weight: 600; }
   .source-link-btn:hover { color: #1d4ed8; }
@@ -157,17 +156,16 @@
   .audio-button:hover{transform:scale(1.1)}
   .audio-button:active{transform:scale(0.95)}
 
-  /* Body Padding */
-  .card-body{padding:0.9rem; display:flex; flex-direction:column; align-items:center;}
+  .card-body{padding:0.85rem; display:flex; flex-direction:column; align-items:center;}
   @media (max-width:768px){ .card-body { padding: 0.8rem; } }
   
   .badges{display:flex;gap:.5rem;flex-wrap:nowrap;overflow:auto;white-space:nowrap;padding-bottom:.25rem;margin-bottom:.25rem;-webkit-overflow-scrolling:touch}
   .badges .category-tag{flex:0 0 auto}
 
-  /* === Flex Container for Boxes === */
+  /* === Flex Container (螢幕水平滾動，列印自動換行) === */
   .boxes-container {
     display: flex;
-    flex-wrap: nowrap; 
+    flex-wrap: nowrap; /* 螢幕不換行 */
     overflow-x: auto;
     border: 2px solid #94a3b8;
     border-radius: 8px;
@@ -177,23 +175,28 @@
     gap: 0;
   }
   
-  /* === UPDATED: Natural Width Logic === */
+  /* === 小積木容器 (Pair Group) === */
   .pair-group {
     display: flex;
     flex-direction: column;
     border-right: 2px solid #cbd5e1;
     background: #fff;
-    /* 移除 min-width，讓內容決定寬度 */
+    /* 自然寬度：文字多長就多寬 */
     min-width: auto; 
     width: max-content;
   }
   .pair-group:last-child { border-right: none; }
+  
+  /* 空格樣式：為了不消失，設定一個舒適的最小寬度 */
+  .pair-group.space-col {
+    min-width: 1.8rem; /* 空格寬度 */
+  }
 
   /* 盒子樣式 (Desktop) */
   .box {
     display: flex; align-items: center; justify-content: center;
-    min-height: 46px; 
-    padding: .2rem .4rem; /* 用 padding 來撐開空格的寬度 */
+    min-height: 44px; 
+    padding: .2rem .25rem;
     text-align: center; font-size: 1.35rem; font-weight: 700;
     width: 100%;
   }
@@ -235,19 +238,17 @@
 
   @media (max-width:768px){
    .container{padding:1rem .5rem}
-   /* H1 加大 */
    h1{font-size:1.5rem}
    .topic-grid{grid-template-columns:1fr}
-   /* 單字標題加大 */
    .word-text{font-size:1.6rem}
-   /* 新增這一行來縮小喇叭 */
-   .audio-button { font-size: 1.5rem; }
-   /* 手機版格子與字體加大 */
-   .box{font-size:1.3rem; min-height:38px; padding:.1rem .3rem;}
+   
+   /* 手機版：加大字體 */
+   .box{font-size:1.3rem; min-height:36px; padding:.1rem .15rem;}
    .phoneme-box{font-size:1.3rem !important; font-weight:400 !important; font-family:'Noto Sans','Noto Sans TC',sans-serif !important;}
    .phoneme-box.is-phonics{font-size:1.3rem !important; font-weight:400 !important; font-family:'Noto Sans','Noto Sans TC',sans-serif !important;}
    
-   .pair-group { min-width: auto; width: max-content; }
+   .pair-group { min-width: auto; }
+   .pair-group.space-col { min-width: 1.2rem; }
    
    .attribution-note{font-size:.75rem}
    .back-button{margin-bottom:1rem;font-size: 1.1rem; padding: 0.4rem 1rem;}
@@ -308,7 +309,11 @@
    box-shadow:0 12px 28px rgba(15,23,42,.32);
   }
 
-  @media (max-width:768px){ .back-to-top{right:1rem;bottom:3rem;font-size:1.05rem;padding:.6rem .9rem;} }
+  @media (max-width:768px){ 
+      .back-to-top{right:1rem;bottom:3rem;font-size:1.05rem;padding:.6rem .9rem;} 
+      /* 手機版喇叭符號縮小 */
+      .audio-button { font-size: 1.5rem; }
+  }
   @media (max-width:640px){ .support-btn{font-size:0.9rem;font-weight:500;padding:.45rem 1rem;} }
 
   /* Print Styles */
@@ -327,7 +332,7 @@
     .badges { display: none; } 
     .box.phoneme-box span.phoneme-vowel, .box.phoneme-box span.phoneme-consonant { color: #000 !important; }
     
-    /* === 列印設定 === */
+    /* === 列印設定：自動換行 + 空格正常顯示 === */
     .boxes-container {
         flex-wrap: wrap !important; 
         overflow: visible !important; 
@@ -338,6 +343,10 @@
         border-right: 1px solid #000;
         margin-bottom: 0; 
         page-break-inside: avoid;
+    }
+    /* 確保列印時空格也有寬度 */
+    .pair-group.space-col {
+        min-width: 1.5rem !important;
     }
     .grapheme-box { border-bottom: 1px solid #000; }
   }
@@ -1009,7 +1018,7 @@
     }
   }
 
-  // === 修改後的 renderCards：使用 pair-group 結構來支援列印換行 ===
+  // === 修改後的 renderCards：使用 pair-group 結構來支援列印換行，並偵測空格 ===
   function renderCards(contentId){
     const grid = document.getElementById('teaching-grid-' + contentId);
     if (!grid) return;
@@ -1036,9 +1045,13 @@
         const pHtml = colorizePhonemes(pHtmlRaw);
         const cleanKey = String(p).replace(/<[^>]+>/g,'').trim();
         
+        // 偵測空格，給予 space-col class，但樣式回歸標準
+        const isSpace = !g.trim();
+        const groupClass = isSpace ? 'pair-group space-col' : 'pair-group';
+
         // 將每一組字與音包在 pair-group 裡
         cells +=
-          '<div class="pair-group">' +
+          '<div class="' + groupClass + '">' +
             '<div class="grapheme-box box">' + escapeHtml(g) + heart + '</div>' +
             '<div class="phoneme-box box ' + phClass + '" data-phoneme-key="' + escapeAttr(cleanKey) + '">' + pHtml + '</div>' +
           '</div>';
