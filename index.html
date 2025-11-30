@@ -334,13 +334,14 @@
     .word-text { color: #000; font-size: 1.2rem; }
     .phoneme-box { color: #000 !important;  font-weight: normal !important; border: none !important; /* ★拿掉格子原本的黑框 */ }
     .grapheme-box { background: #fff; color: #000; border: none !important; /* ★拿掉格子原本的黑框 */
-        border-bottom: 1px solid #ccc !important; /* 只留底線 (分隔拼字和音標) */}
+        border-bottom: 1px solid #ccc !important; /* 只留底線 (分隔拼字和音標) */　position: relative;
+    padding-bottom: 0.8rem !important; /* ★關鍵：下方撐開空間給愛心 */　}
     .badges { display: none; } 
     .box.phoneme-box span.phoneme-vowel, .box.phoneme-box span.phoneme-consonant { color: #000 !important; }
     
     /* === 列印設定：自動換行 & 去除多餘 Padding === */
     .card-body { padding: 0 !important; } /* 卡片內距最小化 */
-    .box { padding: 0 1px !important; min-height: auto !important; } /* 格子內距最小化 */
+    .box { padding: 0.1rem 0.4rem !important; min-height: auto !important; } /* 格子內距最小化 */
     
     .boxes-container {
         flex-wrap: wrap !important; /* 允許換行 */
@@ -354,6 +355,14 @@
         margin-bottom: 0; 
         page-break-inside: avoid;
     }
+   .heart-symbol {
+    position: absolute !important;
+    bottom: 0px !important;      /* 固定在最底部 */
+    left: 0; right: 0;
+    font-size: 0.6rem !important; /* ★縮小愛心 */
+    line-height: 1;
+    
+  }
     .grapheme-box { border-bottom: 1px solid #ccc; }
   }
   @media print and (orientation: landscape) {
