@@ -89,7 +89,6 @@
   /* Filter */
   .filter-bar{display:flex;align-items:center;justify-content:space-between;gap:.5rem;margin:.25rem 0 0.5rem;}
   
-  /* 手機版：字體調小(0.9rem)，padding縮小 */
   .filter-toggle{display:inline-flex;align-items:center;gap:.4rem;padding:.45rem .7rem;border-radius:10px;border:2px solid var(--c-border);background:#f8fafc;font-weight:800;cursor:pointer;transition:transform .1s ease, box-shadow .2s ease, border-color .2s ease; font-size: 0.9rem;}
   .filter-toggle:hover{transform:translateY(-1px);box-shadow:0 6px 14px rgba(2,6,23,.08);border-color:#cbd5e1}
   
@@ -112,7 +111,6 @@
     .filter-state {
       font-size: 1.05rem;
     }
-    /* 電腦版：顯示「分享此頁」 */
     .share-text-mobile { display: none; }
     .share-text-desktop { display: inline; margin-left: 6px; }
   }
@@ -156,14 +154,15 @@
   .audio-button:hover{transform:scale(1.1)}
   .audio-button:active{transform:scale(0.95)}
 
+  /* 修正：手機版卡片內距縮小 */
   .card-body{padding:1.1rem; display:flex; flex-direction:column; align-items:center;}
   .badges{display:flex;gap:.5rem;flex-wrap:nowrap;overflow:auto;white-space:nowrap;padding-bottom:.25rem;margin-bottom:.25rem;-webkit-overflow-scrolling:touch}
   .badges .category-tag{flex:0 0 auto}
 
-  /* === NEW: Replaced Grid with Flex Container for Wrapping Logic === */
+  /* === Boxes Container (Flex) === */
   .boxes-container {
     display: flex;
-    flex-wrap: nowrap; /* 螢幕上不換行，出捲軸 */
+    flex-wrap: nowrap; 
     overflow-x: auto;
     border: 2px solid #94a3b8;
     border-radius: 8px;
@@ -173,7 +172,7 @@
     gap: 0;
   }
   
-  /* 每一組 (上面拼字+下面發音) 的直式容器 */
+  /* 預設 (電腦版) 最小寬度 */
   .pair-group {
     display: flex;
     flex-direction: column;
@@ -183,7 +182,7 @@
   }
   .pair-group:last-child { border-right: none; }
 
-  /* 預設 (電腦版) */
+  /* 預設 (電腦版) 盒子樣式 */
   .box {
     display: flex; align-items: center; justify-content: center;
     min-height: 56px; padding: .35rem .5rem;
@@ -232,10 +231,16 @@
    .topic-grid{grid-template-columns:1fr}
    .word-text{font-size:1.7rem}
    
-   /* === 手機版格子縮小 === */
-   .box{font-size:1.3rem; min-height:45px; padding:.2rem .4rem;}
+   /* === 修正：手機版卡片更緊湊 === */
+   .card-body { padding: 0.8rem; }
+
+   /* === 修正：手機版格子與字體縮小 === */
+   .box{font-size:1.3rem; min-height:40px; padding:.1rem .3rem;}
    .phoneme-box{font-size:1.3rem !important; font-weight:400 !important; font-family:'Noto Sans','Noto Sans TC',sans-serif !important;}
    .phoneme-box.is-phonics{font-size:1.3rem !important; font-weight:400 !important; font-family:'Noto Sans','Noto Sans TC',sans-serif !important;}
+   
+   /* === 修正：手機版外框最小寬度縮小 (防止留白過多) === */
+   .pair-group { min-width: 2rem; }
    
    .attribution-note{font-size:.75rem}
    .back-button{margin-bottom:1rem;font-size: 1.1rem; padding: 0.4rem 1rem;}
@@ -299,7 +304,7 @@
   @media (max-width:768px){ .back-to-top{right:1rem;bottom:3rem;font-size:1.05rem;padding:.6rem .9rem;} }
   @media (max-width:640px){ .support-btn{font-size:0.9rem;font-weight:500;padding:.45rem 1rem;} }
 
-  /* Print Styles：讓搜尋頁可列印，並且允許卡片內容換行 */
+  /* Print Styles */
   @media print {
     html, body { height: auto !important; margin: 0 !important; padding: 0 !important; overflow: visible !important; background: #fff !important; font-size: 12pt; }
     .container { box-shadow: none !important; max-width: 100% !important; width: 100% !important; padding: 0 !important; margin: 0 !important; min-height: 0 !important; border: none !important; }
@@ -317,10 +322,10 @@
     
     /* === 列印時的換行關鍵設定 === */
     .boxes-container {
-        flex-wrap: wrap !important; /* 允許換行 */
-        overflow: visible !important; /* 顯示溢出內容 */
-        border: 2px solid #000; /* 邊框加深方便列印 */
-        display: inline-flex; /* 隨內容長大 */
+        flex-wrap: wrap !important; 
+        overflow: visible !important; 
+        border: 2px solid #000; 
+        display: inline-flex; 
     }
     .pair-group {
         border-right: 1px solid #000;
