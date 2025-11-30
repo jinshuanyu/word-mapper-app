@@ -327,7 +327,8 @@
         border: 1px solid #ccc !important; /* 改成細灰線 */
         border-radius: 0 !important;       /* ★去掉圓角 */
         box-shadow: none !important;
-   
+   /* ★★★ 加入這一行，解決格線被切掉的問題 ★★★ */
+      overflow: visible !important;
     }
     
     .card-header { background: #fff; border-bottom: 1px solid #ccc; padding: 0.1rem 0.3rem; }
