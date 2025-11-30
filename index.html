@@ -97,6 +97,7 @@
   .filter-panel{display:none;border:2px dashed #e2e8f0;border-radius:12px;padding:.6rem .6rem .4rem;margin:.4rem 0 1rem;background:#fbfbfd;}
   .filter-panel.open{display:block}
 
+  /* 分享按鈕 RWD 文字切換 */
   .share-text-mobile { display: inline; font-weight: 600; margin-left: 3px; }
   .share-text-desktop { display: none; }
 
@@ -178,19 +179,19 @@
     flex-direction: column;
     border-right: 2px solid #cbd5e1;
     background: #fff;
-    min-width: 3rem; /* 電腦版預設 */
+    min-width: 3rem; 
   }
   .pair-group:last-child { border-right: none; }
 
-  /* === 修正：空格專用樣式（加寬版） === */
+  /* === 修正：空格專用樣式 (變回白色背景，無邊框) === */
   .pair-group.space-col {
     min-width: 0 !important;
-    width: 2rem !important; /* 電腦版：2rem 讓空格明顯 */
+    width: 2rem !important; /* 電腦版 */
     border-right: none !important;
-    background: transparent !important;
+    background: #fff !important; /* 純白，遮住底下灰線 */
   }
   .pair-group.space-col .box {
-    background: transparent !important;
+    background: #fff !important; /* 純白 */
     border-bottom: none !important;
     color: transparent !important;
   }
@@ -244,12 +245,13 @@
    .topic-grid{grid-template-columns:1fr}
    .word-text{font-size:1.7rem}
    
+   /* 手機版格子縮小 */
    .box{font-size:1.3rem; min-height:40px; padding:.1rem .3rem;}
    .phoneme-box{font-size:1.3rem !important; font-weight:400 !important; font-family:'Noto Sans','Noto Sans TC',sans-serif !important;}
    .phoneme-box.is-phonics{font-size:1.3rem !important; font-weight:400 !important; font-family:'Noto Sans','Noto Sans TC',sans-serif !important;}
    
    .pair-group { min-width: 2rem; }
-   /* 修正：手機版空格加寬 */
+   /* 修正：手機版空格寬度 */
    .pair-group.space-col { width: 1.2rem !important; }
    
    .attribution-note{font-size:.75rem}
@@ -342,9 +344,14 @@
         margin-bottom: 0; 
         page-break-inside: avoid;
     }
-    /* 修正：列印時空格寬度 */
+    /* 修正：列印時空格寬度 & 去背 */
     .pair-group.space-col {
         width: 1.5rem !important; 
+        border: none !important;
+        background: #fff !important;
+    }
+    .pair-group.space-col .box {
+        background: #fff !important;
         border: none !important;
     }
     .grapheme-box { border-bottom: 1px solid #000; }
