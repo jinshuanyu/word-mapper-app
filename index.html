@@ -144,6 +144,7 @@
   .action-btn { background: #fff; border: 1px solid #cbd5e1; padding: .5rem 1rem; border-radius: 8px; font-size: 0.9rem; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; color: #475569; font-weight: 600; }
   .action-btn:hover { background: #f1f5f9; color: #1e293b; }
 
+  /* Header Padding */
   .card-header{display:flex;justify-content:space-between;align-items:center;padding:0.8rem 1rem;background:#f1f5f9;border-bottom:2px solid #e2e8f0; padding-right: 3rem;}
   .card-title{display:flex;align-items:baseline;gap:.6rem}
   .word-number{font-size:1.15rem;font-weight:700;color:#475569}
@@ -156,16 +157,17 @@
   .audio-button:hover{transform:scale(1.1)}
   .audio-button:active{transform:scale(0.95)}
 
+  /* Body Padding */
   .card-body{padding:0.85rem; display:flex; flex-direction:column; align-items:center;}
   @media (max-width:768px){ .card-body { padding: 0.8rem; } }
   
   .badges{display:flex;gap:.5rem;flex-wrap:nowrap;overflow:auto;white-space:nowrap;padding-bottom:.25rem;margin-bottom:.25rem;-webkit-overflow-scrolling:touch}
   .badges .category-tag{flex:0 0 auto}
 
-  /* === Flex Container for Boxes === */
+  /* === Flex Container for Boxes (螢幕水平滾動，列印自動換行) === */
   .boxes-container {
     display: flex;
-    flex-wrap: nowrap; 
+    flex-wrap: nowrap; /* 螢幕不換行 */
     overflow-x: auto;
     border: 2px solid #94a3b8;
     border-radius: 8px;
@@ -175,7 +177,7 @@
     gap: 0;
   }
   
-  /* === UPDATED: Natural Width (內容撐開) === */
+  /* === 小積木容器 (Pair Group) - 自然寬度 === */
   .pair-group {
     display: flex;
     flex-direction: column;
@@ -186,12 +188,17 @@
     width: max-content;
   }
   .pair-group:last-child { border-right: none; }
+  
+  /* ★★★ 關鍵補救：強制給空格一個寬度，讓它不會消失 ★★★ */
+  .pair-group.space-col {
+    min-width: 1.5rem !important; 
+  }
 
-  /* 盒子樣式 */
+  /* 盒子樣式 (Desktop) */
   .box {
     display: flex; align-items: center; justify-content: center;
     min-height: 44px; 
-    padding: .2rem .4rem; /* 留一點 padding 給空格 */
+    padding: .2rem .25rem;
     text-align: center; font-size: 1.35rem; font-weight: 700;
     width: 100%;
   }
@@ -233,14 +240,17 @@
 
   @media (max-width:768px){
    .container{padding:1rem .5rem}
-   h1{font-size:1.4rem}
+   h1{font-size:1.5rem}
    .topic-grid{grid-template-columns:1fr}
-   .word-text{font-size:1.7rem}
+   .word-text{font-size:1.6rem}
    
    /* 手機版：字體加大 (1.4rem) */
-   .box{font-size:1.4rem; min-height:40px; padding:.1rem .25rem;}
+   .box{font-size:1.4rem; min-height:40px; padding:.1rem .2rem;}
    .phoneme-box{font-size:1.4rem !important; font-weight:400 !important; font-family:'Noto Sans','Noto Sans TC',sans-serif !important;}
    .phoneme-box.is-phonics{font-size:1.4rem !important; font-weight:400 !important; font-family:'Noto Sans','Noto Sans TC',sans-serif !important;}
+   
+   .pair-group { min-width: auto; }
+   .pair-group.space-col { min-width: 1.2rem; }
    
    .attribution-note{font-size:.75rem}
    .back-button{margin-bottom:1rem;font-size: 1.1rem; padding: 0.4rem 1rem;}
@@ -314,17 +324,18 @@
     .page-section.active { display: block !important; }
     .topic-grid { display: block !important; }
     
-    /* === 列印專用：強制兩欄 === */
+    /* === 列印專用：強制兩欄 & 移除圓角 === */
     .word-card { 
         display: inline-block; 
-        width: 49%; /* 接近 50% 但留一點縫隙 */
+        width: 49%; 
         margin-right: 0.5%; 
         margin-bottom: 0.8rem; 
         vertical-align: top; 
-        break-inside: avoid; /* 防止卡片被切斷 */
+        break-inside: avoid; 
         page-break-inside: avoid; 
         box-shadow: none; 
-        border: 1px solid #ccc; /* 淺色邊框 */
+        border: 1px solid #ccc; /* 細淡線 */
+        border-radius: 0 !important; /* 移除圓角 */
     }
     
     .card-header { background: #fff; border-bottom: 1px solid #ccc; padding: 0.1rem 0.3rem; }
@@ -335,13 +346,14 @@
     .box.phoneme-box span.phoneme-vowel, .box.phoneme-box span.phoneme-consonant { color: #000 !important; }
     
     /* === 列印設定：自動換行 & 去除多餘 Padding === */
-    .card-body { padding: 0.2rem; } /* 卡片內距最小化 */
-    .box { padding: 0 2px; min-height: auto; } /* 格子內距最小化 */
+    .card-body { padding: 0.2rem; } 
+    .box { padding: 0 2px; min-height: auto; } 
     
     .boxes-container {
-        flex-wrap: wrap !important; /* 允許換行 */
+        flex-wrap: wrap !important; 
         overflow: visible !important; 
-        border: 1px solid #999; /* 淺色外框 */
+        border: 1px solid #999; 
+        border-radius: 0 !important; /* 移除圓角 */
         display: inline-flex; 
     }
     .pair-group {
@@ -352,7 +364,6 @@
     .grapheme-box { border-bottom: 1px solid #ccc; }
   }
   @media print and (orientation: landscape) {
-      /* 橫向列印也維持兩欄 */
       .word-card { width: 49%; margin-right: 0.5%; }
   }
  </style>
@@ -1017,7 +1028,7 @@
     }
   }
 
-  // === renderCards：自然寬度 (不強制 min-width)，空格維持普通格子 ===
+  // === 修改後的 renderCards：偵測空格並套用 narrow 樣式 ===
   function renderCards(contentId){
     const grid = document.getElementById('teaching-grid-' + contentId);
     if (!grid) return;
@@ -1044,9 +1055,13 @@
         const pHtml = colorizePhonemes(pHtmlRaw);
         const cleanKey = String(p).replace(/<[^>]+>/g,'').trim();
         
-        // 普通格子 (包含空格)，讓內容撐開，空格因為 padding 會有寬度
+        // 偵測是否為空格 (或空字串)
+        const isSpace = !g.trim();
+        const groupClass = isSpace ? 'pair-group space-col' : 'pair-group';
+
+        // 將每一組字與音包在 pair-group 裡
         cells +=
-          '<div class="pair-group">' +
+          '<div class="' + groupClass + '">' +
             '<div class="grapheme-box box">' + escapeHtml(g) + heart + '</div>' +
             '<div class="phoneme-box box ' + phClass + '" data-phoneme-key="' + escapeAttr(cleanKey) + '">' + pHtml + '</div>' +
           '</div>';
@@ -1081,7 +1096,7 @@
           '</div>' +
           '<div class="card-body">' +
             '<div class="badges">' + badges + '</div>' +
-            // boxes-container (Flex)
+            // 改用 boxes-container (Flex) 而非 grid
             '<div class="boxes-container">' +
               cells +
             '</div>' +
