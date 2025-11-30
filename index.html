@@ -97,7 +97,6 @@
   .filter-panel{display:none;border:2px dashed #e2e8f0;border-radius:12px;padding:.6rem .6rem .4rem;margin:.4rem 0 1rem;background:#fbfbfd;}
   .filter-panel.open{display:block}
 
-  /* 分享按鈕 RWD 文字切換 */
   .share-text-mobile { display: inline; font-weight: 600; margin-left: 3px; }
   .share-text-desktop { display: none; }
 
@@ -155,7 +154,6 @@
   .audio-button:active{transform:scale(0.95)}
 
   .card-body{padding:1.1rem; display:flex; flex-direction:column; align-items:center;}
-  /* 手機版卡片內距微調 (0.8rem) */
   @media (max-width:768px){ .card-body { padding: 0.8rem; } }
   
   .badges{display:flex;gap:.5rem;flex-wrap:nowrap;overflow:auto;white-space:nowrap;padding-bottom:.25rem;margin-bottom:.25rem;-webkit-overflow-scrolling:touch}
@@ -184,11 +182,11 @@
   }
   .pair-group:last-child { border-right: none; }
 
-  /* === 關鍵新增：空格專用樣式 === */
+  /* === 修正：空格專用樣式（加寬版） === */
   .pair-group.space-col {
     min-width: 0 !important;
-    width: 1rem !important; /* 窄版寬度 */
-    border-right: none !important; /* 移除分隔線 */
+    width: 2rem !important; /* 電腦版：2rem 讓空格明顯 */
+    border-right: none !important;
     background: transparent !important;
   }
   .pair-group.space-col .box {
@@ -246,15 +244,13 @@
    .topic-grid{grid-template-columns:1fr}
    .word-text{font-size:1.7rem}
    
-   /* 手機版格子縮小 */
    .box{font-size:1.3rem; min-height:40px; padding:.1rem .3rem;}
    .phoneme-box{font-size:1.3rem !important; font-weight:400 !important; font-family:'Noto Sans','Noto Sans TC',sans-serif !important;}
    .phoneme-box.is-phonics{font-size:1.3rem !important; font-weight:400 !important; font-family:'Noto Sans','Noto Sans TC',sans-serif !important;}
    
-   /* 手機版外框縮小 */
    .pair-group { min-width: 2rem; }
-   /* 手機版空格更窄 */
-   .pair-group.space-col { width: 0.6rem !important; }
+   /* 修正：手機版空格加寬 */
+   .pair-group.space-col { width: 1.2rem !important; }
    
    .attribution-note{font-size:.75rem}
    .back-button{margin-bottom:1rem;font-size: 1.1rem; padding: 0.4rem 1rem;}
@@ -334,7 +330,7 @@
     .badges { display: none; } 
     .box.phoneme-box span.phoneme-vowel, .box.phoneme-box span.phoneme-consonant { color: #000 !important; }
     
-    /* 列印設定：允許換行，空格保持窄版 */
+    /* === 列印設定 === */
     .boxes-container {
         flex-wrap: wrap !important; 
         overflow: visible !important; 
@@ -346,8 +342,9 @@
         margin-bottom: 0; 
         page-break-inside: avoid;
     }
+    /* 修正：列印時空格寬度 */
     .pair-group.space-col {
-        width: 1rem !important; /* 列印時的空格寬度 */
+        width: 1.5rem !important; 
         border: none !important;
     }
     .grapheme-box { border-bottom: 1px solid #000; }
