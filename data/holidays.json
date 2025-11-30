@@ -7,7 +7,7 @@
       "graphemes": ["c", "e", "l", "e", "b", "r", "a", "t", "e"],
       "phonemes": ["/'s", "ɛ", "l", "ə", "b", "r", "eɪ", "t", "-/"],
       "phonics": ["/'s", "ĕ", "l", "ə", "b", "r", "ā", "t", "-/"],
-      "tags": ["magic_e", "closed"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "c 發軟音 /s/；a_e 發長母音 /eɪ/。"
     },
@@ -15,10 +15,10 @@
       "number": "🧨 農曆新年",
       "word": "Chinese New Year",
       "ipa": "/ˌtʃaɪˈniz nu jɪr/",
-      "graphemes": ["Ch", "i", "n", "e", "s", "e", " ", "N", "ew", " ", "Y", "ear"],
-      "phonemes": ["/ˌtʃ", "aɪ", "n", "i", "z", "-/ ", "-", " /'n", "u", " ", "'j", "ɪr/"],
-      "phonics": ["/ˌch", "ī", "n", "ē", "z", "-/ ", "-", " /'n", "ū", " ", "'y", "ir/"],
-      "tags": ["magic_e", "vowel_team"],
+      "graphemes": ["Ch", "i", "n", "e", "s", "e", " ", "N", "ew", " ", "Y", "ea","r"],
+      "phonemes": ["/tʃ", "aɪ", "n", "i", "z", "-", "-", "'n", "u", " ", "'j", "ɪ","r/"],
+      "phonics": ["/ch", "ī", "n", "ē", "z", "-", "-", "'n", "ū", " ", "'y", "ĭ","r/"],
+      "tags": ["magic_e"],
       "hearts": [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "ese 的 e_e 發 /i/；ew 發 /u/。"
     },
@@ -37,11 +37,11 @@
       "number": "🏮 文化",
       "word": "culture",
       "ipa": "/ˈkʌltʃɚ/",
-      "graphemes": ["c", "u", "l", "ture"],
-      "phonemes": ["/'k", "ʌ", "l", "tʃɚ/"],
-      "phonics": ["/'k", "ŭ", "l", "cher/"],
-      "tags": ["closed", "suffix"],
-      "hearts": [0, 0, 0, 0],
+      "graphemes": ["c", "u", "l", "t","ure"],
+      "phonemes": ["/'k", "ʌ", "l", "tʃ","ɚ/"],
+      "phonics": ["/'k", "ŭ", "l", "ch","er/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 1, 0],
       "hint": "ture 字尾發 /tʃɚ/。"
     },
     {
@@ -73,7 +73,7 @@
       "graphemes": ["D", "r", "a", "g", "o", "n", " ", "B", "oa", "t", " ", "F", "e", "s", "t", "i", "v", "a", "l"],
       "phonemes": ["/'d", "r", "æ", "ɡ", "ə", "n", "-", "'b", "oʊ", "t", "-", "'f", "ɛ", "s", "t", "ə", "v", "ə", "l/"],
       "phonics": ["/'d", "r", "ă", "ɡ", "ə", "n", "-", "'b", "ō", "t", "-", "'f", "ĕ", "s", "t", "ə", "v", "ə", "l/"],
-      "tags": ["vowel_team", "closed"],
+      "tags": [],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "oa 發 /oʊ/；festival 母音弱化。"
     },
@@ -84,7 +84,7 @@
       "graphemes": ["Ea", "s", "t", "er"],
       "phonemes": ["/'i", "s", "t", "ɚ/"],
       "phonics": ["/'ē", "s", "t", "er/"],
-      "tags": ["vowel_team", "rcontrolled"],
+      "tags": ["vowel_team"],
       "hearts": [0, 0, 0, 0],
       "hint": "Ea 發長母音 /i/。"
     },
@@ -94,8 +94,8 @@
       "ipa": "/ˈfɑðɚz deɪ/",
       "graphemes": ["F", "a", "th", "er", "'s", " ", "D", "ay"],
       "phonemes": ["/'f", "ɑ", "ð", "ɚ", "z", "-", "'d", "eɪ/"],
-      "phonics": ["/'f", "ŏ", "th", "er", "z", "-", "'d", "ā/"],
-      "tags": ["rcontrolled", "digraph"],
+      "phonics": ["/'f", "ŏ", "<u>th</u>", "er", "z", "-", "'d", "ā/"],
+      "tags": ["irregular", "digraph"],
       "hearts": [0, 1, 0, 0, 0, 0, 0, 0],
       "hint": "a 不規則發 /ɑ/；th 發有聲 /ð/。"
     },
@@ -115,9 +115,9 @@
       "word": "Halloween",
       "ipa": "/ˌhæləˈwin/",
       "graphemes": ["H", "a", "ll", "o", "w", "ee", "n"],
-      "phonemes": ["/ˌh", "æ", "l", "ə", "w", "i", "n/"],
-      "phonics": ["/ˌh", "ă", "l", "ə", "w", "ē", "n/"],
-      "tags": ["vowel_team", "floss"],
+      "phonemes": ["/h", "æ", "l", "ə", "w", "i", "n/"],
+      "phonics": ["/h", "ă", "l", "ə", "w", "ē", "n/"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0, 0, 0],
       "hint": "ee 發長母音 /i/。"
     },
@@ -128,7 +128,7 @@
       "graphemes": ["h", "o", "l", "i", "d", "ay"],
       "phonemes": ["/'h", "ɑ", "l", "ə", "d", "eɪ/"],
       "phonics": ["/'h", "ŏ", "l", "ə", "d", "ā/"],
-      "tags": ["open", "vowel_team"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "ay 發 /eɪ/。"
     },
@@ -139,7 +139,7 @@
       "graphemes": ["l", "a", "n", "t", "er", "n"],
       "phonemes": ["/'l", "æ", "n", "t", "ɚ", "n/"],
       "phonics": ["/'l", "ă", "n", "t", "er", "n/"],
-      "tags": ["closed", "rcontrolled"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "er 發 /ɚ/。"
     },
@@ -150,7 +150,7 @@
       "graphemes": ["L", "a", "n", "t", "er", "n", " ", "F", "e", "s", "t", "i", "v", "a", "l"],
       "phonemes": ["/'l", "æ", "n", "t", "ɚ", "n", "-", "'f", "ɛ", "s", "t", "ə", "v", "ə", "l/"],
       "phonics": ["/'l", "ă", "n", "t", "er", "n", "-", "'f", "ĕ", "s", "t", "ə", "v", "ə", "l/"],
-      "tags": ["rcontrolled", "closed"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": ""
     },
@@ -161,7 +161,7 @@
       "graphemes": ["m", "e", "m", "o", "r", "y"],
       "phonemes": ["/'m", "ɛ", "m", "ə", "r", "i/"],
       "phonics": ["/'m", "ĕ", "m", "ə", "r", "ē/"],
-      "tags": ["closed", "open"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "o 弱化發 /ə/；y 字尾發 /i/。"
     },
@@ -172,7 +172,7 @@
       "graphemes": ["M", "oo", "n", " ", "F", "e", "s", "t", "i", "v", "a", "l"],
       "phonemes": ["/m", "u", "n", "-", "'f", "ɛ", "s", "t", "ə", "v", "ə", "l/"],
       "phonics": ["/m", "oo", "n", "-", "'f", "ĕ", "s", "t", "ə", "v", "ə", "l/"],
-      "tags": ["vowel_team", "closed"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "oo 發 /u/。"
     },
@@ -182,8 +182,8 @@
       "ipa": "/ˈmʌðɚz deɪ/",
       "graphemes": ["M", "o", "th", "er", "'s", " ", "D", "ay"],
       "phonemes": ["/'m", "ʌ", "ð", "ɚ", "z", "-", "'d", "eɪ/"],
-      "phonics": ["/'m", "ŭ", "th", "er", "z", "-", "'d", "ā/"],
-      "tags": ["rcontrolled", "digraph"],
+      "phonics": ["/'m", "ŭ", "<u>th</u>", "er", "z", "-", "'d", "ā/"],
+      "tags": ["irregular", "digraph"],
       "hearts": [0, 1, 0, 0, 0, 0, 0, 0],
       "hint": "o 不規則發 /ʌ/；th 發有聲 /ð/。"
     },
@@ -191,9 +191,9 @@
       "number": "🌅 元旦",
       "word": "New Year's Day",
       "ipa": "/nu jɪrz deɪ/",
-      "graphemes": ["N", "ew", " ", "Y", "ear", "'s", " ", "D", "ay"],
-      "phonemes": ["/'n", "u", "-", "'j", "ɪr", "z", "-", "'d", "eɪ/"],
-      "phonics": ["/'n", "ū", "-", "'y", "ir", "z", "-", "'d", "ā/"],
+      "graphemes": ["N", "ew", " ", "Y", "ea","r", "'s", " ", "D", "ay"],
+      "phonemes": ["/'n", "u", "-", "'j", "ɪ","r", "z", "-", "'d", "eɪ/"],
+      "phonics": ["/'n", "ū", "-", "'y", "ĭ","r", "z", "-", "'d", "ā/"],
       "tags": ["vowel_team"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "ew 發 /u/。"
@@ -202,9 +202,9 @@
       "number": "🎆 除夕",
       "word": "New Year's Eve",
       "ipa": "/nu jɪrz iv/",
-      "graphemes": ["N", "ew", " ", "Y", "ear", "'s", " ", "E", "v", "e"],
-      "phonemes": ["/'n", "u", "-", "'j", "ɪr", "z", "-", "'i", "v", "-/"],
-      "phonics": ["/'n", "ū", "-", "'y", "ir", "z", "-", "'ē", "v", "-/"],
+      "graphemes": ["N", "ew", " ", "Y", "ea","r", "'s", " ", "E", "v", "e"],
+      "phonemes": ["/'n", "u", "-", "'j", "ɪ","r", "z", "-", "'i", "v", "-/"],
+      "phonics": ["/'n", "ū", "-", "'y", "ĭ","r", "z", "-", "'ē", "v", "-/"],
       "tags": ["magic_e", "vowel_team"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "Eve 為 magic e 結構。"
@@ -225,8 +225,8 @@
       "word": "Thanksgiving",
       "ipa": "/ˌθæŋksˈɡɪvɪŋ/",
       "graphemes": ["Th", "a", "n", "k", "s", "g", "i", "v", "i", "ng"],
-      "phonemes": ["/ˌθ", "æ", "ŋ", "k", "s", "ɡ", "ɪ", "v", "ɪ", "ŋ/"],
-      "phonics": ["/ˌth", "ă", "ŋ", "k", "s", "ɡ", "ĭ", "v", "ĭ", "ng/"],
+      "phonemes": ["/θ", "æ", "ŋ", "k", "s", "ɡ", "ɪ", "v", "ɪ", "ŋ/"],
+      "phonics": ["/th", "ă", "ŋ", "k", "s", "ɡ", "ĭ", "v", "ĭ", "ŋ/"],
       "tags": ["digraph", "closed"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "n 在 k 前發 /ŋ/。"
@@ -239,7 +239,7 @@
       "phonemes": ["/v", "eɪ", "'k", "eɪ", "ʃən/"],
       "phonics": ["/v", "ā", "'k", "ā", "shən/"],
       "tags": ["open", "suffix"],
-      "hearts": [0, 0, 0, 0, 0],
+      "hearts": [0, 1, 0, 0, 0],
       "hint": "tion 字尾發 /ʃən/。"
     },
     {
@@ -249,7 +249,7 @@
       "graphemes": ["V", "a", "l", "e", "n", "t", "i", "n", "e", "'s", " ", "D", "ay"],
       "phonemes": ["/'v", "æ", "l", "ə", "n", "t", "aɪ", "n", "-", "z", "-", "'d", "eɪ/"],
       "phonics": ["/'v", "ă", "l", "ə", "n", "t", "ī", "n", "-", "z", "-", "'d", "ā/"],
-      "tags": ["magic_e", "closed"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "i_e 發 /aɪ/。"
     }
