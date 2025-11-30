@@ -31,10 +31,12 @@
 
   *{box-sizing:border-box}
   html,body{margin:0;padding:0;overflow-x:hidden}
-  body{font-family:"Inter",system-ui,-apple-system,"Noto Sans TC",sans-serif;background:var(--c-bg);color:var(--c-text);padding:1rem 0;line-height:1.6;font-size:18px}
+  /* UPDATED: Base font size reduced to 16px */
+  body{font-family:"Inter",system-ui,-apple-system,"Noto Sans TC",sans-serif;background:var(--c-bg);color:var(--c-text);padding:1rem 0;line-height:1.6;font-size:16px}
   .container{max-width:1200px;margin:0 auto;padding:1.5rem 1rem;background:#fff;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,.05);min-height:90vh}
   
-  h1{font-family:'Noto Sans TC',sans-serif;font-size:1.8rem;font-weight:800;color:#0f172a;text-align:center;margin-bottom:2rem}
+  /* UPDATED: H1 smaller */
+  h1{font-family:'Noto Sans TC',sans-serif;font-size:1.6rem;font-weight:800;color:#0f172a;text-align:center;margin-bottom:1.8rem}
 
   /* Page switch */
   .page-section{display:none;min-height:50vh}
@@ -89,6 +91,7 @@
   /* Filter */
   .filter-bar{display:flex;align-items:center;justify-content:space-between;gap:.5rem;margin:.25rem 0 0.5rem;}
   
+  /* 手機版：字體調小(0.9rem)，padding縮小，避免爆版 */
   .filter-toggle{display:inline-flex;align-items:center;gap:.4rem;padding:.45rem .7rem;border-radius:10px;border:2px solid var(--c-border);background:#f8fafc;font-weight:800;cursor:pointer;transition:transform .1s ease, box-shadow .2s ease, border-color .2s ease; font-size: 0.9rem;}
   .filter-toggle:hover{transform:translateY(-1px);box-shadow:0 6px 14px rgba(2,6,23,.08);border-color:#cbd5e1}
   
@@ -142,10 +145,12 @@
   .action-btn { background: #fff; border: 1px solid #cbd5e1; padding: .5rem 1rem; border-radius: 8px; font-size: 0.9rem; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; color: #475569; font-weight: 600; }
   .action-btn:hover { background: #f1f5f9; color: #1e293b; }
 
-  .card-header{display:flex;justify-content:space-between;align-items:center;padding:1rem 1.25rem;background:#f1f5f9;border-bottom:2px solid #e2e8f0; padding-right: 3rem;}
+  /* UPDATED: Reduced header padding */
+  .card-header{display:flex;justify-content:space-between;align-items:center;padding:0.8rem 1rem;background:#f1f5f9;border-bottom:2px solid #e2e8f0; padding-right: 3rem;}
   .card-title{display:flex;align-items:baseline;gap:.6rem}
   .word-number{font-size:1.15rem;font-weight:700;color:#475569}
-  .word-text{font-size:1.9rem;font-weight:800;color:#0f172a}
+  /* UPDATED: Smaller word title */
+  .word-text{font-size:1.6rem;font-weight:800;color:#0f172a}
    
   .source-link-btn { display: block; margin-top: 0px; font-size: 0.8rem; color: #3b82f6; background: none; border: none; padding: 0; cursor: pointer; text-decoration: underline; text-align: left; font-weight: 600; }
   .source-link-btn:hover { color: #1d4ed8; }
@@ -154,12 +159,13 @@
   .audio-button:hover{transform:scale(1.1)}
   .audio-button:active{transform:scale(0.95)}
 
-  /* 修正：手機版卡片內距縮小 */
-  .card-body{padding:1.1rem; display:flex; flex-direction:column; align-items:center;}
+  /* UPDATED: Reduced body padding */
+  .card-body{padding:0.85rem; display:flex; flex-direction:column; align-items:center;}
+  
   .badges{display:flex;gap:.5rem;flex-wrap:nowrap;overflow:auto;white-space:nowrap;padding-bottom:.25rem;margin-bottom:.25rem;-webkit-overflow-scrolling:touch}
   .badges .category-tag{flex:0 0 auto}
 
-  /* === Boxes Container (Flex) === */
+  /* === Flex Container for Boxes === */
   .boxes-container {
     display: flex;
     flex-wrap: nowrap; 
@@ -172,26 +178,31 @@
     gap: 0;
   }
   
-  /* 預設 (電腦版) 最小寬度 */
+  /* UPDATED: Smaller min-width for tighter packing (Desktop) */
   .pair-group {
     display: flex;
     flex-direction: column;
     border-right: 2px solid #cbd5e1;
     background: #fff;
-    min-width: 3rem; 
+    min-width: 2.5rem; /* Was 3rem */
   }
   .pair-group:last-child { border-right: none; }
 
-  /* 預設 (電腦版) 盒子樣式 */
+  /* UPDATED: Smaller boxes and font (Desktop) */
   .box {
     display: flex; align-items: center; justify-content: center;
-    min-height: 56px; padding: .35rem .5rem;
-    text-align: center; font-size: 1.6rem; font-weight: 700;
+    min-height: 44px; /* Was 56px */
+    padding: .2rem .4rem; /* Reduced padding */
+    text-align: center; 
+    font-size: 1.35rem; /* Was 1.6rem */
+    font-weight: 700;
     width: 100%;
   }
   
   .grapheme-box{background:#f1f5f9;color:#1e293b;position:relative;font-family:'Inter','Noto Sans TC',sans-serif; border-bottom: 2px solid #cbd5e1; flex: 1;}
-  .phoneme-box{background:#fff;font-family:'Noto Sans','Noto Sans TC',sans-serif !important;font-size:1.6rem !important;font-weight:400 !important;color:#0f172a;transition:.2s;cursor:pointer;user-select:none;line-height:1.4;position:relative; flex: 1;}
+  
+  /* UPDATED: Match font size for phoneme box */
+  .phoneme-box{background:#fff;font-family:'Noto Sans','Noto Sans TC',sans-serif !important;font-size:1.35rem !important;font-weight:400 !important;color:#0f172a;transition:.2s;cursor:pointer;user-select:none;line-height:1.4;position:relative; flex: 1;}
   
   .phoneme-box:hover{background:#f0f9ff;transform:none}
   .phoneme-box:active{background:#dbeafe}
@@ -227,20 +238,22 @@
 
   @media (max-width:768px){
    .container{padding:1rem .5rem}
-   h1{font-size:1.4rem}
+   h1{font-size:1.3rem}
    .topic-grid{grid-template-columns:1fr}
-   .word-text{font-size:1.7rem}
    
-   /* === 修正：手機版卡片更緊湊 === */
+   /* UPDATED: Smaller word text mobile */
+   .word-text{font-size:1.45rem}
+   
+   /* UPDATED: Compact Mobile Styles */
    .card-body { padding: 0.8rem; }
 
-   /* === 修正：手機版格子與字體縮小 === */
-   .box{font-size:1.3rem; min-height:40px; padding:.1rem .3rem;}
-   .phoneme-box{font-size:1.3rem !important; font-weight:400 !important; font-family:'Noto Sans','Noto Sans TC',sans-serif !important;}
-   .phoneme-box.is-phonics{font-size:1.3rem !important; font-weight:400 !important; font-family:'Noto Sans','Noto Sans TC',sans-serif !important;}
+   /* Smaller boxes mobile */
+   .box{font-size:1.15rem; min-height:36px; padding:.1rem .3rem;}
+   .phoneme-box{font-size:1.15rem !important; font-weight:400 !important; font-family:'Noto Sans','Noto Sans TC',sans-serif !important;}
+   .phoneme-box.is-phonics{font-size:1.15rem !important; font-weight:400 !important; font-family:'Noto Sans','Noto Sans TC',sans-serif !important;}
    
-   /* === 修正：手機版外框最小寬度縮小 (防止留白過多) === */
-   .pair-group { min-width: 2rem; }
+   /* Tighter groups mobile */
+   .pair-group { min-width: 1.6rem; }
    
    .attribution-note{font-size:.75rem}
    .back-button{margin-bottom:1rem;font-size: 1.1rem; padding: 0.4rem 1rem;}
@@ -320,7 +333,7 @@
     .badges { display: none; } 
     .box.phoneme-box span.phoneme-vowel, .box.phoneme-box span.phoneme-consonant { color: #000 !important; }
     
-    /* === 列印時的換行關鍵設定 === */
+    /* === 列印設定 === */
     .boxes-container {
         flex-wrap: wrap !important; 
         overflow: visible !important; 
