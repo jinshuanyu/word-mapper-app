@@ -31,9 +31,11 @@
 
   *{box-sizing:border-box}
   html,body{margin:0;padding:0;overflow-x:hidden}
+  /* 調整：全域字體縮小至 16px */
   body{font-family:"Inter",system-ui,-apple-system,"Noto Sans TC",sans-serif;background:var(--c-bg);color:var(--c-text);padding:1rem 0;line-height:1.6;font-size:16px}
   .container{max-width:1200px;margin:0 auto;padding:1.5rem 1rem;background:#fff;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,.05);min-height:90vh}
   
+  /* 調整：H1 縮小 */
   h1{font-family:'Noto Sans TC',sans-serif;font-size:1.6rem;font-weight:800;color:#0f172a;text-align:center;margin-bottom:1.8rem}
 
   /* Page switch */
@@ -97,6 +99,7 @@
   .filter-panel{display:none;border:2px dashed #e2e8f0;border-radius:12px;padding:.6rem .6rem .4rem;margin:.4rem 0 1rem;background:#fbfbfd;}
   .filter-panel.open{display:block}
 
+  /* 分享按鈕 RWD */
   .share-text-mobile { display: inline; font-weight: 600; margin-left: 3px; }
   .share-text-desktop { display: none; }
 
@@ -141,9 +144,11 @@
   .action-btn { background: #fff; border: 1px solid #cbd5e1; padding: .5rem 1rem; border-radius: 8px; font-size: 0.9rem; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; color: #475569; font-weight: 600; }
   .action-btn:hover { background: #f1f5f9; color: #1e293b; }
 
+  /* 調整：Header padding */
   .card-header{display:flex;justify-content:space-between;align-items:center;padding:0.8rem 1rem;background:#f1f5f9;border-bottom:2px solid #e2e8f0; padding-right: 3rem;}
   .card-title{display:flex;align-items:baseline;gap:.6rem}
   .word-number{font-size:1.15rem;font-weight:700;color:#475569}
+  /* 調整：單字標題縮小 */
   .word-text{font-size:1.6rem;font-weight:800;color:#0f172a}
    
   .source-link-btn { display: block; margin-top: 0px; font-size: 0.8rem; color: #3b82f6; background: none; border: none; padding: 0; cursor: pointer; text-decoration: underline; text-align: left; font-weight: 600; }
@@ -153,17 +158,16 @@
   .audio-button:hover{transform:scale(1.1)}
   .audio-button:active{transform:scale(0.95)}
 
-  /* Compact Body Padding */
+  /* 調整：卡片內距縮小 */
   .card-body{padding:0.85rem; display:flex; flex-direction:column; align-items:center;}
-  @media (max-width:768px){ .card-body { padding: 0.8rem; } }
   
   .badges{display:flex;gap:.5rem;flex-wrap:nowrap;overflow:auto;white-space:nowrap;padding-bottom:.25rem;margin-bottom:.25rem;-webkit-overflow-scrolling:touch}
   .badges .category-tag{flex:0 0 auto}
 
-  /* === Flex Container for Boxes === */
+  /* === Boxes Container (Flex) for Wrapping Support === */
   .boxes-container {
     display: flex;
-    flex-wrap: nowrap; 
+    flex-wrap: nowrap; /* 螢幕不換行 */
     overflow-x: auto;
     border: 2px solid #94a3b8;
     border-radius: 8px;
@@ -173,35 +177,24 @@
     gap: 0;
   }
   
-  /* === UPDATED: Tighter packing for groups === */
+  /* 調整：群組最小寬度縮小 (緊湊) */
   .pair-group {
     display: flex;
     flex-direction: column;
     border-right: 2px solid #cbd5e1;
     background: #fff;
-    min-width: 1.8rem; /* Reduced from 3rem */
+    min-width: 1.8rem; /* 桌機版 */
   }
   .pair-group:last-child { border-right: none; }
 
-  /* === UPDATED: Space style (Wide for visibility) === */
-  .pair-group.space-col {
-    min-width: 0 !important;
-    width: 2rem !important;
-    border-right: none !important;
-    background: #fff !important;
-  }
-  .pair-group.space-col .box {
-    background: #fff !important;
-    border-bottom: none !important;
-    color: transparent !important;
-  }
-
-  /* === UPDATED: Smaller Boxes & Padding === */
+  /* 調整：盒子高度與字體縮小 */
   .box {
     display: flex; align-items: center; justify-content: center;
-    min-height: 46px; /* Reduced from 56px */
-    padding: .2rem .25rem; /* Reduced padding */
-    text-align: center; font-size: 1.35rem; font-weight: 700;
+    min-height: 44px; /* 高度縮小 */
+    padding: .2rem .25rem; /* padding 縮小 */
+    text-align: center; 
+    font-size: 1.35rem; /* 字體縮小 */
+    font-weight: 700;
     width: 100%;
   }
   
@@ -246,14 +239,14 @@
    .topic-grid{grid-template-columns:1fr}
    .word-text{font-size:1.45rem}
    
-   /* === UPDATED: Even smaller mobile boxes === */
+   /* 調整：手機版更緊湊 */
+   .card-body { padding: 0.8rem; }
+
    .box{font-size:1.15rem; min-height:36px; padding:.1rem .15rem;}
    .phoneme-box{font-size:1.15rem !important; font-weight:400 !important; font-family:'Noto Sans','Noto Sans TC',sans-serif !important;}
    .phoneme-box.is-phonics{font-size:1.15rem !important; font-weight:400 !important; font-family:'Noto Sans','Noto Sans TC',sans-serif !important;}
    
-   /* === UPDATED: Tighter mobile groups === */
    .pair-group { min-width: 1.25rem; }
-   .pair-group.space-col { width: 1.2rem !important; }
    
    .attribution-note{font-size:.75rem}
    .back-button{margin-bottom:1rem;font-size: 1.1rem; padding: 0.4rem 1rem;}
@@ -333,7 +326,7 @@
     .badges { display: none; } 
     .box.phoneme-box span.phoneme-vowel, .box.phoneme-box span.phoneme-consonant { color: #000 !important; }
     
-    /* === 列印設定 === */
+    /* === 列印設定：換行支援 === */
     .boxes-container {
         flex-wrap: wrap !important; 
         overflow: visible !important; 
@@ -344,16 +337,6 @@
         border-right: 1px solid #000;
         margin-bottom: 0; 
         page-break-inside: avoid;
-    }
-    /* 修正：列印時空格寬度 & 去背 */
-    .pair-group.space-col {
-        width: 1.5rem !important; 
-        border: none !important;
-        background: #fff !important;
-    }
-    .pair-group.space-col .box {
-        background: #fff !important;
-        border: none !important;
     }
     .grapheme-box { border-bottom: 1px solid #000; }
   }
@@ -1052,13 +1035,9 @@
         const pHtml = colorizePhonemes(pHtmlRaw);
         const cleanKey = String(p).replace(/<[^>]+>/g,'').trim();
         
-        // 偵測是否為空格 (或空字串)
-        const isSpace = !g.trim();
-        const groupClass = isSpace ? 'pair-group space-col' : 'pair-group';
-
         // 將每一組字與音包在 pair-group 裡
         cells +=
-          '<div class="' + groupClass + '">' +
+          '<div class="pair-group">' +
             '<div class="grapheme-box box">' + escapeHtml(g) + heart + '</div>' +
             '<div class="phoneme-box box ' + phClass + '" data-phoneme-key="' + escapeAttr(cleanKey) + '">' + pHtml + '</div>' +
           '</div>';
