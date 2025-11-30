@@ -18,7 +18,7 @@
       "graphemes": ["b", "i", "tt", "er"],
       "phonemes": ["/'b", "ɪ", "t", "ɚ/"],
       "phonics": ["/'b", "ĭ", "t", "er/"],
-      "tags": ["closed", "rcontrolled"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0],
       "hint": "tt 發單音 /t/；er 發捲舌音 /ɚ/。"
     },
@@ -38,8 +38,8 @@
       "word": "bottle",
       "ipa": "/ˈbɑtl/",
       "graphemes": ["b", "o", "tt", "le"],
-      "phonemes": ["/'b", "ɑ", "t", "l/"],
-      "phonics": ["/'b", "ŏ", "t", "l/"],
+      "phonemes": ["/'b", "ɑ", "t", "əl/"],
+      "phonics": ["/'b", "ŏ", "t", "əl/"],
       "tags": ["closed", "cle"],
       "hearts": [0, 0, 0, 0],
       "hint": "le 發 /l/。"
@@ -73,7 +73,7 @@
       "graphemes": ["ch", "o", "p", "s", "t", "i", "ck", "s"],
       "phonemes": ["/'tʃ", "ɑ", "p", "s", "t", "ɪ", "k", "s/"],
       "phonics": ["/'ch", "ŏ", "p", "s", "t", "ĭ", "k", "s/"],
-      "tags": ["digraph", "closed"],
+      "tags": ["digraph", "closed","suffix"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "ch 發 /tʃ/；ck 發 /k/。"
     },
@@ -103,11 +103,11 @@
       "number": "😋 好吃的",
       "word": "delicious",
       "ipa": "/dɪˈlɪʃəs/",
-      "graphemes": ["d", "e", "l", "i", "ci", "ous"],
-      "phonemes": ["/d", "ɪ", "'l", "ɪ", "ʃ", "əs/"],
-      "phonics": ["/d", "ĭ", "'l", "ĭ", "sh", "əs/"],
+      "graphemes": ["d", "e", "l", "i", "c","iou","s"],
+      "phonemes": ["/d", "ɪ", "'l", "ɪ", "ʃ", "ə","s/"],
+      "phonics": ["/d", "ĭ", "'l", "ĭ", "sh", "ə","s/"],
       "tags": ["irregular"],
-      "hearts": [0, 0, 0, 0, 1, 0],
+      "hearts": [0, 0, 0, 0, 1, 1, 0],
       "hint": "ci 發 /ʃ/；ous 發 /əs/。"
     },
     {
@@ -128,7 +128,7 @@
       "graphemes": ["d", "i", "sh"],
       "phonemes": ["/d", "ɪ", "ʃ/"],
       "phonics": ["/d", "ĭ", "sh/"],
-      "tags": ["closed", "digraph"],
+      "tags": ["cvc", "digraph"],
       "hearts": [0, 0, 0],
       "hint": "sh 發 /ʃ/。"
     },
@@ -161,7 +161,7 @@
       "graphemes": ["f", "u", "ll"],
       "phonemes": ["/f", "ʊ", "l/"],
       "phonics": ["/f", "ʊ", "l/"],
-      "tags": ["closed", "floss"],
+      "tags": ["cvc", "floss"],
       "hearts": [0, 1, 0],
       "hint": "u 不規則發 /ʊ/。"
     },
@@ -172,7 +172,7 @@
       "graphemes": ["g", "l", "a", "ss"],
       "phonemes": ["/ɡ", "l", "æ", "s/"],
       "phonics": ["/ɡ", "l", "ă", "s/"],
-      "tags": ["closed", "floss"],
+      "tags": ["cluster","cvc", "floss"],
       "hearts": [0, 0, 0, 0],
       "hint": "ss 發單音 /s/。"
     },
@@ -194,7 +194,7 @@
       "graphemes": ["h", "u", "n", "g", "r", "y"],
       "phonemes": ["/'h", "ʌ", "ŋ", "ɡ", "r", "i/"],
       "phonics": ["/'h", "ŭ", "ŋ", "ɡ", "r", "ē/"],
-      "tags": ["closed"],
+      "tags": ["closed"."cluster"],
       "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "n 在 g 前發 /ŋ/；y 字尾發 /i/。"
     },
@@ -202,11 +202,11 @@
       "number": "🔪 刀子",
       "word": "knife",
       "ipa": "/naɪf/",
-      "graphemes": ["kn", "i", "f", "e"],
-      "phonemes": ["/n", "aɪ", "f", "-/"],
-      "phonics": ["/n", "ī", "f", "-/"],
+      "graphemes": ["k","n", "i", "f", "e"],
+      "phonemes": ["/-","n", "aɪ", "f", "-/"],
+      "phonics": ["/-","n", "ī", "f", "-/"],
       "tags": ["magic_e", "silent_consonant"],
-      "hearts": [0, 0, 0, 0],
+      "hearts": [1,0, 0, 0, 0],
       "hint": "kn 的 k 不發音。"
     },
     {
@@ -216,8 +216,8 @@
       "graphemes": ["m", "e", "n", "u"],
       "phonemes": ["/'m", "ɛ", "n", "ju/"],
       "phonics": ["/'m", "ĕ", "n", "yū/"],
-      "tags": ["open"],
-      "hearts": [0, 0, 0, 0],
+      "tags": ["irregular"],
+      "hearts": [0, 1, 0, 1],
       "hint": "u 發 /ju/。"
     },
     {
@@ -249,7 +249,7 @@
       "graphemes": ["p", "l", "a", "t", "e"],
       "phonemes": ["/p", "l", "eɪ", "t", "-/"],
       "phonics": ["/p", "l", "ā", "t", "-/"],
-      "tags": ["magic_e"],
+      "tags": ["cluster","magic_e"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "a_e 發長母音 /eɪ/。"
     },
@@ -260,7 +260,7 @@
       "graphemes": ["s", "au", "c", "er"],
       "phonemes": ["/'s", "ɔ", "s", "ɚ/"],
       "phonics": ["/'s", "aw", "s", "er/"],
-      "tags": ["vowel_team", "rcontrolled"],
+      "tags": ["vowel_team"],
       "hearts": [0, 0, 0, 0],
       "hint": "au 發 /ɔ/；c 發軟音 /s/。"
     },
@@ -271,7 +271,7 @@
       "graphemes": ["s", "l", "i", "c", "e"],
       "phonemes": ["/s", "l", "aɪ", "s", "-/"],
       "phonics": ["/s", "l", "ī", "s", "-/"],
-      "tags": ["magic_e"],
+      "tags": ["cluster","magic_e"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "i_e 發 /aɪ/；c 發軟音 /s/。"
     },
@@ -282,7 +282,7 @@
       "graphemes": ["s", "m", "e", "ll"],
       "phonemes": ["/s", "m", "ɛ", "l/"],
       "phonics": ["/s", "m", "ĕ", "l/"],
-      "tags": ["closed", "floss"],
+      "tags": ["cluster","cvc", "floss"],
       "hearts": [0, 0, 0, 0],
       "hint": "ll 發單音 /l/。"
     },
@@ -290,11 +290,11 @@
       "number": "😖 酸的",
       "word": "sour",
       "ipa": "/ˈsaʊɚ/",
-      "graphemes": ["s", "our"],
-      "phonemes": ["/'s", "aʊɚ/"],
-      "phonics": ["/'s", "ower/"],
+      "graphemes": ["s", "ou","r"],
+      "phonemes": ["/'s", "aʊ","ɚ/"],
+      "phonics": ["/'s", "ow","er/"],
       "tags": ["vowel_team"],
-      "hearts": [0, 0],
+      "hearts": [0, 0,0],
       "hint": "our 發 /aʊɚ/。"
     },
     {
@@ -304,7 +304,7 @@
       "graphemes": ["s", "p", "oo", "n"],
       "phonemes": ["/s", "p", "u", "n/"],
       "phonics": ["/s", "p", "ū", "n/"],
-      "tags": ["vowel_team"],
+      "tags": ["cluster","vowel_team"],
       "hearts": [0, 0, 0, 0],
       "hint": "oo 發長音 /u/。"
     },
@@ -315,7 +315,7 @@
       "graphemes": ["s", "p", "r", "ea", "d"],
       "phonemes": ["/s", "p", "r", "ɛ", "d/"],
       "phonics": ["/s", "p", "r", "ĕ", "d/"],
-      "tags": ["vowel_team", "cluster"],
+      "tags": ["cluster","irregular"],
       "hearts": [0, 0, 0, 1, 0],
       "hint": "ea 發短音 /ɛ/。"
     },
@@ -326,7 +326,7 @@
       "graphemes": ["s", "t", "r", "aw"],
       "phonemes": ["/s", "t", "r", "ɔ/"],
       "phonics": ["/s", "t", "r", "aw/"],
-      "tags": ["vowel_team", "cluster"],
+      "tags": ["cluster","vowel_team"],
       "hearts": [0, 0, 0, 0],
       "hint": "aw 發 /ɔ/。"
     },
@@ -337,7 +337,7 @@
       "graphemes": ["s", "w", "ee", "t"],
       "phonemes": ["/s", "w", "i", "t/"],
       "phonics": ["/s", "w", "ē", "t/"],
-      "tags": ["vowel_team"],
+      "tags": ["cluster","vowel_team"],
       "hearts": [0, 0, 0, 0],
       "hint": "ee 發長母音 /i/。"
     },
@@ -359,7 +359,7 @@
       "graphemes": ["th", "ir", "s", "t", "y"],
       "phonemes": ["/'θ", "ɝ", "s", "t", "i/"],
       "phonics": ["/'th", "er", "s", "t", "ē/"],
-      "tags": ["rcontrolled", "digraph"],
+      "tags": ["digraph","rcontrolled"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "ir 發 /ɝ/；y 字尾發 /i/。"
     },
