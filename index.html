@@ -324,24 +324,29 @@
         break-inside: avoid; /* 防止卡片被切斷 */
         page-break-inside: avoid; 
         box-shadow: none; 
-        border: 1px solid #ccc; /* 淺色邊框 */
+        border: 1px solid #ccc !important; /* 改成細灰線 */
+        border-radius: 0 !important;       /* ★去掉圓角 */
+        box-shadow: none !important;
+   
     }
     
     .card-header { background: #fff; border-bottom: 1px solid #ccc; padding: 0.1rem 0.3rem; }
     .word-text { color: #000; font-size: 1.2rem; }
-    .phoneme-box { color: #000 !important; border: 1px solid #ccc; font-weight: normal !important; }
-    .grapheme-box { background: #fff; color: #000; border: 1px solid #ccc; }
+    .phoneme-box { color: #000 !important;  font-weight: normal !important; border: none !important; /* ★拿掉格子原本的黑框 */ }
+    .grapheme-box { background: #fff; color: #000; border: none !important; /* ★拿掉格子原本的黑框 */
+        border-bottom: 1px solid #ccc !important; /* 只留底線 (分隔拼字和音標) */}
     .badges { display: none; } 
     .box.phoneme-box span.phoneme-vowel, .box.phoneme-box span.phoneme-consonant { color: #000 !important; }
     
     /* === 列印設定：自動換行 & 去除多餘 Padding === */
-    .card-body { padding: 0.2rem; } /* 卡片內距最小化 */
-    .box { padding: 0 2px; min-height: auto; } /* 格子內距最小化 */
+    .card-body { padding: 0 !important; } /* 卡片內距最小化 */
+    .box { padding: 0 1px !important; min-height: auto !important; } /* 格子內距最小化 */
     
     .boxes-container {
         flex-wrap: wrap !important; /* 允許換行 */
         overflow: visible !important; 
-        border: 1px solid #999; /* 淺色外框 */
+    border: 1px solid #ccc !important; /* ★改成細灰線 */
+        border-radius: 0 !important;       /* ★去掉圓角 */
         display: inline-flex; 
     }
     .pair-group {
