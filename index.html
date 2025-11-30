@@ -89,8 +89,8 @@
   /* Filter */
   .filter-bar{display:flex;align-items:center;justify-content:space-between;gap:.5rem;margin:.25rem 0 0.5rem;}
   
-  /* 修正：手機版字體縮小 (0.9rem)，padding 縮小，防止爆版 */
-  .filter-toggle{display:inline-flex;align-items:center;gap:.3rem;padding:.4rem .7rem;border-radius:10px;border:2px solid var(--c-border);background:#f8fafc;font-weight:800;cursor:pointer;transition:transform .1s ease, box-shadow .2s ease, border-color .2s ease; font-size: 0.9rem;}
+  /* 手機版：字體調小(0.9rem)，padding縮小，避免爆版 */
+  .filter-toggle{display:inline-flex;align-items:center;gap:.4rem;padding:.45rem .7rem;border-radius:10px;border:2px solid var(--c-border);background:#f8fafc;font-weight:800;cursor:pointer;transition:transform .1s ease, box-shadow .2s ease, border-color .2s ease; font-size: 0.9rem;}
   .filter-toggle:hover{transform:translateY(-1px);box-shadow:0 6px 14px rgba(2,6,23,.08);border-color:#cbd5e1}
   
   .filter-state{font-size:0.85rem;opacity:.7}
@@ -98,14 +98,14 @@
   .filter-panel{display:none;border:2px dashed #e2e8f0;border-radius:12px;padding:.6rem .6rem .4rem;margin:.4rem 0 1rem;background:#fbfbfd;}
   .filter-panel.open{display:block}
 
-  /* 分享按鈕 RWD 文字切換 - 關鍵修正 */
+  /* 分享按鈕 RWD 文字切換 */
   .share-text-mobile { display: inline; font-weight: 600; margin-left: 3px; }
   .share-text-desktop { display: none; }
 
   /* 電腦版樣式覆蓋 */
   @media (min-width: 769px) {
     .filter-toggle {
-      font-size: 1.15rem; /* 電腦版維持舒適大小 */
+      font-size: 1.15rem; 
       padding: .55rem 1.1rem;
       gap: .5rem;
     }
@@ -160,12 +160,39 @@
   .badges{display:flex;gap:.5rem;flex-wrap:nowrap;overflow:auto;white-space:nowrap;padding-bottom:.25rem;margin-bottom:.25rem;-webkit-overflow-scrolling:touch}
   .badges .category-tag{flex:0 0 auto}
 
-  .boxes-grid{display:grid;grid-auto-rows:auto;border:2px solid #94a3b8;border-radius:8px;overflow:auto;grid-auto-columns:max-content;justify-content:start;align-content:start;width:max-content;max-width:100%;}
-  .box{display:flex;align-items:center;justify-content:center;min-height:56px;padding:.35rem .5rem;text-align:center;font-size:1.6rem;font-weight:700;border-right:2px solid #cbd5e1;}
-  .box:last-child{border-right:none}
-  .grapheme-box{background:#f1f5f9;color:#1e293b;position:relative;font-family:'Inter','Noto Sans TC',sans-serif;border-bottom:2px solid #cbd5e1;grid-row:1}
+  /* === NEW: Replaced Grid with Flex Container for Wrapping Logic === */
+  .boxes-container {
+    display: flex;
+    flex-wrap: nowrap; /* 螢幕上不換行，出捲軸 */
+    overflow-x: auto;
+    border: 2px solid #94a3b8;
+    border-radius: 8px;
+    width: fit-content;
+    max-width: 100%;
+    background: #cbd5e1;
+    gap: 0;
+  }
+  
+  /* 每一組 (上面拼字+下面發音) 的直式容器 */
+  .pair-group {
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid #cbd5e1;
+    background: #fff;
+    min-width: 3rem; /* 避免擠壓 */
+  }
+  .pair-group:last-child { border-right: none; }
 
-  .phoneme-box{background:#fff;font-family:'Noto Sans','Noto Sans TC',sans-serif !important;font-size:1.6rem !important;font-weight:400 !important;color:#0f172a;grid-row:2;transition:.2s;cursor:pointer;user-select:none;line-height:1.4;position:relative;}
+  .box {
+    display: flex; align-items: center; justify-content: center;
+    min-height: 56px; padding: .35rem .5rem;
+    text-align: center; font-size: 1.6rem; font-weight: 700;
+    width: 100%;
+  }
+  
+  .grapheme-box{background:#f1f5f9;color:#1e293b;position:relative;font-family:'Inter','Noto Sans TC',sans-serif; border-bottom: 2px solid #cbd5e1; flex: 1;}
+  .phoneme-box{background:#fff;font-family:'Noto Sans','Noto Sans TC',sans-serif !important;font-size:1.6rem !important;font-weight:400 !important;color:#0f172a;transition:.2s;cursor:pointer;user-select:none;line-height:1.4;position:relative; flex: 1;}
+  
   .phoneme-box:hover{background:#f0f9ff;transform:none}
   .phoneme-box:active{background:#dbeafe}
 
@@ -219,7 +246,6 @@
   .badges{ flex-wrap: wrap !important; white-space: normal !important; overflow: visible !important; }
   .badges .category-tag{ white-space: nowrap !important; }
 
-  /* 參照花瓣識字 App 的贊助按鈕樣式 (黃橘色亮系) */
   .support-btn{
     display:inline-block;
     background: linear-gradient(to right, #facc15, #fb923c);
@@ -269,12 +295,12 @@
   @media (max-width:768px){ .back-to-top{right:1rem;bottom:3rem;font-size:1.05rem;padding:.6rem .9rem;} }
   @media (max-width:640px){ .support-btn{font-size:0.9rem;font-weight:500;padding:.45rem 1rem;} }
 
-  /* Print Styles：讓搜尋頁可列印 */
+  /* Print Styles：讓搜尋頁可列印，並且允許卡片內容換行 */
   @media print {
     html, body { height: auto !important; margin: 0 !important; padding: 0 !important; overflow: visible !important; background: #fff !important; font-size: 12pt; }
     .container { box-shadow: none !important; max-width: 100% !important; width: 100% !important; padding: 0 !important; margin: 0 !important; min-height: 0 !important; border: none !important; }
     .back-button, .searchbar, .home-progress-bar, .dropdown-container, .filter-bar, .filter-panel, .toggle-container, .attribution-note, .credits, .support-cta, .audio-button, .back-to-top, .star-btn, .mylist-actions, #searchMsg, .source-link-btn, #goMyListBtn, #batchInputBtn, .share-page-btn, #printBtn, #exportListBtn, #importListBtn, #oneClickSaveBtn { display: none !important; }
-    #homePage { display: none !important; } /* Only hide homepage */
+    #homePage { display: none !important; } 
     .page-section.active { display: block !important; }
     .topic-grid { display: block !important; }
     .word-card { break-inside: avoid; page-break-inside: avoid; box-shadow: none; border: 1px solid #000; margin-bottom: 1rem; display: inline-block; width: 48%; vertical-align: top; margin-right: 1%; }
@@ -284,6 +310,21 @@
     .grapheme-box { background: #fff; color: #000; border: 1px solid #000; }
     .badges { display: none; } 
     .box.phoneme-box span.phoneme-vowel, .box.phoneme-box span.phoneme-consonant { color: #000 !important; }
+    
+    /* === 列印時的換行關鍵設定 === */
+    .boxes-container {
+        flex-wrap: wrap !important; /* 允許換行 */
+        overflow: visible !important; /* 顯示溢出內容 */
+        border: 2px solid #000; /* 邊框加深方便列印 */
+        display: inline-flex; /* 隨內容長大 */
+    }
+    .pair-group {
+        border-right: 1px solid #000;
+        /* 在列印換行時，每一行之間加點距離更清楚 */
+        margin-bottom: 0; 
+        page-break-inside: avoid;
+    }
+    .grapheme-box { border-bottom: 1px solid #000; }
   }
   @media print and (orientation: landscape) {
   .word-card {
@@ -838,7 +879,7 @@
     });
     const existing = allTags.filter(t => usedTags.has(t));
 
-    // 新增：右側功能按鈕組（包含列印與分享）
+    // 新增：右側功能按鈕組（包含列印與分享），手機版只顯示圖標
     let rightActionsHTML = '';
     if (contentId !== 'myList_Content') {
         // 列印按鈕 (Icon Only)
@@ -953,6 +994,7 @@
     }
   }
 
+  // === 修改後的 renderCards：使用 pair-group 結構來支援列印換行 ===
   function renderCards(contentId){
     const grid = document.getElementById('teaching-grid-' + contentId);
     if (!grid) return;
@@ -978,10 +1020,12 @@
         const pHtmlRaw = isPhonicsMode ? sanitizePhonemeHtml(p, true) : escapeHtml(p);
         const pHtml = colorizePhonemes(pHtmlRaw);
         const cleanKey = String(p).replace(/<[^>]+>/g,'').trim();
+        
+        // 將每一組字與音包在 pair-group 裡
         cells +=
-          '<div class="grapheme-box box">' + escapeHtml(g) + heart + '</div>' +
-          '<div class="phoneme-box box ' + phClass + '" data-phoneme-key="' + escapeAttr(cleanKey) + '">' +
-            pHtml +
+          '<div class="pair-group">' +
+            '<div class="grapheme-box box">' + escapeHtml(g) + heart + '</div>' +
+            '<div class="phoneme-box box ' + phClass + '" data-phoneme-key="' + escapeAttr(cleanKey) + '">' + pHtml + '</div>' +
           '</div>';
       }
 
@@ -1014,7 +1058,8 @@
           '</div>' +
           '<div class="card-body">' +
             '<div class="badges">' + badges + '</div>' +
-            '<div class="boxes-grid" style="grid-template-columns:repeat(' + cols + ',max-content)">' +
+            // 改用 boxes-container (Flex) 而非 grid
+            '<div class="boxes-container">' +
               cells +
             '</div>' +
           '</div>' +
