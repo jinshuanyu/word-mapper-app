@@ -154,12 +154,14 @@
   .audio-button:hover{transform:scale(1.1)}
   .audio-button:active{transform:scale(0.95)}
 
-  /* 修正：手機版卡片內距縮小 */
   .card-body{padding:1.1rem; display:flex; flex-direction:column; align-items:center;}
+  /* 手機版卡片內距微調 (0.8rem) */
+  @media (max-width:768px){ .card-body { padding: 0.8rem; } }
+  
   .badges{display:flex;gap:.5rem;flex-wrap:nowrap;overflow:auto;white-space:nowrap;padding-bottom:.25rem;margin-bottom:.25rem;-webkit-overflow-scrolling:touch}
   .badges .category-tag{flex:0 0 auto}
 
-  /* === Boxes Container (Flex) === */
+  /* === Flex Container for Boxes === */
   .boxes-container {
     display: flex;
     flex-wrap: nowrap; 
@@ -172,17 +174,30 @@
     gap: 0;
   }
   
-  /* 預設 (電腦版) 最小寬度 */
+  /* 每一組 (字+音) 的直式容器 */
   .pair-group {
     display: flex;
     flex-direction: column;
     border-right: 2px solid #cbd5e1;
     background: #fff;
-    min-width: 3rem; 
+    min-width: 3rem; /* 電腦版預設 */
   }
   .pair-group:last-child { border-right: none; }
 
-  /* 預設 (電腦版) 盒子樣式 */
+  /* === 關鍵新增：空格專用樣式 === */
+  .pair-group.space-col {
+    min-width: 0 !important;
+    width: 1rem !important; /* 窄版寬度 */
+    border-right: none !important; /* 移除分隔線 */
+    background: transparent !important;
+  }
+  .pair-group.space-col .box {
+    background: transparent !important;
+    border-bottom: none !important;
+    color: transparent !important;
+  }
+
+  /* 盒子樣式 */
   .box {
     display: flex; align-items: center; justify-content: center;
     min-height: 56px; padding: .35rem .5rem;
@@ -231,16 +246,15 @@
    .topic-grid{grid-template-columns:1fr}
    .word-text{font-size:1.7rem}
    
-   /* === 修正：手機版卡片更緊湊 === */
-   .card-body { padding: 0.8rem; }
-
-   /* === 修正：手機版格子與字體縮小 === */
+   /* 手機版格子縮小 */
    .box{font-size:1.3rem; min-height:40px; padding:.1rem .3rem;}
    .phoneme-box{font-size:1.3rem !important; font-weight:400 !important; font-family:'Noto Sans','Noto Sans TC',sans-serif !important;}
    .phoneme-box.is-phonics{font-size:1.3rem !important; font-weight:400 !important; font-family:'Noto Sans','Noto Sans TC',sans-serif !important;}
    
-   /* === 修正：手機版外框最小寬度縮小 (防止留白過多) === */
+   /* 手機版外框縮小 */
    .pair-group { min-width: 2rem; }
+   /* 手機版空格更窄 */
+   .pair-group.space-col { width: 0.6rem !important; }
    
    .attribution-note{font-size:.75rem}
    .back-button{margin-bottom:1rem;font-size: 1.1rem; padding: 0.4rem 1rem;}
@@ -320,7 +334,7 @@
     .badges { display: none; } 
     .box.phoneme-box span.phoneme-vowel, .box.phoneme-box span.phoneme-consonant { color: #000 !important; }
     
-    /* === 列印時的換行關鍵設定 === */
+    /* 列印設定：允許換行，空格保持窄版 */
     .boxes-container {
         flex-wrap: wrap !important; 
         overflow: visible !important; 
@@ -331,6 +345,10 @@
         border-right: 1px solid #000;
         margin-bottom: 0; 
         page-break-inside: avoid;
+    }
+    .pair-group.space-col {
+        width: 1rem !important; /* 列印時的空格寬度 */
+        border: none !important;
     }
     .grapheme-box { border-bottom: 1px solid #000; }
   }
@@ -1002,7 +1020,7 @@
     }
   }
 
-  // === 修改後的 renderCards：使用 pair-group 結構來支援列印換行 ===
+  // === 修改後的 renderCards：偵測空格並套用 narrow 樣式 ===
   function renderCards(contentId){
     const grid = document.getElementById('teaching-grid-' + contentId);
     if (!grid) return;
@@ -1029,9 +1047,13 @@
         const pHtml = colorizePhonemes(pHtmlRaw);
         const cleanKey = String(p).replace(/<[^>]+>/g,'').trim();
         
+        // 偵測是否為空格 (或空字串)
+        const isSpace = !g.trim();
+        const groupClass = isSpace ? 'pair-group space-col' : 'pair-group';
+
         // 將每一組字與音包在 pair-group 裡
         cells +=
-          '<div class="pair-group">' +
+          '<div class="' + groupClass + '">' +
             '<div class="grapheme-box box">' + escapeHtml(g) + heart + '</div>' +
             '<div class="phoneme-box box ' + phClass + '" data-phoneme-key="' + escapeAttr(cleanKey) + '">' + pHtml + '</div>' +
           '</div>';
