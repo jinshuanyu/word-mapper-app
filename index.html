@@ -89,8 +89,8 @@
   /* Filter */
   .filter-bar{display:flex;align-items:center;justify-content:space-between;gap:.5rem;margin:.25rem 0 0.5rem;}
   
-  /* 手機版：字體調小(0.9rem)，padding縮小，避免爆版 */
-  .filter-toggle{display:inline-flex;align-items:center;gap:.4rem;padding:.45rem .7rem;border-radius:10px;border:2px solid var(--c-border);background:#f8fafc;font-weight:800;cursor:pointer;transition:transform .1s ease, box-shadow .2s ease, border-color .2s ease; font-size: 0.9rem;}
+  /* 修正：手機版字體縮小 (0.9rem)，padding 縮小，防止爆版 */
+  .filter-toggle{display:inline-flex;align-items:center;gap:.3rem;padding:.4rem .7rem;border-radius:10px;border:2px solid var(--c-border);background:#f8fafc;font-weight:800;cursor:pointer;transition:transform .1s ease, box-shadow .2s ease, border-color .2s ease; font-size: 0.9rem;}
   .filter-toggle:hover{transform:translateY(-1px);box-shadow:0 6px 14px rgba(2,6,23,.08);border-color:#cbd5e1}
   
   .filter-state{font-size:0.85rem;opacity:.7}
@@ -98,20 +98,22 @@
   .filter-panel{display:none;border:2px dashed #e2e8f0;border-radius:12px;padding:.6rem .6rem .4rem;margin:.4rem 0 1rem;background:#fbfbfd;}
   .filter-panel.open{display:block}
 
-  /* 分享按鈕文字：手機版隱藏 */
+  /* 分享按鈕 RWD 文字切換 - 關鍵修正 */
+  .share-text-mobile { display: inline; font-weight: 600; margin-left: 3px; }
   .share-text-desktop { display: none; }
 
   /* 電腦版樣式覆蓋 */
   @media (min-width: 769px) {
     .filter-toggle {
-      font-size: 1.15rem; /* 電腦版維持大字 */
+      font-size: 1.15rem; /* 電腦版維持舒適大小 */
       padding: .55rem 1.1rem;
       gap: .5rem;
     }
     .filter-state {
       font-size: 1.05rem;
     }
-    /* 電腦版：顯示「分享此頁」文字 */
+    /* 電腦版：顯示「分享此頁」 */
+    .share-text-mobile { display: none; }
     .share-text-desktop { display: inline; margin-left: 6px; }
   }
 
@@ -836,18 +838,18 @@
     });
     const existing = allTags.filter(t => usedTags.has(t));
 
-    // 新增：右側功能按鈕組（包含列印與分享），手機版只顯示圖標
+    // 新增：右側功能按鈕組（包含列印與分享）
     let rightActionsHTML = '';
     if (contentId !== 'myList_Content') {
         // 列印按鈕 (Icon Only)
         const printBtn = '<button class="action-btn" onclick="window.print()" title="列印" style="border-radius:10px; padding:.55rem .9rem; border:2px solid #e2e8f0;"><i class="fa-solid fa-print"></i></button>';
         
-        // 分享按鈕 (手機Icon, 電腦Icon+文字)
-        // 修改重點：拿掉 share-text-mobile，只留 share-text-desktop 並靠 CSS 控制顯示/隱藏
+        // 分享按鈕 (手機Icon+文字[semi-bold], 電腦Icon+文字)
         const shareBtn = 
         '<button class="action-btn share-page-btn" style="border-radius:10px; padding:.55rem .9rem; border:2px solid #e2e8f0; font-weight:600;">' +
            '<i class="fa-solid fa-share-nodes"></i>' +
            '<span class="share-text-desktop"> 分享此頁</span>' + 
+           '<span class="share-text-mobile"> 分享</span>' + 
         '</button>';
 
         // 包裝在一起 (列印在左，分享在右)
