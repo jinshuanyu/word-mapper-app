@@ -13,6 +13,8 @@
     "s": "audio/phonemes/c11.mp3",
     "z": "audio/phonemes/c12.mp3",
     "ʃ": "audio/phonemes/c13.mp3",
+       "ʃən": "audio/phonemes/tion.mp3",
+       "shən": "audio/phonemes/tion.mp3",
     "ʒ": "audio/phonemes/c14.mp3",
     "tʃ": "audio/phonemes/c15.mp3",
     "dʒ": "audio/phonemes/c16.mp3",
