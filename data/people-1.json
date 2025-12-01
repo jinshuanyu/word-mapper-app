@@ -5,8 +5,8 @@
       "word": "adult",
       "ipa": "/əˈdʌlt/",
       "graphemes": ["a", "d", "u", "l", "t"],
-      "phonemes": ["/ə", "d", "ʌ", "l", "t/"],
-      "phonics": ["/ə", "d", "ŭ", "l", "t/"],
+      "phonemes": ["/ə", "'d", "ʌ", "l", "t/"],
+      "phonics": ["/ə", "'d", "ŭ", "l", "t/"],
       "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "a 弱化發 /ə/；u 發短母音 /ʌ/。"
@@ -73,9 +73,9 @@
       "word": "gentleman",
       "ipa": "/ˈdʒɛntlmən/",
       "graphemes": ["g", "e", "n", "t", "le", "m", "a", "n"],
-      "phonemes": ["/'dʒ", "ɛ", "n", "t", "l", "m", "ə", "n/"],
-      "phonics": ["/'j", "ĕ", "n", "t", "l", "m", "ə", "n/"],
-      "tags": ["cle", "closed", "irregular"],
+      "phonemes": ["/'dʒ", "ɛ", "n", "t", "əl", "m", "ə", "n/"],
+      "phonics": ["/'-j", "ĕ", "n", "t", "əl", "m", "ə", "n/"],
+      "tags": ["closed", "cle"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "g 發軟音 /dʒ/；a 弱化。"
     },
@@ -98,8 +98,8 @@
       "graphemes": ["gu", "e", "s", "t"],
       "phonemes": ["/ɡ", "ɛ", "s", "t/"],
       "phonics": ["/ɡ", "ĕ", "s", "t/"],
-      "tags": ["digraph", "closed"],
-      "hearts": [0, 0, 0, 0],
+      "tags": ["irregular"],
+      "hearts": [1, 0, 0, 0],
       "hint": "gu 發硬音 /ɡ/，u 不發音。"
     },
     {
@@ -109,7 +109,7 @@
       "graphemes": ["g", "uy"],
       "phonemes": ["/ɡ", "aɪ/"],
       "phonics": ["/ɡ", "ī/"],
-      "tags": ["vowel_team", "irregular"],
+      "tags": ["vowel_team"],
       "hearts": [0, 1],
       "hint": "uy 不規則發長母音 i /aɪ/。"
     },
@@ -120,8 +120,8 @@
       "graphemes": ["h", "e", "r", "o"],
       "phonemes": ["/'h", "ɪ", "r", "oʊ/"],
       "phonics": ["/'h", "ĭ", "r", "ō/"],
-      "tags": ["open"],
-      "hearts": [0, 0, 0, 0],
+      "tags": ["closed"],
+      "hearts": [0, 1, 0, 0],
       "hint": "o 發長母音 /oʊ/。"
     },
     {
@@ -131,7 +131,7 @@
       "graphemes": ["h", "o", "s", "t"],
       "phonemes": ["/h", "oʊ", "s", "t/"],
       "phonics": ["/h", "ō", "s", "t/"],
-      "tags": ["irregular", "closed"],
+      "tags": ["irregular"],
       "hearts": [0, 1, 0, 0],
       "hint": "o 在 st 前發長母音 /oʊ/ (例外規則)。"
     },
@@ -143,7 +143,7 @@
       "graphemes": ["k", "i", "ng"],
       "phonemes": ["/k", "ɪ", "ŋ/"],
       "phonics": ["/k", "ĭ", "ng/"],
-      "tags": ["closed", "digraph"],
+      "tags": ["cvc", "digraph"],
       "hearts": [0, 0, 0],
       "hint": "ng 發鼻音 /ŋ/。"
     },
@@ -177,7 +177,7 @@
       "graphemes": ["m", "a", "s", "t", "er"],
       "phonemes": ["/'m", "æ", "s", "t", "ɚ/"],
       "phonics": ["/'m", "ă", "s", "t", "er/"],
-      "tags": ["closed", "rcontrolled"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "er 發 /ɚ/。"
     },
@@ -188,8 +188,8 @@
       "graphemes": ["n", "eigh", "b", "or"],
       "phonemes": ["/'n", "eɪ", "b", "ɚ/"],
       "phonics": ["/'n", "ā", "b", "er/"],
-      "tags": ["vowel_team", "rcontrolled"],
-      "hearts": [0, 0, 0, 0],
+      "tags": ["vowel_team"],
+      "hearts": [0, 1, 0, 1],
       "hint": "eigh 發長母音 a /eɪ/；or 弱化發 /ɚ/。"
     },
     {
@@ -208,10 +208,10 @@
       "number": "🤴 王子",
       "word": "prince",
       "ipa": "/prɪns/",
-      "graphemes": ["p", "r", "i", "n", "ce"],
-      "phonemes": ["/p", "r", "ɪ", "n", "s/"],
-      "phonics": ["/p", "r", "ĭ", "n", "s/"],
-      "tags": ["closed", "irregular", "cluster"],
+      "graphemes": ["p", "r", "i", "n", "c","e"],
+      "phonemes": ["/p", "r", "ɪ", "n", "s","-/"],
+      "phonics": ["/p", "r", "ĭ", "n", "s","-/"],
+      "tags": [ "cluster","closed"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "ce 字尾發 /s/，e 不發音，前方 i 發短音 /ɪ/。"
     },
@@ -220,8 +220,8 @@
       "word": "princess",
       "ipa": "/ˌprɪnˈsɛs/",
       "graphemes": ["p", "r", "i", "n", "c", "e", "ss"],
-      "phonemes": ["/p", "r", "ɪ", "n", "s", "ɛ", "s/"],
-      "phonics": ["/p", "r", "ĭ", "n", "s", "ĕ", "s/"],
+      "phonemes": ["/'p", "r", "ɪ", "n", "s", "ɛ", "s/"],
+      "phonics": ["/'p", "r", "ĭ", "n", "s", "ĕ", "s/"],
       "tags": ["closed", "floss"],
       "hearts": [0, 0, 0, 0, 0, 0, 0],
       "hint": "c 在 e 前發 /s/。"
@@ -233,7 +233,7 @@
       "graphemes": ["qu", "ee", "n"],
       "phonemes": ["/kw", "i", "n/"],
       "phonics": ["/kw", "ē", "n/"],
-      "tags": ["vowel_team", "digraph"],
+      "tags": ["digraph","vowel_team"],
       "hearts": [0, 0, 0],
       "hint": "qu 發 /kw/；ee 發長母音 e /i/。"
     },
@@ -244,7 +244,7 @@
       "graphemes": ["s", "t", "r", "a", "n", "g", "er"],
       "phonemes": ["/s", "t", "r", "eɪ", "n", "dʒ", "ɚ/"],
       "phonics": ["/s", "t", "r", "ā", "n", "j", "er/"],
-      "tags": ["cluster", "irregular", "rcontrolled"],
+      "tags": ["cluster", "irregular"],
       "hearts": [0, 0, 0, 1, 0, 0, 0],
       "hint": "a 在 n, ge 前發長母音 /eɪ/ (例外)；g 發軟音 /dʒ/。"
     },
@@ -255,7 +255,7 @@
       "graphemes": ["t", "ee", "n", "a", "g", "er"],
       "phonemes": ["/'t", "i", "n", "eɪ", "dʒ", "ɚ/"],
       "phonics": ["/'t", "ē", "n", "ā", "j", "er/"],
-      "tags": ["vowel_team", "open", "rcontrolled"],
+      "tags": ["vowel_team","suffix"],
       "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "ee 發 /i/；a 發 /eɪ/；g 發軟音 /dʒ/。"
     },
@@ -266,8 +266,8 @@
       "graphemes": ["v", "i", "s", "i", "t", "or"],
       "phonemes": ["/'v", "ɪ", "z", "ɪ", "t", "ɚ/"],
       "phonics": ["/'v", "ĭ", "z", "ĭ", "t", "er/"],
-      "tags": ["closed", "rcontrolled"],
-      "hearts": [0, 0, 0, 0, 0, 0],
+      "tags": ["closed"],
+      "hearts": [0, 0, 1, 0, 0, 1],
       "hint": "s 夾在母音間發 /z/；or 發 /ɚ/。"
     },
 
