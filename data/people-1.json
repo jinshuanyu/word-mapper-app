@@ -63,7 +63,7 @@
       "ipa": "/ˈdʒinjəs/",
       "graphemes": ["g", "e", "n", "i", "u", "s"],
       "phonemes": ["/'dʒ", "i", "n", "j", "ə", "s/"],
-      "phonics": ["/'j", "ē", "n", "y", "ə", "s/"],
+      "phonics": ["/'-j", "ē", "n", "y", "ə", "s/"],
       "tags": ["open", "irregular"],
       "hearts": [0, 0, 0, 0, 1, 0],
       "hint": "g 發軟音 /dʒ/；e 發長母音 /i/；u 弱化。"
@@ -85,9 +85,9 @@
       "ipa": "/ˈdʒaɪənt/",
       "graphemes": ["g", "i", "a", "n", "t"],
       "phonemes": ["/'dʒ", "aɪ", "ə", "n", "t/"],
-      "phonics": ["/'j", "ī", "ə", "n", "t/"],
-      "tags": ["irregular"],
-      "hearts": [0, 0, 0, 0, 0],
+      "phonics": ["/'-j", "ī", "ə", "n", "t/"],
+      "tags": ["open"],
+      "hearts": [0, 1, 0, 0, 0],
       "hint": "g 發軟音 /dʒ/；i 發長母音 /aɪ/。"
     },
 
