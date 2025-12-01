@@ -17,7 +17,7 @@
       "ipa": "/ˈeɪndʒəl/",
       "graphemes": ["a", "n", "g", "el"],
       "phonemes": ["/'eɪ", "n", "dʒ", "əl/"],
-      "phonics": ["/'ā", "n", "j", "əl/"],
+      "phonics": ["/'ā", "n", "-j", "əl/"],
       "tags": ["open"],
       "hearts": [0, 0, 0, 0],
       "hint": "a 發長母音 /eɪ/；g 在 e 前發軟音 /dʒ/。"
@@ -31,7 +31,7 @@
       "graphemes": ["c", "ou", "p", "le"],
       "phonemes": ["/'k", "ʌ", "p", "əl/"],
       "phonics": ["/'k", "ŭ", "p", "əl/"],
-      "tags": ["cle", "irregular"],
+      "tags": [ "irregular","cle"],
       "hearts": [0, 1, 0, 0],
       "hint": "ou 發短音 /ʌ/ (cousin, touch 同規則)；le 發 /əl/。"
     },
