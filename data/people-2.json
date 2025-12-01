@@ -71,8 +71,8 @@
       "word": "nice looking",
       "ipa": "/naɪs ˈlʊkɪŋ/",
       "graphemes": ["n", "i", "c", "e", " ", "l", "oo", "k", "i", "ng"],
-      "phonemes": ["/n", "aɪ", "s", "-", " ", "'l", "ʊ", "k", "ɪ", "ŋ/"],
-      "phonics": ["/n", "ī", "s", "-", " ", "'l", "oo", "k", "ĭ", "ng/"],
+      "phonemes": ["/'n", "aɪ", "s", "-", " ", "'l", "ʊ", "k", "ɪ", "ŋ/"],
+      "phonics": ["/'n", "ī", "s", "-", " ", "'l", "oo", "k", "ĭ", "ng/"],
       "tags": ["magic_e", "vowel_team"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "nice 為 magic e；oo 發短音 /ʊ/。"
