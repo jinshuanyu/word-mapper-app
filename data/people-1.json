@@ -142,7 +142,7 @@
       "ipa": "/kɪŋ/",
       "graphemes": ["k", "i", "ng"],
       "phonemes": ["/k", "ɪ", "ŋ/"],
-      "phonics": ["/k", "ĭ", "ng/"],
+      "phonics": ["/k", "ĭ", "ŋ/"],
       "tags": ["cvc", "digraph"],
       "hearts": [0, 0, 0],
       "hint": "ng 發鼻音 /ŋ/。"
@@ -243,7 +243,7 @@
       "ipa": "/ˈstreɪndʒɚ/",
       "graphemes": ["s", "t", "r", "a", "n", "g", "er"],
       "phonemes": ["/s", "t", "r", "eɪ", "n", "dʒ", "ɚ/"],
-      "phonics": ["/s", "t", "r", "ā", "n", "j", "er/"],
+      "phonics": ["/s", "t", "r", "ā", "n", "-j", "er/"],
       "tags": ["cluster", "irregular"],
       "hearts": [0, 0, 0, 1, 0, 0, 0],
       "hint": "a 在 n, ge 前發長母音 /eɪ/ (例外)；g 發軟音 /dʒ/。"
@@ -254,7 +254,7 @@
       "ipa": "/ˈtineɪdʒɚ/",
       "graphemes": ["t", "ee", "n", "a", "g", "er"],
       "phonemes": ["/'t", "i", "n", "eɪ", "dʒ", "ɚ/"],
-      "phonics": ["/'t", "ē", "n", "ā", "j", "er/"],
+      "phonics": ["/'t", "ē", "n", "ā", "-j", "er/"],
       "tags": ["vowel_team","suffix"],
       "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "ee 發 /i/；a 發 /eɪ/；g 發軟音 /dʒ/。"
