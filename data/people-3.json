@@ -7,7 +7,7 @@
       "graphemes": ["a", "n", "g", "r", "y"],
       "phonemes": ["/'æ", "ŋ", "ɡ", "r", "i/"],
       "phonics": ["/'ă", "ŋ", "ɡ", "r", "ē/"],
-      "tags": ["closed"],
+      "tags": ["closed","cluster"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "n 在 g 前發 /ŋ/。"
     },
@@ -29,8 +29,8 @@
       "graphemes": ["e", "x", "c", "i", "t", "ed"],
       "phonemes": ["/ɪ", "k", "'s", "aɪ", "t", "ɪd/"],
       "phonics": ["/ĭ", "k", "'s", "ī", "t", "ĭd/"],
-      "tags": ["open", "closed", "suffix"],
-      "hearts": [0, 0, 0, 0, 0, 0],
+      "tags": ["open",  "suffix"],
+      "hearts": [0, 1, 0, 0, 0, 0],
       "hint": "x 發 /k/；c 發 /s/；i 發 /aɪ/。"
     },
     {
@@ -40,7 +40,7 @@
       "graphemes": ["h", "a", "pp", "y"],
       "phonemes": ["/'h", "æ", "p", "i/"],
       "phonics": ["/'h", "ă", "p", "ē/"],
-      "tags": ["floss", "closed"],
+      "tags": [ "closed"],
       "hearts": [0, 0, 0, 0],
       "hint": "pp 發單音 /p/。"
     },
@@ -52,7 +52,7 @@
       "phonemes": ["/'ɪ", "n", "t", "r", "ɪ", "s", "t", "ɪd/"],
       "phonics": ["/'ĭ", "n", "t", "r", "ĭ", "s", "t", "ĭd/"],
       "tags": ["closed", "suffix"],
-      "hearts": [0, 0, 0, 1, 1, 0, 0, 0],
+      "hearts": [0, 0, 0, 1, 0, 0, 0, 0],
       "hint": "第一個 er 弱化發 /r/；e 發 /ɪ/。"
     },
     {
@@ -62,7 +62,7 @@
       "graphemes": ["j", "ea", "l", "ou", "s"],
       "phonemes": ["/'dʒ", "ɛ", "l", "ə", "s/"],
       "phonics": ["/'j", "ĕ", "l", "ə", "s/"],
-      "tags": ["vowel_team", "irregular"],
+      "tags": [ "irregular"],
       "hearts": [0, 1, 0, 1, 0],
       "hint": "ea 發短音 /ɛ/；ou 發 /ə/。"
     },
@@ -95,7 +95,7 @@
       "graphemes": ["n", "er", "v", "ou", "s"],
       "phonemes": ["/'n", "ɝ", "v", "ə", "s/"],
       "phonics": ["/'n", "er", "v", "ə", "s/"],
-      "tags": ["rcontrolled", "irregular"],
+      "tags": ["rcontrolled"],
       "hearts": [0, 0, 0, 1, 0],
       "hint": "er 發 /ɝ/；ou 發 /ə/。"
     },
@@ -125,9 +125,9 @@
       "number": "😱 害怕的",
       "word": "scared",
       "ipa": "/skɛrd/",
-      "graphemes": ["s", "c", "ar", "ed"],
-      "phonemes": ["/s", "k", "ɛr", "d/"],
-      "phonics": ["/s", "k", "air", "d/"],
+      "graphemes": ["s", "c", "a","r", "ed"],
+      "phonemes": ["/s", "k", "ɛ","r", "d/"],
+      "phonics": ["/s", "k", "ĕ","r", "d/"],
       "tags": ["rcontrolled", "suffix"],
       "hearts": [0, 0, 1, 0],
       "hint": "ar 發 /ɛr/ (例外)；ed 發 /d/。"
@@ -139,7 +139,7 @@
       "graphemes": ["u", "n", "h", "a", "pp", "y"],
       "phonemes": ["/ʌ", "n", "'h", "æ", "p", "i/"],
       "phonics": ["/ŭ", "n", "'h", "ă", "p", "ē/"],
-      "tags": ["closed", "floss"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "un 字首 + happy。"
     }
