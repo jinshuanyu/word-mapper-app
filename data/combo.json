@@ -1,0 +1,227 @@
+{
+  "items": [
+    {
+      "number": "",
+      "word": "sh",
+      "graphemes": [
+        "sh"
+      ],
+      "phonemes": [
+        "/ʃ/"
+      ],
+      "phonics": [
+        "/sh/"
+      ],
+      "tags": [
+        "digraph"
+      ],
+      "hint": "發無聲子音 /sh/ (ship)。",
+      "audio": "audio/phonemes/c13.mp3"
+    },
+    {
+      "number": "",
+      "word": "ch",
+      "graphemes": [
+        "ch",
+        "tch"
+      ],
+      "phonemes": [
+        "/tʃ/"
+      ],
+      "phonics": [
+        "/ch/"
+      ],
+      "tags": [
+        "digraph"
+      ],
+      "hint": "發子音 /ch/ (chair, watch)。",
+      "audio": "audio/phonemes/c15.mp3"
+    },
+    {
+      "number": "",
+      "word": "th (unvoiced)",
+      "graphemes": [
+        "th"
+      ],
+      "phonemes": [
+        "/θ/"
+      ],
+      "phonics": [
+        "/th/"
+      ],
+      "tags": [
+        "digraph"
+      ],
+      "hint": "無聲 (Unvoiced)。發氣音 /th/ (thumb)。",
+      "audio": "audio/phonemes/c9.mp3"
+    },
+    {
+      "number": "",
+      "word": "th (voiced)",
+      "graphemes": [
+        "th"
+      ],
+      "phonemes": [
+        "/ð/"
+      ],
+      "phonics": [
+        "/<u>th</u>/"
+      ],
+      "tags": [
+        "digraph"
+      ],
+      "hint": "有聲 (Voiced)。發震動音 /th/ (this)。",
+      "audio": "audio/phonemes/c10.mp3"
+    },
+    {
+      "number": "",
+      "word": "zh",
+      "graphemes": [
+        "s",
+        "ge"
+      ],
+      "phonemes": [
+        "/ʒ/"
+      ],
+      "phonics": [
+        "/zh/"
+      ],
+      "tags": [
+        "digraph"
+      ],
+      "hint": "發音 /zh/，通常拼寫為 s (treasure) 或 ge (beige)。",
+      "audio": "audio/phonemes/c14.mp3"
+    },
+    {
+      "number": "",
+      "word": "ng",
+      "graphemes": [
+        "ng"
+      ],
+      "phonemes": [
+        "/ŋ/"
+      ],
+      "phonics": [
+        "/ng/"
+      ],
+      "tags": [
+        "digraph"
+      ],
+      "hint": "發鼻音 /ng/ (ring)。",
+      "audio": "audio/phonemes/c20.mp3"
+    },
+    {
+      "number": "",
+      "word": "oi, oy",
+      "graphemes": [
+        "oi",
+        "oy"
+      ],
+      "phonemes": [
+        "/ɔɪ/"
+      ],
+      "phonics": [
+        "/oi/"
+      ],
+      "tags": [
+        "vowel_team"
+      ],
+      "hint": "發 /oi/。oi 常用於字中 (boil)，oy 常用於字尾 (boy)。",
+      "audio": "audio/phonemes/oi.mp3"
+    },
+    {
+      "number": "",
+      "word": "ou, ow",
+      "graphemes": [
+        "ou",
+        "ow"
+      ],
+      "phonemes": [
+        "/aʊ/"
+      ],
+      "phonics": [
+        "/ow/"
+      ],
+      "tags": [
+        "vowel_team"
+      ],
+      "hint": "發 /ow/。如 cloud, cow。",
+      "audio": "audio/phonemes/ow.mp3"
+    },
+    {
+      "number": "",
+      "word": "au, aw",
+      "graphemes": [
+        "au",
+        "aw"
+      ],
+      "phonemes": [
+        "/ɔ/"
+      ],
+      "phonics": [
+        "/aw/"
+      ],
+      "tags": [
+        "vowel_team"
+      ],
+      "hint": "發 /aw/。如 launch, saw。",
+      "audio": "audio/phonemes/aw.mp3"
+    },
+    {
+      "number": "",
+      "word": "ar",
+      "graphemes": [
+        "ar"
+      ],
+      "phonemes": [
+        "/ɑr/"
+      ],
+      "phonics": [
+        "/ar/"
+      ],
+      "tags": [
+        "rcontrolled"
+      ],
+      "hint": "發 /ar/ (car)。",
+      "audio": "audio/phonemes/ar.mp3"
+    },
+    {
+      "number": "",
+      "word": "or",
+      "graphemes": [
+        "or"
+      ],
+      "phonemes": [
+        "/ɔr/"
+      ],
+      "phonics": [
+        "/or/"
+      ],
+      "tags": [
+        "rcontrolled"
+      ],
+      "hint": "發 /or/ (fork)。",
+      "audio": "audio/phonemes/or.mp3"
+    },
+    {
+      "number": "",
+      "word": "er, ir, ur",
+      "graphemes": [
+        "er",
+        "ir",
+        "ur"
+      ],
+      "phonemes": [
+        "/ɝ/"
+      ],
+      "phonics": [
+        "/er/"
+      ],
+      "tags": [
+        "rcontrolled"
+      ],
+      "hint": "發捲舌音 /er/。如 her, bird, turn。",
+      "audio": "audio/phonemes/er_stressed.mp3"
+    }
+  ]
+}
