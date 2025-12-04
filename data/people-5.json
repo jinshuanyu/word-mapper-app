@@ -7,8 +7,8 @@
       "graphemes": ["a", "c", "t", "i", "v", "e"],
       "phonemes": ["/'æ", "k", "t", "ɪ", "v", "-/"],
       "phonics": ["/'ă", "k", "t", "ĭ", "v", "-/"],
-      "tags": ["closed", "silent_consonant"],
-      "hearts": [0, 0, 0, 0, 0, 1],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "ve 字尾 e 不發音。"
     },
     {
@@ -29,7 +29,7 @@
       "graphemes": ["b", "l", "i", "n", "d"],
       "phonemes": ["/b", "l", "aɪ", "n", "d/"],
       "phonics": ["/b", "l", "ī", "n", "d/"],
-      "tags": ["irregular", "closed"],
+      "tags": ["irregular"],
       "hearts": [0, 0, 1, 0, 0],
       "hint": "i 在 nd 前不規則發長音 /ī/。"
     },
@@ -39,7 +39,7 @@
       "ipa": "/ˈbɔrɪŋ/",
       "graphemes": ["b", "or", "i", "ng"],
       "phonemes": ["/'b", "ɔr", "ɪ", "ŋ/"],
-      "phonics": ["/'b", "or", "ĭ", "ng/"],
+      "phonics": ["/'b", "or", "ĭ", "ŋ/"],
       "tags": ["rcontrolled", "suffix"],
       "hearts": [0, 0, 0, 0],
       "hint": "or 發 /or/；ng 發 /ŋ/。"
@@ -73,7 +73,7 @@
       "graphemes": ["ch", "i", "l", "d", "l", "i", "k", "e"],
       "phonemes": ["/'tʃ", "aɪ", "l", "d", "l", "aɪ", "k", "-/"],
       "phonics": ["/'ch", "ī", "l", "d", "l", "ī", "k", "-/"],
-      "tags": ["digraph", "magic_e"],
+      "tags": ["digraph",  "irregular"],
       "hearts": [0, 1, 0, 0, 0, 0, 0, 0],
       "hint": "第一個 i 發 /ī/；字尾 i_e 發 /ī/。"
     },
@@ -84,8 +84,8 @@
       "graphemes": ["c", "l", "e", "v", "er"],
       "phonemes": ["/'k", "l", "ɛ", "v", "ɚ/"],
       "phonics": ["/'k", "l", "ĕ", "v", "er/"],
-      "tags": ["rcontrolled", "closed"],
-      "hearts": [0, 0, 0, 0, 0],
+      "tags": [ "closed"],
+      "hearts": [0, 0, 1, 0, 0],
       "hint": "er 發 /er/。"
     },
     {
@@ -96,7 +96,7 @@
       "phonemes": ["/'k", "ɑ", "n", "f", "ə", "d", "ə", "n", "t/"],
       "phonics": ["/'k", "ŏ", "n", "f", "ə", "d", "ə", "n", "t/"],
       "tags": ["closed"],
-      "hearts": [0, 0, 0, 0, 1, 0, 1, 0, 0],
+      "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "i 與 e 皆弱化發 /ə/。"
     },
     {
@@ -126,8 +126,8 @@
       "word": "curious",
       "ipa": "/ˈkjʊriəs/",
       "graphemes": ["c", "u", "r", "i", "ou", "s"],
-      "phonemes": ["/'k", "jʊr", "i", "ə", "s/"],
-      "phonics": ["/'k", "yʊr", "ē", "ə", "s/"],
+      "phonemes": ["/'k", "jʊ","r", "i", "ə", "s/"],
+      "phonics": ["/'k", "yʊ", "r", "ē", "ə", "s/"],
       "tags": ["irregular"],
       "hearts": [0, 1, 0, 0, 1, 0],
       "hint": "ur 發 /yʊr/；ou 發 /ə/。"
@@ -150,7 +150,7 @@
       "graphemes": ["d", "u", "m", "b"],
       "phonemes": ["/d", "ʌ", "m", "-/"],
       "phonics": ["/d", "ŭ", "m", "-/"],
-      "tags": ["silent_consonant", "closed"],
+      "tags": ["closed","silent_consonant"],
       "hearts": [0, 0, 0, 1],
       "hint": "b 不發音。"
     },
@@ -159,9 +159,9 @@
       "word": "energetic",
       "ipa": "/ˌɛnɚˈdʒɛtɪk/",
       "graphemes": ["e", "n", "er", "g", "e", "t", "i", "c"],
-      "phonemes": ["/ˌɛ", "n", "ɚ", "'dʒ", "ɛ", "t", "ɪ", "k/"],
-      "phonics": ["/ˌĕ", "n", "er", "'j", "ĕ", "t", "ĭ", "k/"],
-      "tags": ["closed", "rcontrolled"],
+      "phonemes": ["/ɛ", "n", "ɚ", "'dʒ", "ɛ", "t", "ɪ", "k/"],
+      "phonics": ["/ĕ", "n", "er", "'-j", "ĕ", "t", "ĭ", "k/"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "er 發 /er/；g 發軟音 /j/。"
     },
@@ -173,7 +173,7 @@
       "phonemes": ["/'i", "v", "ə", "l/"],
       "phonics": ["/'ē", "v", "ə", "l/"],
       "tags": ["open"],
-      "hearts": [0, 0, 1, 0],
+      "hearts": [0, 0, 0, 0],
       "hint": "e 發長音 /ē/；i 弱化。"
     },
     {
@@ -183,12 +183,12 @@
       "graphemes": ["e", "x", "c", "i", "t", "i", "ng"],
       "phonemes": ["/ɪ", "k", "'s", "aɪ", "t", "ɪ", "ŋ/"],
       "phonics": ["/ĭ", "k", "'s", "ī", "t", "ĭ", "ng/"],
-      "tags": ["open", "suffix"],
+      "tags": ["magic_e", "suffix"],
       "hearts": [0, 0, 0, 0, 0, 0, 0],
       "hint": "x 發 /k/；c 發 /s/；i 發 /ī/。"
     },
     {
-      "number": "🌟 有名的", "word": "famous", "ipa": "/ˈfeɪməs/", "graphemes": ["f", "a", "m", "ou", "s"], "phonemes": ["/'f", "eɪ", "m", "ə", "s/"], "phonics": ["/'f", "ā", "m", "ə", "s/"], "tags": ["open", "irregular"], "hearts": [0, 0, 0, 1, 0], "hint": "a 發長音 /ā/；ou 發 /ə/。"
+      "number": "🌟 有名的", "word": "famous", "ipa": "/ˈfeɪməs/", "graphemes": ["f", "a", "m", "ou", "s"], "phonemes": ["/'f", "eɪ", "m", "ə", "s/"], "phonics": ["/'f", "ā", "m", "ə", "s/"], "tags": ["open"], "hearts": [0, 0, 0, 1, 0], "hint": "a 發長音 /ā/；ou 發 /ə/。"
     },
     {
       "number": "🤡 愚蠢的",
@@ -208,7 +208,7 @@
       "graphemes": ["f", "u", "nn", "y"],
       "phonemes": ["/'f", "ʌ", "n", "i/"],
       "phonics": ["/'f", "ŭ", "n", "ē/"],
-      "tags": ["floss", "closed"],
+      "tags": [ "closed"],
       "hearts": [0, 0, 0, 0],
       "hint": "u 發短音 /ŭ/；y 發 /ē/。"
     },
@@ -218,7 +218,7 @@
       "ipa": "/ɡʊd/",
       "graphemes": ["g", "oo", "d"],
       "phonemes": ["/ɡ", "ʊ", "d/"],
-      "phonics": ["/ɡ", "ʊ", "d/"],
+      "phonics": ["/ɡ", "oo", "d/"],
       "tags": ["vowel_team"],
       "hearts": [0, 0, 0],
       "hint": "oo 發短音 /ʊ/。"
@@ -230,7 +230,7 @@
       "graphemes": ["h", "u", "m", "or", "ou", "s"],
       "phonemes": ["/'h", "ju", "m", "ɚ", "ə", "s/"],
       "phonics": ["/'h", "yū", "m", "er", "ə", "s/"],
-      "tags": ["open", "rcontrolled"],
+      "tags": ["open"],
       "hearts": [0, 0, 0, 0, 1, 0],
       "hint": "u 發 /yū/；ou 發 /ə/。"
     },
@@ -240,9 +240,9 @@
       "ipa": "/ɪnˈtɛlədʒənt/",
       "graphemes": ["i", "n", "t", "e", "ll", "i", "g", "e", "n", "t"],
       "phonemes": ["/ɪ", "n", "'t", "ɛ", "l", "ə", "dʒ", "ə", "n", "t/"],
-      "phonics": ["/ĭ", "n", "'t", "ĕ", "l", "ə", "j", "ə", "n", "t/"],
-      "tags": ["closed", "floss"],
-      "hearts": [0, 0, 0, 0, 0, 1, 0, 1, 0, 0],
+      "phonics": ["/ĭ", "n", "'t", "ĕ", "l", "ə", "-j", "ə", "n", "t/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "第二個 i 弱化；g 發軟音 /j/。"
     },
     {
@@ -252,7 +252,7 @@
       "graphemes": ["l", "o", "v", "e", "l", "y"],
       "phonemes": ["/'l", "ʌ", "v", "-", "l", "i/"],
       "phonics": ["/'l", "ŭ", "v", "-", "l", "ē/"],
-      "tags": ["irregular", "silent_consonant"],
+      "tags": ["irregular"],
       "hearts": [0, 1, 0, 1, 0, 0],
       "hint": "o 不規則發 /ŭ/；e 不發音。"
     },
@@ -260,9 +260,9 @@
       "number": "🏚 貧窮的",
       "word": "poor",
       "ipa": "/pʊr/",
-      "graphemes": ["p", "oor"],
-      "phonemes": ["/p", "ʊr/"],
-      "phonics": ["/p", "oor/"],
+      "graphemes": ["p", "oo","r"],
+      "phonemes": ["/p", "ʊ","r/"],
+      "phonics": ["/p", "oo","r/"],
       "tags": ["vowel_team"],
       "hearts": [0, 0],
       "hint": "oor 發 /oor/。"
@@ -274,7 +274,7 @@
       "graphemes": ["r", "i", "ch"],
       "phonemes": ["/r", "ɪ", "tʃ/"],
       "phonics": ["/r", "ĭ", "ch/"],
-      "tags": ["digraph", "closed"],
+      "tags": ["cvc","digraph"],
       "hearts": [0, 0, 0],
       "hint": "ch 發 /ch/。"
     },
@@ -285,7 +285,7 @@
       "graphemes": ["s", "i", "ll", "y"],
       "phonemes": ["/'s", "ɪ", "l", "i/"],
       "phonics": ["/'s", "ĭ", "l", "ē/"],
-      "tags": ["floss", "closed"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0],
       "hint": "y 字尾發 /ē/。"
     },
@@ -296,7 +296,7 @@
       "graphemes": ["s", "m", "ar", "t"],
       "phonemes": ["/s", "m", "ɑr", "t/"],
       "phonics": ["/s", "m", "ar", "t/"],
-      "tags": ["rcontrolled", "cluster"],
+      "tags": ["cluster","rcontrolled"],
       "hearts": [0, 0, 0, 0],
       "hint": "ar 發 /ar/。"
     },
@@ -307,7 +307,7 @@
       "graphemes": ["s", "t", "u", "p", "i", "d"],
       "phonemes": ["/'s", "t", "u", "p", "ɪ", "d/"],
       "phonics": ["/'s", "t", "ū", "p", "ĭ", "d/"],
-      "tags": ["open", "closed"],
+      "tags": ["open"],
       "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "u 發長音 /ū/。"
     },
@@ -319,7 +319,7 @@
       "phonemes": ["/s", "ə", "k", "'s", "ɛ", "s", "f", "ə", "l/"],
       "phonics": ["/s", "ə", "k", "'s", "ĕ", "s", "f", "ə", "l/"],
       "tags": ["closed", "floss"],
-      "hearts": [0, 1, 0, 0, 0, 0, 0, 1, 0],
+      "hearts": [0, 0, 1, 1, 0, 0, 0, 1, 0],
       "hint": "u 弱化；cc 第一個 c 發 /k/ 第二個 c 發 /s/。"
     },
     {
