@@ -7,8 +7,8 @@
       "graphemes": ["D", "o", "c", "t", "or"],
       "phonemes": ["/'d", "ɑ", "k", "t", "ɚ/"],
       "phonics": ["/'d", "ŏ", "k", "t", "er/"],
-      "tags": ["irregular", "rcontrolled"],
-      "hearts": [0, 0, 0, 0, 0],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 0, 1],
       "hint": "縮寫 Dr. 讀作 Doctor。"
     },
     {
@@ -29,7 +29,7 @@
       "graphemes": ["M", "i", "ss"],
       "phonemes": ["/m", "ɪ", "s/"],
       "phonics": ["/m", "ĭ", "s/"],
-      "tags": ["floss", "closed"],
+      "tags": ["cvc", "floss"],
       "hearts": [0, 0, 0],
       "hint": "ss 發 /s/。"
     },
@@ -40,7 +40,7 @@
       "graphemes": ["M", "i", "s", "t", "er"],
       "phonemes": ["/'m", "ɪ", "s", "t", "ɚ/"],
       "phonics": ["/'m", "ĭ", "s", "t", "er/"],
-      "tags": ["irregular", "rcontrolled"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "縮寫 Mr. 讀作 Mister。"
     },
@@ -51,7 +51,7 @@
       "graphemes": ["M", "i", "ss", "u", "s"],
       "phonemes": ["/'m", "ɪ", "s", "ɪ", "z/"],
       "phonics": ["/'m", "ĭ", "s", "ĭ", "z/"],
-      "tags": ["irregular", "floss"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "縮寫 Mrs. 讀作 Missus。"
     },
@@ -84,8 +84,8 @@
       "graphemes": ["P", "r", "o", "f", "e", "ss", "or"],
       "phonemes": ["/p", "r", "ə", "'f", "ɛ", "s", "ɚ/"],
       "phonics": ["/p", "r", "ə", "'f", "ĕ", "s", "er/"],
-      "tags": ["irregular", "rcontrolled"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 0, 0, 0, 1],
       "hint": "縮寫 Prof. 讀作 Professor。"
     },
     {
