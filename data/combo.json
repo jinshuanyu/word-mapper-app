@@ -20,25 +20,27 @@
     },
     {
       "number": "",
-      "word": "ch",
+      "word": "ch, tch",
       "graphemes": [
         "ch",
         "tch"
       ],
       "phonemes": [
+        "/tʃ/",
         "/tʃ/"
       ],
       "phonics": [
+        "/ch/",
         "/ch/"
       ],
       "tags": [
         "digraph"
       ],
-      "hint": "發子音 /ch/ (chair, watch)。",
+      "hint": "發子音 /ch/。ch 用於字首或長母音後 (chair)；tch 用於短母音後 (catch)。",
       "audio": "audio/phonemes/c15.mp3"
     },
     {
-      "number": "",
+      "number": "無聲吐舌",
       "word": "th (unvoiced)",
       "graphemes": [
         "th"
@@ -56,7 +58,7 @@
       "audio": "audio/phonemes/c9.mp3"
     },
     {
-      "number": "",
+      "number": "有聲吐舌",
       "word": "th (voiced)",
       "graphemes": [
         "th"
@@ -75,15 +77,38 @@
     },
     {
       "number": "",
-      "word": "zh",
+      "word": "ge, dge",
+      "graphemes": [
+        "ge",
+        "dge"
+      ],
+      "phonemes": [
+        "/dʒ/",
+        "/dʒ/"
+      ],
+      "phonics": [
+        "/-j/",
+        "/-j/"
+      ],
+      "tags": [
+        "digraph"
+      ],
+      "hint": "發軟音 /j/。ge 常在長母音後 (cage)；dge 常在短母音後 (bridge)。",
+      "audio": "audio/phonemes/c16.mp3"
+    },
+    {
+      "number": "",
+      "word": "zh, /ʒ/",
       "graphemes": [
         "s",
         "ge"
       ],
       "phonemes": [
+        "/ʒ/",
         "/ʒ/"
       ],
       "phonics": [
+        "/zh/",
         "/zh/"
       ],
       "tags": [
@@ -102,7 +127,7 @@
         "/ŋ/"
       ],
       "phonics": [
-        "/ng/"
+        "/ŋ/"
       ],
       "tags": [
         "digraph"
@@ -118,9 +143,11 @@
         "oy"
       ],
       "phonemes": [
+        "/ɔɪ/",
         "/ɔɪ/"
       ],
       "phonics": [
+        "/oi/",
         "/oi/"
       ],
       "tags": [
@@ -137,9 +164,11 @@
         "ow"
       ],
       "phonemes": [
+        "/aʊ/",
         "/aʊ/"
       ],
       "phonics": [
+        "/ow/",
         "/ow/"
       ],
       "tags": [
@@ -156,9 +185,11 @@
         "aw"
       ],
       "phonemes": [
+        "/ɔ/",
         "/ɔ/"
       ],
       "phonics": [
+        "/aw/",
         "/aw/"
       ],
       "tags": [
@@ -177,7 +208,7 @@
         "/ɑr/"
       ],
       "phonics": [
-        "/ar/"
+        "/ɑr/"
       ],
       "tags": [
         "rcontrolled"
@@ -212,9 +243,13 @@
         "ur"
       ],
       "phonemes": [
+        "/ɝ/",
+        "/ɝ/",
         "/ɝ/"
       ],
       "phonics": [
+        "/er/",
+        "/er/",
         "/er/"
       ],
       "tags": [
