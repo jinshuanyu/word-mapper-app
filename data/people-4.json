@@ -18,19 +18,19 @@
       "graphemes": ["c", "a", "r", "e", "f", "u", "l"],
       "phonemes": ["/'k", "ɛ", "r", "-", "f", "ə", "l/"],
       "phonics": ["/'k", "ĕ", "r", "-", "f", "ə", "l/"],
-      "tags": ["rcontrolled", "suffix"],
-      "hearts": [0, 1, 0, 0, 0, 1, 0],
+      "tags": ["rcontrolled"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0],
       "hint": "are 不規則發 /ɛr/；ful 弱化。"
     },
     {
       "number": "粗心的",
       "word": "careless",
       "ipa": "/ˈkɛrləs/",
-      "graphemes": ["c", "ar", "e", "l", "e", "ss"],
-      "phonemes": ["/'k", "ɛr", "-", "l", "ə", "s/"],
-      "phonics": ["/'k", "ĕr", "-", "l", "ə", "s/"],
-      "tags": ["rcontrolled", "suffix"],
-      "hearts": [0, 1, 0, 0, 1, 0],
+      "graphemes": ["c", "a", "r", "e",  "l", "e", "ss"],
+      "phonemes": ["/'k", "ɛ", "r", "-", "l", "ə", "s/"],
+      "phonics": ["/'k", "ĕ", "r", "-", "l", "ə", "s/"],
+      "tags": ["rcontrolled", "floss"],
+      "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "are 不規則發 /ɛr/；less 弱化。"
     },
     {
@@ -40,8 +40,8 @@
       "graphemes": ["c", "o", "n", "s", "i", "d", "er", "a", "t", "e"],
       "phonemes": ["/k", "ə", "n", "'s", "ɪ", "d", "ɚ", "ə", "t", "-/"],
       "phonics": ["/k", "ə", "n", "'s", "ĭ", "d", "er", "ə", "t", "-/"],
-      "tags": ["irregular", "closed"],
-      "hearts": [0, 1, 0, 0, 0, 0, 0, 1, 0, 0],
+      "tags": ["irregular"],
+      "hearts": [0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
       "hint": "ate 字尾發 /ət/。"
     },
     {
@@ -51,8 +51,8 @@
       "graphemes": ["c", "r", "u", "e", "l"],
       "phonemes": ["/'k", "r", "u", "ə", "l/"],
       "phonics": ["/'k", "r", "ū", "ə", "l/"],
-      "tags": ["open", "closed"],
-      "hearts": [0, 0, 0, 0, 0],
+      "tags": ["open"],
+      "hearts": [0, 0, 0, 1, 0],
       "hint": "u 發長音 /ū/。"
     },
     {
@@ -61,9 +61,9 @@
       "ipa": "/ˈdɪlədʒənt/",
       "graphemes": ["d", "i", "l", "i", "g", "e", "n", "t"],
       "phonemes": ["/'d", "ɪ", "l", "ə", "dʒ", "ə", "n", "t/"],
-      "phonics": ["/'d", "ĭ", "l", "ə", "j", "ə", "n", "t/"],
-      "tags": ["closed", "irregular"],
-      "hearts": [0, 0, 0, 1, 0, 0, 0, 0],
+      "phonics": ["/'d", "ĭ", "l", "ə", "-j", "ə", "n", "t/"],
+      "tags": [ "irregular"],
+      "hearts": [0, 1, 0, 0, 0, 0, 0, 0],
       "hint": "第二個 i 弱化；g 發軟音 /j/。"
     },
     {
@@ -84,7 +84,7 @@
       "graphemes": ["f", "r", "a", "n", "k"],
       "phonemes": ["/f", "r", "æ", "ŋ", "k/"],
       "phonics": ["/f", "r", "ă", "ŋ", "k/"],
-      "tags": ["cluster", "closed"],
+      "tags": ["cluster", "cvc"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "n 在 k 前發 /ŋ/。"
     },
@@ -95,7 +95,7 @@
       "graphemes": ["f", "r", "ie", "n", "d", "l", "y"],
       "phonemes": ["/'f", "r", "ɛ", "n", "d", "l", "i/"],
       "phonics": ["/'f", "r", "ĕ", "n", "d", "l", "ē/"],
-      "tags": ["irregular"],
+      "tags": ["irregular","suffix"],
       "hearts": [0, 0, 1, 0, 0, 0, 0],
       "hint": "ie 不規則發短音 /ĕ/。"
     },
@@ -105,7 +105,7 @@
       "ipa": "/ˈdʒɛnɚəs/",
       "graphemes": ["g", "e", "n", "er", "ou", "s"],
       "phonemes": ["/'dʒ", "ɛ", "n", "ɚ", "ə", "s/"],
-      "phonics": ["/'j", "ĕ", "n", "er", "ə", "s/"],
+      "phonics": ["/'-j", "ĕ", "n", "er", "ə", "s/"],
       "tags": ["rcontrolled", "irregular"],
       "hearts": [0, 0, 0, 0, 1, 0],
       "hint": "g 發軟音 /j/；ou 發 /ə/。"
@@ -115,9 +115,9 @@
       "word": "gentle",
       "ipa": "/ˈdʒɛntl/",
       "graphemes": ["g", "e", "n", "t", "le"],
-      "phonemes": ["/'dʒ", "ɛ", "n", "t", "l/"],
-      "phonics": ["/'j", "ĕ", "n", "t", "l/"],
-      "tags": ["cle", "closed"],
+      "phonemes": ["/'dʒ", "ɛ", "n", "t", "əl/"],
+      "phonics": ["/'-j", "ĕ", "n", "t", "əl/"],
+      "tags": [ "closed","cle"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "g 發軟音 /j/；le 發 /l/。"
     },
@@ -150,7 +150,7 @@
       "graphemes": ["h", "u", "m", "b", "le"],
       "phonemes": ["/'h", "ʌ", "m", "b", "əl/"],
       "phonics": ["/'h", "ŭ", "m", "b", "əl/"],
-      "tags": ["cle", "closed"],
+      "tags": [ "closed","cle"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "le 發 /əl/。"
     },
@@ -159,10 +159,10 @@
       "word": "impolite",
       "ipa": "/ˌɪmpəˈlaɪt/",
       "graphemes": ["i", "m", "p", "o", "l", "i", "t", "e"],
-      "phonemes": ["/ˌɪ", "m", "p", "ə", "'l", "aɪ", "t", "-/"],
-      "phonics": ["/ˌĭ", "m", "p", "ə", "'l", "ī", "t", "-/"],
-      "tags": ["magic_e", "closed"],
-      "hearts": [0, 0, 0, 1, 0, 0, 0, 0],
+      "phonemes": ["/ɪ", "m", "p", "ə", "'l", "aɪ", "t", "-/"],
+      "phonics": ["/ĭ", "m", "p", "ə", "'l", "ī", "t", "-/"],
+      "tags": ["magic_e"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "o 弱化；i_e 發 /ī/。"
     },
     {
@@ -172,7 +172,7 @@
       "graphemes": ["k", "i", "n", "d"],
       "phonemes": ["/k", "aɪ", "n", "d/"],
       "phonics": ["/k", "ī", "n", "d/"],
-      "tags": ["irregular", "closed"],
+      "tags": ["irregular"],
       "hearts": [0, 1, 0, 0],
       "hint": "i 在 nd 前發長音 /ī/。"
     },
@@ -195,7 +195,7 @@
       "phonemes": ["/'n", "ɔ", "t", "i/"],
       "phonics": ["/'n", "aw", "t", "ē/"],
       "tags": ["irregular"],
-      "hearts": [0, 0, 0, 0],
+      "hearts": [0, 1, 0, 0],
       "hint": "augh 發 /aw/。"
     },
     {
@@ -217,7 +217,7 @@
       "phonemes": ["/'p", "eɪ", "ʃ", "ə", "n", "t/"],
       "phonics": ["/'p", "ā", "sh", "ə", "n", "t/"],
       "tags": ["irregular"],
-      "hearts": [0, 0, 1, 1, 0, 0],
+      "hearts": [0, 0, 1, 0, 0, 0],
       "hint": "ti 發 /sh/。"
     },
     {
@@ -228,7 +228,7 @@
       "phonemes": ["/p", "ə", "'l", "aɪ", "t", "-/"],
       "phonics": ["/p", "ə", "'l", "ī", "t", "-/"],
       "tags": ["magic_e"],
-      "hearts": [0, 1, 0, 0, 0, 0],
+      "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "o 弱化發 /ə/。"
     },
     {
@@ -267,10 +267,10 @@
       "number": "🤝 真誠的",
       "word": "sincere",
       "ipa": "/sɪnˈsɪr/",
-      "graphemes": ["s", "i", "n", "c", "ere"],
-      "phonemes": ["/s", "ɪ", "n", "'s", "ɪr/"],
-      "phonics": ["/s", "ĭ", "n", "'s", "ir/"],
-      "tags": ["magic_e", "closed"],
+      "graphemes": ["s", "i", "n", "c", "e","r","e"],
+      "phonemes": ["/s", "ɪ", "n", "'s", "ɪ","r","-/"],
+      "phonics": ["/s", "ĭ", "n", "'s", "i","r","-/"],
+      "tags": ["magic_e", "rcontrolled"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "ere 發 /ir/。"
     },
@@ -286,7 +286,7 @@
       "number": "🤏 小氣的", "word": "stingy", "ipa": "/ˈstɪndʒi/",
       "graphemes": ["s", "t", "i", "n", "g", "y"],
       "phonemes": ["/'s", "t", "ɪ", "n", "dʒ", "i/"],
-      "phonics": ["/'s", "t", "ĭ", "n", "j", "ē/"],
+      "phonics": ["/'s", "t", "ĭ", "n", "-j", "ē/"],
       "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "g 發軟音 /j/。"
@@ -297,7 +297,7 @@
       "phonemes": ["/'t", "ɔ", "-", "k", "ə", "t", "ɪ", "v", "-/"],
       "phonics": ["/'t", "aw", "-", "k", "ə", "t", "ĭ", "v", "-/"],
       "tags": ["irregular", "silent_consonant"],
-      "hearts": [0, 1, 1, 0, 1, 0, 0, 0, 0],
+      "hearts": [0, 0, 1, 0, 1, 0, 0, 0, 0],
       "hint": "al 發 /aw/；l 不發音；a 弱化。"
     }
   ]
