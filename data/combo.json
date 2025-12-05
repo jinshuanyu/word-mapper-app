@@ -1,5 +1,55 @@
 {
   "items": [
+    {
+      "number": "",
+      "word": "a_e, ai, ay",
+      "graphemes": ["a_e", "ai", "ay"],
+      "phonemes": ["/eɪ/", "/eɪ/", "/eɪ/"],
+      "phonics": ["/ā/", "/ā/", "/ā/"],
+      "tags": ["magic_e", "vowel_team"],
+      "hint": "發長母音 /ā/ (cake, rain, play)。",
+      "audio": "audio/phonemes/a_long.mp3"
+    },
+    {
+      "number": "",
+      "word": "e_e, ee, ea",
+      "graphemes": ["e_e", "ee", "ea"],
+      "phonemes": ["/i/", "/i/", "/i/"],
+      "phonics": ["/ē/", "/ē/", "/ē/"],
+      "tags": ["magic_e", "vowel_team"],
+      "hint": "發長母音 /ē/ (feet, eat, pete)。",
+      "audio": "audio/phonemes/e_long.mp3"
+    },
+    {
+      "number": "",
+      "word": "i_e, igh, ie, y",
+      "graphemes": ["i_e", "igh", "ie", "y"],
+      "phonemes": ["/aɪ/", "/aɪ/", "/aɪ/", "/aɪ/"],
+      "phonics": ["/ī/", "/ī/", "/ī/", "/ī/"],
+      "tags": ["magic_e", "vowel_team"],
+      "hint": "發長母音 /ī/ (bike, night, pie, fly)。",
+      "audio": "audio/phonemes/i_long.mp3"
+    },
+    {
+      "number": "",
+      "word": "o_e, oa, oe, ow",
+      "graphemes": ["o_e", "oa", "oe", "ow"],
+      "phonemes": ["/oʊ/", "/oʊ/", "/oʊ/", "/oʊ/"],
+      "phonics": ["/ō/", "/ō/", "/ō/", "/ō/"],
+      "tags": ["magic_e", "vowel_team"],
+      "hint": "發長母音 /ō/ (home, boat, snow)。",
+      "audio": "audio/phonemes/o_long.mp3"
+    },
+    {
+      "number": "",
+      "word": "u_e, ui, ue, ew",
+      "graphemes": ["u_e", "ui",  "ue", "ew"],
+      "phonemes": ["/ju/", "/ju/", "/ju/", "/ju/"],
+      "phonics": ["/yū/", "/yū/", "/yū/", "/yū/"],
+      "tags": ["magic_e", "vowel_team"],
+      "hint": "發長母音 /yū/ (cute) 或 /ū/ (blue)。",
+      "audio": "audio/phonemes/u_long.mp3"
+    }
       {
       "number": "",
       "word": "au, aw",
@@ -63,6 +113,16 @@
       "hint": "發 /oi/。oi 常用於字中 (boil)，oy 常用於字尾 (boy)。",
       "audio": "audio/phonemes/oi.mp3"
     },
+    {
+      "number": "",
+      "word": "oo",
+      "graphemes": ["oo【長】", "oo【短】"],
+      "phonemes": ["/u/", "/ʊ/"],
+      "phonics": ["/ū/", "/oo/"],
+      "tags": ["vowel_team"],
+      "hint": "有兩種發音：長音 /ū/ (moon) 或短音 /oo/ (book)。",
+      "audio": "audio/phonemes/oo.mp3"
+    }
    
     {
       "number": "",
