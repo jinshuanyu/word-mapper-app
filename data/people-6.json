@@ -59,11 +59,11 @@
       "number": "👩 女士(不分婚否)",
       "word": "Ms.",
       "ipa": "/mɪz/",
-      "graphemes": ["M", "i", "z"],
-      "phonemes": ["/m", "ɪ", "z/"],
-      "phonics": ["/m", "ĭ", "z/"],
+      "graphemes": ["M", "s."],
+      "phonemes": ["/m", "ɪz/"],
+      "phonics": ["/m", "ĭz/"],
       "tags": ["irregular"],
-      "hearts": [0, 0, 0],
+      "hearts": [0, 1],
       "hint": "縮寫 Ms. 讀作 Miz (z音)。"
     },
     {
