@@ -40,7 +40,7 @@
       "graphemes": ["a", "f", "t", "er", "n", "oo", "n"],
       "phonemes": ["/æ", "f", "t", "ɚ", "'n", "u", "n/"],
       "phonics": ["/ă", "f", "t", "er", "'n", "ū", "n/"],
-      "tags": ["closed", "rcontrolled", "vowel_team"],
+      "tags": [ "vowel_team"],
       "hearts": [0, 0, 0, 0, 0, 0, 0],
       "hint": "after + noon。"
     },
@@ -51,8 +51,8 @@
       "graphemes": ["e", "v", "e", "n", "i", "ng"],
       "phonemes": ["/'i", "v", "-", "n", "ɪ", "ŋ/"],
       "phonics": ["/'ē", "v", "-", "n", "ĭ", "ŋ/"],
-      "tags": ["open", "silent_consonant", "digraph"],
-      "hearts": [0, 0, 1, 0, 0, 0],
+      "tags": ["magic_e", "digraph"],
+      "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "中間的 e 不發音。"
     },
     {
@@ -63,7 +63,7 @@
       "phonemes": ["/n", "aɪ", "t/"],
       "phonics": ["/n", "ī", "t/"],
       "tags": ["vowel_team"],
-      "hearts": [0, 0, 0],
+      "hearts": [0, 1, 0],
       "hint": "igh 發長母音 /ī/。"
     },
     {
@@ -73,8 +73,8 @@
       "graphemes": ["m", "i", "d", "n", "igh", "t"],
       "phonemes": ["/'m", "ɪ", "d", "n", "aɪ", "t/"],
       "phonics": ["/'m", "ĭ", "d", "n", "ī", "t/"],
-      "tags": ["closed", "vowel_team"],
-      "hearts": [0, 0, 0, 0, 0, 0],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 0, 1, 0],
       "hint": "mid + night。"
     },
     {
@@ -84,8 +84,8 @@
       "graphemes": ["t", "o", "d", "ay"],
       "phonemes": ["/t", "ə", "'d", "eɪ/"],
       "phonics": ["/t", "ə", "'d", "ā/"],
-      "tags": ["open", "vowel_team"],
-      "hearts": [0, 1, 0, 0],
+      "tags": [ "vowel_team"],
+      "hearts": [0, 0, 0, 0],
       "hint": "o 弱化；ay 發 /ā/。"
     },
     {
@@ -95,8 +95,8 @@
       "graphemes": ["t", "o", "n", "igh", "t"],
       "phonemes": ["/t", "ə", "'n", "aɪ", "t/"],
       "phonics": ["/t", "ə", "'n", "ī", "t/"],
-      "tags": ["open", "vowel_team"],
-      "hearts": [0, 1, 0, 0, 0],
+      "tags": [ "vowel_team"],
+      "hearts": [0, 0, 0, 0, 0],
       "hint": "o 弱化；igh 發 /ī/。"
     },
     {
@@ -106,8 +106,8 @@
       "graphemes": ["t", "o", "m", "o", "rr", "ow"],
       "phonemes": ["/t", "ə", "'m", "ɔ", "r", "oʊ/"],
       "phonics": ["/t", "ə", "'m", "aw", "r", "ō/"],
-      "tags": ["open", "floss", "vowel_team"],
-      "hearts": [0, 1, 0, 1, 0, 0],
+      "tags": ["open"],
+      "hearts": [0, 0, 0, 0, 1, 0],
       "hint": "第一個 o 弱化；第二個 o 發 /aw/；ow 字尾發 /ō/。"
     },
     {
@@ -117,7 +117,7 @@
       "graphemes": ["y", "e", "s", "t", "er", "d", "ay"],
       "phonemes": ["/'j", "ɛ", "s", "t", "ɚ", "d", "eɪ/"],
       "phonics": ["/'y", "ĕ", "s", "t", "er", "d", "ā/"],
-      "tags": ["closed", "rcontrolled", "vowel_team"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0, 0, 0],
       "hint": "y 發 /y/；er 發 /er/；ay 發 /ā/。"
     },
@@ -139,7 +139,7 @@
       "graphemes": ["d", "ai", "l", "y"],
       "phonemes": ["/'d", "eɪ", "l", "i/"],
       "phonics": ["/'d", "ā", "l", "ē/"],
-      "tags": ["vowel_team", "open"],
+      "tags": ["vowel_team"],
       "hearts": [0, 0, 0, 0],
       "hint": "ai 發 /ā/；y 發 /ē/。"
     }
