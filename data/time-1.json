@@ -27,8 +27,8 @@
       "word": "alarm clock",
       "ipa": "/əˈlɑrm klɑk/",
       "graphemes": ["a", "l", "ar", "m", " ", "c", "l", "o", "ck"],
-      "phonemes": ["/ə", "'l", "ɑr", "m", "-", "k", "l", "ɑ", "k/"],
-      "phonics": ["/ə", "'l", "ɑr", "m", "-", "k", "l", "ŏ", "k/"],
+      "phonemes": ["/ə", "'l", "ɑr", "m", " ", "k", "l", "ɑ", "k/"],
+      "phonics": ["/ə", "'l", "ɑr", "m", " ", "k", "l", "ŏ", "k/"],
       "tags": ["rcontrolled", "closed"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "首字 a 弱化；ar 發 /ar/；ck 發 /k/。"
