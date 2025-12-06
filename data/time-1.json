@@ -5,8 +5,8 @@
       "word": "a.m.",
       "ipa": "/ˌeɪˈɛm/",
       "graphemes": ["a", ".", "m", "."],
-      "phonemes": ["/'eɪ", "-", "'ɛ", "m/"],
-      "phonics": ["/'ā", "-", "'ĕ", "m/"],
+      "phonemes": ["/'eɪ", "-", "'ɛm","-/"],
+      "phonics": ["/'ā", "-", "'ĕm","-/"],
       "tags": ["irregular"],
       "hearts": [0, 1, 0, 1],
       "hint": "Ante Meridiem 縮寫。"
@@ -16,10 +16,10 @@
       "word": "p.m.",
       "ipa": "/ˌpiˈɛm/",
       "graphemes": ["p", ".", "m", "."],
-      "phonemes": ["/'p", "i", "-", "'ɛ", "m/"],
-      "phonics": ["/'p", "ē", "-", "'ĕ", "m/"],
+      "phonemes": ["/'pi", "-", "'ɛm","-/"],
+      "phonics": ["/'pē", "-", "'ĕm","-/"],
       "tags": ["irregular"],
-      "hearts": [0, 0, 1, 0, 1],
+      "hearts": [0,  1, 0, 1],
       "hint": "Post Meridiem 縮寫。"
     },
     {
@@ -28,9 +28,9 @@
       "ipa": "/əˈlɑrm klɑk/",
       "graphemes": ["a", "l", "ar", "m", " ", "c", "l", "o", "ck"],
       "phonemes": ["/ə", "'l", "ɑr", "m", "-", "k", "l", "ɑ", "k/"],
-      "phonics": ["/ə", "'l", "ar", "m", "-", "k", "l", "ŏ", "k/"],
+      "phonics": ["/ə", "'l", "ɑr", "m", "-", "k", "l", "ŏ", "k/"],
       "tags": ["rcontrolled", "closed"],
-      "hearts": [1, 0, 0, 0, 0, 0, 0, 0, 0],
+      "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "首字 a 弱化；ar 發 /ar/；ck 發 /k/。"
     },
     {
@@ -40,8 +40,8 @@
       "graphemes": ["c", "a", "l", "e", "n", "d", "ar"],
       "phonemes": ["/'k", "æ", "l", "ə", "n", "d", "ɚ/"],
       "phonics": ["/'k", "ă", "l", "ə", "n", "d", "er/"],
-      "tags": ["closed", "rcontrolled"],
-      "hearts": [0, 0, 0, 1, 0, 0, 0],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 0, 0, 0, 1],
       "hint": "e 弱化；ar 弱化發 /er/。"
     },
     {
@@ -51,7 +51,7 @@
       "graphemes": ["c", "l", "o", "ck"],
       "phonemes": ["/k", "l", "ɑ", "k/"],
       "phonics": ["/k", "l", "ŏ", "k/"],
-      "tags": ["closed", "digraph"],
+      "tags": ["cluster","cvc", "digraph"],
       "hearts": [0, 0, 0, 0],
       "hint": "ck 發 /k/。"
     },
@@ -62,7 +62,7 @@
       "graphemes": ["h", "a", "l", "f"],
       "phonemes": ["/h", "æ", "-", "f/"],
       "phonics": ["/h", "ă", "-", "f/"],
-      "tags": ["silent_consonant", "closed"],
+      "tags": [ "closed","silent_consonant"],
       "hearts": [0, 0, 1, 0],
       "hint": "l 不發音。"
     },
@@ -84,7 +84,7 @@
       "graphemes": ["m", "i", "n", "u", "t", "e"],
       "phonemes": ["/'m", "ɪ", "n", "ɪ", "t", "-/"],
       "phonics": ["/'m", "ĭ", "n", "ĭ", "t", "-/"],
-      "tags": ["closed", "irregular", "magic_e"],
+      "tags": ["irregular"],
       "hearts": [0, 0, 0, 1, 0, 0],
       "hint": "u 弱化發 /ĭ/；字尾 e 不發音。"
     },
@@ -95,8 +95,8 @@
       "graphemes": ["m", "o", "m", "e", "n", "t"],
       "phonemes": ["/'m", "oʊ", "m", "ə", "n", "t/"],
       "phonics": ["/'m", "ō", "m", "ə", "n", "t/"],
-      "tags": ["open", "closed"],
-      "hearts": [0, 0, 0, 1, 0, 0],
+      "tags": ["open"],
+      "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "o 發長音 /ō/；e 弱化。"
     },
     {
@@ -117,7 +117,7 @@
       "graphemes": ["p", "a", "s", "t"],
       "phonemes": ["/p", "æ", "s", "t/"],
       "phonics": ["/p", "ă", "s", "t/"],
-      "tags": ["closed", "cvc"],
+      "tags": [ "cvc","cluster"],
       "hearts": [0, 0, 0, 0],
       "hint": "a 發短母音 /ă/。"
     },
@@ -128,8 +128,8 @@
       "graphemes": ["qu", "ar", "t", "er"],
       "phonemes": ["/'kw", "ɔr", "t", "ɚ/"],
       "phonics": ["/'kw", "or", "t", "er/"],
-      "tags": ["rcontrolled"],
-      "hearts": [0, 0, 0, 0],
+      "tags": ["irregular"],
+      "hearts": [0, 1, 0, 0],
       "hint": "qu 發 /kw/；ar 在 w 後發 /or/。"
     },
     {
@@ -140,7 +140,7 @@
       "phonemes": ["/'s", "ɛ", "k", "ə", "n", "d/"],
       "phonics": ["/'s", "ĕ", "k", "ə", "n", "d/"],
       "tags": ["closed"],
-      "hearts": [0, 0, 0, 1, 0, 0],
+      "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "o 弱化。"
     },
     {
@@ -172,7 +172,7 @@
       "graphemes": ["w", "a", "tch"],
       "phonemes": ["/w", "ɑ", "tʃ/"],
       "phonics": ["/w", "ŏ", "ch/"],
-      "tags": ["closed", "digraph"],
+      "tags": ["irregular", "digraph"],
       "hearts": [0, 1, 0],
       "hint": "a 在 w 後發 /ŏ/；tch 發 /ch/。"
     }
