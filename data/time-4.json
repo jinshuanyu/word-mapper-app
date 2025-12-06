@@ -28,7 +28,7 @@
       "ipa": "/mɑrtʃ/",
       "graphemes": ["M", "ar", "ch"],
       "phonemes": ["/'m", "ɑr", "tʃ/"],
-      "phonics": ["/'m", "ar", "ch/"],
+      "phonics": ["/'m", "ɑr", "ch/"],
       "tags": ["rcontrolled", "digraph"],
       "hearts": [0, 0, 0],
       "hint": "ar 發 /ar/；ch 發 /ch/。"
@@ -83,7 +83,7 @@
       "ipa": "/ˈɔɡəst/",
       "graphemes": ["Au", "g", "u", "s", "t"],
       "phonemes": ["/'ɔ", "ɡ", "ə", "s", "t/"],
-      "phonics": ["/'aw", "g", "ə", "s", "t/"],
+      "phonics": ["/'aw", "ɡ", "ə", "s", "t/"],
       "tags": ["vowel_team"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "Au 發 /aw/。"
