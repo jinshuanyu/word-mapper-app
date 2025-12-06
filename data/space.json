@@ -6,10 +6,10 @@
       "word": "Mercury",
       "ipa": "/ˈmɝkjəri/",
       "graphemes": ["M", "er", "c", "u", "r", "y"],
-      "phonemes": ["/m", "ɝ", "k", "j", "ɚ", "i/"],
-      "phonics": ["/m", "er", "k", "y", "er", "ē/"],
-      "tags": ["rcontrolled", "open"],
-      "hearts": [0, 0, 0, 0, 0, 0],
+      "phonemes": ["/m", "ɝ", "k", "jə", "r", "i/"],
+      "phonics": ["/m", "er", "k", "yə", "r", "ē/"],
+      "tags": ["rcontrolled"],
+      "hearts": [0, 0, 0, 1, 0, 0],
       "hint": "er 發 /er/；u 發 /y/；y 發 /ē/。"
     },
     {
