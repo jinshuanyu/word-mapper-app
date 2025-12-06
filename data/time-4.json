@@ -1,17 +1,147 @@
 {
   "items": [
-    { "number": "1️⃣ 一月", "word": "January", "ipa": "/ˈdʒænjuˌɛri/", "graphemes": ["J", "a", "n", "u", "a", "r", "y"], "phonemes": ["/'dʒ", "æ", "n", "ju", "ˌɛ", "r", "i/"], "phonics": ["/'j", "ă", "n", "yū", "ˌĕ", "r", "ē/"], "tags": ["open", "irregular"], "hearts": [0, 0, 0, 0, 0, 0, 0], "hint": "u 發 /ju/；y 發 /i/。" },
-    { "number": "2️⃣ 二月", "word": "February", "ipa": "/ˈfɛbruˌɛri/", "graphemes": ["F", "e", "b", "r", "u", "a", "r", "y"], "phonemes": ["/'f", "ɛ", "b", "r", "u", "ˌɛ", "r", "i/"], "phonics": ["/'f", "ĕ", "b", "r", "ū", "ˌĕ", "r", "ē/"], "tags": ["open"], "hearts": [0, 0, 0, 0, 0, 0, 0, 0], "hint": "r 常被弱化或不發音。" },
-    { "number": "3️⃣ 三月", "word": "March", "ipa": "/mɑrtʃ/", "graphemes": ["M", "ar", "ch"], "phonemes": ["/m", "ɑr", "tʃ/"], "phonics": ["/m", "ar", "ch/"], "tags": ["rcontrolled", "digraph"], "hearts": [0, 0, 0], "hint": "ar 發 /ɑr/。" },
-    { "number": "4️⃣ 四月", "word": "April", "ipa": "/ˈeɪprəl/", "graphemes": ["A", "p", "r", "i", "l"], "phonemes": ["/'eɪ", "p", "r", "ə", "l/"], "phonics": ["/'ā", "p", "r", "ə", "l/"], "tags": ["open"], "hearts": [0, 0, 0, 0, 0], "hint": "A 發長音 /eɪ/；i 弱化。" },
-    { "number": "5️⃣ 五月", "word": "May", "ipa": "/meɪ/", "graphemes": ["M", "ay"], "phonemes": ["/m", "eɪ/"], "phonics": ["/m", "ā/"], "tags": ["vowel_team"], "hearts": [0, 0], "hint": "ay 發長音 /eɪ/。" },
-    { "number": "6️⃣ 六月", "word": "June", "ipa": "/dʒun/", "graphemes": ["J", "u", "n", "e"], "phonemes": ["/dʒ", "u", "n", "-/"], "phonics": ["/j", "ū", "n", "-/"], "tags": ["magic_e"], "hearts": [0, 0, 0, 0], "hint": "u_e 發 /u/。" },
-    { "number": "7️⃣ 七月", "word": "July", "ipa": "/dʒuˈlaɪ/", "graphemes": ["J", "u", "l", "y"], "phonemes": ["/dʒ", "u", "'l", "aɪ/"], "phonics": ["/j", "ū", "'l", "ī/"], "tags": ["open"], "hearts": [0, 0, 0, 0], "hint": "y 字尾發 /aɪ/。" },
-    { "number": "8️⃣ 八月", "word": "August", "ipa": "/ˈɔɡəst/", "graphemes": ["Au", "g", "u", "s", "t"], "phonemes": ["/'ɔ", "ɡ", "ə", "s", "t/"], "phonics": ["/'aw", "ɡ", "ə", "s", "t/"], "tags": ["vowel_team", "closed"], "hearts": [0, 0, 0, 0, 0], "hint": "Au 發 /ɔ/ (aw)。" },
-    { "number": "9️⃣ 九月", "word": "September", "ipa": "/sɛpˈtɛmbɚ/", "graphemes": ["S", "e", "p", "t", "e", "m", "b", "er"], "phonemes": ["/s", "ɛ", "p", "'t", "ɛ", "m", "b", "ɚ/"], "phonics": ["/s", "ĕ", "p", "'t", "ĕ", "m", "b", "er/"], "tags": ["closed", "rcontrolled"], "hearts": [0, 0, 0, 0, 0, 0, 0, 0], "hint": "" },
-    { "number": "🔟 十月", "word": "October", "ipa": "/ɑkˈtoʊbɚ/", "graphemes": ["O", "c", "t", "o", "b", "er"], "phonemes": ["/ɑ", "k", "'t", "oʊ", "b", "ɚ/"], "phonics": ["/ŏ", "k", "'t", "ō", "b", "er/"], "tags": ["closed", "open", "rcontrolled"], "hearts": [0, 0, 0, 0, 0, 0], "hint": "第一個 O 發短音 /ɑ/；第二個 O 發長音 /oʊ/。" },
-    { "number": "1️⃣1️⃣ 十一月", "word": "November", "ipa": "/noʊˈvɛmbɚ/", "graphemes": ["N", "o", "v", "e", "m", "b", "er"], "phonemes": ["/n", "oʊ", "'v", "ɛ", "m", "b", "ɚ/"], "phonics": ["/n", "ō", "'v", "ĕ", "m", "b", "er/"], "tags": ["open", "closed", "rcontrolled"], "hearts": [0, 0, 0, 0, 0, 0, 0], "hint": "o 發長音 /oʊ/。" },
-    { "number": "1️⃣2️⃣ 十二月", "word": "December", "ipa": "/dɪˈsɛmbɚ/", "graphemes": ["D", "e", "c", "e", "m", "b", "er"], "phonemes": ["/d", "ɪ", "'s", "ɛ", "m", "b", "ɚ/"], "phonics": ["/d", "ĭ", "'s", "ĕ", "m", "b", "er/"], "tags": ["open", "closed", "rcontrolled"], "hearts": [0, 0, 0, 0, 0, 0, 0], "hint": "e 發 /ɪ/；c 發軟音 /s/。" },
-    { "number": "🗓 月份", "word": "month", "ipa": "/mʌnθ/", "graphemes": ["m", "o", "n", "th"], "phonemes": ["/m", "ʌ", "n", "θ/"], "phonics": ["/m", "ŭ", "n", "th/"], "tags": ["irregular", "digraph"], "hearts": [0, 1, 0, 0], "hint": "o 不規則發 /ʌ/。" }
+    {
+      "number": "1️⃣ 一月",
+      "word": "January",
+      "ipa": "/ˈdʒænjuɛri/",
+      "graphemes": ["J", "a", "n", "u", "a", "r", "y"],
+      "phonemes": ["/'dʒ", "æ", "n", "ju", "ɛ", "r", "i/"],
+      "phonics": ["/'-j", "ă", "n", "yū", "ĕ", "r", "ē/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 0, 1, 0, 0],
+      "hint": "重音在 Jan (閉音節)；u 發 /yū/；ary 的 a 發 /ɛ/。"
+    },
+    {
+      "number": "2️⃣ 二月",
+      "word": "February",
+      "ipa": "/ˈfɛbruɛri/",
+      "graphemes": ["F", "e", "b", "r", "u", "a", "r", "y"],
+      "phonemes": ["/'f", "ɛ", "b", "r", "u", "ɛ", "r", "i/"],
+      "phonics": ["/'f", "ĕ", "b", "r", "ū", "ĕ", "r", "ē/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 0, 0, 1, 0, 0],
+      "hint": "重音在 Feb；a 不規則發 /ĕ/。"
+    },
+    {
+      "number": "3️⃣ 三月",
+      "word": "March",
+      "ipa": "/mɑrtʃ/",
+      "graphemes": ["M", "ar", "ch"],
+      "phonemes": ["/'m", "ɑr", "tʃ/"],
+      "phonics": ["/'m", "ar", "ch/"],
+      "tags": ["rcontrolled", "digraph"],
+      "hearts": [0, 0, 0],
+      "hint": "ar 發 /ar/；ch 發 /ch/。"
+    },
+    {
+      "number": "4️⃣ 四月",
+      "word": "April",
+      "ipa": "/ˈeɪprəl/",
+      "graphemes": ["A", "p", "r", "i", "l"],
+      "phonemes": ["/'eɪ", "p", "r", "ə", "l/"],
+      "phonics": ["/'ā", "p", "r", "ə", "l/"],
+      "tags": ["open"],
+      "hearts": [0, 0, 0, 0, 0],
+      "hint": "A 發長音 /ā/；i 弱化。"
+    },
+    {
+      "number": "5️⃣ 五月",
+      "word": "May",
+      "ipa": "/meɪ/",
+      "graphemes": ["M", "ay"],
+      "phonemes": ["/'m", "eɪ/"],
+      "phonics": ["/'m", "ā/"],
+      "tags": ["vowel_team"],
+      "hearts": [0, 0],
+      "hint": "ay 發長音 /ā/。"
+    },
+    {
+      "number": "6️⃣ 六月",
+      "word": "June",
+      "ipa": "/dʒun/",
+      "graphemes": ["J", "u", "n", "e"],
+      "phonemes": ["/'dʒ", "u", "n", "-/"],
+      "phonics": ["/'-j", "ū", "n", "-/"],
+      "tags": ["magic_e"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "u_e 發 /ū/。"
+    },
+    {
+      "number": "7️⃣ 七月",
+      "word": "July",
+      "ipa": "/dʒuˈlaɪ/",
+      "graphemes": ["J", "u", "l", "y"],
+      "phonemes": ["/dʒ", "u", "'l", "aɪ/"],
+      "phonics": ["/-j", "ū", "'l", "ī/"],
+      "tags": ["open"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "重音在 Ly；y 字尾發 /ī/。"
+    },
+    {
+      "number": "8️⃣ 八月",
+      "word": "August",
+      "ipa": "/ˈɔɡəst/",
+      "graphemes": ["Au", "g", "u", "s", "t"],
+      "phonemes": ["/'ɔ", "ɡ", "ə", "s", "t/"],
+      "phonics": ["/'aw", "g", "ə", "s", "t/"],
+      "tags": ["vowel_team"],
+      "hearts": [0, 0, 0, 0, 0],
+      "hint": "Au 發 /aw/。"
+    },
+    {
+      "number": "9️⃣ 九月",
+      "word": "September",
+      "ipa": "/sɛpˈtɛmbɚ/",
+      "graphemes": ["S", "e", "p", "t", "e", "m", "b", "er"],
+      "phonemes": ["/s", "ɛ", "p", "'t", "ɛ", "m", "b", "ɚ/"],
+      "phonics": ["/s", "ĕ", "p", "'t", "ĕ", "m", "b", "er/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
+      "hint": "重音在 tem (閉音節)；er 發 /er/。"
+    },
+    {
+      "number": "🔟 十月",
+      "word": "October",
+      "ipa": "/ɑkˈtoʊbɚ/",
+      "graphemes": ["O", "c", "t", "o", "b", "er"],
+      "phonemes": ["/ɑ", "k", "'t", "oʊ", "b", "ɚ/"],
+      "phonics": ["/ŏ", "k", "'t", "ō", "b", "er/"],
+      "tags": ["open"],
+      "hearts": [0, 0, 0, 0, 0, 0],
+      "hint": "重音在 to (開音節)；O 發 /ŏ/。"
+    },
+    {
+      "number": "1️⃣1️⃣ 十一月",
+      "word": "November",
+      "ipa": "/noʊˈvɛmbɚ/",
+      "graphemes": ["N", "o", "v", "e", "m", "b", "er"],
+      "phonemes": ["/n", "oʊ", "'v", "ɛ", "m", "b", "ɚ/"],
+      "phonics": ["/n", "ō", "'v", "ĕ", "m", "b", "er/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0],
+      "hint": "重音在 vem (閉音節)；o 發 /ō/。"
+    },
+    {
+      "number": "1️⃣2️⃣ 十二月",
+      "word": "December",
+      "ipa": "/dɪˈsɛmbɚ/",
+      "graphemes": ["D", "e", "c", "e", "m", "b", "er"],
+      "phonemes": ["/d", "ɪ", "'s", "ɛ", "m", "b", "ɚ/"],
+      "phonics": ["/d", "ĭ", "'s", "ĕ", "m", "b", "er/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0],
+      "hint": "重音在 cem (閉音節)；c 發軟音 /s/。"
+    },
+    {
+      "number": "🗓 月份",
+      "word": "month",
+      "ipa": "/mʌnθ/",
+      "graphemes": ["m", "o", "n", "th"],
+      "phonemes": ["/'m", "ʌ", "n", "θ/"],
+      "phonics": ["/'m", "ŭ", "n", "th/"],
+      "tags": ["irregular", "digraph"],
+      "hearts": [0, 1, 0, 0],
+      "hint": "o 不規則發 /ŭ/。"
+    }
   ]
 }
