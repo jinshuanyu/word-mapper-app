@@ -1,17 +1,147 @@
 {
   "items": [
-    { "number": "🌅 黎明", "word": "dawn", "ipa": "/dɔn/", "graphemes": ["d", "aw", "n"], "phonemes": ["/d", "ɔ", "n/"], "phonics": ["/d", "aw", "n/"], "tags": ["vowel_team"], "hearts": [0, 0, 0], "hint": "aw 發 /ɔ/。" },
-    { "number": "🌅 早晨", "word": "morning", "ipa": "/ˈmɔrnɪŋ/", "graphemes": ["m", "or", "n", "i", "ng"], "phonemes": ["/'m", "ɔr", "n", "ɪ", "ŋ/"], "phonics": ["/'m", "or", "n", "ĭ", "ng/"], "tags": ["rcontrolled", "digraph"], "hearts": [0, 0, 0, 0, 0], "hint": "or 發 /ɔr/；ng 發 /ŋ/。" },
-    { "number": "☀️ 中午", "word": "noon", "ipa": "/nun/", "graphemes": ["n", "oo", "n"], "phonemes": ["/n", "u", "n/"], "phonics": ["/n", "ū", "n/"], "tags": ["vowel_team"], "hearts": [0, 0, 0], "hint": "oo 發長母音 /u/。" },
-    { "number": "🕑 下午", "word": "afternoon", "ipa": "/ˌæftɚˈnun/", "graphemes": ["a", "f", "t", "er", "n", "oo", "n"], "phonemes": ["/ˌæ", "f", "t", "ɚ", "'n", "u", "n/"], "phonics": ["/ˌă", "f", "t", "er", "'n", "ū", "n/"], "tags": ["rcontrolled", "vowel_team"], "hearts": [0, 0, 0, 0, 0, 0, 0], "hint": "after + noon。" },
-    { "number": "🌆 傍晚", "word": "evening", "ipa": "/ˈivnɪŋ/", "graphemes": ["e", "v", "e", "n", "i", "ng"], "phonemes": ["/'i", "v", "-", "n", "ɪ", "ŋ/"], "phonics": ["/'ē", "v", "-", "n", "ĭ", "ng/"], "tags": ["open", "silent_consonant"], "hearts": [0, 0, 1, 0, 0, 0], "hint": "中間的 e 不發音。" },
-    { "number": "🌃 晚上", "word": "night", "ipa": "/naɪt/", "graphemes": ["n", "igh", "t"], "phonemes": ["/n", "aɪ", "t/"], "phonics": ["/n", "ī", "t/"], "tags": ["vowel_team"], "hearts": [0, 0, 0], "hint": "igh 發長母音 /aɪ/。" },
-    { "number": "🕛 午夜", "word": "midnight", "ipa": "/ˈmɪdnaɪt/", "graphemes": ["m", "i", "d", "n", "igh", "t"], "phonemes": ["/'m", "ɪ", "d", "n", "aɪ", "t/"], "phonics": ["/'m", "ĭ", "d", "n", "ī", "t/"], "tags": ["closed", "vowel_team"], "hearts": [0, 0, 0, 0, 0, 0], "hint": "mid + night。" },
-    { "number": "🏙 今天", "word": "today", "ipa": "/təˈdeɪ/", "graphemes": ["t", "o", "d", "ay"], "phonemes": ["/t", "ə", "'d", "eɪ/"], "phonics": ["/t", "ə", "'d", "ā/"], "tags": ["vowel_team"], "hearts": [0, 1, 0, 0], "hint": "o 弱化；ay 發 /eɪ/。" },
-    { "number": "🌃 今晚", "word": "tonight", "ipa": "/təˈnaɪt/", "graphemes": ["t", "o", "n", "igh", "t"], "phonemes": ["/t", "ə", "'n", "aɪ", "t/"], "phonics": ["/t", "ə", "'n", "ī", "t/"], "tags": ["vowel_team"], "hearts": [0, 1, 0, 0, 0], "hint": "o 弱化；igh 發 /aɪ/。" },
-    { "number": "🌅 明天", "word": "tomorrow", "ipa": "/təˈmɔroʊ/", "graphemes": ["t", "o", "m", "o", "rr", "ow"], "phonemes": ["/t", "ə", "'m", "ɔ", "r", "oʊ/"], "phonics": ["/t", "ə", "'m", "or", "r", "ō/"], "tags": ["rcontrolled", "vowel_team"], "hearts": [0, 1, 0, 0, 0, 0], "hint": "ow 字尾發 /oʊ/。" },
-    { "number": "⏮ 昨天", "word": "yesterday", "ipa": "/ˈjɛstɚdeɪ/", "graphemes": ["y", "e", "s", "t", "er", "d", "ay"], "phonemes": ["/'j", "ɛ", "s", "t", "ɚ", "d", "eɪ/"], "phonics": ["/'y", "ĕ", "s", "t", "er", "d", "ā/"], "tags": ["closed", "rcontrolled"], "hearts": [0, 0, 0, 0, 0, 0, 0], "hint": "er 發 /ɚ/；ay 發 /eɪ/。" },
-    { "number": "📆 日/天", "word": "day", "ipa": "/deɪ/", "graphemes": ["d", "ay"], "phonemes": ["/d", "eɪ/"], "phonics": ["/d", "ā/"], "tags": ["vowel_team"], "hearts": [0, 0], "hint": "ay 發長母音 /eɪ/。" },
-    { "number": "📰 每日的", "word": "daily", "ipa": "/ˈdeɪli/", "graphemes": ["d", "ai", "l", "y"], "phonemes": ["/'d", "eɪ", "l", "i/"], "phonics": ["/'d", "ā", "l", "ē/"], "tags": ["vowel_team"], "hearts": [0, 0, 0, 0], "hint": "ai 發 /eɪ/；y 發 /i/。" }
+    {
+      "number": "🌅 黎明",
+      "word": "dawn",
+      "ipa": "/dɔn/",
+      "graphemes": ["d", "aw", "n"],
+      "phonemes": ["/d", "ɔ", "n/"],
+      "phonics": ["/d", "aw", "n/"],
+      "tags": ["vowel_team"],
+      "hearts": [0, 0, 0],
+      "hint": "aw 發 /aw/。"
+    },
+    {
+      "number": "🌅 早晨",
+      "word": "morning",
+      "ipa": "/ˈmɔrnɪŋ/",
+      "graphemes": ["m", "or", "n", "i", "ng"],
+      "phonemes": ["/'m", "ɔr", "n", "ɪ", "ŋ/"],
+      "phonics": ["/'m", "or", "n", "ĭ", "ŋ/"],
+      "tags": ["rcontrolled", "digraph"],
+      "hearts": [0, 0, 0, 0, 0],
+      "hint": "or 發 /or/；ng 發 /ŋ/。"
+    },
+    {
+      "number": "☀️ 中午",
+      "word": "noon",
+      "ipa": "/nun/",
+      "graphemes": ["n", "oo", "n"],
+      "phonemes": ["/n", "u", "n/"],
+      "phonics": ["/n", "ū", "n/"],
+      "tags": ["vowel_team"],
+      "hearts": [0, 0, 0],
+      "hint": "oo 發長母音 /ū/。"
+    },
+    {
+      "number": "🕑 下午",
+      "word": "afternoon",
+      "ipa": "/ˌæftɚˈnun/",
+      "graphemes": ["a", "f", "t", "er", "n", "oo", "n"],
+      "phonemes": ["/æ", "f", "t", "ɚ", "'n", "u", "n/"],
+      "phonics": ["/ă", "f", "t", "er", "'n", "ū", "n/"],
+      "tags": ["closed", "rcontrolled", "vowel_team"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0],
+      "hint": "after + noon。"
+    },
+    {
+      "number": "🌆 傍晚",
+      "word": "evening",
+      "ipa": "/ˈivnɪŋ/",
+      "graphemes": ["e", "v", "e", "n", "i", "ng"],
+      "phonemes": ["/'i", "v", "-", "n", "ɪ", "ŋ/"],
+      "phonics": ["/'ē", "v", "-", "n", "ĭ", "ŋ/"],
+      "tags": ["open", "silent_consonant", "digraph"],
+      "hearts": [0, 0, 1, 0, 0, 0],
+      "hint": "中間的 e 不發音。"
+    },
+    {
+      "number": "🌃 晚上",
+      "word": "night",
+      "ipa": "/naɪt/",
+      "graphemes": ["n", "igh", "t"],
+      "phonemes": ["/n", "aɪ", "t/"],
+      "phonics": ["/n", "ī", "t/"],
+      "tags": ["vowel_team"],
+      "hearts": [0, 0, 0],
+      "hint": "igh 發長母音 /ī/。"
+    },
+    {
+      "number": "🕛 午夜",
+      "word": "midnight",
+      "ipa": "/ˈmɪdnaɪt/",
+      "graphemes": ["m", "i", "d", "n", "igh", "t"],
+      "phonemes": ["/'m", "ɪ", "d", "n", "aɪ", "t/"],
+      "phonics": ["/'m", "ĭ", "d", "n", "ī", "t/"],
+      "tags": ["closed", "vowel_team"],
+      "hearts": [0, 0, 0, 0, 0, 0],
+      "hint": "mid + night。"
+    },
+    {
+      "number": "🏙 今天",
+      "word": "today",
+      "ipa": "/təˈdeɪ/",
+      "graphemes": ["t", "o", "d", "ay"],
+      "phonemes": ["/t", "ə", "'d", "eɪ/"],
+      "phonics": ["/t", "ə", "'d", "ā/"],
+      "tags": ["open", "vowel_team"],
+      "hearts": [0, 1, 0, 0],
+      "hint": "o 弱化；ay 發 /ā/。"
+    },
+    {
+      "number": "🌃 今晚",
+      "word": "tonight",
+      "ipa": "/təˈnaɪt/",
+      "graphemes": ["t", "o", "n", "igh", "t"],
+      "phonemes": ["/t", "ə", "'n", "aɪ", "t/"],
+      "phonics": ["/t", "ə", "'n", "ī", "t/"],
+      "tags": ["open", "vowel_team"],
+      "hearts": [0, 1, 0, 0, 0],
+      "hint": "o 弱化；igh 發 /ī/。"
+    },
+    {
+      "number": "🌅 明天",
+      "word": "tomorrow",
+      "ipa": "/təˈmɔroʊ/",
+      "graphemes": ["t", "o", "m", "o", "rr", "ow"],
+      "phonemes": ["/t", "ə", "'m", "ɔ", "r", "oʊ/"],
+      "phonics": ["/t", "ə", "'m", "aw", "r", "ō/"],
+      "tags": ["open", "floss", "vowel_team"],
+      "hearts": [0, 1, 0, 1, 0, 0],
+      "hint": "第一個 o 弱化；第二個 o 發 /aw/；ow 字尾發 /ō/。"
+    },
+    {
+      "number": "⏮ 昨天",
+      "word": "yesterday",
+      "ipa": "/ˈjɛstɚdeɪ/",
+      "graphemes": ["y", "e", "s", "t", "er", "d", "ay"],
+      "phonemes": ["/'j", "ɛ", "s", "t", "ɚ", "d", "eɪ/"],
+      "phonics": ["/'y", "ĕ", "s", "t", "er", "d", "ā/"],
+      "tags": ["closed", "rcontrolled", "vowel_team"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0],
+      "hint": "y 發 /y/；er 發 /er/；ay 發 /ā/。"
+    },
+    {
+      "number": "📆 日/天",
+      "word": "day",
+      "ipa": "/deɪ/",
+      "graphemes": ["d", "ay"],
+      "phonemes": ["/d", "eɪ/"],
+      "phonics": ["/d", "ā/"],
+      "tags": ["vowel_team"],
+      "hearts": [0, 0],
+      "hint": "ay 發長母音 /ā/。"
+    },
+    {
+      "number": "📰 每日的",
+      "word": "daily",
+      "ipa": "/ˈdeɪli/",
+      "graphemes": ["d", "ai", "l", "y"],
+      "phonemes": ["/'d", "eɪ", "l", "i/"],
+      "phonics": ["/'d", "ā", "l", "ē/"],
+      "tags": ["vowel_team", "open"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "ai 發 /ā/；y 發 /ē/。"
+    }
   ]
 }
