@@ -8,7 +8,7 @@
       "graphemes": ["M", "er", "c", "u", "r", "y"],
       "phonemes": ["/'m", "ɝ", "k", "jə", "r", "i/"],
       "phonics": ["/'m", "er", "k", "yə", "r", "ē/"],
-      "tags": ["rcontrolled", "open"],
+      "tags": ["rcontrolled"],
       "hearts": [0, 0, 0, 1, 0, 0],
       "hint": "er 發 /er/；u 發 /yə/；y 發 /ē/。"
     },
@@ -19,7 +19,7 @@
       "graphemes": ["V", "e", "n", "u", "s"],
       "phonemes": ["/'v", "i", "n", "ə", "s/"],
       "phonics": ["/'v", "ē", "n", "ə", "s/"],
-      "tags": ["open", "closed"],
+      "tags": ["open"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "e 發長音 /ē/；u 弱化發 /ə/。"
     },
@@ -30,7 +30,7 @@
       "graphemes": ["Ear", "th"],
       "phonemes": ["/'ɝ", "θ/"],
       "phonics": ["/'er", "th/"],
-      "tags": ["rcontrolled", "digraph"],
+      "tags": ["irregular", "digraph"],
       "hearts": [1, 0],
       "hint": "Ear 不規則發捲舌音 /er/。"
     },
@@ -52,7 +52,7 @@
       "graphemes": ["J", "u", "p", "i", "t", "er"],
       "phonemes": ["/'dʒ", "u", "p", "ɪ", "t", "ɚ/"],
       "phonics": ["/'-j", "ū", "p", "ĭ", "t", "er/"],
-      "tags": ["open", "closed", "rcontrolled"],
+      "tags": ["open"],
       "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "u 在開音節發長音 /ū/。"
     },
@@ -63,7 +63,7 @@
       "graphemes": ["S", "a", "t", "ur", "n"],
       "phonemes": ["/'s", "æ", "t", "ɚ", "n/"],
       "phonics": ["/'s", "ă", "t", "er", "n/"],
-      "tags": ["closed", "rcontrolled"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "ur 在非重音節發 /er/。"
     },
@@ -74,7 +74,7 @@
       "graphemes": ["U", "r", "a", "n", "u", "s"],
       "phonemes": ["/'jʊ","r", "ə", "n", "ə", "s/"],
       "phonics": ["/'yoo","r", "ə", "n", "ə", "s/"],
-      "tags": ["open", "closed"],
+      "tags": ["open", "rcontrolled"],
       "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "U 發 /yoo/；a 與 u 皆弱化。"
     },
@@ -151,7 +151,7 @@
       "graphemes": ["sh", "oo", "t", "i", "ng", " ", "s", "t", "ar"],
       "phonemes": ["/'ʃ", "u", "t", "ɪ", "ŋ", " ", "s", "t", "ɑr/"],
       "phonics": ["/'sh", "ū", "t", "ĭ", "ŋ", " ", "s", "t", "ɑr/"],
-      "tags": ["digraph", "vowel_team", "digraph", "rcontrolled"],
+      "tags": ["digraph", "vowel_team"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "sh 發 /sh/；oo 發 /ū/；ar 發 /ar/。"
     },
