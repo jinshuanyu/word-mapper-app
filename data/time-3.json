@@ -7,7 +7,7 @@
       "graphemes": ["M", "o", "n", "d", "ay"],
       "phonemes": ["/'m", "ʌ", "n", "d", "eɪ/"],
       "phonics": ["/'m", "ŭ", "n", "d", "ā/"],
-      "tags": ["irregular", "vowel_team"],
+      "tags": ["irregular"],
       "hearts": [0, 1, 0, 0, 0],
       "hint": "o 不規則發 /ŭ/；ay 發 /ā/。"
     },
@@ -18,7 +18,7 @@
       "graphemes": ["T", "ue", "s", "d", "ay"],
       "phonemes": ["/'t", "u", "z", "d", "eɪ/"],
       "phonics": ["/'t", "ū", "z", "d", "ā/"],
-      "tags": ["vowel_team", "irregular"],
+      "tags": ["vowel_team"],
       "hearts": [0, 0, 1, 0, 0],
       "hint": "ue 發 /ū/；s 發 /z/。"
     },
@@ -29,7 +29,7 @@
       "graphemes": ["W", "e", "d", "n", "e", "s", "d", "ay"],
       "phonemes": ["/'w", "ɛ", "-", "n", "-", "z", "d", "eɪ/"],
       "phonics": ["/'w", "ĕ", "-", "n", "-", "z", "d", "ā/"],
-      "tags": ["closed", "silent_consonant", "irregular", "vowel_team"],
+      "tags": [ "silent_consonant", "irregular"],
       "hearts": [0, 0, 1, 0, 1, 1, 0, 0],
       "hint": "d 和第二個 e 不發音；s 發 /z/。"
     },
@@ -40,7 +40,7 @@
       "graphemes": ["Th", "ur", "s", "d", "ay"],
       "phonemes": ["/'θ", "ɝ", "z", "d", "eɪ/"],
       "phonics": ["/'th", "er", "z", "d", "ā/"],
-      "tags": ["digraph", "rcontrolled", "irregular", "vowel_team"],
+      "tags": ["digraph", "rcontrolled"],
       "hearts": [0, 0, 1, 0, 0],
       "hint": "th 發無聲 /th/；ur 發 /er/；s 發 /z/。"
     },
@@ -51,7 +51,7 @@
       "graphemes": ["F", "r", "i", "d", "ay"],
       "phonemes": ["/'f", "r", "aɪ", "d", "eɪ/"],
       "phonics": ["/'f", "r", "ī", "d", "ā/"],
-      "tags": ["open", "vowel_team"],
+      "tags": ["open"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "i 在開音節發 /ī/。"
     },
@@ -62,7 +62,7 @@
       "graphemes": ["S", "a", "t", "ur", "d", "ay"],
       "phonemes": ["/'s", "æ", "t", "ɚ", "d", "eɪ/"],
       "phonics": ["/'s", "ă", "t", "er", "d", "ā/"],
-      "tags": ["closed", "rcontrolled", "vowel_team"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "ur 發 /er/。"
     },
@@ -73,7 +73,7 @@
       "graphemes": ["S", "u", "n", "d", "ay"],
       "phonemes": ["/'s", "ʌ", "n", "d", "eɪ/"],
       "phonics": ["/'s", "ŭ", "n", "d", "ā/"],
-      "tags": ["closed", "vowel_team"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "u 發短母音 /ŭ/。"
     },
@@ -106,7 +106,7 @@
       "graphemes": ["w", "ee", "k", "e", "n", "d"],
       "phonemes": ["/'w", "i", "k", "ɛ", "n", "d/"],
       "phonics": ["/'w", "ē", "k", "ĕ", "n", "d/"],
-      "tags": ["vowel_team", "closed"],
+      "tags": ["vowel_team"],
       "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "week + end。"
     }
