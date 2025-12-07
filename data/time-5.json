@@ -16,8 +16,8 @@
       "word": "already",
       "ipa": "/ɔlˈrɛdi/",
       "graphemes": ["a", "l", "r", "ea", "d", "y"],
-      "phonemes": ["/ɔ/", "/l/", "/r/", "/ɛ/", "/d/", "/i/"],
-      "phonics": ["/aw/", "/l/", "/r/", "/ĕ/", "/d/", "/ē/"],
+      "phonemes": ["/ɔ", "l", "r", "ɛ", "d", "i/"],
+      "phonics": ["/aw", "l", "r", "ĕ", "d", "ē/"],
       "tags": ["irregular", "vowel_team"],
       "hearts": [0, 0, 0, 1, 0, 0],
       "hint": "a 發 /aw/；ea 發 /ĕ/。"
@@ -203,8 +203,8 @@
       "word": "year",
       "ipa": "/jɪr/",
       "graphemes": ["y", "ea", "r"],
-      "phonemes": ["/j/", "/ɪ/", "/r/"],
-      "phonics": ["/y/", "/ĭ/", "/r/"],
+      "phonemes": ["/j", "ɪ", "r/"],
+      "phonics": ["/y", "ĭ", "r/"],
       "tags": ["vowel_team","rcontrolled"],
       "hearts": [0, 0, 0],
       "hint": "ear 拆開：ea 發 /i/。"
