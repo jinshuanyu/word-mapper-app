@@ -194,7 +194,7 @@
       "graphemes": ["h", "u", "n", "g", "r", "y"],
       "phonemes": ["/'h", "ʌ", "ŋ", "ɡ", "r", "i/"],
       "phonics": ["/'h", "ŭ", "ŋ", "ɡ", "r", "ē/"],
-      "tags": ["closed"."cluster"],
+      "tags": ["closed", "cluster"],
       "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "n 在 g 前發 /ŋ/；y 字尾發 /i/。"
     },
