@@ -11,16 +11,16 @@
       "hearts": [0, 0, 0],
       "hint": "a 弱化；o 發長音 /ō/。"
     },
-    {
+{
       "number": "✅ 已經",
       "word": "already",
       "ipa": "/ɔlˈrɛdi/",
-      "graphemes": ["al", "r", "ea", "d", "y"],
-      "phonemes": ["/ɔ", "l", "'r", "ɛ", "d", "i/"],
-      "phonics": ["/aw", "l", "'r", "ĕ", "d", "ē/"],
+      "graphemes": ["a", "l", "r", "ea", "d", "y"],
+      "phonemes": ["/ɔ/", "/l/", "/r/", "/ɛ/", "/d/", "/i/"],
+      "phonics": ["/aw/", "/l/", "/r/", "/ĕ/", "/d/", "/ē/"],
       "tags": ["irregular", "vowel_team"],
-      "hearts": [0, 0, 1, 0, 0],
-      "hint": "al 發 /awl/；ea 發 /ĕ/。"
+      "hearts": [0, 0, 0, 1, 0, 0],
+      "hint": "a 發 /aw/；ea 發 /ĕ/。"
     },
     {
       "number": "🍁 秋天",
@@ -40,8 +40,8 @@
       "graphemes": ["c", "urr", "e", "n", "t"],
       "phonemes": ["/'k", "ɝ", "ə", "n", "t/"],
       "phonics": ["/'k", "er", "ə", "n", "t/"],
-      "tags": ["rcontrolled", "closed"],
-      "hearts": [0, 0, 0, 0, 0],
+      "tags": ["rcontrolled"],
+      "hearts": [0, 1, 0, 0, 0],
       "hint": "urr 發捲舌音 /er/。"
     },
     {
@@ -52,7 +52,7 @@
       "phonemes": ["/'ɝ", "l", "i/"],
       "phonics": ["/'er", "l", "ē/"],
       "tags": ["rcontrolled"],
-      "hearts": [0, 0, 0],
+      "hearts": [1, 0, 0],
       "hint": "ear 發捲舌音 /er/。"
     },
     {
@@ -73,8 +73,8 @@
       "graphemes": ["f", "u", "t", "ure"],
       "phonemes": ["/'f", "ju", "tʃ", "ɚ/"],
       "phonics": ["/'f", "yū", "ch", "er/"],
-      "tags": ["open", "rcontrolled"],
-      "hearts": [0, 0, 1, 0],
+      "tags": ["open"],
+      "hearts": [0, 0, 1, 1],
       "hint": "u 發 /yū/；t 發 /ch/；ure 發 /er/。"
     },
     {
@@ -106,7 +106,7 @@
       "graphemes": ["l", "a", "t", "er"],
       "phonemes": ["/'l", "eɪ", "t", "ɚ/"],
       "phonics": ["/'l", "ā", "t", "er/"],
-      "tags": ["open", "rcontrolled"],
+      "tags": ["open", "suffix"],
       "hearts": [0, 0, 0, 0],
       "hint": "a 發長母音 /ā/。"
     },
@@ -115,10 +115,10 @@
       "word": "next",
       "ipa": "/nɛkst/",
       "graphemes": ["n", "e", "x", "t"],
-      "phonemes": ["/n", "ɛ", "k", "s", "t/"],
-      "phonics": ["/n", "ĕ", "k", "s", "t/"],
-      "tags": ["closed"],
-      "hearts": [0, 0, 0, 0, 0],
+      "phonemes": ["/n", "ɛ", "ks", "t/"],
+      "phonics": ["/n", "ĕ", "ks", "t/"],
+      "tags": ["cvc"],
+      "hearts": [0, 0, 0, 0],
       "hint": "x 發 /ks/。"
     },
     {
@@ -136,11 +136,11 @@
       "number": "1️⃣ 一次",
       "word": "once",
       "ipa": "/wʌns/",
-      "graphemes": ["o", "n", "ce"],
-      "phonemes": ["/w", "ʌ", "n", "s/"],
-      "phonics": ["/w", "ŭ", "n", "s/"],
+      "graphemes": ["o", "n", "c","e"],
+      "phonemes": ["/wʌ", "n", "s","-/"],
+      "phonics": ["/wŭ", "n", "s","-/"],
       "tags": ["irregular"],
-      "hearts": [1, 0, 0],
+      "hearts": [1, 0, 0, 1],
       "hint": "o 不規則發 /wŭ/；ce 發 /s/。"
     },
     {
@@ -171,10 +171,10 @@
       "ipa": "/sprɪŋ/",
       "graphemes": ["s", "p", "r", "i", "ng"],
       "phonemes": ["/s", "p", "r", "ɪ", "ŋ/"],
-      "phonics": ["/s", "p", "r", "ĭ", "ng/"],
-      "tags": ["cluster", "digraph"],
+      "phonics": ["/s", "p", "r", "ĭ", "ŋ/"],
+      "tags": ["cluster", "cvc", "digraph"],
       "hearts": [0, 0, 0, 0, 0],
-      "hint": "ng 發鼻音 /ng/。"
+      "hint": "ng 發鼻音 /ŋ/。"
     },
     {
       "number": "🏖 夏天",
@@ -183,7 +183,7 @@
       "graphemes": ["s", "u", "mm", "er"],
       "phonemes": ["/'s", "ʌ", "m", "ɚ/"],
       "phonics": ["/'s", "ŭ", "m", "er/"],
-      "tags": ["floss", "rcontrolled"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0],
       "hint": "mm 發單音 /m/。"
     },
@@ -194,20 +194,20 @@
       "graphemes": ["w", "i", "n", "t", "er"],
       "phonemes": ["/'w", "ɪ", "n", "t", "ɚ/"],
       "phonics": ["/'w", "ĭ", "n", "t", "er/"],
-      "tags": ["closed", "rcontrolled"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "er 發 /er/。"
     },
-    {
+{
       "number": "📅 年",
       "word": "year",
       "ipa": "/jɪr/",
-      "graphemes": ["y", "ear"],
-      "phonemes": ["/j", "ɪr/"],
-      "phonics": ["/y", "er/"],
-      "tags": ["rcontrolled"],
-      "hearts": [0, 0],
-      "hint": "ear 發 /er/ (ir)。"
+      "graphemes": ["y", "ea", "r"],
+      "phonemes": ["/j/", "/ɪ/", "/r/"],
+      "phonics": ["/y/", "/ĭ/", "/r/"],
+      "tags": ["vowel_team","rcontrolled"],
+      "hearts": [0, 0, 0],
+      "hint": "ear 拆開：ea 發 /i/。"
     }
   ]
 }
