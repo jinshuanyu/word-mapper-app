@@ -48,9 +48,9 @@
       "number": "👯‍♀️ 啦啦隊",
       "word": "cheerleader",
       "ipa": "/ˈtʃɪrlidɚ/",
-      "graphemes": ["ch", "eer", "l", "ea", "d", "er"],
-      "phonemes": ["/'tʃ", "ɪr", "l", "i", "d", "ɚ/"],
-      "phonics": ["/'ch", "ir", "l", "ē", "d", "er/"],
+      "graphemes": ["ch", "ee","r", "l", "ea", "d", "er"],
+      "phonemes": ["/'tʃ", "ɪ","r", "l", "i", "d", "ɚ/"],
+      "phonics": ["/'ch", "ĭ","r", "l", "ē", "d", "er/"],
       "tags": ["rcontrolled", "vowel_team"],
       "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "eer 發 /ɪr/；ea 發 /i/。"
@@ -62,7 +62,7 @@
       "graphemes": ["c", "l", "a", "ss", " ", "l", "ea", "d", "er"],
       "phonemes": ["/k", "l", "æ", "s", " ", "'l", "i", "d", "ɚ/"],
       "phonics": ["/k", "l", "ă", "s", " ", "'l", "ē", "d", "er/"],
-      "tags": ["closed", "vowel_team", "rcontrolled"],
+      "tags": ["vowel_team"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "ss 發 /s/；ea 發 /i/。"
     },
@@ -70,10 +70,10 @@
       "number": "📚 課程",
       "word": "course",
       "ipa": "/kɔrs/",
-      "graphemes": ["c", "our", "se"],
-      "phonemes": ["/k", "ɔr", "s/"],
-      "phonics": ["/k", "or", "s/"],
-      "tags": ["rcontrolled"],
+      "graphemes": ["c", "our", "s","e"],
+      "phonemes": ["/k", "ɔr", "s","-/"],
+      "phonics": ["/k", "or", "s","-/"],
+      "tags": ["irregular"],
       "hearts": [0, 1, 0],
       "hint": "our 發 /ɔr/，se 發 /s/ (e 不發音)。"
     },
@@ -83,7 +83,7 @@
       "ipa": "/ˈɪŋɡlɪʃ/",
       "graphemes": ["E", "n", "g", "l", "i", "sh"],
       "phonemes": ["/'ɪ", "ŋ", "ɡ", "l", "ɪ", "ʃ/"],
-      "phonics": ["/'ĭ", "ng", "g", "l", "ĭ", "sh/"],
+      "phonics": ["/'ĭ", "ŋ", "g", "l", "ĭ", "sh/"],
       "tags": ["closed", "digraph"],
       "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "ng 發 /ŋ/；sh 發 /ʃ/。"
@@ -94,7 +94,7 @@
       "ipa": "/dʒiˈɑɡrəfi/",
       "graphemes": ["g", "e", "o", "g", "r", "a", "ph", "y"],
       "phonemes": ["/dʒ", "i", "'ɑ", "ɡ", "r", "ə", "f", "i/"],
-      "phonics": ["/j", "ē", "'ŏ", "g", "r", "ə", "f", "ē/"],
+      "phonics": ["/-j", "ē", "'ŏ", "g", "r", "ə", "f", "ē/"],
       "tags": ["closed", "soft_g", "digraph"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "g 發 /dʒ/；ph 發 /f/。"
@@ -114,9 +114,9 @@
       "number": "🗣️ 語言",
       "word": "language",
       "ipa": "/ˈlæŋɡwɪdʒ/",
-      "graphemes": ["l", "a", "n", "gu", "a", "ge"],
-      "phonemes": ["/'l", "æ", "ŋ", "gw", "ɪ", "dʒ/"],
-      "phonics": ["/'l", "ă", "ng", "gw", "ĭ", "j/"],
+      "graphemes": ["l", "a", "n", "g","u", "a", "ge"],
+      "phonemes": ["/'l", "æ", "ŋ", "g","w", "ɪ", "dʒ/"],
+      "phonics": ["/'l", "ă", "ŋ", "g","w", "ĭ", "-j/"],
       "tags": ["closed", "irregular"],
       "hearts": [0, 0, 0, 0, 1, 0],
       "hint": "gu 發 /gw/，age 弱化發 /ɪdʒ/。"
@@ -139,7 +139,7 @@
       "graphemes": ["m", "a", "th"],
       "phonemes": ["/m", "æ", "θ/"],
       "phonics": ["/m", "ă", "th/"],
-      "tags": ["closed", "digraph"],
+      "tags": ["cvc", "digraph"],
       "hearts": [0, 0, 0],
       "hint": "th 發 /θ/。"
     },
@@ -150,8 +150,8 @@
       "graphemes": ["m", "u", "s", "i", "c"],
       "phonemes": ["/'m", "ju", "z", "ɪ", "k/"],
       "phonics": ["/'m", "yū", "z", "ĭ", "k/"],
-      "tags": ["open", "closed"],
-      "hearts": [0, 0, 0, 0, 0],
+      "tags": ["open"],
+      "hearts": [0, 0, 1, 0, 0],
       "hint": "u 發 /ju/；s 發 /z/。"
     },
     {
@@ -159,8 +159,8 @@
       "word": "PE",
       "ipa": "/ˌpiˈi/",
       "graphemes": ["P", "E"],
-      "phonemes": ["/p", "i/"],
-      "phonics": ["/p", "ē/"],
+      "phonemes": ["/pi", "i/"],
+      "phonics": ["/pē", "ē/"],
       "tags": ["irregular"],
       "hearts": [0, 0],
       "hint": "Physical Education 縮寫。"
@@ -183,7 +183,7 @@
       "graphemes": ["p", "r", "i", "n", "c", "i", "p", "al"],
       "phonemes": ["/'p", "r", "ɪ", "n", "s", "ə", "p", "əl/"],
       "phonics": ["/'p", "r", "ĭ", "n", "s", "ə", "p", "əl/"],
-      "tags": ["closed", "soft_c"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "c 發 /s/；al 發 /əl/。"
     },
@@ -194,7 +194,7 @@
       "graphemes": ["sc", "i", "e", "n", "ce"],
       "phonemes": ["/'s", "aɪ", "ə", "n", "s/"],
       "phonics": ["/'s", "ī", "ə", "n", "s/"],
-      "tags": ["open", "soft_c"],
+      "tags": ["open"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "sc 發 /s/；i 發 /aɪ/；ce 發 /s/。"
     },
@@ -202,11 +202,11 @@
       "number": "🏛️ 社會科學",
       "word": "social science",
       "ipa": "/ˌsoʊʃəl ˈsaɪəns/",
-      "graphemes": ["s", "o", "ci", "al", " ", "sc", "i", "en", "ce"],
-      "phonemes": ["/s", "oʊ", "ʃ", "əl", " ", "'s", "aɪ", "ən", "s/"],
-      "phonics": ["/s", "ō", "sh", "əl", " ", "'s", "ī", "ən", "s/"],
+      "graphemes": ["s", "o", "ci", "al", " ", "sc", "i", "e","n", "c","e"],
+      "phonemes": ["/s", "oʊ", "ʃ", "əl", " ", "'s", "aɪ", "ə","n", "s","-/"],
+      "phonics": ["/s", "ō", "sh", "əl", " ", "'s", "ī", "ə","n", "s","-/"],
       "tags": ["open", "irregular"],
-      "hearts": [0, 0, 1, 0, 0, 0, 0, 0, 0],
+      "hearts": [0, 0, 1, 0, 0, 1, 0, 0, 0],
       "hint": "ci 發 /ʃ/；science 為 open 音節。"
     },
     {
@@ -227,7 +227,7 @@
       "graphemes": ["t", "ea", "ch", "er"],
       "phonemes": ["/'t", "i", "tʃ", "ɚ/"],
       "phonics": ["/'t", "ē", "ch", "er/"],
-      "tags": ["vowel_team", "rcontrolled"],
+      "tags": ["vowel_team", "digraph"],
       "hearts": [0, 0, 0, 0],
       "hint": "ea 發 /i/。"
     }
