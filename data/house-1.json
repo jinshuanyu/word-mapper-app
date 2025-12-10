@@ -11,16 +11,17 @@
       "hearts": [0, 1, 0, 0, 0],
       "hint": "dd 與 ss 發單音。"
     },
+
     {
       "number": "🏢 公寓",
       "word": "apartment",
       "ipa": "/əˈpɑrtmənt/",
       "graphemes": ["a", "p", "ar", "t", "m", "e", "n", "t"],
-      "phonemes": ["/ə", "p", "ɑr", "t", "m", "ə", "n", "t/"],
-      "phonics": ["/ə", "p", "ar", "t", "m", "ə", "n", "t/"],
-      "tags": ["rcontrolled", "closed"],
+      "phonemes": ["/ə", "'p", "ɑr", "t", "m", "ə", "n", "t/"],
+      "phonics": ["/ə", "'p", "ɑr", "t", "m", "ə", "n", "t/"],
+      "tags": ["rcontrolled"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
-      "hint": "a 弱化；ar 發 /ar/。"
+      "hint": "ar 在重音節發 /ɑr/；首尾母音弱化。"
     },
     {
       "number": "🏡 陽台",
@@ -29,9 +30,9 @@
       "graphemes": ["b", "a", "l", "c", "o", "n", "y"],
       "phonemes": ["/'b", "æ", "l", "k", "ə", "n", "i/"],
       "phonics": ["/'b", "ă", "l", "k", "ə", "n", "ē/"],
-      "tags": ["closed", "open"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0, 0, 0],
-      "hint": "o 弱化；y 字尾發 /ē/。"
+      "hint": "a 在重音節發 /ă/；o 弱化。"
     },
     {
       "number": "🛖 地下室",
@@ -40,9 +41,9 @@
       "graphemes": ["b", "a", "s", "e", "m", "e", "n", "t"],
       "phonemes": ["/'b", "eɪ", "s", "-", "m", "ə", "n", "t/"],
       "phonics": ["/'b", "ā", "s", "-", "m", "ə", "n", "t/"],
-      "tags": ["magic_e", "closed"],
+      "tags": ["magic_e"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
-      "hint": "a_e 發 /ā/。"
+      "hint": "a_e 在重音節發 /ā/。"
     },
     {
       "number": "🚽 浴室",
@@ -51,9 +52,9 @@
       "graphemes": ["b", "a", "th", "r", "oo", "m"],
       "phonemes": ["/'b", "æ", "θ", "r", "u", "m/"],
       "phonics": ["/'b", "ă", "th", "r", "ū", "m/"],
-      "tags": ["digraph", "vowel_team"],
+      "tags": ["closed", "digraph"],
       "hearts": [0, 0, 0, 0, 0, 0],
-      "hint": "th 發 /th/；oo 發 /ū/。"
+      "hint": "a 發 /ă/；th 發無聲 /th/；oo 發 /ū/。"
     },
     {
       "number": "🛏 臥室",
@@ -62,9 +63,9 @@
       "graphemes": ["b", "e", "d", "r", "oo", "m"],
       "phonemes": ["/'b", "ɛ", "d", "r", "u", "m/"],
       "phonics": ["/'b", "ĕ", "d", "r", "ū", "m/"],
-      "tags": ["closed", "vowel_team"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0, 0],
-      "hint": "oo 發 /ū/。"
+      "hint": "e 在重音節發 /ĕ/；oo 發 /ū/。"
     },
     {
       "number": "🏢 建築物",
@@ -75,7 +76,7 @@
       "phonics": ["/'b", "ĭ", "l", "d", "ĭ", "ng/"],
       "tags": ["irregular", "digraph"],
       "hearts": [0, 1, 0, 0, 0, 0],
-      "hint": "ui 不規則發 /ĭ/。"
+      "hint": "ui 不規則發 /ĭ/；ng 發鼻音 /ŋ/。"
     },
     {
       "number": "⬆ 天花板",
@@ -84,64 +85,64 @@
       "graphemes": ["c", "ei", "l", "i", "ng"],
       "phonemes": ["/'s", "i", "l", "ɪ", "ŋ/"],
       "phonics": ["/'s", "ē", "l", "ĭ", "ng/"],
-      "tags": ["irregular", "vowel_team"],
+      "tags": ["irregular", "digraph"],
       "hearts": [0, 0, 0, 0, 0],
-      "hint": "c 發軟音 /s/；ei 發 /ē/。"
+      "hint": "c 發軟音 /s/；ei 不規則發 /ē/。"
     },
     {
       "number": "🍽 餐廳",
       "word": "dining room",
       "ipa": "/ˈdaɪnɪŋ rum/",
       "graphemes": ["d", "i", "n", "i", "ng", " ", "r", "oo", "m"],
-      "phonemes": ["/'d", "aɪ", "n", "ɪ", "ŋ", "-", "r", "u", "m/"],
-      "phonics": ["/'d", "ī", "n", "ĭ", "ng", "-", "r", "ū", "m/"],
-      "tags": ["open", "vowel_team"],
+      "phonemes": ["/'d", "aɪ", "n", "ɪ", "ŋ", " ", "r", "u", "m/"],
+      "phonics": ["/'d", "ī", "n", "ĭ", "ng", " ", "r", "ū", "m/"],
+      "tags": ["open", "digraph"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0],
-      "hint": "i 發 /ī/；oo 發 /ū/。"
+      "hint": "i 在重音節發 /ī/；oo 發 /ū/。"
     },
     {
       "number": "🚪 門",
       "word": "door",
       "ipa": "/dɔr/",
-      "graphemes": ["d", "oor"],
-      "phonemes": ["/d", "ɔr/"],
-      "phonics": ["/d", "or/"],
-      "tags": ["vowel_team"],
-      "hearts": [0, 0],
-      "hint": "oor 發 /or/。"
+      "graphemes": ["d", "oo", "r"],
+      "phonemes": ["/d", "ɔ", "r/"],
+      "phonics": ["/d", "or", "r/"],
+      "tags": ["irregular"],
+      "hearts": [0, 1, 0],
+      "hint": "oo 不規則發 /or/ 音。"
     },
     {
       "number": "⏬ 樓下",
       "word": "downstairs",
       "ipa": "/ˌdaʊnˈstɛrz/",
-      "graphemes": ["d", "own", "s", "t", "air", "s"],
-      "phonemes": ["/ˌd", "aʊn", "s", "t", "ɛr", "z/"],
-      "phonics": ["/ˌd", "own", "s", "t", "air", "z/"],
-      "tags": ["vowel_team", "rcontrolled"],
-      "hearts": [0, 0, 0, 0, 0, 0],
-      "hint": "own 發 /own/；air 發 /air/。"
+      "graphemes": ["d", "own", "s", "t", "a", "i", "r", "s"],
+      "phonemes": ["/ˌd", "aʊn", "s", "t", "ɛ", "-", "r", "z/"],
+      "phonics": ["/ˌd", "own", "s", "t", "ĕ", "-", "r", "z/"],
+      "tags": ["rcontrolled"],
+      "hearts": [0, 0, 0, 0, 1, 1, 0, 0],
+      "hint": "主重音在 stairs：air 不規則發 /ɛr/。"
     },
     {
       "number": "🚧 圍籬",
       "word": "fence",
       "ipa": "/fɛns/",
-      "graphemes": ["f", "e", "n", "ce"],
-      "phonemes": ["/f", "ɛ", "n", "s/"],
-      "phonics": ["/f", "ĕ", "n", "s/"],
-      "tags": ["irregular", "closed"],
-      "hearts": [0, 0, 0, 0],
-      "hint": "ce 發軟音 /s/。"
+      "graphemes": ["f", "e", "n", "c", "e"],
+      "phonemes": ["/f", "ɛ", "n", "s", "-/"],
+      "phonics": ["/f", "ĕ", "n", "s", "-/"],
+      "tags": ["closed", "irregular"],
+      "hearts": [0, 0, 0, 0, 0],
+      "hint": "c 發軟音 /s/；字尾 e 不發音。"
     },
     {
-      "number": "🦶 地板",
+      "number": "地板",
       "word": "floor",
       "ipa": "/flɔr/",
-      "graphemes": ["f", "l", "oor"],
-      "phonemes": ["/f", "l", "ɔr/"],
-      "phonics": ["/f", "l", "or/"],
-      "tags": ["vowel_team"],
-      "hearts": [0, 0, 0],
-      "hint": "oor 發 /or/。"
+      "graphemes": ["f", "l", "oo", "r"],
+      "phonemes": ["/f", "l", "ɔ", "r/"],
+      "phonics": ["/f", "l", "or", "r/"],
+      "tags": ["cluster", "irregular"],
+      "hearts": [0, 0, 1, 0],
+      "hint": "oo 不規則發 /or/ 音。"
     },
     {
       "number": "🏡 花園",
@@ -149,10 +150,10 @@
       "ipa": "/ˈɡɑrdn/",
       "graphemes": ["g", "ar", "d", "e", "n"],
       "phonemes": ["/'ɡ", "ɑr", "d", "ə", "n/"],
-      "phonics": ["/'ɡ", "ar", "d", "ə", "n/"],
-      "tags": ["rcontrolled", "closed"],
+      "phonics": ["/'ɡ", "ɑr", "d", "ə", "n/"],
+      "tags": ["rcontrolled"],
       "hearts": [0, 0, 0, 0, 0],
-      "hint": "ar 發 /ar/。"
+      "hint": "ar 在重音節發 /ɑr/。"
     },
     {
       "number": "⛩ 大門",
@@ -174,7 +175,7 @@
       "phonics": ["/h", "aw", "l/"],
       "tags": ["floss", "irregular"],
       "hearts": [0, 1, 0],
-      "hint": "a 在 ll 前發 /aw/。"
+      "hint": "a 在 ll 前不規則發 /aw/。"
     },
     {
       "number": "🏠 家",
@@ -195,8 +196,8 @@
       "phonemes": ["/h", "aʊ", "s", "-/"],
       "phonics": ["/h", "ow", "s", "-/"],
       "tags": ["vowel_team"],
-      "hearts": [0, 0, 0, 0],
-      "hint": "ou 發 /ow/。"
+      "hearts": [0, 0, 0, 1],
+      "hint": "ou 發 /ow/；se 發 /s/。"
     },
     {
       "number": "🍳 廚房",
@@ -205,20 +206,20 @@
       "graphemes": ["k", "i", "tch", "e", "n"],
       "phonemes": ["/'k", "ɪ", "tʃ", "ə", "n/"],
       "phonics": ["/'k", "ĭ", "ch", "ə", "n/"],
-      "tags": ["digraph", "closed"],
+      "tags": ["closed", "digraph"],
       "hearts": [0, 0, 0, 0, 0],
-      "hint": "tch 發 /ch/。"
+      "hint": "i 在重音節發 /ĭ/；tch 發 /ch/。"
     },
     {
       "number": "🛋 客廳",
       "word": "living room",
       "ipa": "/ˈlɪvɪŋ rum/",
       "graphemes": ["l", "i", "v", "i", "ng", " ", "r", "oo", "m"],
-      "phonemes": ["/'l", "ɪ", "v", "ɪ", "ŋ", "-", "r", "u", "m/"],
-      "phonics": ["/'l", "ĭ", "v", "ĭ", "ng", "-", "r", "ū", "m/"],
-      "tags": ["closed", "vowel_team"],
+      "phonemes": ["/'l", "ɪ", "v", "ɪ", "ŋ", " ", "r", "u", "m/"],
+      "phonics": ["/'l", "ĭ", "v", "ĭ", "ng", " ", "r", "ū", "m/"],
+      "tags": ["closed", "digraph"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0],
-      "hint": "oo 發 /ū/。"
+      "hint": "i 在重音節發 /ĭ/；ng 發鼻音 /ŋ/。"
     },
     {
       "number": "🛣 路",
@@ -229,7 +230,7 @@
       "phonics": ["/r", "ō", "d/"],
       "tags": ["vowel_team"],
       "hearts": [0, 0, 0],
-      "hint": "oa 發 /ō/。"
+      "hint": "oa 發長音 /ō/。"
     },
     {
       "number": "🏠 屋頂",
@@ -240,7 +241,7 @@
       "phonics": ["/r", "ū", "f/"],
       "tags": ["vowel_team"],
       "hearts": [0, 0, 0],
-      "hint": "oo 發 /ū/。"
+      "hint": "oo 發長音 /ū/。"
     },
     {
       "number": "🚪 房間",
@@ -251,18 +252,18 @@
       "phonics": ["/r", "ū", "m/"],
       "tags": ["vowel_team"],
       "hearts": [0, 0, 0],
-      "hint": "oo 發 /ū/。"
+      "hint": "oo 發長音 /ū/。"
     },
     {
       "number": "🪜 樓梯",
       "word": "stairs",
       "ipa": "/stɛrz/",
-      "graphemes": ["s", "t", "air", "s"],
-      "phonemes": ["/s", "t", "ɛr", "z/"],
-      "phonics": ["/s", "t", "air", "z/"],
-      "tags": ["vowel_team"],
-      "hearts": [0, 0, 0, 0],
-      "hint": "air 發 /air/。"
+      "graphemes": ["s", "t", "a", "i", "r", "s"],
+      "phonemes": ["/s", "t", "ɛ", "-", "r", "z/"],
+      "phonics": ["/s", "t", "ĕ", "-", "r", "z/"],
+      "tags": ["cluster", "rcontrolled"],
+      "hearts": [0, 0, 1, 1, 0, 0],
+      "hint": "air 不規則發 /ɛr/ (a發/ĕ/)。"
     },
     {
       "number": "🛣 街道",
@@ -271,20 +272,20 @@
       "graphemes": ["s", "t", "r", "ee", "t"],
       "phonemes": ["/s", "t", "r", "i", "t/"],
       "phonics": ["/s", "t", "r", "ē", "t/"],
-      "tags": ["vowel_team", "cluster"],
+      "tags": ["cluster", "vowel_team"],
       "hearts": [0, 0, 0, 0, 0],
-      "hint": "ee 發 /ē/。"
+      "hint": "ee 發長音 /ē/。"
     },
     {
       "number": "⏫ 樓上",
       "word": "upstairs",
       "ipa": "/ˌʌpˈstɛrz/",
-      "graphemes": ["u", "p", "s", "t", "air", "s"],
-      "phonemes": ["/ˌʌ", "p", "s", "t", "ɛr", "z/"],
-      "phonics": ["/ˌŭ", "p", "s", "t", "air", "z/"],
-      "tags": ["vowel_team", "closed"],
-      "hearts": [0, 0, 0, 0, 0, 0],
-      "hint": "air 發 /air/。"
+      "graphemes": ["u", "p", "s", "t", "a", "i", "r", "s"],
+      "phonemes": ["/ˌʌ", "p", "s", "t", "ɛ", "-", "r", "z/"],
+      "phonics": ["/ˌŭ", "p", "s", "t", "ĕ", "-", "r", "z/"],
+      "tags": ["rcontrolled"],
+      "hearts": [0, 0, 0, 0, 1, 1, 0, 0],
+      "hint": "主重音在 stairs：air 不規則發 /ɛr/。"
     },
     {
       "number": "🧱 牆壁",
@@ -295,7 +296,7 @@
       "phonics": ["/w", "aw", "l/"],
       "tags": ["floss", "irregular"],
       "hearts": [0, 1, 0],
-      "hint": "a 在 ll 前發 /aw/。"
+      "hint": "a 在 ll 前不規則發 /aw/。"
     },
     {
       "number": "🪟 窗戶",
@@ -304,20 +305,20 @@
       "graphemes": ["w", "i", "n", "d", "ow"],
       "phonemes": ["/'w", "ɪ", "n", "d", "oʊ/"],
       "phonics": ["/'w", "ĭ", "n", "d", "ō/"],
-      "tags": ["closed", "vowel_team"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0],
-      "hint": "ow 發 /ō/。"
+      "hint": "i 在重音節發 /ĭ/；ow 發 /ō/。"
     },
     {
       "number": "🏡 庭院",
       "word": "yard",
       "ipa": "/jɑrd/",
       "graphemes": ["y", "ar", "d"],
-      "phonemes": ["/y", "ɑr", "d/"],
-      "phonics": ["/y", "ar", "d/"],
+      "phonemes": ["/j", "ɑr", "d/"],
+      "phonics": ["/y", "ɑr", "d/"],
       "tags": ["rcontrolled"],
       "hearts": [0, 0, 0],
-      "hint": "ar 發 /ar/。"
+      "hint": "ar 在重音節發 /ɑr/。"
     }
   ]
 }
