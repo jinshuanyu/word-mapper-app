@@ -9,7 +9,7 @@
       "phonics": ["/'b", "ă", "s", "k", "ĭ", "t/"],
       "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0, 0],
-      "hint": "e 弱化發 /ĭ/。"
+      "hint": "a 在重音節發 /ă/；e 弱化。"
     },
     {
       "number": "🛌 毯子",
@@ -18,9 +18,9 @@
       "graphemes": ["b", "l", "a", "n", "k", "e", "t"],
       "phonemes": ["/'b", "l", "æ", "ŋ", "k", "ɪ", "t/"],
       "phonics": ["/'b", "l", "ă", "ng", "k", "ĭ", "t/"],
-      "tags": ["closed", "cluster"],
+      "tags": ["cluster", "closed"],
       "hearts": [0, 0, 0, 0, 0, 0, 0],
-      "hint": "n 在 k 前發 /ng/。"
+      "hint": "bl 混合音；n 在 k 前發 /ng/。"
     },
     {
       "number": "🧱 磚頭",
@@ -29,9 +29,9 @@
       "graphemes": ["b", "r", "i", "ck"],
       "phonemes": ["/b", "r", "ɪ", "k/"],
       "phonics": ["/b", "r", "ĭ", "k/"],
-      "tags": ["closed", "digraph"],
+      "tags": ["cluster", "closed", "digraph"],
       "hearts": [0, 0, 0, 0],
-      "hint": "ck 發 /k/。"
+      "hint": "br 混合音；ck 發 /k/。"
     },
     {
       "number": "🪣 水桶",
@@ -62,7 +62,7 @@
       "graphemes": ["c", "a", "n", "d", "le"],
       "phonemes": ["/'k", "æ", "n", "d", "l/"],
       "phonics": ["/'k", "ă", "n", "d", "l/"],
-      "tags": ["cle", "closed"],
+      "tags": ["closed", "cle"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "le 發 /l/。"
     },
@@ -72,10 +72,10 @@
       "ipa": "/ˈkɑrpɪt/",
       "graphemes": ["c", "ar", "p", "e", "t"],
       "phonemes": ["/'k", "ɑr", "p", "ɪ", "t/"],
-      "phonics": ["/'k", "ar", "p", "ĭ", "t/"],
-      "tags": ["rcontrolled", "closed"],
+      "phonics": ["/'k", "ɑr", "p", "ĭ", "t/"],
+      "tags": ["rcontrolled"],
       "hearts": [0, 0, 0, 0, 0],
-      "hint": "ar 發 /ar/。"
+      "hint": "ar 發 /ɑr/。"
     },
     {
       "number": "🧹 打掃",
@@ -84,7 +84,7 @@
       "graphemes": ["c", "l", "ea", "n"],
       "phonemes": ["/k", "l", "i", "n/"],
       "phonics": ["/k", "l", "ē", "n/"],
-      "tags": ["vowel_team", "cluster"],
+      "tags": ["cluster", "vowel_team"],
       "hearts": [0, 0, 0, 0],
       "hint": "ea 發長母音 /ē/。"
     },
@@ -95,20 +95,20 @@
       "graphemes": ["c", "ur", "t", "ai", "n"],
       "phonemes": ["/'k", "ɝ", "t", "ə", "n/"],
       "phonics": ["/'k", "er", "t", "ə", "n/"],
-      "tags": ["rcontrolled", "irregular"],
+      "tags": ["rcontrolled"],
       "hearts": [0, 0, 0, 1, 0],
-      "hint": "ai 弱化發 /ə/。"
+      "hint": "ur 發 /er/；ai 弱化。"
     },
     {
       "number": "🎨 裝飾",
       "word": "decorate",
-      "ipa": "/ˈdɛkəˌreɪt/",
+      "ipa": "/ˈdɛkəreɪt/",
       "graphemes": ["d", "e", "c", "o", "r", "a", "t", "e"],
       "phonemes": ["/'d", "ɛ", "k", "ə", "r", "eɪ", "t", "-/"],
       "phonics": ["/'d", "ĕ", "k", "ə", "r", "ā", "t", "-/"],
-      "tags": ["magic_e", "closed"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
-      "hint": "a_e 發 /ā/。"
+      "hint": "e 在重音節發 /ĕ/。"
     },
     {
       "number": "📐 設計",
@@ -139,7 +139,7 @@
       "graphemes": ["h", "a", "mm", "er"],
       "phonemes": ["/'h", "æ", "m", "ɚ/"],
       "phonics": ["/'h", "ă", "m", "er/"],
-      "tags": ["floss", "rcontrolled"],
+      "tags": ["closed", "floss"],
       "hearts": [0, 0, 0, 0],
       "hint": "mm 發單音 /m/。"
     },
@@ -150,20 +150,20 @@
       "graphemes": ["h", "a", "ng", "er"],
       "phonemes": ["/'h", "æ", "ŋ", "ɚ/"],
       "phonics": ["/'h", "ă", "ng", "er/"],
-      "tags": ["digraph", "rcontrolled"],
+      "tags": ["closed", "digraph"],
       "hearts": [0, 0, 0, 0],
       "hint": "ng 發 /ng/。"
     },
     {
       "number": "🧹 家事",
       "word": "housework",
-      "ipa": "/ˈhaʊsˌwɝk/",
+      "ipa": "/ˈhaʊswɝk/",
       "graphemes": ["h", "ou", "s", "e", "w", "or", "k"],
       "phonemes": ["/'h", "aʊ", "s", "-", "w", "ɝ", "k/"],
       "phonics": ["/'h", "ow", "s", "-", "w", "er", "k/"],
-      "tags": ["vowel_team", "rcontrolled"],
+      "tags": ["vowel_team"],
       "hearts": [0, 0, 0, 0, 0, 0, 0],
-      "hint": "ou 發 /ow/；or 發 /er/。"
+      "hint": "ou 發 /ow/。"
     },
     {
       "number": "🔑 鑰匙",
@@ -216,9 +216,9 @@
       "graphemes": ["p", "i", "ll", "ow"],
       "phonemes": ["/'p", "ɪ", "l", "oʊ/"],
       "phonics": ["/'p", "ĭ", "l", "ō/"],
-      "tags": ["floss", "vowel_team"],
+      "tags": ["closed", "floss"],
       "hearts": [0, 0, 0, 0],
-      "hint": "ow 發 /ō/。"
+      "hint": "i 發 /ĭ/；ow 在字尾發 /ō/。"
     },
     {
       "number": "🥘 鍋子",
@@ -238,7 +238,7 @@
       "graphemes": ["r", "e", "p", "air"],
       "phonemes": ["/r", "ɪ", "'p", "ɛr/"],
       "phonics": ["/r", "ĭ", "'p", "air/"],
-      "tags": ["rcontrolled", "open"],
+      "tags": ["rcontrolled"],
       "hearts": [0, 0, 0, 0],
       "hint": "air 發 /air/。"
     },
@@ -271,7 +271,7 @@
       "graphemes": ["s", "w", "ee", "p"],
       "phonemes": ["/s", "w", "i", "p/"],
       "phonics": ["/s", "w", "ē", "p/"],
-      "tags": ["vowel_team", "cluster"],
+      "tags": ["cluster", "vowel_team"],
       "hearts": [0, 0, 0, 0],
       "hint": "ee 發 /ē/。"
     },
@@ -315,9 +315,9 @@
       "graphemes": ["t", "r", "a", "sh", " ", "c", "a", "n"],
       "phonemes": ["/t", "r", "æ", "ʃ", " ", "k", "æ", "n/"],
       "phonics": ["/t", "r", "ă", "sh", " ", "k", "ă", "n/"],
-      "tags": ["digraph", "closed"],
+      "tags": ["cluster", "closed", "digraph"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
-      "hint": "sh 發 /sh/。"
+      "hint": "tr 混合音；sh 發 /sh/。"
     },
     {
       "number": "🧴 軟管/管子",
@@ -335,11 +335,11 @@
       "word": "umbrella",
       "ipa": "/ʌmˈbrɛlə/",
       "graphemes": ["u", "m", "b", "r", "e", "ll", "a"],
-      "phonemes": ["/'ʌ", "m", "b", "r", "ɛ", "l", "ə/"],
-      "phonics": ["/'ŭ", "m", "b", "r", "ĕ", "l", "ə/"],
-      "tags": ["closed", "floss"],
+      "phonemes": ["/ʌ", "m", "'b", "r", "ɛ", "l", "ə/"],
+      "phonics": ["/ŭ", "m", "'b", "r", "ĕ", "l", "ə/"],
+      "tags": ["cluster", "closed"],
       "hearts": [0, 0, 0, 0, 0, 0, 0],
-      "hint": "u 發 /ŭ/；a 弱化。"
+      "hint": "br 混合音；u 發 /ŭ/；a 弱化。"
     },
     {
       "number": "🧴 清洗",
@@ -348,7 +348,7 @@
       "graphemes": ["w", "a", "sh"],
       "phonemes": ["/w", "ɑ", "ʃ/"],
       "phonics": ["/w", "ŏ", "sh/"],
-      "tags": ["digraph", "closed"],
+      "tags": ["closed", "digraph"],
       "hearts": [0, 1, 0],
       "hint": "a 在 w 後不規則發 /ŏ/。"
     },
