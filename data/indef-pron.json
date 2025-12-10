@@ -7,8 +7,8 @@
 "graphemes": ["a","ll"],
 "phonemes": ["/ɔ","l/"],
 "phonics": ["/aw","l/"],
-"tags": ["cvc","floss"],
-"hearts": [false,false],
+"tags": ["irregular","floss"],
+"hearts": [true,false],
 "hint": "-all 常發 awl /ɔl/；ll 重複字母。"
 },
 {
