@@ -5,10 +5,10 @@
       "word": "address",
       "ipa": "/ˈædrɛs/",
       "graphemes": ["a", "dd", "r", "e", "ss"],
-      "phonemes": ["/'æ", "d", "r", "ɛ", "s/"],
-      "phonics": ["/'ă", "d", "r", "ĕ", "s/"],
+      "phonemes": ["/ə", "'d", "r", "ɛ", "s/"],
+      "phonics": ["/ə", "'d", "r", "ĕ", "s/"],
       "tags": ["closed", "floss"],
-      "hearts": [0, 0, 0, 0, 0],
+      "hearts": [0, 1, 0, 0, 0],
       "hint": "dd 與 ss 發單音。"
     },
     {
