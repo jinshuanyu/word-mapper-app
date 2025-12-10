@@ -86,7 +86,7 @@
       "phonemes": ["/'s", "i", "l", "ɪ", "ŋ/"],
       "phonics": ["/'s", "ē", "l", "ĭ", "ng/"],
       "tags": ["irregular", "digraph"],
-      "hearts": [0, 0, 0, 0, 0],
+      "hearts": [0, 1, 0, 0, 0],
       "hint": "c 發軟音 /s/；ei 不規則發 /ē/。"
     },
     {
@@ -115,9 +115,9 @@
       "number": "⏬ 樓下",
       "word": "downstairs",
       "ipa": "/ˌdaʊnˈstɛrz/",
-      "graphemes": ["d", "own", "s", "t", "a", "i", "r", "s"],
-      "phonemes": ["/ˌd", "aʊn", "s", "t", "ɛ", "-", "r", "z/"],
-      "phonics": ["/ˌd", "own", "s", "t", "ĕ", "-", "r", "z/"],
+      "graphemes": ["d", "ow","n", "s", "t", "ai", "r", "s"],
+      "phonemes": ["/d", "aʊ","n", "'s", "t", "ɛ", "r", "z/"],
+      "phonics": ["/d", "ow","n", "'s", "t", "ĕ", "r", "z/"],
       "tags": ["rcontrolled"],
       "hearts": [0, 0, 0, 0, 1, 1, 0, 0],
       "hint": "主重音在 stairs：air 不規則發 /ɛr/。"
@@ -173,7 +173,7 @@
       "graphemes": ["h", "a", "ll"],
       "phonemes": ["/h", "ɔ", "l/"],
       "phonics": ["/h", "aw", "l/"],
-      "tags": ["floss", "irregular"],
+      "tags": ["irregular", "floss"],
       "hearts": [0, 1, 0],
       "hint": "a 在 ll 前不規則發 /aw/。"
     },
@@ -216,7 +216,7 @@
       "ipa": "/ˈlɪvɪŋ rum/",
       "graphemes": ["l", "i", "v", "i", "ng", " ", "r", "oo", "m"],
       "phonemes": ["/'l", "ɪ", "v", "ɪ", "ŋ", " ", "r", "u", "m/"],
-      "phonics": ["/'l", "ĭ", "v", "ĭ", "ng", " ", "r", "ū", "m/"],
+      "phonics": ["/'l", "ĭ", "v", "ĭ", "ŋ", " ", "r", "ū", "m/"],
       "tags": ["closed", "digraph"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "i 在重音節發 /ĭ/；ng 發鼻音 /ŋ/。"
@@ -258,9 +258,9 @@
       "number": "🪜 樓梯",
       "word": "stairs",
       "ipa": "/stɛrz/",
-      "graphemes": ["s", "t", "a", "i", "r", "s"],
-      "phonemes": ["/s", "t", "ɛ", "-", "r", "z/"],
-      "phonics": ["/s", "t", "ĕ", "-", "r", "z/"],
+      "graphemes": ["s", "t", "ai", "r", "s"],
+      "phonemes": ["/s", "t", "ɛ", "r", "z/"],
+      "phonics": ["/s", "t", "ĕ", "r", "z/"],
       "tags": ["cluster", "rcontrolled"],
       "hearts": [0, 0, 1, 1, 0, 0],
       "hint": "air 不規則發 /ɛr/ (a發/ĕ/)。"
@@ -280,11 +280,11 @@
       "number": "⏫ 樓上",
       "word": "upstairs",
       "ipa": "/ˌʌpˈstɛrz/",
-      "graphemes": ["u", "p", "s", "t", "a", "i", "r", "s"],
-      "phonemes": ["/ˌʌ", "p", "s", "t", "ɛ", "-", "r", "z/"],
-      "phonics": ["/ˌŭ", "p", "s", "t", "ĕ", "-", "r", "z/"],
+      "graphemes": ["u", "p", "s", "t", "ai", "r", "s"],
+      "phonemes": ["/ʌ", "p", "'s", "t", "ɛ", "r", "z/"],
+      "phonics": ["/ŭ", "p", "'s", "t", "ĕ", "r", "z/"],
       "tags": ["rcontrolled"],
-      "hearts": [0, 0, 0, 0, 1, 1, 0, 0],
+      "hearts": [0, 0, 0, 0, 0,0, 0, 0],
       "hint": "主重音在 stairs：air 不規則發 /ɛr/。"
     },
     {
@@ -294,7 +294,7 @@
       "graphemes": ["w", "a", "ll"],
       "phonemes": ["/w", "ɔ", "l/"],
       "phonics": ["/w", "aw", "l/"],
-      "tags": ["floss", "irregular"],
+      "tags": ["irregular", "floss"],
       "hearts": [0, 1, 0],
       "hint": "a 在 ll 前不規則發 /aw/。"
     },
