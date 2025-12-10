@@ -81,9 +81,9 @@
       "number": "📖 字典",
       "word": "dictionary",
       "ipa": "/ˈdɪkʃənrri/",
-      "graphemes": ["d", "i", "c", "tion", "ar", "y"],
-      "phonemes": ["/'d", "ɪ", "k", "ʃən", "ɛr", "i/"],
-      "phonics": ["/'d", "ĭ", "k", "shən", "er", "ē/"],
+      "graphemes": ["d", "i", "c", "tion", "a","r", "y"],
+      "phonemes": ["/'d", "ɪ", "k", "ʃən", "ɛ","r", "i/"],
+      "phonics": ["/'d", "ĭ", "k", "shən", "ĕ","r", "ē/"],
       "tags": ["closed", "suffix"],
       "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "tion 發 /shən/；ary 發 /er/ + /ē/。"
@@ -117,7 +117,7 @@
       "graphemes": ["g", "l", "a", "ss", "es"],
       "phonemes": ["/'ɡ", "l", "æ", "s", "əz/"],
       "phonics": ["/'ɡ", "l", "ă", "s", "əz/"],
-      "tags": ["closed", "floss", "suffix"],
+      "tags": ["cluster", "closed", "floss", "suffix"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "ss 發 /s/；es 是複數詞尾。"
     },
@@ -139,7 +139,7 @@
       "graphemes": ["i", "n", "k"],
       "phonemes": ["/ɪ", "ŋ", "k/"],
       "phonics": ["/ĭ", "ŋ", "k/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [0, 0, 0],
       "hint": "n 在 k 前發 /ŋ/。"
     },
@@ -172,7 +172,7 @@
       "graphemes": ["m", "a", "p"],
       "phonemes": ["/m", "æ", "p/"],
       "phonics": ["/m", "ă", "p/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [0, 0, 0],
       "hint": "a 發短音 /ă/。"
     },
@@ -216,7 +216,7 @@
       "graphemes": ["p", "e", "n"],
       "phonemes": ["/p", "ɛ", "n/"],
       "phonics": ["/p", "ĕ", "n/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [0, 0, 0],
       "hint": "e 發短音 /ĕ/。"
     },
@@ -227,7 +227,7 @@
       "graphemes": ["p", "e", "n", "c", "i", "l"],
       "phonemes": ["/'p", "ɛ", "n", "s", "ə", "l/"],
       "phonics": ["/'p", "ĕ", "n", "s", "ə", "l/"],
-      "tags": ["closed", "soft_c"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "c 在 i 前發軟音 /s/。"
     },
@@ -238,7 +238,7 @@
       "graphemes": ["p", "e", "n", "c", "i", "l", " ", "c", "a", "s", "e"],
       "phonemes": ["/'p", "ɛ", "n", "s", "ə", "l", " ", "k", "eɪ", "s", "-/"],
       "phonics": ["/'p", "ĕ", "n", "s", "ə", "l", " ", "k", "ā", "s", "-/"],
-      "tags": ["closed", "soft_c"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "c 在 pencil 中發 /s/，在 case 中發 /k/。"
     },
@@ -246,22 +246,22 @@
       "number": "🖼 圖片",
       "word": "picture",
       "ipa": "/ˈpɪktʃɚ/",
-      "graphemes": ["p", "i", "c", "ture"],
-      "phonemes": ["/'p", "ɪ", "k", "tʃɚ/"],
-      "phonics": ["/'p", "ĭ", "k", "cher/"],
+      "graphemes": ["p", "i", "c", "t","ure"],
+      "phonemes": ["/'p", "ɪ", "k", "tʃ","ɚ/"],
+      "phonics": ["/'p", "ĭ", "k", "ch","er/"],
       "tags": ["closed"],
-      "hearts": [0, 0, 0, 0],
+      "hearts": [0, 0, 0, 1, 1],
       "hint": "ture 發 /cher/。"
     },
     {
       "number": "✉️ 明信片",
       "word": "postcard",
       "ipa": "/ˈpoʊstkɑrd/",
-      "graphemes": ["p", "o", "st", "c", "ar", "d"],
-      "phonemes": ["/'p", "oʊ", "st", "k", "ɑr", "d/"],
-      "phonics": ["/'p", "ō", "st", "k", "ar", "d/"],
-      "tags": ["closed", "cluster"],
-      "hearts": [0, 0, 0, 0, 0, 0],
+      "graphemes": ["p", "o", "s","t", "c", "ar", "d"],
+      "phonemes": ["/'p", "oʊ", "s","t", "k", "ɑr", "d/"],
+      "phonics": ["/'p", "ō", "s","t", "k", "ɑr", "d/"],
+      "tags": ["irregular", "cluster"],
+      "hearts": [0, 1, 0, 0, 0, 0],
       "hint": "o 在 st 前發長母音 /ō/；ar 發 /ar/。"
     },
     {
@@ -271,7 +271,7 @@
       "graphemes": ["p", "r", "e", "s", "e", "n", "t"],
       "phonemes": ["/'p", "r", "ɛ", "z", "ə", "n", "t/"],
       "phonics": ["/'p", "r", "ĕ", "z", "ə", "n", "t/"],
-      "tags": ["closed", "cluster"],
+      "tags": ["cluster","closed"],
       "hearts": [0, 0, 0, 0, 0, 0, 0],
       "hint": "s 在母音間發 /z/。"
     },
@@ -304,7 +304,7 @@
       "graphemes": ["t", "e", "x", "t", "b", "oo", "k"],
       "phonemes": ["/'t", "ɛ", "ks", "t", "b", "ʊ", "k/"],
       "phonics": ["/'t", "ĕ", "ks", "t", "b", "oo", "k/"],
-      "tags": ["closed"],
+      "tags": ["closed","cluster"],
       "hearts": [0, 0, 0, 0, 0, 0, 0],
       "hint": "x 發 /ks/；oo 發短音 /ʊ/。"
     },
