@@ -8,7 +8,7 @@
       "phonemes": ["/'b", "æ", "s", "k", "ɪ", "t/"],
       "phonics": ["/'b", "ă", "s", "k", "ĭ", "t/"],
       "tags": ["closed"],
-      "hearts": [0, 0, 0, 0, 0, 0],
+      "hearts": [0, 0, 0, 0, 1, 0],
       "hint": "a 在重音節發 /ă/；e 弱化。"
     },
     {
@@ -17,9 +17,9 @@
       "ipa": "/ˈblæŋkɪt/",
       "graphemes": ["b", "l", "a", "n", "k", "e", "t"],
       "phonemes": ["/'b", "l", "æ", "ŋ", "k", "ɪ", "t/"],
-      "phonics": ["/'b", "l", "ă", "ng", "k", "ĭ", "t/"],
+      "phonics": ["/'b", "l", "ă", "ŋ", "k", "ĭ", "t/"],
       "tags": ["cluster", "closed"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0],
+      "hearts": [0, 0, 0, 0, 0, 1, 0],
       "hint": "bl 混合音；n 在 k 前發 /ng/。"
     },
     {
@@ -29,7 +29,7 @@
       "graphemes": ["b", "r", "i", "ck"],
       "phonemes": ["/b", "r", "ɪ", "k/"],
       "phonics": ["/b", "r", "ĭ", "k/"],
-      "tags": ["cluster", "closed", "digraph"],
+      "tags": ["cluster", "cvc", "digraph"],
       "hearts": [0, 0, 0, 0],
       "hint": "br 混合音；ck 發 /k/。"
     },
@@ -41,7 +41,7 @@
       "phonemes": ["/'b", "ʌ", "k", "ɪ", "t/"],
       "phonics": ["/'b", "ŭ", "k", "ĭ", "t/"],
       "tags": ["closed", "digraph"],
-      "hearts": [0, 0, 0, 0, 0],
+      "hearts": [0, 0, 0, 1, 0],
       "hint": "ck 發 /k/。"
     },
     {
@@ -60,8 +60,8 @@
       "word": "candle",
       "ipa": "/ˈkændl/",
       "graphemes": ["c", "a", "n", "d", "le"],
-      "phonemes": ["/'k", "æ", "n", "d", "l/"],
-      "phonics": ["/'k", "ă", "n", "d", "l/"],
+      "phonemes": ["/'k", "æ", "n", "d", "əl/"],
+      "phonics": ["/'k", "ă", "n", "d", "əl/"],
       "tags": ["closed", "cle"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "le 發 /l/。"
@@ -74,7 +74,7 @@
       "phonemes": ["/'k", "ɑr", "p", "ɪ", "t/"],
       "phonics": ["/'k", "ɑr", "p", "ĭ", "t/"],
       "tags": ["rcontrolled"],
-      "hearts": [0, 0, 0, 0, 0],
+      "hearts": [0, 0, 0, 1, 0],
       "hint": "ar 發 /ɑr/。"
     },
     {
@@ -114,11 +114,11 @@
       "number": "📐 設計",
       "word": "design",
       "ipa": "/dɪˈzaɪn/",
-      "graphemes": ["d", "e", "s", "i", "gn"],
-      "phonemes": ["/d", "ɪ", "'z", "aɪ", "n/"],
-      "phonics": ["/d", "ĭ", "'z", "ī", "n/"],
-      "tags": ["open", "irregular"],
-      "hearts": [0, 0, 0, 0, 1],
+      "graphemes": ["d", "e", "s", "i", "g","n"],
+      "phonemes": ["/d", "ɪ", "'z", "aɪ", "-","n/"],
+      "phonics": ["/d", "ĭ", "'z", "ī", "-","n/"],
+      "tags": ["irregular"],
+      "hearts": [0, 0, 1, 0, 1],
       "hint": "s 發 /z/；gn 的 g 不發音。"
     },
     {
@@ -128,7 +128,7 @@
       "graphemes": ["f", "i", "x"],
       "phonemes": ["/f", "ɪ", "ks/"],
       "phonics": ["/f", "ĭ", "ks/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [0, 0, 0],
       "hint": "x 發雙音 /ks/。"
     },
@@ -139,7 +139,7 @@
       "graphemes": ["h", "a", "mm", "er"],
       "phonemes": ["/'h", "æ", "m", "ɚ/"],
       "phonics": ["/'h", "ă", "m", "er/"],
-      "tags": ["closed", "floss"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0],
       "hint": "mm 發單音 /m/。"
     },
@@ -149,9 +149,9 @@
       "ipa": "/ˈhæŋɚ/",
       "graphemes": ["h", "a", "ng", "er"],
       "phonemes": ["/'h", "æ", "ŋ", "ɚ/"],
-      "phonics": ["/'h", "ă", "ng", "er/"],
+      "phonics": ["/'h", "ă", "ŋ", "er/"],
       "tags": ["closed", "digraph"],
-      "hearts": [0, 0, 0, 0],
+      "hearts": [0, 0, 1, 0],
       "hint": "ng 發 /ng/。"
     },
     {
@@ -192,8 +192,8 @@
       "word": "needle",
       "ipa": "/ˈnidl/",
       "graphemes": ["n", "ee", "d", "le"],
-      "phonemes": ["/'n", "i", "d", "l/"],
-      "phonics": ["/'n", "ē", "d", "l/"],
+      "phonemes": ["/'n", "i", "d", "əl/"],
+      "phonics": ["/'n", "ē", "d", "əl/"],
       "tags": ["vowel_team", "cle"],
       "hearts": [0, 0, 0, 0],
       "hint": "ee 發 /ē/；le 發 /l/。"
@@ -216,7 +216,7 @@
       "graphemes": ["p", "i", "ll", "ow"],
       "phonemes": ["/'p", "ɪ", "l", "oʊ/"],
       "phonics": ["/'p", "ĭ", "l", "ō/"],
-      "tags": ["closed", "floss"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0],
       "hint": "i 發 /ĭ/；ow 在字尾發 /ō/。"
     },
@@ -235,9 +235,9 @@
       "number": "🔧 修理",
       "word": "repair",
       "ipa": "/rɪˈpɛr/",
-      "graphemes": ["r", "e", "p", "air"],
-      "phonemes": ["/r", "ɪ", "'p", "ɛr/"],
-      "phonics": ["/r", "ĭ", "'p", "air/"],
+      "graphemes": ["r", "e", "p", "ai","r"],
+      "phonemes": ["/r", "ɪ", "'p", "ɛ","r/"],
+      "phonics": ["/r", "ĭ", "'p", "ĕ","r/"],
       "tags": ["rcontrolled"],
       "hearts": [0, 0, 0, 0],
       "hint": "air 發 /air/。"
@@ -282,7 +282,7 @@
       "graphemes": ["t", "ea", "p", "o", "t"],
       "phonemes": ["/'t", "i", "p", "ɑ", "t/"],
       "phonics": ["/'t", "ē", "p", "ŏ", "t/"],
-      "tags": ["vowel_team", "closed"],
+      "tags": ["vowel_team"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "ea 發 /ē/。"
     },
@@ -301,11 +301,11 @@
       "number": "🧻 毛巾",
       "word": "towel",
       "ipa": "/taʊəl/",
-      "graphemes": ["t", "ow", "el"],
-      "phonemes": ["/t", "aʊ", "əl/"],
-      "phonics": ["/t", "ow", "əl/"],
+      "graphemes": ["t", "ow", "e","l"],
+      "phonemes": ["/t", "aʊ", "ə","l/"],
+      "phonics": ["/t", "ow", "ə","l/"],
       "tags": ["vowel_team"],
-      "hearts": [0, 0, 0],
+      "hearts": [0, 0, 0, 0],
       "hint": "ow 發 /ow/。"
     },
     {
@@ -313,8 +313,8 @@
       "word": "trash can",
       "ipa": "/træʃ kæn/",
       "graphemes": ["t", "r", "a", "sh", " ", "c", "a", "n"],
-      "phonemes": ["/t", "r", "æ", "ʃ", " ", "k", "æ", "n/"],
-      "phonics": ["/t", "r", "ă", "sh", " ", "k", "ă", "n/"],
+      "phonemes": ["/'t", "r", "æ", "ʃ", " ", "k", "æ", "n/"],
+      "phonics": ["/'t", "r", "ă", "sh", " ", "k", "ă", "n/"],
       "tags": ["cluster", "closed", "digraph"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "tr 混合音；sh 發 /sh/。"
@@ -338,7 +338,7 @@
       "phonemes": ["/ʌ", "m", "'b", "r", "ɛ", "l", "ə/"],
       "phonics": ["/ŭ", "m", "'b", "r", "ĕ", "l", "ə/"],
       "tags": ["cluster", "closed"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0],
+      "hearts": [0, 0, 0, 0, 0, 1, 0],
       "hint": "br 混合音；u 發 /ŭ/；a 弱化。"
     },
     {
@@ -348,7 +348,7 @@
       "graphemes": ["w", "a", "sh"],
       "phonemes": ["/w", "ɑ", "ʃ/"],
       "phonics": ["/w", "ŏ", "sh/"],
-      "tags": ["closed", "digraph"],
+      "tags": ["irregular", "digraph"],
       "hearts": [0, 1, 0],
       "hint": "a 在 w 後不規則發 /ŏ/。"
     },
