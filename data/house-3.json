@@ -12,7 +12,7 @@
       "hint": "a 在重音節發 /ă/；e 弱化。"
     },
     {
-      "number": "🛌 毯子",
+      "number": "毯子",
       "word": "blanket",
       "ipa": "/ˈblæŋkɪt/",
       "graphemes": ["b", "l", "a", "n", "k", "e", "t"],
@@ -67,7 +67,7 @@
       "hint": "le 發 /l/。"
     },
     {
-      "number": "🦶 地毯",
+      "number": "地毯",
       "word": "carpet",
       "ipa": "/ˈkɑrpɪt/",
       "graphemes": ["c", "ar", "p", "e", "t"],
@@ -78,7 +78,7 @@
       "hint": "ar 發 /ɑr/。"
     },
     {
-      "number": "🧹 打掃",
+      "number": "✨打掃；乾淨",
       "word": "clean",
       "ipa": "/klin/",
       "graphemes": ["c", "l", "ea", "n"],
@@ -89,7 +89,7 @@
       "hint": "ea 發長母音 /ē/。"
     },
     {
-      "number": "🪟 窗簾",
+      "number": "窗簾",
       "word": "curtain",
       "ipa": "/ˈkɝtn/",
       "graphemes": ["c", "ur", "t", "ai", "n"],
@@ -144,7 +144,7 @@
       "hint": "mm 發單音 /m/。"
     },
     {
-      "number": "🧺 衣架",
+      "number": "衣架",
       "word": "hanger",
       "ipa": "/ˈhæŋɚ/",
       "graphemes": ["h", "a", "ng", "er"],
@@ -177,7 +177,7 @@
       "hint": "ey 發 /ē/。"
     },
     {
-      "number": "🦶 墊子",
+      "number": "墊子",
       "word": "mat",
       "ipa": "/mæt/",
       "graphemes": ["m", "a", "t"],
@@ -210,7 +210,7 @@
       "hint": "a 發短母音 /ă/。"
     },
     {
-      "number": "🛏 枕頭",
+      "number": "枕頭",
       "word": "pillow",
       "ipa": "/ˈpɪloʊ/",
       "graphemes": ["p", "i", "ll", "ow"],
@@ -298,7 +298,7 @@
       "hint": "oo 發 /ū/；th 發 /th/。"
     },
     {
-      "number": "🧻 毛巾",
+      "number": "毛巾",
       "word": "towel",
       "ipa": "/taʊəl/",
       "graphemes": ["t", "ow", "e","l"],
@@ -320,7 +320,7 @@
       "hint": "tr 混合音；sh 發 /sh/。"
     },
     {
-      "number": "🧴 軟管/管子",
+      "number": "軟管/管子",
       "word": "tube",
       "ipa": "/tub/",
       "graphemes": ["t", "u", "b", "e"],
@@ -342,7 +342,7 @@
       "hint": "br 混合音；u 發 /ŭ/；a 弱化。"
     },
     {
-      "number": "🧴 清洗",
+      "number": "清洗",
       "word": "wash",
       "ipa": "/wɑʃ/",
       "graphemes": ["w", "a", "sh"],
