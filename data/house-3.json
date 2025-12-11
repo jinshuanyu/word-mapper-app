@@ -162,7 +162,7 @@
       "phonemes": ["/'h", "aʊ", "s", "-", "w", "ɝ", "k/"],
       "phonics": ["/'h", "ow", "s", "-", "w", "er", "k/"],
       "tags": ["vowel_team"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0],
+      "hearts": [0, 0, 0, 0, 0, 1, 0],
       "hint": "ou 發 /ow/。"
     },
     {
