@@ -5,8 +5,8 @@
       "word": "air conditioner",
       "ipa": "/ˈɛr kəndɪʃənɚ/",
       "graphemes": ["ai", "r", " ", "c", "o", "n", "d", "i", "tion", "er"],
-      "phonemes": ["/'ɛ", "r", " ", "k", "ə", "n", "d", "ɪ", "ʃ", "ə", "n", "ɚ/"],
-      "phonics": ["/'ĕ", "r", " ", "k", "ə", "n", "d", "ĭ", "sh", "ə", "n", "er/"],
+      "phonemes": ["/'ɛ", "r", " ", "k", "ə", "n", "d", "ɪ", "ʃən", "ɚ/"],
+      "phonics": ["/'ĕ", "r", " ", "k", "ə", "n", "d", "ĭ", "shən", "er/"],
       "tags": ["rcontrolled"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "ai 發 /ĕ/；tion 發 /shən/。"
@@ -96,7 +96,7 @@
       "phonemes": ["/'k", "l", "ɑ", "z", "ɪ", "t/"],
       "phonics": ["/'k", "l", "ŏ", "z", "ĭ", "t/"],
       "tags": ["cluster", "closed"],
-      "hearts": [0, 0, 0, 1, 0, 0],
+      "hearts": [0, 0, 0, 1, 1, 0],
       "hint": "cl 混合音；s 發濁音 /z/。"
     },
     {
@@ -150,7 +150,7 @@
       "graphemes": ["d", "r", "e", "ss", "er"],
       "phonemes": ["/'d", "r", "ɛ", "s", "ɚ/"],
       "phonics": ["/'d", "r", "ĕ", "s", "er/"],
-      "tags": ["cluster", "closed", "floss"],
+      "tags": ["cluster", "closed"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "ss 發單音 /s/。"
     },
@@ -183,8 +183,8 @@
       "graphemes": ["f", "au", "c", "e", "t"],
       "phonemes": ["/'f", "ɔ", "s", "ɪ", "t/"],
       "phonics": ["/'f", "aw", "s", "ĭ", "t/"],
-      "tags": ["vowel_team", "irregular"],
-      "hearts": [0, 0, 0, 0, 0],
+      "tags": ["vowel_team"],
+      "hearts": [0, 0, 0, 1, 0],
       "hint": "au 發 /aw/；c 發軟音 /s/。"
     },
     {
@@ -206,7 +206,7 @@
       "phonemes": ["/f", "r", "ɪ", "dʒ/"],
       "phonics": ["/f", "r", "ĭ", "-j/"],
       "tags": ["cluster", "closed", "digraph"],
-      "hearts": [0, 0, 0, 0],
+      "hearts": [0, 0, 0, 1],
       "hint": "dge 發 /j/。"
     },
     {
@@ -217,7 +217,7 @@
       "phonemes": ["/'f", "ɝ", "n", "ɪ", "tʃ", "ɚ/"],
       "phonics": ["/'f", "er", "n", "ĭ", "ch", "er/"],
       "tags": ["rcontrolled"],
-      "hearts": [0, 0, 0, 0, 1, 0],
+      "hearts": [0, 0, 0, 0, 1, 1],
       "hint": "ur 在重音節發 /er/。"
     },
     {
@@ -238,7 +238,7 @@
       "graphemes": ["l", "a", "m", "p"],
       "phonemes": ["/l", "æ", "m", "p/"],
       "phonics": ["/l", "ă", "m", "p/"],
-      "tags": ["closed", "cluster"],
+      "tags": ["cvc", "cluster"],
       "hearts": [0, 0, 0, 0],
       "hint": "a 發 /ă/；mp 混合音。"
     },
@@ -260,8 +260,8 @@
       "graphemes": ["m", "a", "ch", "i", "n", "e"],
       "phonemes": ["/m", "ə", "'ʃ", "i", "n", "-/"],
       "phonics": ["/m", "ə", "'sh", "ē", "n", "-/"],
-      "tags": ["digraph", "magic_e"],
-      "hearts": [0, 1, 1, 0, 0, 0],
+      "tags": ["irregular", "digraph"],
+      "hearts": [0, 0, 1, 1,  0, 0],
       "hint": "ch 不規則發 /sh/；i_e 發 /ē/。"
     },
     {
@@ -315,8 +315,8 @@
       "graphemes": ["r", "a", "d", "i", "o"],
       "phonemes": ["/'r", "eɪ", "d", "i", "oʊ/"],
       "phonics": ["/'r", "ā", "d", "ē", "ō/"],
-      "tags": ["open"],
-      "hearts": [0, 0, 0, 0, 0],
+      "tags": ["irregular"],
+      "hearts": [0, 0, 0, 1, 1],
       "hint": "a 在重音節發 /ā/。"
     },
     {
@@ -327,7 +327,7 @@
       "phonemes": ["/r", "ɪ", "'f", "r", "ɪ", "dʒ", "ɚ", "eɪ", "t", "ɚ/"],
       "phonics": ["/r", "ĭ", "'f", "r", "ĭ", "-j", "er", "ā", "t", "er/"],
       "tags": ["cluster", "closed"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "hearts": [0, 0, 0, 0, 1, 0, 0, 0, 0, 1],
       "hint": "i 在重音節發 /ĭ/；g 發軟音 /-j/。"
     },
     {
@@ -337,7 +337,7 @@
       "graphemes": ["sh", "e", "l", "f"],
       "phonemes": ["/ʃ", "ɛ", "l", "f/"],
       "phonics": ["/sh", "ĕ", "l", "f/"],
-      "tags": ["digraph", "closed", "cluster"],
+      "tags": ["digraph", "cvc", "cluster"],
       "hearts": [0, 0, 0, 0],
       "hint": "sh 發 /sh/；e 發 /ĕ/。"
     },
@@ -347,8 +347,8 @@
       "ipa": "/sɪŋk/",
       "graphemes": ["s", "i", "n", "k"],
       "phonemes": ["/s", "ɪ", "ŋ", "k/"],
-      "phonics": ["/s", "ĭ", "ng", "k/"],
-      "tags": ["closed", "cluster"],
+      "phonics": ["/s", "ĭ", "ŋ", "k/"],
+      "tags": ["cvc", "cluster"],
       "hearts": [0, 0, 0, 0],
       "hint": "n 在 k 前發 /ng/。"
     },
@@ -392,7 +392,7 @@
       "graphemes": ["t", "a", "b", "le"],
       "phonemes": ["/'t", "eɪ", "b", "əl/"],
       "phonics": ["/'t", "ā", "b", "əl/"],
-      "tags": ["open"],
+      "tags": ["open","cle"],
       "hearts": [0, 0, 0, 0],
       "hint": "a 在重音節發 /ā/。"
     },
@@ -403,19 +403,19 @@
       "graphemes": ["t", "e", "l", "e", "ph", "o", "n", "e"],
       "phonemes": ["/'t", "ɛ", "l", "ə", "f", "oʊ", "n", "-/"],
       "phonics": ["/'t", "ĕ", "l", "ə", "f", "ō", "n", "-/"],
-      "tags": ["closed"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
+      "tags": ["closed","digraph"],
+      "hearts": [0, 0, 0, 0, 1, 0, 0, 0],
       "hint": "e 在重音節發 /ĕ/。"
     },
     {
       "number": "📺 電視",
       "word": "television",
       "ipa": "/ˈtɛləvɪʒən/",
-      "graphemes": ["t", "e", "l", "e", "v", "i", "si", "on"],
-      "phonemes": ["/'t", "ɛ", "l", "ə", "v", "ɪ", "ʒ", "ən/"],
-      "phonics": ["/'t", "ĕ", "l", "ə", "v", "ĭ", "zh", "ən/"],
+      "graphemes": ["t", "e", "l", "e", "v", "i", "si", "o","n"],
+      "phonemes": ["/'t", "ɛ", "l", "ə", "v", "ɪ", "ʒ", "ə","n/"],
+      "phonics": ["/'t", "ĕ", "l", "ə", "v", "ĭ", "zh", "ə","n/"],
       "tags": ["closed"],
-      "hearts": [0, 0, 0, 0, 0, 0, 1, 0],
+      "hearts": [0, 0, 0, 0, 0, 0, 1, 0, 0],
       "hint": "e 在重音節發 /ĕ/。"
     },
     {
@@ -436,8 +436,8 @@
       "graphemes": ["v", "i", "d", "e", "o"],
       "phonemes": ["/'v", "ɪ", "d", "i", "oʊ/"],
       "phonics": ["/'v", "ĭ", "d", "ē", "ō/"],
-      "tags": ["closed"],
-      "hearts": [0, 0, 0, 0, 0],
+      "tags": ["irregular"],
+      "hearts": [0, 0, 0, 1, 1],
       "hint": "i 在重音節發 /ĭ/。"
     }
   ]
