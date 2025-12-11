@@ -29,7 +29,7 @@
       "graphemes": ["c", "l", "a", "ss", "r", "oo", "m"],
       "phonemes": ["/'k", "l", "æ", "s", "r", "u", "m/"],
       "phonics": ["/'k", "l", "ă", "s", "r", "ū", "m/"],
-      "tags": ["cluster", "closed", "floss"],
+      "tags": ["cluster", "cvc"],
       "hearts": [0, 0, 0, 0, 0, 0, 0],
       "hint": "ss 發 /s/；oo 發 /u/。"
     },
@@ -41,7 +41,7 @@
       "phonemes": ["/'k", "ɑ", "l", "ɪ", "dʒ/"],
       "phonics": ["/'k", "ŏ", "l", "ĭ", "-j/"],
       "tags": ["closed"],
-      "hearts": [0, 0, 0, 0, 0, 0],
+      "hearts": [0, 0, 0, 0, 1, 0],
       "hint": "ge 字尾發 /dʒ/。"
     },
     {
@@ -52,7 +52,7 @@
       "phonemes": ["/ɛ", "l", "ə", "'m", "ɛ", "n", "t", "ə", "r", "i", " ", "s", "k", "u", "l/"],
       "phonics": ["/ĕ", "l", "ə", "'m", "ĕ", "n", "t", "ə", "r", "ē", " ", "s", "k", "ū", "l/"],
       "tags": ["closed", "cluster", "digraph"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
       "hint": "oo 發 /u/。"
     },
     {
@@ -63,7 +63,7 @@
       "phonemes": ["/ɡ", "ɑr", "d/"],
       "phonics": ["/ɡ", "ar", "d/"],
       "tags": ["rcontrolled", "cluster"],
-      "hearts": [0, 0, 0],
+      "hearts": [1, 0, 0],
       "hint": "gu 發 /ɡ/；ar 發 /ɑr/。"
     },
     {
@@ -72,8 +72,8 @@
       "ipa": "/dʒɪm/",
       "graphemes": ["g", "y", "m"],
       "phonemes": ["/dʒ", "ɪ", "m/"],
-      "phonics": ["/j", "ĭ", "m/"],
-      "tags": ["closed"],
+      "phonics": ["/-j", "ĭ", "m/"],
+      "tags": ["cvc"],
       "hearts": [0, 0, 0],
       "hint": "g 發軟音 /dʒ/；y 發 /ɪ/。"
     },
@@ -85,7 +85,7 @@
       "phonemes": ["/'dʒ", "u", "n", "j", "ɚ", " ", "h", "aɪ", " ", "s", "k", "u", "l/"],
       "phonics": ["/'j", "ū", "n", "y", "er", " ", "h", "ī", " ", "s", "k", "ū", "l/"],
       "tags": ["open", "digraph"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "hearts": [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0],
       "hint": "igh 發 /aɪ/；oo 發 /u/。"
     },
     {
@@ -114,11 +114,11 @@
       "number": "🏫 學校",
       "word": "school",
       "ipa": "/skul/",
-      "graphemes": ["sch", "oo", "l"],
+      "graphemes": ["s","ch", "oo", "l"],
       "phonemes": ["/s", "k", "u", "l/"],
       "phonics": ["/s", "k", "ū", "l/"],
       "tags": ["digraph", "vowel_team"],
-      "hearts": [0, 0, 0],
+      "hearts": [0, 1, 0, 0],
       "hint": "sch 發 /sk/；oo 發 /u/。"
     },
     {
@@ -139,7 +139,7 @@
       "phonemes": ["/'s", "i", "n", "j", "ɚ", " ", "h", "aɪ", " ", "s", "k", "u", "l/"],
       "phonics": ["/'s", "ē", "n", "y", "er", " ", "h", "ī", " ", "s", "k", "ū", "l/"],
       "tags": ["open", "digraph"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "hearts": [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0],
       "hint": "e 發 /i/；igh 發 /aɪ/。"
     },
     {
