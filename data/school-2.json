@@ -63,7 +63,7 @@
       "phonemes": ["/'k", "r", "eɪ", "ɑ", "n/"],
       "phonics": ["/'k", "r", "ā", "ŏ", "n/"],
       "tags": ["vowel_team"],
-      "hearts": [0, 0, 0, 0, 0],
+      "hearts": [0, 0, 0, 1, 0],
       "hint": "ay 發 /ā/。"
     },
     {
@@ -74,7 +74,7 @@
       "phonemes": ["/'d", "aɪ", "ə", "r", "i/"],
       "phonics": ["/'d", "ī", "ə", "r", "ē/"],
       "tags": ["open"],
-      "hearts": [0, 0, 0, 0, 0],
+      "hearts": [0, 0, 1, 0, 0],
       "hint": "i 發長音 /ī/；字尾 y 發 /ē/。"
     },
     {
@@ -84,8 +84,8 @@
       "graphemes": ["d", "i", "c", "tion", "a","r", "y"],
       "phonemes": ["/'d", "ɪ", "k", "ʃən", "ɛ","r", "i/"],
       "phonics": ["/'d", "ĭ", "k", "shən", "ĕ","r", "ē/"],
-      "tags": ["closed", "suffix"],
-      "hearts": [0, 0, 0, 0, 0, 0],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 0, 1, 0],
       "hint": "tion 發 /shən/；ary 發 /er/ + /ē/。"
     },
     {
@@ -95,7 +95,7 @@
       "graphemes": ["e", "n", "v", "e", "l", "o", "p", "e"],
       "phonemes": ["/'ɛ", "n", "v", "ə", "l", "oʊ", "p", "-/"],
       "phonics": ["/'ĕ", "n", "v", "ə", "l", "ō", "p", "-/"],
-      "tags": ["closed", "magic_e"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "o_e 發 /ō/。"
     },
@@ -104,8 +104,8 @@
       "word": "eraser",
       "ipa": "/ɪˈreɪsɚ/",
       "graphemes": ["e", "r", "a", "s", "er"],
-      "phonemes": ["/ɪ", "/'r", "eɪ", "s", "ɚ/"],
-      "phonics": ["/ĭ", "/'r", "ā", "s", "er/"],
+      "phonemes": ["/ɪ", "'r", "eɪ", "s", "ɚ/"],
+      "phonics": ["/ĭ", "'r", "ā", "s", "er/"],
       "tags": ["open"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "a 發長音 /ā/；er 發 /er/。"
@@ -115,9 +115,9 @@
       "word": "glasses",
       "ipa": "/ˈɡlæsəz/",
       "graphemes": ["g", "l", "a", "ss", "es"],
-      "phonemes": ["/'ɡ", "l", "æ", "s", "əz/"],
-      "phonics": ["/'ɡ", "l", "ă", "s", "əz/"],
-      "tags": ["cluster", "closed", "floss", "suffix"],
+      "phonemes": ["/'ɡ", "l", "æ", "s", "ɪz/"],
+      "phonics": ["/'ɡ", "l", "ă", "s", "ĭz/"],
+      "tags": ["cluster", "closed",  "suffix"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "ss 發 /s/；es 是複數詞尾。"
     },
@@ -159,8 +159,8 @@
       "word": "magazine",
       "ipa": "/mæɡəˈziːn/",
       "graphemes": ["m", "a", "g", "a", "z", "i", "n", "e"],
-      "phonemes": ["/m", "æ", "g", "ə", "/'z", "i", "n", "-/"],
-      "phonics": ["/m", "ă", "g", "ə", "/'z", "ē", "n", "-/"],
+      "phonemes": ["/m", "æ", "g", "ə", "'z", "i", "n", "-/"],
+      "phonics": ["/m", "ă", "g", "ə", "'z", "ē", "n", "-/"],
       "tags": ["magic_e", "irregular"],
       "hearts": [0, 0, 0, 0, 0, 1, 0, 0],
       "hint": "i_e 在此發 /ē/，是不規則發音。"
@@ -182,7 +182,7 @@
       "ipa": "/ˈmɑrkɚ/",
       "graphemes": ["m", "ar", "k", "er"],
       "phonemes": ["/'m", "ɑr", "k", "ɚ/"],
-      "phonics": ["/'m", "ar", "k", "er/"],
+      "phonics": ["/'m", "ɑr", "k", "er/"],
       "tags": ["rcontrolled"],
       "hearts": [0, 0, 0, 0],
       "hint": "ar 發 /ar/。"
@@ -272,7 +272,7 @@
       "phonemes": ["/'p", "r", "ɛ", "z", "ə", "n", "t/"],
       "phonics": ["/'p", "r", "ĕ", "z", "ə", "n", "t/"],
       "tags": ["cluster","closed"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0],
+      "hearts": [0, 0, 0, 1, 0, 0, 0],
       "hint": "s 在母音間發 /z/。"
     },
     {
@@ -316,7 +316,7 @@
       "phonemes": ["/'w", "ɝ", "k", "b", "ʊ", "k/"],
       "phonics": ["/'w", "er", "k", "b", "oo", "k/"],
       "tags": ["rcontrolled"],
-      "hearts": [0, 0, 0, 0, 0, 0],
+      "hearts": [0, 1, 0, 0, 0, 0],
       "hint": "or 在 w 後發 /er/。"
     }
   ]
