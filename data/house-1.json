@@ -73,7 +73,7 @@
       "ipa": "/ˈbɪldɪŋ/",
       "graphemes": ["b", "ui", "l", "d", "i", "ng"],
       "phonemes": ["/'b", "ɪ", "l", "d", "ɪ", "ŋ/"],
-      "phonics": ["/'b", "ĭ", "l", "d", "ĭ", "ng/"],
+      "phonics": ["/'b", "ĭ", "l", "d", "ĭ", "ŋ/"],
       "tags": ["irregular", "digraph"],
       "hearts": [0, 1, 0, 0, 0, 0],
       "hint": "ui 不規則發 /ĭ/；ng 發鼻音 /ŋ/。"
@@ -90,12 +90,12 @@
       "hint": "c 發軟音 /s/；ei 不規則發 /ē/。"
     },
     {
-      "number": "🍽 餐廳",
+      "number": "🍽 （家中）餐廳",
       "word": "dining room",
       "ipa": "/ˈdaɪnɪŋ rum/",
       "graphemes": ["d", "i", "n", "i", "ng", " ", "r", "oo", "m"],
       "phonemes": ["/'d", "aɪ", "n", "ɪ", "ŋ", " ", "r", "u", "m/"],
-      "phonics": ["/'d", "ī", "n", "ĭ", "ng", " ", "r", "ū", "m/"],
+      "phonics": ["/'d", "ī", "n", "ĭ", "ŋ", " ", "r", "ū", "m/"],
       "tags": ["open", "digraph"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "i 在重音節發 /ī/；oo 發 /ū/。"
@@ -104,11 +104,11 @@
       "number": "🚪 門",
       "word": "door",
       "ipa": "/dɔr/",
-      "graphemes": ["d", "oo", "r"],
-      "phonemes": ["/d", "ɔ", "r/"],
-      "phonics": ["/d", "or", "r/"],
+      "graphemes": ["d", "oor"],
+      "phonemes": ["/d", "ɔr/"],
+      "phonics": ["/d", "or/"],
       "tags": ["irregular"],
-      "hearts": [0, 1, 0],
+      "hearts": [0, 1],
       "hint": "oo 不規則發 /or/ 音。"
     },
     {
@@ -137,11 +137,11 @@
       "number": "地板",
       "word": "floor",
       "ipa": "/flɔr/",
-      "graphemes": ["f", "l", "oo", "r"],
-      "phonemes": ["/f", "l", "ɔ", "r/"],
-      "phonics": ["/f", "l", "or", "r/"],
+      "graphemes": ["f", "l", "oor"],
+      "phonemes": ["/f", "l", "ɔr/"],
+      "phonics": ["/f", "l", "or/"],
       "tags": ["cluster", "irregular"],
-      "hearts": [0, 0, 1, 0],
+      "hearts": [0, 0, 1],
       "hint": "oo 不規則發 /or/ 音。"
     },
     {
@@ -207,7 +207,7 @@
       "phonemes": ["/'k", "ɪ", "tʃ", "ə", "n/"],
       "phonics": ["/'k", "ĭ", "ch", "ə", "n/"],
       "tags": ["closed", "digraph"],
-      "hearts": [0, 0, 0, 0, 0],
+      "hearts": [0, 0, 1, 0, 0],
       "hint": "i 在重音節發 /ĭ/；tch 發 /ch/。"
     },
     {
@@ -262,7 +262,7 @@
       "phonemes": ["/s", "t", "ɛ", "r", "z/"],
       "phonics": ["/s", "t", "ĕ", "r", "z/"],
       "tags": ["cluster", "rcontrolled"],
-      "hearts": [0, 0, 1, 1, 0, 0],
+      "hearts": [0, 0, 1, 0, 0, 0],
       "hint": "air 不規則發 /ɛr/ (a發/ĕ/)。"
     },
     {
@@ -284,7 +284,7 @@
       "phonemes": ["/ʌ", "p", "'s", "t", "ɛ", "r", "z/"],
       "phonics": ["/ŭ", "p", "'s", "t", "ĕ", "r", "z/"],
       "tags": ["rcontrolled"],
-      "hearts": [0, 0, 0, 0, 0,0, 0, 0],
+      "hearts": [0, 0, 0, 0, 1, 0, 0, 0],
       "hint": "主重音在 stairs：air 不規則發 /ɛr/。"
     },
     {
