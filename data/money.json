@@ -7,7 +7,7 @@
       "graphemes": ["b", "i", "ll"],
       "phonemes": ["/b", "ɪ", "l/"],
       "phonics": ["/b", "ĭ", "l/"],
-      "tags": ["closed", "floss"],
+      "tags": ["cvc", "floss"],
       "hearts": [0, 0, 0],
       "hint": "ll 為 Floss Rule (重複字尾)；i 發短音 /ĭ/。"
     },
@@ -40,7 +40,7 @@
       "graphemes": ["c", "a", "sh"],
       "phonemes": ["/k", "æ", "ʃ/"],
       "phonics": ["/k", "ă", "sh/"],
-      "tags": ["closed", "digraph"],
+      "tags": ["cvc", "digraph"],
       "hearts": [0, 0, 0],
       "hint": "c 發 /k/；sh 為二合字母發 /sh/。"
     },
@@ -51,7 +51,7 @@
       "graphemes": ["c", "e", "n", "t"],
       "phonemes": ["/s", "ɛ", "n", "t/"],
       "phonics": ["/s", "ĕ", "n", "t/"],
-      "tags": ["closed"],
+      "tags": ["closed","cluster"],
       "hearts": [0, 0, 0, 0],
       "hint": "c 在 e 前發軟音 /s/。"
     },
@@ -61,7 +61,7 @@
       "ipa": "/tʃeɪndʒ/",
       "graphemes": ["ch", "a", "n", "g", "e"],
       "phonemes": ["/tʃ", "eɪ", "n", "dʒ", "-/"],
-      "phonics": ["/ch", "ā", "n", "j", "-/"],
+      "phonics": ["/ch", "ā", "n", "-j", "-/"],
       "tags": ["digraph", "magic_e"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "ch 發 /ch/；a-e 發長音 /ā/；g 發軟音 /j/。"
@@ -72,7 +72,7 @@
       "ipa": "/tʃɑrdʒ/",
       "graphemes": ["ch", "ar", "g", "e"],
       "phonemes": ["/tʃ", "ɑr", "dʒ", "-/"],
-      "phonics": ["/ch", "ar", "j", "-/"],
+      "phonics": ["/ch", "ar", "-j", "-/"],
       "tags": ["digraph", "rcontrolled"],
       "hearts": [0, 0, 0, 0],
       "hint": "ch 發 /ch/；ar 發捲舌音 /ar/；g 發軟音 /j/。"
@@ -106,7 +106,7 @@
       "graphemes": ["c", "o", "s", "t"],
       "phonemes": ["/k", "ɔ", "s", "t/"],
       "phonics": ["/k", "aw", "s", "t/"],
-      "tags": ["closed"],
+      "tags": [],
       "hearts": [0, 0, 0, 0],
       "hint": "o 在此發 /aw/ 的音。"
     },
@@ -116,8 +116,8 @@
       "ipa": "/ˈkrɛdɪt kɑrd/",
       "graphemes": ["c", "r", "e", "d", "i", "t", " ", "c", "ar", "d"],
       "phonemes": ["/'k", "r", "ɛ", "d", "ɪ", "t", " ", "'k", "ɑr", "d/"],
-      "phonics": ["/'k", "r", "ĕ", "d", "ĭ", "t", " ", "'k", "ar", "d/"],
-      "tags": ["closed", "cluster", "rcontrolled"],
+      "phonics": ["/'k", "r", "ĕ", "d", "ĭ", "t", " ", "'k", "ɑr", "d/"],
+      "tags": ["cluster","closed",  "rcontrolled"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "ar 發捲舌音 /ar/。"
     },
@@ -139,8 +139,8 @@
       "graphemes": ["ear", "n"],
       "phonemes": ["/ɝ", "n/"],
       "phonics": ["/er", "n/"],
-      "tags": ["rcontrolled"],
-      "hearts": [0, 0],
+      "tags": ["irregular"],
+      "hearts": [1, 0],
       "hint": "ear 發捲舌音 /er/。"
     },
     {
@@ -161,7 +161,7 @@
       "graphemes": ["l", "e", "n", "d"],
       "phonemes": ["/l", "ɛ", "n", "d/"],
       "phonics": ["/l", "ĕ", "n", "d/"],
-      "tags": ["closed"],
+      "tags": ["cvc","cluster"],
       "hearts": [0, 0, 0, 0],
       "hint": "e 發短音 /ĕ/。"
     },
@@ -173,7 +173,7 @@
       "phonemes": ["/'m", "ʌ", "n", "i/"],
       "phonics": ["/'m", "ŭ", "n", "ē/"],
       "tags": ["irregular"],
-      "hearts": [0, 1, 0, 0],
+      "hearts": [0, 1, 0, 1],
       "hint": "o 不規則發 /ŭ/；ey 發長音 /ē/。"
     },
     {
@@ -205,7 +205,7 @@
       "graphemes": ["s", "p", "e", "n", "d"],
       "phonemes": ["/s", "p", "ɛ", "n", "d/"],
       "phonics": ["/s", "p", "ĕ", "n", "d/"],
-      "tags": ["closed", "cluster"],
+      "tags": [ "cluster", "cvc"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "sp 為混合音；e 發短音 /ĕ/。"
     }
