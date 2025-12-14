@@ -12,7 +12,7 @@
       "hint": "ph 發 /f/。"
     },
     {
-      "number": "🙋 回答",
+      "number": "🙋❗ 回答",
       "word": "answer",
       "ipa": "/ˈænsɚ/",
       "graphemes": ["a", "n", "s", "w", "er"],
@@ -23,7 +23,7 @@
       "hint": "w 不發音。"
     },
     {
-      "number": "🙋 詢問",
+      "number": "🙋❓ 詢問",
       "word": "ask",
       "ipa": "/æsk/",
       "graphemes": ["a", "s", "k"],
@@ -34,7 +34,7 @@
       "hint": ""
     },
     {
-      "number": "🗣 對話",
+      "number": "🗪 對話",
       "word": "conversation",
       "ipa": "/ˌkɑnvɚˈseɪʃən/",
       "graphemes": ["c", "o", "n", "v", "er", "s", "a", "tion"],
@@ -122,7 +122,7 @@
       "hint": "a_e 發 /eɪ/。"
     },
     {
-      "number": "🏠 作業",
+      "number": "🏠📝 作業",
       "word": "homework",
       "ipa": "/ˈhoʊmwɝk/",
       "graphemes": ["h", "o", "m", "e", "w", "or", "k"],
