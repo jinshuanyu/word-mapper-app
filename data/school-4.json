@@ -12,7 +12,7 @@
       "hint": "ph 發 /f/。"
     },
     {
-      "number": "🙋❗ 回答",
+      "number": "💡🙋 回答",
       "word": "answer",
       "ipa": "/ˈænsɚ/",
       "graphemes": ["a", "n", "s", "w", "er"],
@@ -23,7 +23,7 @@
       "hint": "w 不發音。"
     },
     {
-      "number": "🙋❓ 詢問",
+      "number": "❓🙋 詢問",
       "word": "ask",
       "ipa": "/æsk/",
       "graphemes": ["a", "s", "k"],
