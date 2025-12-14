@@ -18,7 +18,7 @@
       "graphemes": ["a", "n", "s", "w", "er"],
       "phonemes": ["/'æ", "n", "s", "-", "ɚ/"],
       "phonics": ["/'ă", "n", "s", "-", "er/"],
-      "tags": ["closed", "silent_consonant", "rcontrolled"],
+      "tags": ["closed", "silent_consonant"],
       "hearts": [0, 0, 0, 1, 0],
       "hint": "w 不發音。"
     },
@@ -29,7 +29,7 @@
       "graphemes": ["a", "s", "k"],
       "phonemes": ["/æ", "s", "k/"],
       "phonics": ["/ă", "s", "k/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [0, 0, 0],
       "hint": ""
     },
@@ -63,7 +63,7 @@
       "phonemes": ["/ɪ", "ɡ'z", "æ", "m/"],
       "phonics": ["/ĭ", "ɡ'z", "ă", "m/"],
       "tags": ["closed"],
-      "hearts": [0, 0, 0, 0],
+      "hearts": [0, 1, 0, 0],
       "hint": "x 發 /ɡz/。"
     },
     {
@@ -74,7 +74,7 @@
       "phonemes": ["/ɪ", "ɡ'z", "æ", "m", "p", "əl/"],
       "phonics": ["/ĭ", "ɡ'z", "ă", "m", "p", "əl/"],
       "tags": ["closed", "cle"],
-      "hearts": [0, 0, 0, 0, 0, 0],
+      "hearts": [0, 1, 0, 0, 0, 0],
       "hint": "x 發 /ɡz/。"
     },
     {
@@ -84,8 +84,8 @@
       "graphemes": ["e", "x", "er", "c", "i", "s", "e"],
       "phonemes": ["/'ɛ", "ks", "ɚ", "s", "aɪ", "z", "-/"],
       "phonics": ["/'ĕ", "ks", "er", "s", "ī", "z", "-/"],
-      "tags": ["closed", "magic_e"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 0, 0, 1, 0],
       "hint": "x 發 /ks/；i_e 發 /aɪ/。"
     },
     {
@@ -103,10 +103,10 @@
       "number": "🏁 期末考",
       "word": "final",
       "ipa": "/ˈfaɪnəl/",
-      "graphemes": ["f", "i", "n", "al"],
-      "phonemes": ["/'f", "aɪ", "n", "əl/"],
-      "phonics": ["/'f", "ī", "n", "əl/"],
-      "tags": ["open", "schwa"],
+      "graphemes": ["f", "i", "n", "a","l"],
+      "phonemes": ["/'f", "aɪ", "n", "ə","l/"],
+      "phonics": ["/'f", "ī", "n", "ə","l/"],
+      "tags": ["open"],
       "hearts": [0, 0, 0, 0],
       "hint": "i 發 /aɪ/。"
     },
@@ -129,18 +129,18 @@
       "phonemes": ["/'h", "oʊ", "m", "-", "w", "ɝ", "k/"],
       "phonics": ["/'h", "ō", "m", "-", "w", "er", "k/"],
       "tags": ["magic_e"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0],
+      "hearts": [0, 0, 0, 0, 0, 1, 0],
       "hint": "o_e 發 /oʊ/；or 發 /ɝ/。"
     },
     {
       "number": "🧠 知識",
       "word": "knowledge",
       "ipa": "/ˈnɑlɪdʒ/",
-      "graphemes": ["kn", "ow", "l", "e", "dge"],
-      "phonemes": ["/'n", "ɑ", "l", "ɪ", "dʒ/"],
-      "phonics": ["/'n", "ŏ", "l", "ĭ", "j/"],
-      "tags": ["digraph", "trigraph"],
-      "hearts": [0, 1, 0, 0, 0],
+      "graphemes": ["k","n", "ow", "l", "e", "dge"],
+      "phonemes": ["/-","'n", "ɑ", "l", "ɪ", "dʒ/"],
+      "phonics": ["/-","'n", "ŏ", "l", "ĭ", "-j/"],
+      "tags": ["silent_consonant", "closed", "digraph"],
+      "hearts": [1, 0, 1, 0, 0, 0],
       "hint": "kn 發 /n/；ow 發不規則短音 /ŏ/。"
     },
     {
@@ -150,8 +150,8 @@
       "graphemes": ["l", "ear", "n"],
       "phonemes": ["/l", "ɝ", "n/"],
       "phonics": ["/l", "er", "n/"],
-      "tags": ["rcontrolled"],
-      "hearts": [0, 0, 0],
+      "tags": ["irregular"],
+      "hearts": [0, 1, 0],
       "hint": "ear 發 /ɝ/。"
     },
     {
@@ -172,7 +172,7 @@
       "graphemes": ["p", "a", "ss"],
       "phonemes": ["/p", "æ", "s/"],
       "phonics": ["/p", "ă", "s/"],
-      "tags": ["floss", "closed"],
+      "tags": ["cvc", "floss"],
       "hearts": [0, 0, 0],
       "hint": ""
     },
@@ -183,8 +183,8 @@
       "graphemes": ["p", "o", "e", "m"],
       "phonemes": ["/'p", "oʊ", "ə", "m/"],
       "phonics": ["/'p", "ō", "ə", "m/"],
-      "tags": ["open", "schwa"],
-      "hearts": [0, 0, 0, 0],
+      "tags": ["open"],
+      "hearts": [0, 0, 1, 0],
       "hint": "o 發 /oʊ/。"
     },
     {
@@ -194,7 +194,7 @@
       "graphemes": ["p", "r", "o", "b", "l", "e", "m"],
       "phonemes": ["/'p", "r", "ɑ", "b", "l", "ə", "m/"],
       "phonics": ["/'p", "r", "ŏ", "b", "l", "ə", "m/"],
-      "tags": ["closed"],
+      "tags": ["cluster","closed"],
       "hearts": [0, 0, 0, 0, 0, 0, 0],
       "hint": ""
     },
@@ -216,7 +216,7 @@
       "graphemes": ["s", "c", "ore"],
       "phonemes": ["/s", "k", "ɔr/"],
       "phonics": ["/s", "k", "or/"],
-      "tags": ["rcontrolled"],
+      "tags": ["cluster","rcontrolled"],
       "hearts": [0, 0, 0],
       "hint": "ore 發 /ɔr/。"
     },
@@ -227,7 +227,7 @@
       "graphemes": ["s", "p", "ea", "k"],
       "phonemes": ["/s", "p", "i", "k/"],
       "phonics": ["/s", "p", "ē", "k/"],
-      "tags": ["vowel_team"],
+      "tags": ["cluster","vowel_team"],
       "hearts": [0, 0, 0, 0],
       "hint": "ea 發 /i/。"
     },
@@ -238,8 +238,8 @@
       "graphemes": ["s", "t", "u", "d", "y"],
       "phonemes": ["/'s", "t", "ʌ", "d", "i/"],
       "phonics": ["/'s", "t", "ŭ", "d", "ē/"],
-      "tags": ["closed", "open"],
-      "hearts": [0, 0, 0, 0, 0],
+      "tags": ["irregular"],
+      "hearts": [0, 0, 1, 0, 0],
       "hint": "u 發 /ʌ/；y 發 /i/。"
     },
     {
@@ -257,11 +257,11 @@
       "number": "✍ 寫",
       "word": "write",
       "ipa": "/raɪt/",
-      "graphemes": ["wr", "i", "t", "e"],
-      "phonemes": ["/r", "aɪ", "t", "-/"],
-      "phonics": ["/r", "ī", "t", "-/"],
-      "tags": ["magic_e", "digraph"],
-      "hearts": [0, 0, 0, 0],
+      "graphemes": ["w","r", "i", "t", "e"],
+      "phonemes": ["/-","r", "aɪ", "t", "-/"],
+      "phonics": ["/-","r", "ī", "t", "-/"],
+      "tags": ["silent_consonant", "magic_e"],
+      "hearts": [1, 0, 0, 0, 0],
       "hint": "wr 為二合字母，w 不發音。"
     }
   ]
