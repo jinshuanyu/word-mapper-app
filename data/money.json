@@ -72,7 +72,7 @@
       "ipa": "/tʃɑrdʒ/",
       "graphemes": ["ch", "ar", "g", "e"],
       "phonemes": ["/tʃ", "ɑr", "dʒ", "-/"],
-      "phonics": ["/ch", "ar", "-j", "-/"],
+      "phonics": ["/ch", "ɑr", "-j", "-/"],
       "tags": ["digraph", "rcontrolled"],
       "hearts": [0, 0, 0, 0],
       "hint": "ch 發 /ch/；ar 發捲舌音 /ar/；g 發軟音 /j/。"
@@ -129,7 +129,7 @@
       "phonemes": ["/'d", "ɑ", "l", "ɚ/"],
       "phonics": ["/'d", "ŏ", "l", "er/"],
       "tags": ["closed"],
-      "hearts": [0, 0, 0, 0],
+      "hearts": [0, 0, 0, 1],
       "hint": "o 發短音 /ŏ/；字尾 ar 弱化發 /er/。"
     },
     {
