@@ -116,8 +116,8 @@
       "word": "drugstore",
       "ipa": "/ˈdrʌɡˌstɔr/",
       "graphemes": ["d", "r", "u", "g", "s", "t", "or","e"],
-      "phonemes": ["/'d", "r", "ʌ", "g", "s", "t", "ɔr","-/"],
-      "phonics": ["/'d", "r", "ŭ", "g", "s", "t", "or","-/"],
+      "phonemes": ["/'d", "r", "ʌ", "ɡ", "s", "t", "ɔr","-/"],
+      "phonics": ["/'d", "r", "ŭ", "ɡ", "s", "t", "or","-/"],
       "tags": ["cluster", "closed"],
       "hearts": [0, 0, 0, 0, 0, 0, 0],
       "hint": "ug 發短音；ore 發 /or/。"
@@ -190,4 +190,5 @@
     }
   ]
 }
+
 
