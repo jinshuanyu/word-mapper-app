@@ -1,21 +1,181 @@
 {
   "category": "Directions & Positions",
   "items": [
-    { "number": "📍 這裡", "word": "here", "ipa": "/hɪr/", "graphemes": ["h","ere"], "phonemes": ["/h","ɪr/"], "phonics": ["/h","ɪr/"], "tags": ["rcontrolled"], "hearts": [0,0], "hint": "ere 在此發 R-controlled 母音 /ɪr/。" },
-    { "number": "📍 那裡", "word": "there", "ipa": "/ðɛr/", "graphemes": ["th","ere"], "phonemes": ["/ð","ɛr/"], "phonics": ["/th","ār/"], "tags": ["irregular", "digraph"], "hearts": [0,1], "hint": "th 發有聲 /ð/，ere 發 /ɛr/ (是不規則發音)。" },
-    { "number": "📍 位置", "word": "position", "ipa": "/pəˈzɪʃən/", "graphemes": ["p","o","s","i","tion"], "phonemes": ["/p","ə","z","ɪ","ʃən/"], "phonics": ["/p","ə","z","ĭ","shən/"], "tags": ["suffix", "closed"], "hearts": [0,0,0,0,0], "hint": "tion 字尾發 /ʃən/，s 發 /z/。" },
-    { "number": "🔙 後面", "word": "back", "ipa": "/bæk/", "graphemes": ["b","a","ck"], "phonemes": ["/b","æ","k/"], "phonics": ["/b","ă","k/"], "tags": ["cvc", "digraph"], "hearts": [0,0,0], "hint": "ck 發 /k/，a 發短母音 /æ/。" },
-    { "number": "🔙 向後地", "word": "backward", "ipa": "/ˈbækwərd/", "graphemes": ["b","a","ck","w","ar","d"], "phonemes": ["/b","æ","k","w","ər","d/"], "phonics": ["/b","ă","k","w","ər","d/"], "tags": ["rcontrolled"], "hearts": [0,0,0,0,0,0], "hint": "ar 在非重音節發弱化音 /ər/。" },
-    { "number": "🎯 中央的", "word": "central", "ipa": "/ˈsɛntrəl/", "graphemes": ["c","e","n","t","r","al"], "phonemes": ["/s","ɛ","n","t","r","əl/"], "phonics": ["/s","ĕ","n","t","r","əl/"], "tags": ["closed"], "hearts": [0,0,0,0,0,0], "hint": "c 接 e 發軟音 /s/。" },
-    { "number": "⏩ 向前地", "word": "forward", "ipa": "/ˈfɔrwərd/", "graphemes": ["f","or","w","ar","d"], "phonemes": ["/f","ɔr","w","ər","d/"], "phonics": ["/f","or","w","ər","d/"], "tags": ["rcontrolled"], "hearts": [0,0,0,0,0], "hint": "or 發 /ɔr/，ar 發弱化音 /ər/。" },
-    { "number": "🛑 前面", "word": "front", "ipa": "/frʌnt/", "graphemes": ["f","r","o","n","t"], "phonemes": ["/f","r","ʌ","n","t/"], "phonics": ["/f","r","ŭ","n","t/"], "tags": ["irregular", "cluster"], "hearts": [0,0,1,0,0], "hint": "o 發短母音 /ʌ/ (類似 u 的音)。" },
-    { "number": "⬅️ 左邊", "word": "left", "ipa": "/lɛft/", "graphemes": ["l","e","f","t"], "phonemes": ["/l","ɛ","f","t/"], "phonics": ["/l","ĕ","f","t/"], "tags": ["closed", "cvc"], "hearts": [0,0,0,0], "hint": "e 發短母音 /ɛ/。" },
-    { "number": "⏺️ 中間", "word": "middle", "ipa": "/ˈmɪdəl/", "graphemes": ["m","i","dd","le"], "phonemes": ["/m","ɪ","d","l/"], "phonics": ["/m","ĭ","d","l/"], "tags": ["cle", "closed"], "hearts": [0,0,0,0], "hint": "ddle 發 /dl/，字尾 e 不發音。" },
-    { "number": "➡️ 右邊", "word": "right", "ipa": "/raɪt/", "graphemes": ["r","igh","t"], "phonemes": ["/r","aɪ","t/"], "phonics": ["/r","ī","t/"], "tags": ["irregular", "trigraph"], "hearts": [0,0,0], "hint": "igh 發長母音 i /aɪ/。" },
-    { "number": "➡️ 東方", "word": "east", "ipa": "/ist/", "graphemes": ["ea","s","t"], "phonemes": ["/i","s","t/"], "phonics": ["/ē","s","t/"], "tags": ["vowel_team"], "hearts": [0,0,0], "hint": "ea 發長母音 e /i/。" },
-    { "number": "⬅️ 西方", "word": "west", "ipa": "/wɛst/", "graphemes": ["w","e","s","t"], "phonemes": ["/w","ɛ","s","t/"], "phonics": ["/w","ĕ","s","t/"], "tags": ["closed", "cvc"], "hearts": [0,0,0,0], "hint": "e 發短母音 /ɛ/。" },
-    { "number": "⬇️ 南方", "word": "south", "ipa": "/saʊθ/", "graphemes": ["s","ou","th"], "phonemes": ["/s","aʊ","θ/"], "phonics": ["/s","ou","th/"], "tags": ["vowel_team", "digraph"], "hearts": [0,0,0], "hint": "ou 發 /aʊ/，th 發無聲 /θ/。" },
-    { "number": "⬆️ 北方", "word": "north", "ipa": "/nɔrθ/", "graphemes": ["n","or","th"], "phonemes": ["/n","ɔr","θ/"], "phonics": ["/n","or","th/"], "tags": ["rcontrolled", "digraph"], "hearts": [0,0,0], "hint": "or 發 /ɔr/。" },
-    { "number": "🔝 頂端", "word": "top", "ipa": "/tɑp/", "graphemes": ["t","o","p"], "phonemes": ["/t","ɑ","p/"], "phonics": ["/t","ŏ","p/"], "tags": ["cvc", "closed"], "hearts": [0,0,0], "hint": "o 發短母音 /ɑ/。" }
+    {
+      "number": "📍 這裡",
+      "word": "here",
+      "ipa": "/hɪr/",
+      "graphemes": ["h", "e", "r","e"],
+      "phonemes": ["/'h", "ɪ", "r","-/"],
+      "phonics": ["/'h", "ĭ", "r","-/"],
+      "tags": ["magic_e", "rcontrolled"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "e 發長音 /ē/，re 發 /r/ (不規則拼法)。"
+    },
+    {
+      "number": "📍 那裡",
+      "word": "there",
+      "ipa": "/ðɛr/",
+      "graphemes": ["th", "e", "r","e"],
+      "phonemes": ["/'ð", "ɛ", "r","-/"],
+      "phonics": ["/'<u>th</u>", "ĕ", "r","-/"],
+      "tags": ["irregular"],
+      "hearts": [0, 1, 0, 1],
+      "hint": "th 發有聲 /ð/，e 發長音 /ā/，re 發 /r/ (不規則拼法)。"
+    },
+    {
+      "number": "📍 位置",
+      "word": "position",
+      "ipa": "/pəˈzɪʃən/",
+      "graphemes": ["p", "o", "s", "i", "tion"],
+      "phonemes": ["/p", "ə", "'z", "ɪ", "ʃən/"],
+      "phonics": ["/p", "ə", "'z", "ĭ", "shən/"],
+      "tags": [ "closed"],
+      "hearts": [0, 0, 1, 0, 0],
+      "hint": "tion 字尾發 /shən/，重音節 i 發短音 /ĭ/，s 發 /z/。"
+    },
+    {
+      "number": "🔙 後面",
+      "word": "back",
+      "ipa": "/bæk/",
+      "graphemes": ["b", "a", "ck"],
+      "phonemes": ["/'b", "æ", "k/"],
+      "phonics": ["/'b", "ă", "k/"],
+      "tags": ["cvc", "digraph"],
+      "hearts": [0, 0, 0],
+      "hint": "ck 發 /k/，a 發短母音 /ă/。"
+    },
+    {
+      "number": "🔙 向後地",
+      "word": "backward",
+      "ipa": "/ˈbækwərd/",
+      "graphemes": ["b", "a", "ck", "w", "ar", "d"],
+      "phonemes": ["/'b", "æ", "k", "w", "ər", "d/"],
+      "phonics": ["/'b", "ă", "k", "w", "er", "d/"],
+      "tags": ["closed", "digraph"],
+      "hearts": [0, 0, 0, 0, 1, 0],
+      "hint": "ck 是二合字母；字尾 ar 在非重音節發弱化音 /er/。"
+    },
+    {
+      "number": "🎯 中央的",
+      "word": "central",
+      "ipa": "/ˈsɛntrəl/",
+      "graphemes": ["c", "e", "n", "t", "r", "a","l"],
+      "phonemes": ["/'s", "ɛ", "n", "t", "r", "ə","l/"],
+      "phonics": ["/'s", "ĕ", "n", "t", "r", "ə","l/"],
+      "tags": ["closed", "cluster"],
+      "hearts": [0, 0, 0, 0, 0, 0],
+      "hint": "c 接 e 發軟音 /s/；字尾 al 發弱化音。"
+    },
+    {
+      "number": "⏩ 向前地",
+      "word": "forward",
+      "ipa": "/ˈfɔrwərd/",
+      "graphemes": ["f", "or", "w", "ar", "d"],
+      "phonemes": ["/'f", "ɔr", "w", "ər", "d/"],
+      "phonics": ["/'f", "or", "w", "er", "d/"],
+      "tags": ["rcontrolled"],
+      "hearts": [0, 0, 0, 1, 0],
+      "hint": "or 發 /or/；字尾 ar 在非重音節發弱化音 /er/。"
+    },
+    {
+      "number": "前面",
+      "word": "front",
+      "ipa": "/frʌnt/",
+      "graphemes": ["f", "r", "o", "n", "t"],
+      "phonemes": ["/'f", "r", "ʌ", "n", "t/"],
+      "phonics": ["/'f", "r", "ŭ", "n", "t/"],
+      "tags": ["cluster","irregular"],
+      "hearts": [0, 0, 1, 0, 0],
+      "hint": "o 發短母音 /ŭ/ (不規則)。"
+    },
+    {
+      "number": "⬅️ 左邊",
+      "word": "left",
+      "ipa": "/lɛft/",
+      "graphemes": ["l", "e", "f", "t"],
+      "phonemes": ["/'l", "ɛ", "f", "t/"],
+      "phonics": ["/'l", "ĕ", "f", "t/"],
+      "tags": ["cvc", "cluster"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "e 發短母音 /ĕ/，ft 是字尾混合音。"
+    },
+    {
+      "number": "⏺️ 中間",
+      "word": "middle",
+      "ipa": "/ˈmɪdəl/",
+      "graphemes": ["m", "i", "dd", "le"],
+      "phonemes": ["/'m", "ɪ", "d", "əl/"],
+      "phonics": ["/'m", "ĭ", "d", "əl/"],
+      "tags": ["closed", "cle"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "dd 發 /d/；le 發成音節 /l/。"
+    },
+    {
+      "number": "➡️ 右邊",
+      "word": "right",
+      "ipa": "/raɪt/",
+      "graphemes": ["r", "igh", "t"],
+      "phonemes": ["/'r", "aɪ", "t/"],
+      "phonics": ["/'r", "ī", "t/"],
+      "tags": ["digraph"],
+      "hearts": [0, 1, 0],
+      "hint": "igh 是三合字母，發長母音 /ī/。"
+    },
+    {
+      "number": "東方",
+      "word": "east",
+      "ipa": "/ist/",
+      "graphemes": ["ea", "s", "t"],
+      "phonemes": ["/'i", "s", "t/"],
+      "phonics": ["/'ē", "s", "t/"],
+      "tags": ["vowel_team", "cluster"],
+      "hearts": [0, 0, 0],
+      "hint": "ea 發長母音 /ē/。"
+    },
+    {
+      "number": "西方",
+      "word": "west",
+      "ipa": "/wɛst/",
+      "graphemes": ["w", "e", "s", "t"],
+      "phonemes": ["/'w", "ɛ", "s", "t/"],
+      "phonics": ["/'w", "ĕ", "s", "t/"],
+      "tags": ["cvc", "cluster"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "e 發短母音 /ĕ/。"
+    },
+    {
+      "number": "南方",
+      "word": "south",
+      "ipa": "/saʊθ/",
+      "graphemes": ["s", "ou", "th"],
+      "phonemes": ["/'s", "aʊ", "θ/"],
+      "phonics": ["/'s", "ow", "th/"],
+      "tags": ["vowel_team", "digraph"],
+      "hearts": [0, 0, 0],
+      "hint": "ou 發 /ow/ 的音，th 發無聲 /th/。"
+    },
+    {
+      "number": "北方",
+      "word": "north",
+      "ipa": "/nɔrθ/",
+      "graphemes": ["n", "or", "th"],
+      "phonemes": ["/'n", "ɔr", "θ/"],
+      "phonics": ["/'n", "or", "th/"],
+      "tags": ["rcontrolled", "digraph"],
+      "hearts": [0, 0, 0],
+      "hint": "or 發 R-controlled 音 /or/。"
+    },
+    {
+      "number": "🔝 頂端",
+      "word": "top",
+      "ipa": "/tɑp/",
+      "graphemes": ["t", "o", "p"],
+      "phonemes": ["/'t", "ɑ", "p/"],
+      "phonics": ["/'t", "ŏ", "p/"],
+      "tags": ["cvc"],
+      "hearts": [0, 0, 0],
+      "hint": "o 發短母音 /ŏ/。"
+    }
   ]
 }
