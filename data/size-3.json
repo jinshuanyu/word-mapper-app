@@ -6,8 +6,8 @@
       "word": "big",
       "ipa": "/bɪɡ/",
       "graphemes": ["b", "i", "g"],
-      "phonemes": ["/b", "ɪ", "g/"],
-      "phonics": ["/b", "ĭ", "g/"],
+      "phonemes": ["/b", "ɪ", "ɡ/"],
+      "phonics": ["/b", "ĭ", "ɡ/"],
       "tags": ["cvc"],
       "hearts": [0, 0, 0],
       "hint": "i 發短母音 /ĭ/。"
@@ -41,7 +41,7 @@
       "graphemes": ["e", "x", "t", "r", "a"],
       "phonemes": ["/'ɛ", "ks", "t", "r", "ə/"],
       "phonics": ["/'ĕ", "ks", "t", "r", "ə/"],
-      "tags": ["closed"],
+      "tags": ["closed","cluster"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "x 發 /ks/，字尾 a 發弱化音。"
     },
@@ -71,9 +71,9 @@
       "number": "🐋 巨大的",
       "word": "large",
       "ipa": "/lɑrdʒ/",
-      "graphemes": ["l", "ar", "g", "e"],
-      "phonemes": ["/l", "ɑr", "dʒ", "-/"],
-      "phonics": ["/l", "ɑr", "-j", "-/"],
+      "graphemes": ["l", "ar", "ge"],
+      "phonemes": ["/l", "ɑr", "dʒ/"],
+      "phonics": ["/l", "ɑr", "-j/"],
       "tags": ["rcontrolled"],
       "hearts": [0, 0, 0, 0],
       "hint": "ar 發 /ar/，ge 發 /j/。"
@@ -184,7 +184,7 @@
       "graphemes": ["sh", "or", "t"],
       "phonemes": ["/ʃ", "ɔr", "t/"],
       "phonics": ["/sh", "or", "t/"],
-      "tags": ["rcontrolled", "digraph"],
+      "tags": ["digraph","rcontrolled"],
       "hearts": [0, 0, 0],
       "hint": "or 發 /or/。"
     },
@@ -226,14 +226,14 @@
       "word": "bottle",
       "ipa": "/ˈbɑtl/",
       "graphemes": ["b", "o", "tt", "le"],
-      "phonemes": ["/'b", "ɑ", "t", "l/"],
-      "phonics": ["/'b", "ŏ", "t", "l/"],
-      "tags": ["cle", "closed"],
+      "phonemes": ["/'b", "ɑ", "t", "əl/"],
+      "phonics": ["/'b", "ŏ", "t", "əl/"],
+      "tags": ["closed","cle"],
       "hearts": [0, 0, 0, 0],
       "hint": "tt 發單音 /t/，le 字尾發 /l/。"
     },
     {
-      "number": "🥛 杯子",
+      "number": "🍵 杯子",
       "word": "cup",
       "ipa": "/kʌp/",
       "graphemes": ["c", "u", "p"],
@@ -244,23 +244,23 @@
       "hint": "u 發短母音 /ŭ/。"
     },
     {
-      "number": "🥯 一打",
+      "number": "一打(12個)",
       "word": "dozen",
       "ipa": "/ˈdʌzn/",
-      "graphemes": ["d", "o", "z", "en"],
-      "phonemes": ["/'d", "ʌ", "z", "n/"],
-      "phonics": ["/'d", "ŭ", "z", "n/"],
+      "graphemes": ["d", "o", "z", "e","n"],
+      "phonemes": ["/'d", "ʌ", "z", "ə","n/"],
+      "phonics": ["/'d", "ŭ", "z", "ə","n/"],
       "tags": ["irregular"],
       "hearts": [0, 1, 0, 0],
       "hint": "o 發短母音 /ŭ/ (不規則)。"
     },
     {
-      "number": "🥂 玻璃杯",
+      "number": "🥛 玻璃杯",
       "word": "glass",
       "ipa": "/ɡlæs/",
       "graphemes": ["g", "l", "a", "ss"],
-      "phonemes": ["/g", "l", "æ", "s/"],
-      "phonics": ["/g", "l", "ă", "s/"],
+      "phonemes": ["/ɡ", "l", "æ", "s/"],
+      "phonics": ["/ɡ", "l", "ă", "s/"],
       "tags": ["cvc","floss"],
       "hearts": [0, 0, 0, 0],
       "hint": "ss 字尾發 /s/。"
@@ -295,7 +295,7 @@
       "phonemes": ["/'p", "æ", "k", "ɪ", "dʒ", "-/"],
       "phonics": ["/'p", "ă", "k", "ĭ", "-j", "-/"],
       "tags": ["digraph", "closed"],
-      "hearts": [0, 0, 0, 0, 0, 0],
+      "hearts": [0, 0, 0, 1, 0, 0],
       "hint": "ck 發 /k/，age 字尾發 /ĭj/。"
     },
     {
@@ -322,3 +322,4 @@
     }
   ]
 }
+
