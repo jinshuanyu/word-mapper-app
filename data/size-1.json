@@ -6,7 +6,7 @@
       "word": "centimeter",
       "ipa": "/ˈsɛntəˌmitər/",
       "graphemes": ["c", "e", "n", "t", "i", "m", "e", "t", "er"],
-      "phonemes": ["/'s", "ɛ", "n", "t", "ə", "m", "i", "t", "ər/"],
+      "phonemes": ["/'s", "ɛ", "n", "t", "ə", "m", "i", "t", "ɚ/"],
       "phonics": ["/'s", "ĕ", "n", "t", "ə", "m", "ē", "t", "er/"],
       "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -61,7 +61,7 @@
       "word": "kilometer",
       "ipa": "/kɪˈlɑː.mə.t̬ɚ/",
       "graphemes": ["k", "i", "l", "o", "m", "e", "t", "er"],
-      "phonemes": ["/k", "ɪ", "'l", "ɑ", "m", "ə", "t", "ər/"],
+      "phonemes": ["/k", "ɪ", "'l", "ɑ", "m", "ə", "t", "ɚ/"],
       "phonics": ["/k", "ĭ", "'l", "ɑ", "m", "ə", "t", "er/"],
       "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
@@ -72,7 +72,7 @@
       "word": "liter",
       "ipa": "/ˈlitər/",
       "graphemes": ["l", "i", "t", "er"],
-      "phonemes": ["/'l", "i", "t", "ər/"],
+      "phonemes": ["/'l", "i", "t", "ɚ/"],
       "phonics": ["/'l", "ē", "t", "er/"],
       "tags": ["irregular"],
       "hearts": [0, 1, 0, 0],
@@ -83,9 +83,9 @@
       "word": "meter",
       "ipa": "/ˈmitər/",
       "graphemes": ["m", "e", "t", "er"],
-      "phonemes": ["/'m", "i", "t", "ər/"],
+      "phonemes": ["/'m", "i", "t", "ɚ/"],
       "phonics": ["/'m", "ē", "t", "er/"],
-      "tags": ["open", ],
+      "tags": ["open"],
       "hearts": [0, 0, 0, 0],
       "hint": "e 在開音節發長母音 /ē/。"
     },
@@ -182,7 +182,7 @@
       "word": "measure",
       "ipa": "/ˈmɛʒər/",
       "graphemes": ["m", "ea", "s", "ure"],
-      "phonemes": ["/'m", "ɛ", "ʒ", "ər/"],
+      "phonemes": ["/'m", "ɛ", "ʒ", "ɚ/"],
       "phonics": ["/'m", "ĕ", "zh", "er/"],
       "tags": ["irregular"],
       "hearts": [0, 1, 1, 1],
@@ -190,3 +190,4 @@
     }
   ]
 }
+
