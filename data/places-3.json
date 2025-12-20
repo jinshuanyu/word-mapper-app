@@ -9,7 +9,7 @@
       "phonemes": ["/'m", "ɔ","l/"],
       "phonics": ["/'m", "aw","l/"],
       "tags": ["irregular","floss"],
-      "hearts": [0, 0],
+      "hearts": [0, 1, 0],
       "hint": "all 發 /ol/。"
     },
     {
@@ -50,7 +50,7 @@
       "word": "movie theater",
       "ipa": "/ˈmuvi ˈθiətər/",
       "graphemes": ["m", "o", "v", "ie", " ", "th", "e","a", "t", "er"],
-      "phonemes": ["/'m", "u", "v", "i", " ", "'θ", "i", "ə", "t", "ər/"],
+      "phonemes": ["/'m", "u", "v", "i", " ", "'θ", "i", "ə", "t", "ɚ/"],
       "phonics": ["/'m", "ū", "v", "ē", " ", "'th", "ē", "ə","t", "er/"],
       "tags": ["irregular", "vowel_team"],
       "hearts": [0, 1, 0, 1, 0, 0, 0, 1, 0],
@@ -182,7 +182,7 @@
       "word": "supermarket",
       "ipa": "/ˈsupərˌmɑrkɪt/",
       "graphemes": ["s", "u", "p", "er", "m", "ar", "k", "et"],
-      "phonemes": ["/'s", "u", "p", "ər", "m", "ɑr", "k", "ɪt/"],
+      "phonemes": ["/'s", "u", "p", "ɚ", "m", "ɑr", "k", "ɪt/"],
       "phonics": ["/'s", "ū", "p", "er", "m", "ɑr", "k", "ĭt/"],
       "tags": ["open"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
@@ -204,7 +204,7 @@
       "word": "theater",
       "ipa": "/ˈθiətər/",
       "graphemes": ["th", "e","a", "t", "er"],
-      "phonemes": ["/'θ", "i", "ə","t", "ər/"],
+      "phonemes": ["/'θ", "i", "ə","t", "ɚ/"],
       "phonics": ["/'th", "ē", "ə","t", "er/"],
       "tags": ["digraph", "vowel_team"],
       "hearts": [0, 0, 1, 0],
@@ -215,7 +215,7 @@
       "word": "waterfalls",
       "ipa": "/ˈwɔtərˌfɔlz/",
       "graphemes": ["w", "a", "t", "er", "f", "a", "ll", "s"],
-      "phonemes": ["/'w", "ɔ", "t", "ər", "f", "ɔ", "l", "z/"],
+      "phonemes": ["/'w", "ɔ", "t", "ɚ", "f", "ɔ", "l", "z/"],
       "phonics": ["/'w", "aw", "t", "er", "f", "aw", "l", "z/"],
       "tags": ["irregular", "floss"],
       "hearts": [0, 1, 0, 0, 0, 1, 0, 0],
@@ -325,7 +325,7 @@
       "word": "international",
       "ipa": "/ˌɪntərˈnæʃənəl/",
       "graphemes": ["i", "n", "t", "er", "n", "a", "tion", "a","l"],
-      "phonemes": ["/ɪ", "n", "t", "ər", "n", "'æ", "ʃən", "ə","l/"],
+      "phonemes": ["/ɪ", "n", "t", "ɚ", "n", "'æ", "ʃən", "ə","l/"],
       "phonics": ["/ĭ", "n", "t", "er", "n", "'ă", "shən", "ə","l/"],
       "tags": ["closed", "suffix"],
       "hearts": [0, 0, 0, 0, 0, 1, 0, 0],
@@ -333,3 +333,4 @@
     }
   ]
 }
+
