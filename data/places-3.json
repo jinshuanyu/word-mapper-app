@@ -159,9 +159,9 @@
       "number": "✏️ 文具店",
       "word": "stationery store",
       "ipa": "/ˈsteɪʃəˌnɛri stɔr/",
-      "graphemes": ["s", "t", "a", "tion", "e","r", "y", " ", "s", "t", "or","e"],
-      "phonemes": ["/'s", "t", "eɪ", "ʃən", "ɛ","r", "i", " ", "s", "t", "ɔr","-/"],
-      "phonics": ["/'s", "t", "ā", "shən", "ĕ","r", "ē", " ", "s", "t", "or","-/"],
+      "graphemes": ["s", "t", "a", "tion", "e","r", "y", " ", "s", "t", "ore"],
+      "phonemes": ["/'s", "t", "eɪ", "ʃən", "ɛ","r", "i", " ", "s", "t", "ɔr/"],
+      "phonics": ["/'s", "t", "ā", "shən", "ĕ","r", "ē", " ", "s", "t", "or/"],
       "tags": ["cluster","open"],
       "hearts": [0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
       "hint": "tion 發 /shən/，ery 發 /ĕrē/。"
@@ -170,9 +170,9 @@
       "number": "🏪 商店",
       "word": "store",
       "ipa": "/stɔr/",
-      "graphemes": ["s", "t", "or","e"],
-      "phonemes": ["/'s", "t", "ɔr","-/"],
-      "phonics": ["/'s", "t", "or","-/"],
+      "graphemes": ["s", "t", "ore"],
+      "phonemes": ["/'s", "t", "ɔr/"],
+      "phonics": ["/'s", "t", "or/"],
       "tags": ["magic_e","rcontrolled"],
       "hearts": [0, 0, 0],
       "hint": "ore 發 /or/。"
@@ -333,4 +333,5 @@
     }
   ]
 }
+
 
