@@ -6,7 +6,7 @@
       "word": "bakery",
       "ipa": "/ˈbeɪkəri/",
       "graphemes": ["b", "a", "k", "er", "y"],
-      "phonemes": ["/'b", "eɪ", "k", "ər", "i/"],
+      "phonemes": ["/'b", "eɪ", "k", "ɚ", "i/"],
       "phonics": ["/'b", "ā", "k", "er", "ē/"],
       "tags": ["open"],
       "hearts": [0, 0, 0, 0, 0],
@@ -38,9 +38,9 @@
       "number": "📚 書店",
       "word": "bookstore",
       "ipa": "/ˈbʊkˌstɔr/",
-      "graphemes": ["b", "oo", "k", "s", "t", "or","e"],
-      "phonemes": ["/'b", "ʊ", "k", "s", "t", "ɔr","-/"],
-      "phonics": ["/'b", "oo", "k", "s", "t", "or","-/"],
+      "graphemes": ["b", "oo", "k", "s", "t", "ore"],
+      "phonemes": ["/'b", "ʊ", "k", "s", "t", "ɔr/"],
+      "phonics": ["/'b", "oo", "k", "s", "t", "or/"],
       "tags": ["vowel_team"],
       "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "oo 發書本的短音 /oo/。"
@@ -72,7 +72,7 @@
       "word": "church",
       "ipa": "/tʃɜrtʃ/",
       "graphemes": ["ch", "ur", "ch"],
-      "phonemes": ["/'tʃ", "ɜr", "tʃ/"],
+      "phonemes": ["/'tʃ", "ɝ", "tʃ/"],
       "phonics": ["/'ch", "er", "ch/"],
       "tags": ["digraph","rcontrolled"],
       "hearts": [0, 0, 0],
@@ -82,9 +82,9 @@
       "number": "🏪 便利商店",
       "word": "convenience store",
       "ipa": "/kənˈvinyəns stɔr/",
-      "graphemes": ["c", "o", "n", "v", "e", "n", "i", "e","n", "c","e", " ", "s", "t", "or","e"],
-      "phonemes": ["/k", "ə", "n", "'v", "i", "n", "j", "ə", "n", "s", "-"," ", "s", "t", "ɔr","-/"],
-      "phonics": ["/k", "ə", "n", "'v", "ē", "n", "y", "ə", "n", "s", "-", " ","s", "t", "or","-/"],
+      "graphemes": ["c", "o", "n", "v", "e", "n", "i", "e","n", "c","e", " ", "s", "t", "ore"],
+      "phonemes": ["/k", "ə", "n", "'v", "i", "n", "j", "ə", "n", "s", "-"," ", "s", "t", "ɔr/"],
+      "phonics": ["/k", "ə", "n", "'v", "ē", "n", "y", "ə", "n", "s", "-", " ","s", "t", "or/"],
       "tags": ["irregular"],
       "hearts": [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
       "hint": "ven 的 e 發長音 /ē/ (不規則)；i 發音 /y/。"
@@ -94,7 +94,7 @@
       "word": "culture center",
       "ipa": "/ˈkʌltʃər ˈsɛntər/",
       "graphemes": ["c", "u", "l", "t", "ure", " ", "c", "e", "n", "t", "er"],
-      "phonemes": ["/'k", "ʌ", "l", "tʃ", "ər", " ", "s", "ɛ", "n", "t", "ər/"],
+      "phonemes": ["/'k", "ʌ", "l", "tʃ", "ɚ", " ", "s", "ɛ", "n", "t", "ɚ/"],
       "phonics": ["/'k", "ŭ", "l", "ch", "er", " ", "s", "ĕ", "n", "t", "er/"],
       "tags": ["closed"],
       "hearts": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0],
@@ -104,9 +104,9 @@
       "number": "🏬 百貨公司",
       "word": "department store",
       "ipa": "/dɪˈpɑrtmənt stɔr/",
-      "graphemes": ["d", "e", "p", "ar", "t", "m", "e", "n", "t", " ", "s", "t", "or","e"],
-      "phonemes": ["/d", "ɪ", "'p", "ɑr", "t", "m", "ə", "n", "t", " ", "s", "t", "ɔr","-/"],
-      "phonics": ["/d", "ĭ", "'p", "ɑr", "t", "m", "ə", "n", "t", " ", "s", "t", "or","-/"],
+      "graphemes": ["d", "e", "p", "ar", "t", "m", "e", "n", "t", " ", "s", "t", "ore"],
+      "phonemes": ["/d", "ɪ", "'p", "ɑr", "t", "m", "ə", "n", "t", " ", "s", "t", "ɔr/"],
+      "phonics": ["/d", "ĭ", "'p", "ɑr", "t", "m", "ə", "n", "t", " ", "s", "t", "or/"],
       "tags": ["rcontrolled"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "ar 發 /ar/；ore 發 /or/。"
@@ -115,9 +115,9 @@
       "number": "💊 藥局",
       "word": "drugstore",
       "ipa": "/ˈdrʌɡˌstɔr/",
-      "graphemes": ["d", "r", "u", "g", "s", "t", "or","e"],
-      "phonemes": ["/'d", "r", "ʌ", "ɡ", "s", "t", "ɔr","-/"],
-      "phonics": ["/'d", "r", "ŭ", "ɡ", "s", "t", "or","-/"],
+      "graphemes": ["d", "r", "u", "g", "s", "t", "ore"],
+      "phonemes": ["/'d", "r", "ʌ", "ɡ", "s", "t", "ɔr/"],
+      "phonics": ["/'d", "r", "ŭ", "ɡ", "s", "t", "or/"],
       "tags": ["cluster", "closed"],
       "hearts": [0, 0, 0, 0, 0, 0, 0],
       "hint": "ug 發短音；ore 發 /or/。"
@@ -160,7 +160,7 @@
       "word": "flower shop",
       "ipa": "/ˈflaʊər ʃɑp/",
       "graphemes": ["f", "l", "ow", "er", " ", "sh", "o", "p"],
-      "phonemes": ["/'f", "l", "aʊ", "ər", " ", "ʃ", "ɑ", "p/"],
+      "phonemes": ["/'f", "l", "aʊ", "ɚ", " ", "ʃ", "ɑ", "p/"],
       "phonics": ["/'f", "l", "ow", "er", " ", "sh", "ŏ", "p/"],
       "tags": ["cluster", "vowel_team", "digraph"],
       "hearts": [0, 0, 1, 0, 0, 0, 0, 0],
@@ -190,5 +190,6 @@
     }
   ]
 }
+
 
 
