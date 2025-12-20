@@ -6,20 +6,20 @@
       "word": "circle",
       "ipa": "/ˈsɜrkl/",
       "graphemes": ["c", "ir", "c", "le"],
-      "phonemes": ["/'s", "ɜr", "k", "l/"],
-      "phonics": ["/'s", "er", "k", "l/"],
-      "tags": ["rcontrolled", "cle", "soft_c"],
+      "phonemes": ["/'s", "ɝ", "k", "əl/"],
+      "phonics": ["/'s", "er", "k", "əl/"],
+      "tags": ["rcontrolled", "cle"],
       "hearts": [0, 0, 0, 0],
       "hint": "c 接 i 發軟音 /s/，ir 發 /er/，le 發 /l/。"
     },
     {
-      "number": "⏺️ 點",
+      "number": "· 點",
       "word": "dot",
       "ipa": "/dɑt/",
       "graphemes": ["d", "o", "t"],
       "phonemes": ["/d", "ɑ", "t/"],
       "phonics": ["/d", "ŏ", "t/"],
-      "tags": ["closed", "cvc"],
+      "tags": [ "cvc"],
       "hearts": [0, 0, 0],
       "hint": "o 發短母音 /ŏ/。"
     },
@@ -46,12 +46,12 @@
       "hint": "oi 發 /oi/。"
     },
     {
-      "number": "🟧 長方形",
+      "number": "✉️ 長方形",
       "word": "rectangle",
       "ipa": "/ˈrɛkˌtæŋɡl/",
       "graphemes": ["r", "e", "c", "t", "a", "n", "g", "le"],
-      "phonemes": ["/'r", "ɛ", "k", "t", "æ", "ŋ", "g", "l/"],
-      "phonics": ["/'r", "ĕ", "k", "t", "ă", "ng", "g", "l/"],
+      "phonemes": ["/'r", "ɛ", "k", "t", "æ", "ŋ", "g", "əl/"],
+      "phonics": ["/'r", "ĕ", "k", "t", "ă", "ŋ", "g", "əl/"],
       "tags": ["closed", "cle"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "rec-tan-gle，n 在 g 前發鼻音 /ng/，le 字尾發 /l/。"
@@ -74,7 +74,7 @@
       "graphemes": ["sh", "a", "p", "e"],
       "phonemes": ["/ʃ", "eɪ", "p", "-/"],
       "phonics": ["/sh", "ā", "p", "-/"],
-      "tags": ["magic_e", "digraph"],
+      "tags": [ "digraph","magic_e"],
       "hearts": [0, 0, 0, 0],
       "hint": "sh 發 /sh/，a_e 發長母音 /ā/。"
     },
@@ -82,10 +82,10 @@
       "number": "⏹️ 正方形",
       "word": "square",
       "ipa": "/skwɛr/",
-      "graphemes": ["s", "qu", "are"],
-      "phonemes": ["/s", "kw", "ɛr/"],
-      "phonics": ["/s", "kw", "air/"],
-      "tags": ["rcontrolled", "cluster"],
+      "graphemes": ["s", "qu", "a","r","e"],
+      "phonemes": ["/s", "kw", "ɛ","r","-/"],
+      "phonics": ["/s", "kw", "ĕ","r","-/"],
+      "tags": ["cluster", "magic_e","rcontrolled"],
       "hearts": [0, 0, 0],
       "hint": "qu 發 /kw/，are 發 /air/ 音。"
     },
@@ -94,10 +94,10 @@
       "word": "triangle",
       "ipa": "/ˈtraɪˌæŋɡl/",
       "graphemes": ["t", "r", "i", "a", "n", "g", "le"],
-      "phonemes": ["/'t", "r", "aɪ", "æ", "ŋ", "g", "l/"],
-      "phonics": ["/'t", "r", "ī", "ă", "ng", "g", "l/"],
-      "tags": ["open", "cle"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0],
+      "phonemes": ["/'t", "r", "aɪ", "æ", "ŋ", "g", "əl/"],
+      "phonics": ["/'t", "r", "ī", "ă", "ŋ", "g", "əl/"],
+      "tags": ["cluster","open", "cle"],
+      "hearts": [0, 0, 0, 1, 0, 0, 0],
       "hint": "tri 是開音節發 /ī/，an 發 /ăng/，le 發 /l/。"
     },
     {
@@ -105,8 +105,8 @@
       "word": "angle",
       "ipa": "/ˈæŋɡl/",
       "graphemes": ["a", "n", "g", "le"],
-      "phonemes": ["/'æ", "ŋ", "g", "l/"],
-      "phonics": ["/'ă", "ng", "g", "l/"],
+      "phonemes": ["/'æ", "ŋ", "g", "əl/"],
+      "phonics": ["/'ă", "ŋ", "g", "əl/"],
       "tags": ["closed", "cle"],
       "hearts": [0, 0, 0, 0],
       "hint": "an 發鼻音 /ăng/，le 發 /l/。"
@@ -118,8 +118,8 @@
       "graphemes": ["s", "t", "r", "aigh", "t"],
       "phonemes": ["/s", "t", "r", "eɪ", "t/"],
       "phonics": ["/s", "t", "r", "ā", "t/"],
-      "tags": ["vowel_team", "cluster"],
-      "hearts": [0, 0, 0, 0, 0],
+      "tags": ["cluster", "vowel_team"],
+      "hearts": [0, 0, 0, 1, 0],
       "hint": "aigh 為四合字母，發長母音 /ā/。"
     },
     {
@@ -129,9 +129,10 @@
       "graphemes": ["r", "ou", "n", "d"],
       "phonemes": ["/r", "aʊ", "n", "d/"],
       "phonics": ["/r", "ou", "n", "d/"],
-      "tags": ["vowel_team"],
+      "tags": ["vowel_team","cluster"],
       "hearts": [0, 0, 0, 0],
       "hint": "ou 發雙母音 /ou/。"
     }
   ]
 }
+
