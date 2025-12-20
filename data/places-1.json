@@ -50,7 +50,7 @@
       "word": "backward",
       "ipa": "/ˈbækwərd/",
       "graphemes": ["b", "a", "ck", "w", "ar", "d"],
-      "phonemes": ["/'b", "æ", "k", "w", "ər", "d/"],
+      "phonemes": ["/'b", "æ", "k", "w", "ɚ", "d/"],
       "phonics": ["/'b", "ă", "k", "w", "er", "d/"],
       "tags": ["closed", "digraph"],
       "hearts": [0, 0, 0, 0, 1, 0],
@@ -72,7 +72,7 @@
       "word": "forward",
       "ipa": "/ˈfɔrwərd/",
       "graphemes": ["f", "or", "w", "ar", "d"],
-      "phonemes": ["/'f", "ɔr", "w", "ər", "d/"],
+      "phonemes": ["/'f", "ɔr", "w", "ɚ", "d/"],
       "phonics": ["/'f", "or", "w", "er", "d/"],
       "tags": ["rcontrolled"],
       "hearts": [0, 0, 0, 1, 0],
@@ -179,3 +179,4 @@
     }
   ]
 }
+
