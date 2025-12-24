@@ -127,6 +127,17 @@
         { "label": "All", "src": "data/money.json" }
       ]
     },
+     {
+      "slug": "occupations",
+      "title": "Occupations 職業",
+      "levels": [
+        { "label": "媒體藝文", "src": "data/occupations-1.json" },
+                { "label": "生活服務", "src": "data/occupations-2.json" },
+                { "label": "商務職場", "src": "data/occupations-3.json" },
+                { "label": "公務治安", "src": "data/occupations-4.json" },
+                { "label": "交通戶外", "src": "data/occupations-5.json" }
+      ]
+    },
            {
       "slug": "people",
       "title": "People 人",
@@ -232,6 +243,7 @@
 }
   ]
 }
+
 
 
 
