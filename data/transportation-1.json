@@ -4,23 +4,23 @@
       "number": "🏢 航空公司",
       "word": "airlines",
       "ipa": "/ˈɛrˌlaɪnz/",
-      "graphemes": ["air", "l", "i", "n", "e", "s"],
-      "phonemes": ["/'ɛr", "l", "aɪ", "n", "-", "z/"],
-      "phonics": ["/'air", "l", "ī", "n", "-", "z/"],
+      "graphemes": ["ai", "r", "l", "i", "n", "e", "s"],
+      "phonemes": ["/'ɛ", "r", "l", "aɪ", "n", "-", "z/"],
+      "phonics": ["/'ĕ", "r", "l", "ī", "n", "-", "z/"],
       "tags": ["rcontrolled", "magic_e", "suffix"],
-      "hearts": [0, 0, 0, 0, 0, 0],
-      "hint": "air 發 /ɛr/，i_e 發長音 /aɪ/。"
+      "hearts": [0, 0, 0, 0, 0, 0, 0],
+      "hint": "air 必拆 ai+r；ai 在此不規則對應 /ĕ/；line 為 i_e→/ī/；字尾 s 發 /z/。"
     },
     {
       "number": "🛫 機場",
       "word": "airport",
       "ipa": "/ˈɛrˌpɔrt/",
-      "graphemes": ["air", "p", "or", "t"],
-      "phonemes": ["/'ɛr", "p", "ɔr", "t/"],
-      "phonics": ["/'air", "p", "or", "t/"],
+      "graphemes": ["ai", "r", "p", "or", "t"],
+      "phonemes": ["/'ɛ", "r", "p", "ɔr", "t/"],
+      "phonics": ["/'ĕ", "r", "p", "or", "t/"],
       "tags": ["rcontrolled"],
-      "hearts": [0, 0, 0, 0],
-      "hint": "兩個 r-controlled 音節的組合。"
+      "hearts": [0, 0, 0, 0, 0],
+      "hint": "air 必拆 ai+r（ĕ+r）；or 為 r-controlled。"
     },
     {
       "number": "🚏 公車站",
@@ -61,10 +61,10 @@
       "ipa": "/brɪdʒ/",
       "graphemes": ["b", "r", "i", "dge"],
       "phonemes": ["/b", "r", "ɪ", "dʒ/"],
-      "phonics": ["/b", "r", "ĭ", "j/"],
-      "tags": ["closed", "digraph", "cluster"],
+      "phonics": ["/b", "r", "ĭ", "-j/"],
+      "tags": ["closed", "cluster"],
       "hearts": [0, 0, 0, 0],
-      "hint": "dge 發 /dʒ/ (j的音)。"
+      "hint": "dge 對應 /dʒ/，UFLI 寫 /-j/。"
     },
     {
       "number": "🛣️ 公路",
@@ -84,9 +84,9 @@
       "graphemes": ["o", "v", "er", "p", "a", "ss"],
       "phonemes": ["/'oʊ", "v", "ər", "p", "æ", "s/"],
       "phonics": ["/'ō", "v", "er", "p", "ă", "s/"],
-      "tags": ["open", "rcontrolled", "floss"],
+      "tags": ["open", "rcontrolled", "closed"],
       "hearts": [0, 0, 0, 0, 0, 0],
-      "hint": "o 發長音，ss 字尾發單音 /s/。"
+      "hint": "o 為長音；er 為 r-controlled；ss 發 /s/。"
     },
     {
       "number": "👥 乘客",
@@ -95,9 +95,9 @@
       "graphemes": ["p", "a", "ss", "e", "n", "g", "er"],
       "phonemes": ["/'p", "æ", "s", "ə", "n", "dʒ", "ər/"],
       "phonics": ["/'p", "ă", "s", "ə", "n", "j", "er/"],
-      "tags": ["closed", "soft_c", "rcontrolled"],
+      "tags": ["closed", "rcontrolled"],
       "hearts": [0, 0, 0, 1, 0, 0, 0],
-      "hint": "g 接 e 發軟音 /dʒ/，中間 e 弱化。"
+      "hint": "中間 e 弱化 /ə/；er 對應 /er/；g 在此發 /dʒ/。"
     },
     {
       "number": "🛤️ 鐵路",
@@ -119,7 +119,7 @@
       "phonics": ["/'s", "ī", "d", "-", "w", "aw", "l", "k/"],
       "tags": ["magic_e", "irregular"],
       "hearts": [0, 0, 0, 0, 0, 1, 0, 0],
-      "hint": "i_e 發長音，wa 發 /wɔ/。"
+      "hint": "i_e 發長音；wa 在此對應 /wɔ/（不規則需記）。"
     },
     {
       "number": "🚦 交通",
@@ -128,9 +128,9 @@
       "graphemes": ["t", "r", "a", "ff", "i", "c"],
       "phonemes": ["/'t", "r", "æ", "f", "ɪ", "k/"],
       "phonics": ["/'t", "r", "ă", "f", "ĭ", "k/"],
-      "tags": ["closed", "floss", "cluster"],
+      "tags": ["closed", "cluster"],
       "hearts": [0, 0, 0, 0, 0, 0],
-      "hint": "ff 發單音 /f/。"
+      "hint": "重音在 traf（閉音節）；ff 發 /f/。"
     },
     {
       "number": "🛞 輪子",
@@ -141,7 +141,7 @@
       "phonics": ["/w", "ē", "l/"],
       "tags": ["digraph", "vowel_team"],
       "hearts": [0, 0, 0],
-      "hint": "wh 發 /w/，ee 發長母音 /i/。"
+      "hint": "wh 發 /w/，ee 發長母音 /ē/。"
     },
     {
       "number": "🏁 到達",
@@ -150,9 +150,9 @@
       "graphemes": ["a", "rr", "i", "v", "e"],
       "phonemes": ["/ə", "r", "aɪ", "v", "-/"],
       "phonics": ["/ə", "r", "ī", "v", "-/"],
-      "tags": ["magic_e", "schwa"],
+      "tags": ["magic_e", "irregular"],
       "hearts": [1, 0, 0, 0, 0],
-      "hint": "開頭 a 弱化發 /ə/，i_e 發長音。"
+      "hint": "開頭 a 弱化 /ə/；i_e 發長音 /ī/。"
     },
     {
       "number": "🚗 駕駛",
@@ -163,7 +163,7 @@
       "phonics": ["/d", "r", "ī", "v", "-/"],
       "tags": ["magic_e", "cluster"],
       "hearts": [0, 0, 0, 0, 0],
-      "hint": "dr 混合音，i_e 發長音。"
+      "hint": "dr 混合音；i_e 發長音 /ī/。"
     },
     {
       "number": "✈️ 飛行",
@@ -174,7 +174,7 @@
       "phonics": ["/f", "l", "ī/"],
       "tags": ["open", "cluster"],
       "hearts": [0, 0, 0],
-      "hint": "y 在單音節字尾發 /aɪ/。"
+      "hint": "y 在單音節字尾發 /aɪ/（UFLI 寫 /ī/）。"
     },
     {
       "number": "🚴 騎乘",
@@ -185,7 +185,7 @@
       "phonics": ["/r", "ī", "d", "-/"],
       "tags": ["magic_e"],
       "hearts": [0, 0, 0, 0],
-      "hint": "i_e 發長母音 /aɪ/。"
+      "hint": "i_e 發長母音 /ī/。"
     },
     {
       "number": "⛵ 航行",
@@ -196,7 +196,7 @@
       "phonics": ["/s", "ā", "l/"],
       "tags": ["vowel_team"],
       "hearts": [0, 0, 0],
-      "hint": "ai 發長母音 /eɪ/。"
+      "hint": "ai 發長母音 /ā/。"
     },
     {
       "number": "🔄 轉彎",
@@ -207,7 +207,7 @@
       "phonics": ["/t", "er", "n/"],
       "tags": ["rcontrolled"],
       "hearts": [0, 0, 0],
-      "hint": "ur 發捲舌音 /ɜr/。"
+      "hint": "ur 為 r-controlled。"
     },
     {
       "number": "⚡ 快速的",
@@ -218,7 +218,7 @@
       "phonics": ["/f", "ă", "s", "t/"],
       "tags": ["closed", "cluster"],
       "hearts": [0, 0, 0, 0],
-      "hint": "a 發短母音 /æ/。"
+      "hint": "a 發短母音 /ă/。"
     },
     {
       "number": "🐢 慢的",
@@ -229,7 +229,7 @@
       "phonics": ["/s", "l", "ō/"],
       "tags": ["vowel_team", "cluster"],
       "hearts": [0, 0, 0],
-      "hint": "ow 字尾發長母音 /oʊ/。"
+      "hint": "ow 在此發長母音 /ō/（/oʊ/）。"
     }
   ]
 }
