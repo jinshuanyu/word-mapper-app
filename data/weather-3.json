@@ -1,0 +1,169 @@
+{
+  "items": [
+    {
+      "number": "🌿 大自然",
+      "word": "nature",
+      "ipa": "/ˈneɪtʃɚ/",
+      "graphemes": ["n", "a", "ture"],
+      "phonemes": ["/'n", "eɪ", "tʃɚ/"],
+      "phonics": ["/'n", "ā", "ture/"],
+      "tags": ["irregular", "rcontrolled"],
+      "hearts": [0, 0, 1],
+      "hint": "ture 整段對應 /tʃɚ/（需整塊記）。"
+    },
+    {
+      "number": "🍃 自然的",
+      "word": "natural",
+      "ipa": "/ˈnætʃərəl/",
+      "graphemes": ["n", "a", "tur", "al"],
+      "phonemes": ["/'n", "æ", "tʃɚ", "əl/"],
+      "phonics": ["/'n", "ă", "tur", "əl/"],
+      "tags": ["irregular", "rcontrolled"],
+      "hearts": [0, 0, 1, 0],
+      "hint": "tur 常對應 /tʃɚ/（需記）；al 弱化 /əl/。"
+    },
+    {
+      "number": "🌬 空氣",
+      "word": "air",
+      "ipa": "/ɛr/",
+      "graphemes": ["air"],
+      "phonemes": ["/ɛr/"],
+      "phonics": ["/air/"],
+      "tags": ["rcontrolled"],
+      "hearts": [0],
+      "hint": ""
+    },
+    {
+      "number": "🌍 氣候",
+      "word": "climate",
+      "ipa": "/ˈklaɪmət/",
+      "graphemes": ["c", "l", "i", "m", "a", "t", "e"],
+      "phonemes": ["/'k", "l", "aɪ", "m", "ə", "t", "-/"],
+      "phonics": ["/'k", "l", "ī", "m", "ə", "t", "-/"],
+      "tags": ["open"],
+      "hearts": [0, 0, 1, 0, 1, 0, 0],
+      "hint": "i 在開音節對應 /aɪ/（用 ī 表示）；a 弱化 /ə/；e 不發音。"
+    },
+    {
+      "number": "🌎 地球",
+      "word": "earth",
+      "ipa": "/ɝθ/",
+      "graphemes": ["ear", "th"],
+      "phonemes": ["/ɝ", "θ/"],
+      "phonics": ["/er", "th/"],
+      "tags": ["rcontrolled", "digraph"],
+      "hearts": [0, 0],
+      "hint": "ear 對應 /ɝ/；th 為清音 /θ/。"
+    },
+    {
+      "number": "🌋 地震",
+      "word": "earthquake",
+      "ipa": "/ˈɝθkweɪk/",
+      "graphemes": ["ear", "th", "qu", "a", "k", "e"],
+      "phonemes": ["/'ɝ", "θ", "kw", "eɪ", "k", "-/"],
+      "phonics": ["/'er", "th", "kw", "ā", "k", "-/"],
+      "tags": ["rcontrolled", "digraph", "magic_e"],
+      "hearts": [0, 0, 0, 0, 0, 0],
+      "hint": "qu 對應 /kw/；a_e 對應 /eɪ/（ā）；e 不發音。"
+    },
+    {
+      "number": "🌙 月亮",
+      "word": "moon",
+      "ipa": "/mun/",
+      "graphemes": ["m", "oo", "n"],
+      "phonemes": ["/m", "u", "n/"],
+      "phonics": ["/m", "oo", "n/"],
+      "tags": ["vowel_team"],
+      "hearts": [0, 0, 0],
+      "hint": "oo 發 /u/。"
+    },
+    {
+      "number": "🌌 天空",
+      "word": "sky",
+      "ipa": "/skaɪ/",
+      "graphemes": ["s", "k", "y"],
+      "phonemes": ["/s", "k", "aɪ/"],
+      "phonics": ["/s", "k", "ī/"],
+      "tags": ["cluster", "diphthong"],
+      "hearts": [0, 0, 1],
+      "hint": "y 在此對應 /aɪ/（用 ī 表示）。"
+    },
+    {
+      "number": "☀️ 太陽",
+      "word": "sun",
+      "ipa": "/sʌn/",
+      "graphemes": ["s", "u", "n"],
+      "phonemes": ["/s", "ʌ", "n/"],
+      "phonics": ["/s", "ŭ", "n/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0],
+      "hint": ""
+    },
+    {
+      "number": "⭐ 星星",
+      "word": "star",
+      "ipa": "/stɑr/",
+      "graphemes": ["s", "t", "ar"],
+      "phonemes": ["/s", "t", "ɑr/"],
+      "phonics": ["/s", "t", "ar/"],
+      "tags": ["cluster", "rcontrolled"],
+      "hearts": [0, 0, 0],
+      "hint": "ar 對應 /ɑr/。"
+    },
+    {
+      "number": "🌡 溫度",
+      "word": "temperature",
+      "ipa": "/ˈtɛmprətʃɚ/",
+      "graphemes": ["t", "e", "m", "p", "r", "a", "ture"],
+      "phonemes": ["/'t", "ɛ", "m", "p", "r", "ə", "tʃɚ/"],
+      "phonics": ["/'t", "ĕ", "m", "p", "r", "ə", "ture/"],
+      "tags": ["irregular", "rcontrolled"],
+      "hearts": [0, 0, 0, 0, 0, 1, 1],
+      "hint": "a 弱化 /ə/；ture 整段對應 /tʃɚ/（需整塊記）。"
+    },
+    {
+      "number": "🎓 度數",
+      "word": "degree",
+      "ipa": "/dɪˈɡri/",
+      "graphemes": ["d", "e", "g", "r", "ee"],
+      "phonemes": ["/d", "ɪ", "'ɡ", "r", "i/"],
+      "phonics": ["/d", "ĭ", "'ɡ", "r", "ē/"],
+      "tags": ["vowel_team"],
+      "hearts": [0, 1, 0, 0, 0],
+      "hint": "e 在此發 /ɪ/（需記）；ee 發 /i/（ē）。"
+    },
+    {
+      "number": "🥵 炎熱",
+      "word": "hot",
+      "ipa": "/hɑt/",
+      "graphemes": ["h", "o", "t"],
+      "phonemes": ["/h", "ɑ", "t/"],
+      "phonics": ["/h", "ŏ", "t/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0],
+      "hint": ""
+    },
+    {
+      "number": "🥶 寒冷",
+      "word": "cold",
+      "ipa": "/koʊld/",
+      "graphemes": ["c", "o", "l", "d"],
+      "phonemes": ["/k", "oʊ", "l", "d/"],
+      "phonics": ["/k", "ō", "l", "d/"],
+      "tags": ["open"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "o 在此對應 /oʊ/（ō）。"
+    },
+    {
+      "number": "🧣 溫暖",
+      "word": "warm",
+      "ipa": "/wɔrm/",
+      "graphemes": ["w", "ar", "m"],
+      "phonemes": ["/w", "ɔr", "m/"],
+      "phonics": ["/w", "ar", "m/"],
+      "tags": ["rcontrolled"],
+      "hearts": [0, 1, 0],
+      "hint": "ar 在 w 後常轉為 /ɔr/（需記）。"
+    }
+  ]
+}
