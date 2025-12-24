@@ -7,9 +7,9 @@
       "graphemes": ["a", "c", "t", "or"],
       "phonemes": ["/'æ", "k", "t", "ɚ/"],
       "phonics": ["/'ă", "k", "t", "er/"],
-      "tags": ["closed"],
+      "tags": ["rcontrolled"],
       "hearts": [0, 0, 0, 0],
-      "hint": "重音在 act（閉音節）；字尾 or 對應 /er/。"
+      "hint": "重音在 act；字尾 or 對應 /ɚ/。"
     },
     {
       "number": "🎭 女演員",
@@ -18,9 +18,9 @@
       "graphemes": ["a", "c", "t", "r", "e", "ss"],
       "phonemes": ["/'æ", "k", "t", "r", "ə", "s/"],
       "phonics": ["/'ă", "k", "t", "r", "ə", "s/"],
-      "tags": ["closed", "floss"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 1, 0],
-      "hint": "重音在 a；e 弱化為 /ə/；ss 為 floss。"
+      "hint": "e 弱化為 /ə/。"
     },
     {
       "number": "🎨 藝術家",
@@ -28,21 +28,21 @@
       "ipa": "/ˈɑrtɪst/",
       "graphemes": ["ar", "t", "i", "s", "t"],
       "phonemes": ["/'ɑr", "t", "ɪ", "s", "t/"],
-      "phonics": ["/'ɑr", "t", "ĭ", "s", "t/"],
+      "phonics": ["/'ar", "t", "ĭ", "s", "t/"],
       "tags": ["rcontrolled"],
       "hearts": [0, 0, 0, 0, 0],
-      "hint": "ar 在重音節必寫 /ɑr/。"
+      "hint": "ar 為 r-controlled。"
     },
     {
       "number": "🧵 設計師",
       "word": "designer",
       "ipa": "/dɪˈzaɪnɚ/",
       "graphemes": ["d", "e", "s", "i", "g", "n", "er"],
-      "phonemes": ["/d", "ɪ", "z", "'aɪ", "-", "n", "ɚ/"],
-      "phonics": ["/d", "ĭ", "z", "'ī", "-", "n", "er/"],
-      "tags": ["silent_consonant", "suffix", "irregular"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0],
-      "hint": "重音在 sign；g 不發音；i 對應 /ī/（/aɪ/）；字尾 er 為字尾音。"
+      "phonemes": ["/d", "ɪ", "'z", "aɪ", "-", "n", "ɚ/"],
+      "phonics": ["/d", "ĭ", "'z", "ī", "-", "n", "er/"],
+      "tags": ["silent_consonant", "rcontrolled"],
+      "hearts": [0, 0, 0, 0, 1, 0, 0],
+      "hint": "重音在 -sign；g 不發音；er 對應 /ɚ/。"
     },
     {
       "number": "👗 模特兒",
@@ -53,18 +53,18 @@
       "phonics": ["/'m", "ŏ", "d", "əl/"],
       "tags": ["closed"],
       "hearts": [0, 0, 0, 0],
-      "hint": "重音在 mod（閉音節）；el 弱化為 /əl/。"
+      "hint": "el 弱化為 /əl/。"
     },
     {
       "number": "🎵 音樂家",
       "word": "musician",
       "ipa": "/mjuˈzɪʃən/",
-      "graphemes": ["m", "u", "s", "i", "c", "ia", "n"],
-      "phonemes": ["/m", "ju", "z", "'ɪ", "ʃ", "ə", "n/"],
-      "phonics": ["/m", "yū", "z", "'ĭ", "sh", "ə", "n/"],
-      "tags": ["closed", "irregular"],
-      "hearts": [0, 0, 0, 0, 1, 1, 0],
-      "hint": "u 對應 /yū/；重音在 i（閉音節）；c 在此對應 /sh/（不規則）；ia 弱化為 /ə/。"
+      "graphemes": ["m", "u", "s", "i", "ci", "an"],
+      "phonemes": ["/m", "ju", "'z", "ɪ", "ʃ", "ən/"],
+      "phonics": ["/m", "yū", "'z", "ĭ", "sh", "ən/"],
+      "tags": ["suffix", "irregular"],
+      "hearts": [0, 0, 0, 0, 1, 0],
+      "hint": "重音在 zi；ci 對應 /ʃ/（需記）。"
     },
     {
       "number": "🎤 歌手",
@@ -72,10 +72,10 @@
       "ipa": "/ˈsɪŋɚ/",
       "graphemes": ["s", "i", "ng", "er"],
       "phonemes": ["/'s", "ɪ", "ŋ", "ɚ/"],
-      "phonics": ["/'s", "ĭ", "ŋ", "er/"],
-      "tags": ["digraph", "closed"],
+      "phonics": ["/'s", "ĭ", "ng", "er/"],
+      "tags": ["digraph", "rcontrolled"],
       "hearts": [0, 0, 0, 0],
-      "hint": "ng 對應 /ŋ/；er 對應 /er/。"
+      "hint": "ng 對應 /ŋ/；er 對應 /ɚ/。"
     },
     {
       "number": "🌟 流行歌星",
@@ -83,32 +83,32 @@
       "ipa": "/ˈpɑp stɑr/",
       "graphemes": ["p", "o", "p", " ", "s", "t", "ar"],
       "phonemes": ["/'p", "ɑ", "p", " ", "s", "t", "ɑr/"],
-      "phonics": ["/'p", "ŏ", "p", " ", "s", "t", "ɑr/"],
-      "tags": ["closed"],
+      "phonics": ["/'p", "ŏ", "p", " ", "s", "t", "ar/"],
+      "tags": ["closed", "rcontrolled"],
       "hearts": [0, 0, 0, 0, 0, 0, 0],
-      "hint": "pop 為重音閉音節；ar 對應 /ɑr/。"
+      "hint": "ar 對應 /ɑr/。"
     },
     {
       "number": "🎩 魔術師",
       "word": "magician",
       "ipa": "/məˈdʒɪʃən/",
-      "graphemes": ["m", "a", "g", "i", "c", "ia", "n"],
-      "phonemes": ["/m", "ə", "'dʒ", "ɪ", "ʃ", "ə", "n/"],
-      "phonics": ["/m", "ə", "'-j", "ĭ", "sh", "ə", "n/"],
-      "tags": ["closed", "irregular"],
-      "hearts": [0, 1, 0, 0, 1, 1, 0],
-      "hint": "a 弱化為 /ə/；重音節 gi 的 g 為 soft g（/j/）；ia 弱化為 /ə/。"
+      "graphemes": ["m", "a", "g", "i", "ci", "an"],
+      "phonemes": ["/m", "ə", "'dʒ", "ɪ", "ʃ", "ən/"],
+      "phonics": ["/m", "ə", "'j", "ĭ", "sh", "ən/"],
+      "tags": ["suffix", "irregular"],
+      "hearts": [0, 1, 1, 0, 1, 0],
+      "hint": "a 弱化 /ə/；g 在 i 前發 /dʒ/（需記）；ci 對應 /ʃ/。"
     },
     {
       "number": "🎪 小丑",
       "word": "circus clown",
       "ipa": "/ˈsɝkəs klaʊn/",
-      "graphemes": ["c", "i", "r", "c", "u", "s", " ", "c", "l", "ow", "n"],
-      "phonemes": ["/'s", "ɝ", "k", "ə", "s", "-", " ", "k", "l", "aʊ", "n/"],
-      "phonics": ["/'s", "er", "k", "ə", "s", "-", " ", "k", "l", "ow", "n/"],
-      "tags": ["rcontrolled", "cluster"],
-      "hearts": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0],
-      "hint": "重音在 cir（r-controlled）；後面母音多弱化 /ə/；cl 為混合音；ow 對應 /ow/（/aʊ/）。"
+      "graphemes": ["c", "ir", "c", "u", "s", " ", "c", "l", "ow", "n"],
+      "phonemes": ["/'s", "ɝ", "k", "ə", "s", " ", "k", "l", "aʊ", "n/"],
+      "phonics": ["/'s", "er", "k", "ə", "s", " ", "k", "l", "ow", "n/"],
+      "tags": ["rcontrolled", "cluster", "diphthong"],
+      "hearts": [0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
+      "hint": "ir 對應 /ɝ/；ow 對應 /aʊ/。"
     },
     {
       "number": "📸 攝影師",
@@ -117,9 +117,9 @@
       "graphemes": ["ph", "o", "t", "o", "g", "r", "a", "ph", "er"],
       "phonemes": ["/f", "ə", "'t", "ɑ", "ɡ", "r", "ə", "f", "ɚ/"],
       "phonics": ["/f", "ə", "'t", "ŏ", "ɡ", "r", "ə", "f", "er/"],
-      "tags": ["digraph", "closed"],
+      "tags": ["digraph", "rcontrolled"],
       "hearts": [0, 1, 0, 0, 0, 0, 1, 0, 0],
-      "hint": "ph 為 digraph /f/；重音在 to（閉音節）；其餘母音多弱化為 /ə/；er 對應 /er/。"
+      "hint": "ph 對應 /f/；多數母音弱化 /ə/；er 對應 /ɚ/。"
     },
     {
       "number": "📰 記者",
@@ -130,18 +130,18 @@
       "phonics": ["/'j", "er", "n", "ə", "l", "ĭ", "s", "t/"],
       "tags": ["rcontrolled", "irregular"],
       "hearts": [0, 1, 0, 1, 0, 0, 0, 0],
-      "hint": "重音在 jour（r-controlled）；our 在此不規則對應 /er/；a 弱化為 /ə/。"
+      "hint": "our 在此對應 /ɝ/（需記）；a 弱化 /ə/。"
     },
     {
       "number": "✍️ 作家",
       "word": "writer",
       "ipa": "/ˈraɪtɚ/",
-      "graphemes": ["w", "r", "i", "t", "er"],
-      "phonemes": ["/-", "'r", "aɪ", "t", "ɚ/"],
-      "phonics": ["/-", "'r", "ī", "t", "er/"],
-      "tags": ["silent_consonant", "diphthong"],
-      "hearts": [0, 0, 0, 0, 0],
-      "hint": "w 不發音（wr-）；i 對應 /ī/（/aɪ/）；er 對應 /er/。"
+      "graphemes": ["wr", "i", "t", "er"],
+      "phonemes": ["/'r", "aɪ", "t", "ɚ/"],
+      "phonics": ["/'r", "ī", "t", "er/"],
+      "tags": ["silent_consonant", "rcontrolled"],
+      "hearts": [1, 0, 0, 0],
+      "hint": "wr- 的 w 不發音；er 對應 /ɚ/。"
     },
     {
       "number": "🗞 新聞",
@@ -152,29 +152,29 @@
       "phonics": ["/n", "ū", "z/"],
       "tags": ["vowel_team"],
       "hearts": [0, 1, 0],
-      "hint": "ew 在此對應 /ū/；s 發 /z/。"
+      "hint": "ew 在此對應 /u/；s 常讀 /z/。"
     },
     {
       "number": "🗞 報紙",
       "word": "newspaper",
-      "ipa": "/ˈnuzpeɪpɚ/",
+      "ipa": "/ˈnuzˌpeɪpɚ/",
       "graphemes": ["n", "ew", "s", "p", "a", "p", "er"],
       "phonemes": ["/'n", "u", "z", "p", "eɪ", "p", "ɚ/"],
       "phonics": ["/'n", "ū", "z", "p", "ā", "p", "er/"],
-      "tags": ["vowel_team"],
+      "tags": ["vowel_team", "rcontrolled"],
       "hearts": [0, 1, 0, 0, 0, 0, 0],
-      "hint": "刪除次重音；ew 對應 /ū/；a 對應 /ā/（/eɪ/）；er 對應 /er/。"
+      "hint": "a 對應 /eɪ/；er 對應 /ɚ/。"
     },
     {
-      "number": "🎬 電影",
-      "word": "movie",
-      "ipa": "/ˈmuvi/",
-      "graphemes": ["m", "o", "v", "ie"],
-      "phonemes": ["/'m", "u", "v", "i/"],
-      "phonics": ["/'m", "ū", "v", "ē/"],
-      "tags": ["open", "irregular"],
-      "hearts": [0, 1, 0, 0],
-      "hint": "o 在此不規則對應 /ū/；ie 對應字尾 /ē/。"
+      "number": "🎬 影星",
+      "word": "movie star",
+      "ipa": "/ˈmuvi stɑr/",
+      "graphemes": ["m", "o", "v", "ie", " ", "s", "t", "ar"],
+      "phonemes": ["/'m", "u", "v", "i", " ", "s", "t", "ɑr/"],
+      "phonics": ["/'m", "ū", "v", "ē", " ", "s", "t", "ar/"],
+      "tags": ["vowel_team", "rcontrolled", "irregular"],
+      "hearts": [0, 1, 0, 0, 0, 0, 0, 0],
+      "hint": "movie 的 o 對應 /u/（需記）；ar 對應 /ɑr/。"
     }
   ]
 }
