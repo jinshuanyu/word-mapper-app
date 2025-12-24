@@ -1,0 +1,169 @@
+{
+  "items": [
+    {
+      "number": "👮 警察",
+      "word": "police officer",
+      "ipa": "/pəˈlis ɔfɪsɚ/",
+      "graphemes": ["p", "o", "l", "i", "c", "e", " ", "o", "ff", "i", "c", "er"],
+      "phonemes": ["/p", "ə", "'l", "i", "s", "-", " ", "ɑ", "f", "ɪ", "s", "ɚ/"],
+      "phonics": ["/p", "ə", "'l", "ē", "s", "-", " ", "ŏ", "f", "ĭ", "s", "er/"],
+      "tags": ["closed", "rcontrolled"],
+      "hearts": [0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0],
+      "hint": "重音在 lice；o 弱化為 /ə/；c 在 e/i 前發 /s/（需記）；officer 的 er 對應 /er/。"
+    },
+    {
+      "number": "🏛 警局",
+      "word": "police station",
+      "ipa": "/pəˈlis steɪʃən/",
+      "graphemes": ["p", "o", "l", "i", "c", "e", " ", "s", "t", "a", "ti", "on"],
+      "phonemes": ["/p", "ə", "'l", "i", "s", "-", " ", "s", "t", "eɪ", "ʃ", "ən/"],
+      "phonics": ["/p", "ə", "'l", "ē", "s", "-", " ", "s", "t", "ā", "sh", "ən/"],
+      "tags": ["closed", "suffix"],
+      "hearts": [0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0],
+      "hint": "重音在 sta；ti+on 尾段對應 /shən/（需記）；o 弱化為 /ə/。"
+    },
+    {
+      "number": "🚑 救護車",
+      "word": "ambulance",
+      "ipa": "/ˈæmbjələns/",
+      "graphemes": ["a", "m", "b", "u", "l", "a", "n", "ce"],
+      "phonemes": ["/'æ", "m", "b", "j", "ə", "l", ə, "n", "s/"],
+      "phonics": ["/'ă", "m", "b", "y", "ə", "l", "ə", "n", "s/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 1, 1, 0, 1, 0, 0],
+      "hint": "重音在 am（閉音節）；u 在此發 /j/（y 音，需記）；a 弱化為 /ə/；ce 字尾發 /s/。"
+    },
+    {
+      "number": "✈️ 機場",
+      "word": "airport",
+      "ipa": "/ˈɛrpɔrt/",
+      "graphemes": ["ai", "r", "p", "or", "t"],
+      "phonemes": ["/'ɛ", "r", "p", "ɔr", "t/"],
+      "phonics": ["/'ĕ", "r", "p", "or", "t/"],
+      "tags": ["rcontrolled"],
+      "hearts": [0, 0, 0, 0, 0],
+      "hint": "air 依規則拆 ai+r（ĕ+r）；or 為 r-controlled。"
+    },
+    {
+      "number": "🚕 計程車",
+      "word": "taxi",
+      "ipa": "/ˈtæksi/",
+      "graphemes": ["t", "a", "x", "i"],
+      "phonemes": ["/'t", "æ", "ks", "i/"],
+      "phonics": ["/'t", "ă", "ks", "ē/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "重音在 tax（閉音節）；x 對應 /ks/；字尾 i 發 /ē/。"
+    },
+    {
+      "number": "🚗 司機",
+      "word": "driver",
+      "ipa": "/ˈdraɪvɚ/",
+      "graphemes": ["d", "r", "i", "v", "er"],
+      "phonemes": ["/'d", "r", "aɪ", "v", "ɚ/"],
+      "phonics": ["/'d", "r", "ī", "v", "er/"],
+      "tags": ["cluster", "rcontrolled"],
+      "hearts": [0, 0, 0, 0, 0],
+      "hint": "dr 為子音混合；i 對應 /ī/（/aɪ/）；er 對應 /er/。"
+    },
+    {
+      "number": "🛩 飛行員",
+      "word": "pilot",
+      "ipa": "/ˈpaɪlət/",
+      "graphemes": ["p", "i", "l", "o", "t"],
+      "phonemes": ["/'p", "aɪ", "l", "ə", "t/"],
+      "phonics": ["/'p", "ī", "l", "ə", "t/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 1, 0],
+      "hint": "重音在 pi；i 對應 /ī/（/aɪ/）；o 弱化為 /ə/。"
+    },
+    {
+      "number": "🧑‍✈️ 水手",
+      "word": "sailor",
+      "ipa": "/ˈseɪlɚ/",
+      "graphemes": ["s", "ai", "l", "or"],
+      "phonemes": ["/'s", "eɪ", "l", "ɚ/"],
+      "phonics": ["/'s", "ā", "l", "er/"],
+      "tags": ["vowel_team", "rcontrolled"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "ai 發 /ā/；字尾 or 對應 /er/。"
+    },
+    {
+      "number": "🏴‍☠️ 海盜",
+      "word": "pirate",
+      "ipa": "/ˈpaɪrət/",
+      "graphemes": ["p", "i", "r", "a", "t", "e"],
+      "phonemes": ["/'p", "aɪ", "r", "ə", "t", "-/"],
+      "phonics": ["/'p", "ī", "r", "ə", "t", "-/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 1, 0, 0],
+      "hint": "i 對應 /ī/（/aɪ/）；a 弱化為 /ə/；字尾 e 不發音。"
+    },
+    {
+      "number": "🚒 消防車",
+      "word": "fire engine",
+      "ipa": "/ˈfaɪr ɛndʒən/",
+      "graphemes": ["f", "i", "r", "e", " ", "e", "n", "g", "i", "n", "e"],
+      "phonemes": ["/'f", "aɪ", "r", "-", " ", "ɛ", "n", "dʒ", "ə", "n", "-/"],
+      "phonics": ["/'f", "ī", "r", "-", " ", "ĕ", "n", "j", "ə", "n", "-/"],
+      "tags": ["open", "magic_e"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0],
+      "hint": "fire 的 i_e 對應 /ī/（/aɪ/）；engine 的 g 在 i 前發 /j/（需記）；字尾 e 不發音。"
+    },
+    {
+      "number": "🧑‍🚒 消防員",
+      "word": "fire fighter",
+      "ipa": "/ˈfaɪr faɪtɚ/",
+      "graphemes": ["f", "i", "r", "e", " ", "f", "i", "gh", "t", "er"],
+      "phonemes": ["/'f", "aɪ", "r", "-", " ", "f", "aɪ", "t", "ɚ/"],
+      "phonics": ["/'f", "ī", "r", "-", " ", "f", "ī", "t", "er/"],
+      "tags": ["open", "magic_e", "suffix"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0, 1, 0, 0],
+      "hint": "fire 的 i_e 對應 /ī/；gh 不發音（需記）；-er 為字尾。"
+    },
+    {
+      "number": "🏭 工廠",
+      "word": "factory",
+      "ipa": "/ˈfæktɚi/",
+      "graphemes": ["f", "a", "c", "t", "or", "y"],
+      "phonemes": ["/'f", "æ", "k", "t", "ɚ", "i/"],
+      "phonics": ["/'f", "ă", "k", "t", "er", "ē/"],
+      "tags": ["closed", "rcontrolled"],
+      "hearts": [0, 0, 0, 0, 0, 0],
+      "hint": "重音在 fac（閉音節）；or 對應 /er/；字尾 y 發 /ē/。"
+    },
+    {
+      "number": "🚀 火箭",
+      "word": "rocket",
+      "ipa": "/ˈrɑkət/",
+      "graphemes": ["r", "o", "c", "k", "e", "t"],
+      "phonemes": ["/'r", "ɑ", "k", "-", "ə", "t/"],
+      "phonics": ["/'r", "ŏ", "k", "-", "ə", "t/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 0, 1, 0],
+      "hint": "重音在 rock（閉音節）；e 弱化為 /ə/。"
+    },
+    {
+      "number": "🛰 太空人",
+      "word": "astronaut",
+      "ipa": "/ˈæstrənɔt/",
+      "graphemes": ["a", "s", "t", "r", "o", "n", "au", "t"],
+      "phonemes": ["/'æ", "s", "t", "r", "ə", "n", "ɔ", "t/"],
+      "phonics": ["/'ă", "s", "t", "r", "ə", "n", "aw", "t/"],
+      "tags": ["closed", "cluster", "vowel_team"],
+      "hearts": [0, 0, 0, 0, 1, 0, 0, 0],
+      "hint": "重音在 as（閉音節）；o 弱化為 /ə/；au 對應 /aw/。"
+    },
+    {
+      "number": "👑 女王",
+      "word": "queen",
+      "ipa": "/kwin/",
+      "graphemes": ["qu", "ee", "n"],
+      "phonemes": ["/k", "w", "i", "n/"],
+      "phonics": ["/k", "w", "ē", "n/"],
+      "tags": ["vowel_team"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "qu 保持在一起對應 /kw/；ee 發長音 /ē/。"
+    }
+  ]
+}
