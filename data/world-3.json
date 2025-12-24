@@ -1,21 +1,191 @@
 {
   "items": [
-    { "number": "歐洲", "word": "Europe", "ipa": "/ˈjʊrəp/", "graphemes": ["Eu","r","o","p","e"], "phonemes": ["/'jʊ","r","ə","p","-/"], "phonics": ["/'yoo","r","ə","p","-/"], "tags": ["magic_e", "irregular"], "hearts": [1,0,0,0,0], "hint": "Eu 發 /jʊ/，字尾 e 不發音。" },
-    { "number": "非洲", "word": "Africa", "ipa": "/ˈæfrɪkə/", "graphemes": ["A","f","r","i","c","a"], "phonemes": ["/'æ","f","r","ɪ","k","ə/"], "phonics": ["/'ă","f","r","ĭ","k","ə/"], "tags": ["closed"], "hearts": [0,0,0,0,0,0], "hint": "A 發短母音 /æ/，字尾 a 弱化。" },
-    { "number": "英國 (縮寫)", "word": "UK", "ipa": "/ˌjuˈkeɪ/", "graphemes": ["U","K"], "phonemes": ["/ju","keɪ/"], "phonics": ["/yoo","kā/"], "tags": ["irregular"], "hearts": [1,1], "hint": "字母唸法 U-K。" },
-    { "number": "不列顛", "word": "Britain", "ipa": "/ˈbrɪtən/", "graphemes": ["B","r","i","t","ai","n"], "phonemes": ["/'b","r","ɪ","t","ə","n/"], "phonics": ["/'b","r","ĭ","t","ə","n/"], "tags": ["closed"], "hearts": [0,0,0,0,1,0], "hint": "ai 弱化發 /ə/ (不規則)。" },
-    { "number": "英國人", "word": "British", "ipa": "/ˈbrɪtɪʃ/", "graphemes": ["B","r","i","t","i","sh"], "phonemes": ["/'b","r","ɪ","t","ɪ","ʃ/"], "phonics": ["/'b","r","ĭ","t","ĭ","sh/"], "tags": ["closed", "digraph"], "hearts": [0,0,0,0,0,0], "hint": "sh 發 /ʃ/。" },
-    { "number": "英語", "word": "English", "ipa": "/ˈɪŋɡlɪʃ/", "graphemes": ["E","n","g","l","i","sh"], "phonemes": ["/'ɪ","ŋ","g","l","ɪ","ʃ/"], "phonics": ["/'ĭ","ng","g","l","ĭ","sh/"], "tags": ["closed", "digraph"], "hearts": [1,0,0,0,0,0], "hint": "E 在此發 /ɪ/。" },
-    { "number": "法國", "word": "France", "ipa": "/fræns/", "graphemes": ["F","r","a","n","ce"], "phonemes": ["/f","r","æ","n","s/"], "phonics": ["/f","r","ă","n","s/"], "tags": ["closed"], "hearts": [0,0,0,0,0], "hint": "ce 字尾發 /s/。" },
-    { "number": "德國", "word": "Germany", "ipa": "/ˈdʒɜrməni/", "graphemes": ["G","er","m","a","n","y"], "phonemes": ["/'dʒ","ɜr","m","ə","n","i/"], "phonics": ["/'j","er","m","ə","n","ē/"], "tags": ["rcontrolled"], "hearts": [0,0,0,0,0,0], "hint": "G 發軟音 /dʒ/，y 字尾發 /i/。" },
-    { "number": "義大利", "word": "Italy", "ipa": "/ˈɪtəli/", "graphemes": ["I","t","a","l","y"], "phonemes": ["/'ɪ","t","ə","l","i/"], "phonics": ["/'ĭ","t","ə","l","ē/"], "tags": ["closed"], "hearts": [0,0,0,0,0], "hint": "y 字尾發 /i/。" },
-    { "number": "西班牙", "word": "Spain", "ipa": "/speɪn/", "graphemes": ["S","p","ai","n"], "phonemes": ["/s","p","eɪ","n/"], "phonics": ["/s","p","ā","n/"], "tags": ["vowel_team"], "hearts": [0,0,0,0], "hint": "ai 發長母音 /eɪ/。" },
-    { "number": "西班牙語", "word": "Spanish", "ipa": "/ˈspænɪʃ/", "graphemes": ["S","p","a","n","i","sh"], "phonemes": ["/'s","p","æ","n","ɪ","ʃ/"], "phonics": ["/'s","p","ă","n","ĭ","sh/"], "tags": ["closed", "digraph"], "hearts": [0,0,0,0,0,0], "hint": "a 發短母音 /æ/，sh 發 /ʃ/。" },
-    { "number": "葡萄牙", "word": "Portugal", "ipa": "/ˈpɔrtʃəɡl/", "graphemes": ["P","or","t","u","g","al"], "phonemes": ["/'p","ɔr","tʃ","ə","g","l/"], "phonics": ["/'p","or","ch","ə","g","l/"], "tags": ["rcontrolled", "irregular"], "hearts": [0,0,1,0,0,0], "hint": "t 在 u 前面發 /tʃ/，al 弱化為 /l/。" },
-    { "number": "葡語", "word": "Portuguese", "ipa": "/ˌpɔrtʃəˈɡiz/", "graphemes": ["P","or","t","u","g","u","ese"], "phonemes": ["/p","ɔr","tʃ","ə","'g","","iz/"], "phonics": ["/p","or","ch","ə","'g","-","ēz/"], "tags": ["suffix", "irregular"], "hearts": [0,0,1,0,0,1,0], "hint": "tu 發 /tʃə/，gu 的 u 不發音。" },
-    { "number": "埃及", "word": "Egypt", "ipa": "/ˈidʒɪpt/", "graphemes": ["E","g","y","p","t"], "phonemes": ["/'i","dʒ","ɪ","p","t/"], "phonics": ["/'ē","j","ĭ","p","t/"], "tags": ["open"], "hearts": [0,0,0,0,0], "hint": "E 發長母音，g 發軟音 /dʒ/。" },
-    { "number": "埃及人", "word": "Egyptian", "ipa": "/ɪˈdʒɪpʃən/", "graphemes": ["E","g","y","p","ti","an"], "phonemes": ["/ɪ","'dʒ","ɪ","p","ʃ","ən/"], "phonics": ["/ĭ","'j","ĭ","p","sh","ən/"], "tags": ["suffix", "irregular"], "hearts": [1,0,0,0,1,0], "hint": "E 發短音 /ɪ/，ti 發 /ʃ/。" },
-    { "number": "肯亞", "word": "Kenya", "ipa": "/ˈkɛnjə/", "graphemes": ["K","e","n","y","a"], "phonemes": ["/'k","ɛ","n","j","ə/"], "phonics": ["/'k","ĕ","n","y","ə/"], "tags": ["closed"], "hearts": [0,0,0,0,0], "hint": "e 發短母音 /ɛ/。" },
-    { "number": "南非", "word": "South Africa", "ipa": "/saʊθ ˈæfrɪkə/", "graphemes": ["S","ou","th"," ","A","f","r","i","c","a"], "phonemes": ["/s","aʊ","θ","-","'æ","f","r","ɪ","k","ə/"], "phonics": ["/s","ou","th","-","'ă","f","r","ĭ","k","ə/"], "tags": ["vowel_team"], "hearts": [0,0,0,0,0,0,0,0,0,0], "hint": "ou 發 /aʊ/。" }
+    {
+      "number": "歐洲",
+      "word": "Europe",
+      "ipa": "/ˈjʊrəp/",
+      "graphemes": ["Eu", "r", "o", "p", "e"],
+      "phonemes": ["/'jʊ", "r", "ə", "p", "-/"],
+      "phonics": ["/'yoo", "r", "ə", "p", "-/"],
+      "tags": ["closed"],
+      "hearts": [1, 0, 1, 0, 0],
+      "hint": "重音在 Eu；Eu 不規則對應 /jʊ/；o 弱化為 /ə/；字尾 e 不發音。"
+    },
+    {
+      "number": "非洲",
+      "word": "Africa",
+      "ipa": "/ˈæfrɪkə/",
+      "graphemes": ["A", "f", "r", "i", "c", "a"],
+      "phonemes": ["/'æ", "f", "r", "ɪ", "k", "ə/"],
+      "phonics": ["/'ă", "f", "r", "ĭ", "k", "ə/"],
+      "tags": ["cluster", "closed"],
+      "hearts": [0, 0, 0, 0, 0, 1],
+      "hint": "重音在 A（閉音節）；fr 是混合音；字尾 a 弱化為 /ə/。"
+    },
+    {
+      "number": "英國 (縮寫)",
+      "word": "UK",
+      "ipa": "/juˈkeɪ/",
+      "graphemes": ["U", "K"],
+      "phonemes": ["/ju", "'keɪ/"],
+      "phonics": ["/yū", "'kā/"],
+      "tags": [],
+      "hearts": [1, 1],
+      "hint": "刪除次重音；字母唸法 U-K。"
+    },
+    {
+      "number": "不列顛",
+      "word": "Britain",
+      "ipa": "/ˈbrɪtən/",
+      "graphemes": ["B", "r", "i", "t", "ai", "n"],
+      "phonemes": ["/'b", "r", "ɪ", "t", "ə", "n/"],
+      "phonics": ["/'b", "r", "ĭ", "t", "ə", "n/"],
+      "tags": ["cluster", "closed"],
+      "hearts": [0, 0, 0, 0, 1, 0],
+      "hint": "br 是混合音；ai 在此不規則弱化為 /ə/。"
+    },
+    {
+      "number": "英國人",
+      "word": "British",
+      "ipa": "/ˈbrɪtɪʃ/",
+      "graphemes": ["B", "r", "i", "t", "i", "sh"],
+      "phonemes": ["/'b", "r", "ɪ", "t", "ɪ", "ʃ/"],
+      "phonics": ["/'b", "r", "ĭ", "t", "ĭ", "sh/"],
+      "tags": ["cluster", "digraph", "closed"],
+      "hearts": [0, 0, 0, 0, 0, 0],
+      "hint": "br 是混合音；sh 是字母組合音 /sh/。"
+    },
+    {
+      "number": "英語",
+      "word": "English",
+      "ipa": "/ˈɪŋɡlɪʃ/",
+      "graphemes": ["E", "ng", "l", "i", "sh"],
+      "phonemes": ["/'ɪ", "ŋɡ", "l", "ɪ", "ʃ/"],
+      "phonics": ["/'ĭ", "ŋɡ", "l", "ĭ", "sh/"],
+      "tags": ["cluster", "digraph", "closed"],
+      "hearts": [1, 0, 0, 0, 0],
+      "hint": "E 在此對應 /ĭ/；ng 在此對應 /ŋɡ/；sh 為字母組合音。"
+    },
+    {
+      "number": "法國",
+      "word": "France",
+      "ipa": "/ˈfræns/",
+      "graphemes": ["F", "r", "a", "n", "ce"],
+      "phonemes": ["/'f", "r", "æ", "n", "s/"],
+      "phonics": ["/'f", "r", "ă", "n", "s/"],
+      "tags": ["cluster", "closed"],
+      "hearts": [0, 0, 0, 0, 0],
+      "hint": "fr 是混合音；ce 對應 /s/。"
+    },
+    {
+      "number": "德國",
+      "word": "Germany",
+      "ipa": "/ˈdʒɝməni/",
+      "graphemes": ["G", "er", "m", "a", "n", "y"],
+      "phonemes": ["/'dʒ", "ɝ", "m", "ə", "n", "i/"],
+      "phonics": ["/'-j", "er", "m", "ə", "n", "ē/"],
+      "tags": ["rcontrolled"],
+      "hearts": [1, 0, 0, 1, 0, 0],
+      "hint": "重音在 Ger-；g 在 e 前為軟音（對應 /-j/）；er 為捲舌音 /er/；a 弱化為 /ə/；字尾 y 發 /ē/。"
+    },
+    {
+      "number": "義大利",
+      "word": "Italy",
+      "ipa": "/ˈɪtəli/",
+      "graphemes": ["I", "t", "a", "l", "y"],
+      "phonemes": ["/'ɪ", "t", "ə", "l", "i/"],
+      "phonics": ["/'ĭ", "t", "ə", "l", "ē/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 1, 0, 0],
+      "hint": "重音在 It-（閉音節）；a 弱化為 /ə/；字尾 y 發 /ē/。"
+    },
+    {
+      "number": "西班牙",
+      "word": "Spain",
+      "ipa": "/ˈspeɪn/",
+      "graphemes": ["S", "p", "ai", "n"],
+      "phonemes": ["/'s", "p", "eɪ", "n/"],
+      "phonics": ["/'s", "p", "ā", "n/"],
+      "tags": ["cluster", "vowel_team"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "sp 是混合音；ai 對應 /ā/（/eɪ/）。"
+    },
+    {
+      "number": "西班牙語",
+      "word": "Spanish",
+      "ipa": "/ˈspænɪʃ/",
+      "graphemes": ["S", "p", "a", "n", "i", "sh"],
+      "phonemes": ["/'s", "p", "æ", "n", "ɪ", "ʃ/"],
+      "phonics": ["/'s", "p", "ă", "n", "ĭ", "sh/"],
+      "tags": ["cluster", "digraph", "closed"],
+      "hearts": [0, 0, 0, 0, 0, 0],
+      "hint": "sp 是混合音；sh 是字母組合音 /sh/。"
+    },
+    {
+      "number": "葡萄牙",
+      "word": "Portugal",
+      "ipa": "/ˈpɔrtʃəɡəl/",
+      "graphemes": ["P", "or", "tu", "gal"],
+      "phonemes": ["/'p", "ɔr", "tʃə", "ɡəl/"],
+      "phonics": ["/'p", "or", "chə", "gəl/"],
+      "tags": ["rcontrolled"],
+      "hearts": [0, 0, 1, 1],
+      "hint": "重音在 Por-；or 為捲舌 /or/；tu 在此對應 /tʃə/；gal 在此對應 /gəl/（a 弱化）。"
+    },
+    {
+      "number": "葡語",
+      "word": "Portuguese",
+      "ipa": "/pɔrtʃəˈɡiz/",
+      "graphemes": ["P", "or", "tu", "g", "ese"],
+      "phonemes": ["/p", "ɔr", "tʃə", "'ɡ", "iz/"],
+      "phonics": ["/p", "or", "chə", "'g", "ēz/"],
+      "tags": ["suffix", "closed"],
+      "hearts": [0, 0, 1, 0, 1],
+      "hint": "刪除次重音；重音在 -gese（閉音節）；or 為 /or/；tu 對應 /tʃə/；ese 對應 /ēz/。"
+    },
+    {
+      "number": "埃及",
+      "word": "Egypt",
+      "ipa": "/ˈidʒɪpt/",
+      "graphemes": ["E", "g", "y", "p", "t"],
+      "phonemes": ["/'i", "dʒ", "ɪ", "p", "t/"],
+      "phonics": ["/'ē", "j", "ĭ", "p", "t/"],
+      "tags": ["open"],
+      "hearts": [1, 1, 1, 0, 0],
+      "hint": "重音在 E（開音節）；E 不規則對應 /ē/；g 在此對應 /j/；y 在此對應 /ĭ/。"
+    },
+    {
+      "number": "埃及人",
+      "word": "Egyptian",
+      "ipa": "/ɪˈdʒɪpʃən/",
+      "graphemes": ["E", "g", "y", "p", "ti", "an"],
+      "phonemes": ["/ɪ", "'dʒ", "ɪ", "p", "ʃ", "ən/"],
+      "phonics": ["/ĭ", "'j", "ĭ", "p", "sh", "ən/"],
+      "tags": ["suffix", "closed"],
+      "hearts": [1, 0, 0, 0, 1, 0],
+      "hint": "重音在 gyp-（閉音節）；E 在此對應 /ĭ/；ti 在此對應 /sh/；字尾 -an 弱化為 /ən/。"
+    },
+    {
+      "number": "肯亞",
+      "word": "Kenya",
+      "ipa": "/ˈkɛnjə/",
+      "graphemes": ["K", "e", "n", "y", "a"],
+      "phonemes": ["/'k", "ɛ", "n", "j", "ə/"],
+      "phonics": ["/'k", "ĕ", "n", "y", "ə/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 0, 1],
+      "hint": "重音在 Ken-（閉音節）；y 對應 /y/（/j/）；字尾 a 弱化為 /ə/。"
+    },
+    {
+      "number": "南非",
+      "word": "South Africa",
+      "ipa": "/saʊθ ˈæfrɪkə/",
+      "graphemes": ["S", "ou", "th", " ", "A", "f", "r", "i", "c", "a"],
+      "phonemes": ["/s", "aʊ", "θ", " ", "'æ", "f", "r", "ɪ", "k", "ə/"],
+      "phonics": ["/s", "ow", "th", " ", "'ă", "f", "r", "ĭ", "k", "ə/"],
+      "tags": ["digraph", "cluster", "closed"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+      "hint": "ou 對應 /ow/（/aʊ/）；th 為字母組合音；重音在 A（閉音節）；字尾 a 弱化為 /ə/。"
+    }
   ]
 }
