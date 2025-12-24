@@ -18,8 +18,8 @@
       "graphemes": ["O", "c", "e", "a", "n", "i", "a"],
       "phonemes": ["/oʊ", "ʃ", "i", "'æ", "n", "i", "ə/"],
       "phonics": ["/ō", "sh", "ē", "'ă", "n", "ē", "ə/"],
-      "tags": ["closed"],
-      "hearts": [0, 1, 1, 0, 0, 0, 1],
+      "tags": ["irregular"],
+      "hearts": [0, 1, 1, 0, 0, 0, 0],
       "hint": "刪除次重音；重音在 a；c 在此發 /sh/；字尾 a 弱化為 /ə/。"
     },
     {
@@ -29,7 +29,7 @@
       "graphemes": ["T", "ai", "w", "a", "n"],
       "phonemes": ["/t", "aɪ", "'w", "ɑ", "n/"],
       "phonics": ["/t", "ī", "'w", "ŏ", "n/"],
-      "tags": ["closed"],
+      "tags": ["irregular"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "重音在 -wan；ai 對應 /ī/；a 在此對應 /ŏ/（/ɑ/）。"
     },
@@ -37,10 +37,10 @@
       "number": "台灣人/台語",
       "word": "Taiwanese",
       "ipa": "/taɪwəˈniz/",
-      "graphemes": ["T", "ai", "w", "a", "n", "e", "se"],
-      "phonemes": ["/t", "aɪ", "w", "ə", "'n", "i", "z/"],
-      "phonics": ["/t", "ī", "w", "ə", "'n", "ē", "z/"],
-      "tags": ["suffix"],
+      "graphemes": ["T", "ai", "w", "a", "n", "e", "s","e"],
+      "phonemes": ["/t", "aɪ", "w", "ə", "'n", "i", "z","-/"],
+      "phonics": ["/t", "ī", "w", "ə", "'n", "ē", "z","-/"],
+      "tags": ["vowel_team", "suffix"],
       "hearts": [0, 0, 0, 1, 0, 1, 1],
       "hint": "刪除次重音；a 弱化為 /ə/；重音在 -nese；e 對應 /ē/；se 在此發 /z/。"
     },
@@ -52,7 +52,7 @@
       "phonemes": ["/'tʃ", "aɪ", "n", "ə/"],
       "phonics": ["/'ch", "ī", "n", "ə/"],
       "tags": ["digraph", "open"],
-      "hearts": [0, 1, 0, 1],
+      "hearts": [0, 1, 0, 0],
       "hint": "重音在 Chi-；Ch 為 /ch/；i 在此對應 /ī/；字尾 a 弱化為 /ə/。"
     },
     {
@@ -63,7 +63,7 @@
       "phonemes": ["/'m", "æ", "n", "d", "ə", "r", "ɪ", "n/"],
       "phonics": ["/'m", "ă", "n", "d", "ə", "r", "ĭ", "n/"],
       "tags": ["closed"],
-      "hearts": [0, 0, 0, 0, 1, 0, 0, 0],
+      "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "重音在 Man-（閉音節）；中間 a 弱化為 /ə/。"
     },
     {
@@ -72,19 +72,19 @@
       "ipa": "/dʒəˈpæn/",
       "graphemes": ["J", "a", "p", "a", "n"],
       "phonemes": ["/dʒ", "ə", "'p", "æ", "n/"],
-      "phonics": ["/j", "ə", "'p", "ă", "n/"],
+      "phonics": ["/-j", "ə", "'p", "ă", "n/"],
       "tags": ["closed"],
-      "hearts": [0, 1, 0, 0, 0],
+      "hearts": [0, 0, 0, 0, 0],
       "hint": "第一個 a 弱化為 /ə/；重音在 -pan（閉音節）。"
     },
     {
       "number": "日本人/日語",
       "word": "Japanese",
       "ipa": "/dʒæpəˈniz/",
-      "graphemes": ["J", "a", "p", "a", "n", "e", "se"],
-      "phonemes": ["/dʒ", "æ", "p", "ə", "'n", "i", "z/"],
-      "phonics": ["/j", "ă", "p", "ə", "'n", "ē", "z/"],
-      "tags": ["suffix"],
+      "graphemes": ["J", "a", "p", "a", "n", "e", "s","e"],
+      "phonemes": ["/dʒ", "æ", "p", "ə", "'n", "i", "z","-/"],
+      "phonics": ["/-j", "ă", "p", "ə", "'n", "ē", "z","-/"],
+      "tags": ["closed","suffix"],
       "hearts": [0, 0, 0, 1, 0, 1, 1],
       "hint": "刪除次重音；a 弱化為 /ə/；重音在 -nese；e 對應 /ē/；se 在此發 /z/。"
     },
@@ -95,7 +95,7 @@
       "graphemes": ["S", "ou", "th", " ", "K", "o", "r", "e", "a"],
       "phonemes": ["/s", "aʊ", "θ", " ", "k", "ə", "'r", "i", "ə/"],
       "phonics": ["/s", "ow", "th", " ", "k", "ə", "'r", "ē", "ə/"],
-      "tags": ["digraph"],
+      "tags": ["digraph", "diphthong"],
       "hearts": [0, 0, 0, 0, 0, 1, 0, 0, 0],
       "hint": "ou 對應 /ow/（/aʊ/）；th 為 /th/（清音 /θ/）；o 弱化為 /ə/；重音在 Ko-re-a 的 re-。"
     },
@@ -106,7 +106,7 @@
       "graphemes": ["N", "or", "th", " ", "K", "o", "r", "e", "a"],
       "phonemes": ["/n", "ɔr", "θ", " ", "k", "ə", "'r", "i", "ə/"],
       "phonics": ["/n", "or", "th", " ", "k", "ə", "'r", "ē", "ə/"],
-      "tags": ["digraph"],
+      "tags": ["digraph", "rcontrolled"],
       "hearts": [0, 0, 0, 0, 0, 1, 0, 0, 0],
       "hint": "or 對應 /or/（/ɔr/）；th 為 /th/（清音 /θ/）；o 弱化為 /ə/；重音在 Ko-re-a 的 re-。"
     },
@@ -117,7 +117,7 @@
       "graphemes": ["K", "o", "r", "e", "a", "n"],
       "phonemes": ["/k", "ə", "'r", "i", "ə", "n/"],
       "phonics": ["/k", "ə", "'r", "ē", "ə", "n/"],
-      "tags": [],
+      "tags": ["open", "suffix"],
       "hearts": [0, 1, 0, 0, 1, 0],
       "hint": "o 弱化為 /ə/；重音在 re-；a 弱化為 /ə/。"
     },
@@ -139,8 +139,8 @@
       "graphemes": ["Au", "s", "t", "r", "a", "l", "i", "a"],
       "phonemes": ["/ɔ", "'s", "t", "r", "eɪ", "l", "j", "ə/"],
       "phonics": ["/aw", "'s", "t", "r", "ā", "l", "y", "ə/"],
-      "tags": ["cluster", "open"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0, 1],
+      "tags": ["cluster", "diphthong"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "重音在 stra-；str 為混合音；a 在重音節對應 /ā/（/eɪ/）；字尾 a 弱化為 /ə/。"
     },
     {
@@ -151,7 +151,7 @@
       "phonemes": ["/n", "u", " ", "'z", "i", "l", "ə", "n", "d/"],
       "phonics": ["/n", "ū", " ", "'z", "ē", "l", "ə", "n", "d/"],
       "tags": ["vowel_team"],
-      "hearts": [0, 1, 0, 0, 0, 0, 1, 0, 0],
+      "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "ew 對應 /ū/（不規則）；重音在 Zea-；ea 對應 /ē/；a 弱化為 /ə/。"
     }
   ]
