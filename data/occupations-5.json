@@ -1,0 +1,169 @@
+{
+  "items": [
+    {
+      "number": "🛫 機場",
+      "word": "airport",
+      "ipa": "/ˈɛrpɔrt/",
+      "graphemes": ["ai", "r", "p", "or", "t"],
+      "phonemes": ["/'ɛ", "r", "p", "ɔr", "t/"],
+      "phonics": ["/'ĕ", "r", "p", "or", "t/"],
+      "tags": ["rcontrolled", "irregular"],
+      "hearts": [0, 1, 0, 0, 0],
+      "hint": "ai+r 常讀 /ɛr/（需記）；or 為 r-controlled。"
+    },
+    {
+      "number": "🛩 飛行員",
+      "word": "pilot",
+      "ipa": "/ˈpaɪlət/",
+      "graphemes": ["p", "i", "l", "o", "t"],
+      "phonemes": ["/'p", "aɪ", "l", "ə", "t/"],
+      "phonics": ["/'p", "ī", "l", "ə", "t/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 1, 0],
+      "hint": "o 常弱化 /ə/。"
+    },
+    {
+      "number": "🚗 司機",
+      "word": "driver",
+      "ipa": "/ˈdraɪvɚ/",
+      "graphemes": ["d", "r", "i", "v", "er"],
+      "phonemes": ["/'d", "r", "aɪ", "v", "ɚ/"],
+      "phonics": ["/'d", "r", "ī", "v", "er/"],
+      "tags": ["cluster", "rcontrolled"],
+      "hearts": [0, 0, 0, 0, 0],
+      "hint": "dr 為子音混合；er 對應 /ɚ/。"
+    },
+    {
+      "number": "🚕 計程車",
+      "word": "taxi",
+      "ipa": "/ˈtæksi/",
+      "graphemes": ["t", "a", "x", "i"],
+      "phonemes": ["/'t", "æ", "ks", "i/"],
+      "phonics": ["/'t", "ă", "ks", "ē/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "x 對應 /ks/；字尾 i 對應 /i/。"
+    },
+    {
+      "number": "🔧 修車師傅",
+      "word": "mechanic",
+      "ipa": "/məˈkænɪk/",
+      "graphemes": ["m", "e", "ch", "a", "n", "i", "c"],
+      "phonemes": ["/m", "ə", "'k", "æ", "n", "ɪ", "k/"],
+      "phonics": ["/m", "ə", "'k", "ă", "n", "ĭ", "k/"],
+      "tags": ["digraph", "irregular"],
+      "hearts": [0, 1, 1, 0, 0, 0, 0],
+      "hint": "ch 在此讀 /k/（需記）；e 弱化 /ə/。"
+    },
+    {
+      "number": "🧑‍🔧 工程師",
+      "word": "engineer",
+      "ipa": "/ˌɛnˌdʒəˈnɪr/",
+      "graphemes": ["e", "n", "g", "i", "n", "eer"],
+      "phonemes": ["/ˌɛ", "n", "dʒ", "ə", "'n", "ɪr/"],
+      "phonics": ["/ˌĕ", "n", "j", "ə", "'n", "ir/"],
+      "tags": ["rcontrolled", "irregular"],
+      "hearts": [0, 0, 1, 1, 0, 1],
+      "hint": "g 在 i 前對應 /dʒ/（需記）；eer 對應 /ɪr/。"
+    },
+    {
+      "number": "🛰 太空人",
+      "word": "astronaut",
+      "ipa": "/ˈæstrənɔt/",
+      "graphemes": ["a", "s", "t", "r", "o", "n", "au", "t"],
+      "phonemes": ["/'æ", "s", "t", "r", "ə", "n", "ɔ", "t/"],
+      "phonics": ["/'ă", "s", "t", "r", "ə", "n", "aw", "t/"],
+      "tags": ["cluster", "vowel_team", "closed"],
+      "hearts": [0, 0, 0, 0, 1, 0, 0, 0],
+      "hint": "o 弱化 /ə/；au 對應 /ɔ/。"
+    },
+    {
+      "number": "🚀 火箭",
+      "word": "rocket",
+      "ipa": "/ˈrɑkət/",
+      "graphemes": ["r", "o", "ck", "e", "t"],
+      "phonemes": ["/'r", "ɑ", "k", "ə", "t/"],
+      "phonics": ["/'r", "ŏ", "k", "ə", "t/"],
+      "tags": ["digraph", "closed"],
+      "hearts": [0, 0, 0, 1, 0],
+      "hint": "ck 對應 /k/；e 弱化 /ə/。"
+    },
+    {
+      "number": "🧑‍✈️ 水手",
+      "word": "sailor",
+      "ipa": "/ˈseɪlɚ/",
+      "graphemes": ["s", "ai", "l", "or"],
+      "phonemes": ["/'s", "eɪ", "l", "ɚ/"],
+      "phonics": ["/'s", "ā", "l", "er/"],
+      "tags": ["vowel_team", "rcontrolled"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "ai 對應 /eɪ/；or 對應 /ɚ/。"
+    },
+    {
+      "number": "🏴‍☠️ 海盜",
+      "word": "pirate",
+      "ipa": "/ˈpaɪrət/",
+      "graphemes": ["p", "i", "r", "a", "t", "e"],
+      "phonemes": ["/'p", "aɪ", "r", "ə", "t", "-/"],
+      "phonics": ["/'p", "ī", "r", "ə", "t", "-/"],
+      "tags": ["magic_e"],
+      "hearts": [0, 0, 0, 1, 0, 0],
+      "hint": "a 弱化 /ə/；字尾 e 不發音。"
+    },
+    {
+      "number": "🤠 牛仔",
+      "word": "cowboy",
+      "ipa": "/ˈkaʊbɔɪ/",
+      "graphemes": ["c", "ow", "b", "oy"],
+      "phonemes": ["/'k", "aʊ", "b", "ɔɪ/"],
+      "phonics": ["/'k", "ow", "b", "oi/"],
+      "tags": ["vowel_team", "diphthong"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "ow 對應 /aʊ/；oy 對應 /ɔɪ/。"
+    },
+    {
+      "number": "🧑‍🌾 農夫",
+      "word": "farmer",
+      "ipa": "/ˈfɑrmɚ/",
+      "graphemes": ["f", "ar", "m", "er"],
+      "phonemes": ["/'f", "ɑr", "m", "ɚ/"],
+      "phonics": ["/'f", "ar", "m", "er/"],
+      "tags": ["rcontrolled"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "ar、er 都是 r-controlled。"
+    },
+    {
+      "number": "🎣 漁夫",
+      "word": "fisherman",
+      "ipa": "/ˈfɪʃɚmən/",
+      "graphemes": ["f", "i", "sh", "er", "m", "a", "n"],
+      "phonemes": ["/'f", "ɪ", "ʃ", "ɚ", "m", "ə", "n/"],
+      "phonics": ["/'f", "ĭ", "sh", "er", "m", "ə", "n/"],
+      "tags": ["digraph", "rcontrolled"],
+      "hearts": [0, 0, 0, 0, 0, 1, 0],
+      "hint": "er 對應 /ɚ/；a 常弱化 /ə/。"
+    },
+    {
+      "number": "🏹 獵人",
+      "word": "hunter",
+      "ipa": "/ˈhʌntɚ/",
+      "graphemes": ["h", "u", "n", "t", "er"],
+      "phonemes": ["/'h", "ʌ", "n", "t", "ɚ/"],
+      "phonics": ["/'h", "ŭ", "n", "t", "er/"],
+      "tags": ["rcontrolled", "closed"],
+      "hearts": [0, 0, 0, 0, 0],
+      "hint": "字尾 er 對應 /ɚ/。"
+    },
+    {
+      "number": "🧭 導遊",
+      "word": "guide",
+      "ipa": "/ɡaɪd/",
+      "graphemes": ["g", "ui", "d", "e"],
+      "phonemes": ["/ɡ", "aɪ", "d", "-/"],
+      "phonics": ["/ɡ", "ī", "d", "-/"],
+      "tags": ["magic_e", "irregular"],
+      "hearts": [0, 1, 0, 0],
+      "hint": "ui 在此對應 /aɪ/（需記）；字尾 e 不發音。"
+    }
+  ]
+}
