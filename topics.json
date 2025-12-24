@@ -241,7 +241,7 @@
 },
          {
       "slug": "occupations",
-      "title": "Word 工作",
+      "title": "Work 工作",
       "levels": [
         { "label": "媒體藝文", "src": "data/occupations-1.json" },
                 { "label": "生活服務", "src": "data/occupations-2.json" },
@@ -262,6 +262,7 @@
 }
   ]
 }
+
 
 
 
