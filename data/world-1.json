@@ -7,8 +7,8 @@
       "graphemes": ["w", "or", "l", "d"],
       "phonemes": ["/'w", "ɝ", "l", "d/"],
       "phonics": ["/'w", "er", "l", "d/"],
-      "tags": ["rcontrolled"],
-      "hearts": [0, 0, 0, 0],
+      "tags": ["irregular"],
+      "hearts": [0, 1, 0, 0],
       "hint": "or 在 w 後面常對應捲舌音 /er/。"
     },
     {
@@ -18,7 +18,7 @@
       "graphemes": ["ear", "th"],
       "phonemes": ["/'ɝ", "θ/"],
       "phonics": ["/'er", "th/"],
-      "tags": ["rcontrolled", "digraph"],
+      "tags": ["irregular", "digraph"],
       "hearts": [0, 0],
       "hint": "ear 對應捲舌 /er/；th 發清音 /θ/。"
     },
@@ -29,7 +29,7 @@
       "graphemes": ["c", "ou", "n", "t", "r", "y"],
       "phonemes": ["/'k", "ʌ", "n", "t", "r", "i/"],
       "phonics": ["/'k", "ŭ", "n", "t", "r", "ē/"],
-      "tags": ["cluster", "closed"],
+      "tags": ["irregular","cluster"],
       "hearts": [0, 1, 0, 0, 0, 0],
       "hint": "ou 在此不規則發 /ŭ/；字尾 y 發 /ē/。"
     },
@@ -37,9 +37,9 @@
       "number": "國家/民族",
       "word": "nation",
       "ipa": "/ˈneɪʃən/",
-      "graphemes": ["n", "a", "ti", "on"],
-      "phonemes": ["/'n", "eɪ", "ʃ", "ən/"],
-      "phonics": ["/'n", "ā", "sh", "ən/"],
+      "graphemes": ["n", "a", "tion"],
+      "phonemes": ["/'n", "eɪ", "ʃən/"],
+      "phonics": ["/'n", "ā", "shən/"],
       "tags": ["open", "suffix"],
       "hearts": [0, 0, 1, 0],
       "hint": "ti 在此對應 /sh/；-tion 常讀 /shən/。"
@@ -48,11 +48,11 @@
       "number": "國籍",
       "word": "nationality",
       "ipa": "/næʃəˈnælɪti/",
-      "graphemes": ["n", "a", "ti", "o", "n", "a", "l", "i", "t", "y"],
-      "phonemes": ["/n", "æ", "ʃ", "ə", "'n", "æ", "l", "ɪ", "t", "i/"],
-      "phonics": ["/n", "ă", "sh", "ə", "'n", "ă", "l", "ĭ", "t", "ē/"],
-      "tags": ["suffix", "closed"],
-      "hearts": [0, 0, 1, 1, 0, 0, 0, 0, 0, 0],
+      "graphemes": ["n", "a", "tion", "a", "l", "i", "t", "y"],
+      "phonemes": ["/n", "æ", "ʃə'n", "æ", "l", "ɪ", "t", "i/"],
+      "phonics": ["/n", "ă", "shə'n", "ă", "l", "ĭ", "t", "ē/"],
+      "tags": ["closed"],
+      "hearts": [0, 1, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "刪除次重音；重音在 -nal（閉音節）；ti 對應 /sh/；o 弱化 /ə/；字尾 y 發 /ē/。"
     },
     {
@@ -63,7 +63,7 @@
       "phonemes": ["/'s", "ɪ", "t", "ə", "z", "ə", "n/"],
       "phonics": ["/'s", "ĭ", "t", "ə", "z", "ə", "n/"],
       "tags": ["closed"],
-      "hearts": [1, 0, 0, 1, 0, 1, 0],
+      "hearts": [0, 0, 0, 0, 0, 0, 0],
       "hint": "c 在 i 前發 /s/；後面 i、e 多弱化為 /ə/。"
     },
     {
@@ -73,7 +73,7 @@
       "graphemes": ["m", "a", "p"],
       "phonemes": ["/'m", "æ", "p/"],
       "phonics": ["/'m", "ă", "p/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [0, 0, 0],
       "hint": "a 發短母音 /ă/。"
     },
@@ -85,7 +85,7 @@
       "phonemes": ["/'k", "ɑ", "n", "t", "ə", "n", "ə", "n", "t/"],
       "phonics": ["/'k", "ŏ", "n", "t", "ə", "n", "ə", "n", "t/"],
       "tags": ["closed"],
-      "hearts": [0, 0, 0, 0, 0, 0, 1, 0, 0],
+      "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "重音在 con-；後面 e 常弱化為 /ə/。"
     },
     {
@@ -117,7 +117,7 @@
       "graphemes": ["S", "ou", "th", " ", "P", "o", "l", "e"],
       "phonemes": ["/'s", "aʊ", "θ", " ", "p", "oʊ", "l", "-/"],
       "phonics": ["/'s", "ow", "th", " ", "p", "ō", "l", "-/"],
-      "tags": ["diphthong", "digraph"],
+      "tags": ["vowel_team", "digraph"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "ou 對應雙母音 /ow/（/aʊ/）；th 發 /θ/；Pole 的 e 不發音。"
     },
@@ -128,8 +128,8 @@
       "graphemes": ["A", "n", "t", "ar", "c", "t", "i", "c", "a"],
       "phonemes": ["/æ", "n", "'t", "ɑr", "k", "t", "ɪ", "k", "ə/"],
       "phonics": ["/ă", "n", "'t", "ɑr", "k", "t", "ĭ", "k", "ə/"],
-      "tags": ["rcontrolled", "cluster"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 1],
+      "tags": ["rcontrolled"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "重音在 tar-；ar 依規則對應 /ɑr/；字尾 a 弱化 /ə/。"
     },
     {
@@ -140,7 +140,7 @@
       "phonemes": ["/p", "ə", "'s", "ɪ", "f", "ɪ", "k/"],
       "phonics": ["/p", "ə", "'s", "ĭ", "f", "ĭ", "k/"],
       "tags": ["closed"],
-      "hearts": [0, 1, 1, 0, 0, 0, 0],
+      "hearts": [0, 0, 0, 0, 0, 0, 0],
       "hint": "a 弱化 /ə/；重音在 -fic-；c 在 i 前發 /s/。"
     },
     {
@@ -172,7 +172,7 @@
       "graphemes": ["ar", "c", "t", "i", "c"],
       "phonemes": ["/'ɑr", "k", "t", "ɪ", "k/"],
       "phonics": ["/'ɑr", "k", "t", "ĭ", "k/"],
-      "tags": ["rcontrolled", "cluster"],
+      "tags": ["rcontrolled"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "ar 依規則對應 /ɑr/；c 發 /k/。"
     },
@@ -182,10 +182,11 @@
       "ipa": "/ˈsʌðɚn/",
       "graphemes": ["S", "ou", "th", "er", "n"],
       "phonemes": ["/'s", "ʌ", "ð", "ɚ", "n/"],
-      "phonics": ["/'s", "ŭ", "th", "er", "n/"],
-      "tags": ["digraph", "closed"],
-      "hearts": [0, 1, 0, 0, 0],
+      "phonics": ["/'s", "ŭ", "<u>th</u>", "er", "n/"],
+      "tags": ["irregular","digraph"],
+      "hearts": [0, 1, 1, 0, 0],
       "hint": "ou 在此不規則發 /ŭ/；th 在此發濁音 /th/（/ð/）；er 弱化為 /er/。"
     }
   ]
 }
+
