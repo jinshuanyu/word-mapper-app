@@ -127,17 +127,7 @@
         { "label": "All", "src": "data/money.json" }
       ]
     },
-     {
-      "slug": "occupations",
-      "title": "Word 工作",
-      "levels": [
-        { "label": "媒體藝文", "src": "data/occupations-1.json" },
-                { "label": "生活服務", "src": "data/occupations-2.json" },
-                { "label": "商務職場", "src": "data/occupations-3.json" },
-                { "label": "公務治安", "src": "data/occupations-4.json" },
-                { "label": "交通戶外", "src": "data/occupations-5.json" }
-      ]
-    },
+
            {
       "slug": "people",
       "title": "People 人",
@@ -232,6 +222,35 @@
   ]
 },
     {
+  "slug": "weather",
+  "title": "Weather 天氣",
+  "levels": [
+    { 
+      "label": "氣象概況", 
+      "src": "data/weather-1.json" 
+    },
+      { 
+      "label": "天氣現象", 
+      "src": "data/weather-2.json" 
+    },
+    { 
+      "label": "自然地球", 
+      "src": "data/weather-3.json" 
+    }
+  ]
+},
+         {
+      "slug": "occupations",
+      "title": "Word 工作",
+      "levels": [
+        { "label": "媒體藝文", "src": "data/occupations-1.json" },
+                { "label": "生活服務", "src": "data/occupations-2.json" },
+                { "label": "商務職場", "src": "data/occupations-3.json" },
+                { "label": "公務治安", "src": "data/occupations-4.json" },
+                { "label": "交通戶外", "src": "data/occupations-5.json" }
+      ]
+    },
+    {
   "slug": "world",
   "title": "World 世界",
   "levels": [
@@ -243,6 +262,7 @@
 }
   ]
 }
+
 
 
 
