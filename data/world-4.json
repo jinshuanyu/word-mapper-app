@@ -93,7 +93,7 @@
       "word": "Mexican",
       "ipa": "/ˈmɛksɪkən/",
       "graphemes": ["M", "e", "x", "i", "c", "a", "n"],
-      "phonemes": ["/'m", "ɛ", "ks", "ɪ", "k", ə, "n/"],
+      "phonemes": ["/'m", "ɛ", "ks", "ɪ", "k", "ə", "n/"],
       "phonics": ["/'m", "ĕ", "ks", "ĭ", "k", "ə", "n/"],
       "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0, 1, 0],
@@ -123,3 +123,4 @@
     }
   ]
 }
+
