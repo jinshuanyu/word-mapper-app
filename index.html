@@ -1196,9 +1196,9 @@
     if (!title.trim()) title = "我的自選字表";
 
     let listToShare = MY_LIST;
-    if (MY_LIST.length > 30) {
-        alert(`注意：分享連結最多只能包含前 30 個字，系統將自動截取。`);
-        listToShare = MY_LIST.slice(0, 30);
+    if (MY_LIST.length > 40) {
+        alert(`注意：分享連結最多只能包含前 40 個字，系統將自動截取。`);
+        listToShare = MY_LIST.slice(0, 40);
     }
 
     const dataObj = { title: title.trim(), list: listToShare };
@@ -1223,8 +1223,8 @@
     if (title.includes("Word Mapper")) title = "單字練習";
 
     let listToShare = currentTopicData;
-    if (listToShare.length > 30) {
-        listToShare = listToShare.slice(0, 30);
+    if (listToShare.length > 40) {
+        listToShare = listToShare.slice(0, 40);
     }
 
     const dataObj = { title: title, list: listToShare };
