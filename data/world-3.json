@@ -11,17 +11,7 @@
       "hearts": [1, 0, 1, 0, 0],
       "hint": "重音在 Eu；Eu 不規則對應 /jʊ/；o 弱化為 /ə/；字尾 e 不發音。"
     },
-    {
-      "number": "非洲",
-      "word": "Africa",
-      "ipa": "/ˈæfrɪkə/",
-      "graphemes": ["A", "f", "r", "i", "c", "a"],
-      "phonemes": ["/'æ", "f", "r", "ɪ", "k", "ə/"],
-      "phonics": ["/'ă", "f", "r", "ĭ", "k", "ə/"],
-      "tags": ["cluster", "closed"],
-      "hearts": [0, 0, 0, 0, 0, 1],
-      "hint": "重音在 A（閉音節）；fr 是混合音；字尾 a 弱化為 /ə/。"
-    },
+ 
     {
       "number": "英國 (縮寫)",
       "word": "UK",
@@ -59,9 +49,9 @@
       "number": "英語",
       "word": "English",
       "ipa": "/ˈɪŋɡlɪʃ/",
-      "graphemes": ["E", "ng", "l", "i", "sh"],
-      "phonemes": ["/'ɪ", "ŋɡ", "l", "ɪ", "ʃ/"],
-      "phonics": ["/'ĭ", "ŋɡ", "l", "ĭ", "sh/"],
+      "graphemes": ["E", "n","g", "l", "i", "sh"],
+      "phonemes": ["/'ɪ", "ŋ","ɡ", "l", "ɪ", "ʃ/"],
+      "phonics": ["/'ĭ", "ŋ","ɡ", "l", "ĭ", "sh/"],
       "tags": ["cluster", "digraph", "closed"],
       "hearts": [1, 0, 0, 0, 0],
       "hint": "E 在此對應 /ĭ/；ng 在此對應 /ŋɡ/；sh 為字母組合音。"
@@ -85,7 +75,7 @@
       "phonemes": ["/'dʒ", "ɝ", "m", "ə", "n", "i/"],
       "phonics": ["/'-j", "er", "m", "ə", "n", "ē/"],
       "tags": ["rcontrolled"],
-      "hearts": [1, 0, 0, 1, 0, 0],
+      "hearts": [1, 0, 0, 0, 0, 0],
       "hint": "重音在 Ger-；g 在 e 前為軟音（對應 /-j/）；er 為捲舌音 /er/；a 弱化為 /ə/；字尾 y 發 /ē/。"
     },
     {
@@ -96,7 +86,7 @@
       "phonemes": ["/'ɪ", "t", "ə", "l", "i/"],
       "phonics": ["/'ĭ", "t", "ə", "l", "ē/"],
       "tags": ["closed"],
-      "hearts": [0, 0, 1, 0, 0],
+      "hearts": [0, 0, 0, 0, 0],
       "hint": "重音在 It-（閉音節）；a 弱化為 /ə/；字尾 y 發 /ē/。"
     },
     {
@@ -125,23 +115,34 @@
       "number": "葡萄牙",
       "word": "Portugal",
       "ipa": "/ˈpɔrtʃəɡəl/",
-      "graphemes": ["P", "or", "tu", "gal"],
-      "phonemes": ["/'p", "ɔr", "tʃə", "ɡəl/"],
-      "phonics": ["/'p", "or", "chə", "gəl/"],
+      "graphemes": ["P", "or", "t","u", "g","a","l"],
+      "phonemes": ["/'p", "ɔr", "tʃ","ə", "ɡ","ə","l/"],
+      "phonics": ["/'p", "or", "ch","ə", "ɡ","ə","l/"],
       "tags": ["rcontrolled"],
-      "hearts": [0, 0, 1, 1],
+      "hearts": [0, 0, 1, 0],
       "hint": "重音在 Por-；or 為捲舌 /or/；tu 在此對應 /tʃə/；gal 在此對應 /gəl/（a 弱化）。"
     },
     {
       "number": "葡語",
       "word": "Portuguese",
       "ipa": "/pɔrtʃəˈɡiz/",
-      "graphemes": ["P", "or", "tu", "g", "ese"],
-      "phonemes": ["/p", "ɔr", "tʃə", "'ɡ", "iz/"],
-      "phonics": ["/p", "or", "chə", "'g", "ēz/"],
-      "tags": ["suffix", "closed"],
+      "graphemes": ["P", "or", "t","u", "g", "e","s","e"],
+      "phonemes": ["/p", "ɔr", "tʃ","ə", "'ɡ", "i","z","-/"],
+      "phonics": ["/p", "or", "ch","ə", "'ɡ", "ē","z","-/"],
+      "tags": ["suffix"],
       "hearts": [0, 0, 1, 0, 1],
       "hint": "刪除次重音；重音在 -gese（閉音節）；or 為 /or/；tu 對應 /tʃə/；ese 對應 /ēz/。"
+    },
+       {
+      "number": "非洲",
+      "word": "Africa",
+      "ipa": "/ˈæfrɪkə/",
+      "graphemes": ["A", "f", "r", "i", "c", "a"],
+      "phonemes": ["/'æ", "f", "r", "ɪ", "k", "ə/"],
+      "phonics": ["/'ă", "f", "r", "ĭ", "k", "ə/"],
+      "tags": ["cluster", "closed"],
+      "hearts": [0, 0, 0, 0, 0, 1],
+      "hint": "重音在 A（閉音節）；fr 是混合音；字尾 a 弱化為 /ə/。"
     },
     {
       "number": "埃及",
@@ -149,8 +150,8 @@
       "ipa": "/ˈidʒɪpt/",
       "graphemes": ["E", "g", "y", "p", "t"],
       "phonemes": ["/'i", "dʒ", "ɪ", "p", "t/"],
-      "phonics": ["/'ē", "j", "ĭ", "p", "t/"],
-      "tags": ["open"],
+      "phonics": ["/'ē", "-j", "ĭ", "p", "t/"],
+      "tags": ["irregular"],
       "hearts": [1, 1, 1, 0, 0],
       "hint": "重音在 E（開音節）；E 不規則對應 /ē/；g 在此對應 /j/；y 在此對應 /ĭ/。"
     },
@@ -158,10 +159,10 @@
       "number": "埃及人",
       "word": "Egyptian",
       "ipa": "/ɪˈdʒɪpʃən/",
-      "graphemes": ["E", "g", "y", "p", "ti", "an"],
-      "phonemes": ["/ɪ", "'dʒ", "ɪ", "p", "ʃ", "ən/"],
-      "phonics": ["/ĭ", "'j", "ĭ", "p", "sh", "ən/"],
-      "tags": ["suffix", "closed"],
+      "graphemes": ["E", "g", "y", "p", "ti", "a","n"],
+      "phonemes": ["/ɪ", "'dʒ", "ɪ", "p", "ʃ", "ə","n/"],
+      "phonics": ["/ĭ", "'-j", "ĭ", "p", "sh", "ə","n/"],
+      "tags": ["suffix"],
       "hearts": [1, 0, 0, 0, 1, 0],
       "hint": "重音在 gyp-（閉音節）；E 在此對應 /ĭ/；ti 在此對應 /sh/；字尾 -an 弱化為 /ən/。"
     },
@@ -189,3 +190,4 @@
     }
   ]
 }
+
