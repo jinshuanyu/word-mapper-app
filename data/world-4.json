@@ -49,8 +49,8 @@
       "word": "USA",
       "ipa": "/juɛsˈeɪ/",
       "graphemes": ["U", "S", "A"],
-      "phonemes": ["/ju", "ɛ", "'eɪ/"],
-      "phonics": ["/yū", "ĕ", "'ā/"],
+      "phonemes": ["/ju", "ɛs", "'eɪ/"],
+      "phonics": ["/yū", "ĕs", "'ā/"],
       "tags": [],
       "hearts": [1, 1, 1],
       "hint": "刪除次重音；字母唸法 U-S-A。"
@@ -123,4 +123,5 @@
     }
   ]
 }
+
 
