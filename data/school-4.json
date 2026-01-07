@@ -199,6 +199,18 @@
       "hint": ""
     },
     {
+      "number": "❓ 測驗",
+      "word": "quiz",
+      "ipa": "/kwɪz/",
+      "graphemes": ["qu", "i", "z"],
+      "phonemes": ["/k", "w", "ɪ", "z/"],
+      "phonics": ["/k", "w", "ĭ", "z/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0],
+      "hint": "qu 視為 /kw/；i 為短母音 /ĭ/。"
+    },
+
+    {
       "number": "📖 閱讀",
       "word": "read",
       "ipa": "/rid/",
