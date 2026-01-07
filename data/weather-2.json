@@ -7,7 +7,7 @@
       "graphemes": ["f", "o", "g"],
       "phonemes": ["/f", "ɑ", "ɡ/"],
       "phonics": ["/f", "ŏ", "ɡ/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [0, 0, 0],
       "hint": ""
     },
@@ -28,8 +28,8 @@
       "ipa": "/klaʊd/",
       "graphemes": ["c", "l", "ou", "d"],
       "phonemes": ["/k", "l", "aʊ", "d/"],
-      "phonics": ["/k", "l", "ou", "d/"],
-      "tags": [],
+      "phonics": ["/k", "l", "ow", "d/"],
+      "tags": ["cluster","vowel_team"],
       "hearts": [0, 0, 0, 0],
       "hint": "ou 對應 /aʊ/。"
     },
@@ -40,7 +40,7 @@
       "graphemes": ["w", "i", "n", "d"],
       "phonemes": ["/w", "ɪ", "n", "d/"],
       "phonics": ["/w", "ĭ", "n", "d/"],
-      "tags": ["closed"],
+      "tags": ["cvc","cluster"],
       "hearts": [0, 0, 0, 0],
       "hint": ""
     },
@@ -62,7 +62,7 @@
       "graphemes": ["th", "u", "n", "d", "er"],
       "phonemes": ["/'θ", "ʌ", "n", "d", "ɚ/"],
       "phonics": ["/'th", "ŭ", "n", "d", "er/"],
-      "tags": ["digraph", "rcontrolled"],
+      "tags": ["digraph", "closed"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "th 為清音 /θ/；er 對應 /er/。"
     },
@@ -95,7 +95,7 @@
       "graphemes": ["sh", "ow", "er"],
       "phonemes": ["/'ʃ", "aʊ", "ɚ/"],
       "phonics": ["/'sh", "ow", "er/"],
-      "tags": ["digraph", "rcontrolled"],
+      "tags": ["digraph", "vowel_team"],
       "hearts": [0, 0, 0],
       "hint": "sh 發 /ʃ/；ow 對應 /aʊ/；er 對應 /er/。"
     },
@@ -106,7 +106,7 @@
       "graphemes": ["s", "n", "ow"],
       "phonemes": ["/s", "n", "oʊ/"],
       "phonics": ["/s", "n", "ō/"],
-      "tags": ["vowel_team"],
+      "tags": ["cluster","vowel_team"],
       "hearts": [0, 0, 0],
       "hint": "ow 在此發 /oʊ/（ō）。"
     },
@@ -117,7 +117,7 @@
       "graphemes": ["s", "n", "ow", "m", "a", "n"],
       "phonemes": ["/'s", "n", "oʊ", "m", "æ", "n/"],
       "phonics": ["/'s", "n", "ō", "m", "ă", "n/"],
-      "tags": ["vowel_team", "closed"],
+      "tags": ["cluster","vowel_team"],
       "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "snow 的 ow 發 /oʊ/；man 的 a 發 /æ/。"
     },
