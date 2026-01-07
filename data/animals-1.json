@@ -265,6 +265,18 @@
       "hint": "e 發短母音 e /ɛ/。"
     },
     {
+      "number": "🐷 豬",
+      "word": "pig",
+      "ipa": "/pɪɡ/",
+      "graphemes": ["p", "i", "g"],
+      "phonemes": ["/p", "ɪ", "ɡ/"],
+      "phonics": ["/p", "ĭ", "g/"],
+      "tags": ["cvc"],
+      "hearts": [0, 0, 0],
+      "hint": "CVC，i 發短母音 /ĭ/。"
+    },
+
+    {
       "number": "🐻‍❄️ 北極熊",
       "word": "polar bear",
       "ipa": "/ˈpoʊlər bɛr/",
