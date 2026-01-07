@@ -18,7 +18,7 @@
       "graphemes": ["b", "a", "ll"],
       "phonemes": ["/b", "ɔ", "l/"],
       "phonics": ["/b", "aw", "l/"],
-      "tags": ["floss"],
+      "tags": ["irregular","floss"],
       "hearts": [0, 1, 0],
       "hint": "a 在 ll 前多發 /ɔ/。"
     },
@@ -40,7 +40,7 @@
       "graphemes": ["b", "a", "s", "k", "e", "t", "b", "a", "ll"],
       "phonemes": ["/'b", "æ", "s", "k", "ɪ", "t", "b", "ɔ", "l/"],
       "phonics": ["/'b", "ă", "s", "k", "ĭ", "t", "b", "aw", "l/"],
-      "tags": ["cluster", "closed", "floss"],
+      "tags": [ "closed", "floss"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 1, 0],
       "hint": "ball 的 a 多發 /ɔ/。"
     },
@@ -51,7 +51,7 @@
       "graphemes": ["d", "o", "dge", "b", "a", "ll"],
       "phonemes": ["/'d", "ɑ", "dʒ", "b", "ɔ", "l/"],
       "phonics": ["/'d", "ŏ", "-j", "b", "aw", "l/"],
-      "tags": ["digraph", "closed", "floss"],
+      "tags": [ "closed","digraph", "floss"],
       "hearts": [0, 0, 0, 0, 1, 0],
       "hint": "dge 發 /dʒ/（UFLI 記為 -j）；ball 的 a 多發 /ɔ/。"
     },
@@ -84,7 +84,7 @@
       "graphemes": ["g", "o", "l", "f"],
       "phonemes": ["/ɡ", "ɑ", "l", "f/"],
       "phonics": ["/ɡ", "ŏ", "l", "f/"],
-      "tags": ["cluster"],
+      "tags": ["cvc","cluster"],
       "hearts": [0, 0, 0, 0],
       "hint": ""
     },
@@ -107,16 +107,16 @@
       "phonemes": ["/'s", "ɑ", "k", "ɚ/"],
       "phonics": ["/'s", "ŏ", "k", "er/"],
       "tags": ["closed"],
-      "hearts": [0, 0, 0, 0],
+      "hearts": [0, 0, 1, 0],
       "hint": "cc 發 /k/。"
     },
     {
       "number": "🏅 運動",
       "word": "sports",
       "ipa": "/ˈspɔrts/",
-      "graphemes": ["s", "p", "or", "t", "s"],
-      "phonemes": ["/'s", "p", "ɔr", "t", "s/"],
-      "phonics": ["/'s", "p", "or", "t", "s/"],
+      "graphemes": ["s", "p", "or", "ts"],
+      "phonemes": ["/'s", "p", "ɔr", "ts/"],
+      "phonics": ["/'s", "p", "or", "ts/"],
       "tags": ["cluster", "rcontrolled"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "or 發 /ɔr/。"
@@ -128,7 +128,7 @@
       "graphemes": ["t", "a", "b", "le", " ", "t", "e", "nn", "i", "s"],
       "phonemes": ["/'t", "eɪ", "b", "əl", " ", "t", "ɛ", "n", "ɪ", "s/"],
       "phonics": ["/'t", "ā", "b", "əl", " ", "t", "ĕ", "n", "ĭ", "s/"],
-      "tags": ["cle", "open"],
+      "tags": ["open","cle"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "只保留第一個重音；le 發 /əl/。"
     },
@@ -161,7 +161,7 @@
       "graphemes": ["w", "i", "nn", "er"],
       "phonemes": ["/'w", "ɪ", "n", "ɚ/"],
       "phonics": ["/'w", "ĭ", "n", "er/"],
-      "tags": ["closed"],
+      "tags": ["closed","suffix"],
       "hearts": [0, 0, 0, 0],
       "hint": ""
     },
@@ -172,7 +172,7 @@
       "graphemes": ["l", "o", "s", "er"],
       "phonemes": ["/'l", "u", "z", "ɚ/"],
       "phonics": ["/'l", "ū", "z", "er/"],
-      "tags": ["open"],
+      "tags": ["irregular","suffix"],
       "hearts": [0, 1, 0, 0],
       "hint": "o 發 /ū/；s 在此發 /z/。"
     }
