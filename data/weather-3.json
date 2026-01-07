@@ -4,11 +4,11 @@
       "number": "🌿 大自然",
       "word": "nature",
       "ipa": "/ˈneɪtʃɚ/",
-      "graphemes": ["n", "a", "t", "ur", "e"],
-      "phonemes": ["/'n", "eɪ", "tʃ", "ɚ", "-/"],
-      "phonics": ["/'n", "ā", "ch", "er", "-/"],
-      "tags": ["irregular", "rcontrolled", "magic_e"],
-      "hearts": [0, 0, 1, 1, 0],
+      "graphemes": ["n", "a", "t", "ure"],
+      "phonemes": ["/'n", "eɪ", "tʃ", "ɚ/"],
+      "phonics": ["/'n", "ā", "ch", "er/"],
+      "tags": ["open"],
+      "hearts": [0, 0, 1, 1],
       "hint": "t+ur 在此合起來對應 /tʃɚ/；最後 e 不發音。"
     },
     {
@@ -19,7 +19,7 @@
       "phonemes": ["/'n", "æ", "tʃ", "ɚ", "ə", "l/"],
       "phonics": ["/'n", "ă", "ch", "er", "ə", "l/"],
       "tags": ["irregular", "rcontrolled"],
-      "hearts": [0, 0, 1, 1, 1, 0],
+      "hearts": [0, 1, 1, 1, 0, 0],
       "hint": "t+ur 在此對應 /tʃɚ/；第二個 a 弱化為 /ə/。"
     },
     {
@@ -29,7 +29,7 @@
       "graphemes": ["ai", "r"],
       "phonemes": ["/ɛ", "r/"],
       "phonics": ["/ĕ", "r/"],
-      "tags": ["rcontrolled"],
+      "tags": ["vowel_team","rcontrolled"],
       "hearts": [0, 0],
       "hint": "air 必拆 ai+r；此處可視為 ĕ+r。"
     },
@@ -40,8 +40,8 @@
       "graphemes": ["c", "l", "i", "m", "a", "t", "e"],
       "phonemes": ["/'k", "l", "aɪ", "m", "ə", "t", "-/"],
       "phonics": ["/'k", "l", "ī", "m", "ə", "t", "-/"],
-      "tags": ["open"],
-      "hearts": [0, 0, 1, 0, 1, 0, 0],
+      "tags": ["cluster","open"],
+      "hearts": [0, 0, 1, 0, 0, 0, 0],
       "hint": "i 在開音節對應 /aɪ/（用 ī 表示）；a 弱化 /ə/；e 不發音。"
     },
     {
@@ -51,8 +51,8 @@
       "graphemes": ["ear", "th"],
       "phonemes": ["/ɝ", "θ/"],
       "phonics": ["/er", "th/"],
-      "tags": ["rcontrolled", "digraph"],
-      "hearts": [0, 0],
+      "tags": ["irregular", "digraph"],
+      "hearts": [1, 0],
       "hint": "ear 對應 /ɝ/；th 為清音 /θ/。"
     },
     {
@@ -62,8 +62,8 @@
       "graphemes": ["ear", "th", "qu", "a", "k", "e"],
       "phonemes": ["/'ɝ", "θ", "kw", "eɪ", "k", "-/"],
       "phonics": ["/'er", "th", "kw", "ā", "k", "-/"],
-      "tags": ["rcontrolled", "digraph", "magic_e"],
-      "hearts": [0, 0, 0, 0, 0, 0],
+      "tags": ["irregular", "digraph"],
+      "hearts": [1, 0, 0, 0, 0, 0],
       "hint": "qu 對應 /kw/；a_e 對應 /eɪ/（ā）；e 不發音。"
     },
     {
@@ -72,7 +72,7 @@
       "ipa": "/mun/",
       "graphemes": ["m", "oo", "n"],
       "phonemes": ["/m", "u", "n/"],
-      "phonics": ["/m", "oo", "n/"],
+      "phonics": ["/m", "ū", "n/"],
       "tags": ["vowel_team"],
       "hearts": [0, 0, 0],
       "hint": "oo 發 /u/。"
@@ -84,8 +84,8 @@
       "graphemes": ["s", "k", "y"],
       "phonemes": ["/s", "k", "aɪ/"],
       "phonics": ["/s", "k", "ī/"],
-      "tags": ["cluster"],
-      "hearts": [0, 0, 1],
+      "tags": ["cluster","open"],
+      "hearts": [0, 0, 0],
       "hint": "y 在此對應 /aɪ/（用 ī 表示）。"
     },
     {
@@ -95,7 +95,7 @@
       "graphemes": ["s", "u", "n"],
       "phonemes": ["/s", "ʌ", "n/"],
       "phonics": ["/s", "ŭ", "n/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [0, 0, 0],
       "hint": ""
     },
@@ -105,7 +105,7 @@
       "ipa": "/stɑr/",
       "graphemes": ["s", "t", "ar"],
       "phonemes": ["/s", "t", "ɑr/"],
-      "phonics": ["/s", "t", "ar/"],
+      "phonics": ["/s", "t", "ɑr/"],
       "tags": ["cluster", "rcontrolled"],
       "hearts": [0, 0, 0],
       "hint": "ar 對應 /ɑr/。"
@@ -114,56 +114,23 @@
       "number": "🌡 溫度",
       "word": "temperature",
       "ipa": "/ˈtɛmprətʃɚ/",
-      "graphemes": ["t", "e", "m", "p", "r", "a", "t", "ur", "e"],
-      "phonemes": ["/'t", "ɛ", "m", "p", "r", "ə", "tʃ", "ɚ", "-/"],
-      "phonics": ["/'t", "ĕ", "m", "p", "r", "ə", "ch", "er", "-/"],
-      "tags": ["irregular", "rcontrolled", "magic_e"],
-      "hearts": [0, 0, 0, 0, 0, 1, 1, 1, 0],
+      "graphemes": ["t", "e", "m", "p", "er", "a", "t", "ure"],
+      "phonemes": ["/'t", "ɛ", "m", "p", "ɚ", "ə", "tʃ", "ɚ/"],
+      "phonics": ["/'t", "ĕ", "m", "p", "er", "ə", "ch", "er/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0,1, 1],
       "hint": "a 弱化 /ə/；t+ur 在此對應 /tʃɚ/；最後 e 不發音。"
     },
     {
-      "number": "🎓 度數",
+      "number": "🌡 度數",
       "word": "degree",
       "ipa": "/dɪˈɡri/",
       "graphemes": ["d", "e", "g", "r", "ee"],
       "phonemes": ["/d", "ɪ", "'ɡ", "r", "i/"],
       "phonics": ["/d", "ĭ", "'ɡ", "r", "ē/"],
-      "tags": ["vowel_team"],
+      "tags": ["cluster","vowel_team"],
       "hearts": [0, 1, 0, 0, 0],
       "hint": "e 在此發 /ɪ/（需記）；ee 發 /i/（ē）。"
-    },
-    {
-      "number": "🥵 炎熱",
-      "word": "hot",
-      "ipa": "/hɑt/",
-      "graphemes": ["h", "o", "t"],
-      "phonemes": ["/h", "ɑ", "t/"],
-      "phonics": ["/h", "ŏ", "t/"],
-      "tags": ["closed"],
-      "hearts": [0, 0, 0],
-      "hint": ""
-    },
-    {
-      "number": "🥶 寒冷",
-      "word": "cold",
-      "ipa": "/koʊld/",
-      "graphemes": ["c", "o", "l", "d"],
-      "phonemes": ["/k", "oʊ", "l", "d/"],
-      "phonics": ["/k", "ō", "l", "d/"],
-      "tags": ["open"],
-      "hearts": [0, 0, 0, 0],
-      "hint": "o 在此對應 /oʊ/（ō）。"
-    },
-    {
-      "number": "🧣 溫暖",
-      "word": "warm",
-      "ipa": "/wɔrm/",
-      "graphemes": ["w", "ar", "m"],
-      "phonemes": ["/w", "ɔr", "m/"],
-      "phonics": ["/w", "ar", "m/"],
-      "tags": ["rcontrolled"],
-      "hearts": [0, 1, 0],
-      "hint": "ar 在 w 後常轉為 /ɔr/（需記）。"
     }
   ]
 }
