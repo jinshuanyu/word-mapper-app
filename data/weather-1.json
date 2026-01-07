@@ -7,8 +7,8 @@
       "graphemes": ["w", "ea", "th", "er"],
       "phonemes": ["/'w", "ɛ", "ð", "ɚ/"],
       "phonics": ["/'w", "ĕ", "<u>th</u>", "er/"],
-      "tags": ["vowel_team", "digraph", "rcontrolled", "irregular"],
-      "hearts": [0, 1, 1, 0],
+      "tags": ["irregular", "digraph"],
+      "hearts": [0, 1, 0, 0],
       "hint": "ea 在此不規則發 /ɛ/；th 為濁音 /ð/（請用底線 th）。"
     },
  {
@@ -18,7 +18,7 @@
   "graphemes": ["c", "l", "ea", "r"],
   "phonemes": ["/k", "l", "ɪ", "r/"],
   "phonics": ["/k", "l", "ĭ", "r/"],
-  "tags": ["rcontrolled", "irregular"],
+  "tags": ["vowel_team","rcontrolled"],
   "hearts": [0, 0, 1, 0],
   "hint": "這個 /ɪr/ 要拆成 /ɪ/ + /r/；拼字也拆 ea + r（需記）。"
 },
@@ -29,7 +29,7 @@
       "graphemes": ["c", "l", "ou", "d", "y"],
       "phonemes": ["/'k", "l", "aʊ", "d", "i/"],
       "phonics": ["/'k", "l", "ou", "d", "ē/"],
-      "tags": ["diphthong", "suffix"],
+      "tags": ["cluster", "vowel_team","suffix"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "ou 對應 /aʊ/；字尾 y 發 /i/。"
     },
@@ -40,8 +40,8 @@
       "graphemes": ["d", "r", "y"],
       "phonemes": ["/d", "r", "aɪ/"],
       "phonics": ["/d", "r", "ī/"],
-      "tags": ["diphthong"],
-      "hearts": [0, 0, 1],
+      "tags": ["cluster","open"],
+      "hearts": [0, 0, 0],
       "hint": "字尾 y 在此對應 /aɪ/（用 ī 表示）。"
     },
     {
@@ -56,13 +56,13 @@
       "hint": "u 在此對應 /ju/（yū）。"
     },
     {
-      "number": "💧 潮濕",
+      "number": "💧 濕的",
       "word": "wet",
       "ipa": "/wɛt/",
       "graphemes": ["w", "e", "t"],
       "phonemes": ["/w", "ɛ", "t/"],
       "phonics": ["/w", "ĕ", "t/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [0, 0, 0],
       "hint": ""
     },
@@ -84,8 +84,8 @@
       "graphemes": ["c", "o", "l", "d"],
       "phonemes": ["/k", "oʊ", "l", "d/"],
       "phonics": ["/k", "ō", "l", "d/"],
-      "tags": ["open"],
-      "hearts": [0, 0, 0, 0],
+      "tags": ["irregular"],
+      "hearts": [0, 1, 0, 0],
       "hint": "o 在此對應長音 /oʊ/（ō）。"
     },
     {
@@ -106,7 +106,7 @@
       "graphemes": ["f", "r", "ee", "z", "i", "ng"],
       "phonemes": ["/'f", "r", "i", "z", "ɪ", "ŋ/"],
       "phonics": ["/'f", "r", "ē", "z", "ĭ", "ŋ/"],
-      "tags": ["vowel_team", "digraph", "suffix"],
+      "tags": ["cluster","vowel_team", "suffix"],
       "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "ee 發 /i/（ē）；ng 發 /ŋ/。"
     },
@@ -117,7 +117,7 @@
       "graphemes": ["w", "ar", "m"],
       "phonemes": ["/w", "ɔr", "m/"],
       "phonics": ["/w", "ɑr", "m/"],
-      "tags": ["rcontrolled", "irregular"],
+      "tags": ["irregular"],
       "hearts": [0, 1, 0],
       "hint": "規則：ar 的 UFLI phonics 固定寫 /ɑr/；但 warm 實際讀音常變成 /ɔr/（例外需記）。"
     },
@@ -128,7 +128,7 @@
       "graphemes": ["h", "o", "t"],
       "phonemes": ["/h", "ɑ", "t/"],
       "phonics": ["/h", "ŏ", "t/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [0, 0, 0],
       "hint": ""
     },
@@ -150,7 +150,7 @@
       "graphemes": ["s", "n", "ow", "y"],
       "phonemes": ["/'s", "n", "oʊ", "i/"],
       "phonics": ["/'s", "n", "ō", "ē/"],
-      "tags": ["vowel_team", "suffix"],
+      "tags": ["cluster","vowel_team", "suffix"],
       "hearts": [0, 0, 0, 0],
       "hint": "ow 在此發 /oʊ/（ō）。"
     },
