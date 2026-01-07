@@ -7,7 +7,7 @@
       "graphemes": ["b", "a", "n", "d"],
       "phonemes": ["/b", "æ", "n", "d/"],
       "phonics": ["/b", "ă", "n", "d/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [0, 0, 0, 0],
       "hint": ""
     },
@@ -62,7 +62,7 @@
       "graphemes": ["d", "o", "ll"],
       "phonemes": ["/d", "ɑ", "l/"],
       "phonics": ["/d", "ŏ", "l/"],
-      "tags": ["floss", "closed"],
+      "tags": ["cvc","floss"],
       "hearts": [0, 0, 0],
       "hint": ""
     },
@@ -73,7 +73,7 @@
       "graphemes": ["d", "r", "a", "m", "a"],
       "phonemes": ["/'d", "r", "ɑ", "m", "ə/"],
       "phonics": ["/'d", "r", "ŏ", "m", "ə/"],
-      "tags": ["cluster", "open"],
+      "tags": ["cluster", "irregular"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "重音在 dra-；a 分別發 /ɑ/ 和 /ə/。"
     },
@@ -84,7 +84,7 @@
       "graphemes": ["d", "r", "u", "m"],
       "phonemes": ["/d", "r", "ʌ", "m/"],
       "phonics": ["/d", "r", "ŭ", "m/"],
-      "tags": ["cluster", "closed"],
+      "tags": ["cluster", "cvc"],
       "hearts": [0, 0, 0, 0],
       "hint": ""
     },
@@ -95,7 +95,7 @@
       "graphemes": ["f", "i", "l", "m"],
       "phonemes": ["/f", "ɪ", "l", "m/"],
       "phonics": ["/f", "ĭ", "l", "m/"],
-      "tags": ["cluster", "closed"],
+      "tags": ["cvc","cluster"],
       "hearts": [0, 0, 0, 0],
       "hint": ""
     },
@@ -117,7 +117,7 @@
       "graphemes": ["g", "ui", "t", "ar"],
       "phonemes": ["/ɡ", "ɪ", "'t", "ɑr/"],
       "phonics": ["/ɡ", "ĭ", "'t", "ɑr/"],
-      "tags": ["rcontrolled"],
+      "tags": ["irregular"],
       "hearts": [0, 1, 0, 0],
       "hint": "重音在 -tar；ar 發 /ɑr/；ui 在此發 /ɪ/。"
     },
@@ -128,8 +128,8 @@
       "graphemes": ["i", "n", "s", "t", "r", "u", "m", "e", "n", "t"],
       "phonemes": ["/'ɪ", "n", "s", "t", "r", "ə", "m", "ə", "n", "t/"],
       "phonics": ["/'ĭ", "n", "s", "t", "r", "ə", "m", "ə", "n", "t/"],
-      "tags": ["cluster", "closed"],
-      "hearts": [0, 0, 0, 0, 0, 1, 0, 1, 0, 0],
+      "tags": [ "closed","cluster"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "str 為混合音；u、e 弱化為 /ə/。"
     },
     {
@@ -139,7 +139,7 @@
       "graphemes": ["j", "a", "zz"],
       "phonemes": ["/dʒ", "æ", "z/"],
       "phonics": ["/j", "ă", "z/"],
-      "tags": ["floss", "closed"],
+      "tags": ["cvc","floss"],
       "hearts": [0, 0, 0],
       "hint": ""
     },
@@ -161,8 +161,8 @@
       "graphemes": ["m", "o", "v", "ie"],
       "phonemes": ["/'m", "u", "v", "i/"],
       "phonics": ["/'m", "ū", "v", "ē/"],
-      "tags": ["open"],
-      "hearts": [0, 1, 0, 0],
+      "tags": ["irregular"],
+      "hearts": [0, 1, 0, 1],
       "hint": "o 在此發 /ū/；ie 發 /ē/。"
     },
     {
@@ -173,16 +173,16 @@
       "phonemes": ["/'m", "ju", "z", "ɪ", "k/"],
       "phonics": ["/'m", "yū", "z", "ĭ", "k/"],
       "tags": ["open"],
-      "hearts": [0, 0, 0, 0, 0],
+      "hearts": [0, 0, 1, 0, 0],
       "hint": "u 發 /yū/；s 在此發 /z/。"
     },
     {
       "number": "📕 小說",
       "word": "novel",
       "ipa": "/ˈnɑvəl/",
-      "graphemes": ["n", "o", "v", "el"],
-      "phonemes": ["/'n", "ɑ", "v", "əl/"],
-      "phonics": ["/'n", "ŏ", "v", "əl/"],
+      "graphemes": ["n", "o", "v", "e","l"],
+      "phonemes": ["/'n", "ɑ", "v", "ə","l/"],
+      "phonics": ["/'n", "ŏ", "v", "ə","l/"],
       "tags": ["closed"],
       "hearts": [0, 0, 0, 0],
       "hint": "o 發 /ɑ/；el 弱化為 /əl/。"
@@ -205,7 +205,7 @@
       "graphemes": ["p", "i", "a", "n", "o"],
       "phonemes": ["/p", "i", "'æ", "n", "oʊ/"],
       "phonics": ["/p", "ē", "'ă", "n", "ō/"],
-      "tags": ["closed"],
+      "tags": ["irregular"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "重音在 -a-；a 發 /ă/；o 發 /ō/（/oʊ/）。"
     },
@@ -216,7 +216,7 @@
       "graphemes": ["p", "u", "zz", "le"],
       "phonemes": ["/'p", "ʌ", "z", "əl/"],
       "phonics": ["/'p", "ŭ", "z", "əl/"],
-      "tags": ["floss", "closed"],
+      "tags": ["closed", "cle"],
       "hearts": [0, 0, 0, 0],
       "hint": "u 發 /ŭ/；le 發 /əl/。"
     },
@@ -238,7 +238,7 @@
       "graphemes": ["s", "o", "ng"],
       "phonemes": ["/s", "ɔ", "ŋ/"],
       "phonics": ["/s", "aw", "ŋ/"],
-      "tags": ["digraph", "closed"],
+      "tags": ["cvc","digraph"],
       "hearts": [0, 0, 0],
       "hint": "ng 對應 /ŋ/；o 在此對應 /aw/（/ɔ/）。"
     },
@@ -249,7 +249,7 @@
       "graphemes": ["t", "e", "n", "t"],
       "phonemes": ["/t", "ɛ", "n", "t/"],
       "phonics": ["/t", "ĕ", "n", "t/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [0, 0, 0, 0],
       "hint": ""
     },
@@ -271,8 +271,8 @@
       "graphemes": ["v", "i", "o", "l", "i", "n"],
       "phonemes": ["/v", "aɪ", "ə", "'l", "ɪ", "n/"],
       "phonics": ["/v", "ī", "ə", "'l", "ĭ", "n/"],
-      "tags": ["closed"],
-      "hearts": [0, 0, 0, 0, 0, 0],
+      "tags": ["irregular"],
+      "hearts": [0, 1, 0, 0, 0, 0],
       "hint": "刪除次重音；重音在 -lin；o 弱化為 /ə/。"
     },
         {
