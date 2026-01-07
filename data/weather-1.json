@@ -11,17 +11,17 @@
       "hearts": [0, 1, 1, 0],
       "hint": "ea 在此不規則發 /ɛ/；th 為濁音 /ð/（請用底線 th）。"
     },
-    {
-      "number": "🌤 放晴",
-      "word": "clear",
-      "ipa": "/klɪr/",
-      "graphemes": ["c", "l", "ear"],
-      "phonemes": ["/k", "l", "ɪr/"],
-      "phonics": ["/k", "l", "ear/"],
-      "tags": ["rcontrolled"],
-      "hearts": [0, 0, 1],
-      "hint": "ear 在此對應 /ɪr/（需記）。"
-    },
+ {
+  "number": "🌤 放晴",
+  "word": "clear",
+  "ipa": "/klɪr/",
+  "graphemes": ["c", "l", "ea", "r"],
+  "phonemes": ["/k", "l", "ɪ", "r/"],
+  "phonics": ["/k", "l", "ĭ", "r/"],
+  "tags": ["rcontrolled", "irregular"],
+  "hearts": [0, 0, 1, 0],
+  "hint": "這個 /ɪr/ 要拆成 /ɪ/ + /r/；拼字也拆 ea + r（需記）。"
+},
     {
       "number": "☁️ 多雲",
       "word": "cloudy",
@@ -105,7 +105,7 @@
       "ipa": "/ˈfrizɪŋ/",
       "graphemes": ["f", "r", "ee", "z", "i", "ng"],
       "phonemes": ["/'f", "r", "i", "z", "ɪ", "ŋ/"],
-      "phonics": ["/'f", "r", "ē", "z", "ĭ", "ng/"],
+      "phonics": ["/'f", "r", "ē", "z", "ĭ", "ŋ/"],
       "tags": ["vowel_team", "digraph", "suffix"],
       "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "ee 發 /i/（ē）；ng 發 /ŋ/。"
@@ -116,10 +116,10 @@
       "ipa": "/wɔrm/",
       "graphemes": ["w", "ar", "m"],
       "phonemes": ["/w", "ɔr", "m/"],
-      "phonics": ["/w", "ar", "m/"],
-      "tags": ["rcontrolled"],
+      "phonics": ["/w", "ɑr", "m/"],
+      "tags": ["rcontrolled", "irregular"],
       "hearts": [0, 1, 0],
-      "hint": "ar 在 w 後常轉為 /ɔr/（需記）。"
+      "hint": "規則：ar 的 UFLI phonics 固定寫 /ɑr/；但 warm 實際讀音常變成 /ɔr/（例外需記）。"
     },
     {
       "number": "🥵 炎熱",
