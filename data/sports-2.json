@@ -29,7 +29,7 @@
       "graphemes": ["c", "a", "m", "p"],
       "phonemes": ["/k", "æ", "m", "p/"],
       "phonics": ["/k", "ă", "m", "p/"],
-      "tags": ["closed", "cluster"],
+      "tags": ["cvc", "cluster"],
       "hearts": [0, 0, 0, 0],
       "hint": "a 為短母音 /ă/；mp 為尾音混合。"
     },
@@ -40,7 +40,7 @@
       "graphemes": ["c", "l", "i", "m", "b"],
       "phonemes": ["/k", "l", "aɪ", "m", "-/"],
       "phonics": ["/k", "l", "ī", "m", "-/"],
-      "tags": ["cluster", "silent_consonant"],
+      "tags": ["cluster", "irregular", "silent_consonant"],
       "hearts": [0, 0, 1, 0, 1],
       "hint": "cl 為混合音；i 對應 /ī/；字尾 b 不發音。"
     },
@@ -84,7 +84,7 @@
       "graphemes": ["f", "i", "sh"],
       "phonemes": ["/f", "ɪ", "ʃ/"],
       "phonics": ["/f", "ĭ", "sh/"],
-      "tags": ["closed", "digraph"],
+      "tags": ["cvc", "digraph"],
       "hearts": [0, 0, 0],
       "hint": "sh 為二合字 /sh/。"
     },
@@ -105,8 +105,8 @@
       "ipa": "/dʒɑɡ/",
       "graphemes": ["j", "o", "g"],
       "phonemes": ["/dʒ", "ɑ", "ɡ/"],
-      "phonics": ["/j", "ŏ", "ɡ/"],
-      "tags": ["closed"],
+      "phonics": ["/-j", "ŏ", "ɡ/"],
+      "tags": ["cvc"],
       "hearts": [0, 0, 0],
       "hint": "j 對應 /j/；o 為短母音 /ŏ/。"
     },
@@ -139,7 +139,7 @@
       "graphemes": ["r", "u", "n"],
       "phonemes": ["/r", "ʌ", "n/"],
       "phonics": ["/r", "ŭ", "n/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [0, 0, 0],
       "hint": "u 為短母音 /ŭ/。"
     },
@@ -161,7 +161,7 @@
       "graphemes": ["s", "i", "ng"],
       "phonemes": ["/s", "ɪ", "ŋ/"],
       "phonics": ["/s", "ĭ", "ŋ/"],
-      "tags": ["closed", "digraph"],
+      "tags": ["cvc", "digraph"],
       "hearts": [0, 0, 0],
       "hint": "ng 對應 /ŋ/。"
     },
@@ -205,7 +205,7 @@
       "graphemes": ["s", "w", "i", "m"],
       "phonemes": ["/s", "w", "ɪ", "m/"],
       "phonics": ["/s", "w", "ĭ", "m/"],
-      "tags": ["cluster", "closed"],
+      "tags": ["cluster", "cvc"],
       "hearts": [0, 0, 0, 0],
       "hint": "sw 為混合音；i 為短母音 /ĭ/。"
     },
@@ -213,9 +213,9 @@
       "number": "🧳 旅行",
       "word": "travel",
       "ipa": "/ˈtrævəl/",
-      "graphemes": ["t", "r", "a", "v", "el"],
-      "phonemes": ["/'t", "r", "æ", "v", "əl/"],
-      "phonics": ["/'t", "r", "ă", "v", "əl/"],
+      "graphemes": ["t", "r", "a", "v", "e","l"],
+      "phonemes": ["/'t", "r", "æ", "v", "ə","l/"],
+      "phonics": ["/'t", "r", "ă", "v", "ə","l/"],
       "tags": ["cluster", "closed"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "tr 為混合音；el 弱化發 /əl/。"
@@ -227,7 +227,7 @@
       "graphemes": ["t", "r", "i", "p"],
       "phonemes": ["/t", "r", "ɪ", "p/"],
       "phonics": ["/t", "r", "ĭ", "p/"],
-      "tags": ["cluster", "closed"],
+      "tags": ["cluster", "cvc"],
       "hearts": [0, 0, 0, 0],
       "hint": "tr 為混合音；i 為短母音 /ĭ/。"
     }
