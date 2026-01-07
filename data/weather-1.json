@@ -116,7 +116,7 @@
       "ipa": "/wɔrm/",
       "graphemes": ["w", "ar", "m"],
       "phonemes": ["/w", "ɔr", "m/"],
-      "phonics": ["/w", "ɑr", "m/"],
+      "phonics": ["/w", "or", "m/"],
       "tags": ["irregular"],
       "hearts": [0, 1, 0],
       "hint": "規則：ar 的 UFLI phonics 固定寫 /ɑr/；但 warm 實際讀音常變成 /ɔr/（例外需記）。"
