@@ -4,34 +4,34 @@
       "number": "🌿 大自然",
       "word": "nature",
       "ipa": "/ˈneɪtʃɚ/",
-      "graphemes": ["n", "a", "ture"],
-      "phonemes": ["/'n", "eɪ", "tʃɚ/"],
-      "phonics": ["/'n", "ā", "ture/"],
-      "tags": ["irregular", "rcontrolled"],
-      "hearts": [0, 0, 1],
-      "hint": "ture 整段對應 /tʃɚ/（需整塊記）。"
+      "graphemes": ["n", "a", "t", "ur", "e"],
+      "phonemes": ["/'n", "eɪ", "tʃ", "ɚ", "-/"],
+      "phonics": ["/'n", "ā", "ch", "er", "-/"],
+      "tags": ["irregular", "rcontrolled", "magic_e"],
+      "hearts": [0, 0, 1, 1, 0],
+      "hint": "t+ur 在此合起來對應 /tʃɚ/；最後 e 不發音。"
     },
     {
       "number": "🍃 自然的",
       "word": "natural",
-      "ipa": "/ˈnætʃərəl/",
-      "graphemes": ["n", "a", "tur", "al"],
-      "phonemes": ["/'n", "æ", "tʃɚ", "əl/"],
-      "phonics": ["/'n", "ă", "tur", "əl/"],
+      "ipa": "/ˈnætʃɚəl/",
+      "graphemes": ["n", "a", "t", "ur", "a", "l"],
+      "phonemes": ["/'n", "æ", "tʃ", "ɚ", "ə", "l/"],
+      "phonics": ["/'n", "ă", "ch", "er", "ə", "l/"],
       "tags": ["irregular", "rcontrolled"],
-      "hearts": [0, 0, 1, 0],
-      "hint": "tur 常對應 /tʃɚ/（需記）；al 弱化 /əl/。"
+      "hearts": [0, 0, 1, 1, 1, 0],
+      "hint": "t+ur 在此對應 /tʃɚ/；第二個 a 弱化為 /ə/。"
     },
     {
       "number": "🌬 空氣",
       "word": "air",
       "ipa": "/ɛr/",
-      "graphemes": ["air"],
-      "phonemes": ["/ɛr/"],
-      "phonics": ["/air/"],
+      "graphemes": ["ai", "r"],
+      "phonemes": ["/ɛ", "r/"],
+      "phonics": ["/ĕ", "r/"],
       "tags": ["rcontrolled"],
-      "hearts": [0],
-      "hint": ""
+      "hearts": [0, 0],
+      "hint": "air 必拆 ai+r；此處可視為 ĕ+r。"
     },
     {
       "number": "🌍 氣候",
@@ -84,7 +84,7 @@
       "graphemes": ["s", "k", "y"],
       "phonemes": ["/s", "k", "aɪ/"],
       "phonics": ["/s", "k", "ī/"],
-      "tags": ["cluster", "diphthong"],
+      "tags": ["cluster"],
       "hearts": [0, 0, 1],
       "hint": "y 在此對應 /aɪ/（用 ī 表示）。"
     },
@@ -114,12 +114,12 @@
       "number": "🌡 溫度",
       "word": "temperature",
       "ipa": "/ˈtɛmprətʃɚ/",
-      "graphemes": ["t", "e", "m", "p", "r", "a", "ture"],
-      "phonemes": ["/'t", "ɛ", "m", "p", "r", "ə", "tʃɚ/"],
-      "phonics": ["/'t", "ĕ", "m", "p", "r", "ə", "ture/"],
-      "tags": ["irregular", "rcontrolled"],
-      "hearts": [0, 0, 0, 0, 0, 1, 1],
-      "hint": "a 弱化 /ə/；ture 整段對應 /tʃɚ/（需整塊記）。"
+      "graphemes": ["t", "e", "m", "p", "r", "a", "t", "ur", "e"],
+      "phonemes": ["/'t", "ɛ", "m", "p", "r", "ə", "tʃ", "ɚ", "-/"],
+      "phonics": ["/'t", "ĕ", "m", "p", "r", "ə", "ch", "er", "-/"],
+      "tags": ["irregular", "rcontrolled", "magic_e"],
+      "hearts": [0, 0, 0, 0, 0, 1, 1, 1, 0],
+      "hint": "a 弱化 /ə/；t+ur 在此對應 /tʃɚ/；最後 e 不發音。"
     },
     {
       "number": "🎓 度數",
