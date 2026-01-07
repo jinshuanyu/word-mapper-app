@@ -29,7 +29,7 @@
       "graphemes": ["c", "l", "ou", "d"],
       "phonemes": ["/k", "l", "aʊ", "d/"],
       "phonics": ["/k", "l", "ou", "d/"],
-      "tags": ["diphthong"],
+      "tags": [],
       "hearts": [0, 0, 0, 0],
       "hint": "ou 對應 /aʊ/。"
     },
@@ -72,8 +72,8 @@
       "ipa": "/ˈlaɪtnɪŋ/",
       "graphemes": ["l", "igh", "t", "n", "i", "ng"],
       "phonemes": ["/'l", "aɪ", "t", "n", "ɪ", "ŋ/"],
-      "phonics": ["/'l", "ī", "t", "n", "ĭ", "ng/"],
-      "tags": ["diphthong", "digraph"],
+      "phonics": ["/'l", "ī", "t", "n", "ĭ", "ŋ/"],
+      "tags": ["digraph"],
       "hearts": [0, 1, 0, 0, 0, 0],
       "hint": "igh 對應 /aɪ/（用 ī 表示）；ng 發 /ŋ/。"
     },
@@ -95,7 +95,7 @@
       "graphemes": ["sh", "ow", "er"],
       "phonemes": ["/'ʃ", "aʊ", "ɚ/"],
       "phonics": ["/'sh", "ow", "er/"],
-      "tags": ["digraph", "diphthong", "rcontrolled"],
+      "tags": ["digraph", "rcontrolled"],
       "hearts": [0, 0, 0],
       "hint": "sh 發 /ʃ/；ow 對應 /aʊ/；er 對應 /er/。"
     },
@@ -128,7 +128,7 @@
       "graphemes": ["t", "y", "ph", "oo", "n"],
       "phonemes": ["/t", "aɪ", "'f", "u", "n/"],
       "phonics": ["/t", "ī", "'f", "oo", "n/"],
-      "tags": ["diphthong", "digraph", "vowel_team"],
+      "tags": ["digraph", "vowel_team"],
       "hearts": [0, 1, 0, 0, 0],
       "hint": "y 在此對應 /aɪ/（用 ī 表示）；ph 發 /f/；oo 發 /u/。"
     },
@@ -161,7 +161,7 @@
       "graphemes": ["sh", "i", "n", "e"],
       "phonemes": ["/ʃ", "aɪ", "n", "-/"],
       "phonics": ["/sh", "ī", "n", "-/"],
-      "tags": ["digraph", "magic_e", "diphthong"],
+      "tags": ["digraph", "magic_e"],
       "hearts": [0, 0, 0, 0],
       "hint": "i_e 對應 /aɪ/（用 ī 表示）；e 不發音。"
     }
