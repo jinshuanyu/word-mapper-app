@@ -230,6 +230,28 @@
       "tags": ["irregular"],
       "hearts": [false,true,false,false,false],
       "hint": "a 發短母音 o /ɑ/；ll 為重複字母。"
+    },
+        {
+      "number": "🎀 假髮",
+      "word": "wig",
+      "ipa": "/wɪɡ/",
+      "graphemes": ["w", "i", "g"],
+      "phonemes": ["/w", "ɪ", "ɡ/"],
+      "phonics": ["/w", "ĭ", "g/"],
+      "tags": ["cvc"],
+      "hearts": [0, 0, 0],
+      "hint": "CVC，i 發短母音 /ĭ/。"
+    },
+    {
+      "number": "🔒 拉拉鍊",
+      "word": "zip",
+      "ipa": "/zɪp/",
+      "graphemes": ["z", "i", "p"],
+      "phonemes": ["/z", "ɪ", "p/"],
+      "phonics": ["/z", "ĭ", "p/"],
+      "tags": ["cvc"],
+      "hearts": [0, 0, 0],
+      "hint": "CVC，i 發短母音 /ĭ/。"
     }
   ]
 }
