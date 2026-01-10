@@ -39,7 +39,7 @@
       "ipa": "/ˈmænɪdʒɚ/",
       "graphemes": ["m", "a", "n", "a", "g", "er"],
       "phonemes": ["/'m", "æ", "n", "ɪ", "dʒ", "ɚ/"],
-      "phonics": ["/'m", "ă", "n", "ĭ", "j", "er/"],
+      "phonics": ["/'m", "ă", "n", "ĭ", "-j", "er/"],
       "tags": ["closed", "irregular", "suffix"],
       "hearts": [0, 0, 0, 0, 1, 0],
       "hint": "重音在 man-；g 發 /dʒ/（需記）；-er 字尾。"
@@ -127,7 +127,7 @@
       "ipa": "/dʒɑb/",
       "graphemes": ["j", "o", "b"],
       "phonemes": ["/dʒ", "ɑ", "b/"],
-      "phonics": ["/j", "ŏ", "b/"],
+      "phonics": ["/-j", "ŏ", "b/"],
       "tags": ["closed"],
       "hearts": [0, 0, 0],
       "hint": "單音節閉音節；j 對應 /dʒ/。"
