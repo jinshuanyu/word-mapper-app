@@ -7,7 +7,7 @@
       "graphemes": ["a", "c", "t", "or"],
       "phonemes": ["/'æ", "k", "t", "ɚ/"],
       "phonics": ["/'ă", "k", "t", "er/"],
-      "tags": ["rcontrolled"],
+      "tags": ["closed","suffix"],
       "hearts": [0, 0, 0, 0],
       "hint": "重音在 act；字尾 or 對應 /ɚ/。"
     },
@@ -18,8 +18,8 @@
       "graphemes": ["a", "c", "t", "r", "e", "ss"],
       "phonemes": ["/'æ", "k", "t", "r", "ə", "s/"],
       "phonics": ["/'ă", "k", "t", "r", "ə", "s/"],
-      "tags": ["closed"],
-      "hearts": [0, 0, 0, 0, 1, 0],
+      "tags": ["closed","suffix"],
+      "hearts": [0, 0, 0, 0, 0, 1],
       "hint": "e 弱化為 /ə/。"
     },
     {
@@ -28,8 +28,8 @@
       "ipa": "/ˈɑrtɪst/",
       "graphemes": ["ar", "t", "i", "s", "t"],
       "phonemes": ["/'ɑr", "t", "ɪ", "s", "t/"],
-      "phonics": ["/'ar", "t", "ĭ", "s", "t/"],
-      "tags": ["rcontrolled"],
+      "phonics": ["/'ɑr", "t", "ĭ", "s", "t/"],
+      "tags": ["rcontrolled","suffix"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "ar 為 r-controlled。"
     },
@@ -40,7 +40,7 @@
       "graphemes": ["d", "e", "s", "i", "g", "n", "er"],
       "phonemes": ["/d", "ɪ", "'z", "aɪ", "-", "n", "ɚ/"],
       "phonics": ["/d", "ĭ", "'z", "ī", "-", "n", "er/"],
-      "tags": ["silent_consonant", "rcontrolled"],
+      "tags": ["silent_consonant", "open"],
       "hearts": [0, 0, 0, 0, 1, 0, 0],
       "hint": "重音在 -sign；g 不發音；er 對應 /ɚ/。"
     },
@@ -48,9 +48,9 @@
       "number": "👗 模特兒",
       "word": "model",
       "ipa": "/ˈmɑdəl/",
-      "graphemes": ["m", "o", "d", "el"],
-      "phonemes": ["/'m", "ɑ", "d", "əl/"],
-      "phonics": ["/'m", "ŏ", "d", "əl/"],
+      "graphemes": ["m", "o", "d", "e","l"],
+      "phonemes": ["/'m", "ɑ", "d", "ə","l/"],
+      "phonics": ["/'m", "ŏ", "d", "ə","l/"],
       "tags": ["closed"],
       "hearts": [0, 0, 0, 0],
       "hint": "el 弱化為 /əl/。"
@@ -62,7 +62,7 @@
       "graphemes": ["m", "u", "s", "i", "ci", "an"],
       "phonemes": ["/m", "ju", "'z", "ɪ", "ʃ", "ən/"],
       "phonics": ["/m", "yū", "'z", "ĭ", "sh", "ən/"],
-      "tags": ["suffix", "irregular"],
+      "tags": ["irregular","suffix"],
       "hearts": [0, 0, 0, 0, 1, 0],
       "hint": "重音在 zi；ci 對應 /ʃ/（需記）。"
     },
@@ -72,8 +72,8 @@
       "ipa": "/ˈsɪŋɚ/",
       "graphemes": ["s", "i", "ng", "er"],
       "phonemes": ["/'s", "ɪ", "ŋ", "ɚ/"],
-      "phonics": ["/'s", "ĭ", "ng", "er/"],
-      "tags": ["digraph", "rcontrolled"],
+      "phonics": ["/'s", "ĭ", "ŋ", "er/"],
+      "tags": ["closed","digraph"],
       "hearts": [0, 0, 0, 0],
       "hint": "ng 對應 /ŋ/；er 對應 /ɚ/。"
     },
@@ -83,7 +83,7 @@
       "ipa": "/ˈpɑp stɑr/",
       "graphemes": ["p", "o", "p", " ", "s", "t", "ar"],
       "phonemes": ["/'p", "ɑ", "p", " ", "s", "t", "ɑr/"],
-      "phonics": ["/'p", "ŏ", "p", " ", "s", "t", "ar/"],
+      "phonics": ["/'p", "ŏ", "p", " ", "s", "t", "ɑr/"],
       "tags": ["closed", "rcontrolled"],
       "hearts": [0, 0, 0, 0, 0, 0, 0],
       "hint": "ar 對應 /ɑr/。"
@@ -94,7 +94,7 @@
       "ipa": "/məˈdʒɪʃən/",
       "graphemes": ["m", "a", "g", "i", "ci", "an"],
       "phonemes": ["/m", "ə", "'dʒ", "ɪ", "ʃ", "ən/"],
-      "phonics": ["/m", "ə", "'j", "ĭ", "sh", "ən/"],
+      "phonics": ["/m", "ə", "'-j", "ĭ", "sh", "ən/"],
       "tags": ["suffix", "irregular"],
       "hearts": [0, 1, 1, 0, 1, 0],
       "hint": "a 弱化 /ə/；g 在 i 前發 /dʒ/（需記）；ci 對應 /ʃ/。"
@@ -127,7 +127,7 @@
       "ipa": "/ˈdʒɝnəlɪst/",
       "graphemes": ["j", "our", "n", "a", "l", "i", "s", "t"],
       "phonemes": ["/'dʒ", "ɝ", "n", "ə", "l", "ɪ", "s", "t/"],
-      "phonics": ["/'j", "er", "n", "ə", "l", "ĭ", "s", "t/"],
+      "phonics": ["/'-j", "er", "n", "ə", "l", "ĭ", "s", "t/"],
       "tags": ["rcontrolled", "irregular"],
       "hearts": [0, 1, 0, 1, 0, 0, 0, 0],
       "hint": "our 在此對應 /ɝ/（需記）；a 弱化 /ə/。"
@@ -157,7 +157,7 @@
     {
       "number": "🗞 報紙",
       "word": "newspaper",
-      "ipa": "/ˈnuzˌpeɪpɚ/",
+      "ipa": "/ˈnuzpeɪpɚ/",
       "graphemes": ["n", "ew", "s", "p", "a", "p", "er"],
       "phonemes": ["/'n", "u", "z", "p", "eɪ", "p", "ɚ/"],
       "phonics": ["/'n", "ū", "z", "p", "ā", "p", "er/"],
@@ -171,9 +171,9 @@
       "ipa": "/ˈmuvi stɑr/",
       "graphemes": ["m", "o", "v", "ie", " ", "s", "t", "ar"],
       "phonemes": ["/'m", "u", "v", "i", " ", "s", "t", "ɑr/"],
-      "phonics": ["/'m", "ū", "v", "ē", " ", "s", "t", "ar/"],
+      "phonics": ["/'m", "ū", "v", "ē", " ", "s", "t", "ɑr/"],
       "tags": ["vowel_team", "rcontrolled", "irregular"],
-      "hearts": [0, 1, 0, 0, 0, 0, 0, 0],
+      "hearts": [0, 1, 0, 1, 0, 0, 0, 0],
       "hint": "movie 的 o 對應 /u/（需記）；ar 對應 /ɑr/。"
     }
   ]
