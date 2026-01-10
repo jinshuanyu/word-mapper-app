@@ -5,8 +5,8 @@
       "word": "boss",
       "ipa": "/bɔs/",
       "graphemes": ["b", "o", "ss"],
-      "phonemes": ["/'b", "ɔ", "s/"],
-      "phonics": ["/'b", "aw", "s/"],
+      "phonemes": ["/b", "ɔ", "s/"],
+      "phonics": ["/b", "aw", "s/"],
       "tags": ["closed", "floss"],
       "hearts": [0, 0, 0],
       "hint": "單音節；o 對應 /ɔ/；ss 為 floss。"
@@ -73,7 +73,7 @@
       "graphemes": ["ow", "n", "er"],
       "phonemes": ["/'oʊ", "n", "ɚ/"],
       "phonics": ["/'ō", "n", "er/"],
-      "tags": ["rcontrolled", "vowel_team"],
+      "tags": ["suffix", "vowel_team"],
       "hearts": [0, 0, 0],
       "hint": "重音在 own-；ow 對應 /oʊ/；-er 字尾。"
     },
@@ -103,11 +103,11 @@
       "number": "🧑‍💻 雇用",
       "word": "employ",
       "ipa": "/ɪmˈplɔɪ/",
-      "graphemes": ["e", "m", "pl", "oy"],
-      "phonemes": ["/ɪ", "m", "'pl", "ɔɪ/"],
-      "phonics": ["/ĭ", "m", "'pl", "oi/"],
+      "graphemes": ["e", "m", "p", "l", "oy"],
+      "phonemes": ["/ɪ", "m", "'p", "l", "ɔɪ/"],
+      "phonics": ["/ĭ", "m", "'p", "l", "oi/"],
       "tags": ["cluster", "vowel_team"],
-      "hearts": [0, 0, 0, 0],
+      "hearts": [0, 0, 0, 0, 0],
       "hint": "重音在 -ploy；pl 混合音；oy 對應 /ɔɪ/。"
     },
     {
@@ -115,8 +115,8 @@
       "word": "hire",
       "ipa": "/haɪr/",
       "graphemes": ["h", "i", "r", "e"],
-      "phonemes": ["/'h", "aɪ", "r", "-/"],
-      "phonics": ["/'h", "ī", "r", "-/"],
+      "phonemes": ["/h", "aɪ", "r", "-/"],
+      "phonics": ["/h", "ī", "r", "-/"],
       "tags": ["magic_e"],
       "hearts": [0, 0, 0, 0],
       "hint": "單音節；i_e 對應 /aɪ/。"
@@ -126,8 +126,8 @@
       "word": "job",
       "ipa": "/dʒɑb/",
       "graphemes": ["j", "o", "b"],
-      "phonemes": ["/'dʒ", "ɑ", "b/"],
-      "phonics": ["/'j", "ŏ", "b/"],
+      "phonemes": ["/dʒ", "ɑ", "b/"],
+      "phonics": ["/j", "ŏ", "b/"],
       "tags": ["closed"],
       "hearts": [0, 0, 0],
       "hint": "單音節閉音節；j 對應 /dʒ/。"
@@ -137,8 +137,8 @@
       "word": "work",
       "ipa": "/wɝk/",
       "graphemes": ["w", "or", "k"],
-      "phonemes": ["/'w", "ɝ", "k/"],
-      "phonics": ["/'w", "er", "k/"],
+      "phonemes": ["/w", "ɝ", "k/"],
+      "phonics": ["/w", "er", "k/"],
       "tags": ["irregular", "rcontrolled"],
       "hearts": [0, 1, 0],
       "hint": "單音節；or 在此對應 /ɝ/（需記）。"
