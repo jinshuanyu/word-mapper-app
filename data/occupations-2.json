@@ -5,11 +5,11 @@
       "word": "baby sitter",
       "ipa": "/ˈbeɪbi ˈsɪtɚ/",
       "graphemes": ["b", "a", "b", "y", " ", "s", "i", "tt", "er"],
-      "phonemes": ["/'b", "eɪ", "b", "i", " ", "'s", "ɪ", "t", "ɚ/"],
-      "phonics": ["/'b", "ā", "b", "ē", " ", "'s", "ĭ", "t", "er/"],
-      "tags": ["vowel_team", "rcontrolled"],
+      "phonemes": ["/'b", "eɪ", "b", "i", " ", "s", "ɪ", "t", "ɚ/"],
+      "phonics": ["/'b", "ā", "b", "ē", " ", "s", "ĭ", "t", "er/"],
+      "tags": [ "open"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0],
-      "hint": "a 對應 /eɪ/；字尾 er 對應 /ɚ/。"
+      "hint": "ba- 開音節。"
     },
     {
       "number": "💈 理髮師",
@@ -17,32 +17,32 @@
       "ipa": "/ˈbɑrbɚ/",
       "graphemes": ["b", "ar", "b", "er"],
       "phonemes": ["/'b", "ɑr", "b", "ɚ/"],
-      "phonics": ["/'b", "ar", "b", "er/"],
-      "tags": ["rcontrolled"],
+      "phonics": ["/'b", "ɑr", "b", "er/"],
+      "tags": ["rcontrolled", "suffix"],
       "hearts": [0, 0, 0, 0],
-      "hint": "ar、er 都是 r-controlled。"
+      "hint": "重音在 bar；ar 為 r-controlled；-er 職業字尾。"
     },
     {
       "number": "💇 美髮師",
       "word": "hairdresser",
-      "ipa": "/ˈhɛrˌdrɛsɚ/",
+      "ipa": "/ˈhɛrdrɛsɚ/",
       "graphemes": ["h", "ai", "r", "d", "r", "e", "ss", "er"],
       "phonemes": ["/'h", "ɛ", "r", "d", "r", "ɛ", "s", "ɚ/"],
       "phonics": ["/'h", "ĕ", "r", "d", "r", "ĕ", "s", "er/"],
-      "tags": ["rcontrolled", "irregular"],
-      "hearts": [0, 1, 0, 0, 0, 0, 0, 0],
-      "hint": "ai 在此對應 /ɛ/（需記）；er 對應 /ɚ/。"
+      "tags": ["vowel_team","rcontrolled", "suffix"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
+      "hint": "重音在 hair；air 發 /ɛr/（需記）；ss 為 floss；-er 字尾。"
     },
     {
       "number": "🍳 廚師",
       "word": "cook",
       "ipa": "/kʊk/",
       "graphemes": ["c", "oo", "k"],
-      "phonemes": ["/k", "ʊ", "k/"],
-      "phonics": ["/k", "oo", "k/"],
-      "tags": ["vowel_team"],
+      "phonemes": ["/'k", "ʊ", "k/"],
+      "phonics": ["/'k", "oo", "k/"],
+      "tags": [ "vowel_team"],
       "hearts": [0, 0, 0],
-      "hint": "oo 在此對應 /ʊ/。"
+      "hint": "單音節閉音節；oo 對應 /ʊ/。"
     },
     {
       "number": "🍽 服務生",
@@ -51,9 +51,9 @@
       "graphemes": ["w", "ai", "t", "er"],
       "phonemes": ["/'w", "eɪ", "t", "ɚ/"],
       "phonics": ["/'w", "ā", "t", "er/"],
-      "tags": ["vowel_team", "rcontrolled"],
+      "tags": ["vowel_team","suffix"],
       "hearts": [0, 0, 0, 0],
-      "hint": "ai 對應 /eɪ/；er 對應 /ɚ/。"
+      "hint": "重音在 wait；ai 對應 /eɪ/；-er 職業字尾。"
     },
     {
       "number": "🍽 女服務生",
@@ -62,31 +62,31 @@
       "graphemes": ["w", "ai", "t", "r", "e", "ss"],
       "phonemes": ["/'w", "eɪ", "t", "r", "ə", "s/"],
       "phonics": ["/'w", "ā", "t", "r", "ə", "s/"],
-      "tags": ["vowel_team", "closed"],
-      "hearts": [0, 0, 0, 0, 1, 0],
-      "hint": "e 弱化 /ə/。"
+      "tags": ["vowel_team","floss", "suffix"],
+      "hearts": [0, 0, 0, 0, 0, 0],
+      "hint": "重音在 wait；ai 對應 /eɪ/；ss 為 floss；-ess 字尾。"
     },
     {
       "number": "🏪 店主",
       "word": "shopkeeper",
-      "ipa": "/ˈʃɑpˌkipɚ/",
+      "ipa": "/ˈʃɑpkipɚ/",
       "graphemes": ["sh", "o", "p", "k", "ee", "p", "er"],
       "phonemes": ["/'ʃ", "ɑ", "p", "k", "i", "p", "ɚ/"],
       "phonics": ["/'sh", "ŏ", "p", "k", "ē", "p", "er/"],
-      "tags": ["digraph", "vowel_team", "rcontrolled"],
+      "tags": [ "digraph", "closed","suffix"],
       "hearts": [0, 0, 0, 0, 0, 0, 0],
-      "hint": "sh、ee；字尾 er 對應 /ɚ/。"
+      "hint": "重音在 shop（閉音節）；sh 為 digraph；-er 字尾。"
     },
     {
       "number": "🧾 店員",
       "word": "clerk",
       "ipa": "/klɝk/",
       "graphemes": ["c", "l", "er", "k"],
-      "phonemes": ["/k", "l", "ɝ", "k/"],
-      "phonics": ["/k", "l", "er", "k/"],
+      "phonemes": ["/'k", "l", "ɝ", "k/"],
+      "phonics": ["/'k", "l", "er", "k/"],
       "tags": ["cluster", "rcontrolled"],
       "hearts": [0, 0, 0, 0],
-      "hint": "er 對應 /ɝ/。"
+      "hint": "單音節；cl 為混合音；er 對應 /ɝ/。"
     },
     {
       "number": "🙋 助理",
@@ -95,9 +95,9 @@
       "graphemes": ["a", "ss", "i", "s", "t", "a", "n", "t"],
       "phonemes": ["/ə", "'s", "ɪ", "s", "t", "ə", "n", "t/"],
       "phonics": ["/ə", "'s", "ĭ", "s", "t", "ə", "n", "t/"],
-      "tags": ["closed"],
-      "hearts": [1, 0, 0, 0, 0, 1, 0, 0],
-      "hint": "a 多弱化 /ə/；重音在 ss 對應那一節。"
+      "tags": ["closed","suffix"],
+      "hearts": [0, 1, 0, 0, 0, 0, 0, 0],
+      "hint": "重音在 -sist（閉音節）；ss 為 floss；-ant 字尾。"
     },
     {
       "number": "🧹 佣人",
@@ -106,9 +106,9 @@
       "graphemes": ["s", "er", "v", "a", "n", "t"],
       "phonemes": ["/'s", "ɝ", "v", "ə", "n", "t/"],
       "phonics": ["/'s", "er", "v", "ə", "n", "t/"],
-      "tags": ["rcontrolled"],
-      "hearts": [0, 0, 0, 1, 0, 0],
-      "hint": "er 對應 /ɝ/；a 弱化 /ə/。"
+      "tags": ["rcontrolled", "suffix"],
+      "hearts": [0, 0, 0, 0, 0, 0],
+      "hint": "重音在 ser；er 對應 /ɝ/；a 弱化 /ə/；-ant 字尾。"
     },
     {
       "number": "🏠 家庭主婦",
@@ -116,10 +116,10 @@
       "ipa": "/ˈhaʊswaɪf/",
       "graphemes": ["h", "ou", "s", "e", "w", "i", "f", "e"],
       "phonemes": ["/'h", "aʊ", "s", "-", "w", "aɪ", "f", "-/"],
-      "phonics": ["/'h", "ou", "s", "-", "w", "ī", "f", "-/"],
-      "tags": ["vowel_team", "magic_e", "diphthong"],
+      "phonics": ["/'h", "ow", "s", "-", "w", "ī", "f", "-/"],
+      "tags": ["vowel_team"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
-      "hint": "ou 對應 /aʊ/；wife 的 i_e 對應 /aɪ/。"
+      "hint": "重音在 house；ou 對應 /aʊ/。"
     },
     {
       "number": "📮 郵差",
@@ -128,9 +128,9 @@
       "graphemes": ["m", "ai", "l", "m", "a", "n"],
       "phonemes": ["/'m", "eɪ", "l", "m", "æ", "n/"],
       "phonics": ["/'m", "ā", "l", "m", "ă", "n/"],
-      "tags": ["vowel_team", "closed"],
+      "tags": ["vowel_team"],
       "hearts": [0, 0, 0, 0, 0, 0],
-      "hint": "ai 對應 /eɪ/。"
+      "hint": "重音在 mail；ai 對應 /eɪ/。"
     },
     {
       "number": "📬 郵差(配送)",
@@ -139,9 +139,9 @@
       "graphemes": ["m", "ai", "l", " ", "c", "a", "rr", "i", "er"],
       "phonemes": ["/'m", "eɪ", "l", " ", "'k", "æ", "r", "i", "ɚ/"],
       "phonics": ["/'m", "ā", "l", " ", "'k", "ă", "r", "ē", "er/"],
-      "tags": ["vowel_team", "rcontrolled"],
+      "tags": ["vowel_team" "suffix", ],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0],
-      "hint": "ai 對應 /eɪ/；字尾 er 對應 /ɚ/。"
+      "hint": "兩個主重音；mail 有 ai；carr- 閉音節；-er 字尾。"
     },
     {
       "number": "🩺 醫生",
@@ -150,9 +150,9 @@
       "graphemes": ["d", "o", "c", "t", "or"],
       "phonemes": ["/'d", "ɑ", "k", "t", "ɚ/"],
       "phonics": ["/'d", "ŏ", "k", "t", "er/"],
-      "tags": ["rcontrolled", "closed"],
-      "hearts": [0, 0, 0, 0, 0],
-      "hint": "or 對應 /ɚ/。"
+      "tags": ["closed", "suffix"],
+      "hearts": [0, 0, 0, 0, 1],
+      "hint": "重音在 doc（閉音節）；-or 職業字尾。"
     },
     {
       "number": "🦷 牙醫",
@@ -161,31 +161,31 @@
       "graphemes": ["d", "e", "n", "t", "i", "s", "t"],
       "phonemes": ["/'d", "ɛ", "n", "t", "ɪ", "s", "t/"],
       "phonics": ["/'d", "ĕ", "n", "t", "ĭ", "s", "t/"],
-      "tags": ["closed"],
+      "tags": ["closed", "suffix"],
       "hearts": [0, 0, 0, 0, 0, 0, 0],
-      "hint": "兩個母音皆為短音。"
+      "hint": "重音在 dent（閉音節）；-ist 職業字尾。"
     },
     {
       "number": "🧑‍⚕️ 護士",
       "word": "nurse",
       "ipa": "/nɝs/",
       "graphemes": ["n", "ur", "s", "e"],
-      "phonemes": ["/n", "ɝ", "s", "-/"],
-      "phonics": ["/n", "er", "s", "-/"],
-      "tags": ["rcontrolled", "magic_e"],
+      "phonemes": ["/'n", "ɝ", "s", "-/"],
+      "phonics": ["/'n", "er", "s", "-/"],
+      "tags": [ "rcontrolled"],
       "hearts": [0, 0, 0, 0],
-      "hint": "ur 對應 /ɝ/；字尾 e 不發音。"
+      "hint": "單音節；ur 對應 /ɝ/；字尾 e 不發音。"
     },
     {
       "number": "🏥 醫院",
       "word": "hospital",
       "ipa": "/ˈhɑspɪtəl/",
-      "graphemes": ["h", "o", "s", "p", "i", "t", "al"],
-      "phonemes": ["/'h", "ɑ", "s", "p", "ɪ", "t", "əl/"],
-      "phonics": ["/'h", "ŏ", "s", "p", "ĭ", "t", "əl/"],
+      "graphemes": ["h", "o", "s", "p", "i", "t", "a","l"],
+      "phonemes": ["/'h", "ɑ", "s", "p", "ɪ", "t", "ə","l/"],
+      "phonics": ["/'h", "ŏ", "s", "p", "ĭ", "t", "ə","l/"],
       "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0, 0, 0],
-      "hint": "al 常弱化為 /əl/。"
+      "hint": "重音在 hos（閉音節）；al 弱化為 /əl/。"
     }
   ]
 }
