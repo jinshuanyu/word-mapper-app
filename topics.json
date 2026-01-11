@@ -96,6 +96,13 @@
     { "label": "餐具與用餐", "src": "data/food-5.json" }
   ]
 },
+    {
+      "slug": "geography",
+      "title": "Geography 地理",
+      "levels": [
+        { "label": "All", "src": "data/geography.json" }
+      ]
+    },
         {
       "slug": "health",
       "title": "Health 健康",
@@ -259,9 +266,21 @@
     { "label": "歐洲與非洲", "src": "data/world-3.json" },
     { "label": "美洲", "src": "data/world-4.json" }
   ]
-}
+},
+             {
+      "slug": "othernouns",
+      "title": "Other Nouns 其他名詞",
+      "levels": [
+        { "label": "行為與活動", "src": "data/nouns-1.json" },
+                { "label": "情感與特質", "src": "data/nouns-2.json" },
+                { "label": "思想與知識", "src": "data/nouns-3.json" },
+                { "label": "社會與組織", "src": "data/nouns-4.json" },
+                { "label": "物品與自然", "src": "data/nouns-5.json" }
+      ]
+    }
   ]
 }
+
 
 
 
