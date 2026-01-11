@@ -1,8 +1,6 @@
-// Category 37: Other adverbs - Set 3
-// Place + Possibility adverbs (7 words)
-
-[
-  {
+{
+  "items": [
+    {
     "number": "1️⃣ 在國外",
     "word": "abroad",
     "ipa": "əˈbrɔːd",
@@ -80,3 +78,4 @@
     "hint": "pr 是 cluster；o 發 ŏ；第二個 a 發 schwa；y 發 ē"
   }
 ]
+}
