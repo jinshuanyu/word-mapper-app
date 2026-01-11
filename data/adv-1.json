@@ -1,8 +1,6 @@
-// Category 37: Other adverbs - Set 1
-// Frequency + Degree adverbs (21 words)
-
-[
-  {
+{
+  "items": [
+    {
     "number": "1️⃣ 總是",
     "word": "always",
     "ipa": "ˈɔːlweɪz",
@@ -233,4 +231,4 @@
     "hearts": [0, 0, 0, 0],
     "hint": "e 發短音 ĕ；y 發 ē"
   }
-]
+]}
