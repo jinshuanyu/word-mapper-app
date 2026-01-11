@@ -267,6 +267,18 @@
     { "label": "美洲", "src": "data/world-4.json" }
   ]
 },
+     {
+      "slug": "otheradjs",
+      "title": "Other Adjs 其他形容詞",
+      "levels": [
+        { "label": "狀態形容詞", "src": "data/adjs-1.json" },
+                { "label": "程度與數量", "src": "data/adjs-2.json" },
+                { "label": "品質與評價", "src": "data/adjs-3.json" },
+                { "label": "外觀與特性", "src": "data/adjs-4.json" },
+                { "label": "時間與順序", "src": "data/adjs-5.json" },
+        { "label": "情感與態度", "src": "data/adjs-5.json" }
+      ]
+    },
              {
       "slug": "othernouns",
       "title": "Other Nouns 其他名詞",
@@ -280,6 +292,7 @@
     }
   ]
 }
+
 
 
 
