@@ -1,0 +1,235 @@
+{
+  "items": [
+    {
+      "number": "🗺 地區",
+      "word": "area",
+      "ipa": "/ˈɛriə/",
+      "graphemes": ["a", "r", "e", "a"],
+      "phonemes": ["/'ɛ", "r", "i", "ə/"],
+      "phonics": ["/'ĕ", "r", "ē", "ə/"],
+      "tags": ["rcontrolled"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "重音在 ar-；ar 為 r-controlled。"
+    },
+    {
+      "number": "🏦 銀行/河岸",
+      "word": "bank",
+      "ipa": "/bæŋk/",
+      "graphemes": ["b", "a", "ng", "k"],
+      "phonemes": ["/b", "æ", "ŋ", "k/"],
+      "phonics": ["/b", "ă", "ŋ", "k/"],
+      "tags": ["closed", "digraph"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "單音節閉音節；ng 對應 /ŋ/。"
+    },
+    {
+      "number": "🏖 海灘",
+      "word": "beach",
+      "ipa": "/bitʃ/",
+      "graphemes": ["b", "ea", "ch"],
+      "phonemes": ["/b", "i", "tʃ/"],
+      "phonics": ["/b", "ē", "ch/"],
+      "tags": ["vowel_team", "digraph"],
+      "hearts": [0, 0, 0],
+      "hint": "單音節；ea 對應 /i/；ch 為 digraph。"
+    },
+    {
+      "number": "🌊 海岸",
+      "word": "coast",
+      "ipa": "/koʊst/",
+      "graphemes": ["c", "oa", "st"],
+      "phonemes": ["/k", "oʊ", "st/"],
+      "phonics": ["/k", "ō", "st/"],
+      "tags": ["vowel_team"],
+      "hearts": [0, 0, 0],
+      "hint": "單音節；oa 對應 /oʊ/。"
+    },
+    {
+      "number": "🏜 沙漠",
+      "word": "desert",
+      "ipa": "/ˈdɛzɚt/",
+      "graphemes": ["d", "e", "s", "er", "t"],
+      "phonemes": ["/'d", "ɛ", "z", "ɚ", "t/"],
+      "phonics": ["/'d", "ĕ", "z", "er", "t/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 0, 0],
+      "hint": "重音在 des-（閉音節）。"
+    },
+    {
+      "number": "🌍 環境",
+      "word": "environment",
+      "ipa": "/ɪnˈvaɪrənmənt/",
+      "graphemes": ["e", "n", "v", "i", "r", "o", "n", "m", "e", "n", "t"],
+      "phonemes": ["/ɪ", "n", "'v", "aɪ", "r", "ə", "n", "m", "ə", "n", "t/"],
+      "phonics": ["/ĭ", "n", "'v", "ī", "r", "ə", "n", "m", "ə", "n", "t/"],
+      "tags": ["open"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "hint": "重音在 -vi-（開音節）。"
+    },
+    {
+      "number": "🌲 森林",
+      "word": "forest",
+      "ipa": "/ˈfɔrəst/",
+      "graphemes": ["f", "or", "e", "s", "t"],
+      "phonemes": ["/'f", "ɔr", "ə", "s", "t/"],
+      "phonics": ["/'f", "or", "ə", "s", "t/"],
+      "tags": ["rcontrolled"],
+      "hearts": [0, 0, 0, 0, 0],
+      "hint": "重音在 for-；or 為 r-controlled。"
+    },
+    {
+      "number": "⛰️ 小山",
+      "word": "hill",
+      "ipa": "/hɪl/",
+      "graphemes": ["h", "i", "ll"],
+      "phonemes": ["/h", "ɪ", "l/"],
+      "phonics": ["/h", "ĭ", "l/"],
+      "tags": ["closed", "floss"],
+      "hearts": [0, 0, 0],
+      "hint": "單音節閉音節；ll 為 floss。"
+    },
+    {
+      "number": "🏝 島嶼",
+      "word": "island",
+      "ipa": "/ˈaɪlənd/",
+      "graphemes": ["i", "s", "l", "a", "n", "d"],
+      "phonemes": ["/'aɪ", "-", "l", "ə", "n", "d/"],
+      "phonics": ["/'ī", "-", "l", "ə", "n", "d/"],
+      "tags": ["open", "silent_consonant"],
+      "hearts": [0, 1, 0, 0, 0, 0],
+      "hint": "重音在 i-（開音節）；s 不發音（需記）。"
+    },
+    {
+      "number": "🏞 湖",
+      "word": "lake",
+      "ipa": "/leɪk/",
+      "graphemes": ["l", "a", "k", "e"],
+      "phonemes": ["/l", "eɪ", "k", "-/"],
+      "phonics": ["/l", "ā", "k", "-/"],
+      "tags": ["magic_e"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "單音節；a_e 對應 /eɪ/。"
+    },
+    {
+      "number": "🏔 山",
+      "word": "mountain",
+      "ipa": "/ˈmaʊntɪn/",
+      "graphemes": ["m", "ou", "n", "t", "ai", "n"],
+      "phonemes": ["/'m", "aʊ", "n", "t", "ɪ", "n/"],
+      "phonics": ["/'m", "ow", "n", "t", "ĭ", "n/"],
+      "tags": ["vowel_team"],
+      "hearts": [0, 0, 0, 0, 0, 0],
+      "hint": "重音在 moun-；ou 對應 /aʊ/。"
+    },
+    {
+      "number": "🌊 海洋",
+      "word": "ocean",
+      "ipa": "/ˈoʊʃən/",
+      "graphemes": ["o", "ce", "a", "n"],
+      "phonemes": ["/'oʊ", "ʃ", "ə", "n/"],
+      "phonics": ["/'ō", "sh", "ə", "n/"],
+      "tags": ["open", "irregular"],
+      "hearts": [0, 1, 0, 0],
+      "hint": "重音在 o-（開音節）；ce 對應 /ʃ/（需記）。"
+    },
+    {
+      "number": "🌾 平原",
+      "word": "plain",
+      "ipa": "/pleɪn/",
+      "graphemes": ["p", "l", "ai", "n"],
+      "phonemes": ["/p", "l", "eɪ", "n/"],
+      "phonics": ["/p", "l", "ā", "n/"],
+      "tags": ["cluster", "vowel_team"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "單音節；pl 混合音；ai 對應 /eɪ/。"
+    },
+    {
+      "number": "🦆 池塘",
+      "word": "pond",
+      "ipa": "/pɑnd/",
+      "graphemes": ["p", "o", "n", "d"],
+      "phonemes": ["/p", "ɑ", "n", "d/"],
+      "phonics": ["/p", "ŏ", "n", "d/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "單音節閉音節。"
+    },
+    {
+      "number": "🏊 泳池",
+      "word": "pool",
+      "ipa": "/pul/",
+      "graphemes": ["p", "oo", "l"],
+      "phonemes": ["/p", "u", "l/"],
+      "phonics": ["/p", "ū", "l/"],
+      "tags": ["vowel_team"],
+      "hearts": [0, 0, 0],
+      "hint": "單音節；oo 對應 /u/。"
+    },
+    {
+      "number": "🏞 河流",
+      "word": "river",
+      "ipa": "/ˈrɪvɚ/",
+      "graphemes": ["r", "i", "v", "er"],
+      "phonemes": ["/'r", "ɪ", "v", "ɚ/"],
+      "phonics": ["/'r", "ĭ", "v", "er/"],
+      "tags": ["closed", "suffix"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "重音在 riv-（閉音節）；-er 字尾。"
+    },
+    {
+      "number": "⛵ 海",
+      "word": "sea",
+      "ipa": "/si/",
+      "graphemes": ["s", "ea"],
+      "phonemes": ["/s", "i/"],
+      "phonics": ["/s", "ē/"],
+      "tags": ["vowel_team"],
+      "hearts": [0, 0],
+      "hint": "單音節；ea 對應 /i/。"
+    },
+    {
+      "number": "💧 泉水",
+      "word": "spring",
+      "ipa": "/sprɪŋ/",
+      "graphemes": ["s", "p", "r", "i", "ng"],
+      "phonemes": ["/s", "p", "r", "ɪ", "ŋ/"],
+      "phonics": ["/s", "p", "r", "ĭ", "ŋ/"],
+      "tags": ["cluster", "closed", "digraph"],
+      "hearts": [0, 0, 0, 0, 0],
+      "hint": "單音節閉音節；spr 混合音；ng 對應 /ŋ/。"
+    },
+    {
+      "number": "🌊 溪流",
+      "word": "stream",
+      "ipa": "/strim/",
+      "graphemes": ["s", "t", "r", "ea", "m"],
+      "phonemes": ["/s", "t", "r", "i", "m/"],
+      "phonics": ["/s", "t", "r", "ē", "m/"],
+      "tags": ["cluster", "vowel_team"],
+      "hearts": [0, 0, 0, 0, 0],
+      "hint": "單音節；str 混合音；ea 對應 /i/。"
+    },
+    {
+      "number": "🏔 山谷",
+      "word": "valley",
+      "ipa": "/ˈvæli/",
+      "graphemes": ["v", "a", "ll", "ey"],
+      "phonemes": ["/'v", "æ", "l", "i/"],
+      "phonics": ["/'v", "ă", "l", "ē/"],
+      "tags": ["closed", "floss"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "重音在 val-（閉音節）；ll 為 floss。"
+    },
+    {
+      "number": "🌲 樹林",
+      "word": "woods",
+      "ipa": "/wʊdz/",
+      "graphemes": ["w", "oo", "d", "s"],
+      "phonemes": ["/w", "ʊ", "d", "z/"],
+      "phonics": ["/w", "oo", "d", "z/"],
+      "tags": ["vowel_team"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "單音節；oo 對應 /ʊ/。"
+    }
+  ]
+}
