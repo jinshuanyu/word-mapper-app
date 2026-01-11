@@ -1,0 +1,224 @@
+{
+  "items": [
+    {
+      "number": "💅 美麗",
+      "word": "beauty",
+      "ipa": "/ˈbjuti/",
+      "graphemes": ["b", "eau", "t", "y"],
+      "phonemes": ["/'b", "ju", "t", "i/"],
+      "phonics": ["/'b", "ū", "t", "ē/"],
+      "tags": ["vowel_team", "suffix"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "重音在 beau-；eau 對應 /ju/；-y 字尾。"
+    },
+    {
+      "number": "👶 童年",
+      "word": "childhood",
+      "ipa": "/ˈtʃaɪldhʊd/",
+      "graphemes": ["ch", "i", "l", "d", "h", "oo", "d"],
+      "phonemes": ["/'tʃ", "aɪ", "l", "d", "h", "ʊ", "d/"],
+      "phonics": ["/'ch", "ī", "l", "d", "h", "oo", "d/"],
+      "tags": ["digraph", "open", "vowel_team"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0],
+      "hint": "重音在 child-；ch 為 digraph；i 在 ld 前發長音；oo 對應 /ʊ/。"
+    },
+    {
+      "number": "💪 勇氣",
+      "word": "courage",
+      "ipa": "/ˈkɝɪdʒ/",
+      "graphemes": ["c", "ou", "r", "a", "g", "e"],
+      "phonemes": ["/'k", "ɝ", "ɪ", "dʒ", "-/"],
+      "phonics": ["/'k", "ur", "ĭ", "j", "-/"],
+      "tags": ["vowel_team", "irregular", "rcontrolled", "closed"],
+      "hearts": [0, 1, 0, 0, 0, 0],
+      "hint": "重音在 cour-；ou 對應 /ɝ/（irregular）；r-controlled；第二音節閉音節。"
+    },
+    {
+      "number": "🚔 犯罪",
+      "word": "crime",
+      "ipa": "/kraɪm/",
+      "graphemes": ["c", "r", "i", "m", "e"],
+      "phonemes": ["/k", "r", "aɪ", "m", "-/"],
+      "phonics": ["/k", "r", "ī", "m", "-/"],
+      "tags": ["cluster", "magic_e"],
+      "hearts": [0, 0, 0, 0, 0],
+      "hint": "單音節；cr 為 cluster；i_e 對應 /aɪ/。"
+    },
+    {
+      "number": "⚠️ 危險",
+      "word": "danger",
+      "ipa": "/ˈdeɪndʒɚ/",
+      "graphemes": ["d", "a", "n", "g", "er"],
+      "phonemes": ["/'d", "eɪ", "n", "dʒ", "ɚ/"],
+      "phonics": ["/'d", "ā", "n", "j", "er/"],
+      "tags": ["open", "suffix"],
+      "hearts": [0, 0, 0, 0, 0],
+      "hint": "重音在 dan-；開音節長母音；-er 字尾。"
+    },
+    {
+      "number": "😊 情感",
+      "word": "emotion",
+      "ipa": "/ɪˈmoʊʃən/",
+      "graphemes": ["e", "m", "o", "ti", "o", "n"],
+      "phonemes": ["/ɪ", "'m", "oʊ", "ʃ", "ə", "n/"],
+      "phonics": ["/ĭ", "'m", "ō", "sh", "ə", "n/"],
+      "tags": ["closed", "open", "suffix"],
+      "hearts": [0, 0, 0, 0, 0, 0],
+      "hint": "重音在 -mo-；第一音節閉音節；mo 開音節長母音；-tion 字尾。"
+    },
+    {
+      "number": "👿 敵人",
+      "word": "enemy",
+      "ipa": "/ˈɛnəmi/",
+      "graphemes": ["e", "n", "e", "m", "y"],
+      "phonemes": ["/'ɛ", "n", "ə", "m", "i/"],
+      "phonics": ["/'ĕ", "n", "ə", "m", "ē/"],
+      "tags": ["closed", "suffix"],
+      "hearts": [0, 0, 0, 0, 0],
+      "hint": "重音在 en-；閉音節；-y 字尾發 /i/。"
+    },
+    {
+      "number": "😨 恐懼",
+      "word": "fear",
+      "ipa": "/fɪr/",
+      "graphemes": ["f", "ear"],
+      "phonemes": ["/f", "ɪr/"],
+      "phonics": ["/f", "ir/"],
+      "tags": ["vowel_team", "irregular", "rcontrolled"],
+      "hearts": [0, 1],
+      "hint": "單音節；ear 對應 /ɪr/（irregular）；r-controlled。"
+    },
+    {
+      "number": "💭 感覺",
+      "word": "feeling",
+      "ipa": "/ˈfilɪŋ/",
+      "graphemes": ["f", "ee", "l", "i", "ng"],
+      "phonemes": ["/'f", "i", "l", "ɪ", "ŋ/"],
+      "phonics": ["/'f", "ē", "l", "ĭ", "ng/"],
+      "tags": ["vowel_team", "closed", "digraph", "suffix"],
+      "hearts": [0, 0, 0, 0, 0],
+      "hint": "重音在 feel-；ee 對應 /i/；第二音節閉音節；ng 為 digraph；-ing 字尾。"
+    },
+    {
+      "number": "🕊️ 自由",
+      "word": "freedom",
+      "ipa": "/ˈfridəm/",
+      "graphemes": ["f", "r", "ee", "d", "o", "m"],
+      "phonemes": ["/'f", "r", "i", "d", "ə", "m/"],
+      "phonics": ["/'f", "r", "ē", "d", "ə", "m/"],
+      "tags": ["cluster", "vowel_team", "suffix"],
+      "hearts": [0, 0, 0, 0, 0, 0],
+      "hint": "重音在 free-；fr 為 cluster；ee 對應 /i/；-dom 字尾。"
+    },
+    {
+      "number": "🤝 友誼",
+      "word": "friendship",
+      "ipa": "/ˈfrɛndʃɪp/",
+      "graphemes": ["f", "r", "ie", "n", "d", "sh", "i", "p"],
+      "phonemes": ["/'f", "r", "ɛ", "n", "d", "ʃ", "ɪ", "p/"],
+      "phonics": ["/'f", "r", "ĕ", "n", "d", "sh", "ĭ", "p/"],
+      "tags": ["cluster", "vowel_team", "irregular", "closed", "digraph", "suffix"],
+      "hearts": [0, 0, 1, 0, 0, 0, 0, 0],
+      "hint": "重音在 friend-；fr 為 cluster；ie 對應 /ɛ/（irregular）；閉音節；sh 為 digraph；-ship 字尾。"
+    },
+    {
+      "number": "😇 善良",
+      "word": "goodness",
+      "ipa": "/ˈgʊdnəs/",
+      "graphemes": ["g", "oo", "d", "n", "e", "ss"],
+      "phonemes": ["/'g", "ʊ", "d", "n", "ə", "s/"],
+      "phonics": ["/'g", "oo", "d", "n", "ə", "s/"],
+      "tags": ["vowel_team", "suffix"],
+      "hearts": [0, 0, 0, 0, 0, 0],
+      "hint": "重音在 good-；oo 對應 /ʊ/；-ness 字尾。"
+    },
+    {
+      "number": "🤗 誠實",
+      "word": "honesty",
+      "ipa": "/ˈɑnəsti/",
+      "graphemes": ["h", "o", "n", "e", "s", "t", "y"],
+      "phonemes": ["/'h", "ɑ", "n", "ə", "s", "t", "i/"],
+      "phonics": ["/'h", "ŏ", "n", "ə", "s", "t", "ē/"],
+      "tags": ["closed", "suffix"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0],
+      "hint": "重音在 hon-；閉音節；-y 字尾發 /i/。"
+    },
+    {
+      "number": "😄 幽默",
+      "word": "humor",
+      "ipa": "/ˈhjumɚ/",
+      "graphemes": ["h", "u", "m", "or"],
+      "phonemes": ["/'hj", "u", "m", "ɚ/"],
+      "phonics": ["/'hū", "m", "or/"],
+      "tags": ["open", "rcontrolled", "suffix"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "重音在 hu-；開音節長母音；or 在重音音節 r-controlled；-or 字尾。"
+    },
+    {
+      "number": "🍔 飢餓",
+      "word": "hunger",
+      "ipa": "/ˈhʌŋgɚ/",
+      "graphemes": ["h", "u", "n", "g", "er"],
+      "phonemes": ["/'h", "ʌ", "ŋ", "g", "ɚ/"],
+      "phonics": ["/'h", "ŭ", "ng", "g", "er/"],
+      "tags": ["closed", "digraph", "suffix"],
+      "hearts": [0, 0, 0, 0, 0],
+      "hint": "重音在 hun-；閉音節；ng 為 digraph；-er 字尾。"
+    },
+    {
+      "number": "😌 愉悅",
+      "word": "pleasure",
+      "ipa": "/ˈplɛʒɚ/",
+      "graphemes": ["p", "l", "ea", "s", "u", "re"],
+      "phonemes": ["/'p", "l", "ɛ", "ʒ", "ɚ/"],
+      "phonics": ["/'p", "l", "ĕ", "zh", "r/"],
+      "tags": ["cluster", "vowel_team", "irregular", "rcontrolled", "suffix"],
+      "hearts": [0, 0, 1, 0, 0, 0],
+      "hint": "重音在 plea-；pl 為 cluster；ea 對應 /ɛ/（irregular）；sure 對應 /ʒɚ/；-ure 字尾。"
+    },
+    {
+      "number": "😊 微笑",
+      "word": "smile",
+      "ipa": "/smaɪl/",
+      "graphemes": ["s", "m", "i", "l", "e"],
+      "phonemes": ["/s", "m", "aɪ", "l", "-/"],
+      "phonics": ["/s", "m", "ī", "l", "-/"],
+      "tags": ["cluster", "magic_e"],
+      "hearts": [0, 0, 0, 0, 0],
+      "hint": "單音節；sm 為 cluster；i_e 對應 /aɪ/。"
+    },
+    {
+      "number": "🌟 才能",
+      "word": "talent",
+      "ipa": "/ˈtælənt/",
+      "graphemes": ["t", "a", "l", "e", "nt"],
+      "phonemes": ["/'t", "æ", "l", "ə", "nt/"],
+      "phonics": ["/'t", "ă", "l", "ə", "nt/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 0, 0],
+      "hint": "重音在 tal-；閉音節短母音。"
+    },
+    {
+      "number": "💎 寶藏",
+      "word": "treasure",
+      "ipa": "/ˈtrɛʒɚ/",
+      "graphemes": ["t", "r", "ea", "s", "u", "re"],
+      "phonemes": ["/'t", "r", "ɛ", "ʒ", "ɚ/"],
+      "phonics": ["/'t", "r", "ĕ", "zh", "r/"],
+      "tags": ["cluster", "vowel_team", "irregular", "rcontrolled", "suffix"],
+      "hearts": [0, 0, 1, 0, 0, 0],
+      "hint": "重音在 trea-；tr 為 cluster；ea 對應 /ɛ/（irregular）；sure 對應 /ʒɚ/；-ure 字尾。"
+    },
+    {
+      "number": "✨ 真理",
+      "word": "truth",
+      "ipa": "/truθ/",
+      "graphemes": ["t", "r", "u", "th"],
+      "phonemes": ["/t", "r", "u", "θ/"],
+      "phonics": ["/t", "r", "ū", "th/"],
+      "tags": ["cluster", "open", "digraph"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "單音節；tr 為 cluster；u 開音節長母音；th 為 digraph。"
+    }
+  ]
+}
