@@ -1,8 +1,6 @@
-// Category 37: Other adverbs - Set 2
-// Time/Sequence/Manner adverbs (13 words)
-
-[
-  {
+{
+  "items": [
+    {
     "number": "1️⃣ 實際上",
     "word": "actually",
     "ipa": "ˈæktʃuəli",
@@ -146,3 +144,4 @@
     "hint": "a 發 schwa；ay 發長音 ā"
   }
 ]
+}
