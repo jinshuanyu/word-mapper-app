@@ -269,7 +269,7 @@
 },
      {
       "slug": "otheradjs",
-      "title": "Other Adjs 其他形容詞",
+      "title": "Other Adj. 其他形容詞",
       "levels": [
         { "label": "狀態形容詞", "src": "data/adjs-1.json" },
                 { "label": "程度與數量", "src": "data/adjs-2.json" },
@@ -277,6 +277,16 @@
                 { "label": "外觀與特性", "src": "data/adjs-4.json" },
                 { "label": "時間與順序", "src": "data/adjs-5.json" },
         { "label": "情感與態度", "src": "data/adjs-5.json" }
+      ]
+    },
+    {
+      "slug": "otheradvs",
+      "title": "Other Adv. 其他副詞",
+      "levels": [
+        { "label": "頻率與程度", "src": "data/adv-1.json" },
+                { "label": "時序與方式", "src": "data/adv-2.json" },
+                { "label": "地點與可能", "src": "data/adv-3.json" },
+                { "label": "連接與回應", "src": "data/adv-4.json" }
       ]
     },
              {
@@ -292,6 +302,7 @@
     }
   ]
 }
+
 
 
 
