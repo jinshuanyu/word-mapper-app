@@ -1,14 +1,14 @@
 {
   "items": [
     {
-      "number": "🌏 亞洲的",
+      "number": "🌏 亞洲人",
       "word": "Asian",
       "ipa": "/ˈeɪʒən/",
       "graphemes": ["A", "si", "a", "n"],
       "phonemes": ["/'eɪ", "ʒ", "ə", "n/"],
       "phonics": ["/'ā", "zh", "ə", "n/"],
       "tags": ["open", "suffix"],
-      "hearts": [0, 0, 0, 0],
+      "hearts": [0, 1, 0, 0],
       "hint": "重音在 A-；開音節長母音；si 對應 /ʒ/；-an 字尾。"
     },
     {
@@ -18,7 +18,7 @@
       "graphemes": ["c", "e", "n", "t", "u", "r", "y"],
       "phonemes": ["/'s", "ɛ", "n", "tʃ", "ə", "r", "i/"],
       "phonics": ["/'s", "ĕ", "n", "ch", "ə", "r", "ē/"],
-      "tags": ["closed", "digraph", "suffix"],
+      "tags": ["closed", "digraph"],
       "hearts": [0, 0, 0, 0, 0, 0, 0],
       "hint": "重音在 cen-；閉音節短母音；t 在 u 前發 /tʃ/；-y 字尾。"
     },
@@ -29,8 +29,8 @@
       "graphemes": ["c", "our", "t"],
       "phonemes": ["/k", "ɔr", "t/"],
       "phonics": ["/k", "or", "t/"],
-      "tags": ["vowel_team", "rcontrolled"],
-      "hearts": [0, 0, 0],
+      "tags": ["irregular"],
+      "hearts": [0, 1, 0],
       "hint": "單音節；our 對應 /ɔr/；r-controlled。"
     },
     {
@@ -48,11 +48,11 @@
       "number": "🎨 文化",
       "word": "culture",
       "ipa": "/ˈkʌltʃɚ/",
-      "graphemes": ["c", "u", "l", "t", "u", "re"],
+      "graphemes": ["c", "u", "l", "t", "ure"],
       "phonemes": ["/'k", "ʌ", "l", "tʃ", "ɚ/"],
       "phonics": ["/'k", "ŭ", "l", "ch", "r/"],
-      "tags": ["closed", "digraph", "rcontrolled", "suffix"],
-      "hearts": [0, 0, 0, 0, 0, 0],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 1, 1],
       "hint": "重音在 cul-；閉音節；ture 對應 /tʃɚ/（digraph + r-controlled）；-ure 字尾。"
     },
     {
@@ -62,19 +62,19 @@
       "graphemes": ["g", "o", "v", "er", "n", "m", "e", "nt"],
       "phonemes": ["/'g", "ʌ", "v", "ɚ", "n", "m", "ə", "nt/"],
       "phonics": ["/'g", "ŭ", "v", "er", "n", "m", "ə", "nt/"],
-      "tags": ["closed", "suffix"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
+      "tags": ["irregular", "suffix"],
+      "hearts": [0, 1, 0, 0, 0, 0, 0, 0],
       "hint": "重音在 gov-；閉音節短母音；-ment 字尾。"
     },
     {
-      "number": "🇯🇵 日本的",
+      "number": "🇯🇵 日本人",
       "word": "Japanese",
       "ipa": "/dʒæpəˈniz/",
       "graphemes": ["J", "a", "p", "a", "n", "e", "se"],
       "phonemes": ["/dʒ", "æ", "p", "ə", "'n", "i", "z/"],
-      "phonics": ["/j", "ă", "p", "ə", "'n", "ē", "z/"],
-      "tags": ["closed", "open"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0],
+      "phonics": ["/-j", "ă", "p", "ə", "'n", "ē", "z/"],
+      "tags": ["open", "suffix"],
+      "hearts": [0, 0, 0, 0, 0, 0, 1],
       "hint": "重音在 -nese；第一音節閉音節；nese 開音節長母音。"
     },
     {
@@ -89,7 +89,7 @@
       "hint": "重音在 king-；閉音節短母音；ng 為 digraph；-dom 字尾。"
     },
     {
-      "number": "🇰🇷 韓國的",
+      "number": "🇰🇷 韓國人",
       "word": "Korean",
       "ipa": "/kəˈriən/",
       "graphemes": ["K", "o", "r", "ea", "n"],
@@ -103,10 +103,10 @@
       "number": "👨‍👩‍👧‍👦 人口",
       "word": "population",
       "ipa": "/pɑpjəˈleɪʃən/",
-      "graphemes": ["p", "o", "p", "u", "l", "a", "ti", "o", "n"],
-      "phonemes": ["/p", "ɑ", "p", "j", "ə", "'l", "eɪ", "ʃ", "ə", "n/"],
-      "phonics": ["/p", "ŏ", "p", "y", "ə", "'l", "ā", "sh", "ə", "n/"],
-      "tags": ["closed", "open", "suffix"],
+      "graphemes": ["p", "o", "p", "u", "l", "a", "tion"],
+      "phonemes": ["/p", "ɑ", "p", "jə", "'l", "eɪ", "ʃən/"],
+      "phonics": ["/p", "ŏ", "p", "yə", "'l", "ā", "shən/"],
+      "tags": [ "open", "suffix"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "重音在 -la-；第一音節閉音節；la 開音節長母音；-tion 字尾。"
     },
@@ -117,7 +117,7 @@
       "graphemes": ["p", "ow", "er"],
       "phonemes": ["/'p", "aʊ", "ɚ/"],
       "phonics": ["/'p", "ow", "er/"],
-      "tags": ["vowel_team", "rcontrolled", "suffix"],
+      "tags": ["vowel_team"],
       "hearts": [0, 0, 0],
       "hint": "重音在 pow-；ow 對應 /aʊ/；er 在重音音節 r-controlled；-er 字尾。"
     },
@@ -125,11 +125,11 @@
       "number": "💪 壓力",
       "word": "pressure",
       "ipa": "/ˈprɛʃɚ/",
-      "graphemes": ["p", "r", "e", "ss", "u", "re"],
+      "graphemes": ["p", "r", "e", "ss", "ure"],
       "phonemes": ["/'p", "r", "ɛ", "ʃ", "ɚ/"],
-      "phonics": ["/'p", "r", "ĕ", "sh", "r/"],
-      "tags": ["cluster", "closed", "digraph", "rcontrolled", "suffix"],
-      "hearts": [0, 0, 0, 0, 0, 0],
+      "phonics": ["/'p", "r", "ĕ", "sh", "er/"],
+      "tags": ["cluster", "closed",  "suffix"],
+      "hearts": [0, 0, 0, 1, 1],
       "hint": "重音在 pres-；pr 為 cluster；閉音節；ss+u 對應 /ʃ/；re 在重音音節 r-controlled；-ure 字尾。"
     },
     {
@@ -139,8 +139,8 @@
       "graphemes": ["s", "o", "c", "i", "e", "t", "y"],
       "phonemes": ["/s", "ə", "'s", "aɪ", "ə", "t", "i/"],
       "phonics": ["/s", "ə", "'s", "ī", "ə", "t", "ē/"],
-      "tags": ["open", "suffix"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0],
+      "tags": ["open"],
+      "hearts": [0, 0, 0, 0, 1, 0, 0],
       "hint": "重音在 -ci-；ci 開音節發 /saɪ/；-ty 字尾。"
     },
     {
@@ -166,13 +166,13 @@
       "hint": "重音在 sys-；閉音節短母音。"
     },
     {
-      "number": "🇹🇼 台灣的",
+      "number": "🇹🇼 台灣人",
       "word": "Taiwanese",
       "ipa": "/taɪwɑˈniz/",
       "graphemes": ["T", "ai", "w", "a", "n", "e", "se"],
       "phonemes": ["/t", "aɪ", "w", "ɑ", "'n", "i", "z/"],
       "phonics": ["/t", "ī", "w", "ŏ", "'n", "ē", "z/"],
-      "tags": ["vowel_team", "closed", "open"],
+      "tags": [ "open","suffix"],
       "hearts": [0, 0, 0, 0, 0, 0, 0],
       "hint": "重音在 -nese；ai 對應 /aɪ/；第一音節閉音節；nese 開音節長母音。"
     },
@@ -183,7 +183,7 @@
       "graphemes": ["w", "ar"],
       "phonemes": ["/w", "ɔr/"],
       "phonics": ["/w", "or/"],
-      "tags": ["rcontrolled"],
+      "tags": ["irregular"],
       "hearts": [0, 0],
       "hint": "單音節；ar 在 w 後對應 /ɔr/；r-controlled。"
     },
@@ -194,7 +194,7 @@
       "graphemes": ["n", "e", "t"],
       "phonemes": ["/n", "ɛ", "t/"],
       "phonics": ["/n", "ĕ", "t/"],
-      "tags": ["closed"],
+      "tags": ["cvc"],
       "hearts": [0, 0, 0],
       "hint": "單音節閉音節短母音。"
     }
