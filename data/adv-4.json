@@ -1,81 +1,81 @@
 {
   "items": [
-      {
-    "number": "1️⃣ 也（用於否定句）",
-    "word": "either",
-    "ipa": "ˈiːðər",
-    "graphemes": ["ei", "th", "er"],
-    "phonemes": ["/'iː", "ð", "ər"],
-    "phonics": ["ē", "th", "ər"],
-    "tags": ["vowel_team", "digraph", "rcontrolled"],
-    "hearts": [0, 0, 0],
-    "hint": "ei 發長音 ē；th 發 th；er 發 ər"
-  },
-  {
-    "number": "2️⃣ 也不",
-    "word": "neither",
-    "ipa": "ˈniːðər",
-    "graphemes": ["n", "ei", "th", "er"],
-    "phonemes": ["/'n", "iː", "ð", "ər"],
-    "phonics": ["n", "ē", "th", "ər"],
-    "tags": ["vowel_team", "digraph", "rcontrolled"],
-    "hearts": [0, 0, 0, 0],
-    "hint": "ei 發長音 ē；th 發 th；er 發 ər"
-  },
-  {
-    "number": "3️⃣ 不",
-    "word": "no",
-    "ipa": "ˈnoʊ",
-    "graphemes": ["n", "o"],
-    "phonemes": ["/'n", "oʊ"],
-    "phonics": ["n", "ō"],
-    "tags": ["open"],
-    "hearts": [0, 0],
-    "hint": "o 發長音 ō（開音節）"
-  },
-  {
-    "number": "4️⃣ 也不",
-    "word": "nor",
-    "ipa": "ˈnɔːr",
-    "graphemes": ["n", "or"],
-    "phonemes": ["/'n", "ɔːr"],
-    "phonics": ["n", "ôr"],
-    "tags": ["rcontrolled"],
-    "hearts": [0, 0],
-    "hint": "or 發 ôr"
-  },
-  {
-    "number": "5️⃣ 不",
-    "word": "not",
-    "ipa": "ˈnɑːt",
-    "graphemes": ["n", "o", "t"],
-    "phonemes": ["/'n", "ɑː", "t"],
-    "phonics": ["n", "ŏ", "t"],
-    "tags": ["closed"],
-    "hearts": [0, 0, 0],
-    "hint": "o 發短音 ŏ"
-  },
-  {
-    "number": "6️⃣ 好的",
-    "word": "OK",
-    "ipa": "ˌoʊˈkeɪ",
-    "graphemes": ["O", "K"],
-    "phonemes": ["ˌ'oʊ", "/'keɪ"],
-    "phonics": ["ō", "kā"],
-    "tags": ["open", "irregular"],
-    "hearts": [0, 1],
-    "hint": "O 發長音 ō；K 發 kā（字母發音）"
-  },
-  {
-    "number": "7️⃣ 是",
-    "word": "yes",
-    "ipa": "ˈjɛs",
-    "graphemes": ["y", "e", "s"],
-    "phonemes": ["/'j", "ɛ", "s"],
-    "phonics": ["y", "ĕ", "s"],
-    "tags": ["closed"],
-    "hearts": [0, 0, 0],
-    "hint": "e 發短音 ĕ"
-  }
-]
+    {
+      "number": "➕ 也（用於否定句）",
+      "word": "either",
+      "ipa": "ˈiːðɚ",
+      "graphemes": ["ei", "th", "er"],
+      "phonemes": ["/'i", "ð", "ɚ/"],
+      "phonics": ["/'ē", "<u>th</u>", "er/"],
+      "tags": ["vowel_team", "digraph", "rcontrolled", "irregular"],
+      "hearts": [0, 0, 0],
+      "hint": "ei 發 /i/（ē）；th 為濁音 /ð/（請用底線 th）；er 對應 /ɚ/。"
+    },
+    {
+      "number": "🚫 也不",
+      "word": "neither",
+      "ipa": "ˈniːðɚ",
+      "graphemes": ["n", "ei", "th", "er"],
+      "phonemes": ["/'n", "i", "ð", "ɚ/"],
+      "phonics": ["/'n", "ē", "<u>th</u>", "er/"],
+      "tags": ["vowel_team", "digraph", "rcontrolled"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "ei 發 /i/（ē）；th 為濁音 /ð/（請用底線 th）；er 對應 /ɚ/。"
+    },
+    {
+      "number": "❌ 不",
+      "word": "no",
+      "ipa": "ˈnoʊ",
+      "graphemes": ["n", "o"],
+      "phonemes": ["/'n", "oʊ/"],
+      "phonics": ["/'n", "ō/"],
+      "tags": ["open"],
+      "hearts": [0, 0],
+      "hint": "o 發長音 /oʊ/（ō）。"
+    },
+    {
+      "number": "🚫 也不",
+      "word": "nor",
+      "ipa": "ˈnɔr",
+      "graphemes": ["n", "or"],
+      "phonemes": ["/'n", "ɔr/"],
+      "phonics": ["/'n", "or/"],
+      "tags": ["rcontrolled"],
+      "hearts": [0, 0],
+      "hint": "or 對應 /ɔr/。"
+    },
+    {
+      "number": "🚫 不",
+      "word": "not",
+      "ipa": "ˈnɑt",
+      "graphemes": ["n", "o", "t"],
+      "phonemes": ["/'n", "ɑ", "t/"],
+      "phonics": ["/'n", "ŏ", "t/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0],
+      "hint": "o 對應 /ɑ/（ŏ）。"
+    },
+    {
+      "number": "👍 好的",
+      "word": "OK",
+      "ipa": "ˌoʊˈkeɪ",
+      "graphemes": ["O", "K"],
+      "phonemes": ["/ˌoʊ", "'keɪ/"],
+      "phonics": ["/ō", "'kā/"],
+      "tags": ["open", "irregular"],
+      "hearts": [0, 1],
+      "hint": "O = /oʊ/（ō）；K 這裡讀 /keɪ/（ā，需記作字母名稱音）。"
+    },
+    {
+      "number": "✅ 是",
+      "word": "yes",
+      "ipa": "ˈjɛs",
+      "graphemes": ["y", "e", "s"],
+      "phonemes": ["/'j", "ɛ", "s/"],
+      "phonics": ["/'y", "ĕ", "s/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0],
+      "hint": "e 發短音 ĕ。"
+    }
+  ]
 }
