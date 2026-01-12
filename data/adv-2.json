@@ -1,147 +1,147 @@
 {
   "items": [
     {
-    "number": "1️⃣ 實際上",
-    "word": "actually",
-    "ipa": "ˈæktʃuəli",
-    "graphemes": ["a", "c", "t", "u", "a", "ll", "y"],
-    "phonemes": ["/'æ", "k", "tʃ", "u", "ə", "l", "i"],
-    "phonics": ["ă", "k", "ch", "oo", "ə", "l", "ē"],
-    "tags": ["closed", "digraph", "floss"],
-    "hearts": [0, 0, 0, 0, 0, 0, 0],
-    "hint": "a 發短音 ă；t 和 u 組成 ch 音；第二個 a 發 schwa；ll 因為多音節不算 floss rule；y 發 ē"
-  },
-  {
-    "number": "2️⃣ 再次",
-    "word": "again",
-    "ipa": "əˈɡɛn",
-    "graphemes": ["a", "g", "ai", "n"],
-    "phonemes": ["ə", "/'ɡ", "ɛ", "n"],
-    "phonics": ["ə", "g", "ĕ", "n"],
-    "tags": ["closed", "irregular"],
-    "hearts": [0, 0, 1, 0],
-    "hint": "第一個 a 發 schwa；ai 發短音 ĕ（不規則）"
-  },
-  {
-    "number": "3️⃣ 也",
-    "word": "also",
-    "ipa": "ˈɔːlsoʊ",
-    "graphemes": ["a", "l", "s", "o"],
-    "phonemes": ["/'ɔː", "l", "s", "oʊ"],
-    "phonics": ["ä", "l", "s", "ō"],
-    "tags": ["rcontrolled", "open"],
-    "hearts": [0, 0, 0, 0],
-    "hint": "al 發 ä；o 發長音 ō（開音節）"
-  },
-  {
-    "number": "4️⃣ 特別地",
-    "word": "especially",
-    "ipa": "ɪˈspɛʃəli",
-    "graphemes": ["e", "s", "p", "e", "c", "i", "a", "ll", "y"],
-    "phonemes": ["ɪ", "/'s", "p", "ɛ", "ʃ", "ə", "l", "i"],
-    "phonics": ["ĭ", "s", "p", "ĕ", "sh", "ə", "l", "ē"],
-    "tags": ["closed", "digraph", "floss"],
-    "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0],
-    "hint": "第一個 e 發短音 ĭ；第二個 e 發短音 ĕ；ci 發 sh；a 發 schwa；ll 因為多音節不算 floss rule；y 發 ē"
-  },
-  {
-    "number": "5️⃣ 最後",
-    "word": "finally",
-    "ipa": "ˈfaɪnəli",
-    "graphemes": ["f", "i", "n", "a", "ll", "y"],
-    "phonemes": ["/'f", "aɪ", "n", "ə", "l", "i"],
-    "phonics": ["f", "ī", "n", "ə", "l", "ē"],
-    "tags": ["open", "floss"],
-    "hearts": [0, 0, 0, 0, 0, 0],
-    "hint": "i 發長音 ī（開音節）；a 發 schwa；ll 因為多音節不算 floss rule；y 發 ē"
-  },
-  {
-    "number": "6️⃣ 仍然",
-    "word": "still",
-    "ipa": "ˈstɪl",
-    "graphemes": ["s", "t", "i", "ll"],
-    "phonemes": ["/'s", "t", "ɪ", "l"],
-    "phonics": ["s", "t", "ĭ", "ll"],
-    "tags": ["closed", "floss", "cluster"],
-    "hearts": [0, 0, 0, 0],
-    "hint": "st 是 cluster；i 發短音 ĭ；ll 在單音節詞尾"
-  },
-  {
-    "number": "7️⃣ 然後",
-    "word": "then",
-    "ipa": "ˈðɛn",
-    "graphemes": ["th", "e", "n"],
-    "phonemes": ["/'ð", "ɛ", "n"],
-    "phonics": ["th", "ĕ", "n"],
-    "tags": ["closed", "digraph"],
-    "hearts": [0, 0, 0],
-    "hint": "th 發 th；e 發短音 ĕ"
-  },
-  {
-    "number": "8️⃣ 一起",
-    "word": "together",
-    "ipa": "təˈɡɛðər",
-    "graphemes": ["t", "o", "g", "e", "th", "er"],
-    "phonemes": ["t", "ə", "/'ɡ", "ɛ", "ð", "ər"],
-    "phonics": ["t", "ə", "g", "ĕ", "th", "ər"],
-    "tags": ["closed", "digraph", "rcontrolled"],
-    "hearts": [0, 0, 0, 0, 0, 0],
-    "hint": "o 發 schwa；e 發短音 ĕ；th 發 th；er 發 ər"
-  },
-  {
-    "number": "9️⃣ 兩次",
-    "word": "twice",
-    "ipa": "ˈtwaɪs",
-    "graphemes": ["tw", "i", "c", "e"],
-    "phonemes": ["/'tw", "aɪ", "s"],
-    "phonics": ["tw", "ī", "s"],
-    "tags": ["magic_e", "cluster"],
-    "hearts": [0, 0, 0, 1],
-    "hint": "tw 是 cluster；i-e 發長音 ī；e 不發音"
-  },
-  {
-    "number": "🔟 還",
-    "word": "yet",
-    "ipa": "ˈjɛt",
-    "graphemes": ["y", "e", "t"],
-    "phonemes": ["/'j", "ɛ", "t"],
-    "phonics": ["y", "ĕ", "t"],
-    "tags": ["closed"],
-    "hearts": [0, 0, 0],
-    "hint": "e 發短音 ĕ"
-  },
-  {
-    "number": "1️⃣1️⃣ 大聲地",
-    "word": "aloud",
-    "ipa": "əˈlaʊd",
-    "graphemes": ["a", "l", "ou", "d"],
-    "phonemes": ["ə", "/'l", "aʊ", "d"],
-    "phonics": ["ə", "l", "ou", "d"],
-    "tags": ["vowel_team"],
-    "hearts": [0, 0, 0, 0],
-    "hint": "第一個 a 發 schwa；ou 發 ou"
-  },
-  {
-    "number": "1️⃣2️⃣ 向前",
-    "word": "ahead",
-    "ipa": "əˈhɛd",
-    "graphemes": ["a", "h", "ea", "d"],
-    "phonemes": ["ə", "/'h", "ɛ", "d"],
-    "phonics": ["ə", "h", "ĕ", "d"],
-    "tags": ["closed", "irregular"],
-    "hearts": [0, 0, 1, 0],
-    "hint": "a 發 schwa；ea 發短音 ĕ（不規則）"
-  },
-  {
-    "number": "1️⃣3️⃣ 離開",
-    "word": "away",
-    "ipa": "əˈweɪ",
-    "graphemes": ["a", "w", "ay"],
-    "phonemes": ["ə", "/'w", "eɪ"],
-    "phonics": ["ə", "w", "ā"],
-    "tags": ["vowel_team"],
-    "hearts": [0, 0, 0],
-    "hint": "a 發 schwa；ay 發長音 ā"
-  }
-]
+      "number": "📌 實際上",
+      "word": "actually",
+      "ipa": "ˈæktʃuəli",
+      "graphemes": ["a", "c", "t", "u", "a", "ll", "y"],
+      "phonemes": ["/'æ", "k", "tʃ", "u", "ə", "l", "i"],
+      "phonics": ["ă", "k", "ch", "oo", "ə", "l", "ē"],
+      "tags": ["closed", "digraph"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0],
+      "hint": "a 發短音 ă；t + u 常變成 /tʃ/；第二個 a 發 schwa；ll 因為多音節不算 floss rule；y 發 ē"
+    },
+    {
+      "number": "🔁 再次",
+      "word": "again",
+      "ipa": "əˈɡɛn",
+      "graphemes": ["a", "g", "ai", "n"],
+      "phonemes": ["ə", "/'ɡ", "ɛ", "n"],
+      "phonics": ["ə", "g", "ĕ", "n"],
+      "tags": ["closed", "irregular"],
+      "hearts": [0, 0, 1, 0],
+      "hint": "第一個 a 發 schwa；ai 發短音 ĕ（不規則）"
+    },
+    {
+      "number": "➕ 也",
+      "word": "also",
+      "ipa": "ˈɔːlsoʊ",
+      "graphemes": ["a", "l", "s", "o"],
+      "phonemes": ["/'ɔː", "l", "s", "oʊ"],
+      "phonics": ["ä", "l", "s", "ō"],
+      "tags": ["irregular", "open"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "al 發 ä；o 發長音 ō（開音節）"
+    },
+    {
+      "number": "⭐ 特別地",
+      "word": "especially",
+      "ipa": "ɪˈspɛʃəli",
+      "graphemes": ["e", "s", "p", "e", "c", "i", "a", "ll", "y"],
+      "phonemes": ["ɪ", "/'s", "p", "ɛ", "ʃ", "ə", "l", "i"],
+      "phonics": ["ĭ", "s", "p", "ĕ", "sh", "ə", "l", "ē"],
+      "tags": ["closed", "digraph"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "hint": "第一個 e 發短音 ĭ；第二個 e 發短音 ĕ；ci 常對應 /ʃ/；a 發 schwa；ll 因為多音節不算 floss rule；y 發 ē"
+    },
+    {
+      "number": "🏁 最後",
+      "word": "finally",
+      "ipa": "ˈfaɪnəli",
+      "graphemes": ["f", "i", "n", "a", "ll", "y"],
+      "phonemes": ["/'f", "aɪ", "n", "ə", "l", "i"],
+      "phonics": ["f", "ī", "n", "ə", "l", "ē"],
+      "tags": ["open"],
+      "hearts": [0, 0, 0, 0, 0, 0],
+      "hint": "i 發長音 ī（開音節）；a 發 schwa；ll 因為多音節不算 floss rule；y 發 ē"
+    },
+    {
+      "number": "⏳ 仍然",
+      "word": "still",
+      "ipa": "ˈstɪl",
+      "graphemes": ["s", "t", "i", "ll"],
+      "phonemes": ["/'s", "t", "ɪ", "l"],
+      "phonics": ["s", "t", "ĭ", "ll"],
+      "tags": ["closed", "floss", "cluster"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "st 是 cluster；i 發短音 ĭ；ll 在單音節詞尾"
+    },
+    {
+      "number": "👉 然後",
+      "word": "then",
+      "ipa": "ˈðɛn",
+      "graphemes": ["th", "e", "n"],
+      "phonemes": ["/'ð", "ɛ", "n"],
+      "phonics": ["<u>th</u>", "ĕ", "n"],
+      "tags": ["closed", "digraph"],
+      "hearts": [1, 0, 0],
+      "hint": "th 為濁音 /ð/（請用底線 th）；e 發短音 ĕ"
+    },
+    {
+      "number": "🤝 一起",
+      "word": "together",
+      "ipa": "təˈɡɛðər",
+      "graphemes": ["t", "o", "g", "e", "th", "er"],
+      "phonemes": ["t", "ə", "/'ɡ", "ɛ", "ð", "ər"],
+      "phonics": ["t", "ə", "g", "ĕ", "<u>th</u>", "ər"],
+      "tags": ["closed", "digraph", "rcontrolled"],
+      "hearts": [0, 0, 0, 0, 1, 0],
+      "hint": "o 發 schwa；e 發短音 ĕ；th 為濁音 /ð/；er 發 ər"
+    },
+    {
+      "number": "✌️ 兩次",
+      "word": "twice",
+      "ipa": "ˈtwaɪs",
+      "graphemes": ["tw", "i", "c", "e"],
+      "phonemes": ["/'tw", "aɪ", "s", "-/"],
+      "phonics": ["tw", "ī", "s", "-/"],
+      "tags": ["magic_e", "cluster"],
+      "hearts": [0, 0, 0, 1],
+      "hint": "tw 是 cluster；i-e 發長音 ī；e 不發音"
+    },
+    {
+      "number": "⏱️ 還",
+      "word": "yet",
+      "ipa": "ˈjɛt",
+      "graphemes": ["y", "e", "t"],
+      "phonemes": ["/'j", "ɛ", "t"],
+      "phonics": ["y", "ĕ", "t"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0],
+      "hint": "e 發短音 ĕ"
+    },
+    {
+      "number": "🔊 大聲地",
+      "word": "aloud",
+      "ipa": "əˈlaʊd",
+      "graphemes": ["a", "l", "ou", "d"],
+      "phonemes": ["ə", "/'l", "aʊ", "d"],
+      "phonics": ["ə", "l", "ou", "d"],
+      "tags": ["vowel_team"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "第一個 a 發 schwa；ou 發 ou"
+    },
+    {
+      "number": "➡️ 向前",
+      "word": "ahead",
+      "ipa": "əˈhɛd",
+      "graphemes": ["a", "h", "ea", "d"],
+      "phonemes": ["ə", "/'h", "ɛ", "d"],
+      "phonics": ["ə", "h", "ĕ", "d"],
+      "tags": ["closed", "irregular"],
+      "hearts": [0, 0, 1, 0],
+      "hint": "a 發 schwa；ea 發短音 ĕ（不規則）"
+    },
+    {
+      "number": "🌬️ 離開",
+      "word": "away",
+      "ipa": "əˈweɪ",
+      "graphemes": ["a", "w", "ay"],
+      "phonemes": ["ə", "/'w", "eɪ"],
+      "phonics": ["ə", "w", "ā"],
+      "tags": ["vowel_team"],
+      "hearts": [0, 0, 0],
+      "hint": "a 發 schwa；ay 發長音 ā"
+    }
+  ]
 }
