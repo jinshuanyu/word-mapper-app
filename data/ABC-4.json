@@ -1,0 +1,169 @@
+{
+  "items": [
+    {
+      "number": "拿（原形）",
+      "word": "take",
+      "ipa": "ˈteɪk",
+      "graphemes": ["t", "a", "k", "e"],
+      "phonemes": ["/'t", "eɪ", "k"],
+      "phonics": ["t", "ā", "k"],
+      "tags": ["magic_e"],
+      "hearts": [0, 0, 0, 1],
+      "hint": "a-e 發長音 ā；e 不發音"
+    },
+    {
+      "number": "拿（過去式）",
+      "word": "took",
+      "ipa": "ˈtʊk",
+      "graphemes": ["t", "oo", "k"],
+      "phonemes": ["/'t", "ʊ", "k"],
+      "phonics": ["t", "oo", "k"],
+      "tags": ["vowel_team"],
+      "hearts": [0, 0, 0],
+      "hint": "oo 發 oo"
+    },
+    {
+      "number": "拿（過去分詞）",
+      "word": "taken",
+      "ipa": "ˈteɪkən",
+      "graphemes": ["t", "a", "k", "e", "n"],
+      "phonemes": ["/'t", "eɪ", "k", "ə", "n"],
+      "phonics": ["t", "ā", "k", "ə", "n"],
+      "tags": ["magic_e"],
+      "hearts": [0, 0, 0, 1, 0],
+      "hint": "a 發長音 ā；第一個 e 不發音；第二個 e 發 schwa"
+    },
+    {
+      "number": "丟（原形）",
+      "word": "throw",
+      "ipa": "ˈθroʊ",
+      "graphemes": ["thr", "ow"],
+      "phonemes": ["/'θr", "oʊ"],
+      "phonics": ["thr", "ō"],
+      "tags": ["vowel_team", "cluster", "digraph"],
+      "hearts": [0, 0],
+      "hint": "thr 是 cluster（th+r）；ow 發長音 ō"
+    },
+    {
+      "number": "丟（過去式）",
+      "word": "threw",
+      "ipa": "ˈθruː",
+      "graphemes": ["thr", "ew"],
+      "phonemes": ["/'θr", "uː"],
+      "phonics": ["thr", "oo"],
+      "tags": ["vowel_team", "cluster", "digraph"],
+      "hearts": [0, 0],
+      "hint": "thr 是 cluster（th+r）；ew 發 oo"
+    },
+    {
+      "number": "丟（過去分詞）",
+      "word": "thrown",
+      "ipa": "ˈθroʊn",
+      "graphemes": ["thr", "ow", "n"],
+      "phonemes": ["/'θr", "oʊ", "n"],
+      "phonics": ["thr", "ō", "n"],
+      "tags": ["vowel_team", "cluster", "digraph"],
+      "hearts": [0, 0, 0],
+      "hint": "thr 是 cluster（th+r）；ow 發長音 ō"
+    },
+    {
+      "number": "醒來（原形）",
+      "word": "wake",
+      "ipa": "ˈweɪk",
+      "graphemes": ["w", "a", "k", "e"],
+      "phonemes": ["/'w", "eɪ", "k"],
+      "phonics": ["w", "ā", "k"],
+      "tags": ["magic_e"],
+      "hearts": [0, 0, 0, 1],
+      "hint": "a-e 發長音 ā；e 不發音"
+    },
+    {
+      "number": "醒來（過去式）",
+      "word": "woke",
+      "ipa": "ˈwoʊk",
+      "graphemes": ["w", "o", "k", "e"],
+      "phonemes": ["/'w", "oʊ", "k"],
+      "phonics": ["w", "ō", "k"],
+      "tags": ["magic_e"],
+      "hearts": [0, 0, 0, 1],
+      "hint": "o-e 發長音 ō；e 不發音"
+    },
+    {
+      "number": "醒來（過去分詞）",
+      "word": "woken",
+      "ipa": "ˈwoʊkən",
+      "graphemes": ["w", "o", "k", "e", "n"],
+      "phonemes": ["/'w", "oʊ", "k", "ə", "n"],
+      "phonics": ["w", "ō", "k", "ə", "n"],
+      "tags": ["magic_e"],
+      "hearts": [0, 0, 0, 1, 0],
+      "hint": "o 發長音 ō；第一個 e 不發音；第二個 e 發 schwa"
+    },
+    {
+      "number": "穿（原形）",
+      "word": "wear",
+      "ipa": "ˈwɛr",
+      "graphemes": ["w", "ear"],
+      "phonemes": ["/'w", "ɛr"],
+      "phonics": ["w", "âr"],
+      "tags": ["rcontrolled"],
+      "hearts": [0, 0],
+      "hint": "ear 發 âr"
+    },
+    {
+      "number": "穿（過去式）",
+      "word": "wore",
+      "ipa": "ˈwɔːr",
+      "graphemes": ["w", "o", "r", "e"],
+      "phonemes": ["/'w", "ɔːr"],
+      "phonics": ["w", "ôr"],
+      "tags": ["rcontrolled", "silent_consonant"],
+      "hearts": [0, 0, 0, 1],
+      "hint": "or 發 ôr；e 不發音"
+    },
+    {
+      "number": "穿（過去分詞）",
+      "word": "worn",
+      "ipa": "ˈwɔːrn",
+      "graphemes": ["w", "or", "n"],
+      "phonemes": ["/'w", "ɔːr", "n"],
+      "phonics": ["w", "ôr", "n"],
+      "tags": ["rcontrolled"],
+      "hearts": [0, 0, 0],
+      "hint": "or 發 ôr"
+    },
+    {
+      "number": "寫（原形）",
+      "word": "write",
+      "ipa": "ˈraɪt",
+      "graphemes": ["wr", "i", "t", "e"],
+      "phonemes": ["/'r", "aɪ", "t"],
+      "phonics": ["r", "ī", "t"],
+      "tags": ["magic_e", "silent_consonant"],
+      "hearts": [1, 0, 0, 1],
+      "hint": "wr 中 w 不發音；i-e 發長音 ī；e 不發音"
+    },
+    {
+      "number": "寫（過去式）",
+      "word": "wrote",
+      "ipa": "ˈroʊt",
+      "graphemes": ["wr", "o", "t", "e"],
+      "phonemes": ["/'r", "oʊ", "t"],
+      "phonics": ["r", "ō", "t"],
+      "tags": ["magic_e", "silent_consonant"],
+      "hearts": [1, 0, 0, 1],
+      "hint": "wr 中 w 不發音；o-e 發長音 ō；e 不發音"
+    },
+    {
+      "number": "寫（過去分詞）",
+      "word": "written",
+      "ipa": "ˈrɪtən",
+      "graphemes": ["wr", "i", "tt", "e", "n"],
+      "phonemes": ["/'r", "ɪ", "t", "ə", "n"],
+      "phonics": ["r", "ĭ", "tt", "ə", "n"],
+      "tags": ["closed", "silent_consonant"],
+      "hearts": [1, 0, 0, 0, 0],
+      "hint": "wr 中 w 不發音；i 發短音 ĭ；e 發 schwa"
+    }
+  ]
+}

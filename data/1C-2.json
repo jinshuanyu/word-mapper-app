@@ -1,0 +1,325 @@
+{
+  "items": [
+    {
+      "number": "💭 關心",
+      "word": "concern",
+      "ipa": "/kənˈsɜrn/",
+      "graphemes": ["c", "o", "n", "c", "er", "n"],
+      "phonemes": ["/k", "ə", "n", "'s", "ɜr", "n/"],
+      "phonics": ["/k", "ə", "n", "'s", "er", "n/"],
+      "tags": ["rcontrolled"],
+      "hearts": [0, 0, 0, 0, 0, 0],
+      "hint": "重音在 -cern；er 為 r-controlled；字尾有聲子音加 -ed 發 /d/。"
+    },
+    {
+      "number": "😵 使困惑",
+      "word": "confuse",
+      "ipa": "/kənˈfjuz/",
+      "graphemes": ["c", "o", "n", "f", "u", "s", "e"],
+      "phonemes": ["/k", "ə", "n", "'f", "ju", "z", "-/"],
+      "phonics": ["/k", "ə", "n", "'f", "yū", "z", "-/"],
+      "tags": ["open"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0],
+      "hint": "重音在 -fuse（開音節）；字尾有聲子音加 -ed 發 /d/。"
+    },
+    {
+      "number": "🤔 考慮",
+      "word": "consider",
+      "ipa": "/kənˈsɪdɚ/",
+      "graphemes": ["c", "o", "n", "s", "i", "d", "er"],
+      "phonemes": ["/k", "ə", "n", "'s", "ɪ", "d", "ɚ/"],
+      "phonics": ["/k", "ə", "n", "'s", "ĭ", "d", "er/"],
+      "tags": ["closed", "suffix"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0],
+      "hint": "重音在 -sid-（閉音節）；-er 字尾；字尾有聲子音加 -ed 發 /d/。"
+    },
+    {
+      "number": "➡️ 繼續",
+      "word": "continue",
+      "ipa": "/kənˈtɪnju/",
+      "graphemes": ["c", "o", "n", "t", "i", "n", "ue"],
+      "phonemes": ["/k", "ə", "n", "'t", "ɪ", "n", "ju/"],
+      "phonics": ["/k", "ə", "n", "'t", "ĭ", "n", "yū/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0],
+      "hint": "重音在 -tin-（閉音節）；字尾母音加 -ed 發 /d/。"
+    },
+    {
+      "number": "🎮 控制",
+      "word": "control",
+      "ipa": "/kənˈtroʊl/",
+      "graphemes": ["c", "o", "n", "t", "r", "o", "l"],
+      "phonemes": ["/k", "ə", "n", "'t", "r", "oʊ", "l/"],
+      "phonics": ["/k", "ə", "n", "'t", "r", "ō", "l/"],
+      "tags": ["cluster", "open"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0],
+      "hint": "重音在 -trol；tr 混合音；-trol 開音節；字尾有聲子音加 -ed 發 /d/。"
+    },
+    {
+      "number": "📰 覆蓋",
+      "word": "cover",
+      "ipa": "/ˈkʌvɚ/",
+      "graphemes": ["c", "o", "v", "er"],
+      "phonemes": ["/'k", "ʌ", "v", "ɚ/"],
+      "phonics": ["/'k", "ŭ", "v", "er/"],
+      "tags": ["closed", "suffix"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "重音在 cov-（閉音節）；-er 字尾；字尾有聲子音加 -ed 發 /d/。"
+    },
+    {
+      "number": "😭 哭",
+      "word": "cry",
+      "ipa": "/kraɪ/",
+      "graphemes": ["c", "r", "y"],
+      "phonemes": ["/k", "r", "aɪ/"],
+      "phonics": ["/k", "r", "ī/"],
+      "tags": ["cluster", "open"],
+      "hearts": [0, 0, 0],
+      "hint": "單音節；cr 混合音；開音節；y 發 /aɪ/。"
+    },
+    {
+      "number": "📖 定義",
+      "word": "define",
+      "ipa": "/dɪˈfaɪn/",
+      "graphemes": ["d", "e", "f", "i", "n", "e"],
+      "phonemes": ["/d", "ɪ", "'f", "aɪ", "n", "-/"],
+      "phonics": ["/d", "ĭ", "'f", "ī", "n", "-/"],
+      "tags": ["magic_e", "open"],
+      "hearts": [0, 0, 0, 0, 0, 0],
+      "hint": "重音在 -fine（開音節）；i_e 對應 /aɪ/；字尾有聲子音加 -ed 發 /d/。"
+    },
+    {
+      "number": "📦 遞送",
+      "word": "deliver",
+      "ipa": "/dɪˈlɪvɚ/",
+      "graphemes": ["d", "e", "l", "i", "v", "er"],
+      "phonemes": ["/d", "ɪ", "'l", "ɪ", "v", "ɚ/"],
+      "phonics": ["/d", "ĭ", "'l", "ĭ", "v", "er/"],
+      "tags": ["closed", "suffix"],
+      "hearts": [0, 0, 0, 0, 0, 0],
+      "hint": "重音在 -liv-（閉音節）；-er 字尾；字尾有聲子音加 -ed 發 /d/。"
+    },
+    {
+      "number": "🤝 依靠",
+      "word": "depend",
+      "ipa": "/dɪˈpɛnd/",
+      "graphemes": ["d", "e", "p", "e", "n", "d"],
+      "phonemes": ["/d", "ɪ", "'p", "ɛ", "n", "d/"],
+      "phonics": ["/d", "ĭ", "'p", "ĕ", "n", "d/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 0, 0, 0],
+      "hint": "重音在 -pend（閉音節）；字尾有聲子音加 -ed 發 /d/。"
+    },
+    {
+      "number": "✍️ 描述",
+      "word": "describe",
+      "ipa": "/dɪˈskraɪb/",
+      "graphemes": ["d", "e", "s", "c", "r", "i", "b", "e"],
+      "phonemes": ["/d", "ɪ", "'s", "k", "r", "aɪ", "b", "-/"],
+      "phonics": ["/d", "ĭ", "'s", "k", "r", "ī", "b", "-/"],
+      "tags": ["cluster", "open"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
+      "hint": "重音在 -scribe；scr 混合音；-scribe 開音節；字尾有聲子音加 -ed 發 /d/。"
+    },
+    {
+      "number": "💀 死",
+      "word": "die",
+      "ipa": "/daɪ/",
+      "graphemes": ["d", "ie"],
+      "phonemes": ["/d", "aɪ/"],
+      "phonics": ["/d", "ī/"],
+      "tags": ["vowel_team"],
+      "hearts": [0, 0],
+      "hint": "單音節；ie 對應 /aɪ/；字尾母音加 -ed 發 /d/。"
+    },
+    {
+      "number": "👻 消失",
+      "word": "disappear",
+      "ipa": "/dɪsəˈpɪr/",
+      "graphemes": ["d", "i", "s", "a", "pp", "ear"],
+      "phonemes": ["/d", "ɪ", "s", "ə", "'p", "ɪr/"],
+      "phonics": ["/d", "ĭ", "s", "ə", "'p", "ir/"],
+      "tags": ["rcontrolled"],
+      "hearts": [0, 0, 0, 0, 0, 0],
+      "hint": "重音在 -pear；ear 為 r-controlled；字尾有聲子音加 -ed 發 /d/。"
+    },
+    {
+      "number": "🔍 發現",
+      "word": "discover",
+      "ipa": "/dɪˈskʌvɚ/",
+      "graphemes": ["d", "i", "s", "c", "o", "v", "er"],
+      "phonemes": ["/d", "ɪ", "'s", "k", "ʌ", "v", "ɚ/"],
+      "phonics": ["/d", "ĭ", "'s", "k", "ŭ", "v", "er/"],
+      "tags": ["cluster", "closed", "suffix"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0],
+      "hint": "重音在 -cov-（閉音節）；sc 混合音；-er 字尾；字尾有聲子音加 -ed 發 /d/。"
+    },
+    {
+      "number": "💬 討論",
+      "word": "discuss",
+      "ipa": "/dɪˈskʌs/",
+      "graphemes": ["d", "i", "s", "c", "u", "ss"],
+      "phonemes": ["/d", "ɪ", "'s", "k", "ʌ", "s/"],
+      "phonics": ["/d", "ĭ", "'s", "k", "ŭ", "s/"],
+      "tags": ["cluster", "closed"],
+      "hearts": [0, 0, 0, 0, 0, 0],
+      "hint": "重音在 -cuss（閉音節）；sc 混合音；字尾無聲子音加 -ed 發 /t/。"
+    },
+    {
+      "number": "➗ 分割",
+      "word": "divide",
+      "ipa": "/dɪˈvaɪd/",
+      "graphemes": ["d", "i", "v", "i", "d", "e"],
+      "phonemes": ["/d", "ɪ", "'v", "aɪ", "d", "-/"],
+      "phonics": ["/d", "ĭ", "'v", "ī", "d", "-/"],
+      "tags": ["magic_e", "open"],
+      "hearts": [0, 0, 0, 0, 0, 0],
+      "hint": "重音在 -vide（開音節）；i_e 對應 /aɪ/；字尾有聲子音加 -ed 發 /d/。"
+    },
+    {
+      "number": "⬇️ 下載",
+      "word": "download",
+      "ipa": "/daʊnˈloʊd/",
+      "graphemes": ["d", "ow", "n", "l", "oa", "d"],
+      "phonemes": ["/d", "aʊ", "n", "'l", "oʊ", "d/"],
+      "phonics": ["/d", "ow", "n", "'l", "ō", "d/"],
+      "tags": ["vowel_team"],
+      "hearts": [0, 0, 0, 0, 0, 0],
+      "hint": "重音在 -load；ow、oa 都是 vowel team；字尾有聲子音加 -ed 發 /d/。"
+    },
+    {
+      "number": "💧 丟下",
+      "word": "drop",
+      "ipa": "/drɑp/",
+      "graphemes": ["d", "r", "o", "p"],
+      "phonemes": ["/d", "r", "ɑ", "p/"],
+      "phonics": ["/d", "r", "ŏ", "p/"],
+      "tags": ["cluster", "closed"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "單音節閉音節；dr 混合音；字尾無聲子音加 -ed 發 /t/。"
+    },
+    {
+      "number": "😌 緩解",
+      "word": "ease",
+      "ipa": "/iz/",
+      "graphemes": ["ea", "s", "e"],
+      "phonemes": ["/i", "z", "-/"],
+      "phonics": ["/ē", "z", "-/"],
+      "tags": ["vowel_team"],
+      "hearts": [0, 0, 0],
+      "hint": "單音節；ea 對應 /i/；字尾有聲子音加 -ed 發 /d/。"
+    },
+    {
+      "number": "❗ 強調",
+      "word": "emphasize",
+      "ipa": "/ˈɛmfəsaɪz/",
+      "graphemes": ["e", "m", "ph", "a", "s", "i", "z", "e"],
+      "phonemes": ["/'ɛ", "m", "f", "ə", "s", "aɪ", "z", "-/"],
+      "phonics": ["/'ĕ", "m", "f", "ə", "s", "ī", "z", "-/"],
+      "tags": ["closed", "digraph"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
+      "hint": "重音在 em-（閉音節）；ph 為 digraph。"
+    },
+    {
+      "number": "😊 享受",
+      "word": "enjoy",
+      "ipa": "/ɪnˈdʒɔɪ/",
+      "graphemes": ["e", "n", "j", "oy"],
+      "phonemes": ["/ɪ", "n", "'dʒ", "ɔɪ/"],
+      "phonics": ["/ĭ", "n", "'j", "oi/"],
+      "tags": ["vowel_team"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "重音在 -joy；j 對應 /dʒ/；oy 對應 /ɔɪ/；字尾母音加 -ed 發 /d/。"
+    },
+    {
+      "number": "🚪 進入",
+      "word": "enter",
+      "ipa": "/ˈɛntɚ/",
+      "graphemes": ["e", "n", "t", "er"],
+      "phonemes": ["/'ɛ", "n", "t", "ɚ/"],
+      "phonics": ["/'ĕ", "n", "t", "er/"],
+      "tags": ["closed", "suffix"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "重音在 en-（閉音節）；-er 字尾；字尾有聲子音加 -ed 發 /d/。"
+    },
+    {
+      "number": "😒 羨慕",
+      "word": "envy",
+      "ipa": "/ˈɛnvi/",
+      "graphemes": ["e", "n", "v", "y"],
+      "phonemes": ["/'ɛ", "n", "v", "i/"],
+      "phonics": ["/'ĕ", "n", "v", "ē/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "重音在 en-（閉音節）；y 字尾發 /i/。"
+    },
+    {
+      "number": "💡 解釋",
+      "word": "explain",
+      "ipa": "/ɪkˈspleɪn/",
+      "graphemes": ["e", "x", "p", "l", "ai", "n"],
+      "phonemes": ["/ɪ", "k", "'s", "p", "l", "eɪ", "n/"],
+      "phonics": ["/ĭ", "ks", "'p", "l", "ā", "n/"],
+      "tags": ["cluster", "vowel_team"],
+      "hearts": [0, 0, 0, 0, 0, 0],
+      "hint": "重音在 -plain；spl 混合音；ai 對應 /eɪ/；字尾有聲子音加 -ed 發 /d/。"
+    },
+
+    {
+      "number": "❌ 失敗",
+      "word": "fail",
+      "ipa": "/feɪl/",
+      "graphemes": ["f", "ai", "l"],
+      "phonemes": ["/f", "eɪ", "l/"],
+      "phonics": ["/f", "ā", "l/"],
+      "tags": ["vowel_team"],
+      "hearts": [0, 0, 0],
+      "hint": "單音節；ai 對應 /eɪ/；字尾有聲子音加 -ed 發 /d/。"
+    },
+    {
+      "number": "📝 填滿",
+      "word": "fill",
+      "ipa": "/fɪl/",
+      "graphemes": ["f", "i", "ll"],
+      "phonemes": ["/f", "ɪ", "l/"],
+      "phonics": ["/f", "ĭ", "l/"],
+      "tags": ["closed", "floss"],
+      "hearts": [0, 0, 0],
+      "hint": "單音節閉音節；ll 為 floss；字尾有聲子音加 -ed 發 /d/。"
+    },
+
+    {
+      "number": "👣 跟隨",
+      "word": "follow",
+      "ipa": "/ˈfɑloʊ/",
+      "graphemes": ["f", "o", "ll", "ow"],
+      "phonemes": ["/'f", "ɑ", "l", "oʊ/"],
+      "phonics": ["/'f", "ŏ", "l", "ō/"],
+      "tags": ["closed", "vowel_team"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "重音在 fol-（閉音節）；ow 對應 /oʊ/；字尾母音加 -ed 發 /d/。"
+    },
+    {
+      "number": "📋 形成",
+      "word": "form",
+      "ipa": "/fɔrm/",
+      "graphemes": ["f", "or", "m"],
+      "phonemes": ["/f", "ɔr", "m/"],
+      "phonics": ["/f", "or", "m/"],
+      "tags": ["rcontrolled"],
+      "hearts": [0, 0, 0],
+      "hint": "單音節；or 為 r-controlled；字尾有聲子音加 -ed 發 /d/。"
+    },
+    {
+      "number": "😱 使害怕",
+      "word": "frighten",
+      "ipa": "/ˈfraɪtən/",
+      "graphemes": ["f", "r", "i", "gh", "t", "e", "n"],
+      "phonemes": ["/'f", "r", "aɪ", "-", "t", "ə", "n/"],
+      "phonics": ["/'f", "r", "ī", "-", "t", "ə", "n/"],
+      "tags": ["cluster", "open", "silent_consonant"],
+      "hearts": [0, 0, 0, 1, 0, 0, 0],
+      "hint": "重音在 frigh-；fr 混合音；開音節；gh 不發音；字尾有聲子音加 -ed 發 /d/。"
+    }
+  ]
+}

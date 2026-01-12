@@ -1,0 +1,305 @@
+{
+  "items": [
+    {
+      "number": "🌟 欽佩",
+      "word": "admire",
+      "ipa": "/ədˈmaɪr/",
+      "graphemes": ["a", "d", "m", "i", "r", "e"],
+      "phonemes": ["/ə", "d", "'m", "aɪ", "r", "-/"],
+      "phonics": ["/ə", "d", "'m", "ī", "r", "-/"],
+      "tags": ["magic_e", "open"],
+      "hearts": [0, 0, 0, 0, 0, 0],
+      "hint": "重音在 -mire（開音節）；字尾有聲子音/母音加 -ed 發 /d/。"
+    },
+    {
+      "number": "💡 建議",
+      "word": "advise",
+      "ipa": "/ədˈvaɪz/",
+      "graphemes": ["a", "d", "v", "i", "s", "e"],
+      "phonemes": ["/ə", "d", "'v", "aɪ", "z", "-/"],
+      "phonics": ["/ə", "d", "'v", "ī", "z", "-/"],
+      "tags": ["magic_e", "open"],
+      "hearts": [0, 0, 0, 0, 0, 0],
+      "hint": "重音在 -vise（開音節）；字尾有聲子音/母音加 -ed 發 /d/。"
+    },
+    {
+      "number": "🤝 同意",
+      "word": "agree",
+      "ipa": "/əˈɡri/",
+      "graphemes": ["a", "g", "r", "ee"],
+      "phonemes": ["/ə", "'ɡ", "r", "i/"],
+      "phonics": ["/ə", "'ɡ", "r", "ē/"],
+      "tags": ["cluster", "vowel_team"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "重音在 -gree；gr 混合音；ee 對應 /i/；字尾母音加 -ed 發 /d/。"
+    },
+    {
+      "number": "✅ 允許",
+      "word": "allow",
+      "ipa": "/əˈlaʊ/",
+      "graphemes": ["a", "ll", "ow"],
+      "phonemes": ["/ə", "'l", "aʊ/"],
+      "phonics": ["/ə", "'l", "ow/"],
+      "tags": ["vowel_team"],
+      "hearts": [0, 0, 0],
+      "hint": "重音在 -low；ow 對應 /aʊ/；字尾母音加 -ed 發 /d/。"
+    },
+    {
+      "number": "🙏 道歉",
+      "word": "apologize",
+      "ipa": "/əˈpɑlədʒaɪz/",
+      "graphemes": ["a", "p", "o", "l", "o", "g", "i", "z", "e"],
+      "phonemes": ["ə", "'p", "ɑ", "l", "ə", "dʒ", "aɪ", "z", "-"],
+      "phonics": ["ə", "'p", "ŏ", "l", "ə", "-j", "ī", "z", "-"],
+      "tags": ["open", "magic_e", "silent_consonant"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 1],
+      "hint": "第一個 a 弱化 /ə/；o 發 /ɑ/（ŏ）；第二個 o 弱化 /ə/；g+i 對應 /dʒ/；i 對應 /aɪ/（ī）；最後 e 不發音。"
+    },
+    {
+      "number": "👀 出現",
+      "word": "appear",
+      "ipa": "/əˈpɪr/",
+      "graphemes": ["a", "pp", "ear"],
+      "phonemes": ["/ə", "'p", "ɪr/"],
+      "phonics": ["/ə", "'p", "ir/"],
+      "tags": ["rcontrolled"],
+      "hearts": [0, 0, 0],
+      "hint": "重音在 -pear；ear 為 r-controlled；字尾有聲子音加 -ed 發 /d/。"
+    },
+ 
+    {
+      "number": "💬 爭論",
+      "word": "argue",
+      "ipa": "/ˈɑrɡju/",
+      "graphemes": ["ar", "g", "ue"],
+      "phonemes": ["/'ɑr", "ɡ", "ju/"],
+      "phonics": ["/'ɑr", "ɡ", "yū/"],
+      "tags": ["rcontrolled"],
+      "hearts": [0, 0, 0],
+      "hint": "重音在 ar-；ar 為 r-controlled；字尾母音加 -ed 發 /d/。"
+    },
+    {
+      "number": "📋 安排",
+      "word": "arrange",
+      "ipa": "/əˈreɪndʒ/",
+      "graphemes": ["a", "rr", "a", "n", "ge"],
+      "phonemes": ["/ə", "'r", "eɪ", "n", "dʒ/"],
+      "phonics": ["/ə", "'r", "ā", "n", "j/"],
+      "tags": ["open"],
+      "hearts": [0, 0, 0, 0, 0],
+      "hint": "重音在 -range（開音節）；ge 對應 /dʒ/；字尾有聲子音加 -ed 發 /d/。"
+    },
+    {
+      "number": "🤔 假設",
+      "word": "assume",
+      "ipa": "/əˈsum/",
+      "graphemes": ["a", "ss", "u", "m", "e"],
+      "phonemes": ["/ə", "'s", "u", "m", "-/"],
+      "phonics": ["/ə", "'s", "ū", "m", "-/"],
+      "tags": ["open"],
+      "hearts": [0, 0, 0, 0, 0],
+      "hint": "重音在 -sume（開音節）；字尾有聲子音加 -ed 發 /d/。"
+    },
+    {
+      "number": "🛁 洗澡",
+      "word": "bathe",
+      "ipa": "/beɪð/",
+      "graphemes": ["b", "a", "th", "e"],
+      "phonemes": ["/b", "eɪ", "ð", "-/"],
+      "phonics": ["/b", "ā", "th", "-/"],
+      "tags": ["magic_e", "digraph"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "單音節；a_e 對應 /eɪ/；th 對應 /ð/；字尾有聲子音加 -ed 發 /d/。"
+    },
+    {
+      "number": "🙏 相信",
+      "word": "believe",
+      "ipa": "/bɪˈliv/",
+      "graphemes": ["b", "e", "l", "ie", "v", "e"],
+      "phonemes": ["/b", "ɪ", "'l", "i", "v", "-/"],
+      "phonics": ["/b", "ĭ", "'l", "ē", "v", "-/"],
+      "tags": ["vowel_team", "magic_e"],
+      "hearts": [0, 0, 0, 0, 0, 0],
+      "hint": "重音在 -lieve；ie 對應 /i/；字尾有聲子音加 -ed 發 /d/。"
+    },
+    {
+      "number": "🏠 屬於",
+      "word": "belong",
+      "ipa": "/bɪˈlɔŋ/",
+      "graphemes": ["b", "e", "l", "o", "ng"],
+      "phonemes": ["/b", "ɪ", "'l", "ɔ", "ŋ/"],
+      "phonics": ["/b", "ĭ", "'l", "aw", "ŋ/"],
+      "tags": ["digraph", "open"],
+      "hearts": [0, 0, 0, 0, 0],
+      "hint": "重音在 -long（開音節）；ng 對應 /ŋ/；字尾有聲子音加 -ed 發 /d/。"
+    },
+    {
+      "number": "☝️ 責備",
+      "word": "blame",
+      "ipa": "/bleɪm/",
+      "graphemes": ["b", "l", "a", "m", "e"],
+      "phonemes": ["/b", "l", "eɪ", "m", "-/"],
+      "phonics": ["/b", "l", "ā", "m", "-/"],
+      "tags": ["cluster", "magic_e"],
+      "hearts": [0, 0, 0, 0, 0],
+      "hint": "單音節；bl 混合音；a_e 對應 /eɪ/；字尾有聲子音加 -ed 發 /d/。"
+    },
+
+    {
+      "number": "😰 打擾",
+      "word": "bother",
+      "ipa": "/ˈbɑðɚ/",
+      "graphemes": ["b", "o", "th", "er"],
+      "phonemes": ["/'b", "ɑ", "ð", "ɚ/"],
+      "phonics": ["/'b", "ŏ", "th", "er/"],
+      "tags": ["closed", "digraph", "suffix"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "重音在 both-（閉音節）；th 對應 /ð/；-er 字尾；字尾有聲子音加 -ed 發 /d/。"
+    },
+    {
+      "number": "🙇 鞠躬",
+      "word": "bow",
+      "ipa": "/baʊ/",
+      "graphemes": ["b", "ow"],
+      "phonemes": ["/b", "aʊ/"],
+      "phonics": ["/b", "ow/"],
+      "tags": ["vowel_team"],
+      "hearts": [0, 0],
+      "hint": "單音節；ow 對應 /aʊ/；字尾母音加 -ed 發 /d/。"
+    },
+    {
+      "number": "📞 叫",
+      "word": "call",
+      "ipa": "/kɔl/",
+      "graphemes": ["c", "a", "ll"],
+      "phonemes": ["/k", "ɔ", "l/"],
+      "phonics": ["/k", "aw", "l/"],
+      "tags": ["floss"],
+      "hearts": [0, 0, 0],
+      "hint": "單音節；a 對應 /ɔ/；ll 為 floss；字尾有聲子音加 -ed 發 /d/。"
+    },
+    {
+      "number": "😌 使平靜",
+      "word": "calm",
+      "ipa": "/kɑm/",
+      "graphemes": ["c", "a", "l", "m"],
+      "phonemes": ["/k", "ɑ", "-", "m/"],
+      "phonics": ["/k", "ŏ", "-", "m/"],
+      "tags": ["silent_consonant"],
+      "hearts": [0, 0, 1, 0],
+      "hint": "單音節；l 不發音；字尾有聲子音加 -ed 發 /d/。"
+    },
+    {
+      "number": "❌ 取消",
+      "word": "cancel",
+      "ipa": "/ˈkænsəl/",
+      "graphemes": ["c", "a", "n", "c", "e", "l"],
+      "phonemes": ["/'k", "æ", "n", "s", "ə", "l/"],
+      "phonics": ["/'k", "ă", "n", "s", "ə", "l/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 0, 0, 0],
+      "hint": "重音在 can-（閉音節）；字尾有聲子音加 -ed 發 /d/。"
+    },
+    {
+      "number": "💖 關心",
+      "word": "care",
+      "ipa": "/kɛr/",
+      "graphemes": ["c", "a", "r", "e"],
+      "phonemes": ["/k", "ɛ", "r", "-/"],
+      "phonics": ["/k", "ĕ", "r", "-/"],
+      "tags": ["rcontrolled"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "單音節；ar 為 r-controlled；字尾有聲子音加 -ed 發 /d/。"
+    },
+    {
+      "number": "🎒 攜帶",
+      "word": "carry",
+      "ipa": "/ˈkæri/",
+      "graphemes": ["c", "a", "rr", "y"],
+      "phonemes": ["/'k", "æ", "r", "i/"],
+      "phonics": ["/'k", "ă", "r", "ē/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "重音在 car-（閉音節）；y 字尾發 /i/。"
+    },
+    {
+      "number": "🔄 改變",
+      "word": "change",
+      "ipa": "/tʃeɪndʒ/",
+      "graphemes": ["ch", "a", "n", "ge"],
+      "phonemes": ["/tʃ", "eɪ", "n", "dʒ/"],
+      "phonics": ["/ch", "ā", "n", "j/"],
+      "tags": ["digraph", "open"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "單音節；ch 為 digraph；cha- 開音節；ge 對應 /dʒ/；字尾有聲子音加 -ed 發 /d/。"
+    },
+ 
+    {
+      "number": "🧹 清潔",
+      "word": "clean",
+      "ipa": "/klin/",
+      "graphemes": ["c", "l", "ea", "n"],
+      "phonemes": ["/k", "l", "i", "n/"],
+      "phonics": ["/k", "l", "ē", "n/"],
+      "tags": ["cluster", "vowel_team"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "單音節；cl 混合音；ea 對應 /i/；字尾有聲子音加 -ed 發 /d/。"
+    },
+    {
+      "number": "🧗 爬",
+      "word": "climb",
+      "ipa": "/klaɪm/",
+      "graphemes": ["c", "l", "i", "m", "b"],
+      "phonemes": ["/k", "l", "aɪ", "m", "-/"],
+      "phonics": ["/k", "l", "ī", "m", "-/"],
+      "tags": ["cluster", "open", "silent_consonant"],
+      "hearts": [0, 0, 0, 0, 1],
+      "hint": "單音節；cl 混合音；cli- 開音節；b 不發音；字尾有聲子音加 -ed 發 /d/。"
+    },
+    {
+      "number": "🚪 關閉",
+      "word": "close",
+      "ipa": "/kloʊz/",
+      "graphemes": ["c", "l", "o", "s", "e"],
+      "phonemes": ["/k", "l", "oʊ", "z", "-/"],
+      "phonics": ["/k", "l", "ō", "z", "-/"],
+      "tags": ["cluster", "magic_e"],
+      "hearts": [0, 0, 0, 0, 0],
+      "hint": "單音節；cl 混合音；o_e 對應 /oʊ/；字尾有聲子音加 -ed 發 /d/。"
+    },
+
+    {
+      "number": "⚖️ 比較",
+      "word": "compare",
+      "ipa": "/kəmˈpɛr/",
+      "graphemes": ["c", "o", "m", "p", "a", "r", "e"],
+      "phonemes": ["/k", "ə", "m", "'p", "ɛ", "r", "-/"],
+      "phonics": ["/k", "ə", "m", "'p", "ĕ", "r", "-/"],
+      "tags": ["rcontrolled"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0],
+      "hint": "重音在 -pare；ar 為 r-controlled；字尾有聲子音加 -ed 發 /d/。"
+    },
+    {
+      "number": "😤 抱怨",
+      "word": "complain",
+      "ipa": "/kəmˈpleɪn/",
+      "graphemes": ["c", "o", "m", "p", "l", "ai", "n"],
+      "phonemes": ["/k", "ə", "m", "'p", "l", "eɪ", "n/"],
+      "phonics": ["/k", "ə", "m", "'p", "l", "ā", "n/"],
+      "tags": ["cluster", "vowel_team"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0],
+      "hint": "重音在 -plain；pl 混合音；ai 對應 /eɪ/；字尾有聲子音加 -ed 發 /d/。"
+    },
+    {
+      "number": "📋 複製",
+      "word": "copy",
+      "ipa": "/ˈkɑpi/",
+      "graphemes": ["c", "o", "p", "y"],
+      "phonemes": ["/'k", "ɑ", "p", "i/"],
+      "phonics": ["/'k", "ŏ", "p", "ē/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "重音在 cop-（閉音節）；y 字尾發 /i/。"
+    }
+  ]
+}
