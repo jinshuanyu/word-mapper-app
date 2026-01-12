@@ -1,81 +1,81 @@
 {
   "items": [
     {
-    "number": "1️⃣ 在國外",
-    "word": "abroad",
-    "ipa": "əˈbrɔːd",
-    "graphemes": ["a", "br", "oa", "d"],
-    "phonemes": ["ə", "/'br", "ɔː", "d"],
-    "phonics": ["ə", "br", "ô", "d"],
-    "tags": ["rcontrolled", "cluster"],
-    "hearts": [0, 0, 0, 0],
-    "hint": "a 發 schwa；br 是 cluster；oa 發 ô"
-  },
-  {
-    "number": "2️⃣ 任何地方",
-    "word": "anywhere",
-    "ipa": "ˈɛniˌwɛr",
-    "graphemes": ["a", "n", "y", "wh", "e", "r", "e"],
-    "phonemes": ["/'ɛ", "n", "i", "ˌw", "ɛ", "r"],
-    "phonics": ["ĕ", "n", "ē", "w", "âr"],
-    "tags": ["closed", "rcontrolled", "silent_consonant"],
-    "hearts": [0, 0, 0, 1, 0, 0, 1],
-    "hint": "a 發短音 ĕ；y 發 ē；wh 中 h 不發音；are 發 âr；最後 e 不發音"
-  },
-  {
-    "number": "3️⃣ 到處",
-    "word": "everywhere",
-    "ipa": "ˈɛvriˌwɛr",
-    "graphemes": ["e", "v", "e", "r", "y", "wh", "e", "r", "e"],
-    "phonemes": ["/'ɛ", "v", "r", "i", "ˌw", "ɛ", "r"],
-    "phonics": ["ĕ", "v", "ə", "r", "ē", "w", "âr"],
-    "tags": ["closed", "rcontrolled", "silent_consonant"],
-    "hearts": [0, 0, 0, 0, 0, 1, 0, 0, 1],
-    "hint": "第一個 e 發短音 ĕ；第二個 e 發 schwa；y 發 ē；wh 中 h 不發音；are 發 âr；最後 e 不發音"
-  },
-  {
-    "number": "4️⃣ 某處",
-    "word": "somewhere",
-    "ipa": "ˈsʌmˌwɛr",
-    "graphemes": ["s", "o", "m", "e", "wh", "e", "r", "e"],
-    "phonemes": ["/'s", "ʌ", "m", "ˌw", "ɛ", "r"],
-    "phonics": ["s", "ŭ", "m", "w", "âr"],
-    "tags": ["closed", "rcontrolled", "silent_consonant"],
-    "hearts": [0, 0, 0, 1, 1, 0, 0, 1],
-    "hint": "o 發短音 ŭ；第一個 e 不發音；wh 中 h 不發音；ere 發 âr；最後 e 不發音"
-  },
-  {
-    "number": "5️⃣ 也許",
-    "word": "maybe",
-    "ipa": "ˈmeɪbi",
-    "graphemes": ["m", "ay", "b", "e"],
-    "phonemes": ["/'m", "eɪ", "b", "i"],
-    "phonics": ["m", "ā", "b", "ē"],
-    "tags": ["vowel_team", "open"],
-    "hearts": [0, 0, 0, 0],
-    "hint": "ay 發長音 ā；e 發長音 ē（開音節）"
-  },
-  {
-    "number": "6️⃣ 或許",
-    "word": "perhaps",
-    "ipa": "pərˈhæps",
-    "graphemes": ["p", "er", "h", "a", "p", "s"],
-    "phonemes": ["p", "ər", "/'h", "æ", "p", "s"],
-    "phonics": ["p", "ər", "h", "ă", "p", "s"],
-    "tags": ["rcontrolled", "closed"],
-    "hearts": [0, 0, 0, 0, 0, 0],
-    "hint": "er 發 ər（在非重音節）；a 發短音 ă"
-  },
-  {
-    "number": "7️⃣ 大概",
-    "word": "probably",
-    "ipa": "ˈprɑːbəbli",
-    "graphemes": ["pr", "o", "b", "a", "b", "l", "y"],
-    "phonemes": ["/'pr", "ɑː", "b", "ə", "b", "l", "i"],
-    "phonics": ["pr", "ŏ", "b", "ə", "b", "l", "ē"],
-    "tags": ["closed", "cluster"],
-    "hearts": [0, 0, 0, 0, 0, 0, 0],
-    "hint": "pr 是 cluster；o 發 ŏ；第二個 a 發 schwa；y 發 ē"
-  }
-]
+      "number": "✈️ 在國外",
+      "word": "abroad",
+      "ipa": "əˈbrɔːd",
+      "graphemes": ["a", "br", "oa", "d"],
+      "phonemes": ["/ə", "'br", "ɔː", "d/"],
+      "phonics": ["/ə", "br", "ô", "d/"],
+      "tags": ["cluster", "irregular"],
+      "hearts": [0, 0, 1, 0],
+      "hint": "a 發 schwa；br 是 cluster；oa 在此對應 /ɔː/（需記）"
+    },
+    {
+      "number": "📍 任何地方",
+      "word": "anywhere",
+      "ipa": "ˈɛniˌwɛr",
+      "graphemes": ["a", "n", "y", "wh", "e", "r", "e"],
+      "phonemes": ["/'ɛ", "n", "i", "w", "ɛ", "r", "-/"],
+      "phonics": ["ĕ", "n", "ē", "w", "ĕ", "r", "-/"],
+      "tags": ["closed", "digraph", "rcontrolled", "silent_consonant", "irregular"],
+      "hearts": [1, 0, 0, 1, 0, 0, 1],
+      "hint": "a 在 any- 裡發 /ɛ/（需記）；y 發 ē；wh 的 h 不發音；最後 e 不發音；/ɛr/ 可視為 ĕ + r"
+    },
+    {
+      "number": "🌎 到處",
+      "word": "everywhere",
+      "ipa": "ˈɛvɚiˌwɛr",
+      "graphemes": ["e", "v", "er", "y", "wh", "e", "r", "e"],
+      "phonemes": ["/'ɛ", "v", "ɚ", "i", "w", "ɛ", "r", "-/"],
+      "phonics": ["ĕ", "v", "er", "ē", "w", "ĕ", "r", "-/"],
+      "tags": ["closed", "digraph", "rcontrolled", "silent_consonant"],
+      "hearts": [0, 0, 0, 0, 1, 0, 0, 1],
+      "hint": "e 發短音 ĕ；er 對應 /ɚ/；y 發 ē；wh 的 h 不發音；最後 e 不發音；where 的 /ɛr/ 可視為 ĕ + r"
+    },
+    {
+      "number": "🗺️ 某處",
+      "word": "somewhere",
+      "ipa": "ˈsʌmˌwɛr",
+      "graphemes": ["s", "o", "m", "e", "wh", "e", "r", "e"],
+      "phonemes": ["/'s", "ʌ", "m", "-/", "w", "ɛ", "r", "-/"],
+      "phonics": ["s", "ŭ", "m", "-/", "w", "ĕ", "r", "-/"],
+      "tags": ["closed", "digraph", "rcontrolled", "silent_consonant"],
+      "hearts": [0, 0, 0, 1, 1, 0, 0, 1],
+      "hint": "o 發短音 ŭ；some 的 e 不發音；wh 的 h 不發音；最後 e 不發音；/ɛr/ 可視為 ĕ + r"
+    },
+    {
+      "number": "🤔 也許",
+      "word": "maybe",
+      "ipa": "ˈmeɪbi",
+      "graphemes": ["m", "ay", "b", "e"],
+      "phonemes": ["/'m", "eɪ", "b", "i/"],
+      "phonics": ["/m", "ā", "b", "ē/"],
+      "tags": ["vowel_team", "open"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "ay 發長音 ā；字尾 e 在此發 ē（/i/）"
+    },
+    {
+      "number": "🤷 或許",
+      "word": "perhaps",
+      "ipa": "pɚˈhæps",
+      "graphemes": ["p", "er", "h", "a", "p", "s"],
+      "phonemes": ["/p", "ɚ", "'h", "æ", "p", "s/"],
+      "phonics": ["/p", "er", "h", "ă", "p", "s/"],
+      "tags": ["rcontrolled", "closed"],
+      "hearts": [0, 0, 0, 0, 0, 0],
+      "hint": "er 對應 /ɚ/；a 發短音 ă"
+    },
+    {
+      "number": "🤞 大概",
+      "word": "probably",
+      "ipa": "ˈprɑːbəbli",
+      "graphemes": ["pr", "o", "b", "a", "b", "l", "y"],
+      "phonemes": ["/'pr", "ɑː", "b", "ə", "b", "l", "i/"],
+      "phonics": ["/pr", "ŏ", "b", "ə", "b", "l", "ē/"],
+      "tags": ["closed", "cluster"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0],
+      "hint": "pr 是 cluster；o 在此對應 /ɑ/（用 ŏ）；a 發 schwa；y 發 ē"
+    }
+  ]
 }
