@@ -299,9 +299,41 @@
                 { "label": "社會與組織", "src": "data/nouns-4.json" },
                 { "label": "物品與自然", "src": "data/nouns-5.json" }
       ]
+    },
+                 {
+      "slug": "regverbs",
+      "title": "Reg. Verbs 規則動詞",
+      "levels": [
+        { "label": "-ed 發 /ɪd/-1", "src": "data/1A-1.json" },
+                { "label": "-ed 發 /ɪd/-2", "src": "data/1A-2.json" },
+                { "label": "-ed 發 /t/-1", "src": "data/1B-1.json" },
+                { "label": "-ed 發 /t/-2", "src": "data/1B-2.json" },
+                { "label": "-ed 發 /d/-1", "src": "data/1C-1.json" },
+  { "label": "-ed 發 /d/-2", "src": "data/1C-2.json" },
+  { "label": "-ed 發 /d/-3", "src": "data/1C-3.json" },
+  { "label": "-ed 發 /d/-4", "src": "data/1C-4.json" },
+  { "label": "-ed 發 /d/-5", "src": "data/1C-5.json" },
+      ]
+    },
+ {
+      "slug": "irregverbs",
+      "title": "Irreg. Verbs 不規則動詞",
+      "levels": [
+        { "label": "A-A-A 型", "src": "data/AAA.json" },
+                { "label": "A-A-B 型", "src": "data/AAB.json" },
+                { "label": "A-B-A 型", "src": "data/ABA.json" },
+                { "label": "A-B-B 型-1", "src": "data/ABB-1.json" },
+                { "label": "A-B-B 型-2", "src": "data/ABB-2.json" },
+  { "label": "A-B-B 型-3", "src": "data/ABB-3.json" },
+  { "label": "A-B-C 型-1", "src": "data/ABC-1.json" },
+  { "label": "A-B-C 型-2", "src": "data/ABC-2.json" },
+  { "label": "A-B-C 型-3", "src": "data/ABC-3.json" },
+  { "label": "A-B-C 型-4", "src": "data/ABC-4.json" }
+      ]
     }
   ]
 }
+
 
 
 
