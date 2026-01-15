@@ -1,347 +1,656 @@
 {
   "topics": [
     {
-  "slug": "letters",
-  "title": "Alphabet+ 字母與組合",
-  "levels": [{ "label": "A–Z", "src": "data/letters.json" },{ "label": "字母組合", "src": "data/combo.json" }]
-},
-
-    {
-  "slug": "first-words",
-  "title": "Function Words 功能詞",
-  "levels": [
-    {
-      "label": "冠詞/限定詞",       "src": "data/first-words-1.json"
+      "slug": "letters",
+      "title": "Alphabet+ 字母與組合",
+      "levels": [
+        {
+          "label": "A–Z",
+          "src": "data/letters.json"
+        },
+        {
+          "label": "字母組合",
+          "src": "data/combo.json"
+        }
+      ]
     },
-    { "label": "第一/二人稱代名詞", "src": "data/pron-1.json" },
-      { "label": "第三人稱代名詞", "src": "data/pron-2.json" },
-    { "label": "反身代名詞", "src": "data/refl.json" },
- { "label": "不定代名詞", "src": "data/indef-pron.json" },
-    { "label": "疑問詞", "src": "data/wh-words.json" },
-   { "label": "Be動詞", "src": "data/be.json" },
-      { "label": "助動詞", "src": "data/auxi.json" },
-       { "label": "語氣詞", "src": "data/interj.json" },
-      { "label": "連接詞", "src": "data/conj.json" },
-     { "label": "介系詞-1", "src": "data/prep-1.json" },
-         { "label": "介系詞-2", "src": "data/prep-2.json" },
-         { "label": "介系詞-3", "src": "data/prep-3.json" }
-  ]
-},
-
+    {
+      "slug": "first-words",
+      "title": "Function Words 功能詞",
+      "levels": [
+        {
+          "label": "冠詞/限定詞",
+          "src": "data/first-words-1.json"
+        },
+        {
+          "label": "第一/二人稱代名詞",
+          "src": "data/pron-1.json"
+        },
+        {
+          "label": "第三人稱代名詞",
+          "src": "data/pron-2.json"
+        },
+        {
+          "label": "反身代名詞",
+          "src": "data/refl.json"
+        },
+        {
+          "label": "不定代名詞",
+          "src": "data/indef-pron.json"
+        },
+        {
+          "label": "疑問詞",
+          "src": "data/wh-words.json"
+        },
+        {
+          "label": "Be動詞",
+          "src": "data/be.json"
+        },
+        {
+          "label": "助動詞",
+          "src": "data/auxi.json"
+        },
+        {
+          "label": "語氣詞",
+          "src": "data/interj.json"
+        },
+        {
+          "label": "連接詞",
+          "src": "data/conj.json"
+        },
+        {
+          "label": "介系詞-1",
+          "src": "data/prep-1.json"
+        },
+        {
+          "label": "介系詞-2",
+          "src": "data/prep-2.json"
+        },
+        {
+          "label": "介系詞-3",
+          "src": "data/prep-3.json"
+        }
+      ]
+    },
     {
       "slug": "numbers_1_20",
       "title": "Numbers 數字",
       "levels": [
-        { "label": "0–10",  "src": "data/numbers-1.json" },
-        { "label": "11–19", "src": "data/numbers-2.json" },
-         { "label": "20-1T", "src": "data/numbers-3.json" },
-         { "label": "序數", "src": "data/numbers-5.json" },
-        { "label": "數量詞", "src": "data/numbers-4.json" }
- 
+        {
+          "label": "0–10",
+          "src": "data/numbers-1.json"
+        },
+        {
+          "label": "11–19",
+          "src": "data/numbers-2.json"
+        },
+        {
+          "label": "20-1T",
+          "src": "data/numbers-3.json"
+        },
+        {
+          "label": "序數",
+          "src": "data/numbers-5.json"
+        },
+        {
+          "label": "數量詞",
+          "src": "data/numbers-4.json"
+        }
       ]
     },
     {
       "slug": "animals",
       "title": "Animals 動物",
       "levels": [
-        { "label": "1",  "src": "data/animals-1.json" },
-        { "label": "2", "src": "data/animals-2.json" },
-        { "label": "3", "src": "data/animals-3.json" }
+        {
+          "label": "1",
+          "src": "data/animals-1.json"
+        },
+        {
+          "label": "2",
+          "src": "data/animals-2.json"
+        },
+        {
+          "label": "3",
+          "src": "data/animals-3.json"
+        }
       ]
     },
     {
       "slug": "body_face",
       "title": "Body & Face 臉和身體",
       "levels": [
-        { "label": "1",  "src": "data/body-and-face-1.json" },
-        { "label": "2", "src": "data/body-and-face-2.json" },
-        { "label": "3", "src": "data/body-and-face-3.json" }
+        {
+          "label": "1",
+          "src": "data/body-and-face-1.json"
+        },
+        {
+          "label": "2",
+          "src": "data/body-and-face-2.json"
+        },
+        {
+          "label": "3",
+          "src": "data/body-and-face-3.json"
+        }
       ]
     },
-        {
+    {
       "slug": "clothes",
       "title": "Clothes 服裝",
       "levels": [
-        { "label": "1",  "src": "data/clothes-1.json" },
-        { "label": "2", "src": "data/clothes-2.json" },
-         { "label": "3", "src": "data/clothes-3.json" }
+        {
+          "label": "1",
+          "src": "data/clothes-1.json"
+        },
+        {
+          "label": "2",
+          "src": "data/clothes-2.json"
+        },
+        {
+          "label": "3",
+          "src": "data/clothes-3.json"
+        }
       ]
     },
     {
-  "slug": "colors",
-  "title": "Colors 顏色",
-  "levels": [
-    {
-      "label": "All",
-      "src": "data/colors.json"
-    }
-  ]
-},
+      "slug": "colors",
+      "title": "Colors 顏色",
+      "levels": [
+        {
+          "label": "All",
+          "src": "data/colors.json"
+        }
+      ]
+    },
     {
       "slug": "family_friends",
       "title": "Family & Friends 親友",
       "levels": [
-        { "label": "1", "src": "data/family-friends-1.json" },
-        { "label": "2", "src": "data/family-friends-2.json" }
+        {
+          "label": "1",
+          "src": "data/family-friends-1.json"
+        },
+        {
+          "label": "2",
+          "src": "data/family-friends-2.json"
+        }
       ]
     },
+    {
+      "slug": "food",
+      "title": "Food and Drink 飲食",
+      "levels": [
         {
-  "slug": "food",
-  "title": "Food and Drink 飲食",
-  "levels": [
-        { "label": "水果與蔬菜", "src": "data/food-1.json" },
-        { "label": "主食與肉類", "src": "data/food-2.json" },
-            { "label": "麵包甜點與乳品", "src": "data/food-3.json" },
-        { "label": "飲料與調味", "src": "data/food-4.json" },
-    { "label": "餐具與用餐", "src": "data/food-5.json" }
-  ]
-},
+          "label": "水果與蔬菜",
+          "src": "data/food-1.json"
+        },
+        {
+          "label": "主食與肉類",
+          "src": "data/food-2.json"
+        },
+        {
+          "label": "麵包甜點與乳品",
+          "src": "data/food-3.json"
+        },
+        {
+          "label": "飲料與調味",
+          "src": "data/food-4.json"
+        },
+        {
+          "label": "餐具與用餐",
+          "src": "data/food-5.json"
+        }
+      ]
+    },
     {
       "slug": "geography",
       "title": "Geography 地理",
       "levels": [
-        { "label": "All", "src": "data/geography.json" }
+        {
+          "label": "All",
+          "src": "data/geography.json"
+        }
       ]
     },
-        {
+    {
       "slug": "health",
       "title": "Health 健康",
       "levels": [
-        { "label": "1", "src": "data/health-1.json" },
-        { "label": "2", "src": "data/health-2.json" }
+        {
+          "label": "1",
+          "src": "data/health-1.json"
+        },
+        {
+          "label": "2",
+          "src": "data/health-2.json"
+        }
       ]
     },
-         {
+    {
       "slug": "holidays",
       "title": "Holidays 假日",
       "levels": [
-        { "label": "All", "src": "data/holidays.json" }
+        {
+          "label": "All",
+          "src": "data/holidays.json"
+        }
       ]
-    },       
-     {
+    },
+    {
       "slug": "house",
       "title": "House & Living 居家與生活",
       "levels": [
-        { "label": "居住空間", "src": "data/house-1.json" },
-        { "label": "家具與電器", "src": "data/house-2.json" },
-        { "label": "用具與家事", "src": "data/house-3.json" }
+        {
+          "label": "居住空間",
+          "src": "data/house-1.json"
+        },
+        {
+          "label": "家具與電器",
+          "src": "data/house-2.json"
+        },
+        {
+          "label": "用具與家事",
+          "src": "data/house-3.json"
+        }
       ]
-    }, 
+    },
     {
       "slug": "money",
       "title": "Money 金錢",
       "levels": [
-        { "label": "All", "src": "data/money.json" }
+        {
+          "label": "All",
+          "src": "data/money.json"
+        }
       ]
     },
-
-           {
+    {
       "slug": "people",
       "title": "People 人",
       "levels": [
-        { "label": "人", "src": "data/people-1.json" },
-                { "label": "外表", "src": "data/people-2.json" },
-                { "label": "情緒", "src": "data/people-3.json" },
-                { "label": "個性", "src": "data/people-4.json" },
-                { "label": "特點", "src": "data/people-5.json" },
-                { "label": "稱呼", "src": "data/people-6.json" }
+        {
+          "label": "人",
+          "src": "data/people-1.json"
+        },
+        {
+          "label": "外表",
+          "src": "data/people-2.json"
+        },
+        {
+          "label": "情緒",
+          "src": "data/people-3.json"
+        },
+        {
+          "label": "個性",
+          "src": "data/people-4.json"
+        },
+        {
+          "label": "特點",
+          "src": "data/people-5.json"
+        },
+        {
+          "label": "稱呼",
+          "src": "data/people-6.json"
+        }
       ]
     },
     {
-  "slug": "places",
-  "title": "Places 地點",
-  "levels": [
-    { 
-      "label": "方位與位置", 
-      "src": "data/places-1.json" 
+      "slug": "places",
+      "title": "Places 地點",
+      "levels": [
+        {
+          "label": "方位與位置",
+          "src": "data/places-1.json"
+        },
+        {
+          "label": "商業與公共建築",
+          "src": "data/places-2.json"
+        },
+        {
+          "label": "區域與一般地點",
+          "src": "data/places-3.json"
+        }
+      ]
     },
-    { 
-      "label": "商業與公共建築", 
-      "src": "data/places-2.json" 
-    },
-    { 
-      "label": "區域與一般地點", 
-      "src": "data/places-3.json" 
-    }
-  ]
-},
-            {
+    {
       "slug": "school",
       "title": "School 學校",
       "levels": [
-        { "label": "學校場所", "src": "data/school-1.json" },
-        { "label": "文具用品", "src": "data/school-2.json" },
-        { "label": "科目與人物", "src": "data/school-3.json" },
-         { "label": "學習活動", "src": "data/school-4.json" }
+        {
+          "label": "學校場所",
+          "src": "data/school-1.json"
+        },
+        {
+          "label": "文具用品",
+          "src": "data/school-2.json"
+        },
+        {
+          "label": "科目與人物",
+          "src": "data/school-3.json"
+        },
+        {
+          "label": "學習活動",
+          "src": "data/school-4.json"
+        }
       ]
     },
- {
-  "slug": "size",
-  "title": "Sizes & Measurements 測量",
-  "levels": [
-    { "label": "單位與測量", "src": "data/size-1.json" },
-    { "label": "形狀與幾何", "src": "data/size-2.json" },
-    { "label": "尺寸與數量", "src": "data/size-3.json" }
-  ]
-},
-        {
-  "slug": "space",
-  "title": "Space 太空",
-  "levels": [
     {
-      "label": "All",
-      "src": "data/space.json"
-    }
-  ]
-},
+      "slug": "size",
+      "title": "Sizes & Measurements 測量",
+      "levels": [
+        {
+          "label": "單位與測量",
+          "src": "data/size-1.json"
+        },
+        {
+          "label": "形狀與幾何",
+          "src": "data/size-2.json"
+        },
+        {
+          "label": "尺寸與數量",
+          "src": "data/size-3.json"
+        }
+      ]
+    },
+    {
+      "slug": "space",
+      "title": "Space 太空",
+      "levels": [
+        {
+          "label": "All",
+          "src": "data/space.json"
+        }
+      ]
+    },
     {
       "slug": "sports",
       "title": "Sports & Hobbies 運動與嗜好",
       "levels": [
-        { "label": "運動與球類", "src": "data/sports-1.json" },
-        { "label": "戶外活動", "src": "data/sports-2.json" },
-        { "label": "嗜好與娛樂", "src": "data/sports-3.json" }
+        {
+          "label": "運動與球類",
+          "src": "data/sports-1.json"
+        },
+        {
+          "label": "戶外活動",
+          "src": "data/sports-2.json"
+        },
+        {
+          "label": "嗜好與娛樂",
+          "src": "data/sports-3.json"
+        }
       ]
     },
-               {
+    {
       "slug": "time",
       "title": "Time 時間",
       "levels": [
-        { "label": "計時單位工具", "src": "data/time-1.json" },
-                { "label": "一天的時間", "src": "data/time-2.json" },
-                { "label": "星期", "src": "data/time-3.json" },
-                { "label": "月份", "src": "data/time-4.json" },
-                { "label": "季節和時間流逝", "src": "data/time-5.json" }
+        {
+          "label": "計時單位工具",
+          "src": "data/time-1.json"
+        },
+        {
+          "label": "一天的時間",
+          "src": "data/time-2.json"
+        },
+        {
+          "label": "星期",
+          "src": "data/time-3.json"
+        },
+        {
+          "label": "月份",
+          "src": "data/time-4.json"
+        },
+        {
+          "label": "季節和時間流逝",
+          "src": "data/time-5.json"
+        }
       ]
     },
     {
-  "slug": "transportation",
-  "title": "Transportation 交通運輸",
-  "levels": [
-    { 
-      "label": "交通工具", 
-      "src": "data/transportation-1.json" 
+      "slug": "transportation",
+      "title": "Transportation 交通運輸",
+      "levels": [
+        {
+          "label": "交通工具",
+          "src": "data/transportation-1.json"
+        },
+        {
+          "label": "設施與動作",
+          "src": "data/transportation-2.json"
+        }
+      ]
     },
-    { 
-      "label": "設施與動作", 
-      "src": "data/transportation-2.json" 
-    }
-  ]
-},
     {
-  "slug": "weather",
-  "title": "Weather 天氣",
-  "levels": [
-    { 
-      "label": "氣象概況", 
-      "src": "data/weather-1.json" 
+      "slug": "weather",
+      "title": "Weather 天氣",
+      "levels": [
+        {
+          "label": "氣象概況",
+          "src": "data/weather-1.json"
+        },
+        {
+          "label": "天氣現象",
+          "src": "data/weather-2.json"
+        },
+        {
+          "label": "自然地球",
+          "src": "data/weather-3.json"
+        }
+      ]
     },
-      { 
-      "label": "天氣現象", 
-      "src": "data/weather-2.json" 
-    },
-    { 
-      "label": "自然地球", 
-      "src": "data/weather-3.json" 
-    }
-  ]
-},
-         {
+    {
       "slug": "occupations",
       "title": "Work 工作",
       "levels": [
-        { "label": "媒體藝文", "src": "data/occupations-1.json" },
-                { "label": "生活服務", "src": "data/occupations-2.json" },
-                { "label": "商務職場", "src": "data/occupations-3.json" },
-                { "label": "公務治安", "src": "data/occupations-4.json" },
-                { "label": "交通戶外", "src": "data/occupations-5.json" }
+        {
+          "label": "媒體藝文",
+          "src": "data/occupations-1.json"
+        },
+        {
+          "label": "生活服務",
+          "src": "data/occupations-2.json"
+        },
+        {
+          "label": "商務職場",
+          "src": "data/occupations-3.json"
+        },
+        {
+          "label": "公務治安",
+          "src": "data/occupations-4.json"
+        },
+        {
+          "label": "交通戶外",
+          "src": "data/occupations-5.json"
+        }
       ]
     },
     {
-  "slug": "world",
-  "title": "World 世界",
-  "levels": [
-    { "label": "世界與地理", "src": "data/world-1.json" },
-    { "label": "亞洲與大洋洲", "src": "data/world-2.json" },
-    { "label": "歐洲與非洲", "src": "data/world-3.json" },
-    { "label": "美洲", "src": "data/world-4.json" }
-  ]
-},
-     {
+      "slug": "world",
+      "title": "World 世界",
+      "levels": [
+        {
+          "label": "世界與地理",
+          "src": "data/world-1.json"
+        },
+        {
+          "label": "亞洲與大洋洲",
+          "src": "data/world-2.json"
+        },
+        {
+          "label": "歐洲與非洲",
+          "src": "data/world-3.json"
+        },
+        {
+          "label": "美洲",
+          "src": "data/world-4.json"
+        }
+      ]
+    },
+    {
       "slug": "otheradjs",
       "title": "Other Adj. 其他形容詞",
       "levels": [
-        { "label": "狀態形容詞", "src": "data/adjs-1.json" },
-                { "label": "程度與數量", "src": "data/adjs-2.json" },
-                { "label": "品質與評價", "src": "data/adjs-3.json" },
-                { "label": "外觀與特性", "src": "data/adjs-4.json" },
-                { "label": "時間與順序", "src": "data/adjs-5.json" },
-        { "label": "情感與態度", "src": "data/adjs-5.json" }
+        {
+          "label": "狀態形容詞",
+          "src": "data/adjs-1.json"
+        },
+        {
+          "label": "程度與數量",
+          "src": "data/adjs-2.json"
+        },
+        {
+          "label": "品質與評價",
+          "src": "data/adjs-3.json"
+        },
+        {
+          "label": "外觀與特性",
+          "src": "data/adjs-4.json"
+        },
+        {
+          "label": "時間與順序",
+          "src": "data/adjs-5.json"
+        },
+        {
+          "label": "情感與態度",
+          "src": "data/adjs-5.json"
+        }
       ]
     },
     {
       "slug": "otheradvs",
       "title": "Other Adv. 其他副詞",
       "levels": [
-        { "label": "頻率與程度", "src": "data/adv-1.json" },
-                { "label": "時序與方式", "src": "data/adv-2.json" },
-                { "label": "地點與可能", "src": "data/adv-3.json" },
-                { "label": "連接與回應", "src": "data/adv-4.json" }
+        {
+          "label": "頻率與程度",
+          "src": "data/adv-1.json"
+        },
+        {
+          "label": "時序與方式",
+          "src": "data/adv-2.json"
+        },
+        {
+          "label": "地點與可能",
+          "src": "data/adv-3.json"
+        },
+        {
+          "label": "連接與回應",
+          "src": "data/adv-4.json"
+        }
       ]
     },
-             {
+    {
       "slug": "othernouns",
       "title": "Other Nouns 其他名詞",
       "levels": [
-        { "label": "行為與活動", "src": "data/nouns-1.json" },
-                { "label": "情感與特質", "src": "data/nouns-2.json" },
-                { "label": "思想與知識", "src": "data/nouns-3.json" },
-                { "label": "社會與組織", "src": "data/nouns-4.json" },
-                { "label": "物品與自然", "src": "data/nouns-5.json" }
+        {
+          "label": "行為與活動",
+          "src": "data/nouns-1.json"
+        },
+        {
+          "label": "情感與特質",
+          "src": "data/nouns-2.json"
+        },
+        {
+          "label": "思想與知識",
+          "src": "data/nouns-3.json"
+        },
+        {
+          "label": "社會與組織",
+          "src": "data/nouns-4.json"
+        },
+        {
+          "label": "物品與自然",
+          "src": "data/nouns-5.json"
+        }
       ]
     },
-                 {
+    {
       "slug": "regverbs",
       "title": "Reg. Verbs 規則動詞",
       "levels": [
-        { "label": "-ed 發 /ɪd/-1", "src": "data/1A-1.json" },
-                { "label": "-ed 發 /ɪd/-2", "src": "data/1A-2.json" },
-                { "label": "-ed 發 /t/-1", "src": "data/1B-1.json" },
-                { "label": "-ed 發 /t/-2", "src": "data/1B-2.json" },
-                { "label": "-ed 發 /d/-1", "src": "data/1C-1.json" },
-  { "label": "-ed 發 /d/-2", "src": "data/1C-2.json" },
-  { "label": "-ed 發 /d/-3", "src": "data/1C-3.json" },
-  { "label": "-ed 發 /d/-4", "src": "data/1C-4.json" },
-  { "label": "-ed 發 /d/-5", "src": "data/1C-5.json" },
+        {
+          "label": "-ed 發 /ɪd/-1",
+          "src": "data/1A-1.json"
+        },
+        {
+          "label": "-ed 發 /ɪd/-2",
+          "src": "data/1A-2.json"
+        },
+        {
+          "label": "-ed 發 /t/-1",
+          "src": "data/1B-1.json"
+        },
+        {
+          "label": "-ed 發 /t/-2",
+          "src": "data/1B-2.json"
+        },
+        {
+          "label": "-ed 發 /d/-1",
+          "src": "data/1C-1.json"
+        },
+        {
+          "label": "-ed 發 /d/-2",
+          "src": "data/1C-2.json"
+        },
+        {
+          "label": "-ed 發 /d/-3",
+          "src": "data/1C-3.json"
+        },
+        {
+          "label": "-ed 發 /d/-4",
+          "src": "data/1C-4.json"
+        },
+        {
+          "label": "-ed 發 /d/-5",
+          "src": "data/1C-5.json"
+        }
       ]
     },
- {
+    {
       "slug": "irregverbs",
       "title": "Irreg. Verbs 不規則動詞",
       "levels": [
-        { "label": "A-A-A 型", "src": "data/AAA.json" },
-                { "label": "A-A-B 型", "src": "data/AAB.json" },
-                { "label": "A-B-A 型", "src": "data/ABA.json" },
-                { "label": "A-B-B 型-1", "src": "data/ABB-1.json" },
-                { "label": "A-B-B 型-2", "src": "data/ABB-2.json" },
-  { "label": "A-B-B 型-3", "src": "data/ABB-3.json" },
-  { "label": "A-B-C 型-1", "src": "data/ABC-1.json" },
-  { "label": "A-B-C 型-2", "src": "data/ABC-2.json" },
-  { "label": "A-B-C 型-3", "src": "data/ABC-3.json" },
-  { "label": "A-B-C 型-4", "src": "data/ABC-4.json" }
+        {
+          "label": "A-A-A 型",
+          "src": "data/AAA.json"
+        },
+        {
+          "label": "A-A-B 型",
+          "src": "data/AAB.json"
+        },
+        {
+          "label": "A-B-A 型",
+          "src": "data/ABA.json"
+        },
+        {
+          "label": "A-B-B 型-1",
+          "src": "data/ABB-1.json"
+        },
+        {
+          "label": "A-B-B 型-2",
+          "src": "data/ABB-2.json"
+        },
+        {
+          "label": "A-B-B 型-3",
+          "src": "data/ABB-3.json"
+        },
+        {
+          "label": "A-B-C 型-1",
+          "src": "data/ABC-1.json"
+        },
+        {
+          "label": "A-B-C 型-2",
+          "src": "data/ABC-2.json"
+        },
+        {
+          "label": "A-B-C 型-3",
+          "src": "data/ABC-3.json"
+        },
+        {
+          "label": "A-B-C 型-4",
+          "src": "data/ABC-4.json"
+        }
       ]
     }
   ]
 }
-
-
-
-
-
-
-
-
-
-
-
-
