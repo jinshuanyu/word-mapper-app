@@ -7,7 +7,7 @@
       "graphemes": ["b", "a", "s", "i", "c"],
       "phonemes": ["/'b", "eɪ", "s", "ɪ", "k/"],
       "phonics": ["/'b", "ā", "s", "ĭ", "k/"],
-      "tags": ["open", "closed"],
+      "tags": ["open"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "重音在 ba-；開音節長母音；第二音節閉音節。"
     },
@@ -18,8 +18,8 @@
       "graphemes": ["b", "r", "oa", "d"],
       "phonemes": ["/b", "r", "ɔ", "d/"],
       "phonics": ["/b", "r", "aw", "d/"],
-      "tags": ["cluster", "vowel_team"],
-      "hearts": [0, 0, 0, 0],
+      "tags": ["cluster", "irregular"],
+      "hearts": [0, 0, 1, 0],
       "hint": "單音節；br 為 cluster；oa 對應 /ɔ/。"
     },
     {
@@ -48,10 +48,10 @@
       "number": "2️⃣ 雙倍的",
       "word": "double",
       "ipa": "/ˈdʌbəl/",
-      "graphemes": ["d", "ou", "ble"],
-      "phonemes": ["/'d", "ʌ", "bəl/"],
-      "phonics": ["/'d", "ŭ", "bəl/"],
-      "tags": ["vowel_team", "irregular"],
+      "graphemes": ["d", "ou", "b","le"],
+      "phonemes": ["/'d", "ʌ", "b","əl/"],
+      "phonics": ["/'d", "ŭ", "b","əl/"],
+      "tags": ["irregular","cle"],
       "hearts": [0, 1, 0],
       "hint": "重音在 dou-；ou 對應 /ʌ/（irregular）。"
     },
@@ -62,8 +62,8 @@
       "graphemes": ["ea", "s", "y"],
       "phonemes": ["/'i", "z", "i/"],
       "phonics": ["/'ē", "z", "ē/"],
-      "tags": ["vowel_team", "suffix"],
-      "hearts": [0, 0, 0],
+      "tags": ["vowel_team"],
+      "hearts": [0, 1, 0],
       "hint": "重音在 ea-；ea 對應 /i/；-y 字尾。"
     },
     {
@@ -74,7 +74,7 @@
       "phonemes": ["/ɛ", "l", "s/"],
       "phonics": ["/ĕ", "l", "s/"],
       "tags": ["closed"],
-      "hearts": [0, 0, 0],
+      "hearts": [0, 0, 1],
       "hint": "單音節閉音節短母音。"
     },
     {
@@ -84,8 +84,8 @@
       "graphemes": ["e", "n", "ou", "gh"],
       "phonemes": ["/ɪ", "'n", "ʌ", "f/"],
       "phonics": ["/ĭ", "'n", "ŭ", "f/"],
-      "tags": ["closed", "vowel_team", "irregular", "silent_consonant"],
-      "hearts": [0, 0, 1, 1],
+      "tags": [ "irregular", "digraph"],
+      "hearts": [1, 0, 1, 1],
       "hint": "重音在 -nough；第一音節閉音節；ou 對應 /ʌ/（irregular）；gh 對應 /f/（irregular）。"
     },
     {
@@ -94,7 +94,7 @@
       "ipa": "/ˈdʒɛnərəl/",
       "graphemes": ["g", "e", "n", "e", "r", "a", "l"],
       "phonemes": ["/'dʒ", "ɛ", "n", "ə", "r", "ə", "l/"],
-      "phonics": ["/'j", "ĕ", "n", "ə", "r", "ə", "l/"],
+      "phonics": ["/'-j", "ĕ", "n", "ə", "r", "ə", "l/"],
       "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0, 0, 0],
       "hint": "重音在 gen-；閉音節短母音。"
@@ -105,9 +105,9 @@
       "ipa": "/ˈmeɪdʒɚ/",
       "graphemes": ["m", "a", "j", "or"],
       "phonemes": ["/'m", "eɪ", "dʒ", "ɚ/"],
-      "phonics": ["/'m", "ā", "j", "or/"],
-      "tags": ["open", "rcontrolled", "suffix"],
-      "hearts": [0, 0, 0, 0],
+      "phonics": ["/'m", "ā", "-j", "er/"],
+      "tags": ["open"],
+      "hearts": [0, 0, 0, 1],
       "hint": "重音在 ma-；開音節長母音；or 在重音音節 r-controlled；-or 字尾。"
     },
     {
@@ -127,18 +127,18 @@
       "ipa": "/ˈmaɪnɚ/",
       "graphemes": ["m", "i", "n", "or"],
       "phonemes": ["/'m", "aɪ", "n", "ɚ/"],
-      "phonics": ["/'m", "ī", "n", "or/"],
-      "tags": ["open", "rcontrolled", "suffix"],
-      "hearts": [0, 0, 0, 0],
+      "phonics": ["/'m", "ī", "n", "er/"],
+      "tags": ["open"],
+      "hearts": [0, 0, 0, 1],
       "hint": "重音在 mi-；開音節長母音；or 在重音音節 r-controlled；-or 字尾。"
     },
     {
       "number": "📍 幾乎",
       "word": "nearly",
       "ipa": "/ˈnɪrli/",
-      "graphemes": ["n", "ear", "l", "y"],
-      "phonemes": ["/'n", "ɪr", "l", "i/"],
-      "phonics": ["/'n", "ir", "l", "ē/"],
+      "graphemes": ["n", "ea","r", "l", "y"],
+      "phonemes": ["/'n", "ɪ","r", "l", "i/"],
+      "phonics": ["/'n", "ĭ","r", "l", "ē/"],
       "tags": ["vowel_team", "rcontrolled", "suffix"],
       "hearts": [0, 0, 0, 0],
       "hint": "重音在 near-；ear 對應 /ɪr/（r-controlled）；-ly 字尾。"
