@@ -169,10 +169,10 @@
       "number": "✔️ 可能的",
       "word": "possible",
       "ipa": "/ˈpɑsəbəl/",
-      "graphemes": ["p", "o", "ss", "i", "ble"],
-      "phonemes": ["/'p", "ɑ", "s", "ə", "bəl/"],
-      "phonics": ["/'p", "ŏ", "s", "ə", "bəl/"],
-      "tags": ["closed", "suffix"],
+      "graphemes": ["p", "o", "ss", "i", "b","le"],
+      "phonemes": ["/'p", "ɑ", "s", "ə", "b","əl/"],
+      "phonics": ["/'p", "ŏ", "s", "ə", "b","əl/"],
+      "tags": ["closed", "cle"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "重音在 pos-；閉音節短母音；-ible 字尾。"
     },
@@ -205,7 +205,7 @@
       "graphemes": ["s", "i", "m", "p", "le"],
       "phonemes": ["/'s", "ɪ", "m", "p", "əl/"],
       "phonics": ["/'s", "ĭ", "m", "p", "əl/"],
-      "tags": ["closed"],
+      "tags": ["closed","cle"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "重音在 sim-；閉音節短母音。"
     },
@@ -214,9 +214,9 @@
       "word": "single",
       "ipa": "/ˈsɪŋgəl/",
       "graphemes": ["s", "i", "ng", "g", "le"],
-      "phonemes": ["/'s", "ɪ", "ŋ", "g", "əl/"],
-      "phonics": ["/'s", "ĭ", "ng", "g", "əl/"],
-      "tags": ["closed", "digraph"],
+      "phonemes": ["/'s", "ɪ", "ŋ", "ɡ", "əl/"],
+      "phonics": ["/'s", "ĭ", "ŋ", "ɡ", "əl/"],
+      "tags": ["closed", "cle"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "重音在 sin-；閉音節短母音；ng 為 digraph。"
     },
@@ -224,11 +224,11 @@
       "number": "⭐ 特別的",
       "word": "special",
       "ipa": "/ˈspɛʃəl/",
-      "graphemes": ["s", "p", "e", "c", "i", "a", "l"],
+      "graphemes": ["s", "p", "e", "ci", "a", "l"],
       "phonemes": ["/'s", "p", "ɛ", "ʃ", "ə", "l/"],
       "phonics": ["/'s", "p", "ĕ", "sh", "ə", "l/"],
       "tags": ["cluster", "closed", "digraph"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0],
+      "hearts": [0, 0, 0, 1, 0, 0, 0],
       "hint": "重音在 spe-；sp 為 cluster；閉音節；ci 對應 /ʃ/。"
     },
     {
@@ -238,7 +238,7 @@
       "graphemes": ["s", "u", "ch"],
       "phonemes": ["/s", "ʌ", "tʃ/"],
       "phonics": ["/s", "ŭ", "ch/"],
-      "tags": ["closed", "digraph"],
+      "tags": ["cvc", "digraph"],
       "hearts": [0, 0, 0],
       "hint": "單音節閉音節；ch 為 digraph。"
     },
@@ -247,10 +247,10 @@
       "word": "usual",
       "ipa": "/ˈjuʒuəl/",
       "graphemes": ["u", "s", "u", "a", "l"],
-      "phonemes": ["/'j", "u", "ʒ", "u", "əl/"],
-      "phonics": ["/'ū", "zh", "ū", "əl/"],
+      "phonemes": ["/'ju", "ʒ", "u", "ə","l/"],
+      "phonics": ["/'yū", "zh", "ū", "ə","l/"],
       "tags": ["open"],
-      "hearts": [0, 0, 0, 0, 0],
+      "hearts": [0, 1, 0, 0, 0],
       "hint": "重音在 u-；開音節長母音；s 對應 /ʒ/。"
     }
   ]
