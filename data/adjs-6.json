@@ -4,11 +4,11 @@
       "number": "✅ 方便的",
       "word": "convenient",
       "ipa": "/kənˈvinjənt/",
-      "graphemes": ["c", "o", "n", "v", "e", "n", "i", "e", "nt"],
-      "phonemes": ["/k", "ə", "n", "'v", "i", "n", "j", "ə", "nt/"],
-      "phonics": ["/k", "ə", "n", "'v", "ē", "n", "y", "ə", "nt/"],
+      "graphemes": ["c", "o", "n", "v", "e", "n", "i", "e", "n", "t"],
+      "phonemes": ["/k", "ə", "n", "'v", "i", "n", "j", "ə", "n", "t/"],
+      "phonics": ["/k", "ə", "n", "'v", "ē", "n", "y", "ə", "n", "t/"],
       "tags": ["open", "suffix"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "重音在 -ve-；ve 開音節長母音；-ent 字尾。"
     },
     {
@@ -26,12 +26,12 @@
       "number": "🌐 外國的",
       "word": "foreign",
       "ipa": "/ˈfɔrən/",
-      "graphemes": ["f", "o", "r", "ei", "g", "n"],
-      "phonemes": ["/'f", "ɔr", "ə", "n/"],
-      "phonics": ["/'f", "or", "ə", "n/"],
-      "tags": ["rcontrolled", "vowel_team", "irregular", "silent_consonant"],
-      "hearts": [0, 0, 0, 1, 1, 0],
-      "hint": "重音在 for-；or 在重音音節 r-controlled；ei 對應 /ə/（irregular）；g 不發音。"
+      "graphemes": ["f", "or", "ei", "g", "n"],
+      "phonemes": ["/'f", "ɔr", "ə", "-", "n/"],
+      "phonics": ["/'f", "or", "ə", "-", "n/"],
+      "tags": ["rcontrolled", "irregular", "silent_consonant"],
+      "hearts": [0, 0, 1, 1, 0],
+      "hint": "重音在 for-；or 在重音音節 r-controlled；ei 對應 /ə/（需記）；g 不發音。"
     },
     {
       "number": "🏠 想家的",
@@ -39,7 +39,7 @@
       "ipa": "/ˈhoʊmsɪk/",
       "graphemes": ["h", "o", "m", "e", "s", "i", "ck"],
       "phonemes": ["/'h", "oʊ", "m", "-", "s", "ɪ", "k/"],
-      "phonics": ["/'h", "ō", "m", "-", "s", "ĭ", "ck/"],
+      "phonics": ["/'h", "ō", "m", "-", "s", "ĭ", "k/"],
       "tags": ["magic_e", "closed", "digraph"],
       "hearts": [0, 0, 0, 0, 0, 0, 0],
       "hint": "重音在 home-；o_e 對應 /oʊ/；第二音節閉音節；ck 為 digraph。"
@@ -48,9 +48,9 @@
       "number": "❌ 不可能的",
       "word": "impossible",
       "ipa": "/ɪmˈpɑsəbəl/",
-      "graphemes": ["i", "m", "p", "o", "ss", "i", "ble"],
-      "phonemes": ["/ɪ", "m", "'p", "ɑ", "s", "ə", "bəl/"],
-      "phonics": ["/ĭ", "m", "'p", "ŏ", "s", "ə", "bəl/"],
+      "graphemes": ["i", "m", "p", "o", "ss", "i", "b","le"],
+      "phonemes": ["/ɪ", "m", "'p", "ɑ", "s", "ə", "b","əl/"],
+      "phonics": ["/ĭ", "m", "'p", "ŏ", "s", "ə", "b","əl/"],
       "tags": ["closed", "suffix"],
       "hearts": [0, 0, 0, 0, 0, 0, 0],
       "hint": "重音在 -pos-；兩個閉音節短母音；-ible 字尾。"
@@ -59,11 +59,11 @@
       "number": "🦅 獨立的",
       "word": "independent",
       "ipa": "/ɪndɪˈpɛndənt/",
-      "graphemes": ["i", "n", "d", "e", "p", "e", "n", "d", "e", "nt"],
-      "phonemes": ["/ɪ", "n", "d", "ɪ", "'p", "ɛ", "n", "d", "ə", "nt/"],
-      "phonics": ["/ĭ", "n", "d", "ĭ", "'p", "ĕ", "n", "d", "ə", "nt/"],
+      "graphemes": ["i", "n", "d", "e", "p", "e", "n", "d", "e", "n", "t"],
+      "phonemes": ["/ɪ", "n", "d", "ɪ", "'p", "ɛ", "n", "d", "ə", "n", "t/"],
+      "phonics": ["/ĭ", "n", "d", "ĭ", "'p", "ĕ", "n", "d", "ə", "n", "t/"],
       "tags": ["closed", "suffix"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "重音在 -pen-；三個閉音節短母音；-ent 字尾。"
     },
     {
@@ -137,9 +137,9 @@
       "word": "rare",
       "ipa": "/rɛr/",
       "graphemes": ["r", "a", "r", "e"],
-      "phonemes": ["/r", "ɛr", "-/"],
-      "phonics": ["/r", "air", "-/"],
-      "tags": ["rcontrolled"],
+      "phonemes": ["/r", "ɛ","r", "-/"],
+      "phonics": ["/r", "ĕ","r", "-/"],
+      "tags": ["magic_e","rcontrolled"],
       "hearts": [0, 0, 0, 0],
       "hint": "單音節；are 對應 /ɛr/；r-controlled。"
     },
@@ -147,9 +147,9 @@
       "number": "📋 負責的",
       "word": "responsible",
       "ipa": "/rɪˈspɑnsəbəl/",
-      "graphemes": ["r", "e", "s", "p", "o", "n", "s", "i", "ble"],
-      "phonemes": ["/r", "ɪ", "'s", "p", "ɑ", "n", "s", "ə", "bəl/"],
-      "phonics": ["/r", "ĭ", "'s", "p", "ŏ", "n", "s", "ə", "bəl/"],
+      "graphemes": ["r", "e", "s", "p", "o", "n", "s", "i", "b","le"],
+      "phonemes": ["/r", "ɪ", "'s", "p", "ɑ", "n", "s", "ə", "b","əl/"],
+      "phonics": ["/r", "ĭ", "'s", "p", "ŏ", "n", "s", "ə", "b","əl/"],
       "tags": ["closed", "suffix"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "重音在 -spon-；兩個閉音節短母音；-ible 字尾。"
@@ -169,11 +169,11 @@
       "number": "🔄 相似的",
       "word": "similar",
       "ipa": "/ˈsɪmələr/",
-      "graphemes": ["s", "i", "m", "i", "l", "ar"],
+      "graphemes": ["s", "i", "m", "i", "l", "a", "r"],
       "phonemes": ["/'s", "ɪ", "m", "ə", "l", "ɚ/"],
       "phonics": ["/'s", "ĭ", "m", "ə", "l", "ar/"],
       "tags": ["closed", "suffix"],
-      "hearts": [0, 0, 0, 0, 0, 0],
+      "hearts": [0, 0, 0, 0, 0, 0, 0],
       "hint": "重音在 sim-；閉音節短母音；-ar 字尾。"
     },
     {
@@ -183,7 +183,7 @@
       "graphemes": ["s", "k", "i", "ll", "f", "u", "l"],
       "phonemes": ["/'s", "k", "ɪ", "l", "f", "ə", "l/"],
       "phonics": ["/'s", "k", "ĭ", "l", "f", "ə", "l/"],
-      "tags": ["cluster", "closed", "floss","suffix"],
+      "tags": ["cluster", "closed", "suffix"],
       "hearts": [0, 0, 0, 0, 0, 0, 0],
       "hint": "重音在 skill-；sk 為 cluster；閉音節短母音；-ful 字尾。"
     },
@@ -205,20 +205,20 @@
       "graphemes": ["s", "o", "ci", "a", "l"],
       "phonemes": ["/'s", "oʊ", "ʃ", "ə", "l/"],
       "phonics": ["/'s", "ō", "sh", "ə", "l/"],
-      "tags": ["open", "digraph"],
-      "hearts": [0, 0, 1, 0, 0, 0],
-      "hint": "重音在 so-；開音節長母音；ci 對應 /ʃ/。"
+      "tags": ["open", "irregular"],
+      "hearts": [0, 0, 1, 0, 0],
+      "hint": "重音在 so-；開音節長母音；ci 對應 /ʃ/（需記）。"
     },
     {
       "number": "👽 奇怪的",
       "word": "strange",
       "ipa": "/streɪndʒ/",
-      "graphemes": ["s", "t", "r", "a", "n", "g", "e"],
-      "phonemes": ["/s", "t", "r", "eɪ", "n", "dʒ", "-/"],
-      "phonics": ["/s", "t", "r", "ā", "n", "-j", "-/"],
-      "tags": ["cluster", "magic_e"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0],
-      "hint": "單音節；str 為 cluster；a_e 對應 /eɪ/；ge 對應 /dʒ/。"
+      "graphemes": ["s", "t", "r", "a", "n", "ge"],
+      "phonemes": ["/s", "t", "r", "eɪ", "n", "dʒ/"],
+      "phonics": ["/s", "t", "r", "ā", "n", "-j/"],
+      "tags": ["cluster", "magic_e", "digraph"],
+      "hearts": [0, 0, 0, 0, 0, 0],
+      "hint": "單音節；str 為 cluster；a_e 對應 /eɪ/；ge 為 digraph 對應 /dʒ/。"
     }
   ]
 }
