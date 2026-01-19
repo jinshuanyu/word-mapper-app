@@ -4,12 +4,12 @@
       "number": "🏛️ 古老的",
       "word": "ancient",
       "ipa": "/ˈeɪnʃənt/",
-      "graphemes": ["a", "n", "c", "i", "e", "nt"],
-      "phonemes": ["/'eɪ", "n", "ʃ", "ə", "nt/"],
-      "phonics": ["/'ā", "n", "sh", "ə", "nt/"],
-      "tags": ["open", "suffix"],
-      "hearts": [0, 0, 0, 0, 0, 0],
-      "hint": "重音在 an-；開音節長母音；ci 對應 /ʃ/；-ent 字尾。"
+      "graphemes": ["a", "n", "c", "i", "e", "n", "t"],
+      "phonemes": ["/'eɪ", "n", "ʃ", "ə", "n", "t/"],
+      "phonics": ["/'ā", "n", "sh", "ə", "n", "t/"],
+      "tags": ["open", "irregular", "suffix"],
+      "hearts": [0, 0, 0, 1, 0, 0, 0],
+      "hint": "重音在 an-；開音節長母音；ci 對應 /ʃ/（需記）；-ent 字尾。"
     },
     {
       "number": "💡 明亮的",
@@ -50,7 +50,7 @@
       "ipa": "/dɑrk/",
       "graphemes": ["d", "ar", "k"],
       "phonemes": ["/d", "ɑr", "k/"],
-      "phonics": ["/d", "ar", "k/"],
+      "phonics": ["/d", "ɑr", "k/"],
       "tags": ["rcontrolled"],
       "hearts": [0, 0, 0],
       "hint": "單音節；ar 對應 /ɑr/；r-controlled。"
@@ -149,7 +149,7 @@
       "ipa": "/ʃɑrp/",
       "graphemes": ["sh", "ar", "p"],
       "phonemes": ["/ʃ", "ɑr", "p/"],
-      "phonics": ["/sh", "ar", "p/"],
+      "phonics": ["/sh", "ɑr", "p/"],
       "tags": ["digraph", "rcontrolled"],
       "hearts": [0, 0, 0],
       "hint": "單音節；sh 為 digraph；ar 對應 /ɑr/；r-controlled。"
@@ -158,11 +158,11 @@
       "number": "🤫 安靜的",
       "word": "silent",
       "ipa": "/ˈsaɪlənt/",
-      "graphemes": ["s", "i", "l", "e", "nt"],
-      "phonemes": ["/'s", "aɪ", "l", "ə", "nt/"],
-      "phonics": ["/'s", "ī", "l", "ə", "nt/"],
+      "graphemes": ["s", "i", "l", "e", "n", "t"],
+      "phonemes": ["/'s", "aɪ", "l", "ə", "n", "t/"],
+      "phonics": ["/'s", "ī", "l", "ə", "n", "t/"],
       "tags": ["open", "suffix"],
-      "hearts": [0, 0, 0, 0, 0],
+      "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "重音在 si-；開音節長母音；-ent 字尾。"
     },
     {
@@ -171,8 +171,8 @@
       "ipa": "/θɪk/",
       "graphemes": ["th", "i", "ck"],
       "phonemes": ["/θ", "ɪ", "k/"],
-      "phonics": ["/th", "ĭ", "ck/"],
-      "tags": ["digraph", "closed"],
+      "phonics": ["/th", "ĭ", "k/"],
+      "tags": ["digraph", "closed", "digraph"],
       "hearts": [0, 0, 0],
       "hint": "單音節；th 為 digraph；閉音節；ck 為 digraph。"
     },
