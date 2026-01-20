@@ -7,7 +7,7 @@
       "graphemes": ["p", "o", "l", "i", "c", "e", " ", "o", "ff", "i", "c", "er"],
       "phonemes": ["/p", "ə", "'l", "i", "s", "-", " ", "'ɔ", "f", "ɪ", "s", "ɚ/"],
       "phonics": ["/p", "ə", "'l", "ē", "s", "-", " ", "'aw", "f", "ĭ", "s", "er/"],
-      "tags": ["suffix"],
+      "tags": ["irregular"],
       "hearts": [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "兩個主重音；police 重音在 -lice；officer 重音在 of-（閉音節）；ff 為 floss。"
     },
@@ -18,9 +18,9 @@
       "graphemes": ["p", "o", "l", "i", "c", "e", " ", "s", "t", "a", "tion"],
       "phonemes": ["/p", "ə", "'l", "i", "s", "-", " ", "'s", "t", "eɪ", "ʃən/"],
       "phonics": ["/p", "ə", "'l", "ē", "s", "-", " ", "'s", "t", "ā", "shən/"],
-      "tags": ["cluster", "digraph", "irregular", "vowel_team"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
-      "hint": "兩個主重音；st 混合音；ti+on 對應 /ʃən/（需記）；sh 為 digraph。"
+      "tags": [ "irregular","cluster"],
+      "hearts": [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1],
+      "hint": "兩個主重音；st 混合音；tion 對應 /ʃən/（需記）。"
     },
     {
       "number": "🧑‍🚒 消防員",
@@ -28,7 +28,7 @@
       "ipa": "/ˈfaɪrfaɪtɚ/",
       "graphemes": ["f", "i", "r", "e", "f", "igh", "t", "er"],
       "phonemes": ["/'f", "aɪ", "r", "-", "f", "aɪ", "t", "ɚ/"],
-      "phonics": ["/'f", "ī", "r", "-", "f", "ī", "t", "er/"],
+      "phonics": ["/'f", "ī", "r", "-", "f", "ī",  "t", "er/"],
       "tags": ["magic_e", "silent_consonant", "suffix"],
       "hearts": [0, 0, 0, 0, 0, 0, 1, 0, 0],
       "hint": "重音在 fire-；gh 不發音；-er 字尾。"
@@ -40,7 +40,7 @@
       "graphemes": ["f", "i", "r", "e", " ", "t", "r", "u", "ck"],
       "phonemes": ["/'f", "aɪ", "r", "-", " ", "t", "r", "ʌ", "k/"],
       "phonics": ["/'f", "ī", "r", "-", " ", "t", "r", "ŭ", "k/"],
-      "tags": ["cluster", "digraph", "magic_e"],
+      "tags": ["magic_e","cluster", "digraph"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "重音在 fire；tr 混合音；ck 為 digraph。"
     },
@@ -62,7 +62,7 @@
       "graphemes": ["j", "u", "dge"],
       "phonemes": ["/'dʒ", "ʌ", "dʒ/"],
       "phonics": ["/'-j", "ŭ", "-j/"],
-      "tags": ["closed", "digraph"],
+      "tags": ["cvc", "digraph"],
       "hearts": [0, 0, 0],
       "hint": "單音節閉音節；dge 對應 /dʒ/。"
     },
@@ -81,22 +81,22 @@
       "number": "🤝 外交官",
       "word": "diplomat",
       "ipa": "/ˈdɪpləmæt/",
-      "graphemes": ["d", "i", "p","l", "o", "m", "a", "t"],
-      "phonemes": ["/'d", "ɪ", "p","l", "ə", "m", "æ", "t/"],
-      "phonics": ["/'d", "ĭ", "p","l", "ə", "m", "ă", "t/"],
+      "graphemes": ["d", "i", "p", "l", "o", "m", "a", "t"],
+      "phonemes": ["/'d", "ɪ", "p", "l", "ə", "m", "æ", "t/"],
+      "phonics": ["/'d", "ĭ", "p", "l", "ə", "m", "ă", "t/"],
       "tags": ["closed", "cluster"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0],
+      "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "重音在 dip-（閉音節）；pl 混合音。"
     },
     {
       "number": "🏛 總統",
       "word": "president",
       "ipa": "/ˈprɛzɪdənt/",
-      "graphemes": ["p","r", "e", "s", "i", "d", "e", "n", "t"],
-      "phonemes": ["/'p","r", "ɛ", "z", "ɪ", "d", "ə", "n", "t/"],
-      "phonics": ["/'p","r", "ĕ", "z", "ĭ", "d", "ə", "n", "t/"],
-      "tags": ["closed", "cluster"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
+      "graphemes": ["p", "r", "e", "s", "i", "d", "e", "n", "t"],
+      "phonemes": ["/'p", "r", "ɛ", "z", "ɪ", "d", "ə", "n", "t/"],
+      "phonics": ["/'p", "r", "ĕ", "z", "ĭ", "d", "ə", "n", "t/"],
+      "tags": ["cluster","closed"],
+      "hearts": [0, 0, 0, 1, 0, 0, 0, 0, 0],
       "hint": "重音在 pres-（閉音節）；pr 混合音。"
     },
     {
@@ -114,11 +114,11 @@
       "number": "⛪ 牧師",
       "word": "priest",
       "ipa": "/prist/",
-      "graphemes": ["pr", "ie", "st"],
-      "phonemes": ["/'pr", "i", "st/"],
-      "phonics": ["/'pr", "ē", "st/"],
-      "tags": ["closed", "cluster", "vowel_team"],
-      "hearts": [0, 0, 0],
+      "graphemes": ["p", "r", "ie", "s", "t"],
+      "phonemes": ["/'p", "r", "i", "s", "t/"],
+      "phonics": ["/'p", "r", "ē", "s", "t/"],
+      "tags": ["cluster", "vowel_team"],
+      "hearts": [0, 0, 1, 0, 0],
       "hint": "單音節閉音節；pr 混合音；ie 對應 /i/。"
     },
     {
@@ -127,7 +127,7 @@
       "ipa": "/ˈsoʊldʒɚ/",
       "graphemes": ["s", "o", "l", "di", "er"],
       "phonemes": ["/'s", "oʊ", "l", "dʒ", "ɚ/"],
-      "phonics": ["/'s", "ō", "l", "j", "er/"],
+      "phonics": ["/'s", "ō", "l", "-j", "er/"],
       "tags": ["irregular", "open", "suffix"],
       "hearts": [0, 0, 0, 1, 0],
       "hint": "重音在 sol-（開音節）；di 對應 /dʒ/（需記）；-er 字尾。"
@@ -136,11 +136,11 @@
       "number": "🔬 科學家",
       "word": "scientist",
       "ipa": "/ˈsaɪəntɪst/",
-      "graphemes": ["s", "ci", "e", "n", "t", "i", "st"],
-      "phonemes": ["/'s", "aɪ", "ə", "n", "t", "ɪ", "st/"],
-      "phonics": ["/'s", "ī", "ə", "n", "t", "ĭ", "st/"],
-      "tags": ["irregular", "open", "suffix"],
-      "hearts": [0, 1, 0, 0, 0, 0, 0],
+      "graphemes": ["sc", "i", "e", "n", "t", "i", "s", "t"],
+      "phonemes": ["/'s", "aɪ", "ə", "n", "t", "ɪ", "s", "t/"],
+      "phonics": ["/'s", "ī", "ə", "n", "t", "ĭ", "s", "t/"],
+      "tags": ["irregular","suffix"],
+      "hearts": [1, 0, 1, 0, 0, 0, 0, 0, 0],
       "hint": "重音在 sci-（開音節）；ci 對應 /aɪ/（需記）；-ist 字尾。"
     },
     {
@@ -150,7 +150,7 @@
       "graphemes": ["t", "ea", "ch", "er"],
       "phonemes": ["/'t", "i", "tʃ", "ɚ/"],
       "phonics": ["/'t", "ē", "ch", "er/"],
-      "tags": ["digraph", "suffix", "vowel_team"],
+      "tags": ["vowel_team","digraph", "suffix"],
       "hearts": [0, 0, 0, 0],
       "hint": "重音在 tea-；ea 對應 /i/；ch 為 digraph；-er 字尾。"
     },
@@ -161,7 +161,7 @@
       "graphemes": ["r", "e", "p", "or", "t", "er"],
       "phonemes": ["/r", "ɪ", "'p", "ɔr", "t", "ɚ/"],
       "phonics": ["/r", "ĭ", "'p", "or", "t", "er/"],
-      "tags": ["closed", "rcontrolled", "suffix"],
+      "tags": [ "rcontrolled", "suffix"],
       "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "重音在 -port（閉音節）；or 為 r-controlled；-er 字尾。"
     }
