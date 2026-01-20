@@ -139,7 +139,7 @@
       "graphemes": ["m", "ai", "l", " ", "c", "a", "rr", "i", "er"],
       "phonemes": ["/'m", "eɪ", "l", " ", "'k", "æ", "r", "i", "ɚ/"],
       "phonics": ["/'m", "ā", "l", " ", "'k", "ă", "r", "ē", "er/"],
-      "tags": ["vowel_team" "suffix", ],
+      "tags": ["vowel_team", "suffix" ],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "兩個主重音；mail 有 ai；carr- 閉音節；-er 字尾。"
     },
