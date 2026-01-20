@@ -8,7 +8,7 @@
       "phonemes": ["/'æ", "k", "t", "ɚ/"],
       "phonics": ["/'ă", "k", "t", "er/"],
       "tags": ["closed","suffix"],
-      "hearts": [0, 0, 0, 0],
+      "hearts": [0, 0, 0, 1],
       "hint": "重音在 act；字尾 or 對應 /ɚ/。"
     },
     {
@@ -59,9 +59,9 @@
       "number": "🎵 音樂家",
       "word": "musician",
       "ipa": "/mjuˈzɪʃən/",
-      "graphemes": ["m", "u", "s", "i", "ci", "an"],
-      "phonemes": ["/m", "ju", "'z", "ɪ", "ʃ", "ən/"],
-      "phonics": ["/m", "yū", "'z", "ĭ", "sh", "ən/"],
+      "graphemes": ["m", "u", "s", "i", "ci", "a","n"],
+      "phonemes": ["/m", "ju", "'z", "ɪ", "ʃ", "ə","n/"],
+      "phonics": ["/m", "yū", "'z", "ĭ", "sh", "ə","n/"],
       "tags": ["irregular","suffix"],
       "hearts": [0, 0, 0, 0, 1, 0],
       "hint": "重音在 zi；ci 對應 /ʃ/（需記）。"
@@ -92,11 +92,11 @@
       "number": "🎩 魔術師",
       "word": "magician",
       "ipa": "/məˈdʒɪʃən/",
-      "graphemes": ["m", "a", "g", "i", "ci", "an"],
-      "phonemes": ["/m", "ə", "'dʒ", "ɪ", "ʃ", "ən/"],
-      "phonics": ["/m", "ə", "'-j", "ĭ", "sh", "ən/"],
+      "graphemes": ["m", "a", "g", "i", "ci", "a","n"],
+      "phonemes": ["/m", "ə", "'dʒ", "ɪ", "ʃ", "ə","n/"],
+      "phonics": ["/m", "ə", "'-j", "ĭ", "sh", "ə","n/"],
       "tags": ["suffix", "irregular"],
-      "hearts": [0, 1, 1, 0, 1, 0],
+      "hearts": [0, 0, 0, 0, 1, 0],
       "hint": "a 弱化 /ə/；g 在 i 前發 /dʒ/（需記）；ci 對應 /ʃ/。"
     },
     {
@@ -106,7 +106,7 @@
       "graphemes": ["c", "ir", "c", "u", "s", " ", "c", "l", "ow", "n"],
       "phonemes": ["/'s", "ɝ", "k", "ə", "s", " ", "k", "l", "aʊ", "n/"],
       "phonics": ["/'s", "er", "k", "ə", "s", " ", "k", "l", "ow", "n/"],
-      "tags": ["rcontrolled", "cluster", "diphthong"],
+      "tags": ["rcontrolled", "cluster"],
       "hearts": [0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
       "hint": "ir 對應 /ɝ/；ow 對應 /aʊ/。"
     },
@@ -136,9 +136,9 @@
       "number": "✍️ 作家",
       "word": "writer",
       "ipa": "/ˈraɪtɚ/",
-      "graphemes": ["wr", "i", "t", "er"],
-      "phonemes": ["/'r", "aɪ", "t", "ɚ/"],
-      "phonics": ["/'r", "ī", "t", "er/"],
+      "graphemes": ["w","r", "i", "t", "er"],
+      "phonemes": ["/-","'r", "aɪ", "t", "ɚ/"],
+      "phonics": ["/-","'r", "ī", "t", "er/"],
       "tags": ["silent_consonant", "rcontrolled"],
       "hearts": [1, 0, 0, 0],
       "hint": "wr- 的 w 不發音；er 對應 /ɚ/。"
