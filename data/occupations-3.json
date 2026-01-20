@@ -5,8 +5,8 @@
       "word": "boss",
       "ipa": "/bɔs/",
       "graphemes": ["b", "o", "ss"],
-      "phonemes": ["/b", "ɔ", "s/"],
-      "phonics": ["/b", "aw", "s/"],
+      "phonemes": ["/'b", "ɔ", "s/"],
+      "phonics": ["/'b", "aw", "s/"],
       "tags": ["closed", "floss"],
       "hearts": [0, 0, 0],
       "hint": "單音節；o 對應 /ɔ/；ss 為 floss。"
@@ -18,7 +18,7 @@
       "graphemes": ["b", "u", "si", "n", "e", "ss", "m", "a", "n"],
       "phonemes": ["/'b", "ɪ", "z", "n", "ə", "s", "m", "æ", "n/"],
       "phonics": ["/'b", "ĭ", "z", "n", "ə", "s", "m", "ă", "n/"],
-      "tags": ["closed", "irregular"],
+      "tags": ["closed", "floss", "irregular"],
       "hearts": [0, 1, 1, 0, 0, 0, 0, 0, 0],
       "hint": "重音在 busi-；u、si 發音不規則（需記）。"
     },
@@ -29,7 +29,7 @@
       "graphemes": ["b", "u", "si", "n", "e", "ss", "w", "o", "m", "a", "n"],
       "phonemes": ["/'b", "ɪ", "z", "n", "ə", "s", "w", "ʊ", "m", "ə", "n/"],
       "phonics": ["/'b", "ĭ", "z", "n", "ə", "s", "w", "oo", "m", "ə", "n/"],
-      "tags": ["closed", "irregular"],
+      "tags": ["closed", "floss", "irregular"],
       "hearts": [0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0],
       "hint": "重音在 busi-；u、si、woman 的 o 不規則。"
     },
@@ -51,7 +51,7 @@
       "graphemes": ["s", "e", "c", "r", "e", "t", "a", "r", "y"],
       "phonemes": ["/'s", "ɛ", "k", "r", "ə", "t", "ɛ", "r", "i/"],
       "phonics": ["/'s", "ĕ", "k", "r", "ə", "t", "ĕ", "r", "ē/"],
-      "tags": ["closed", "cluster", "suffix"],
+      "tags": ["closed", "cluster"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "重音在 sec-；cr 混合音；-ary 字尾。"
     },
@@ -95,7 +95,7 @@
       "graphemes": ["b", "u", "si", "n", "e", "ss"],
       "phonemes": ["/'b", "ɪ", "z", "n", "ə", "s/"],
       "phonics": ["/'b", "ĭ", "z", "n", "ə", "s/"],
-      "tags": ["closed", "irregular"],
+      "tags": ["closed", "floss", "irregular"],
       "hearts": [0, 1, 1, 0, 0, 0],
       "hint": "重音在 busi-；u、si 發音不規則（需記）。"
     },
@@ -115,8 +115,8 @@
       "word": "hire",
       "ipa": "/haɪr/",
       "graphemes": ["h", "i", "r", "e"],
-      "phonemes": ["/h", "aɪ", "r", "-/"],
-      "phonics": ["/h", "ī", "r", "-/"],
+      "phonemes": ["/'h", "aɪ", "r", "-/"],
+      "phonics": ["/'h", "ī", "r", "-/"],
       "tags": ["magic_e"],
       "hearts": [0, 0, 0, 0],
       "hint": "單音節；i_e 對應 /aɪ/。"
@@ -126,8 +126,8 @@
       "word": "job",
       "ipa": "/dʒɑb/",
       "graphemes": ["j", "o", "b"],
-      "phonemes": ["/dʒ", "ɑ", "b/"],
-      "phonics": ["/-j", "ŏ", "b/"],
+      "phonemes": ["/'dʒ", "ɑ", "b/"],
+      "phonics": ["/'j", "ŏ", "b/"],
       "tags": ["closed"],
       "hearts": [0, 0, 0],
       "hint": "單音節閉音節；j 對應 /dʒ/。"
@@ -137,8 +137,8 @@
       "word": "work",
       "ipa": "/wɝk/",
       "graphemes": ["w", "or", "k"],
-      "phonemes": ["/w", "ɝ", "k/"],
-      "phonics": ["/w", "er", "k/"],
+      "phonemes": ["/'w", "ɝ", "k/"],
+      "phonics": ["/'w", "er", "k/"],
       "tags": ["irregular", "rcontrolled"],
       "hearts": [0, 1, 0],
       "hint": "單音節；or 在此對應 /ɝ/（需記）。"
@@ -161,7 +161,7 @@
       "graphemes": ["o", "ff", "i", "c", "e"],
       "phonemes": ["/'ɔ", "f", "ɪ", "s", "-/"],
       "phonics": ["/'aw", "f", "ĭ", "s", "-/"],
-      "tags": ["closed"],
+      "tags": ["closed", "floss"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "重音在 of-（閉音節）；c 在 e 前發 /s/。"
     },
