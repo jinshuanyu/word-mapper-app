@@ -59,10 +59,10 @@
       "number": "🧑‍🔧 工程師",
       "word": "engineer",
       "ipa": "/ɛndʒəˈnɪr/",
-      "graphemes": ["e", "n", "g", "i", "n", "eer"],
-      "phonemes": ["/ɛ", "n", "dʒ", "ə", "'n", "ɪr/"],
-      "phonics": ["/ĕ", "n", "-j", "ə", "'n", "ir/"],
-      "tags": ["irregular", "rcontrolled", "suffix"],
+      "graphemes": ["e", "n", "g", "i", "n", "ee","r"],
+      "phonemes": ["/ɛ", "n", "dʒ", "ə", "'n", "ɪ","r/"],
+      "phonics": ["/ĕ", "n", "-j", "ə", "'n", "ĭ","r/"],
+      "tags": ["irregular", "rcontrolled"],
       "hearts": [0, 0, 0, 0, 0, 1],
       "hint": "重音在 -neer；g 在 i 前發 /dʒ/；eer 對應 /ɪr/（需記）。"
     },
@@ -73,7 +73,7 @@
       "graphemes": ["a", "s", "t", "r", "o", "n", "au", "t"],
       "phonemes": ["/'æ", "s", "t", "r", "ə", "n", "ɔ", "t/"],
       "phonics": ["/'ă", "s", "t", "r", "ə", "n", "aw", "t/"],
-      "tags": ["closed", "cluster", "vowel_team"],
+      "tags": ["closed", "cluster"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "重音在 as-（閉音節）；str 混合音；au 對應 /ɔ/。"
     },
@@ -96,7 +96,7 @@
       "phonemes": ["/'s", "eɪ", "l", "ɚ/"],
       "phonics": ["/'s", "ā", "l", "er/"],
       "tags": ["suffix", "vowel_team"],
-      "hearts": [0, 0, 0, 0],
+      "hearts": [0, 0, 0, 1],
       "hint": "重音在 sail-；ai 對應 /eɪ/；-or 字尾。"
     },
     {
@@ -106,8 +106,8 @@
       "graphemes": ["p", "i", "r", "a", "t", "e"],
       "phonemes": ["/'p", "aɪ", "r", "ə", "t", "-/"],
       "phonics": ["/'p", "ī", "r", "ə", "t", "-/"],
-      "tags": ["magic_e", "open"],
-      "hearts": [0, 0, 0, 0, 0, 0],
+      "tags": [ "open"],
+      "hearts": [0, 0, 0, 0, 0, 1],
       "hint": "重音在 pi-（開音節）；字尾 e 不發音。"
     },
     {
@@ -159,9 +159,9 @@
       "word": "guide",
       "ipa": "/ɡaɪd/",
       "graphemes": ["g", "ui", "d", "e"],
-      "phonemes": ["/ɡ", "aɪ", "d", "-/"],
-      "phonics": ["/ɡ", "ī", "d", "-/"],
-      "tags": ["irregular", "magic_e"],
+      "phonemes": ["/'ɡ", "aɪ", "d", "-/"],
+      "phonics": ["/'ɡ", "ī", "d", "-/"],
+      "tags": ["irregular"],
       "hearts": [0, 1, 0, 0],
       "hint": "單音節；ui 對應 /aɪ/（需記）；字尾 e 不發音。"
     }
