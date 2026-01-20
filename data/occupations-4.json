@@ -7,9 +7,9 @@
       "graphemes": ["p", "o", "l", "i", "c", "e", " ", "o", "ff", "i", "c", "er"],
       "phonemes": ["/p", "ə", "'l", "i", "s", "-", " ", "'ɔ", "f", "ɪ", "s", "ɚ/"],
       "phonics": ["/p", "ə", "'l", "ē", "s", "-", " ", "'aw", "f", "ĭ", "s", "er/"],
-      "tags": ["closed", "suffix"],
+      "tags": ["closed", "floss", "suffix"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-      "hint": "兩個主重音；police 重音在 -lice；officer 重音在 of-（閉音節）。"
+      "hint": "兩個主重音；police 重音在 -lice；officer 重音在 of-（閉音節）；ff 為 floss。"
     },
     {
       "number": "🏛 警局",
@@ -18,9 +18,9 @@
       "graphemes": ["p", "o", "l", "i", "c", "e", " ", "s", "t", "a", "ti", "on"],
       "phonemes": ["/p", "ə", "'l", "i", "s", "-", " ", "'s", "t", "eɪ", "ʃ", "ən/"],
       "phonics": ["/p", "ə", "'l", "ē", "s", "-", " ", "'s", "t", "ā", "sh", "ən/"],
-      "tags": ["cluster", "irregular", "suffix", "vowel_team"],
+      "tags": ["cluster", "digraph", "irregular", "vowel_team"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
-      "hint": "兩個主重音；st 混合音；ti+on 對應 /ʃən/（需記）。"
+      "hint": "兩個主重音；st 混合音；ti+on 對應 /ʃən/（需記）；sh 為 digraph。"
     },
     {
       "number": "🧑‍🚒 消防員",
@@ -49,19 +49,19 @@
       "word": "ambulance",
       "ipa": "/ˈæmbjələns/",
       "graphemes": ["a", "m", "b", "u", "l", "a", "n", "ce"],
-      "phonemes": ["/'æ", "m", "b", "j", "ə", "ə", "n", "s/"],
-      "phonics": ["/'ă", "m", "b", "y", "ə", "ə", "n", "s/"],
+      "phonemes": ["/'æ", "m", "b", "jə", "l", "ə", "n", "s/"],
+      "phonics": ["/'ă", "m", "b", "yə", "l", "ə", "n", "s/"],
       "tags": ["closed", "irregular"],
       "hearts": [0, 0, 0, 1, 0, 0, 0, 0],
-      "hint": "重音在 am-（閉音節）；u 對應 /j/（需記）。"
+      "hint": "重音在 am-（閉音節）；u 對應 /jə/（需記）。"
     },
     {
       "number": "⚖️ 法官",
       "word": "judge",
       "ipa": "/dʒʌdʒ/",
       "graphemes": ["j", "u", "dge"],
-      "phonemes": ["/dʒ", "ʌ", "dʒ/"],
-      "phonics": ["/j", "ŭ", "j/"],
+      "phonemes": ["/'dʒ", "ʌ", "dʒ/"],
+      "phonics": ["/'j", "ŭ", "j/"],
       "tags": ["closed", "digraph"],
       "hearts": [0, 0, 0],
       "hint": "單音節閉音節；dge 對應 /dʒ/。"
@@ -104,8 +104,8 @@
       "word": "queen",
       "ipa": "/kwin/",
       "graphemes": ["qu", "ee", "n"],
-      "phonemes": ["/kw", "i", "n/"],
-      "phonics": ["/kw", "ē", "n/"],
+      "phonemes": ["/'kw", "i", "n/"],
+      "phonics": ["/'kw", "ē", "n/"],
       "tags": ["closed", "vowel_team"],
       "hearts": [0, 0, 0],
       "hint": "單音節閉音節；qu 對應 /kw/；ee 對應 /i/。"
@@ -115,8 +115,8 @@
       "word": "priest",
       "ipa": "/prist/",
       "graphemes": ["pr", "ie", "st"],
-      "phonemes": ["/pr", "i", "st/"],
-      "phonics": ["/pr", "ē", "st/"],
+      "phonemes": ["/'pr", "i", "st/"],
+      "phonics": ["/'pr", "ē", "st/"],
       "tags": ["closed", "cluster", "vowel_team"],
       "hearts": [0, 0, 0],
       "hint": "單音節閉音節；pr 混合音；ie 對應 /i/。"
