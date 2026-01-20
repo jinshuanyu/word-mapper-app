@@ -7,7 +7,7 @@
       "graphemes": ["b", "a", "b", "y", " ", "s", "i", "tt", "er"],
       "phonemes": ["/'b", "eɪ", "b", "i", " ", "s", "ɪ", "t", "ɚ/"],
       "phonics": ["/'b", "ā", "b", "ē", " ", "s", "ĭ", "t", "er/"],
-      "tags": [ "open"],
+      "tags": ["floss", "open"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "ba- 開音節。"
     },
@@ -29,7 +29,7 @@
       "graphemes": ["h", "ai", "r", "d", "r", "e", "ss", "er"],
       "phonemes": ["/'h", "ɛ", "r", "d", "r", "ɛ", "s", "ɚ/"],
       "phonics": ["/'h", "ĕ", "r", "d", "r", "ĕ", "s", "er/"],
-      "tags": ["vowel_team","rcontrolled", "suffix"],
+      "tags": ["floss", "rcontrolled", "suffix", "vowel_team"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "重音在 hair；air 發 /ɛr/（需記）；ss 為 floss；-er 字尾。"
     },
@@ -40,7 +40,7 @@
       "graphemes": ["c", "oo", "k"],
       "phonemes": ["/'k", "ʊ", "k/"],
       "phonics": ["/'k", "oo", "k/"],
-      "tags": [ "vowel_team"],
+      "tags": ["closed", "vowel_team"],
       "hearts": [0, 0, 0],
       "hint": "單音節閉音節；oo 對應 /ʊ/。"
     },
@@ -51,7 +51,7 @@
       "graphemes": ["w", "ai", "t", "er"],
       "phonemes": ["/'w", "eɪ", "t", "ɚ/"],
       "phonics": ["/'w", "ā", "t", "er/"],
-      "tags": ["vowel_team","suffix"],
+      "tags": ["suffix", "vowel_team"],
       "hearts": [0, 0, 0, 0],
       "hint": "重音在 wait；ai 對應 /eɪ/；-er 職業字尾。"
     },
@@ -62,7 +62,7 @@
       "graphemes": ["w", "ai", "t", "r", "e", "ss"],
       "phonemes": ["/'w", "eɪ", "t", "r", "ə", "s/"],
       "phonics": ["/'w", "ā", "t", "r", "ə", "s/"],
-      "tags": ["vowel_team","floss", "suffix"],
+      "tags": ["floss", "suffix", "vowel_team"],
       "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "重音在 wait；ai 對應 /eɪ/；ss 為 floss；-ess 字尾。"
     },
@@ -73,7 +73,7 @@
       "graphemes": ["sh", "o", "p", "k", "ee", "p", "er"],
       "phonemes": ["/'ʃ", "ɑ", "p", "k", "i", "p", "ɚ/"],
       "phonics": ["/'sh", "ŏ", "p", "k", "ē", "p", "er/"],
-      "tags": [ "digraph", "closed","suffix"],
+      "tags": ["closed", "digraph", "suffix", "vowel_team"],
       "hearts": [0, 0, 0, 0, 0, 0, 0],
       "hint": "重音在 shop（閉音節）；sh 為 digraph；-er 字尾。"
     },
@@ -95,7 +95,7 @@
       "graphemes": ["a", "ss", "i", "s", "t", "a", "n", "t"],
       "phonemes": ["/ə", "'s", "ɪ", "s", "t", "ə", "n", "t/"],
       "phonics": ["/ə", "'s", "ĭ", "s", "t", "ə", "n", "t/"],
-      "tags": ["closed","suffix"],
+      "tags": ["closed", "floss", "suffix"],
       "hearts": [0, 1, 0, 0, 0, 0, 0, 0],
       "hint": "重音在 -sist（閉音節）；ss 為 floss；-ant 字尾。"
     },
@@ -139,7 +139,7 @@
       "graphemes": ["m", "ai", "l", " ", "c", "a", "rr", "i", "er"],
       "phonemes": ["/'m", "eɪ", "l", " ", "'k", "æ", "r", "i", "ɚ/"],
       "phonics": ["/'m", "ā", "l", " ", "'k", "ă", "r", "ē", "er/"],
-      "tags": ["vowel_team", "suffix" ],
+      "tags": ["suffix", "vowel_team"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "兩個主重音；mail 有 ai；carr- 閉音節；-er 字尾。"
     },
@@ -172,7 +172,7 @@
       "graphemes": ["n", "ur", "s", "e"],
       "phonemes": ["/'n", "ɝ", "s", "-/"],
       "phonics": ["/'n", "er", "s", "-/"],
-      "tags": [ "rcontrolled"],
+      "tags": ["rcontrolled"],
       "hearts": [0, 0, 0, 0],
       "hint": "單音節；ur 對應 /ɝ/；字尾 e 不發音。"
     },
@@ -180,11 +180,11 @@
       "number": "🏥 醫院",
       "word": "hospital",
       "ipa": "/ˈhɑspɪtəl/",
-      "graphemes": ["h", "o", "s", "p", "i", "t", "a","l"],
-      "phonemes": ["/'h", "ɑ", "s", "p", "ɪ", "t", "ə","l/"],
-      "phonics": ["/'h", "ŏ", "s", "p", "ĭ", "t", "ə","l/"],
+      "graphemes": ["h", "o", "s", "p", "i", "t", "a", "l"],
+      "phonemes": ["/'h", "ɑ", "s", "p", "ɪ", "t", "ə", "l/"],
+      "phonics": ["/'h", "ŏ", "s", "p", "ĭ", "t", "ə", "l/"],
       "tags": ["closed"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0],
+      "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "重音在 hos（閉音節）；al 弱化為 /əl/。"
     }
   ]
