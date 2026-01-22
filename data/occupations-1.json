@@ -107,7 +107,7 @@
       "phonemes": ["/'s", "ɝ", "k", "ə", "s", " ", "k", "l", "aʊ", "n/"],
       "phonics": ["/'s", "er", "k", "ə", "s", " ", "k", "l", "ow", "n/"],
       "tags": ["rcontrolled", "cluster"],
-      "hearts": [0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
+      "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "ir 對應 /ɝ/；ow 對應 /aʊ/。"
     },
     {
@@ -118,7 +118,7 @@
       "phonemes": ["/f", "ə", "'t", "ɑ", "ɡ", "r", "ə", "f", "ɚ/"],
       "phonics": ["/f", "ə", "'t", "ŏ", "ɡ", "r", "ə", "f", "er/"],
       "tags": ["digraph", "rcontrolled"],
-      "hearts": [0, 1, 0, 0, 0, 0, 1, 0, 0],
+      "hearts": [1, 0, 0, 0, 0, 0, 0, 1, 0],
       "hint": "ph 對應 /f/；多數母音弱化 /ə/；er 對應 /ɚ/。"
     },
     {
@@ -129,7 +129,7 @@
       "phonemes": ["/'dʒ", "ɝ", "n", "ə", "l", "ɪ", "s", "t/"],
       "phonics": ["/'-j", "er", "n", "ə", "l", "ĭ", "s", "t/"],
       "tags": ["rcontrolled", "irregular"],
-      "hearts": [0, 1, 0, 1, 0, 0, 0, 0],
+      "hearts": [0, 1, 0, 0, 0, 0, 0, 0],
       "hint": "our 在此對應 /ɝ/（需記）；a 弱化 /ə/。"
     },
     {
@@ -151,7 +151,7 @@
       "phonemes": ["/n", "u", "z/"],
       "phonics": ["/n", "ū", "z/"],
       "tags": ["vowel_team"],
-      "hearts": [0, 1, 0],
+      "hearts": [0, 0, 1],
       "hint": "ew 在此對應 /u/；s 常讀 /z/。"
     },
     {
@@ -162,7 +162,7 @@
       "phonemes": ["/'n", "u", "z", "p", "eɪ", "p", "ɚ/"],
       "phonics": ["/'n", "ū", "z", "p", "ā", "p", "er/"],
       "tags": ["vowel_team", "rcontrolled"],
-      "hearts": [0, 1, 0, 0, 0, 0, 0],
+      "hearts": [0, 0, 1, 0, 0, 0, 0],
       "hint": "a 對應 /eɪ/；er 對應 /ɚ/。"
     },
     {
