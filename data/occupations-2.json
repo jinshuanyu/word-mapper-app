@@ -42,7 +42,8 @@
       "phonics": ["/'k", "oo", "k/"],
       "tags": ["closed", "vowel_team"],
       "hearts": [0, 0, 0],
-      "hint": "單音節閉音節；oo 對應 /ʊ/。"
+      "hint": "單音節閉音節；oo 對應 /ʊ/。",
+      "audio": "audio/food-5/cook.mp3"
     },
     {
       "number": "🍽 服務生",
