@@ -53,7 +53,8 @@
       "phonics": ["/k", "oo", "k/"],
       "tags": ["vowel_team"],
       "hearts": [0, 0, 0],
-      "hint": "oo 在此發 /oo/（book 音 /ʊ/）。"
+      "hint": "oo 在此發 /oo/（book 音 /ʊ/）。",
+       "audio": "audio/food-5/cook.mp3"
     },
     {
       "number": "💃 跳舞",
