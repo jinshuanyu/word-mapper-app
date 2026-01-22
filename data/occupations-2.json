@@ -96,7 +96,7 @@
       "graphemes": ["a", "ss", "i", "s", "t", "a", "n", "t"],
       "phonemes": ["/ə", "'s", "ɪ", "s", "t", "ə", "n", "t/"],
       "phonics": ["/ə", "'s", "ĭ", "s", "t", "ə", "n", "t/"],
-      "tags": ["closed", "floss", "suffix"],
+      "tags": ["closed",  "suffix"],
       "hearts": [0, 1, 0, 0, 0, 0, 0, 0],
       "hint": "重音在 -sist（閉音節）；ss 為 floss；-ant 字尾。"
     },
@@ -140,7 +140,7 @@
       "graphemes": ["m", "ai", "l", " ", "c", "a", "rr", "i", "er"],
       "phonemes": ["/'m", "eɪ", "l", " ", "'k", "æ", "r", "i", "ɚ/"],
       "phonics": ["/'m", "ā", "l", " ", "'k", "ă", "r", "ē", "er/"],
-      "tags": ["suffix", "vowel_team"],
+      "tags": [ "vowel_team"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "兩個主重音；mail 有 ai；carr- 閉音節；-er 字尾。"
     },
@@ -174,7 +174,7 @@
       "phonemes": ["/'n", "ɝ", "s", "-/"],
       "phonics": ["/'n", "er", "s", "-/"],
       "tags": ["rcontrolled"],
-      "hearts": [0, 0, 0, 0],
+      "hearts": [0, 0, 0, 1],
       "hint": "單音節；ur 對應 /ɝ/；字尾 e 不發音。"
     },
     {
