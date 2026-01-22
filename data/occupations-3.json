@@ -18,7 +18,7 @@
       "graphemes": ["b", "u", "si", "n", "e", "ss", "m", "a", "n"],
       "phonemes": ["/'b", "ɪ", "z", "n", "ə", "s", "m", "æ", "n/"],
       "phonics": ["/'b", "ĭ", "z", "n", "ə", "s", "m", "ă", "n/"],
-      "tags": ["closed", "floss", "irregular"],
+      "tags": ["irregular", "floss"],
       "hearts": [0, 1, 1, 0, 0, 0, 0, 0, 0],
       "hint": "重音在 busi-；u、si 發音不規則（需記）。"
     },
@@ -29,7 +29,7 @@
       "graphemes": ["b", "u", "si", "n", "e", "ss", "w", "o", "m", "a", "n"],
       "phonemes": ["/'b", "ɪ", "z", "n", "ə", "s", "w", "ʊ", "m", "ə", "n/"],
       "phonics": ["/'b", "ĭ", "z", "n", "ə", "s", "w", "oo", "m", "ə", "n/"],
-      "tags": ["closed", "floss", "irregular"],
+      "tags": ["irregular", "floss"],
       "hearts": [0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0],
       "hint": "重音在 busi-；u、si、woman 的 o 不規則。"
     },
@@ -38,10 +38,10 @@
       "word": "manager",
       "ipa": "/ˈmænɪdʒɚ/",
       "graphemes": ["m", "a", "n", "a", "g", "er"],
-      "phonemes": ["/'m", "æ", "n", "ɪ", "dʒ", "ɚ/"],
-      "phonics": ["/'m", "ă", "n", "ĭ", "-j", "er/"],
-      "tags": ["closed", "irregular", "suffix"],
-      "hearts": [0, 0, 0, 0, 1, 0],
+      "phonemes": ["/'m", "æ", "n", "ə", "dʒ", "ɚ/"],
+      "phonics": ["/'m", "ă", "n", "ə", "-j", "er/"],
+      "tags": ["closed",  "suffix"],
+      "hearts": [0, 0, 0, 0, 0, 0],
       "hint": "重音在 man-；g 發 /dʒ/（需記）；-er 字尾。"
     },
     {
@@ -62,7 +62,7 @@
       "graphemes": ["s", "a", "l", "e", "s", "m", "a", "n"],
       "phonemes": ["/'s", "eɪ", "l", "-", "z", "m", "ə", "n/"],
       "phonics": ["/'s", "ā", "l", "-", "z", "m", "ə", "n/"],
-      "tags": ["irregular", "magic_e"],
+      "tags": [ "magic_e"],
       "hearts": [0, 0, 0, 0, 1, 0, 0, 0],
       "hint": "重音在 sale-；a_e 對應 /eɪ/；s 發 /z/（需記）。"
     },
@@ -73,7 +73,7 @@
       "graphemes": ["ow", "n", "er"],
       "phonemes": ["/'oʊ", "n", "ɚ/"],
       "phonics": ["/'ō", "n", "er/"],
-      "tags": ["suffix", "vowel_team"],
+      "tags": [ "vowel_team","suffix"],
       "hearts": [0, 0, 0],
       "hint": "重音在 own-；ow 對應 /oʊ/；-er 字尾。"
     },
@@ -84,8 +84,8 @@
       "graphemes": ["c", "o", "m", "p", "a", "n", "y"],
       "phonemes": ["/'k", "ʌ", "m", "p", "ə", "n", "i/"],
       "phonics": ["/'k", "ŭ", "m", "p", "ə", "n", "ē/"],
-      "tags": ["closed"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0],
+      "tags": ["irregular"],
+      "hearts": [0, 1, 0, 0, 0, 0, 0],
       "hint": "重音在 com-（閉音節）；y 字尾 /i/。"
     },
     {
@@ -95,7 +95,7 @@
       "graphemes": ["b", "u", "si", "n", "e", "ss"],
       "phonemes": ["/'b", "ɪ", "z", "n", "ə", "s/"],
       "phonics": ["/'b", "ĭ", "z", "n", "ə", "s/"],
-      "tags": ["closed", "floss", "irregular"],
+      "tags": [ "irregular", "floss"],
       "hearts": [0, 1, 1, 0, 0, 0],
       "hint": "重音在 busi-；u、si 發音不規則（需記）。"
     },
@@ -127,7 +127,7 @@
       "ipa": "/dʒɑb/",
       "graphemes": ["j", "o", "b"],
       "phonemes": ["/'dʒ", "ɑ", "b/"],
-      "phonics": ["/'j", "ŏ", "b/"],
+      "phonics": ["/'-j", "ŏ", "b/"],
       "tags": ["closed"],
       "hearts": [0, 0, 0],
       "hint": "單音節閉音節；j 對應 /dʒ/。"
@@ -139,7 +139,7 @@
       "graphemes": ["w", "or", "k"],
       "phonemes": ["/'w", "ɝ", "k/"],
       "phonics": ["/'w", "er", "k/"],
-      "tags": ["irregular", "rcontrolled"],
+      "tags": ["irregular"],
       "hearts": [0, 1, 0],
       "hint": "單音節；or 在此對應 /ɝ/（需記）。"
     },
@@ -150,7 +150,7 @@
       "graphemes": ["m", "ee", "t", "i", "ng"],
       "phonemes": ["/'m", "i", "t", "ɪ", "ŋ/"],
       "phonics": ["/'m", "ē", "t", "ĭ", "ŋ/"],
-      "tags": ["digraph", "vowel_team"],
+      "tags": ["vowel_team","digraph", "suffix"],
       "hearts": [0, 0, 0, 0, 0],
       "hint": "重音在 mee-；ee 對應 /i/；ng 對應 /ŋ/。"
     },
@@ -158,11 +158,11 @@
       "number": "🏢 辦公室",
       "word": "office",
       "ipa": "/ˈɔfɪs/",
-      "graphemes": ["o", "ff", "i", "c", "e"],
-      "phonemes": ["/'ɔ", "f", "ɪ", "s", "-/"],
-      "phonics": ["/'aw", "f", "ĭ", "s", "-/"],
-      "tags": ["closed", "floss"],
-      "hearts": [0, 0, 0, 0, 0],
+      "graphemes": ["o", "ff", "i", "ce"],
+      "phonemes": ["/'ɔ", "f", "ɪ", "s/"],
+      "phonics": ["/'aw", "f", "ĭ", "s/"],
+      "tags": [],
+      "hearts": [0, 1, 0, 0, 0],
       "hint": "重音在 of-（閉音節）；c 在 e 前發 /s/。"
     },
     {
@@ -183,7 +183,7 @@
       "graphemes": ["w", "or", "k", "er"],
       "phonemes": ["/'w", "ɝ", "k", "ɚ/"],
       "phonics": ["/'w", "er", "k", "er/"],
-      "tags": ["irregular", "rcontrolled", "suffix"],
+      "tags": ["irregular",  "suffix"],
       "hearts": [0, 1, 0, 0],
       "hint": "重音在 wor-；or 對應 /ɝ/（需記）；-er 字尾。"
     }
