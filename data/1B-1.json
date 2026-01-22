@@ -98,7 +98,8 @@
       "phonics": ["/k", "oo", "k/"],
       "tags": ["vowel_team"],
       "hearts": [0, 0, 0],
-      "hint": "單音節；oo 對應 /ʊ/；字尾無聲子音加 -ed 發 /t/。"
+      "hint": "單音節；oo 對應 /ʊ/；字尾無聲子音加 -ed 發 /t/。",
+       "audio": "audio/food-5/cook.mp3"
     },
 
 
