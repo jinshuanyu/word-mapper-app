@@ -313,8 +313,8 @@
       "word": "hear",
       "ipa": "/ˈhɪr/",
       "graphemes": ["h", "ear"],
-      "phonemes": ["/'h", "ɪr/"],
-      "phonics": ["/'h", "ir/"],
+      "phonemes": ["/'h", "ɪ","r/"],
+      "phonics": ["/'h", "ĭ","r/"],
       "tags": ["rcontrolled"],
       "hearts": [0, 0],
       "hint": "ear 在此發 /ir/。"
