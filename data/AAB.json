@@ -3,24 +3,24 @@
     {
       "number": "打敗（原形/過去式）",
       "word": "beat",
-      "ipa": "ˈbiːt",
+      "ipa": "/ˈbit/",
       "graphemes": ["b", "ea", "t"],
-      "phonemes": ["/'b", "iː", "t"],
-      "phonics": ["b", "ē", "t"],
+      "phonemes": ["/'b", "i", "t/"],
+      "phonics": ["/'b", "ē", "t/"],
       "tags": ["vowel_team"],
       "hearts": [0, 0, 0],
-      "hint": "ea 發長音 ē"
+      "hint": "ea 發長音 /ē/。"
     },
     {
       "number": "打敗（過去分詞）",
       "word": "beaten",
-      "ipa": "ˈbiːtən",
+      "ipa": "/ˈbitən/",
       "graphemes": ["b", "ea", "t", "e", "n"],
-      "phonemes": ["/'b", "iː", "t", "ə", "n"],
-      "phonics": ["b", "ē", "t", "ə", "n"],
+      "phonemes": ["/'b", "i", "t", "ə", "n/"],
+      "phonics": ["/'b", "ē", "t", "ə", "n/"],
       "tags": ["vowel_team"],
       "hearts": [0, 0, 0, 0, 0],
-      "hint": "ea 發長音 ē；第二個 e 發 schwa"
+      "hint": "ea 發長音 /ē/；字尾 en 發 /ən/。"
     }
   ]
 }
