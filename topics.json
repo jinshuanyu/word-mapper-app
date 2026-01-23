@@ -512,7 +512,7 @@
         },
         {
           "label": "情感與態度",
-          "src": "data/adjs-5.json"
+          "src": "data/adjs-6.json"
         }
       ]
     },
@@ -654,3 +654,4 @@
     }
   ]
 }
+
