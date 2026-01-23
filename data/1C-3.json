@@ -251,7 +251,8 @@
       "phonics": ["/l", "ĭ", "v", "-/"],
       "tags": ["closed"],
       "hearts": [0, 0, 0, 0],
-      "hint": "單音節閉音節；e 不發音；字尾有聲子音加 -ed 發 /d/。"
+      "hint": "單音節閉音節；e 不發音；字尾有聲子音加 -ed 發 /d/。",
+      "audio":"audio/family-friends-1/live.mp3"
     },
     {
       "number": "❤️ 愛",
