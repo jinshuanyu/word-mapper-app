@@ -1,6 +1,28 @@
 {
   "items": [
     {
+      "number": "⬆️ 舉起",
+      "word": "lift",
+      "ipa": "/lɪft/",
+      "graphemes": ["l", "i", "f", "t"],
+      "phonemes": ["/l", "ɪ", "f", "t/"],
+      "phonics": ["/l", "ĭ", "f", "t/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "單音節閉音節；字尾 t 加 -ed 發 /ɪd/。"
+    },
+    {
+      "number": "📋 列出",
+      "word": "list",
+      "ipa": "/lɪst/",
+      "graphemes": ["l", "i", "s", "t"],
+      "phonemes": ["/l", "ɪ", "s", "t/"],
+      "phonics": ["/l", "ĭ", "s", "t/"],
+      "tags": ["closed"],
+      "hearts": [0, 0, 0, 0],
+      "hint": "單音節閉音節；字尾 t 加 -ed 發 /ɪd/。"
+    },
+    {
       "number": "🔍 需要",
       "word": "need",
       "ipa": "/nid/",
