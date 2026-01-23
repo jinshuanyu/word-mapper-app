@@ -4,23 +4,23 @@
       "number": "🚗 意外",
       "word": "accident",
       "ipa": "/ˈæksɪdənt/",
-      "graphemes": ["a", "c", "c", "i", "d", "e", "nt"],
-      "phonemes": ["/'æ", "k", "s", "ɪ", "d", "ə", "nt/"],
-      "phonics": ["/'ă", "k", "s", "ĭ", "d", "ə", "nt/"],
+      "graphemes": ["a", "c", "c", "i", "d", "e", "n", "t"],
+      "phonemes": ["/'æ", "k", "s", "ɪ", "d", "ə", "n", "t/"],
+      "phonics": ["/'ă", "k", "s", "ĭ", "d", "ə", "n", "t/"],
       "tags": ["closed"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0],
-      "hint": "重音在 ac-；第一音節閉音節短母音。"
+      "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
+      "hint": "重音在 ac-（閉音節）；a 發短音 /ă/；c 發 /k/ 和 /s/。"
     },
     {
       "number": "🎬 行動",
       "word": "action",
       "ipa": "/ˈækʃən/",
-      "graphemes": ["a", "c", "ti", "o", "n"],
-      "phonemes": ["/'æ", "k", "ʃ", "ə", "n/"],
-      "phonics": ["/'ă", "k", "sh", "ə", "n/"],
-      "tags": ["closed", "suffix"],
-      "hearts": [0, 0, 0, 0, 0],
-      "hint": "重音在 ac-；ti 對應 /ʃ/；-tion 字尾。"
+      "graphemes": ["a", "c", "tion"],
+      "phonemes": ["/'æ", "k", "ʃən/"],
+      "phonics": ["/'ă", "k", "shən/"],
+      "tags": ["closed", "digraph", "irregular"],
+      "hearts": [0, 0, 1],
+      "hint": "重音在 ac-（閉音節）；a 發短音 /ă/；tion 對應 /ʃən/（需記）。"
     },
     {
       "number": "🏃 活動",
@@ -29,20 +29,20 @@
       "graphemes": ["a", "c", "t", "i", "v", "i", "t", "y"],
       "phonemes": ["/æ", "k", "'t", "ɪ", "v", "ə", "t", "i/"],
       "phonics": ["/ă", "k", "'t", "ĭ", "v", "ə", "t", "ē/"],
-      "tags": ["closed", "suffix"],
+      "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
-      "hint": "重音在 -tiv-；兩個閉音節；-ity 字尾。"
+      "hint": "重音在 -tiv-（閉音節）；i 發短音 /ĭ/；y 發 /ē/。"
     },
     {
       "number": "📢 廣告",
       "word": "advertisement",
       "ipa": "/ædˈvɜrtɪzmənt/",
-      "graphemes": ["a", "d", "v", "er", "t", "i", "s", "e", "m", "e", "nt"],
-      "phonemes": ["/æ", "d", "v", "ɝ", "'t", "aɪ", "z", "-", "m", "ə", "nt/"],
-      "phonics": ["/ă", "d", "v", "er", "'t", "ī", "z", "-", "m", "ə", "nt/"],
-      "tags": ["closed", "rcontrolled", "irregular", "suffix"],
-      "hearts": [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
-      "hint": "重音在 -tise-；er 在重音前 r-controlled；i 在閉音節位置但發長音 /aɪ/（irregular）；-ment 字尾。"
+      "graphemes": ["a", "d", "v", "er", "t", "i", "s", "e", "m", "e", "n", "t"],
+      "phonemes": ["/æ", "d", "v", "ɝ", "'t", "aɪ", "z", "-", "m", "ə", "n", "t/"],
+      "phonics": ["/ă", "d", "v", "er", "'t", "ī", "z", "-", "m", "ə", "n", "t/"],
+      "tags": ["closed", "irregular", "rcontrolled"],
+      "hearts": [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
+      "hint": "重音在 -tise-；er 為 r-controlled；i 在此發長音 /ī/（需記）。"
     },
     {
       "number": "💡 建議",
@@ -53,29 +53,29 @@
       "phonics": ["/ə", "d", "'v", "ī", "s", "-/"],
       "tags": ["magic_e"],
       "hearts": [0, 0, 0, 0, 0, 0],
-      "hint": "重音在 -vice；i_e 對應 /aɪ/。"
+      "hint": "重音在 -vice；i_e 對應 /ī/。"
     },
     {
       "number": "🎯 目標",
       "word": "aim",
       "ipa": "/eɪm/",
       "graphemes": ["ai", "m"],
-      "phonemes": ["/eɪ", "m/"],
-      "phonics": ["/ā", "m/"],
+      "phonemes": ["/'eɪ", "m/"],
+      "phonics": ["/'ā", "m/"],
       "tags": ["vowel_team"],
       "hearts": [0, 0],
-      "hint": "單音節；ai 對應 /eɪ/。"
+      "hint": "單音節；ai 對應 /ā/。"
     },
     {
       "number": "👀 注意",
       "word": "attention",
       "ipa": "/əˈtɛnʃən/",
-      "graphemes": ["a", "tt", "e", "n", "ti", "o", "n"],
-      "phonemes": ["/ə", "'t", "ɛ", "n", "ʃ", "ə", "n/"],
-      "phonics": ["/ə", "'t", "ĕ", "n", "sh", "ə", "n/"],
-      "tags": ["closed", "suffix"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0],
-      "hint": "重音在 -ten-；閉音節短母音；-tion 字尾。"
+      "graphemes": ["a", "tt", "e", "n", "tion"],
+      "phonemes": ["/ə", "'t", "ɛ", "n", "ʃən/"],
+      "phonics": ["/ə", "'t", "ĕ", "n", "shən/"],
+      "tags": ["closed", "digraph", "floss", "irregular"],
+      "hearts": [0, 0, 0, 0, 1],
+      "hint": "重音在 -ten-（閉音節）；e 發短音 /ĕ/；tt 為 floss；tion 對應 /ʃən/（需記）。"
     },
     {
       "number": "🌅 開始",
@@ -83,32 +83,32 @@
       "ipa": "/bɪˈgɪnɪŋ/",
       "graphemes": ["b", "e", "g", "i", "nn", "i", "ng"],
       "phonemes": ["/b", "ɪ", "'g", "ɪ", "n", "ɪ", "ŋ/"],
-      "phonics": ["/b", "ĭ", "'g", "ĭ", "n", "ĭ", "ng/"],
-      "tags": ["closed", "digraph", "suffix"],
+      "phonics": ["/b", "ĭ", "'g", "ĭ", "n", "ĭ", "ŋ/"],
+      "tags": ["closed", "digraph", "floss"],
       "hearts": [0, 0, 0, 0, 0, 0, 0],
-      "hint": "重音在 -gin-；三個閉音節；ng 為 digraph；-ing 字尾。"
+      "hint": "重音在 -gin-（閉音節）；三個閉音節；nn 為 floss；ng 為 digraph。"
     },
     {
       "number": "🎲 機會",
       "word": "chance",
       "ipa": "/tʃæns/",
       "graphemes": ["ch", "a", "n", "ce"],
-      "phonemes": ["/tʃ", "æ", "n", "s/"],
-      "phonics": ["/ch", "ă", "n", "s/"],
-      "tags": ["digraph", "closed"],
-      "hearts": [0, 0, 0, 0],
-      "hint": "單音節；ch 為 digraph；閉音節短母音。"
+      "phonemes": ["/'tʃ", "æ", "n", "s/"],
+      "phonics": ["/'ch", "ă", "n", "s/"],
+      "tags": ["closed", "digraph"],
+      "hearts": [0, 0, 0, 1],
+      "hint": "單音節閉音節；ch 為 digraph；a 發短音 /ă/。"
     },
     {
       "number": "📢 命令",
       "word": "command",
       "ipa": "/kəˈmænd/",
-      "graphemes": ["c", "o", "mm", "a", "nd"],
-      "phonemes": ["/k", "ə", "'m", "æ", "nd/"],
-      "phonics": ["/k", "ə", "'m", "ă", "nd/"],
-      "tags": ["closed"],
-      "hearts": [0, 0, 0, 0, 0],
-      "hint": "重音在 -mand；第二音節閉音節短母音。"
+      "graphemes": ["c", "o", "mm", "a", "n", "d"],
+      "phonemes": ["/k", "ə", "'m", "æ", "n", "d/"],
+      "phonics": ["/k", "ə", "'m", "ă", "n", "d/"],
+      "tags": ["closed", "floss"],
+      "hearts": [0, 0, 0, 0, 0, 0],
+      "hint": "重音在 -mand（閉音節）；o 弱化為 /ə/；a 發短音 /ă/；mm 為 floss。"
     },
     {
       "number": "🗣️ 辯論",
@@ -117,31 +117,31 @@
       "graphemes": ["d", "e", "b", "a", "t", "e"],
       "phonemes": ["/d", "ɪ", "'b", "eɪ", "t", "-/"],
       "phonics": ["/d", "ĭ", "'b", "ā", "t", "-/"],
-      "tags": ["closed", "magic_e"],
+      "tags": ["magic_e"],
       "hearts": [0, 0, 0, 0, 0, 0],
-      "hint": "重音在 -bate；第一音節閉音節；a_e 對應 /eɪ/。"
+      "hint": "重音在 -bate；第一音節 e 發短音 /ĭ/；a_e 對應 /ā/。"
     },
     {
       "number": "🤔 決定",
       "word": "decision",
       "ipa": "/dɪˈsɪʒən/",
-      "graphemes": ["d", "e", "c", "i", "si", "o", "n"],
-      "phonemes": ["/d", "ɪ", "'s", "ɪ", "ʒ", "ə", "n/"],
-      "phonics": ["/d", "ĭ", "'s", "ĭ", "zh", "ə", "n/"],
-      "tags": ["closed", "suffix"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0],
-      "hint": "重音在 -ci-；兩個閉音節；si 對應 /ʒ/；-sion 字尾。"
+      "graphemes": ["d", "e", "c", "i", "si","o","n"],
+      "phonemes": ["/d", "ɪ", "'s", "ɪ", "ʒ","ə","n/"],
+      "phonics": ["/d", "ĭ", "'s", "ĭ", "zh","ə","n/"],
+      "tags": ["closed", "digraph", "irregular"],
+      "hearts": [0, 0, 0, 1, 0],
+      "hint": "重音在 -ci-（閉音節）；兩個短母音 /ĭ/；sion 對應 /ʒən/（需記）。"
     },
     {
       "number": "💭 渴望",
       "word": "desire",
       "ipa": "/dɪˈzaɪr/",
-      "graphemes": ["d", "e", "s", "i", "re"],
-      "phonemes": ["/d", "ɪ", "'z", "aɪ", "ɚ/"],
-      "phonics": ["/d", "ĭ", "'z", "ī", "r/"],
-      "tags": ["closed", "magic_e", "rcontrolled"],
-      "hearts": [0, 0, 0, 0, 0],
-      "hint": "重音在 -sire；第一音節閉音節；i_e 對應 /aɪ/；re 在重音音節 r-controlled。"
+      "graphemes": ["d", "e", "s", "i", "r", "e"],
+      "phonemes": ["/d", "ɪ", "'z", "aɪ", "r", "-/"],
+      "phonics": ["/d", "ĭ", "'z", "ī", "r", "-/"],
+      "tags": ["closed", "magic_e"],
+      "hearts": [0, 0, 0, 0, 0, 0],
+      "hint": "重音在 -sire；第一音節 e 發短音 /ĭ/；i_e 對應 /ī/。"
     },
     {
       "number": "📋 責任",
@@ -150,9 +150,9 @@
       "graphemes": ["d", "u", "t", "y"],
       "phonemes": ["/'d", "u", "t", "i/"],
       "phonics": ["/'d", "ū", "t", "ē/"],
-      "tags": ["open", "suffix"],
+      "tags": ["open"],
       "hearts": [0, 0, 0, 0],
-      "hint": "重音在 du-；開音節長母音；-y 字尾發 /i/。"
+      "hint": "重音在 du-（開音節）；u 發長音 /ū/；y 發 /ē/。"
     },
     {
       "number": "💪 努力",
@@ -160,21 +160,21 @@
       "ipa": "/ˈɛfɚt/",
       "graphemes": ["e", "ff", "or", "t"],
       "phonemes": ["/'ɛ", "f", "ɚ", "t/"],
-      "phonics": ["/'ĕ", "f", "or", "t/"],
+      "phonics": ["/'ĕ", "f", "er", "t/"],
       "tags": ["closed", "floss", "rcontrolled"],
       "hearts": [0, 0, 0, 0],
-      "hint": "重音在 ef-；閉音節短母音；ff 為 floss；or 在重音音節 r-controlled。"
+      "hint": "重音在 ef-（閉音節）；e 發短音 /ĕ/；ff 為 floss；or 為 r-controlled。"
     },
     {
       "number": "🎪 事件",
       "word": "event",
       "ipa": "/ɪˈvɛnt/",
-      "graphemes": ["e", "v", "e", "nt"],
-      "phonemes": ["/ɪ", "'v", "ɛ", "nt/"],
-      "phonics": ["/ĭ", "'v", "ĕ", "nt/"],
+      "graphemes": ["e", "v", "e", "n", "t"],
+      "phonemes": ["/ɪ", "'v", "ɛ", "n", "t/"],
+      "phonics": ["/ĭ", "'v", "ĕ", "n", "t/"],
       "tags": ["closed"],
-      "hearts": [0, 0, 0, 0],
-      "hint": "重音在 -vent；兩個閉音節短母音。"
+      "hearts": [0, 0, 0, 0, 0],
+      "hint": "重音在 -vent（閉音節）；兩個短母音。"
     },
     {
       "number": "🚪 出口",
@@ -185,18 +185,18 @@
       "phonics": ["/'ĕ", "gz", "ĭ", "t/"],
       "tags": ["closed"],
       "hearts": [0, 0, 0, 0],
-      "hint": "重音在 ex-；兩個閉音節；x 對應 /gz/。"
+      "hint": "重音在 ex-（閉音節）；兩個短母音；x 對應 /gz/。"
     },
     {
       "number": "🤲 手勢",
       "word": "gesture",
       "ipa": "/ˈdʒɛstʃɚ/",
-      "graphemes": ["g", "e", "s", "t", "u", "re"],
-      "phonemes": ["/'dʒ", "ɛ", "s", "tʃ", "ɚ/"],
-      "phonics": ["/'j", "ĕ", "s", "ch", "r/"],
-      "tags": ["closed", "digraph", "rcontrolled", "suffix"],
-      "hearts": [0, 0, 0, 0, 0, 0],
-      "hint": "重音在 ges-；閉音節；ture 對應 /tʃɚ/（digraph + r-controlled）；-ure 字尾。"
+      "graphemes": ["g", "e", "s", "t", "u", "r", "e"],
+      "phonemes": ["/'dʒ", "ɛ", "s", "tʃ", "ə", "r", "-/"],
+      "phonics": ["/'j", "ĕ", "s", "ch", "ə", "r", "-/"],
+      "tags": ["closed", "digraph"],
+      "hearts": [0, 0, 0, 0, 0, 0, 0],
+      "hint": "重音在 ges-（閉音節）；g 對應 /dʒ/；e 發短音 /ĕ/；t+u 變成 /tʃ/。"
     },
     {
       "number": "🔄 習慣",
@@ -207,40 +207,40 @@
       "phonics": ["/'h", "ă", "b", "ĭ", "t/"],
       "tags": ["closed"],
       "hearts": [0, 0, 0, 0, 0],
-      "hint": "重音在 ha-；兩個閉音節短母音。"
+      "hint": "重音在 ha-（閉音節）；兩個短母音。"
     },
     {
       "number": "💌 邀請",
       "word": "invitation",
       "ipa": "/ɪnvəˈteɪʃən/",
-      "graphemes": ["i", "n", "v", "i", "t", "a", "ti", "o", "n"],
-      "phonemes": ["/ɪ", "n", "v", "ə", "'t", "eɪ", "ʃ", "ə", "n/"],
-      "phonics": ["/ĭ", "n", "v", "ə", "'t", "ā", "sh", "ə", "n/"],
-      "tags": ["closed", "open", "suffix"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0, 0, 0],
-      "hint": "重音在 -ta-；第一音節閉音節；ta 開音節長母音；-tion 字尾。"
+      "graphemes": ["i", "n", "v", "i", "t", "a", "tion"],
+      "phonemes": ["/ɪ", "n", "v", "ə", "'t", "eɪ", "ʃən/"],
+      "phonics": ["/ĭ", "n", "v", "ə", "'t", "ā", "shən/"],
+      "tags": ["closed", "digraph", "irregular", "open"],
+      "hearts": [0, 0, 0, 0, 0, 0, 1],
+      "hint": "重音在 -ta-（開音節）；第一音節 i 發短音 /ĭ/；a 發長音 /ā/；tion 對應 /ʃən/（需記）。"
     },
     {
       "number": "🌊 動作",
       "word": "motion",
       "ipa": "/ˈmoʊʃən/",
-      "graphemes": ["m", "o", "ti", "o", "n"],
-      "phonemes": ["/'m", "oʊ", "ʃ", "ə", "n/"],
-      "phonics": ["/'m", "ō", "sh", "ə", "n/"],
-      "tags": ["open", "suffix"],
-      "hearts": [0, 0, 0, 0, 0],
-      "hint": "重音在 mo-；開音節長母音；-tion 字尾。"
+      "graphemes": ["m", "o", "tion"],
+      "phonemes": ["/'m", "oʊ", "ʃən/"],
+      "phonics": ["/'m", "ō", "shən/"],
+      "tags": ["digraph", "irregular", "open"],
+      "hearts": [0, 0, 1],
+      "hint": "重音在 mo-（開音節）；o 發長音 /ō/；tion 對應 /ʃən/（需記）。"
     },
     {
       "number": "⚙️ 操作",
       "word": "operation",
       "ipa": "/ɑpəˈreɪʃən/",
-      "graphemes": ["o", "p", "e", "r", "a", "ti", "o", "n"],
-      "phonemes": ["/ɑ", "p", "ə", "'r", "eɪ", "ʃ", "ə", "n/"],
-      "phonics": ["/ŏ", "p", "ə", "'r", "ā", "sh", "ə", "n/"],
-      "tags": ["closed", "open", "suffix"],
-      "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
-      "hint": "重音在 -ra-；第一音節閉音節；ra 開音節長母音；-tion 字尾。"
+      "graphemes": ["o", "p", "e", "r", "a", "tion"],
+      "phonemes": ["/ɑ", "p", "ə", "'r", "eɪ", "ʃən/"],
+      "phonics": ["/ŏ", "p", "ə", "'r", "ā", "shən/"],
+      "tags": ["closed", "digraph", "irregular", "open"],
+      "hearts": [0, 0, 0, 0, 0, 1],
+      "hint": "重音在 -ra-（開音節）；第一音節 o 發短音 /ŏ/；a 發長音 /ā/；tion 對應 /ʃən/（需記）。"
     },
     {
       "number": "📈 進步",
@@ -249,9 +249,9 @@
       "graphemes": ["p", "r", "o", "g", "r", "e", "ss"],
       "phonemes": ["/'p", "r", "ɑ", "g", "r", "ɛ", "s/"],
       "phonics": ["/'p", "r", "ŏ", "g", "r", "ĕ", "s/"],
-      "tags": ["cluster", "closed", "floss"],
+      "tags": ["closed", "cluster", "floss"],
       "hearts": [0, 0, 0, 0, 0, 0, 0],
-      "hint": "重音在 pro-（名詞）；pr 和 gr 為 cluster；兩個閉音節；ss 為 floss。"
+      "hint": "重音在 pro-（閉音節）；pr 和 gr 為 cluster；兩個短母音；ss 為 floss。"
     },
     {
       "number": "🎯 目的",
@@ -259,32 +259,32 @@
       "ipa": "/ˈpɝpəs/",
       "graphemes": ["p", "ur", "p", "o", "s", "e"],
       "phonemes": ["/'p", "ɝ", "p", "ə", "s", "-/"],
-      "phonics": ["/'p", "ur", "p", "ə", "s", "-/"],
+      "phonics": ["/'p", "er", "p", "ə", "s", "-/"],
       "tags": ["rcontrolled"],
       "hearts": [0, 0, 0, 0, 0, 0],
-      "hint": "重音在 pur-；ur 在重音音節 r-controlled。"
+      "hint": "重音在 pur-；ur 為 r-controlled；o 弱化為 /ə/。"
     },
     {
       "number": "🤝 交易",
       "word": "trade",
       "ipa": "/treɪd/",
       "graphemes": ["t", "r", "a", "d", "e"],
-      "phonemes": ["/t", "r", "eɪ", "d", "-/"],
-      "phonics": ["/t", "r", "ā", "d", "-/"],
+      "phonemes": ["/'t", "r", "eɪ", "d", "-/"],
+      "phonics": ["/'t", "r", "ā", "d", "-/"],
       "tags": ["cluster", "magic_e"],
       "hearts": [0, 0, 0, 0, 0],
-      "hint": "單音節；tr 為 cluster；a_e 對應 /eɪ/。"
+      "hint": "單音節；tr 為 cluster；a_e 對應 /ā/。"
     },
     {
       "number": "🎩 詭計",
       "word": "trick",
       "ipa": "/trɪk/",
       "graphemes": ["t", "r", "i", "ck"],
-      "phonemes": ["/t", "r", "ɪ", "k/"],
-      "phonics": ["/t", "r", "ĭ", "ck/"],
-      "tags": ["cluster", "closed", "digraph"],
+      "phonemes": ["/'t", "r", "ɪ", "k/"],
+      "phonics": ["/'t", "r", "ĭ", "k/"],
+      "tags": ["closed", "cluster", "digraph"],
       "hearts": [0, 0, 0, 0],
-      "hint": "單音節；tr 為 cluster；閉音節短母音；ck 為 digraph。"
+      "hint": "單音節閉音節；tr 為 cluster；i 發短音 /ĭ/；ck 為 digraph。"
     }
   ]
 }
