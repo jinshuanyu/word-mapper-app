@@ -225,8 +225,8 @@
       "word": "understand",
       "ipa": "/ʌndərˈstænd/",
       "graphemes": ["u", "n", "d", "er", "st", "a", "n", "d"],
-      "phonemes": ["/ʌ", "n", "d", "ər", "'st", "æ", "n", "d/"],
-      "phonics": ["/ŭ", "n", "d", "ər", "'st", "ă", "n", "d/"],
+      "phonemes": ["/ʌ", "n", "d", "ɚ", "'st", "æ", "n", "d/"],
+      "phonics": ["/ŭ", "n", "d", "er", "'st", "ă", "n", "d/"],
       "tags": ["closed", "cluster"],
       "hearts": [0, 0, 0, 0, 0, 0, 0, 0],
       "hint": "第一音節 u 發 ŭ;er 發 ər;st 是 cluster;a 發短音 ă"
@@ -236,8 +236,8 @@
       "word": "understood",
       "ipa": "/ʌndərˈstʊd/",
       "graphemes": ["u", "n", "d", "er", "st", "oo", "d"],
-      "phonemes": ["/ʌ", "n", "d", "ər", "'st", "ʊ", "d/"],
-      "phonics": ["/ŭ", "n", "d", "ər", "'st", "oo", "d/"],
+      "phonemes": ["/ʌ", "n", "d", "ɚ", "'st", "ʊ", "d/"],
+      "phonics": ["/ŭ", "n", "d", "er", "'st", "oo", "d/"],
       "tags": ["cluster", "vowel_team"],
       "hearts": [0, 0, 0, 0, 0, 0, 0],
       "hint": "第一音節 u 發 ŭ;er 發 ər;st 是 cluster;oo 發 oo"
